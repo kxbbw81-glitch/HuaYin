@@ -1,10 +1,12 @@
 // ==========================================
 // PromptHub Extension v2 - Popup Script
-// 扫描页面 / 收藏队列 / 同步到网站
+// 扫描页面 / 收藏队列 / GitHub 主站验证
 // ==========================================
 
 const GITHUB_PAGES_URL = 'https://kxbbw81-glitch.github.io/PromptHub-/';
 const WEBSITE_URL = GITHUB_PAGES_URL;
+const VERIFICATION_STALE_MS = 45000;
+const MAIN_MERGE_STALE_MS = 5 * 60 * 1000;
 
 function $(s) { return document.querySelector(s); }
 
@@ -22,6 +24,15 @@ async function getQueue() {
   return Array.isArray(result?.queue) ? result.queue : [];
 }
 
+async function getCollectionFeedback() {
+  return chrome.runtime.sendMessage({ action: 'getCollectionFeedback' });
+}
+
+async function getCollectionReceipt(id) {
+  const result = await chrome.runtime.sendMessage({ action: 'getCollectionReceipt', id });
+  return result?.receipt || null;
+}
+
 async function addToQueue(item) {
   const result = await chrome.runtime.sendMessage({
     action: 'addToQueue',
@@ -29,6 +40,17 @@ async function addToQueue(item) {
   });
   if (!result?.success) {
     return { success: false, error: result?.error || '收藏失败，请稍后重试' };
+  }
+  return result;
+}
+
+async function addItemsToQueue(items) {
+  const result = await chrome.runtime.sendMessage({
+    action: 'addItemsToQueue',
+    data: items
+  });
+  if (!result?.success) {
+    return { success: false, error: result?.error || '批量收藏失败，请稍后重试' };
   }
   return result;
 }
@@ -42,7 +64,7 @@ async function clearQueue() {
 }
 
 async function updateQueueUI() {
-  const queue = await getQueue();
+  const [queue, feedback] = await Promise.all([getQueue(), getCollectionFeedback()]);
   const bar = $('#queue-bar');
   const num = $('#queue-num');
   const hq = $('#header-queue');
@@ -56,6 +78,196 @@ async function updateQueueUI() {
     bar.style.display = 'none';
     hq.style.display = 'none';
   }
+  renderVerificationStatus(feedback, queue.length);
+  renderSyncTasks(feedback?.receipts || []);
+}
+
+const TASK_STATE_LABELS = {
+  queued: '待上传',
+  syncing: '上传中',
+  submitted: '已提交',
+  verified: '主站已确认',
+  failed: '上传失败'
+};
+
+function formatTaskTime(value) {
+  const date = new Date(value || 0);
+  if (!Number.isFinite(date.getTime())) return '';
+  return date.toLocaleTimeString('zh-CN', { hour: '2-digit', minute: '2-digit' });
+}
+
+function taskTitle(receipt) {
+  return receipt?.title || receipt?.item?.title || receipt?.sourceUrl || '未命名提示词';
+}
+
+function renderSyncTasks(receipts) {
+  const panel = $('#sync-tasks');
+  const list = $('#sync-task-list');
+  const tasks = (Array.isArray(receipts) ? receipts : []).slice(0, 20);
+  if (!tasks.length) {
+    panel.style.display = 'none';
+    list.innerHTML = '';
+    return;
+  }
+
+  panel.style.display = 'block';
+  list.innerHTML = tasks.map(receipt => {
+    const state = receipt.state || 'queued';
+    const outcome = receipt.outcome === 'already_exists' ? '主站已存在' : TASK_STATE_LABELS[state] || '处理中';
+    const detail = receipt.error || receipt.message || '';
+    return `
+      <div class="sync-task sync-task-${escapeHTML(state)}">
+        <span class="sync-task-dot" aria-hidden="true"></span>
+        <div class="sync-task-main">
+          <div class="sync-task-title">${escapeHTML(taskTitle(receipt))}</div>
+          <div class="sync-task-meta">${escapeHTML(outcome)} · ${escapeHTML(formatTaskTime(receipt.updatedAt))}</div>
+          ${detail ? `<div class="sync-task-detail">${escapeHTML(detail)}</div>` : ''}
+        </div>
+        ${state === 'failed' ? `<button class="sync-task-retry" data-retry-id="${escapeHTML(receipt.id)}" type="button">重试</button>` : ''}
+      </div>
+    `;
+  }).join('');
+}
+
+function renderVerificationStatus(feedback, queueLength = 0) {
+  const panel = $('#verification-status');
+  const icon = $('#verification-status-icon');
+  const text = $('#verification-status-text');
+  const receipt = feedback?.latest;
+  const submittedCount = Number(feedback?.submittedCount || feedback?.stats?.submitted || 0);
+  if (!receipt && queueLength === 0 && submittedCount === 0) {
+    panel.style.display = 'none';
+    return;
+  }
+
+  const state = receipt?.state || (queueLength > 0 ? 'queued' : 'idle');
+  const isStaleSync = state === 'syncing'
+    && Date.now() - Date.parse(receipt?.updatedAt || 0) > VERIFICATION_STALE_MS;
+  const isStaleMerge = state === 'submitted'
+    && Date.now() - Date.parse(receipt?.submittedAt || receipt?.updatedAt || 0) > MAIN_MERGE_STALE_MS;
+  const displayState = isStaleSync || isStaleMerge ? 'failed' : state;
+  panel.className = `verification-status${displayState === 'verified' ? ' success' : displayState === 'failed' ? ' error' : ''}`;
+  icon.textContent = displayState === 'verified' ? '✓' : displayState === 'failed' ? '!' : '⏳';
+  text.textContent = isStaleSync
+    ? `GitHub 队列提交超时，${queueLength} 个提示词仍在本机队列中，请点击下方重试`
+    : isStaleMerge
+      ? 'GitHub 主站合并超过 5 分钟未确认，请点击下方重试或稍后重新扫描'
+      : queueLength > 0 || submittedCount > 0
+        ? `本机待上传 ${queueLength} 个；已提交主站队列 ${submittedCount} 个。可继续收藏新的提示词`
+        : receipt?.message || '暂无收藏验证记录';
+  panel.style.display = 'flex';
+}
+
+function renderCollectionOutcome(button, receipt) {
+  if (!button || !receipt) return;
+  button.classList.remove('mini-btn-collected', 'mini-btn-existing', 'mini-btn-rejected');
+  if (receipt.state === 'submitted' || receipt.outcome === 'submitted') {
+    button.textContent = '⏳ 已提交主站队列';
+  } else if (receipt.outcome === 'saved') {
+    button.textContent = '✓ 已写入主站';
+    button.classList.add('mini-btn-collected');
+  } else if (receipt.outcome === 'submitted') {
+    button.textContent = '✓ 已提交队列';
+    button.classList.add('mini-btn-collected');
+  } else if (receipt.outcome === 'already_exists') {
+    button.textContent = '＝ 主站已存在';
+    button.classList.add('mini-btn-existing');
+  } else {
+    button.textContent = '✓ 已验证主站';
+    button.classList.add('mini-btn-collected');
+  }
+  button.disabled = true;
+}
+
+function renderInitialBatchOutcome(button, outcome) {
+  if (!button || !outcome) return;
+  if (outcome.outcome === 'batch_duplicate') {
+    button.textContent = '⏭ 本批重复';
+    button.classList.add('mini-btn-existing');
+    button.disabled = true;
+  } else if (outcome.outcome === 'rejected') {
+    button.textContent = '！无法收藏';
+    button.classList.add('mini-btn-rejected');
+    button.disabled = true;
+  } else if (outcome.outcome === 'already_queued') {
+    button.textContent = '已在验证队列';
+    button.disabled = true;
+  }
+}
+
+async function waitForCollectionVerification(id, button) {
+  for (let attempt = 0; attempt < 45; attempt += 1) {
+    await new Promise(resolve => setTimeout(resolve, 1000));
+    const receipt = await getCollectionReceipt(id);
+    if (!receipt) continue;
+    if (receipt.state === 'verified') {
+      renderCollectionOutcome(button, receipt);
+      await updateQueueUI();
+      return;
+    }
+    if (receipt.state === 'submitted') {
+      renderCollectionOutcome(button, receipt);
+      showToast('已提交待合并队列，尚未写入主站；插件会自动复查');
+      await updateQueueUI();
+      return;
+    }
+    if (receipt.state === 'failed') {
+      button.disabled = false;
+      button.textContent = '↻ 重试收藏';
+      showToast(receipt.error || '收藏验证失败，已保留在队列');
+      await updateQueueUI();
+      return;
+    }
+    button.textContent = receipt.state === 'syncing' ? '正在提交…' : '已加入队列';
+  }
+  button.disabled = false;
+  button.textContent = '↻ 提交超时，重试收藏';
+  showToast('GitHub 队列提交超时，收藏仍保留在本机队列中');
+  await updateQueueUI();
+}
+
+async function waitForBatchVerification(ids, button, buttonsById = new Map()) {
+  const trackedIds = [...new Set(ids || [])];
+  for (let attempt = 0; attempt < 45; attempt += 1) {
+    await new Promise(resolve => setTimeout(resolve, 1000));
+    const receipts = await Promise.all(trackedIds.map(getCollectionReceipt));
+    const verified = receipts.filter(receipt => receipt?.state === 'verified').length;
+    const failed = receipts.filter(receipt => receipt?.state === 'failed').length;
+    receipts.forEach((receipt, index) => {
+      if (receipt?.state === 'verified' || receipt?.state === 'submitted') renderCollectionOutcome(buttonsById.get(trackedIds[index]), receipt);
+    });
+    if (failed) {
+      button.disabled = false;
+      button.textContent = `↻ ${failed} 个收藏待重试`;
+      showToast('部分收藏验证失败，已保留在队列');
+      await updateQueueUI();
+      return;
+    }
+    const submitted = receipts.filter(receipt => receipt?.state === 'submitted').length;
+    if (verified + submitted === trackedIds.length) {
+      const saved = receipts.filter(receipt => receipt?.outcome === 'saved').length;
+      const existing = receipts.filter(receipt => receipt?.outcome === 'already_exists').length;
+      button.textContent = submitted ? `⏳ 已提交主站队列 ${submitted} 个` : existing ? `✓ 写入 ${saved} 个，已存在 ${existing} 个` : `✓ 已写入主站 ${saved} 个`;
+      if (!submitted) button.classList.add('mini-btn-collected');
+      showToast(submitted
+        ? `已提交 GitHub 入站队列 ${submitted} 个，主站合并后会自动确认`
+        : existing ? `主站写入 ${saved} 个；${existing} 个已存在，未重复写入` : `已写入 GitHub 主站 ${saved} 个提示词`);
+      await updateQueueUI();
+      return;
+    }
+    button.textContent = `正在提交 ${verified}/${trackedIds.length}`;
+  }
+  trackedIds.forEach(id => {
+    const promptButton = buttonsById.get(id);
+    if (promptButton) {
+      promptButton.disabled = false;
+      promptButton.textContent = '↻ 重试收藏';
+    }
+  });
+  button.disabled = false;
+  button.textContent = '↻ 提交超时，重试主站';
+  showToast('GitHub 队列提交超时，收藏仍保留在本机队列中');
+  await updateQueueUI();
 }
 
 // --- 复制到剪贴板 ---
@@ -324,6 +536,26 @@ const SCAN_FUNCTION = () => {
     return '未命名提示词';
   }
 
+  function findPostUrl(el) {
+    const article = el.closest('article') || el.closest('[data-testid="tweet"]');
+    const link = [...(article?.querySelectorAll('a[href*="/status/"]') || [])]
+      .map(anchor => anchor.href)
+      .find(href => /\/status\/\d+$/.test(href));
+    return link || location.href;
+  }
+
+  function isCompleteCandidate(text) {
+    const value = String(text || '').trim();
+    const parserAutoCollectable = globalThis.PromptHubParser?.isAutoCollectablePrompt;
+    if (typeof parserAutoCollectable === 'function') return parserAutoCollectable(value);
+    const parserComplete = globalThis.PromptHubParser?.isCompletePrompt;
+    if (typeof parserComplete === 'function') return parserComplete(value);
+    const commas = (value.match(/[,，]/g) || []).length;
+    const hasGenerationParams = /\b(--ar|--v|--style|--chaos|--stylize|--niji|seed|cfg|sampler)\b/i.test(value);
+    if (value.length < 80 || (value.length < 160 && !(commas >= 3 || hasGenerationParams))) return false;
+    return !/(?:[,;:\uFF0C\u3001\uFF1A]|\b(?:and|with|the|a|an|or|of|to|in))$/i.test(value);
+  }
+
   const prompts = [];
   const seen = new Set();
   const sels = [
@@ -345,7 +577,7 @@ const SCAN_FUNCTION = () => {
       pageTitle: document.title
     });
 
-    if (isPromptLike(text) || globalThis.PromptHubParser?.looksLikePrompt(parsed?.prompt || '')) {
+    if ((isPromptLike(text) || globalThis.PromptHubParser?.looksLikePrompt(parsed?.prompt || '')) && isCompleteCandidate(parsed?.prompt || text)) {
       seen.add(text);
         const imageData = findImgs(el);
         const promptText = parsed?.prompt || text;
@@ -358,8 +590,9 @@ const SCAN_FUNCTION = () => {
         image: imageData.images[0] || '',
         images: imageData.images,
         aspectRatio: imageData.aspectRatio || extractAspectRatio(promptText),
-        url: location.href,
-        domain: location.hostname,
+        url: findPostUrl(el),
+        sourceUrl: findPostUrl(el),
+        domain: new URL(findPostUrl(el)).hostname,
         source: '插件扫描',
         date: new Date().toISOString().slice(0, 10),
         timestamp: Date.now()
@@ -384,7 +617,7 @@ function renderPrompts(prompts) {
     return;
   }
 
-  let html = `<div class="scan-badge">检测到 ${prompts.length} 个提示词</div>`;
+  let html = `<div class="scan-summary"><div class="scan-badge">检测到 ${prompts.length} 个提示词</div>${prompts.length > 1 ? '<button class="btn btn-collect-all" id="btn-collect-all">❤️ 一键收藏</button>' : ''}</div>`;
   prompts.forEach((p, idx) => {
     const imgHTML = p.image
       ? `<img class="prompt-item-thumb" src="${p.image}" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" /><div class="prompt-item-thumb-placeholder" style="display:none;">🍌</div>`
@@ -432,9 +665,10 @@ function renderPrompts(prompts) {
         result = { success: false, error: error?.message || '收藏失败，请稍后重试' };
       }
       if (result?.success) {
-        btn.textContent = result.alreadyQueued ? '✓ 已在队列' : '✓ 已收藏';
-        btn.classList.add('mini-btn-collected');
+        btn.textContent = result.alreadyQueued ? '已在队列' : '已加入队列';
         await updateQueueUI();
+        showToast(result.alreadyQueued ? '该提示词已在验证队列中' : `已加入收藏队列，等待 GitHub 主站验证`);
+        await waitForCollectionVerification(prompts[idx].id, btn);
         return;
       } else {
         showToast(result?.error || '收藏失败，请稍后重试');
@@ -443,6 +677,38 @@ function renderPrompts(prompts) {
       }
     });
   });
+
+  const collectAllButton = $('#btn-collect-all');
+  if (collectAllButton) {
+    collectAllButton.addEventListener('click', async () => {
+      collectAllButton.disabled = true;
+      collectAllButton.textContent = `正在收藏 ${prompts.length} 个`;
+      const result = await addItemsToQueue(prompts);
+      if (!result.success) {
+        collectAllButton.disabled = false;
+        collectAllButton.textContent = '❤️ 一键收藏';
+        showToast(result.error);
+        return;
+      }
+
+      const buttonsById = new Map();
+      content.querySelectorAll('.mini-btn-collect').forEach(button => {
+        const prompt = prompts[Number(button.dataset.idx)];
+        if (prompt?.id) buttonsById.set(prompt.id, button);
+        button.disabled = true;
+        button.textContent = '已加入队列';
+      });
+      const outcomeById = new Map((result.outcomes || []).map(outcome => [outcome.id, outcome]));
+      outcomeById.forEach((outcome, id) => renderInitialBatchOutcome(buttonsById.get(id), outcome));
+      await updateQueueUI();
+      const skipped = (result.outcomes || []).filter(outcome => ['batch_duplicate', 'rejected'].includes(outcome.outcome)).length;
+      const summary = result.added
+        ? `已加入 ${result.added} 个收藏，正在验证 GitHub 主站${skipped ? `；${skipped} 条已标注跳过原因` : ''}`
+        : '检测到的提示词已在待验证队列中';
+      showToast(summary);
+      await waitForBatchVerification(result.trackedIds, collectAllButton, buttonsById);
+    });
+  }
 }
 
 function escapeHTML(str) {
@@ -472,6 +738,18 @@ $('#btn-scan').addEventListener('click', async () => {
       $('#content').innerHTML = '<div class="status"><div class="status-icon">⚠️</div>浏览器内置页面无法扫描</div>';
       return;
     }
+
+    // Expand collapsed social posts before extracting their complete prompt text.
+    await chrome.scripting.executeScript({
+      target: { tabId: tab.id },
+      func: async () => {
+        const buttons = [...document.querySelectorAll('button, [role="button"]')];
+        buttons
+          .filter(button => /^(show more|显示更多|展开)$/i.test((button.textContent || '').trim()))
+          .forEach(button => button.click());
+        await new Promise(resolve => setTimeout(resolve, 350));
+      }
+    });
 
     // 注入扫描函数
     const results = await chrome.scripting.executeScript({
@@ -503,70 +781,24 @@ $('#btn-site').addEventListener('click', () => {
   chrome.tabs.create({ url: WEBSITE_URL });
 });
 
-// --- 可复用：同步到指定站点 ---
-async function syncToSite(url, tabPattern, queue) {
-  const tabs = await chrome.tabs.query({ url: tabPattern });
-  let tab;
-  if (tabs.length > 0) {
-    tab = tabs[0];
-    await chrome.tabs.update(tab.id, { active: true });
-    await new Promise(r => setTimeout(r, 300));
-  } else {
-    tab = await chrome.tabs.create({ url: url + '#/collections' });
-    // 等待页面真正加载完成（最多 15 秒）
-    await new Promise((resolve) => {
-      let done = false;
-      const listener = (tabId, changeInfo) => {
-        if (tabId === tab.id && changeInfo.status === 'complete' && !done) {
-          done = true;
-          chrome.tabs.onUpdated.removeListener(listener);
-          setTimeout(resolve, 500);
-        }
-      };
-      chrome.tabs.onUpdated.addListener(listener);
-      setTimeout(() => {
-        if (!done) {
-          done = true;
-          chrome.tabs.onUpdated.removeListener(listener);
-          resolve();
-        }
-      }, 15000);
-    });
-  }
+$('#btn-notice').addEventListener('click', async () => {
+  const feedback = await getCollectionFeedback();
+  renderVerificationStatus(feedback, feedback?.queueCount || 0);
+  const receipt = feedback?.latest;
+  showToast(receipt?.message || (feedback?.queueCount ? `正在验证 ${feedback.queueCount} 个收藏` : '暂无收藏验证记录'));
+});
 
-  // 注入函数写入 localStorage + 主动触发 storage 事件
-  const injectResult = await chrome.scripting.executeScript({
-    target: { tabId: tab.id },
-    func: (data) => {
-      try {
-        const existing = JSON.parse(localStorage.getItem('prompthub_ext_import') || '[]');
-        const merged = [...existing, ...data];
-        const seen = new Set();
-        const deduped = merged.filter(item => {
-          if (seen.has(item.prompt)) return false;
-          seen.add(item.prompt);
-          return true;
-        });
-        localStorage.setItem('prompthub_ext_import', JSON.stringify(deduped));
-        // 主动触发 storage 事件（同窗口内 setItem 不会自动触发）
-        window.dispatchEvent(new StorageEvent('storage', {
-          key: 'prompthub_ext_import',
-          newValue: JSON.stringify(deduped),
-          oldValue: null,
-          storageArea: localStorage
-        }));
-        return { success: true, count: deduped.length };
-      } catch (e) {
-        return { success: false, error: e.message };
-      }
-    },
-    args: [queue]
-  });
+$('#sync-task-list').addEventListener('click', async event => {
+  const button = event.target.closest('[data-retry-id]');
+  if (!button) return;
+  button.disabled = true;
+  button.textContent = '排队中';
+  const result = await chrome.runtime.sendMessage({ action: 'retryCollectionReceipt', id: button.dataset.retryId });
+  showToast(result?.success ? '已重新加入上传队列' : result?.error || '重新排队失败');
+  await updateQueueUI();
+});
 
-  return { tab, result: injectResult[0]?.result };
-}
-
-// --- 同步到网站：先 GitHub Pages（前台）→ Cloudflare（后台空闲时自动）---
+// --- GitHub 主站失败队列的即时重试 ---
 $('#btn-sync').addEventListener('click', async () => {
   const btn = $('#btn-sync');
   btn.disabled = true;
@@ -578,45 +810,38 @@ $('#btn-sync').addEventListener('click', async () => {
       return;
     }
 
-    btn.textContent = '正在同步到网站…';
+    btn.textContent = '正在提交 GitHub 主站队列…';
     const syncResult = await chrome.runtime.sendMessage({ action: 'syncToWebsite' });
 
     if (syncResult?.success) {
       await updateQueueUI();
+      const savedCount = Number(syncResult.count || 0);
+      const skippedCount = Number(syncResult.skipped || 0);
+      const syncMessage = savedCount > 0
+        ? `已提交 GitHub 入站队列 ${savedCount} 个，主站合并后会自动确认；可继续收藏新的提示词`
+        : skippedCount > 0
+          ? `GitHub 主站无新增，${skippedCount} 个提示词已存在`
+          : 'GitHub 主站无新增提示词';
       $('#content').innerHTML = `
         <div class="empty-state">
           <div class="empty-icon" style="font-size:40px;">✓</div>
           <div class="empty-text" style="font-size:14px;color:#00B894;font-weight:600;">
-            已同步 ${syncResult.count || 0} 个提示词
+            ${syncMessage}
           </div>
         </div>
       `;
       return;
-
-      showToast(`已同步 ${queue.length} 个到 GitHub Pages`);
-
-      $('#content').innerHTML = `
-        <div class="empty-state">
-          <div class="empty-icon" style="font-size:40px;">✅</div>
-          <div class="empty-text" style="font-size:14px;color:#00B894;font-weight:600;">
-            已同步 ${queue.length} 个提示词
-          </div>
-          <div class="empty-hint" style="margin-top:8px;line-height:1.8;">
-            🌐 GitHub Pages ✓<br>
-            🇨🇳 国内站点：${CF_SYNC_DELAY_MINUTES} 分钟后自动同步
-          </div>
-        </div>
-      `;
     } else {
-      showToast(syncResult?.error || 'GitHub Pages 同步失败');
+      const errorMessage = syncResult?.error || 'GitHub 主站队列提交失败';
+      showToast(errorMessage);
       $('#content').innerHTML = `
         <div class="empty-state">
           <div class="empty-icon" style="font-size:40px;">❌</div>
           <div class="empty-text" style="font-size:14px;color:#e74c3c;font-weight:600;">
-            GitHub Pages 同步失败
+            GitHub 主站队列提交失败
           </div>
           <div class="empty-hint" style="margin-top:8px;">
-            请检查网络连接后重试
+            ${escapeHTML(errorMessage)}<br>收藏已保留在队列中，修复后可再次同步。
           </div>
         </div>
       `;
@@ -625,7 +850,7 @@ $('#btn-sync').addEventListener('click', async () => {
     showToast('同步失败: ' + e.message);
   } finally {
     btn.disabled = false;
-    btn.textContent = '🔄 同步到网站';
+    btn.textContent = '🔄 重试 GitHub 主站';
   }
 });
 

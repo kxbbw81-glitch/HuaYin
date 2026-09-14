@@ -20,7 +20,9 @@ const CATEGORY_SLUGS = {
   '角色': 'character-prompts',
   '抽象': 'abstract-prompts',
   '自然': 'nature-prompts',
-  '城市': 'cityscape-prompts'
+  '城市': 'cityscape-prompts',
+  '电商视觉': 'ecommerce-visuals-prompts',
+  '视频提示词': 'video-prompts'
 };
 
 function assertInsideRoot(target) {
@@ -143,8 +145,8 @@ function pageShell({ title, description, canonical, image, body, structuredData 
   <header class="header">
     <div class="container">
       <a class="logo" href="../../">
-        <div class="logo-icon">🍌</div>
-        <span>PromptHub</span>
+        <div class="logo-icon">画</div>
+        <span>画引</span>
       </a>
       <nav class="nav">
         <a href="../../">首页</a>
@@ -157,12 +159,15 @@ function pageShell({ title, description, canonical, image, body, structuredData 
   ${body}
   <script src="../../js/seo-page.js?v=20260728a"></script>
 </body>
-</html>`;
+</html>`
+    .split(/\r?\n/)
+    .map(line => line.trimEnd())
+    .join('\n');
 }
 
 function writePromptPage(prompt) {
   const canonical = `${SITE_URL}${promptPath(prompt)}`;
-  const title = `${prompt.title} - ${prompt.category} AI 提示词 | PromptHub`;
+  const title = `${prompt.title} - ${prompt.category} AI 提示词 | 画引 HuaYin`;
   const description = excerpt(`${prompt.title}：${prompt.prompt}`);
   const tags = prompt.tags || [];
   const body = `
@@ -203,13 +208,13 @@ function writePromptPage(prompt) {
       url: canonical,
       keywords: [...tags, prompt.category, 'AI prompt', 'AI image prompt'].join(', '),
       datePublished: prompt.date || TODAY,
-      creator: { '@type': 'Organization', name: 'PromptHub' }
+      creator: { '@type': 'Organization', name: 'HuaYin' }
     },
     {
       '@context': 'https://schema.org',
       '@type': 'BreadcrumbList',
       itemListElement: [
-        { '@type': 'ListItem', position: 1, name: 'PromptHub', item: SITE_URL },
+        { '@type': 'ListItem', position: 1, name: '画引 HuaYin', item: SITE_URL },
         { '@type': 'ListItem', position: 2, name: `${prompt.category} Prompts`, item: `${SITE_URL}${categoryPath(prompt.category)}` },
         { '@type': 'ListItem', position: 3, name: prompt.title, item: canonical }
       ]
@@ -224,13 +229,13 @@ function writePromptPage(prompt) {
 function writeCategoryPage(category) {
   const prompts = PROMPTS.filter(prompt => prompt.category === category.name);
   const canonical = `${SITE_URL}${categoryPath(category.name)}`;
-  const title = `${category.name} AI 提示词合集 | ${categorySlug(category.name).replace(/-/g, ' ')} | PromptHub`;
+  const title = `${category.name} AI 提示词合集 | ${categorySlug(category.name).replace(/-/g, ' ')} | 画引 HuaYin`;
   const description = `${category.name} Prompts 合集，收录 ${prompts.length} 条可直接复制的 AI 图像生成提示词，覆盖具体风格、图片参考、模型信息和标签。`;
   const body = `
   <main class="seo-page">
     <div class="container">
       <article class="seo-card">
-        <div class="seo-kicker"><span class="seo-chip">${escapeHtml(category.icon || '🍌')} ${escapeHtml(category.name)}</span></div>
+        <div class="seo-kicker"><span class="seo-chip">${escapeHtml(category.icon || '画')} ${escapeHtml(category.name)}</span></div>
         <h1>${escapeHtml(category.name)} AI 提示词合集</h1>
         <p class="seo-summary">${escapeHtml(description)}</p>
         <div class="seo-actions">

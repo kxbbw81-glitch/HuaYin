@@ -5,25 +5,317 @@
 (function () {
   'use strict';
 
+  const BRAND_ZH = '画引';
+  const BRAND_EN = 'HuaYin';
+  const BRAND_TAGLINE_ZH = '画引 - 高质量 AI 图像提示词库';
+  const BRAND_TAGLINE_EN = 'HuaYin - Premium AI Image Prompt Library';
+  const LANGUAGE_KEY = 'huayin_language';
+  const ORIGINAL_TEXT = new WeakMap();
+
   // --- State ---
   let currentRoute = 'home';
   let currentCategory = 'All';
+  let currentCommerceType = 'All';
+  let currentContentType = 'All';
+  let currentStyle = 'All';
+  let currentScene = 'All';
   let currentSearch = '';
   let currentPage = 1;
   let detailReturnContext = null;
-  const PAGE_SIZE = 24;
+  let exploreVisibleCount = 0;
+  let exploreLoadObserver = null;
+  const EXPLORE_INITIAL_BATCH = 36;
+  const EXPLORE_BATCH_SIZE = 24;
 
   // --- Collections (GitHub is the canonical source) ---
-  const REMOTE_COLLECTIONS_URL = 'https://raw.githubusercontent.com/kxbbw81-glitch/PromptHub-/main/data/collections.json';
+  const PRIMARY_COLLECTIONS_URL = 'data/collections.json';
+  const DOMESTIC_COLLECTIONS_URL = '/data/collections.json?v=20260729b';
   const DOMESTIC_HOST = 'prompthub.kxbbw81.workers.dev';
   let collectionsCache = [];
   let collectionsLoading = null;
   let extensionBridgeReady = false;
   const security = window.PromptHubSecurity;
   const { escapeHtml, sanitizeImageUrl, sanitizeImageUrls } = security || {};
+  const exploreFacets = window.PromptHubExploreFacets;
+  const dailyCuration = window.PromptHubDailyCuration;
 
-  if (!security) {
-    throw new Error('PromptHubSecurity is required before app.js');
+  if (!security || !exploreFacets || !dailyCuration) {
+    throw new Error('PromptHubSecurity, PromptHubExploreFacets, and PromptHubDailyCuration are required before app.js');
+  }
+
+  let currentLanguage = localStorage.getItem(LANGUAGE_KEY) === 'en' ? 'en' : 'zh';
+
+  const EN_TEXT = {
+    '画引': BRAND_EN,
+    '首页': 'Home',
+    '探索提示词': 'Explore',
+    '📥 导入': '📥 Import',
+    '❤️ 我的收藏': '❤️ Collections',
+    '免责声明': 'Disclaimer',
+    '画引 - 高质量 AI 图像提示词库。每日更新，经过验证，一键复制。助你生成惊艳的 AI 图像作品，激发无限创作灵感。': 'HuaYin - Premium AI image prompt library. Updated daily, verified, and ready to copy for striking AI visuals.',
+    '探索': 'Explore',
+    '全部提示词': 'All prompts',
+    '主题分类': 'Categories',
+    '今日精选': 'Daily Picks',
+    '分类': 'Categories',
+    '资源': 'Resources',
+    '提示词工程': 'Prompt Engineering',
+    '常见问题': 'FAQ',
+    '使用场景': 'Use Cases',
+    '人像': 'Portrait',
+    '风景': 'Landscape',
+    '建筑': 'Architecture',
+    '科幻': 'Sci-Fi',
+    '赛博朋克': 'Cyberpunk',
+    '奇幻': 'Fantasy',
+    '动物': 'Animals',
+    '静物': 'Still Life',
+    '美食': 'Food',
+    '时尚': 'Fashion',
+    '角色': 'Characters',
+    '抽象': 'Abstract',
+    '自然': 'Nature',
+    '城市': 'City',
+    '电商视觉': 'E-commerce Visuals',
+    '视频提示词': 'Video Prompts',
+    '商品主图、广告海报与电商内容视觉': 'Product hero images, ad posters, and commerce visuals',
+    '人物肖像与面部特写': 'Portraits and close-up faces',
+    '自然风光与大地景观': 'Landscapes and natural scenery',
+    '建筑设计与空间结构': 'Architecture and spatial design',
+    '科幻未来与太空探索': 'Sci-fi futures and space exploration',
+    '赛博朋克与霓虹都市': 'Cyberpunk and neon cities',
+    '奇幻世界与魔法传说': 'Fantasy worlds and magical legends',
+    '动物野生与自然生灵': 'Wildlife and animals',
+    '静物写生与艺术构图': 'Still life and art composition',
+    '美食摄影与餐饮视觉': 'Food photography and dining visuals',
+    '时尚穿搭与潮流造型': 'Fashion styling and trends',
+    '角色设计与原创人物': 'Character design and original personas',
+    '抽象艺术与视觉实验': 'Abstract art and visual experiments',
+    '自然生态与植物花卉': 'Nature, plants, and flowers',
+    '城市景观与街景风貌': 'Cityscapes and street scenes',
+    '文生视频与动态镜头提示词': 'Text-to-video and motion prompts',
+    '© 2025 画引 HuaYin. 保留所有权利。': '© 2025 HuaYin. All rights reserved.',
+    '用 AI 打造': 'Built with AI',
+    '探索高品质纳米提示词库。': 'Explore a premium nano prompt library.',
+    '高品质提示词库持续增长，每日更新，可直接复制粘贴，生成令人惊叹的 AI 图像。': 'A growing library of high-quality prompts, updated daily and ready to copy for stunning AI images.',
+    '查看所有提示': 'View all prompts',
+    '每日更新 · 已验证 · 免费使用': 'Daily updates · Verified · Free to browse',
+    '发现高质量 AI 提示词激发无限创作灵感': 'Discover high-quality AI prompts and spark new visual ideas',
+    '不断增长的提示词收藏库，每日更新，一键复制即可使用，助你生成惊艳的 AI 图像作品。': 'A growing prompt library, updated daily and ready to copy for creating striking AI images.',
+    '🚀 探索所有提示词': '🚀 Explore all prompts',
+    '浏览分类': 'Browse categories',
+    '精选提示词': 'Curated prompts',
+    '主题分类': 'Categories',
+    '已验证': 'Verified',
+    '每日': 'Daily',
+    '持续更新': 'Updated',
+    '🔥 今日精选提示词': '🔥 Today\'s Curated Prompts',
+    '每日自动分析主站内容，优先展示当天新收集、资料完整且主题多样的高质量提示词。': 'Automatically refreshed from the primary library, prioritizing fresh, complete, and diverse prompts.',
+    '查看全部提示词 →': 'View all prompts →',
+    '📂 按主题探索': '📂 Explore by Theme',
+    '发现适合你下一个项目的完美提示词，涵盖最受欢迎的主题分类。': 'Find the right prompt for your next project across popular visual themes.',
+    '✨ 为什么选择 PromptHub': '✨ Why Choose HuaYin',
+    '✨ 为什么选择画引': '✨ Why Choose HuaYin',
+    'PromptHub 是优质 AI 提示词的首选平台，为创作者提供专业级资源。': 'HuaYin curates professional AI prompts for creators who need reliable visual inspiration.',
+    '画引是优质 AI 提示词的首选平台，为创作者提供专业级资源。': 'HuaYin curates professional AI prompts for creators who need reliable visual inspiration.',
+    '精选提示词库': 'Curated Prompt Library',
+    '一键复制工作流': 'One-click Copy Workflow',
+    '验证与测试': 'Verified and Tested',
+    '每日新鲜更新': 'Fresh Daily Updates',
+    '智能标签系统': 'Smart Tag System',
+    '完全免费使用': 'Free to Browse',
+    '🎯 真实使用场景': '🎯 Real Use Cases',
+    '解锁 AI 提示词的全部潜力，看看创作者们如何在不同领域使用它们。': 'See how creators use AI prompts across practical visual workflows.',
+    '🛒 电商与产品摄影': '🛒 E-commerce and Product Photography',
+    '📱 社交媒体与 AI 网红': '📱 Social Media and AI Influencers',
+    '📢 营销与视觉设计': '📢 Marketing and Visual Design',
+    '📊 信息图表与教育内容': '📊 Infographics and Education',
+    '🏛️ 建筑与室内设计': '🏛️ Architecture and Interior Design',
+    '🎮 游戏开发与概念艺术': '🎮 Game Development and Concept Art',
+    '🧪 完美提示词的艺术': '🧪 The Art of Better Prompts',
+    '掌握提示词工程的四大构建模块，让你的 AI 生成效果更上一层楼。': 'Learn the four building blocks that make AI image prompts more reliable.',
+    '核心主体描述': 'Core Subject',
+    '视觉风格关键词': 'Visual Style',
+    '光影与氛围词': 'Lighting and Mood',
+    '质感与品质标签': 'Texture and Quality',
+    '❓ 常见问题': '❓ FAQ',
+    '关于 PromptHub 和 AI 提示词，你想知道的都在这里。': 'Answers about HuaYin and AI image prompts.',
+    '关于画引和 AI 提示词，你想知道的都在这里。': 'Answers about HuaYin and AI image prompts.',
+    '免责声明与免费使用说明': 'Disclaimer and Free-use Notice',
+    'PromptHub 提供可检索、可复制的 AI 提示词参考内容。本页说明免费访问范围，以及使用内容前应了解的责任边界。': 'HuaYin provides searchable and copyable AI prompt references. This page explains free access and usage boundaries.',
+    '画引提供可检索、可复制的 AI 提示词参考内容。本页说明免费访问范围，以及使用内容前应了解的责任边界。': 'HuaYin provides searchable and copyable AI prompt references. This page explains free access and usage boundaries.',
+    '画引对公开展示的提示词内容不收取访问、浏览或复制费用。本站并不代表任何第三方模型、素材平台或外部工具免费；使用这些服务时产生的订阅、算力、素材或其他费用，以对应服务商的规则为准。': 'HuaYin does not charge for browsing or copying publicly displayed prompts. Third-party models, asset platforms, or external tools may still charge according to their own terms.',
+    '提示词的效果会受模型版本、参数、输入素材、地区能力和平台策略影响。画引不保证任何提示词在特定模型中的生成效果、稳定性、可用性、适销性或适合特定用途。': 'Prompt results depend on model versions, parameters, input materials, regional capabilities, and platform policies. HuaYin does not guarantee output quality, stability, availability, merchantability, or fitness for a particular purpose.',
+    '免费使用': 'Free Use',
+    '内容与来源': 'Content and Sources',
+    'AI 输出': 'AI Outputs',
+    '合规责任': 'Compliance Responsibility',
+    '个人信息': 'Personal Information',
+    '侵权反馈': 'Rights Feedback',
+    'AI 输出不作保证': 'No Guarantee for AI Outputs',
+    '🔍 探索提示词': '🔍 Explore Prompts',
+    '内容类型': 'Content Type',
+    '视觉风格': 'Visual Style',
+    '使用场景': 'Use Case',
+    '全部类型': 'All Types',
+    '全部风格': 'All Styles',
+    '全部场景': 'All Use Cases',
+    '不限电商': 'All Commerce',
+    '全部电商': 'All Commerce',
+    '产品主图': 'Product Hero',
+    '场景种草': 'Lifestyle Product',
+    '广告海报': 'Ad Poster',
+    '商品详情页': 'Product Detail',
+    '模特展示': 'Model Display',
+    'UGC / 口碑': 'UGC / Reviews',
+    '品牌视觉': 'Brand Visual',
+    '电商视频': 'E-commerce Video',
+    '没有找到匹配的提示词，试试其他关键词或分类吧': 'No matching prompts found. Try another keyword or filter.',
+    '导入提示词': 'Import Prompts',
+    '收集你喜欢的 AI 提示词到个人收藏库': 'Collect AI prompts into your personal library.',
+    '已收藏': 'Saved',
+    '粘贴识别': 'Paste Recognition',
+    '手动创建': 'Manual Entry',
+    '浏览器插件': 'Browser Extension',
+    '粘贴帖子内容': 'Paste Post Content',
+    '手动创建提示词': 'Create Prompt Manually',
+    '标题': 'Title',
+    '提示词文本': 'Prompt Text',
+    '标签': 'Tags',
+    '图片链接（可选）': 'Image URL (optional)',
+    '保存到收藏': 'Save to Collections',
+    '清空': 'Clear',
+    '🔍 智能解析': '🔍 Smart Parse',
+    '微信公众号': 'WeChat Article',
+    '图片链接': 'Image URL',
+    'PromptHub 浏览器插件': 'HuaYin Browser Extension',
+    '在任意网页检测到 AI 提示词，点击 🍌 香蕉按钮即可一键收藏': 'Detect AI prompts on any page and save them with one click.',
+    '画引浏览器插件': 'HuaYin Browser Extension',
+    '在任意网页检测到 AI 提示词，点击插件按钮即可一键收藏': 'Detect AI prompts on any page and save them with one click.',
+    '↓ 下载浏览器插件': '↓ Download Extension',
+    '一键收藏': 'One-click Save',
+    '智能扫描': 'Smart Scan',
+    '批量同步': 'Batch Sync',
+    '收集的提示词一键同步到画引收藏库': 'Sync collected prompts into your HuaYin library.',
+    '安装步骤': 'Install Steps',
+    '打开扩展页面': 'Open Extensions Page',
+    '开启开发者模式': 'Enable Developer Mode',
+    '加载插件': 'Load Extension',
+    '开始使用': 'Start Using',
+    '工具栏出现插件图标，在任意提示词页面点击即可收藏': 'Use the extension icon on any prompt page to save it.',
+    '🌐 支持网站': '🌐 Supported Sites',
+    '任意网页': 'Any Webpage',
+    '实时预览': 'Live Preview',
+    '解析结果': 'Parsed Result',
+    '编辑提示词信息': 'Edit Prompt Info',
+    '已自动提取，可直接收藏': 'Extracted automatically, ready to save',
+    '所有字段均可编辑，确认无误后点击保存到收藏': 'All fields are editable. Review and save when ready.',
+    '分类': 'Category',
+    '复制': 'Copy',
+    '图片链接（多张图片请每行一个）': 'Image URLs (one per line)',
+    '取消': 'Cancel',
+    '快捷键 Ctrl + Enter 也可收藏': 'Shortcut: Ctrl + Enter to save',
+    '未检测到图片': 'No image detected',
+    '图片加载失败': 'Image failed to load',
+    '我的收藏': 'My Collections',
+    '去「导入」页面添加，或在浏览时点击卡片上的收藏按钮': 'Add prompts from Import, or save cards while browsing.',
+    '📥 去导入': '📥 Go to Import'
+    ,
+    '什么是画引？': 'What is HuaYin?',
+    '画引是一个专注于 AI 图像生成的高质量提示词库。我们收录经过测试验证的提示词，覆盖人像、风景、科幻、赛博朋克、奇幻、城市、自然、动物、建筑、静物、美食、时尚、角色、抽象、电商视觉、视频提示词等主题，帮助创作者快速找到灵感，一键复制即可使用。': 'HuaYin is a premium prompt library for AI image generation. It curates tested prompts across portraits, landscapes, sci-fi, cyberpunk, fantasy, cities, nature, animals, architecture, still life, food, fashion, characters, abstract visuals, e-commerce visuals, and video prompts.',
+    '提示词是如何被验证的？': 'How are prompts verified?',
+    '每个标记为「已验证」的提示词都经过我们的测试团队在实际 AI 模型中预渲染，确保生成效果稳定且符合描述。未验证的提示词可能是社区提交的新内容，尚在审核流程中。': 'Prompts marked as verified have been pre-tested with real AI models for stable, description-aligned output. Unverified prompts may be new community submissions still under review.',
+    '如何编写高质量的人像提示词？': 'How do I write a strong portrait prompt?',
+    '优秀的人像提示词通常包含：主体描述（人物外观、服装）、光影设置（黄金时刻、影棚光）、镜头参数（焦距、光圈）、风格关键词（电影感、写实、油画）以及氛围描述。结构化的提示词能获得更精准的生成效果。': 'A strong portrait prompt usually includes the subject, styling, lighting, camera details, style cues, and mood. Structured prompts make results more predictable.',
+    '可以自由使用这些提示词吗？': 'Can I use these prompts freely?',
+    '是的，画引上的公开提示词均可免费浏览和复制。你可以将它们用于个人创作、商业项目或学习参考；具体生成结果和外部素材仍需自行核对来源授权、模型条款和商业使用范围。': 'Public prompts on HuaYin are free to browse and copy. For generated outputs and external assets, always verify source rights, model terms, and commercial-use boundaries yourself.',
+    '如何按需筛选提示词？': 'How can I filter prompts?',
+    '在探索页面，你可以通过分类标签快速筛选（如人像、风景、科幻等），也可以使用搜索栏输入关键词查找。每个提示词还附带细粒度标签（如「黄金时刻」「赛博朋克」「微距」），帮助你精准定位所需风格。': 'Use the Explore page facets or keyword search. Each prompt also includes tags to help narrow down styles and use cases.',
+    '什么是「好提示词」和「坏提示词」？': 'What makes a prompt good or bad?',
+    '好提示词结构清晰、描述具体、包含光影和风格指引，能稳定产出预期效果。坏提示词通常过于模糊（如「画一个好看的人」）、缺乏关键参数、或包含矛盾描述。参考我们验证过的提示词来学习最佳实践。': 'Good prompts are structured, specific, and include lighting and style direction. Weak prompts are vague, missing key constraints, or internally contradictory.',
+    '新提示词多久更新一次？': 'How often are new prompts added?',
+    '我们每日更新提示词库，持续收录社区精选和编辑团队测试的新内容。首页「今日精选」板块展示当天最热门的提示词，确保你不会错过最新灵感。': 'The library is updated daily. Today\'s Curated Prompts highlights fresh and useful entries from the main collection.'
+  };
+
+  const EN_PATTERNS = [
+    [/^浏览全部 (\d+) 个提示词（含 (\d+) 个我的收藏），按分类筛选或搜索关键词$/, 'Browse $1 prompts, including $2 saved collections. Filter by facets or search keywords.'],
+    [/^(\d+) 个提示词$/, '$1 prompts'],
+    [/^(\d+) 张图片$/, '$1 images'],
+    [/^(\d+)\+ 经过严格筛选的提示词，覆盖各类风格与场景，专业级输出质量。$/, '$1+ carefully selected prompts across styles and scenes for professional-quality output.']
+  ];
+
+  function getLang() {
+    return currentLanguage;
+  }
+
+  function translateText(original) {
+    if (currentLanguage === 'zh') return original;
+    const leading = original.match(/^\s*/)?.[0] || '';
+    const trailing = original.match(/\s*$/)?.[0] || '';
+    const trimmed = original.trim().replace(/\s+/g, ' ');
+    if (!trimmed) return original;
+    if (EN_TEXT[trimmed]) return `${leading}${EN_TEXT[trimmed]}${trailing}`;
+    for (const [pattern, replacement] of EN_PATTERNS) {
+      if (pattern.test(trimmed)) return `${leading}${trimmed.replace(pattern, replacement)}${trailing}`;
+    }
+    return original;
+  }
+
+  function translateAttr(element, attr) {
+    if (!element.hasAttribute(attr)) return;
+    const storeKey = `i18n${attr.replace(/(^|-)([a-z])/g, (_, __, char) => char.toUpperCase())}`;
+    if (!element.dataset[storeKey]) element.dataset[storeKey] = element.getAttribute(attr) || '';
+    element.setAttribute(attr, translateText(element.dataset[storeKey]));
+  }
+
+  function updateBrandAndMeta() {
+    document.documentElement.lang = currentLanguage === 'en' ? 'en' : 'zh-CN';
+    document.title = currentLanguage === 'en'
+      ? `${BRAND_EN} - Premium AI Image Prompt Library`
+      : `${BRAND_ZH} HuaYin — 高质量 AI 图像提示词库`;
+    const description = document.querySelector('meta[name="description"]');
+    if (description) {
+      description.setAttribute('content', currentLanguage === 'en'
+        ? 'HuaYin is a growing premium AI image prompt library, updated daily and ready to copy for portraits, landscapes, sci-fi, fantasy, e-commerce visuals, and video prompts.'
+        : '画引 HuaYin 是一个不断增长的高质量 AI 图像提示词库，每日更新，一键复制，覆盖人像、风景、科幻、奇幻、电商视觉和视频提示词。');
+    }
+    document.querySelectorAll('.logo-icon').forEach(icon => { icon.textContent = currentLanguage === 'en' ? 'H' : '画'; });
+    document.querySelectorAll('.logo span').forEach(label => { label.textContent = currentLanguage === 'en' ? BRAND_EN : BRAND_ZH; });
+    document.querySelectorAll('.lang-toggle').forEach(button => {
+      button.textContent = currentLanguage === 'en' ? '中文' : 'EN';
+      button.setAttribute('aria-label', currentLanguage === 'en' ? '切换到中文' : 'Switch to English');
+    });
+  }
+
+  function applyLanguage(root = document) {
+    updateBrandAndMeta();
+    const scope = root.nodeType === Node.ELEMENT_NODE || root.nodeType === Node.DOCUMENT_NODE ? root : document;
+    const walker = document.createTreeWalker(scope, NodeFilter.SHOW_TEXT, {
+      acceptNode(node) {
+        const parent = node.parentElement;
+        if (!parent || ['SCRIPT', 'STYLE', 'TEXTAREA', 'CODE'].includes(parent.tagName)) return NodeFilter.FILTER_REJECT;
+        if (!node.nodeValue.trim()) return NodeFilter.FILTER_REJECT;
+        return NodeFilter.FILTER_ACCEPT;
+      }
+    });
+    const nodes = [];
+    while (walker.nextNode()) nodes.push(walker.currentNode);
+    nodes.forEach(node => {
+      if (!ORIGINAL_TEXT.has(node)) ORIGINAL_TEXT.set(node, node.nodeValue);
+      node.nodeValue = translateText(ORIGINAL_TEXT.get(node));
+    });
+    scope.querySelectorAll?.('[placeholder], [aria-label], [title], [alt]').forEach(element => {
+      translateAttr(element, 'placeholder');
+      translateAttr(element, 'aria-label');
+      translateAttr(element, 'title');
+      translateAttr(element, 'alt');
+    });
+  }
+
+  function setLanguage(language) {
+    currentLanguage = language === 'en' ? 'en' : 'zh';
+    localStorage.setItem(LANGUAGE_KEY, currentLanguage);
+    applyLanguage();
   }
 
   // --- 分类旧英文名称映射到中文（兼容已有收藏数据）---
@@ -41,13 +333,77 @@
     'Character': '角色',
     'Abstract': '抽象',
     'Nature': '自然',
-    'Cityscape': '城市'
+    'Cityscape': '城市',
+    'Video': '视频提示词',
+    '视频': '视频提示词',
+    'portrait': '人像',
+    'fashion': '时尚',
+    'product': '静物',
+    'cinematic': '人像',
+    'video': '视频提示词',
+    'ecommerce': '电商视觉',
+    'e-commerce': '电商视觉',
+    '电商': '电商视觉'
   };
+
+  const COMMERCE_TYPES = [
+    { name: '产品主图', signals: ['product hero', 'product shot', 'packshot', 'white background', '产品主图', '白底图', '商品主图'] },
+    { name: '场景种草', signals: ['lifestyle product', 'product in use', '场景种草', '使用场景', '生活方式产品'] },
+    { name: '广告海报', signals: ['product ad', 'advertising poster', '广告海报', '商品广告', '营销海报'] },
+    { name: '商品详情页', signals: ['product detail page', 'product feature', '详情页', '商品卖点', '功能展示'] },
+    { name: '模特展示', signals: ['model wearing', 'product try-on', '模特展示', '试穿', '商品展示模特'] },
+    { name: 'UGC / 口碑', signals: ['ugc', 'unboxing', 'product review', 'testimonial', '开箱', '测评', '口碑'] },
+    { name: '品牌视觉', signals: ['brand campaign', 'brand visual', 'key visual', 'brand identity', 'visual identity', 'logo design', 'logo proposal', 'vi proposal', '品牌视觉', '品牌广告', '品牌活动', '品牌识别', '视觉识别', '标志设计', 'logo提案', 'vi提案'] },
+    { name: '电商视频', signals: ['ecommerce video', 'product video', 'video ad', '电商视频', '商品视频', '短视频广告'] }
+  ];
+
+  const COMMERCE_FILTERS = [
+    { id: 'AllCommerce', label: '全部电商' },
+    ...COMMERCE_TYPES.map(type => ({ id: type.name, label: type.name }))
+  ];
+
+  const LEGACY_CATEGORY_FACETS = {
+    '电商视觉': { commerceType: 'AllCommerce' },
+    '人像': { contentType: 'people' },
+    '角色': { contentType: 'people' },
+    '风景': { contentType: 'nature' },
+    '自然': { contentType: 'nature' },
+    '动物': { contentType: 'nature' },
+    '建筑': { contentType: 'architecture' },
+    '静物': { contentType: 'photography' },
+    '视频提示词': { contentType: 'video' },
+    '科幻': { style: 'future' },
+    '赛博朋克': { style: 'future' },
+    '奇幻': { style: 'fantasy' },
+    '抽象': { style: 'abstract' },
+    '美食': { scene: 'food' },
+    '时尚': { scene: 'fashion' },
+    '城市': { scene: 'city' }
+  };
+
+  function detectCommerceType(item = {}) {
+    if (COMMERCE_TYPES.some(type => type.name === item.commerceType)) return item.commerceType;
+    const text = [item.title, item.prompt, ...(Array.isArray(item.tags) ? item.tags : [])]
+      .filter(Boolean)
+      .join(' ')
+      .toLowerCase();
+    return COMMERCE_TYPES.find(type => type.signals.some(signal => text.includes(signal)))?.name || '';
+  }
 
   function normalizeCategory(cat) {
     if (!cat) return '抽象';
-    if (CATEGORY_LEGACY_MAP[cat]) return CATEGORY_LEGACY_MAP[cat];
-    return cat;
+    const value = String(cat).trim();
+    return CATEGORY_LEGACY_MAP[value] || CATEGORY_LEGACY_MAP[value.toLowerCase()] || value;
+  }
+
+  function mergeLegacyCategoryIntoExplore(category) {
+    const mapping = LEGACY_CATEGORY_FACETS[normalizeCategory(category)];
+    if (!mapping) return;
+    currentCategory = 'All';
+    if (currentContentType === 'All' && mapping.contentType) currentContentType = mapping.contentType;
+    if (currentStyle === 'All' && mapping.style) currentStyle = mapping.style;
+    if (currentScene === 'All' && mapping.scene) currentScene = mapping.scene;
+    if (currentCommerceType === 'All' && mapping.commerceType) currentCommerceType = mapping.commerceType;
   }
 
   function limitedText(value, maxLength) {
@@ -85,10 +441,17 @@
     if (!item || typeof item !== 'object') return null;
 
     const prompt = limitedText(item.prompt, 30000);
+    const tags = normalizeTags(item.tags);
+    const commerceType = detectCommerceType({ ...item, prompt, tags });
     const requestedCategory = normalizeCategory(limitedText(item.category, 32));
-    const category = CATEGORIES.some(option => option.name === requestedCategory)
-      ? requestedCategory
-      : autoCategorize(prompt);
+    const categoryText = [item.title, ...tags, prompt].filter(Boolean).join(' ');
+    const category = commerceType
+      ? '电商视觉'
+      : item.mediaType === 'video'
+      ? '视频提示词'
+      : CATEGORIES.some(option => option.name === requestedCategory)
+        ? requestedCategory
+        : autoCategorize(categoryText);
     const images = sanitizeImageUrls([
       ...(Array.isArray(item.images) ? item.images : []),
       item.image
@@ -100,7 +463,8 @@
       title: limitedText(item.title, 180),
       prompt,
       category,
-      tags: normalizeTags(item.tags),
+      commerceType,
+      tags,
       image: images[0] || '',
       images,
       rawImages: images,
@@ -115,6 +479,18 @@
 
   function isDomesticSite() {
     return window.location.hostname === DOMESTIC_HOST;
+  }
+
+  function getCollectionsUrl() {
+    // The domestic deployment already contains the released data. Avoid making
+    // visitors wait for external GitHub raw endpoints from inside mainland China.
+    return isDomesticSite() ? DOMESTIC_COLLECTIONS_URL : PRIMARY_COLLECTIONS_URL;
+  }
+
+  function getCollectionsRequestUrl() {
+    const url = new URL(getCollectionsUrl(), window.location.href);
+    if (!isDomesticSite()) url.searchParams.set('_', String(Date.now()));
+    return url.toString();
   }
 
   function getCollectionSortTime(item) {
@@ -138,7 +514,11 @@
     if (collectionsLoading && !force) return collectionsLoading;
 
     const request = (async () => {
-      const response = await fetch(REMOTE_COLLECTIONS_URL, { cache: 'no-store' });
+      const response = await fetch(getCollectionsRequestUrl(), {
+        // The primary site needs the latest GitHub write immediately. The
+        // domestic site revalidates its local, released asset instead.
+        cache: isDomesticSite() ? 'no-cache' : 'no-store'
+      });
       if (!response.ok) throw new Error(`Unable to load collections (${response.status})`);
       const payload = await response.json();
       const list = Array.isArray(payload) ? payload : payload?.collections;
@@ -156,7 +536,7 @@
 
   function requestCollectionMutation(operation, item) {
     if (!extensionBridgeReady) {
-      showToast('请先安装并配置 PromptHub 浏览器插件，再保存收藏');
+      showToast('请先安装并配置画引浏览器插件，再保存收藏');
       return false;
     }
     window.postMessage({ source: 'prompthub-site', operation, item }, window.location.origin);
@@ -208,7 +588,7 @@
       ...patch,
       id: item.id,
       date: item.date || now.slice(0, 10),
-      source: item.source || 'PromptHub 编辑',
+      source: item.source || '画引编辑',
       updatedAt: now
     });
     return next && saveCollection(next) ? next : null;
@@ -264,6 +644,7 @@
   ];
 
   function autoCategorize(text) {
+    if (detectCommerceType({ prompt: text })) return '电商视觉';
     const lower = (text || '').toLowerCase();
     let category = '抽象';
     let maxScore = 0;
@@ -359,8 +740,11 @@
   function getExploreHash() {
     const params = new URLSearchParams();
     if (currentCategory !== 'All') params.set('category', currentCategory);
+    if (currentCommerceType !== 'All') params.set('commerceType', currentCommerceType);
+    if (currentContentType !== 'All') params.set('type', currentContentType);
+    if (currentStyle !== 'All') params.set('style', currentStyle);
+    if (currentScene !== 'All') params.set('scene', currentScene);
     if (currentSearch.trim()) params.set('q', currentSearch.trim());
-    if (currentPage > 1) params.set('page', String(currentPage));
     const query = params.toString();
     return query ? `#/explore?${query}` : '#/explore';
   }
@@ -370,7 +754,7 @@
     const targetHash = getExploreHash();
     if (window.location.hash === targetHash) return;
     const method = replace ? 'replaceState' : 'pushState';
-    history[method]({ route: 'explore', category: currentCategory, search: currentSearch, page: currentPage }, '', targetHash);
+    history[method]({ route: 'explore', category: currentCategory, commerceType: currentCommerceType, contentType: currentContentType, style: currentStyle, scene: currentScene, search: currentSearch, page: currentPage }, '', targetHash);
   }
 
   function setNavActive(route) {
@@ -383,6 +767,10 @@
     if (route === 'collections') return '返回我的收藏';
     if (route === 'home') return '返回首页精选';
     if (currentSearch.trim()) return `返回「${currentSearch.trim()}」结果`;
+    if (currentCommerceType !== 'All') return `返回${currentCommerceType}内容`;
+    if (currentContentType !== 'All') return `返回${exploreFacets.CONTENT_TYPES.find(item => item.id === currentContentType)?.label || '筛选'}内容`;
+    if (currentStyle !== 'All') return `返回${exploreFacets.STYLES.find(item => item.id === currentStyle)?.label || '风格'}内容`;
+    if (currentScene !== 'All') return `返回${exploreFacets.SCENES.find(item => item.id === currentScene)?.label || '场景'}内容`;
     if (currentCategory !== 'All') return `返回${currentCategory}分类`;
     return '返回探索';
   }
@@ -395,22 +783,32 @@
     detailReturnContext = {
       route,
       category: currentCategory,
+      commerceType: currentCommerceType,
+      contentType: currentContentType,
+      style: currentStyle,
+      scene: currentScene,
       search: currentSearch,
       page: currentPage,
       label: getBrowseContextLabel(route)
     };
   }
 
-  function showExploreWithState({ category = 'All', search = '', page = 1, hash = '#/explore' } = {}) {
+  function showExploreWithState({ category = 'All', commerceType = 'All', contentType = 'All', style = 'All', scene = 'All', search = '', page = 1, hash = '#/explore' } = {}) {
     currentRoute = 'explore';
     currentCategory = category;
+    currentCommerceType = commerceType;
+    currentContentType = contentType;
+    currentStyle = style;
+    currentScene = scene;
+    mergeLegacyCategoryIntoExplore(category);
     currentSearch = search;
-    currentPage = page;
+    currentPage = 1;
     window.scrollTo(0, 0);
     renderExplore();
     setNavActive('explore');
-    if (window.location.hash !== hash) {
-      history.pushState({ route: 'explore', category, search, page }, '', hash);
+    const targetHash = hash.startsWith('#/category/') ? getExploreHash() : hash;
+    if (window.location.hash !== targetHash) {
+      history.pushState({ route: 'explore', category: currentCategory, commerceType: currentCommerceType, contentType: currentContentType, style: currentStyle, scene: currentScene, search: currentSearch, page: currentPage }, '', targetHash);
     }
   }
 
@@ -640,6 +1038,8 @@
     const imageUrl = sanitizeImageUrl(prompt.image)
       || sanitizeImageUrl(prompt.images?.[0])
       || fallbackImage(prompt.id);
+    const ratioMatch = String(prompt.aspectRatio || '').match(/^(\d+(?:\.\d+)?)\s*[:/]\s*(\d+(?:\.\d+)?)$/);
+    const imageRatio = ratioMatch ? `${ratioMatch[1]} / ${ratioMatch[2]}` : '4 / 5';
 
     // 来源标记：收藏 / 已验证 / 待验证
     let sourceHTML;
@@ -663,7 +1063,7 @@
 
     card.innerHTML = `
       <div class="prompt-card-img-wrap">
-        <img class="prompt-card-img" src="${escapeHtml(imageUrl)}" alt="${escapeHtml(prompt.title)}" loading="lazy" />
+        <img class="prompt-card-img" style="--prompt-image-ratio: ${imageRatio}" src="${escapeHtml(imageUrl)}" alt="${escapeHtml(prompt.title)}" loading="lazy" />
         ${multiImgBadge}
         ${arBadge}
       </div>
@@ -958,7 +1358,7 @@
         <div class="container">
           <div class="detail-breadcrumb">
             <button class="detail-back" type="button" data-action="return-browse">← ${escapeHtml(returnLabel)}</button>
-            <span>PromptHub</span>
+            <span>画引</span>
             <span>/</span>
             <button class="detail-category-filter" type="button" data-category="${escapeHtml(prompt.category)}">${escapeHtml(prompt.category)}</button>
             <span>/</span>
@@ -1131,6 +1531,7 @@
           : autoDetectTags(promptText);
         const updated = saveOrUpdateCollection(prompt, {
           title,
+          ...(title !== prompt.title ? { titleSource: 'manual' } : {}),
           prompt: promptText,
           category: $('#detail-edit-category')?.value || prompt.category,
           aspectRatio: ($('#detail-edit-aspect')?.value || '').trim(),
@@ -1182,6 +1583,7 @@
         relatedGrid.innerHTML = '<div class="no-results"><div class="no-results-icon">🔎</div><p>这个分类暂时没有更多相关提示词</p></div>';
       }
     }
+    applyLanguage(app);
   }
 
   window.switchDetailImage = function (index) {
@@ -1195,7 +1597,7 @@
   };
 
   window.returnToBrowse = function () {
-    const context = detailReturnContext || { route: 'explore', category: 'All', search: '', page: 1 };
+    const context = detailReturnContext || { route: 'explore', category: 'All', commerceType: 'All', contentType: 'All', style: 'All', scene: 'All', search: '', page: 1 };
     detailReturnContext = null;
 
     if (context.route === 'home') {
@@ -1212,11 +1614,16 @@
 
     currentRoute = 'explore';
     currentCategory = context.category || 'All';
+    currentCommerceType = context.commerceType || 'All';
+    currentContentType = context.contentType || 'All';
+    currentStyle = context.style || 'All';
+    currentScene = context.scene || 'All';
     currentSearch = context.search || '';
     currentPage = context.page || 1;
     window.scrollTo(0, 0);
     renderExplore();
     setNavActive('explore');
+    applyLanguage();
     const targetHash = getExploreHash();
     if (window.location.hash !== targetHash) history.pushState({ route: 'explore' }, '', targetHash);
   };
@@ -1225,6 +1632,10 @@
     detailReturnContext = null;
     showExploreWithState({
       category: catName,
+      commerceType: 'All',
+      contentType: 'All',
+      style: 'All',
+      scene: 'All',
       search: '',
       page: 1,
       hash: `#/category/${encodeURIComponent(catName)}`
@@ -1235,21 +1646,20 @@
   function renderHome() {
     const app = $('#app');
     const allPromptItems = getAllPromptItems();
-    const todayTop = [...allPromptItems].sort((a, b) => b.likes - a.likes).slice(0, 6);
-    const heroPrompts = [...allPromptItems]
-      .filter(p => p.image)
-      .sort((a, b) => b.likes - a.likes)
-      .slice(0, 16);
+    const dailyCuratedPrompts = dailyCuration.getDailyCuratedPrompts(allPromptItems, 16);
+    const todayTop = dailyCuratedPrompts.slice(0, 6);
+    const heroPrompts = dailyCuratedPrompts;
     const heroColumns = [0, 1, 2, 3].map(columnIndex =>
       heroPrompts.filter((_, index) => index % 4 === columnIndex)
     );
     const catCounts = {};
     CATEGORIES.forEach(c => { catCounts[c.name] = 0; });
     getAllPromptItems().forEach(p => { catCounts[p.category] = (catCounts[p.category] || 0) + 1; });
+    catCounts['视频提示词'] = getAllPromptItems().filter(p => p.mediaType === 'video' || p.category === '视频提示词').length;
 
     app.innerHTML = `
-      <section class="hero hero-gallery" aria-label="PromptHub prompt gallery">
-        <h1 class="sr-only">PromptHub AI 提示词收藏库</h1>
+      <section class="hero hero-gallery" aria-label="HuaYin prompt gallery">
+        <h1 class="sr-only">画引 AI 提示词收藏库</h1>
         <div class="hero-intro" aria-hidden="false">
           <h2>探索高品质纳米提示词库。</h2>
           <p>高品质提示词库持续增长，每日更新，可直接复制粘贴，生成令人惊叹的 AI 图像。</p>
@@ -1310,7 +1720,7 @@
       <section class="section">
         <div class="container">
           <h2 class="section-title">🔥 今日精选提示词</h2>
-          <p class="section-subtitle">经过精心策展的高质量提示词，每个都经过测试与验证，确保生成效果出色。</p>
+          <p class="section-subtitle">每日自动分析主站内容，优先展示当天新收集、资料完整且主题多样的高质量提示词。</p>
           <div class="top-prompts" id="top-prompts"></div>
           <div style="text-align:center;margin-top:32px;">
             <button class="btn btn-outline" type="button" data-action="open-explore">查看全部提示词 →</button>
@@ -1326,8 +1736,8 @@
       </section>
       <section class="section features">
         <div class="container">
-          <h2 class="section-title">✨ 为什么选择 PromptHub</h2>
-          <p class="section-subtitle">PromptHub 是优质 AI 提示词的首选平台，为创作者提供专业级资源。</p>
+          <h2 class="section-title">✨ 为什么选择画引</h2>
+          <p class="section-subtitle">画引是优质 AI 提示词的首选平台，为创作者提供专业级资源。</p>
           <div class="features-grid">
             <div class="feature-card"><div class="feature-icon">📚</div><div class="feature-title">精选提示词库</div><div class="feature-desc">${PROMPTS.length}+ 经过严格筛选的提示词，覆盖各类风格与场景，专业级输出质量。</div></div>
             <div class="feature-card"><div class="feature-icon">⚡</div><div class="feature-title">一键复制工作流</div><div class="feature-desc">无需手动选择文本，点击即可复制完整提示词，简化你的创作流程。</div></div>
@@ -1367,7 +1777,7 @@
       <section class="section">
         <div class="container">
           <h2 class="section-title">❓ 常见问题</h2>
-          <p class="section-subtitle">关于 PromptHub 和 AI 提示词，你想知道的都在这里。</p>
+          <p class="section-subtitle">关于画引和 AI 提示词，你想知道的都在这里。</p>
           <div class="faq-list" id="faq-list"></div>
         </div>
       </section>
@@ -1382,7 +1792,8 @@
     const topContainer = $('#top-prompts');
     todayTop.forEach(p => {
       const item = el('div', { class: 'top-prompt-item', onclick: () => openPromptDetail(p.id) });
-      item.innerHTML = `<img class="top-prompt-thumb" src="${p.image}" alt="${p.title}" loading="lazy" /><div class="top-prompt-info"><div class="top-prompt-title">${p.title}</div><div class="top-prompt-meta"><span>${p.category}</span>${p.verified ? '<span class="verified-badge">已验证</span>' : ''}<span>❤ ${p.likes}</span></div></div>`;
+      const selectionMeta = Number(p.likes) > 0 ? `<span>❤ ${p.likes}</span>` : '<span>新入库</span>';
+      item.innerHTML = `<img class="top-prompt-thumb" src="${p.image}" alt="${p.title}" loading="lazy" /><div class="top-prompt-info"><div class="top-prompt-title">${p.title}</div><div class="top-prompt-meta"><span>${p.category}</span>${p.verified ? '<span class="verified-badge">已验证</span>' : ''}${selectionMeta}</div></div>`;
       topContainer.appendChild(item);
     });
 
@@ -1402,7 +1813,175 @@
     });
   }
 
+  function renderDisclaimer() {
+    const app = $('#app');
+    app.innerHTML = `
+      <section class="legal-hero">
+        <div class="container legal-hero-inner">
+          <p class="legal-eyebrow">画引 HuaYin</p>
+          <h1>免责声明与免费使用说明</h1>
+          <p>画引提供可检索、可复制的 AI 提示词参考内容。本页说明免费访问范围，以及使用内容前应了解的责任边界。</p>
+        </div>
+      </section>
+      <section class="legal-section">
+        <div class="container legal-layout">
+          <nav class="legal-toc" aria-label="免责声明目录">
+            <a href="#disclaimer-free">免费使用</a>
+            <a href="#disclaimer-content">内容与来源</a>
+            <a href="#disclaimer-output">AI 输出</a>
+            <a href="#disclaimer-compliance">合规责任</a>
+            <a href="#disclaimer-privacy">个人信息</a>
+            <a href="#disclaimer-feedback">侵权反馈</a>
+          </nav>
+          <article class="legal-content">
+            <section id="disclaimer-free">
+              <h2>免费使用</h2>
+              <p>画引对公开展示的提示词内容不收取访问、浏览或复制费用。本站并不代表任何第三方模型、素材平台或外部工具免费；使用这些服务时产生的订阅、算力、素材或其他费用，以对应服务商的规则为准。</p>
+            </section>
+            <section id="disclaimer-content">
+              <h2>内容与来源</h2>
+              <p>本站内容来自用户收藏、公开可访问来源与经整理的案例。提示词、参考图、视频封面、品牌元素和外部链接可能分别受到原作者、平台或权利人的规则约束。保留来源链接不等于取得原作品、人物肖像、商标或素材的全部授权。</p>
+              <p>使用前请自行核对来源页面、模型条款和适用授权；将内容用于公开发布、广告投放、商品销售或客户项目时，尤其应先确认所需权利。</p>
+            </section>
+            <section id="disclaimer-output">
+              <h2>AI 输出不作保证</h2>
+              <p>提示词的效果会受模型版本、参数、输入素材、地区能力和平台策略影响。画引不保证任何提示词在特定模型中的生成效果、稳定性、可用性、适销性或适合特定用途。</p>
+            </section>
+            <section id="disclaimer-compliance">
+              <h2>合规使用责任</h2>
+              <p>用户应对自己的输入、生成结果、发布行为及商业用途负责。不得利用本站内容实施违法活动，或侵犯他人的著作权、商标权、肖像权、隐私权及其他合法权益。涉及真实人物、品牌、受保护作品或敏感场景时，请取得必要授权并遵守适用规则。</p>
+              <p>本页是一般性使用说明，不构成法律意见。面对具体业务、跨境发行或争议情形，请向有资质的专业人士咨询。</p>
+            </section>
+            <section id="disclaimer-privacy">
+              <h2>个人信息与凭证</h2>
+              <p>本站不要求注册账号。浏览器插件中的 GitHub Token 仅用于用户自行发起的收藏同步，应由用户自行保管，切勿将 Token、密码、Cookie 或其他凭证粘贴到提示词、图片说明或公开页面中。</p>
+            </section>
+            <section id="disclaimer-feedback">
+              <h2>侵权与内容反馈</h2>
+              <p>如你认为本站内容侵犯了你的合法权益，或发现来源、提示词、图片信息有误，请通过 <a href="https://github.com/kxbbw81-glitch/PromptHub-/issues" target="_blank" rel="noreferrer noopener">画引 GitHub Issues</a> 提交内容链接、权利说明和可核验材料。收到后会进行核查，并视情况更正、下线或保留必要的说明记录。</p>
+            </section>
+          </article>
+        </div>
+      </section>
+    `;
+  }
+
   // --- Render: Explore ---
+  function getExploreState(overrides = {}) {
+    return {
+      category: currentCategory,
+      commerceType: currentCommerceType,
+      contentType: currentContentType,
+      style: currentStyle,
+      scene: currentScene,
+      search: currentSearch,
+      ...overrides
+    };
+  }
+
+  function matchesExploreState(prompt, state = getExploreState()) {
+    if (state.category === '视频提示词') {
+      if (prompt.mediaType !== 'video' && prompt.category !== '视频提示词') return false;
+    } else if (state.category !== 'All' && prompt.category !== state.category) {
+      return false;
+    }
+    if (state.commerceType === 'AllCommerce') {
+      if (prompt.category !== '电商视觉' && !prompt.commerceType) return false;
+    } else if (state.commerceType !== 'All' && prompt.commerceType !== state.commerceType) return false;
+    if (!exploreFacets.matchesFacet(prompt, 'contentType', state.contentType)) return false;
+    if (!exploreFacets.matchesFacet(prompt, 'style', state.style)) return false;
+    if (!exploreFacets.matchesFacet(prompt, 'scene', state.scene)) return false;
+    if (state.search.trim()) {
+      const query = state.search.toLowerCase().trim();
+      const text = [prompt.title, prompt.category, prompt.commerceType, ...(prompt.tags || []), prompt.prompt]
+        .filter(Boolean)
+        .join(' ')
+        .toLowerCase();
+      if (!text.includes(query)) return false;
+    }
+    return true;
+  }
+
+  function getExploreItems() {
+    const collections = getCollections().map(c => ({ ...c, isCollection: true, verified: false, likes: 0 }));
+    return [...collections, ...PROMPTS];
+  }
+
+  function getFacetCount(items, group, id) {
+    const state = getExploreState({ [group]: 'All' });
+    return items.filter(prompt => {
+      if (!matchesExploreState(prompt, state)) return false;
+      if (id === 'All') return true;
+      if (group === 'category') {
+        return id === '视频提示词'
+          ? prompt.mediaType === 'video' || prompt.category === '视频提示词'
+          : prompt.category === id;
+      }
+      if (group === 'commerceType') {
+        return id === 'AllCommerce'
+          ? prompt.category === '电商视觉' || Boolean(prompt.commerceType)
+          : prompt.commerceType === id;
+      }
+      return exploreFacets.matchesFacet(prompt, group, id);
+    }).length;
+  }
+
+  function createExploreFacetChip({ label, count, active, onClick, disabled = false }) {
+    const text = `${label} ${count}`;
+    const attrs = {
+      class: `filter-chip${active ? ' active' : ''}`,
+      type: 'button',
+      'aria-pressed': active ? 'true' : 'false'
+    };
+    if (disabled) attrs.disabled = 'disabled';
+    const chip = el('button', attrs, text);
+    chip.addEventListener('click', onClick);
+    return chip;
+  }
+
+  function renderFacetChipRow(container, group, definitions, currentValue, allLabel, items) {
+    if (!container) return;
+    container.replaceChildren();
+    const setValue = (value) => {
+      if (group === 'category') currentCategory = value;
+      else if (group === 'commerceType') currentCommerceType = value;
+      else if (group === 'contentType') currentContentType = value;
+      else if (group === 'style') currentStyle = value;
+      else if (group === 'scene') currentScene = value;
+      currentPage = 1;
+      renderExploreFacets();
+      renderPromptsGrid();
+      syncExploreHash(false);
+    };
+
+    const allCount = getFacetCount(items, group, 'All');
+    container.appendChild(createExploreFacetChip({
+      label: allLabel,
+      count: allCount,
+      active: currentValue === 'All',
+      onClick: () => setValue('All')
+    }));
+
+    definitions.forEach(definition => {
+      const count = getFacetCount(items, group, definition.id || definition.name);
+      container.appendChild(createExploreFacetChip({
+        label: definition.label || definition.name,
+        count,
+        active: currentValue === (definition.id || definition.name),
+        disabled: count === 0 && currentValue !== (definition.id || definition.name),
+        onClick: () => setValue(definition.id || definition.name)
+      }));
+    });
+  }
+
+  function renderExploreFacets() {
+    const items = getExploreItems();
+    renderFacetChipRow($('#content-type-filter-chips'), 'contentType', exploreFacets.CONTENT_TYPES, currentContentType, '全部类型', items);
+    renderFacetChipRow($('#style-filter-chips'), 'style', exploreFacets.STYLES, currentStyle, '全部风格', items);
+    renderFacetChipRow($('#scene-filter-chips'), 'scene', exploreFacets.SCENES, currentScene, '全部场景', items);
+    renderFacetChipRow($('#commerce-filter-chips'), 'commerceType', COMMERCE_FILTERS, currentCommerceType, '不限电商', items);
+  }
+
   function renderExplore() {
     const app = $('#app');
     app.innerHTML = `
@@ -1413,17 +1992,34 @@
         </div>
       </div>
       <section class="section" style="padding-top:32px;">
-        <div class="container">
+        <div class="container explore-gallery-container">
           <div class="explore-toolbar">
             <div class="explore-search">
-              <input type="text" id="explore-search-input" placeholder="搜索提示词标题、标签或内容..." value="${currentSearch}" />
+              <input type="text" id="explore-search-input" placeholder="搜索提示词标题、标签或内容..." value="${escapeHtml(currentSearch)}" />
             </div>
           </div>
-          <div class="filter-chips" id="filter-chips"></div>
+          <section class="explore-facet-panel" aria-label="提示词筛选">
+            <div class="explore-facet-row">
+              <h2 class="explore-facet-label">内容类型</h2>
+              <div class="filter-chips" id="content-type-filter-chips"></div>
+            </div>
+            <div class="explore-facet-row">
+              <h2 class="explore-facet-label">视觉风格</h2>
+              <div class="filter-chips" id="style-filter-chips"></div>
+            </div>
+            <div class="explore-facet-row">
+              <h2 class="explore-facet-label">使用场景</h2>
+              <div class="filter-chips" id="scene-filter-chips"></div>
+            </div>
+            <div class="explore-facet-row" id="commerce-filter-row">
+              <h2 class="explore-facet-label">电商视觉</h2>
+              <div class="filter-chips" id="commerce-filter-chips"></div>
+            </div>
+          </section>
           <div class="active-filter-bar" id="active-filter-bar"></div>
           <div style="margin:24px 0;font-size:14px;color:var(--text-muted);" id="result-count"></div>
-          <div class="prompts-grid" id="prompts-grid"></div>
-          <div class="pagination" id="pagination"></div>
+          <div class="prompts-grid prompts-masonry" id="prompts-grid"></div>
+          <div class="explore-load-sentinel" id="explore-load-sentinel" aria-hidden="true"></div>
           <div class="no-results" id="no-results" style="display:none;">
             <div class="no-results-icon">🔍</div>
             <p>没有找到匹配的提示词，试试其他关键词或分类吧</p>
@@ -1432,92 +2028,110 @@
       </section>
     `;
 
-    const chipsContainer = $('#filter-chips');
-    const allChip = el('button', { class: 'filter-chip' + (currentCategory === 'All' ? ' active' : '') }, '全部');
-    allChip.addEventListener('click', () => { currentCategory = 'All'; currentPage = 1; updateChips(); renderPromptsGrid(); syncExploreHash(false); });
-    chipsContainer.appendChild(allChip);
-
-    CATEGORIES.forEach(cat => {
-      const chip = el('button', { class: 'filter-chip' + (currentCategory === cat.name ? ' active' : '') }, `${cat.icon} ${cat.name}`);
-      chip.addEventListener('click', () => {
-        currentCategory = cat.name;
-        currentPage = 1;
-        updateChips();
-        renderPromptsGrid();
-        syncExploreHash(false);
-      });
-      chipsContainer.appendChild(chip);
-    });
-
     $('#explore-search-input').addEventListener('input', (e) => {
       currentSearch = e.target.value;
       currentPage = 1;
+      renderExploreFacets();
       renderPromptsGrid();
       syncExploreHash(true);
     });
 
+    renderExploreFacets();
     renderPromptsGrid();
+    applyLanguage(app);
   }
 
   function updateChips() {
-    const chips = $$('#filter-chips .filter-chip');
-    if (chips[0]) chips[0].classList.toggle('active', currentCategory === 'All');
-    CATEGORIES.forEach((cat, i) => {
-      if (chips[i + 1]) chips[i + 1].classList.toggle('active', currentCategory === cat.name);
-    });
+    renderExploreFacets();
+  }
+
+  function renderCommerceChips() {
+    renderExploreFacets();
   }
 
   window.clearExploreFilters = function () {
     currentCategory = 'All';
+    currentCommerceType = 'All';
+    currentContentType = 'All';
+    currentStyle = 'All';
+    currentScene = 'All';
     currentSearch = '';
     currentPage = 1;
     const input = $('#explore-search-input');
     if (input) input.value = '';
-    updateChips();
+    renderExploreFacets();
     renderPromptsGrid();
     syncExploreHash(false);
   };
 
-  function renderPromptsGrid() {
-    // 合并内置提示词 + 用户收藏，收藏排前面
-    const collections = getCollections().map(c => ({ ...c, isCollection: true, verified: false, likes: 0 }));
-    let allPrompts = [...collections, ...PROMPTS];
+  function stopExploreAutoLoad() {
+    if (!exploreLoadObserver) return;
+    exploreLoadObserver.disconnect();
+    exploreLoadObserver = null;
+  }
 
-    let filtered = allPrompts;
-    if (currentCategory !== 'All') filtered = filtered.filter(p => p.category === currentCategory);
-    if (currentSearch.trim()) {
-      const q = currentSearch.toLowerCase().trim();
-      filtered = filtered.filter(p =>
-        p.title.toLowerCase().includes(q) ||
-        p.category.toLowerCase().includes(q) ||
-        (p.tags || []).some(t => t.toLowerCase().includes(q)) ||
-        p.prompt.toLowerCase().includes(q)
-      );
+  function appendExploreCards(grid, prompts) {
+    prompts.forEach(prompt => grid.appendChild(createPromptCard(prompt, { isCollection: prompt.isCollection })));
+  }
+
+  function watchExploreAutoLoad(filtered) {
+    stopExploreAutoLoad();
+    const sentinel = $('#explore-load-sentinel');
+    if (!sentinel) return;
+    if (exploreVisibleCount >= filtered.length) {
+      sentinel.hidden = true;
+      return;
     }
 
+    sentinel.hidden = false;
+    exploreLoadObserver = new IntersectionObserver(entries => {
+      if (!entries.some(entry => entry.isIntersecting)) return;
+      const grid = $('#prompts-grid');
+      if (!grid || !document.body.contains(sentinel)) return;
+      const latestFiltered = getExploreItems().filter(prompt => matchesExploreState(prompt));
+      const nextBatch = latestFiltered.slice(exploreVisibleCount, exploreVisibleCount + EXPLORE_BATCH_SIZE);
+      if (!nextBatch.length) {
+        sentinel.hidden = true;
+        stopExploreAutoLoad();
+        return;
+      }
+      exploreVisibleCount += nextBatch.length;
+      appendExploreCards(grid, nextBatch);
+      watchExploreAutoLoad(latestFiltered);
+    }, { rootMargin: '900px 0px' });
+    exploreLoadObserver.observe(sentinel);
+  }
+
+  function renderPromptsGrid() {
+    const allPrompts = getExploreItems();
+    const filtered = allPrompts.filter(prompt => matchesExploreState(prompt));
     const grid = $('#prompts-grid');
     const noResults = $('#no-results');
     const countEl = $('#result-count');
-    const paginationEl = $('#pagination');
     const activeBar = $('#active-filter-bar');
 
-    // 分页计算
-    const totalPages = Math.ceil(filtered.length / PAGE_SIZE);
-    if (currentPage > totalPages && totalPages > 0) currentPage = 1;
-    const start = (currentPage - 1) * PAGE_SIZE;
-    const pageItems = filtered.slice(start, start + PAGE_SIZE);
+    stopExploreAutoLoad();
+    exploreVisibleCount = Math.min(EXPLORE_INITIAL_BATCH, filtered.length);
+    currentPage = 1;
 
     if (countEl) {
       let countText = `找到 ${filtered.length} 个提示词`;
+      if (currentContentType !== 'All') countText += ` · 类型: ${exploreFacets.CONTENT_TYPES.find(item => item.id === currentContentType)?.label || currentContentType}`;
+      if (currentStyle !== 'All') countText += ` · 风格: ${exploreFacets.STYLES.find(item => item.id === currentStyle)?.label || currentStyle}`;
+      if (currentScene !== 'All') countText += ` · 场景: ${exploreFacets.SCENES.find(item => item.id === currentScene)?.label || currentScene}`;
       if (currentCategory !== 'All') countText += ` · 分类: ${currentCategory}`;
+      if (currentCommerceType !== 'All') countText += ` · 电商: ${currentCommerceType === 'AllCommerce' ? '全部电商' : currentCommerceType}`;
       if (currentSearch) countText += ` · 搜索: "${currentSearch}"`;
-      if (totalPages > 1) countText += ` · 第 ${currentPage}/${totalPages} 页（每页 ${PAGE_SIZE} 个）`;
       countEl.textContent = countText;
     }
 
     if (activeBar) {
       const activeFilters = [];
+      if (currentContentType !== 'All') activeFilters.push(`<span>类型：${escapeHtml(exploreFacets.CONTENT_TYPES.find(item => item.id === currentContentType)?.label || currentContentType)}</span>`);
+      if (currentStyle !== 'All') activeFilters.push(`<span>风格：${escapeHtml(exploreFacets.STYLES.find(item => item.id === currentStyle)?.label || currentStyle)}</span>`);
+      if (currentScene !== 'All') activeFilters.push(`<span>场景：${escapeHtml(exploreFacets.SCENES.find(item => item.id === currentScene)?.label || currentScene)}</span>`);
       if (currentCategory !== 'All') activeFilters.push(`<span>分类：${escapeHtml(currentCategory)}</span>`);
+      if (currentCommerceType !== 'All') activeFilters.push(`<span>电商：${escapeHtml(currentCommerceType === 'AllCommerce' ? '全部电商' : currentCommerceType)}</span>`);
       if (currentSearch.trim()) activeFilters.push(`<span>关键词：${escapeHtml(currentSearch.trim())}</span>`);
       activeBar.innerHTML = activeFilters.length
         ? `${activeFilters.join('')}<button type="button" data-action="clear-explore-filters">清空筛选</button>`
@@ -1527,66 +2141,26 @@
     if (filtered.length === 0) {
       if (grid) grid.innerHTML = '';
       if (noResults) noResults.style.display = 'block';
-      if (paginationEl) paginationEl.innerHTML = '';
       return;
     }
+
     if (noResults) noResults.style.display = 'none';
     if (grid) {
       grid.innerHTML = '';
-      pageItems.forEach(p => grid.appendChild(createPromptCard(p, { isCollection: p.isCollection })));
+      appendExploreCards(grid, filtered.slice(0, exploreVisibleCount));
     }
-
-    // 渲染分页导航
-    renderPagination(totalPages, currentPage);
-  }
-
-  function renderPagination(totalPages, page) {
-    const container = $('#pagination');
-    if (!container || totalPages <= 1) {
-      if (container) container.innerHTML = '';
-      return;
-    }
-
-    let html = '';
-    // 上一页
-    html += `<button class="page-btn${page === 1 ? ' disabled' : ''}" ${page === 1 ? 'disabled' : ''} data-page="${page - 1}">‹ 上一页</button>`;
-
-    // 页码：显示当前页前后各 2 页，首尾必显示
-    const startPage = Math.max(1, page - 2);
-    const endPage = Math.min(totalPages, page + 2);
-
-    if (startPage > 1) {
-      html += `<button class="page-btn" data-page="1">1</button>`;
-      if (startPage > 2) html += '<span class="page-dots">…</span>';
-    }
-    for (let i = startPage; i <= endPage; i++) {
-      html += `<button class="page-btn${i === page ? ' active' : ''}" data-page="${i}">${i}</button>`;
-    }
-    if (endPage < totalPages) {
-      if (endPage < totalPages - 1) html += '<span class="page-dots">…</span>';
-      html += `<button class="page-btn" data-page="${totalPages}">${totalPages}</button>`;
-    }
-
-    // 下一页
-    html += `<button class="page-btn${page === totalPages ? ' disabled' : ''}" ${page === totalPages ? 'disabled' : ''} data-page="${page + 1}">下一页 ›</button>`;
-
-    container.innerHTML = html;
-    // 绑定点击事件
-    container.querySelectorAll('.page-btn:not(.disabled)').forEach(btn => {
-      btn.addEventListener('click', () => {
-        currentPage = parseInt(btn.dataset.page, 10);
-        renderPromptsGrid();
-        document.querySelector('.explore-header')?.scrollIntoView({ behavior: 'smooth' });
-      });
-    });
+    watchExploreAutoLoad(filtered);
   }
 
   function filterByCategory(catName) {
     currentCategory = catName;
+    mergeLegacyCategoryIntoExplore(catName);
     currentPage = 1;
     if (currentRoute === 'explore') {
       updateChips();
+      renderCommerceChips();
       renderPromptsGrid();
+      syncExploreHash(false);
     }
   }
 
@@ -1615,7 +2189,7 @@
     const app = $('#app');
     const collections = getCollections();
     const tabs = [
-      { key: 'paste',     icon: '📋', label: '粘贴识别', desc: '从社交媒体复制内容自动解析' },
+      { key: 'paste',     icon: '📋', label: '粘贴识别', desc: '从社交媒体或微信公众号复制内容自动解析' },
       { key: 'manual',    icon: '✏️', label: '手动创建', desc: '直接填写提示词详细信息' },
       { key: 'extension', icon: '🧩', label: '浏览器插件', desc: '安装插件一键收藏网页提示词' }
     ];
@@ -1655,16 +2229,17 @@
               <div class="imp-card-top">
                 <div class="imp-card-badge">STEP 1</div>
                 <h2>粘贴帖子内容</h2>
-                <p>从 Twitter / Reddit / Discord / 小红书 等复制帖子全文，智能算法自动提取提示词、图片和标题</p>
+                <p>从 Twitter / Reddit / Discord / 小红书 / 微信公众号复制帖子全文，智能算法自动提取提示词、图片和标题</p>
               </div>
               <div class="imp-paste-box">
-                <textarea id="import-raw" class="imp-paste-area" placeholder="在此粘贴从社交媒体复制的帖子内容…&#10;&#10;系统会自动识别：&#10;• 英文提示词文本&#10;• 图片 URL&#10;• 中文标题&#10;• 推荐分类与标签"></textarea>
+                <textarea id="import-raw" class="imp-paste-area" placeholder="在此粘贴从社交媒体或微信公众号复制的帖子内容…&#10;&#10;系统会自动识别：&#10;• 完整提示词文本&#10;• 图片 URL&#10;• 公众号文章标题&#10;• 推荐分类与标签"></textarea>
               </div>
               <div class="imp-paste-bar">
                 <div class="imp-chips">
                   <span class="imp-chip">Midjourney</span>
                   <span class="imp-chip">Stable Diffusion</span>
                   <span class="imp-chip">DALL·E</span>
+                  <span class="imp-chip">微信公众号</span>
                   <span class="imp-chip">图片链接</span>
                 </div>
                 <div class="imp-paste-btns">
@@ -1708,6 +2283,9 @@
                   <label>图片链接（可选）</label>
                   <input type="text" id="manual-image" placeholder="https://example.com/image.jpg" oninput="syncManualToEditor()" />
                 </div>
+                <div class="imp-form-actions">
+                  <button class="imp-btn-primary" type="button" data-action="save-manual">保存到收藏</button>
+                </div>
               </div>
             </div>
           </div>
@@ -1718,15 +2296,15 @@
               <div class="imp-ext-hero">
                 <div class="imp-ext-hero-icon">🧩</div>
                 <div class="imp-ext-hero-text">
-                  <h2>PromptHub 浏览器插件</h2>
-                  <p>在任意网页检测到 AI 提示词，点击 🍌 香蕉按钮即可一键收藏</p>
+                  <h2>画引浏览器插件</h2>
+                  <p>在任意网页检测到 AI 提示词，点击插件按钮即可一键收藏</p>
                 </div>
-                <a class="imp-ext-download" href="https://github.com/kxbbw81-glitch/PromptHub-/raw/main/PromptHub-Extension-v3.5.zip" download="PromptHub-Extension-v3.5.zip" aria-label="下载 PromptHub 浏览器插件 v3.5">↓ 下载浏览器插件 <span>v3.5</span></a>
+                <a class="imp-ext-download" href="https://github.com/kxbbw81-glitch/PromptHub-/raw/main/PromptHub-Extension-v3.29.0.zip" download="PromptHub-Extension-v3.29.0.zip" aria-label="下载画引浏览器插件 v3.29.0">↓ 下载浏览器插件 <span>v3.29.0</span></a>
               </div>
 
               <div class="imp-ext-feats">
                 <div class="imp-ext-feat">
-                  <span class="imp-ext-feat-icon">🍌</span>
+                  <span class="imp-ext-feat-icon">画</span>
                   <strong>一键收藏</strong>
                   <p>自动检测网页上的提示词，点击即可保存</p>
                 </div>
@@ -1738,7 +2316,7 @@
                 <div class="imp-ext-feat">
                   <span class="imp-ext-feat-icon">🔄</span>
                   <strong>批量同步</strong>
-                  <p>收集的提示词一键同步到 PromptHub 收藏库</p>
+                  <p>收集的提示词一键同步到画引收藏库</p>
                 </div>
               </div>
 
@@ -1759,7 +2337,7 @@
                   </div>
                   <div class="imp-ext-step">
                     <span class="imp-ext-step-n">4</span>
-                    <div><strong>开始使用</strong><p>工具栏出现 🍌 图标，在任意提示词页面点击即可收藏</p></div>
+                    <div><strong>开始使用</strong><p>工具栏出现插件图标，在任意提示词页面点击即可收藏</p></div>
                   </div>
                 </div>
               </div>
@@ -1789,6 +2367,7 @@
 
     if (currentParsed) renderImportPreview(currentParsed);
     if (importMode === 'manual') setTimeout(syncManualToEditor, 50);
+    applyLanguage(app);
   }
 
   window.setImportMode = function (mode) {
@@ -1890,7 +2469,7 @@
         <div class="imp-result-head">
           <div class="imp-result-badge">${isManual ? '实时预览' : '解析结果'}</div>
           <h2>${isManual ? '编辑提示词信息' : '已自动提取，可直接收藏'}</h2>
-          <p>所有字段均可编辑，点击图片右上角的心形按钮即可收藏</p>
+          <p>所有字段均可编辑，确认无误后点击保存到收藏</p>
         </div>
 
         <div class="imp-result-body">
@@ -1929,6 +2508,7 @@
 
         <div class="imp-result-foot imp-result-foot-subtle">
           <button class="imp-mini-btn" id="imp-cancel-preview" type="button">取消</button>
+          <button class="imp-btn-primary imp-save-btn" id="imp-save-preview-btn" type="button">保存到收藏</button>
           <span class="imp-save-hint">快捷键 Ctrl + Enter 也可收藏</span>
         </div>
       </div>
@@ -1946,6 +2526,7 @@
       thumb.addEventListener('click', () => window.switchGalleryImage(index));
     });
     $('#imp-save-fab')?.addEventListener('click', () => window.saveFromPreview(source));
+    $('#imp-save-preview-btn')?.addEventListener('click', () => window.saveFromPreview(source));
     $('#imp-copy-preview')?.addEventListener('click', () => window.copyPreviewPrompt());
     $('#imp-cancel-preview')?.addEventListener('click', () => window.cancelResult());
 
@@ -1970,6 +2551,7 @@
         });
       }
     }, 0);
+    applyLanguage(box);
   }
 
   window.updatePreviewImage = function (url) {
@@ -2030,6 +2612,7 @@
       thumb.addEventListener('error', () => { thumb.style.display = 'none'; }, { once: true });
       thumb.addEventListener('click', () => window.switchGalleryImage(index));
     });
+    applyLanguage(gallery);
   }
 
   window.copyPreviewPrompt = function () {
@@ -2061,7 +2644,8 @@
       image: rawImages[0] || '',          // 兼容旧逻辑：第一张图
       images: rawImages,                   // 新字段：全部图片
       date: new Date().toISOString().slice(0, 10),
-      source: source === 'manual' ? '手动录入' : '粘贴导入'
+      source: source === 'manual' ? '手动录入' : '粘贴导入',
+      ...(source === 'manual' ? { titleSource: 'manual' } : {})
     };
 
     if (saveCollection(item)) {
@@ -2112,6 +2696,7 @@
             <button class="imp-btn-ghost" type="button" data-action="set-import-mode" data-mode="manual">→ 切换到手动创建</button>
           </div>
         `;
+        applyLanguage(box);
         return;
       }
       currentParsed = { ...parsed, id: generateId(), date: new Date().toISOString().slice(0, 10) };
@@ -2129,6 +2714,7 @@
   };
 
   window.saveManual = function () {
+    syncManualToEditor();
     saveFromPreview('manual');
   };
 
@@ -2178,6 +2764,7 @@
           <button class="btn btn-yellow" style="margin-top:20px;" type="button" data-action="navigate" data-route="import">📥 去导入</button>
         </div>
       `;
+      applyLanguage(app);
       return;
     }
 
@@ -2195,6 +2782,7 @@
     });
 
     renderCollectionGrid('全部');
+    applyLanguage(app);
   }
 
   function renderCollectionGrid(filterCat) {
@@ -2204,6 +2792,7 @@
 
     if (list.length === 0) {
       content.innerHTML = '<div class="no-results"><div class="no-results-icon">🔍</div><p>该分类下暂无收藏</p></div>';
+      applyLanguage(content);
       return;
     }
 
@@ -2213,6 +2802,7 @@
     // Re-append (clear previous)
     content.innerHTML = '';
     content.appendChild(grid);
+    applyLanguage(content);
   }
 
   window.exportCollections = function () {
@@ -2302,13 +2892,23 @@
 
     if (route === 'home') renderHome();
     else if (route === 'explore') {
-      if (!opts.preserve) { currentCategory = 'All'; currentSearch = ''; currentPage = 1; }
+      if (!opts.preserve) {
+        currentCategory = 'All';
+        currentCommerceType = 'All';
+        currentContentType = 'All';
+        currentStyle = 'All';
+        currentScene = 'All';
+        currentSearch = '';
+        currentPage = 1;
+      }
       renderExplore();
     }
     else if (route === 'import') renderImport();
     else if (route === 'collections') renderCollections();
+    else if (route === 'disclaimer') renderDisclaimer();
 
     setNavActive(route);
+    applyLanguage();
   }
 
   window.navigate = navigate;
@@ -2374,6 +2974,14 @@
         window.parseAndPreview();
         return;
       }
+      if (action === 'save-manual') {
+        window.saveManual();
+        return;
+      }
+      if (action === 'toggle-language') {
+        setLanguage(getLang() === 'en' ? 'zh' : 'en');
+        return;
+      }
       if (action === 'export-collections') {
         window.exportCollections();
       }
@@ -2389,6 +2997,10 @@
         if (e.key === 'Enter') {
           currentSearch = e.target.value;
           currentCategory = 'All';
+          currentCommerceType = 'All';
+          currentContentType = 'All';
+          currentStyle = 'All';
+          currentScene = 'All';
           currentPage = 1;
           navigate('explore', { preserve: true });
           syncExploreHash(false);
@@ -2415,14 +3027,23 @@
       const categoryMatch = path.match(/^category\/(.+)$/);
       if (categoryMatch) {
         currentCategory = decodeURIComponent(categoryMatch[1]);
+        currentCommerceType = 'All';
+        currentContentType = 'All';
+        currentStyle = 'All';
+        currentScene = 'All';
         currentSearch = '';
         currentPage = 1;
+        mergeLegacyCategoryIntoExplore(currentCategory);
         navigate('explore', { preserve: true });
         return true;
       }
       const tagMatch = path.match(/^tag\/(.+)$/);
       if (tagMatch) {
         currentCategory = 'All';
+        currentCommerceType = 'All';
+        currentContentType = 'All';
+        currentStyle = 'All';
+        currentScene = 'All';
         currentSearch = decodeURIComponent(tagMatch[1]);
         currentPage = 1;
         navigate('explore', { preserve: true });
@@ -2431,12 +3052,21 @@
       if (path === 'explore') {
         const params = new URLSearchParams(queryString);
         currentCategory = params.get('category') || 'All';
+        currentCommerceType = params.get('commerceType') || 'All';
+        currentContentType = params.get('type') || 'All';
+        currentStyle = params.get('style') || 'All';
+        currentScene = params.get('scene') || 'All';
+        if (!exploreFacets.CONTENT_TYPES.some(item => item.id === currentContentType)) currentContentType = 'All';
+        if (!exploreFacets.STYLES.some(item => item.id === currentStyle)) currentStyle = 'All';
+        if (!exploreFacets.SCENES.some(item => item.id === currentScene)) currentScene = 'All';
+        if (!COMMERCE_FILTERS.some(item => item.id === currentCommerceType) && currentCommerceType !== 'All') currentCommerceType = 'All';
+        mergeLegacyCategoryIntoExplore(currentCategory);
         currentSearch = params.get('q') || '';
-        currentPage = Number(params.get('page') || 1);
+        currentPage = 1;
         navigate('explore', { preserve: true });
         return true;
       }
-      if (path && ['home', 'import', 'collections'].includes(path)) {
+      if (path && ['home', 'import', 'collections', 'disclaimer'].includes(path)) {
         navigate(path);
         return true;
       }
@@ -2448,6 +3078,7 @@
     // 页面加载时检查 hash 路由，没有 hash 则渲染首页
     if (!handleHashRoute()) {
       renderHome();
+      applyLanguage();
     }
 
     window.addEventListener('message', (event) => {
@@ -2496,7 +3127,7 @@
       loadCollections({ force: true }).then(() => {
         if (currentRoute === 'collections') renderCollections();
       }).catch(() => {});
-    }, 60000);
+    }, isDomesticSite() ? 300000 : 60000);
   }
 
   if (document.readyState === 'loading') {
