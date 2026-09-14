@@ -1,7 +1,36 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-14T01:23:33.587Z",
+  "updatedAt": "2026-09-14T01:26:40.573Z",
   "collections": [
+    {
+      "aspectRatio": "4:5",
+      "category": "抽象",
+      "date": "2026-09-14",
+      "domain": "x.com",
+      "id": "ext_mu0k8qjt_xlo6",
+      "image": "https://pbs.twimg.com/media/HR0-9Y7acAAsYgA?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HR0-9Y7acAAsYgA?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "构图・镜头： 4:5的纵向构图，镜头从床尾后方斜向上拍摄膝盖以上照片。将人物置于中央并大幅呈现，以敞开的背部和两侧的编织系带为主角。焦点集中在回头的脸部和缎子上。将人物大幅纳入，焦点对准主角，背景轻微虚化。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HR0-9Y7acAAsYgA?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/CyberTotal2026/status/2098945760817479956",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1789349080169,
+      "title": "朝日融化的黑缎子",
+      "url": "https://x.com/CyberTotal2026/status/2098945760817479956",
+      "collectedAt": "2026-09-14T01:24:40.756Z",
+      "mediaType": "image",
+      "githubSyncedAt": "2026-09-14T01:26:40.573Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "3:4",
       "category": "自然",
