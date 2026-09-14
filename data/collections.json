@@ -1,7 +1,38 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-14T01:26:40.573Z",
+  "updatedAt": "2026-09-14T01:54:14.959Z",
   "collections": [
+    {
+      "aspectRatio": "1:1",
+      "category": "自然",
+      "date": "2026-09-14",
+      "domain": "x.com",
+      "id": "ext_mu0l86gj_0x59",
+      "image": "https://pbs.twimg.com/media/HSBAHarXoAkJ8na?format=jpg&name=900x900",
+      "images": [
+        "https://pbs.twimg.com/media/HSBAHarXoAkJ8na?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HRyMJXmbAAATZkI?format=jpg&name=900x900"
+      ],
+      "model": "",
+      "prompt": "1:1，微距硬闪光，成年韩系女性前卫美妆特写，深灰黑亚光背景，极浅景深，脸与手占据画面主体。成年韩系女性，珍珠柔光眼影，长而分明的睫毛，自然眉形，半哑光真实肌肤，保留毛孔、细小绒毛和轻微雀斑感，柔和珊瑚豆沙唇，黑色碎发从额前和脸侧散落。头部轻微向画面右侧倾斜，正面凝视镜头，嘴角极轻上扬；一侧手掌从下方托住脸颊与下颌但不承重，五指顺着耳侧展开，手指佩戴纤细金属戒指。穿黑色高领上衣，只露颈部衣料边缘，佩戴小型珍珠耳饰。正前方近距离硬闪，眼神、鼻尖、唇峰、戒指与珍珠形成精细闪点，皮肤保持半哑光而非油亮。不要磨皮塑料感、夸张光泽、手指异常。右下角手写“ChenLin”署名。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HSBAHarXoAkJ8na?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HRyMJXmbAAATZkI?format=jpg&name=900x900"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/chenlinspark/status/2099034846542823708",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1789350733747,
+      "title": "靠近一点",
+      "url": "https://x.com/chenlinspark/status/2099034846542823708",
+      "collectedAt": "2026-09-14T01:52:14.707Z",
+      "mediaType": "image",
+      "githubSyncedAt": "2026-09-14T01:54:14.959Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "4:5",
       "category": "抽象",
