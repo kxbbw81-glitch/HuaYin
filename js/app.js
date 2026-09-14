@@ -5,6 +5,13 @@
 (function () {
   'use strict';
 
+  const BRAND_ZH = '画引';
+  const BRAND_EN = 'HuaYin';
+  const BRAND_TAGLINE_ZH = '画引 - 高质量 AI 图像提示词库';
+  const BRAND_TAGLINE_EN = 'HuaYin - Premium AI Image Prompt Library';
+  const LANGUAGE_KEY = 'huayin_language';
+  const ORIGINAL_TEXT = new WeakMap();
+
   // --- State ---
   let currentRoute = 'home';
   let currentCategory = 'All';
@@ -34,6 +41,281 @@
 
   if (!security || !exploreFacets || !dailyCuration) {
     throw new Error('PromptHubSecurity, PromptHubExploreFacets, and PromptHubDailyCuration are required before app.js');
+  }
+
+  let currentLanguage = localStorage.getItem(LANGUAGE_KEY) === 'en' ? 'en' : 'zh';
+
+  const EN_TEXT = {
+    '画引': BRAND_EN,
+    '首页': 'Home',
+    '探索提示词': 'Explore',
+    '📥 导入': '📥 Import',
+    '❤️ 我的收藏': '❤️ Collections',
+    '免责声明': 'Disclaimer',
+    '画引 - 高质量 AI 图像提示词库。每日更新，经过验证，一键复制。助你生成惊艳的 AI 图像作品，激发无限创作灵感。': 'HuaYin - Premium AI image prompt library. Updated daily, verified, and ready to copy for striking AI visuals.',
+    '探索': 'Explore',
+    '全部提示词': 'All prompts',
+    '主题分类': 'Categories',
+    '今日精选': 'Daily Picks',
+    '分类': 'Categories',
+    '资源': 'Resources',
+    '提示词工程': 'Prompt Engineering',
+    '常见问题': 'FAQ',
+    '使用场景': 'Use Cases',
+    '人像': 'Portrait',
+    '风景': 'Landscape',
+    '建筑': 'Architecture',
+    '科幻': 'Sci-Fi',
+    '赛博朋克': 'Cyberpunk',
+    '奇幻': 'Fantasy',
+    '动物': 'Animals',
+    '静物': 'Still Life',
+    '美食': 'Food',
+    '时尚': 'Fashion',
+    '角色': 'Characters',
+    '抽象': 'Abstract',
+    '自然': 'Nature',
+    '城市': 'City',
+    '电商视觉': 'E-commerce Visuals',
+    '视频提示词': 'Video Prompts',
+    '商品主图、广告海报与电商内容视觉': 'Product hero images, ad posters, and commerce visuals',
+    '人物肖像与面部特写': 'Portraits and close-up faces',
+    '自然风光与大地景观': 'Landscapes and natural scenery',
+    '建筑设计与空间结构': 'Architecture and spatial design',
+    '科幻未来与太空探索': 'Sci-fi futures and space exploration',
+    '赛博朋克与霓虹都市': 'Cyberpunk and neon cities',
+    '奇幻世界与魔法传说': 'Fantasy worlds and magical legends',
+    '动物野生与自然生灵': 'Wildlife and animals',
+    '静物写生与艺术构图': 'Still life and art composition',
+    '美食摄影与餐饮视觉': 'Food photography and dining visuals',
+    '时尚穿搭与潮流造型': 'Fashion styling and trends',
+    '角色设计与原创人物': 'Character design and original personas',
+    '抽象艺术与视觉实验': 'Abstract art and visual experiments',
+    '自然生态与植物花卉': 'Nature, plants, and flowers',
+    '城市景观与街景风貌': 'Cityscapes and street scenes',
+    '文生视频与动态镜头提示词': 'Text-to-video and motion prompts',
+    '© 2025 画引 HuaYin. 保留所有权利。': '© 2025 HuaYin. All rights reserved.',
+    '用 AI 打造': 'Built with AI',
+    '探索高品质纳米提示词库。': 'Explore a premium nano prompt library.',
+    '高品质提示词库持续增长，每日更新，可直接复制粘贴，生成令人惊叹的 AI 图像。': 'A growing library of high-quality prompts, updated daily and ready to copy for stunning AI images.',
+    '查看所有提示': 'View all prompts',
+    '每日更新 · 已验证 · 免费使用': 'Daily updates · Verified · Free to browse',
+    '发现高质量 AI 提示词激发无限创作灵感': 'Discover high-quality AI prompts and spark new visual ideas',
+    '不断增长的提示词收藏库，每日更新，一键复制即可使用，助你生成惊艳的 AI 图像作品。': 'A growing prompt library, updated daily and ready to copy for creating striking AI images.',
+    '🚀 探索所有提示词': '🚀 Explore all prompts',
+    '浏览分类': 'Browse categories',
+    '精选提示词': 'Curated prompts',
+    '主题分类': 'Categories',
+    '已验证': 'Verified',
+    '每日': 'Daily',
+    '持续更新': 'Updated',
+    '🔥 今日精选提示词': '🔥 Today\'s Curated Prompts',
+    '每日自动分析主站内容，优先展示当天新收集、资料完整且主题多样的高质量提示词。': 'Automatically refreshed from the primary library, prioritizing fresh, complete, and diverse prompts.',
+    '查看全部提示词 →': 'View all prompts →',
+    '📂 按主题探索': '📂 Explore by Theme',
+    '发现适合你下一个项目的完美提示词，涵盖最受欢迎的主题分类。': 'Find the right prompt for your next project across popular visual themes.',
+    '✨ 为什么选择 PromptHub': '✨ Why Choose HuaYin',
+    '✨ 为什么选择画引': '✨ Why Choose HuaYin',
+    'PromptHub 是优质 AI 提示词的首选平台，为创作者提供专业级资源。': 'HuaYin curates professional AI prompts for creators who need reliable visual inspiration.',
+    '画引是优质 AI 提示词的首选平台，为创作者提供专业级资源。': 'HuaYin curates professional AI prompts for creators who need reliable visual inspiration.',
+    '精选提示词库': 'Curated Prompt Library',
+    '一键复制工作流': 'One-click Copy Workflow',
+    '验证与测试': 'Verified and Tested',
+    '每日新鲜更新': 'Fresh Daily Updates',
+    '智能标签系统': 'Smart Tag System',
+    '完全免费使用': 'Free to Browse',
+    '🎯 真实使用场景': '🎯 Real Use Cases',
+    '解锁 AI 提示词的全部潜力，看看创作者们如何在不同领域使用它们。': 'See how creators use AI prompts across practical visual workflows.',
+    '🛒 电商与产品摄影': '🛒 E-commerce and Product Photography',
+    '📱 社交媒体与 AI 网红': '📱 Social Media and AI Influencers',
+    '📢 营销与视觉设计': '📢 Marketing and Visual Design',
+    '📊 信息图表与教育内容': '📊 Infographics and Education',
+    '🏛️ 建筑与室内设计': '🏛️ Architecture and Interior Design',
+    '🎮 游戏开发与概念艺术': '🎮 Game Development and Concept Art',
+    '🧪 完美提示词的艺术': '🧪 The Art of Better Prompts',
+    '掌握提示词工程的四大构建模块，让你的 AI 生成效果更上一层楼。': 'Learn the four building blocks that make AI image prompts more reliable.',
+    '核心主体描述': 'Core Subject',
+    '视觉风格关键词': 'Visual Style',
+    '光影与氛围词': 'Lighting and Mood',
+    '质感与品质标签': 'Texture and Quality',
+    '❓ 常见问题': '❓ FAQ',
+    '关于 PromptHub 和 AI 提示词，你想知道的都在这里。': 'Answers about HuaYin and AI image prompts.',
+    '关于画引和 AI 提示词，你想知道的都在这里。': 'Answers about HuaYin and AI image prompts.',
+    '免责声明与免费使用说明': 'Disclaimer and Free-use Notice',
+    'PromptHub 提供可检索、可复制的 AI 提示词参考内容。本页说明免费访问范围，以及使用内容前应了解的责任边界。': 'HuaYin provides searchable and copyable AI prompt references. This page explains free access and usage boundaries.',
+    '画引提供可检索、可复制的 AI 提示词参考内容。本页说明免费访问范围，以及使用内容前应了解的责任边界。': 'HuaYin provides searchable and copyable AI prompt references. This page explains free access and usage boundaries.',
+    '画引对公开展示的提示词内容不收取访问、浏览或复制费用。本站并不代表任何第三方模型、素材平台或外部工具免费；使用这些服务时产生的订阅、算力、素材或其他费用，以对应服务商的规则为准。': 'HuaYin does not charge for browsing or copying publicly displayed prompts. Third-party models, asset platforms, or external tools may still charge according to their own terms.',
+    '提示词的效果会受模型版本、参数、输入素材、地区能力和平台策略影响。画引不保证任何提示词在特定模型中的生成效果、稳定性、可用性、适销性或适合特定用途。': 'Prompt results depend on model versions, parameters, input materials, regional capabilities, and platform policies. HuaYin does not guarantee output quality, stability, availability, merchantability, or fitness for a particular purpose.',
+    '免费使用': 'Free Use',
+    '内容与来源': 'Content and Sources',
+    'AI 输出': 'AI Outputs',
+    '合规责任': 'Compliance Responsibility',
+    '个人信息': 'Personal Information',
+    '侵权反馈': 'Rights Feedback',
+    'AI 输出不作保证': 'No Guarantee for AI Outputs',
+    '🔍 探索提示词': '🔍 Explore Prompts',
+    '内容类型': 'Content Type',
+    '视觉风格': 'Visual Style',
+    '使用场景': 'Use Case',
+    '全部类型': 'All Types',
+    '全部风格': 'All Styles',
+    '全部场景': 'All Use Cases',
+    '不限电商': 'All Commerce',
+    '全部电商': 'All Commerce',
+    '产品主图': 'Product Hero',
+    '场景种草': 'Lifestyle Product',
+    '广告海报': 'Ad Poster',
+    '商品详情页': 'Product Detail',
+    '模特展示': 'Model Display',
+    'UGC / 口碑': 'UGC / Reviews',
+    '品牌视觉': 'Brand Visual',
+    '电商视频': 'E-commerce Video',
+    '没有找到匹配的提示词，试试其他关键词或分类吧': 'No matching prompts found. Try another keyword or filter.',
+    '导入提示词': 'Import Prompts',
+    '收集你喜欢的 AI 提示词到个人收藏库': 'Collect AI prompts into your personal library.',
+    '已收藏': 'Saved',
+    '粘贴识别': 'Paste Recognition',
+    '手动创建': 'Manual Entry',
+    '浏览器插件': 'Browser Extension',
+    '粘贴帖子内容': 'Paste Post Content',
+    '手动创建提示词': 'Create Prompt Manually',
+    '标题': 'Title',
+    '提示词文本': 'Prompt Text',
+    '标签': 'Tags',
+    '图片链接（可选）': 'Image URL (optional)',
+    '保存到收藏': 'Save to Collections',
+    '清空': 'Clear',
+    '🔍 智能解析': '🔍 Smart Parse',
+    '微信公众号': 'WeChat Article',
+    '图片链接': 'Image URL',
+    'PromptHub 浏览器插件': 'HuaYin Browser Extension',
+    '在任意网页检测到 AI 提示词，点击 🍌 香蕉按钮即可一键收藏': 'Detect AI prompts on any page and save them with one click.',
+    '画引浏览器插件': 'HuaYin Browser Extension',
+    '在任意网页检测到 AI 提示词，点击插件按钮即可一键收藏': 'Detect AI prompts on any page and save them with one click.',
+    '↓ 下载浏览器插件': '↓ Download Extension',
+    '一键收藏': 'One-click Save',
+    '智能扫描': 'Smart Scan',
+    '批量同步': 'Batch Sync',
+    '收集的提示词一键同步到画引收藏库': 'Sync collected prompts into your HuaYin library.',
+    '安装步骤': 'Install Steps',
+    '打开扩展页面': 'Open Extensions Page',
+    '开启开发者模式': 'Enable Developer Mode',
+    '加载插件': 'Load Extension',
+    '开始使用': 'Start Using',
+    '工具栏出现插件图标，在任意提示词页面点击即可收藏': 'Use the extension icon on any prompt page to save it.',
+    '🌐 支持网站': '🌐 Supported Sites',
+    '任意网页': 'Any Webpage',
+    '实时预览': 'Live Preview',
+    '解析结果': 'Parsed Result',
+    '编辑提示词信息': 'Edit Prompt Info',
+    '已自动提取，可直接收藏': 'Extracted automatically, ready to save',
+    '所有字段均可编辑，确认无误后点击保存到收藏': 'All fields are editable. Review and save when ready.',
+    '分类': 'Category',
+    '复制': 'Copy',
+    '图片链接（多张图片请每行一个）': 'Image URLs (one per line)',
+    '取消': 'Cancel',
+    '快捷键 Ctrl + Enter 也可收藏': 'Shortcut: Ctrl + Enter to save',
+    '未检测到图片': 'No image detected',
+    '图片加载失败': 'Image failed to load',
+    '我的收藏': 'My Collections',
+    '去「导入」页面添加，或在浏览时点击卡片上的收藏按钮': 'Add prompts from Import, or save cards while browsing.',
+    '📥 去导入': '📥 Go to Import'
+    ,
+    '什么是画引？': 'What is HuaYin?',
+    '画引是一个专注于 AI 图像生成的高质量提示词库。我们收录经过测试验证的提示词，覆盖人像、风景、科幻、赛博朋克、奇幻、城市、自然、动物、建筑、静物、美食、时尚、角色、抽象、电商视觉、视频提示词等主题，帮助创作者快速找到灵感，一键复制即可使用。': 'HuaYin is a premium prompt library for AI image generation. It curates tested prompts across portraits, landscapes, sci-fi, cyberpunk, fantasy, cities, nature, animals, architecture, still life, food, fashion, characters, abstract visuals, e-commerce visuals, and video prompts.',
+    '提示词是如何被验证的？': 'How are prompts verified?',
+    '每个标记为「已验证」的提示词都经过我们的测试团队在实际 AI 模型中预渲染，确保生成效果稳定且符合描述。未验证的提示词可能是社区提交的新内容，尚在审核流程中。': 'Prompts marked as verified have been pre-tested with real AI models for stable, description-aligned output. Unverified prompts may be new community submissions still under review.',
+    '如何编写高质量的人像提示词？': 'How do I write a strong portrait prompt?',
+    '优秀的人像提示词通常包含：主体描述（人物外观、服装）、光影设置（黄金时刻、影棚光）、镜头参数（焦距、光圈）、风格关键词（电影感、写实、油画）以及氛围描述。结构化的提示词能获得更精准的生成效果。': 'A strong portrait prompt usually includes the subject, styling, lighting, camera details, style cues, and mood. Structured prompts make results more predictable.',
+    '可以自由使用这些提示词吗？': 'Can I use these prompts freely?',
+    '是的，画引上的公开提示词均可免费浏览和复制。你可以将它们用于个人创作、商业项目或学习参考；具体生成结果和外部素材仍需自行核对来源授权、模型条款和商业使用范围。': 'Public prompts on HuaYin are free to browse and copy. For generated outputs and external assets, always verify source rights, model terms, and commercial-use boundaries yourself.',
+    '如何按需筛选提示词？': 'How can I filter prompts?',
+    '在探索页面，你可以通过分类标签快速筛选（如人像、风景、科幻等），也可以使用搜索栏输入关键词查找。每个提示词还附带细粒度标签（如「黄金时刻」「赛博朋克」「微距」），帮助你精准定位所需风格。': 'Use the Explore page facets or keyword search. Each prompt also includes tags to help narrow down styles and use cases.',
+    '什么是「好提示词」和「坏提示词」？': 'What makes a prompt good or bad?',
+    '好提示词结构清晰、描述具体、包含光影和风格指引，能稳定产出预期效果。坏提示词通常过于模糊（如「画一个好看的人」）、缺乏关键参数、或包含矛盾描述。参考我们验证过的提示词来学习最佳实践。': 'Good prompts are structured, specific, and include lighting and style direction. Weak prompts are vague, missing key constraints, or internally contradictory.',
+    '新提示词多久更新一次？': 'How often are new prompts added?',
+    '我们每日更新提示词库，持续收录社区精选和编辑团队测试的新内容。首页「今日精选」板块展示当天最热门的提示词，确保你不会错过最新灵感。': 'The library is updated daily. Today\'s Curated Prompts highlights fresh and useful entries from the main collection.'
+  };
+
+  const EN_PATTERNS = [
+    [/^浏览全部 (\d+) 个提示词（含 (\d+) 个我的收藏），按分类筛选或搜索关键词$/, 'Browse $1 prompts, including $2 saved collections. Filter by facets or search keywords.'],
+    [/^(\d+) 个提示词$/, '$1 prompts'],
+    [/^(\d+) 张图片$/, '$1 images'],
+    [/^(\d+)\+ 经过严格筛选的提示词，覆盖各类风格与场景，专业级输出质量。$/, '$1+ carefully selected prompts across styles and scenes for professional-quality output.']
+  ];
+
+  function getLang() {
+    return currentLanguage;
+  }
+
+  function translateText(original) {
+    if (currentLanguage === 'zh') return original;
+    const leading = original.match(/^\s*/)?.[0] || '';
+    const trailing = original.match(/\s*$/)?.[0] || '';
+    const trimmed = original.trim().replace(/\s+/g, ' ');
+    if (!trimmed) return original;
+    if (EN_TEXT[trimmed]) return `${leading}${EN_TEXT[trimmed]}${trailing}`;
+    for (const [pattern, replacement] of EN_PATTERNS) {
+      if (pattern.test(trimmed)) return `${leading}${trimmed.replace(pattern, replacement)}${trailing}`;
+    }
+    return original;
+  }
+
+  function translateAttr(element, attr) {
+    if (!element.hasAttribute(attr)) return;
+    const storeKey = `i18n${attr.replace(/(^|-)([a-z])/g, (_, __, char) => char.toUpperCase())}`;
+    if (!element.dataset[storeKey]) element.dataset[storeKey] = element.getAttribute(attr) || '';
+    element.setAttribute(attr, translateText(element.dataset[storeKey]));
+  }
+
+  function updateBrandAndMeta() {
+    document.documentElement.lang = currentLanguage === 'en' ? 'en' : 'zh-CN';
+    document.title = currentLanguage === 'en'
+      ? `${BRAND_EN} - Premium AI Image Prompt Library`
+      : `${BRAND_ZH} HuaYin — 高质量 AI 图像提示词库`;
+    const description = document.querySelector('meta[name="description"]');
+    if (description) {
+      description.setAttribute('content', currentLanguage === 'en'
+        ? 'HuaYin is a growing premium AI image prompt library, updated daily and ready to copy for portraits, landscapes, sci-fi, fantasy, e-commerce visuals, and video prompts.'
+        : '画引 HuaYin 是一个不断增长的高质量 AI 图像提示词库，每日更新，一键复制，覆盖人像、风景、科幻、奇幻、电商视觉和视频提示词。');
+    }
+    document.querySelectorAll('.logo-icon').forEach(icon => { icon.textContent = currentLanguage === 'en' ? 'H' : '画'; });
+    document.querySelectorAll('.logo span').forEach(label => { label.textContent = currentLanguage === 'en' ? BRAND_EN : BRAND_ZH; });
+    document.querySelectorAll('.lang-toggle').forEach(button => {
+      button.textContent = currentLanguage === 'en' ? '中文' : 'EN';
+      button.setAttribute('aria-label', currentLanguage === 'en' ? '切换到中文' : 'Switch to English');
+    });
+  }
+
+  function applyLanguage(root = document) {
+    updateBrandAndMeta();
+    const scope = root.nodeType === Node.ELEMENT_NODE || root.nodeType === Node.DOCUMENT_NODE ? root : document;
+    const walker = document.createTreeWalker(scope, NodeFilter.SHOW_TEXT, {
+      acceptNode(node) {
+        const parent = node.parentElement;
+        if (!parent || ['SCRIPT', 'STYLE', 'TEXTAREA', 'CODE'].includes(parent.tagName)) return NodeFilter.FILTER_REJECT;
+        if (!node.nodeValue.trim()) return NodeFilter.FILTER_REJECT;
+        return NodeFilter.FILTER_ACCEPT;
+      }
+    });
+    const nodes = [];
+    while (walker.nextNode()) nodes.push(walker.currentNode);
+    nodes.forEach(node => {
+      if (!ORIGINAL_TEXT.has(node)) ORIGINAL_TEXT.set(node, node.nodeValue);
+      node.nodeValue = translateText(ORIGINAL_TEXT.get(node));
+    });
+    scope.querySelectorAll?.('[placeholder], [aria-label], [title], [alt]').forEach(element => {
+      translateAttr(element, 'placeholder');
+      translateAttr(element, 'aria-label');
+      translateAttr(element, 'title');
+      translateAttr(element, 'alt');
+    });
+  }
+
+  function setLanguage(language) {
+    currentLanguage = language === 'en' ? 'en' : 'zh';
+    localStorage.setItem(LANGUAGE_KEY, currentLanguage);
+    applyLanguage();
   }
 
   // --- 分类旧英文名称映射到中文（兼容已有收藏数据）---
@@ -254,7 +536,7 @@
 
   function requestCollectionMutation(operation, item) {
     if (!extensionBridgeReady) {
-      showToast('请先安装并配置 PromptHub 浏览器插件，再保存收藏');
+      showToast('请先安装并配置画引浏览器插件，再保存收藏');
       return false;
     }
     window.postMessage({ source: 'prompthub-site', operation, item }, window.location.origin);
@@ -306,7 +588,7 @@
       ...patch,
       id: item.id,
       date: item.date || now.slice(0, 10),
-      source: item.source || 'PromptHub 编辑',
+      source: item.source || '画引编辑',
       updatedAt: now
     });
     return next && saveCollection(next) ? next : null;
@@ -1076,7 +1358,7 @@
         <div class="container">
           <div class="detail-breadcrumb">
             <button class="detail-back" type="button" data-action="return-browse">← ${escapeHtml(returnLabel)}</button>
-            <span>PromptHub</span>
+            <span>画引</span>
             <span>/</span>
             <button class="detail-category-filter" type="button" data-category="${escapeHtml(prompt.category)}">${escapeHtml(prompt.category)}</button>
             <span>/</span>
@@ -1301,6 +1583,7 @@
         relatedGrid.innerHTML = '<div class="no-results"><div class="no-results-icon">🔎</div><p>这个分类暂时没有更多相关提示词</p></div>';
       }
     }
+    applyLanguage(app);
   }
 
   window.switchDetailImage = function (index) {
@@ -1340,6 +1623,7 @@
     window.scrollTo(0, 0);
     renderExplore();
     setNavActive('explore');
+    applyLanguage();
     const targetHash = getExploreHash();
     if (window.location.hash !== targetHash) history.pushState({ route: 'explore' }, '', targetHash);
   };
@@ -1374,8 +1658,8 @@
     catCounts['视频提示词'] = getAllPromptItems().filter(p => p.mediaType === 'video' || p.category === '视频提示词').length;
 
     app.innerHTML = `
-      <section class="hero hero-gallery" aria-label="PromptHub prompt gallery">
-        <h1 class="sr-only">PromptHub AI 提示词收藏库</h1>
+      <section class="hero hero-gallery" aria-label="HuaYin prompt gallery">
+        <h1 class="sr-only">画引 AI 提示词收藏库</h1>
         <div class="hero-intro" aria-hidden="false">
           <h2>探索高品质纳米提示词库。</h2>
           <p>高品质提示词库持续增长，每日更新，可直接复制粘贴，生成令人惊叹的 AI 图像。</p>
@@ -1452,8 +1736,8 @@
       </section>
       <section class="section features">
         <div class="container">
-          <h2 class="section-title">✨ 为什么选择 PromptHub</h2>
-          <p class="section-subtitle">PromptHub 是优质 AI 提示词的首选平台，为创作者提供专业级资源。</p>
+          <h2 class="section-title">✨ 为什么选择画引</h2>
+          <p class="section-subtitle">画引是优质 AI 提示词的首选平台，为创作者提供专业级资源。</p>
           <div class="features-grid">
             <div class="feature-card"><div class="feature-icon">📚</div><div class="feature-title">精选提示词库</div><div class="feature-desc">${PROMPTS.length}+ 经过严格筛选的提示词，覆盖各类风格与场景，专业级输出质量。</div></div>
             <div class="feature-card"><div class="feature-icon">⚡</div><div class="feature-title">一键复制工作流</div><div class="feature-desc">无需手动选择文本，点击即可复制完整提示词，简化你的创作流程。</div></div>
@@ -1493,7 +1777,7 @@
       <section class="section">
         <div class="container">
           <h2 class="section-title">❓ 常见问题</h2>
-          <p class="section-subtitle">关于 PromptHub 和 AI 提示词，你想知道的都在这里。</p>
+          <p class="section-subtitle">关于画引和 AI 提示词，你想知道的都在这里。</p>
           <div class="faq-list" id="faq-list"></div>
         </div>
       </section>
@@ -1534,9 +1818,9 @@
     app.innerHTML = `
       <section class="legal-hero">
         <div class="container legal-hero-inner">
-          <p class="legal-eyebrow">PromptHub</p>
+          <p class="legal-eyebrow">画引 HuaYin</p>
           <h1>免责声明与免费使用说明</h1>
-          <p>PromptHub 提供可检索、可复制的 AI 提示词参考内容。本页说明免费访问范围，以及使用内容前应了解的责任边界。</p>
+          <p>画引提供可检索、可复制的 AI 提示词参考内容。本页说明免费访问范围，以及使用内容前应了解的责任边界。</p>
         </div>
       </section>
       <section class="legal-section">
@@ -1552,7 +1836,7 @@
           <article class="legal-content">
             <section id="disclaimer-free">
               <h2>免费使用</h2>
-              <p>PromptHub 对公开展示的提示词内容不收取访问、浏览或复制费用。本站并不代表任何第三方模型、素材平台或外部工具免费；使用这些服务时产生的订阅、算力、素材或其他费用，以对应服务商的规则为准。</p>
+              <p>画引对公开展示的提示词内容不收取访问、浏览或复制费用。本站并不代表任何第三方模型、素材平台或外部工具免费；使用这些服务时产生的订阅、算力、素材或其他费用，以对应服务商的规则为准。</p>
             </section>
             <section id="disclaimer-content">
               <h2>内容与来源</h2>
@@ -1561,7 +1845,7 @@
             </section>
             <section id="disclaimer-output">
               <h2>AI 输出不作保证</h2>
-              <p>提示词的效果会受模型版本、参数、输入素材、地区能力和平台策略影响。PromptHub 不保证任何提示词在特定模型中的生成效果、稳定性、可用性、适销性或适合特定用途。</p>
+              <p>提示词的效果会受模型版本、参数、输入素材、地区能力和平台策略影响。画引不保证任何提示词在特定模型中的生成效果、稳定性、可用性、适销性或适合特定用途。</p>
             </section>
             <section id="disclaimer-compliance">
               <h2>合规使用责任</h2>
@@ -1574,7 +1858,7 @@
             </section>
             <section id="disclaimer-feedback">
               <h2>侵权与内容反馈</h2>
-              <p>如你认为本站内容侵犯了你的合法权益，或发现来源、提示词、图片信息有误，请通过 <a href="https://github.com/kxbbw81-glitch/PromptHub-/issues" target="_blank" rel="noreferrer noopener">PromptHub GitHub Issues</a> 提交内容链接、权利说明和可核验材料。收到后会进行核查，并视情况更正、下线或保留必要的说明记录。</p>
+              <p>如你认为本站内容侵犯了你的合法权益，或发现来源、提示词、图片信息有误，请通过 <a href="https://github.com/kxbbw81-glitch/PromptHub-/issues" target="_blank" rel="noreferrer noopener">画引 GitHub Issues</a> 提交内容链接、权利说明和可核验材料。收到后会进行核查，并视情况更正、下线或保留必要的说明记录。</p>
             </section>
           </article>
         </div>
@@ -1754,6 +2038,7 @@
 
     renderExploreFacets();
     renderPromptsGrid();
+    applyLanguage(app);
   }
 
   function updateChips() {
@@ -2011,15 +2296,15 @@
               <div class="imp-ext-hero">
                 <div class="imp-ext-hero-icon">🧩</div>
                 <div class="imp-ext-hero-text">
-                  <h2>PromptHub 浏览器插件</h2>
-                  <p>在任意网页检测到 AI 提示词，点击 🍌 香蕉按钮即可一键收藏</p>
+                  <h2>画引浏览器插件</h2>
+                  <p>在任意网页检测到 AI 提示词，点击插件按钮即可一键收藏</p>
                 </div>
-                <a class="imp-ext-download" href="https://github.com/kxbbw81-glitch/PromptHub-/raw/main/PromptHub-Extension-v3.29.0.zip" download="PromptHub-Extension-v3.29.0.zip" aria-label="下载 PromptHub 浏览器插件 v3.29.0">↓ 下载浏览器插件 <span>v3.29.0</span></a>
+                <a class="imp-ext-download" href="https://github.com/kxbbw81-glitch/PromptHub-/raw/main/PromptHub-Extension-v3.29.0.zip" download="PromptHub-Extension-v3.29.0.zip" aria-label="下载画引浏览器插件 v3.29.0">↓ 下载浏览器插件 <span>v3.29.0</span></a>
               </div>
 
               <div class="imp-ext-feats">
                 <div class="imp-ext-feat">
-                  <span class="imp-ext-feat-icon">🍌</span>
+                  <span class="imp-ext-feat-icon">画</span>
                   <strong>一键收藏</strong>
                   <p>自动检测网页上的提示词，点击即可保存</p>
                 </div>
@@ -2031,7 +2316,7 @@
                 <div class="imp-ext-feat">
                   <span class="imp-ext-feat-icon">🔄</span>
                   <strong>批量同步</strong>
-                  <p>收集的提示词一键同步到 PromptHub 收藏库</p>
+                  <p>收集的提示词一键同步到画引收藏库</p>
                 </div>
               </div>
 
@@ -2052,7 +2337,7 @@
                   </div>
                   <div class="imp-ext-step">
                     <span class="imp-ext-step-n">4</span>
-                    <div><strong>开始使用</strong><p>工具栏出现 🍌 图标，在任意提示词页面点击即可收藏</p></div>
+                    <div><strong>开始使用</strong><p>工具栏出现插件图标，在任意提示词页面点击即可收藏</p></div>
                   </div>
                 </div>
               </div>
@@ -2082,6 +2367,7 @@
 
     if (currentParsed) renderImportPreview(currentParsed);
     if (importMode === 'manual') setTimeout(syncManualToEditor, 50);
+    applyLanguage(app);
   }
 
   window.setImportMode = function (mode) {
@@ -2265,6 +2551,7 @@
         });
       }
     }, 0);
+    applyLanguage(box);
   }
 
   window.updatePreviewImage = function (url) {
@@ -2325,6 +2612,7 @@
       thumb.addEventListener('error', () => { thumb.style.display = 'none'; }, { once: true });
       thumb.addEventListener('click', () => window.switchGalleryImage(index));
     });
+    applyLanguage(gallery);
   }
 
   window.copyPreviewPrompt = function () {
@@ -2408,6 +2696,7 @@
             <button class="imp-btn-ghost" type="button" data-action="set-import-mode" data-mode="manual">→ 切换到手动创建</button>
           </div>
         `;
+        applyLanguage(box);
         return;
       }
       currentParsed = { ...parsed, id: generateId(), date: new Date().toISOString().slice(0, 10) };
@@ -2475,6 +2764,7 @@
           <button class="btn btn-yellow" style="margin-top:20px;" type="button" data-action="navigate" data-route="import">📥 去导入</button>
         </div>
       `;
+      applyLanguage(app);
       return;
     }
 
@@ -2492,6 +2782,7 @@
     });
 
     renderCollectionGrid('全部');
+    applyLanguage(app);
   }
 
   function renderCollectionGrid(filterCat) {
@@ -2501,6 +2792,7 @@
 
     if (list.length === 0) {
       content.innerHTML = '<div class="no-results"><div class="no-results-icon">🔍</div><p>该分类下暂无收藏</p></div>';
+      applyLanguage(content);
       return;
     }
 
@@ -2510,6 +2802,7 @@
     // Re-append (clear previous)
     content.innerHTML = '';
     content.appendChild(grid);
+    applyLanguage(content);
   }
 
   window.exportCollections = function () {
@@ -2615,6 +2908,7 @@
     else if (route === 'disclaimer') renderDisclaimer();
 
     setNavActive(route);
+    applyLanguage();
   }
 
   window.navigate = navigate;
@@ -2682,6 +2976,10 @@
       }
       if (action === 'save-manual') {
         window.saveManual();
+        return;
+      }
+      if (action === 'toggle-language') {
+        setLanguage(getLang() === 'en' ? 'zh' : 'en');
         return;
       }
       if (action === 'export-collections') {
@@ -2780,6 +3078,7 @@
     // 页面加载时检查 hash 路由，没有 hash 则渲染首页
     if (!handleHashRoute()) {
       renderHome();
+      applyLanguage();
     }
 
     window.addEventListener('message', (event) => {

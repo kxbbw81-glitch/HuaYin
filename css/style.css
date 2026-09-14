@@ -254,6 +254,26 @@ button {
   color: var(--text);
 }
 
+.lang-toggle {
+  height: 34px;
+  min-width: 46px;
+  padding: 0 12px;
+  border: 1.5px solid var(--border);
+  border-radius: 18px;
+  background: #fff;
+  color: var(--text);
+  font-size: 13px;
+  font-weight: 800;
+  cursor: pointer;
+  transition: border-color 0.2s, background 0.2s, transform 0.2s;
+}
+
+.lang-toggle:hover {
+  border-color: var(--yellow-dark);
+  background: var(--yellow-soft);
+  transform: translateY(-1px);
+}
+
 .nav-search {
   position: relative;
 }

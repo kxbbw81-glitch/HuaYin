@@ -24,10 +24,24 @@ test('prompt details do not render the unrequested generation action', () => {
 test('the header exposes a disclaimer route with free-use and rights boundaries', () => {
   assert.match(index, /href="#\/disclaimer" data-action="navigate" data-route="disclaimer">免责声明/);
   assert.match(app, /function renderDisclaimer\(\)/);
-  assert.match(app, /PromptHub 对公开展示的提示词内容不收取访问、浏览或复制费用/);
+  assert.match(app, /画引对公开展示的提示词内容不收取访问、浏览或复制费用/);
   assert.match(app, /\['home', 'import', 'collections', 'disclaimer'\]/);
   assert.match(app, /else if \(route === 'disclaimer'\) renderDisclaimer\(\);/);
   assert.match(css, /\.legal-layout[\s\S]*grid-template-columns: 190px minmax\(0, 760px\)/);
+});
+
+test('the visible site brand is HuaYin with a Chinese and English language toggle', () => {
+  assert.match(index, /<title>画引 HuaYin — 高质量 AI 图像提示词库<\/title>/);
+  assert.match(index, /<span>画引<\/span>/);
+  assert.match(index, /data-action="toggle-language"/);
+  assert.match(app, /const BRAND_ZH = '画引'/);
+  assert.match(app, /const BRAND_EN = 'HuaYin'/);
+  assert.match(app, /const LANGUAGE_KEY = 'huayin_language'/);
+  assert.match(app, /function applyLanguage/);
+  assert.match(app, /function setLanguage/);
+  assert.match(app, /HuaYin - Premium AI Image Prompt Library/);
+  assert.match(data, /q: "什么是画引？"/);
+  assert.match(css, /\.lang-toggle/);
 });
 
 test('a saved collection remains editable from its prompt detail route', () => {
@@ -71,7 +85,7 @@ test('explore uses four parallel type, style, scene, and e-commerce facets', () 
   assert.match(index, /js\/explore-facets\.js\?v=20260802c/);
   assert.match(index, /js\/daily-curation\.js\?v=20260802a/);
   assert.match(index, /css\/style\.css\?v=20260802f/);
-  assert.match(index, /js\/app\.js\?v=20260804a/);
+  assert.match(index, /js\/app\.js\?v=20260914a/);
   assert.match(app, /id="content-type-filter-chips"/);
   assert.match(app, /id="style-filter-chips"/);
   assert.match(app, /id="scene-filter-chips"/);
