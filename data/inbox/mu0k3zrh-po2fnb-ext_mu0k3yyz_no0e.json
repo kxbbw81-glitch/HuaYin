@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "kind": "prompthub-extension-inbox",
+  "createdAt": "2026-09-14T01:20:58.829Z",
+  "count": 1,
+  "items": [
+    {
+      "aspectRatio": "3:4",
+      "category": "人像",
+      "date": "2026-09-14",
+      "domain": "x.com",
+      "id": "ext_mu0k3yyz_no0e",
+      "image": "https://pbs.twimg.com/media/HSItZf_bkAAgrNk?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HSItZf_bkAAgrNk?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HSItZgBbgAEepBS?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HSFOEPoaIAAbsAe?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HSFOEPoboAA1Lgd?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "一位年轻亚洲女性，夜晚站在城市高层公寓的落地窗边。她穿宽松白色衬衫，衣领自然微松，一侧肩线轻轻露出，里面是简洁黑色吊带内搭。人物侧身靠近玻璃，身体姿态自然放松，不刻意摆拍，双腿自然并拢，一只手轻扶窗边，另一只手自然垂下。\n\n窗外是虚化的城市夜景与零散灯光，玻璃上形成淡淡的人物倒影，部分轮廓被反射和暗部遮住。冷白月光从侧面照亮脸部、锁骨和肩颈，室内只有很弱的暖光补光，形成冷暖轻微反差。人物眼神安静疏离，不笑，像刚刚结束一天回到家。\n\n真实皮肤质感，可见轻微毛孔与自然高光，自然碎发，发丝略微凌乱，避免磨皮和塑料皮肤。整体低饱和冷灰色调，轻微胶片颗粒，iPhone夜间抓拍感，浅景深，真实摄影质感，克制、暧昧、高级，不要影楼感，不要夸张姿势，不要过度性感。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HSItZf_bkAAgrNk?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HSItZgBbgAEepBS?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HSFOEPoaIAAbsAe?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HSFOEPoboAA1Lgd?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/Adam38363368936/status/2099291375464562789",
+      "tags": [
+        "摄影",
+        "低饱和"
+      ],
+      "timestamp": 1789348857803,
+      "title": "继续这个系列",
+      "url": "https://x.com/Adam38363368936/status/2099291375464562789",
+      "collectedAt": "2026-09-14T01:20:58.829Z"
+    }
+  ]
+}
