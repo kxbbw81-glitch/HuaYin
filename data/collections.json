@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-14T02:05:32.725Z",
+  "updatedAt": "2026-09-14T07:06:21.677Z",
   "collections": [
     {
       "aspectRatio": "21:9",
@@ -35,7 +35,7 @@
       "collectedAt": "2026-09-14T02:03:32.990Z",
       "mediaType": "image",
       "githubSyncedAt": "2026-09-14T02:05:32.725Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-09-14T07:06:21.674Z"
     },
     {
       "aspectRatio": "1:1",
@@ -66,7 +66,7 @@
       "collectedAt": "2026-09-14T01:52:14.707Z",
       "mediaType": "image",
       "githubSyncedAt": "2026-09-14T01:54:14.959Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-09-14T07:06:21.674Z"
     },
     {
       "aspectRatio": "4:5",
@@ -95,7 +95,7 @@
       "collectedAt": "2026-09-14T01:24:40.756Z",
       "mediaType": "image",
       "githubSyncedAt": "2026-09-14T01:26:40.573Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-09-14T07:06:21.674Z"
     },
     {
       "aspectRatio": "3:4",
@@ -131,7 +131,7 @@
       "collectedAt": "2026-09-14T01:20:58.829Z",
       "mediaType": "image",
       "githubSyncedAt": "2026-09-14T01:23:33.587Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-09-14T07:06:21.674Z"
     },
     {
       "id": "grok_x_2096829477661671790",
