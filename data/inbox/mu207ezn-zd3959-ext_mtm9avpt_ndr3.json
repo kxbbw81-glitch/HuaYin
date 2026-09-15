@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "kind": "prompthub-extension-inbox",
+  "createdAt": "2026-09-15T01:39:18.562Z",
+  "count": 3,
+  "items": [
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-09-04",
+      "domain": "x.com",
+      "id": "ext_mtm9avpt_ndr3",
+      "image": "https://pbs.twimg.com/media/HRTxDGraoAA0BaX?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HRTxDGraoAA0BaX?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HRTxJjfbQAAeqmY?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HRRyz-5bkAAC2lN?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HRRy8ELbgAAGwfz?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HRRzp40aoAAvskF?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HRRzxKFbAAAStHC?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "这套提示词我是真满意：雨夜、霓虹、侧颜、丝袜特写、CCD直闪，全都拉满\n\n氛围够顶，构图够狠，人物状态也特别对\n\n老规矩提示词开源评论区，返图我看看谁出的不好看？😆",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HRTxDGraoAA0BaX?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HRTxJjfbQAAeqmY?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HRRyz-5bkAAC2lN?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HRRy8ELbgAAGwfz?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HRRzp40aoAAvskF?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HRRzxKFbAAAStHC?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/underwoodxie96/status/2095565024576352719",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1788484177937,
+      "title": "写真人像",
+      "url": "https://x.com/underwoodxie96/status/2095565024576352719",
+      "collectedAt": "2026-09-15T01:39:18.562Z"
+    },
+    {
+      "aspectRatio": "2:3",
+      "category": "人像",
+      "date": "2026-09-15",
+      "domain": "x.com",
+      "id": "ext_mu207d99_a0wo",
+      "image": "https://pbs.twimg.com/media/HR1Wa8qbEAEzbSf?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HR1Wa8qbEAEzbSf?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "构图・相机：\n2:3的纵向构图，相机从水面附近拍摄正面膝上照片。人物置于中央，岩山置于左右，胸部和腰部的两个结带置于一条直线上。对焦于脸部、结带布料、水面。人物占据较大空间，焦点集中在主角，背景轻微虚化。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HR1Wa8qbEAEzbSf?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/CyberTotal2026/status/2099423911163420966",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1789436356317,
+      "title": "在清澈的港湾中",
+      "url": "https://x.com/CyberTotal2026/status/2099423911163420966",
+      "collectedAt": "2026-09-15T01:39:18.562Z"
+    },
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-09-15",
+      "domain": "x.com",
+      "id": "ext_mu207d9c_h2ih",
+      "image": "https://pbs.twimg.com/media/HSLQrxbbsAAPa9v?format=jpg&name=900x900",
+      "images": [
+        "https://pbs.twimg.com/media/HSLQrxbbsAAPa9v?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HSLQtt_agAAw9PM?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HSLQwGEbcAE6WIz?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HSLQx5PaUAAwmDo?format=jpg&name=medium"
+      ],
+      "model": "",
+      "prompt": "Rinko Kawauchi-inspired airy high-key image language.\nShot on 135mm long telephoto lens, strong background compression, narrow field of view, f/5.6-style balanced depth of field, subject cleanly readable, heavy bokeh rendering, large out-of-focus highlight discs, aperture-shaped blur circles.\nSoft-tonal Japanese portrait color grade, luminous pale highlights, gentle bloom, lowered micro-contrast, airy contrast.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HSLQrxbbsAAPa9v?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HSLQtt_agAAw9PM?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HSLQwGEbcAE6WIz?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HSLQx5PaUAAwmDo?format=jpg&name=medium"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/VIBEQUIRKLABS/status/2099470010238619891",
+      "tags": [
+        "bokeh"
+      ],
+      "timestamp": 1789436356320,
+      "title": "东方人像",
+      "url": "https://x.com/VIBEQUIRKLABS/status/2099470010238619891",
+      "collectedAt": "2026-09-15T01:39:18.562Z"
+    }
+  ]
+}
