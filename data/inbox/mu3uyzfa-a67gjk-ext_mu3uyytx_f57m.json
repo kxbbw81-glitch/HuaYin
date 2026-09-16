@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "kind": "prompthub-extension-inbox",
+  "createdAt": "2026-09-16T08:48:19.414Z",
+  "count": 1,
+  "items": [
+    {
+      "aspectRatio": "4:5",
+      "category": "人像",
+      "date": "2026-09-16",
+      "domain": "x.com",
+      "id": "ext_mu3uyytx_f57m",
+      "image": "https://pbs.twimg.com/media/HSQok5EXgAAoD8M?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HSQok5EXgAAoD8M?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HSEHNq4bMAA_aen?format=jpg&name=900x900"
+      ],
+      "model": "",
+      "prompt": "4:5，古风深夜闺房女友写真，烛光、私密、亲密、暧昧但克制，单人出镜，成年年轻韩系东亚女性，清透自然妆，柔和杏眼，长黑发古典半盘发，粉白色花簪与细小流苏。  服装：奶油白与浅粉色汉服，轻薄柔软的刺绣外袍，粉色花卉纹样，宽袖，内搭完整，粉色腰带。  场景：古代卧房，雕花木床、粉色床褥、半透明床幔、木质家具、花瓶、蜡烛、暖色灯笼，夜晚室内。  镜头：恋人坐在床前的近距离视角，人物坐在床沿，半身偏近景。  动作表情：身体轻微向镜头靠近，一只手藏在宽袖中轻轻托着下巴 / 靠近脸侧，微微歪头，直视镜头，带一点害羞又亲近的浅笑。  光线：只有烛火与灯笼形成的暖橙色柔光，眼睛、嘴唇和脸部有细腻高光，背景深暖色虚化，柔软梦幻。  保持穿着完整，不要裸露，不要情色化，不要第二人物，不要拼图。 画面右下角增加艺术性手写文字“ChenLin”作为署名。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HSQok5EXgAAoD8M?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HSEHNq4bMAA_aen?format=jpg&name=900x900"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/chenlinspark/status/2100044247638671495",
+      "tags": [
+        "古风",
+        "写真"
+      ],
+      "timestamp": 1789548498645,
+      "title": "古代女子的闺房",
+      "url": "https://x.com/chenlinspark/status/2100044247638671495",
+      "collectedAt": "2026-09-16T08:48:19.414Z"
+    }
+  ]
+}
