@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "kind": "prompthub-extension-inbox",
+  "createdAt": "2026-09-16T08:46:23.640Z",
+  "count": 2,
+  "items": [
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-09-04",
+      "domain": "x.com",
+      "id": "ext_mtm9avpt_ndr3",
+      "image": "https://pbs.twimg.com/media/HRTxDGraoAA0BaX?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HRTxDGraoAA0BaX?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HRTxJjfbQAAeqmY?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HRRyz-5bkAAC2lN?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HRRy8ELbgAAGwfz?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HRRzp40aoAAvskF?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HRRzxKFbAAAStHC?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "这套提示词我是真满意：雨夜、霓虹、侧颜、丝袜特写、CCD直闪，全都拉满\n\n氛围够顶，构图够狠，人物状态也特别对\n\n老规矩提示词开源评论区，返图我看看谁出的不好看？😆",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HRTxDGraoAA0BaX?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HRTxJjfbQAAeqmY?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HRRyz-5bkAAC2lN?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HRRy8ELbgAAGwfz?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HRRzp40aoAAvskF?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HRRzxKFbAAAStHC?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/underwoodxie96/status/2095565024576352719",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1788484177937,
+      "title": "写真人像",
+      "url": "https://x.com/underwoodxie96/status/2095565024576352719",
+      "collectedAt": "2026-09-16T08:46:23.640Z"
+    },
+    {
+      "aspectRatio": "3:4",
+      "category": "人像",
+      "date": "2026-09-16",
+      "domain": "x.com",
+      "id": "ext_mu3uweuf_2461",
+      "image": "https://pbs.twimg.com/media/HSTJjX7XIAAz9DQ?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HSTJjX7XIAAz9DQ?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "人设：绝美23岁东亚美女，身材匀称丰满，胸部明显自然丰满，视觉约E杯，具有自然重量感与柔和圆润轮廓，胸腰差明显但自然，纤细腰部与丰满胸部形成清晰比例；气质：俏皮、甜美、带着一点挑逗的轻松。\n\n服装：草莓红固定三角杯比基尼，杯面印疏密有致的小草莓与绿叶，弹力微皱面料；下装为同款低腰系带泳裤，两侧细绳蝴蝶结可调，奶油色包边呼应陶瓷碗沿。\n\n妆发：暖棕立体妆、自然野生眉、莓红唇；黑色中长发半扎高松马尾；一对迷你红珐琅耳钉。\n\n瞬间：她刚把一篮草莓放到白色料理台，停下来侧身咬了一口最红的那颗——左手仍托着果篮边缘，右手把草莓送到唇边；身体微侧，脸转向镜头，汁水差一点沾到下唇，眼神像被抓拍的 culpable 笑意。\n\n光影环境：北向厨房窗光洁净偏冷，白色瓷砖与不锈钢盆轻微反光托亮锁骨；台面上还有带水珠的草莓叶。\n\n镜头：50mm 人像，半身到三分之二身，料理台横线引导；大光圈浅景深，奶油散景，真实皮肤与唇上水光；高级生活方式写真，电影感，ultra realistic, masterpiece, best quality。\n\n约束：系带结清晰可见；果篮与器具上不要可读商标文字；不要水印、卡通。\n\n负面提示词：\n\n低质量，模糊，变形，多余手指，肢体畸形，塑料感皮肤，过曝，卡通，动漫，文字，水印，夸张美颜，畸形解剖。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HSTJjX7XIAAz9DQ?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/sdjn_wgc/status/2100024947871539268",
+      "tags": [
+        "人像",
+        "写真",
+        "电影感"
+      ],
+      "timestamp": 1789548379431,
+      "title": "红唇女性人像",
+      "url": "https://x.com/sdjn_wgc/status/2100024947871539268",
+      "collectedAt": "2026-09-16T08:46:23.640Z"
+    }
+  ]
+}
