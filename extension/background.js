@@ -25,6 +25,7 @@ const QUEUE_UPLOAD_BATCH_SIZE = 5;
 const GITHUB_REQUEST_TIMEOUT_MS = 30000;
 let queueMutation = Promise.resolve();
 let receiptMutation = Promise.resolve();
+const detectedPromptCounts = new Map();
 
 try {
   importScripts('prompt-parser.js');
@@ -538,8 +539,36 @@ function updateQueueBadge(tabId, count) {
   if (text) chrome.action.setBadgeBackgroundColor({ color: '#FFD93D', tabId });
 }
 
+function updateDetectedPromptBadge(tabId, count) {
+  if (!tabId) return;
+  const safeCount = Math.max(0, Math.min(Number(count) || 0, 99));
+  detectedPromptCounts.set(tabId, safeCount);
+  chrome.action.setBadgeText({ text: safeCount > 0 ? String(safeCount) : '', tabId });
+  chrome.action.setBadgeBackgroundColor({ color: '#E11D48', tabId });
+  chrome.action.setTitle({
+    title: safeCount > 0
+      ? `画引 - 当前页面检测到 ${safeCount} 个可收藏提示词`
+      : '画引 - 收集提示词',
+    tabId
+  });
+}
+
+chrome.tabs?.onUpdated?.addListener((tabId, changeInfo) => {
+  if (changeInfo.status === 'loading') updateDetectedPromptBadge(tabId, 0);
+});
+
+chrome.tabs?.onRemoved?.addListener(tabId => {
+  detectedPromptCounts.delete(tabId);
+});
+
 // --- 消息处理 ---
 chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
+  if (request.action === 'updateDetectedPromptBadge') {
+    updateDetectedPromptBadge(sender?.tab?.id, request.count);
+    sendResponse({ success: true });
+    return true;
+  }
+
   if (request.action === 'getQueue') {
     getQueue().then(queue => sendResponse({ queue }));
     return true;

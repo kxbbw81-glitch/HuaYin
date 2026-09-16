@@ -9,6 +9,12 @@
 
   if (window.__prompthub_v2__) return;
   window.__prompthub_v2__ = true;
+  const AUTO_BADGE_SCAN_DELAY_MS = 1200;
+  const AUTO_BADGE_MIN_INTERVAL_MS = 2500;
+  let autoBadgeTimer = null;
+  let autoBadgeLastRun = 0;
+  let autoBadgeLastSignature = '';
+  let autoBadgeLastUrl = location.href;
 
   // --- 提示词检测评分 ---
   const PROMPT_INDICATORS = [
@@ -482,6 +488,72 @@
 
     return prompts;
   }
+
+  function isCollectableBadgeCandidate(candidate) {
+    if (!candidate) return false;
+    if (!isCompleteCandidate(candidate.prompt)) return false;
+    if (!Array.isArray(candidate.images) || candidate.images.length === 0) return false;
+    try {
+      const url = new URL(candidate.sourceUrl || candidate.url || location.href);
+      if (url.protocol !== 'https:') return false;
+      if (url.hostname === 'x.com' && !/\/status\/\d+/i.test(url.pathname)) return false;
+      return true;
+    } catch {
+      return false;
+    }
+  }
+
+  function detectedPromptSignature(prompts) {
+    return prompts
+      .map(prompt => `${prompt.sourceUrl || prompt.url || ''}|${String(prompt.prompt || '').replace(/\s+/g, ' ').slice(0, 180)}`)
+      .sort()
+      .join('\n');
+  }
+
+  function notifyDetectedPromptBadge(reason = 'page') {
+    const now = Date.now();
+    if (now - autoBadgeLastRun < AUTO_BADGE_MIN_INTERVAL_MS && reason !== 'url-change') {
+      scheduleDetectedPromptBadge('throttled');
+      return;
+    }
+    autoBadgeLastRun = now;
+
+    let collectablePrompts = [];
+    try {
+      collectablePrompts = extractPrompts().filter(isCollectableBadgeCandidate);
+    } catch (error) {
+      collectablePrompts = [];
+    }
+    const signature = detectedPromptSignature(collectablePrompts);
+    if (signature === autoBadgeLastSignature) return;
+    autoBadgeLastSignature = signature;
+    chrome.runtime?.sendMessage?.({
+      action: 'updateDetectedPromptBadge',
+      count: collectablePrompts.length
+    }, () => void chrome.runtime?.lastError);
+  }
+
+  function scheduleDetectedPromptBadge(reason = 'page-change') {
+    if (autoBadgeTimer) clearTimeout(autoBadgeTimer);
+    autoBadgeTimer = setTimeout(() => notifyDetectedPromptBadge(reason), AUTO_BADGE_SCAN_DELAY_MS);
+  }
+
+  function watchUrlChangeForBadge() {
+    if (location.href === autoBadgeLastUrl) return;
+    autoBadgeLastUrl = location.href;
+    autoBadgeLastSignature = '';
+    chrome.runtime?.sendMessage?.({ action: 'updateDetectedPromptBadge', count: 0 }, () => void chrome.runtime?.lastError);
+    scheduleDetectedPromptBadge('url-change');
+  }
+
+  scheduleDetectedPromptBadge('initial');
+  window.addEventListener('load', () => scheduleDetectedPromptBadge('load'), { once: true });
+  const autoBadgeObserver = new MutationObserver(() => {
+    watchUrlChangeForBadge();
+    scheduleDetectedPromptBadge('mutation');
+  });
+  autoBadgeObserver.observe(document.documentElement, { childList: true, subtree: true });
+  setInterval(watchUrlChangeForBadge, 1000);
 
   // --- 消息监听 ---
   chrome.runtime?.onMessage?.addListener((request, sender, sendResponse) => {

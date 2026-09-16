@@ -195,14 +195,14 @@ test('new collections sort first across devices', () => {
 });
 
 test('the browser extension pane provides a direct download for the current package', () => {
-  assert.match(app, /PromptHub-Extension-v3\.30\.0\.zip/);
-  assert.match(app, /download="PromptHub-Extension-v3\.30\.0\.zip"/);
+  assert.match(app, /PromptHub-Extension-v3\.31\.0\.zip/);
+  assert.match(app, /download="PromptHub-Extension-v3\.31\.0\.zip"/);
   assert.match(app, /下载浏览器插件/);
 });
 
 test('the extension visible version matches the packaged manifest version', () => {
-  assert.match(fs.readFileSync(path.join(root, 'extension/manifest.json'), 'utf8'), /"version": "3\.30\.0"/);
-  assert.match(popupHtml, /AI 提示词收集器 v3\.30\.0/);
+  assert.match(fs.readFileSync(path.join(root, 'extension/manifest.json'), 'utf8'), /"version": "3\.31\.0"/);
+  assert.match(popupHtml, /AI 提示词收集器 v3\.31\.0/);
 });
 
 test('the extension shows a per-item ordered sync task panel', () => {
@@ -226,7 +226,16 @@ test('the extension recognizes WeChat article prompt blocks and lazy-loaded imag
   assert.match(content, /data-src/);
   assert.match(content, /extractWeChatArticlePrompts/);
   assert.match(app, /微信公众号复制帖子全文/);
-  assert.match(app, /PromptHub-Extension-v3\.30\.0\.zip/);
+  assert.match(app, /PromptHub-Extension-v3\.31\.0\.zip/);
+});
+
+test('the extension icon badge shows the current page collectable prompt count', () => {
+  assert.match(content, /AUTO_BADGE_SCAN_DELAY_MS = 1200/);
+  assert.match(content, /isCollectableBadgeCandidate/);
+  assert.match(content, /action: 'updateDetectedPromptBadge'/);
+  assert.match(background, /function updateDetectedPromptBadge\(tabId, count\)/);
+  assert.match(background, /当前页面检测到 \$\{safeCount\} 个可收藏提示词/);
+  assert.match(background, /changeInfo\.status === 'loading'[\s\S]*updateDetectedPromptBadge\(tabId, 0\)/);
 });
 
 test('paste and manual import flows expose a visible save button', () => {
