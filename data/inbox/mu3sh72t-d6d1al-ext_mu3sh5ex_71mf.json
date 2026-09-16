@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "kind": "prompthub-extension-inbox",
+  "createdAt": "2026-09-16T07:38:30.293Z",
+  "count": 1,
+  "items": [
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-09-16",
+      "domain": "x.com",
+      "id": "ext_mu3sh5ex_71mf",
+      "image": "https://pbs.twimg.com/media/HSRi1ikbYAA-n1d?format=jpg&name=900x900",
+      "images": [
+        "https://pbs.twimg.com/media/HSRi1ikbYAA-n1d?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HSRi2nlaEAAqoKF?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HSRi38RbUAAdoWg?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HSRi5mPaEAAjmP7?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "Photorealistic editorial portrait.\nThe setting is small British inn room, floral bedding, narrow sash window. Knee-up cowboy shot, waist-level view, back view. Photographed directly from behind. Her back, rear shoulders, and rear pelvis face the lens, with her thighs forming a rear-facing knee-up silhouette.\nA 20s seductive stunning Japanese or Korean woman with fine chain drop earrings, delicate metal chains hanging from the earlobes, understated movement and delicate collarbone chain detail, subtle metallic neck accent, 94-58-92 body proportion anchor, full bust, narrow defined waist, rounded hips, dramatic but lean bust-waist-hip curve, young cool editorial beauty face, refined sharp facial balance, calm distant gaze-ready features, deep side-parted long soft waves, defined face-framing layers, polished wave shape, sleek close-to-head roots, restrained volume, compact hair silhouette, fine aligned strands, smooth uniform texture with a soft natural sheen, clean tapered ends, neatly framing the face, hot-pink fashion hair color, vivid pink tone with realistic dyed hair texture, thoughtful reflective expression, slightly drawn inner brows, softened eyelids, relaxed lips, subtle facial tension.\nShe has both hands drawn behind the back or torso only where physically plausible for the selected pose, with relaxed shoulders, and presents a casual, relaxed, and natural seiza-style kneeling posture with the hips resting on the heels, knees together, and the torso upright.\nShe wears ultra-low-rise waistband sitting very low on the hips, bright red seamless lace thong bottoms, ultra-thin side straps, low-rise V-front, minimal back panel.\nShaded indoor daylight with subdued room brightness, daytime exterior brightness where visible, window-frame pattern light cast on the subject, framed daylight shadows.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HSRi1ikbYAA-n1d?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HSRi2nlaEAAqoKF?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HSRi38RbUAAdoWg?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HSRi5mPaEAAjmP7?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/VIBEQUIRKLABS/status/2099912693402747050",
+      "tags": [
+        "photorealistic"
+      ],
+      "timestamp": 1789544308138,
+      "title": "编辑写真女性人像",
+      "url": "https://x.com/VIBEQUIRKLABS/status/2099912693402747050",
+      "collectedAt": "2026-09-16T07:38:30.293Z"
+    }
+  ]
+}
