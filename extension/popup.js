@@ -7,6 +7,18 @@ const GITHUB_PAGES_URL = 'https://kxbbw81-glitch.github.io/PromptHub-/';
 const WEBSITE_URL = GITHUB_PAGES_URL;
 const VERIFICATION_STALE_MS = 45000;
 const MAIN_MERGE_STALE_MS = 5 * 60 * 1000;
+const LIVE_RESCAN_INTERVAL_MS = 3000;
+const LIVE_RESCAN_MAX_MS = 2 * 60 * 1000;
+const LIVE_RESCAN_DEBOUNCE_MS = 900;
+
+let currentPrompts = [];
+let currentPromptKeys = new Set();
+let liveScanTabId = null;
+let liveScanStartedAt = 0;
+let liveScanTimer = null;
+let liveScanDebounceTimer = null;
+let liveScanInFlight = false;
+let liveScanLastSignature = '';
 
 function $(s) { return document.querySelector(s); }
 
@@ -127,6 +139,69 @@ function renderSyncTasks(receipts) {
       </div>
     `;
   }).join('');
+}
+
+function normalizePromptKey(value) {
+  return String(value || '').replace(/\s+/g, ' ').trim().toLowerCase();
+}
+
+function promptIdentity(prompt) {
+  const source = String(prompt?.sourceUrl || prompt?.url || '').trim();
+  const sourceMatch = source.match(/^https?:\/\/(?:www\.)?(?:x|twitter)\.com\/([^/?#]+)\/status\/(\d+)/i);
+  if (sourceMatch) return `x:${sourceMatch[1].toLowerCase()}:${sourceMatch[2]}`;
+  return normalizePromptKey(prompt?.prompt);
+}
+
+function resetScanState() {
+  currentPrompts = [];
+  currentPromptKeys = new Set();
+}
+
+function mergeScannedPrompts(prompts) {
+  currentPrompts = [];
+  currentPromptKeys = new Set();
+  const latest = [];
+  for (const prompt of Array.isArray(prompts) ? prompts : []) {
+    const key = promptIdentity(prompt);
+    if (!key || currentPromptKeys.has(key)) continue;
+    currentPromptKeys.add(key);
+    latest.push(prompt);
+  }
+  currentPrompts = latest;
+  return latest.length;
+}
+
+function stopLiveScan() {
+  if (liveScanTimer) clearInterval(liveScanTimer);
+  if (liveScanDebounceTimer) clearTimeout(liveScanDebounceTimer);
+  liveScanTimer = null;
+  liveScanDebounceTimer = null;
+  liveScanInFlight = false;
+  liveScanTabId = null;
+  liveScanLastSignature = '';
+}
+
+function updateScanButton(active) {
+  const button = $('#btn-scan');
+  if (!button) return;
+  button.textContent = active ? '🔄 持续扫描中' : '🔍 扫描当前页面';
+}
+
+function scannedPromptSignature(prompts) {
+  return (Array.isArray(prompts) ? prompts : [])
+    .map(promptIdentity)
+    .filter(Boolean)
+    .sort()
+    .join('|');
+}
+
+function renderScanLoading(message = '正在扫描页面…') {
+  $('#content').innerHTML = `
+    <div class="loading">
+      <div class="spinner"></div>
+      <div class="loading-text">${escapeHTML(message)}</div>
+    </div>
+  `;
 }
 
 function renderVerificationStatus(feedback, queueLength = 0) {
@@ -617,7 +692,8 @@ function renderPrompts(prompts) {
     return;
   }
 
-  let html = `<div class="scan-summary"><div class="scan-badge">检测到 ${prompts.length} 个提示词</div>${prompts.length > 1 ? '<button class="btn btn-collect-all" id="btn-collect-all">❤️ 一键收藏</button>' : ''}</div>`;
+  const scanLabel = liveScanTabId ? `当前页面 ${prompts.length} 个提示词` : `检测到 ${prompts.length} 个提示词`;
+  let html = `<div class="scan-summary"><div class="scan-badge">${scanLabel}</div>${prompts.length > 1 ? '<button class="btn btn-collect-all" id="btn-collect-all">❤️ 一键收藏</button>' : ''}</div>`;
   prompts.forEach((p, idx) => {
     const imgHTML = p.image
       ? `<img class="prompt-item-thumb" src="${p.image}" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" /><div class="prompt-item-thumb-placeholder" style="display:none;">🍌</div>`
@@ -717,64 +793,124 @@ function escapeHTML(str) {
   return div.innerHTML;
 }
 
-// --- 扫描当前页面 ---
-$('#btn-scan').addEventListener('click', async () => {
-  $('#content').innerHTML = `
-    <div class="loading">
-      <div class="spinner"></div>
-      <div class="loading-text">正在扫描页面…</div>
-    </div>
-  `;
+async function getActiveScannableTab() {
+  const [tab] = await chrome.tabs.query({ active: true, currentWindow: true });
+  if (!tab) throw new Error('无法获取当前页面');
+  if (tab.url && (tab.url.startsWith('chrome://') || tab.url.startsWith('edge://') || tab.url.startsWith('about:'))) {
+    throw new Error('浏览器内置页面无法扫描');
+  }
+  return tab;
+}
 
+async function expandCollapsedPosts(tabId) {
+  await chrome.scripting.executeScript({
+    target: { tabId },
+    func: async () => {
+      const buttons = [...document.querySelectorAll('button, [role="button"]')];
+      buttons
+        .filter(button => /^(show more|显示更多|展开)$/i.test((button.textContent || '').trim()))
+        .forEach(button => button.click());
+      await new Promise(resolve => setTimeout(resolve, 350));
+    }
+  });
+}
+
+async function scanTab(tab, options = {}) {
   try {
-    const [tab] = await chrome.tabs.query({ active: true, currentWindow: true });
-    if (!tab) {
-      $('#content').innerHTML = '<div class="status">无法获取当前页面</div>';
-      return;
-    }
-
-    // 检查是否是浏览器内置页面
-    if (tab.url && (tab.url.startsWith('chrome://') || tab.url.startsWith('edge://') || tab.url.startsWith('about:'))) {
-      $('#content').innerHTML = '<div class="status"><div class="status-icon">⚠️</div>浏览器内置页面无法扫描</div>';
-      return;
-    }
-
-    // Expand collapsed social posts before extracting their complete prompt text.
-    await chrome.scripting.executeScript({
-      target: { tabId: tab.id },
-      func: async () => {
-        const buttons = [...document.querySelectorAll('button, [role="button"]')];
-        buttons
-          .filter(button => /^(show more|显示更多|展开)$/i.test((button.textContent || '').trim()))
-          .forEach(button => button.click());
-        await new Promise(resolve => setTimeout(resolve, 350));
-      }
-    });
-
-    // 注入扫描函数
+    await expandCollapsedPosts(tab.id);
     const results = await chrome.scripting.executeScript({
       target: { tabId: tab.id },
       func: SCAN_FUNCTION
     });
-
-    const prompts = results[0]?.result || [];
-    renderPrompts(prompts);
+    return results[0]?.result || [];
   } catch (err) {
-    // 尝试通过 content script 扫描
-    try {
-      const [tab] = await chrome.tabs.query({ active: true, currentWindow: true });
+    return new Promise((resolve, reject) => {
       chrome.tabs.sendMessage(tab.id, { action: 'scan' }, (response) => {
-        if (chrome.runtime.lastError) {
-          $('#content').innerHTML = `<div class="status"><div class="status-icon">⚠️</div>扫描失败<br><span style="font-size:11px;color:#CCC">${err.message}</span></div>`;
-          return;
-        }
-        renderPrompts(response?.prompts || []);
+        const fallbackError = chrome.runtime.lastError;
+        if (fallbackError) reject(err);
+        else resolve(response?.prompts || []);
       });
-    } catch {
-      $('#content').innerHTML = '<div class="status"><div class="status-icon">⚠️</div>扫描失败，请刷新页面后重试</div>';
+    });
+  }
+}
+
+async function performLiveScan(options = {}) {
+  if (liveScanInFlight) return;
+  liveScanInFlight = true;
+  try {
+    const tab = liveScanTabId
+      ? { id: liveScanTabId }
+      : await getActiveScannableTab();
+    const prompts = await scanTab(tab, options);
+    const signature = scannedPromptSignature(prompts);
+    const changed = signature !== liveScanLastSignature;
+    mergeScannedPrompts(prompts);
+    liveScanLastSignature = signature;
+    if (changed || !options.silent) renderPrompts(currentPrompts);
+  } catch (err) {
+    if (!options.silent) {
+      $('#content').innerHTML = `<div class="status"><div class="status-icon">⚠️</div>${escapeHTML(err.message || '扫描失败，请刷新页面后重试')}</div>`;
     }
+  } finally {
+    liveScanInFlight = false;
+  }
+}
+
+function scheduleLiveRescan(reason = 'page-change') {
+  if (!liveScanTabId) return;
+  if (liveScanDebounceTimer) clearTimeout(liveScanDebounceTimer);
+  liveScanDebounceTimer = setTimeout(() => {
+    performLiveScan({ silent: true, reason });
+  }, LIVE_RESCAN_DEBOUNCE_MS);
+}
+
+function startLiveScan(tabId) {
+  stopLiveScan();
+  resetScanState();
+  liveScanTabId = tabId;
+  liveScanStartedAt = Date.now();
+  liveScanLastSignature = '';
+  updateScanButton(true);
+  liveScanTimer = setInterval(() => {
+    if (!liveScanTabId || Date.now() - liveScanStartedAt > LIVE_RESCAN_MAX_MS) {
+      stopLiveScan();
+      updateScanButton(false);
+      return;
+    }
+    performLiveScan({ silent: true, reason: 'interval' });
+  }, LIVE_RESCAN_INTERVAL_MS);
+}
+
+// --- 扫描当前页面 ---
+$('#btn-scan').addEventListener('click', async () => {
+  renderScanLoading('正在扫描页面，并监听刷新后的新内容…');
+  try {
+    const tab = await getActiveScannableTab();
+    startLiveScan(tab.id);
+    await performLiveScan({ silent: false, reason: 'manual' });
+    showToast('已开启持续扫描，页面刷新或加载新内容会自动更新列表');
+  } catch (err) {
+    stopLiveScan();
+    updateScanButton(false);
+    $('#content').innerHTML = `<div class="status"><div class="status-icon">⚠️</div>${escapeHTML(err.message || '扫描失败，请刷新页面后重试')}</div>`;
   }
 });
+
+chrome.tabs?.onUpdated?.addListener((tabId, changeInfo) => {
+  if (tabId === liveScanTabId && changeInfo.status === 'complete') {
+    resetScanState();
+    liveScanLastSignature = '';
+    renderScanLoading('页面已刷新，正在重新读取当前页面提示词…');
+    scheduleLiveRescan('tab-complete');
+  }
+});
+
+chrome.tabs?.onActivated?.addListener(() => {
+  stopLiveScan();
+  updateScanButton(false);
+});
+
+window.addEventListener('unload', stopLiveScan);
 
 // --- 打开网站 ---
 $('#btn-site').addEventListener('click', () => {
