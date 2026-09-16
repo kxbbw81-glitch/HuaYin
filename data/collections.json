@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-16T08:50:22.310Z",
+  "updatedAt": "2026-09-16T12:11:55.416Z",
   "collections": [
     {
       "aspectRatio": "4:5",
@@ -32,7 +32,7 @@
       "collectedAt": "2026-09-16T08:48:19.414Z",
       "mediaType": "image",
       "githubSyncedAt": "2026-09-16T08:50:22.310Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-09-16T12:11:55.413Z"
     },
     {
       "aspectRatio": "3:4",
@@ -63,7 +63,7 @@
       "collectedAt": "2026-09-16T08:46:23.640Z",
       "mediaType": "image",
       "githubSyncedAt": "2026-09-16T08:48:28.034Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-09-16T12:11:55.413Z"
     },
     {
       "aspectRatio": "4:5",
@@ -93,7 +93,7 @@
       "collectedAt": "2026-09-16T08:44:28.772Z",
       "mediaType": "image",
       "githubSyncedAt": "2026-09-16T08:46:31.200Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-09-16T12:11:55.413Z"
     },
     {
       "aspectRatio": "9:16",
@@ -128,7 +128,7 @@
       "collectedAt": "2026-09-16T07:38:30.293Z",
       "mediaType": "image",
       "githubSyncedAt": "2026-09-16T07:40:32.499Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-09-16T12:11:55.413Z"
     },
     {
       "aspectRatio": "",
@@ -157,7 +157,7 @@
       "collectedAt": "2026-09-16T07:37:59.137Z",
       "mediaType": "image",
       "githubSyncedAt": "2026-09-16T07:40:01.758Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-09-16T12:11:55.413Z"
     },
     {
       "aspectRatio": "9:16",
@@ -192,7 +192,7 @@
       "collectedAt": "2026-09-16T07:37:59.137Z",
       "mediaType": "image",
       "githubSyncedAt": "2026-09-16T07:40:01.758Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-09-16T12:11:55.413Z"
     },
     {
       "aspectRatio": "3:4",
@@ -221,7 +221,7 @@
       "collectedAt": "2026-09-16T07:37:21.790Z",
       "mediaType": "image",
       "githubSyncedAt": "2026-09-16T07:39:26.434Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-09-16T12:11:55.413Z"
     },
     {
       "aspectRatio": "2:3",
@@ -250,7 +250,7 @@
       "collectedAt": "2026-09-16T07:37:21.790Z",
       "mediaType": "image",
       "githubSyncedAt": "2026-09-16T07:39:26.434Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-09-16T12:11:55.413Z"
     },
     {
       "aspectRatio": "9:16",
@@ -283,7 +283,7 @@
       "collectedAt": "2026-09-16T07:36:56.059Z",
       "mediaType": "image",
       "githubSyncedAt": "2026-09-16T07:38:57.380Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-09-16T12:11:55.413Z"
     },
     {
       "aspectRatio": "9:16",
@@ -315,7 +315,7 @@
       "collectedAt": "2026-09-16T07:36:26.044Z",
       "mediaType": "image",
       "githubSyncedAt": "2026-09-16T07:38:27.526Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-09-16T12:11:55.413Z"
     },
     {
       "aspectRatio": "3:4",
@@ -348,7 +348,7 @@
       "collectedAt": "2026-09-16T07:35:54.329Z",
       "mediaType": "image",
       "githubSyncedAt": "2026-09-16T07:37:58.205Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-09-16T12:11:55.413Z"
     },
     {
       "aspectRatio": "3:4",
@@ -378,7 +378,7 @@
       "mediaType": "image",
       "commerceType": "品牌视觉",
       "githubSyncedAt": "2026-09-16T07:37:41.493Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-09-16T12:11:55.413Z"
     },
     {
       "aspectRatio": "3:4",
@@ -409,7 +409,7 @@
       "collectedAt": "2026-09-16T07:35:35.448Z",
       "mediaType": "image",
       "githubSyncedAt": "2026-09-16T07:37:41.493Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-09-16T12:11:55.413Z"
     },
     {
       "aspectRatio": "1:1",
@@ -444,7 +444,7 @@
       "collectedAt": "2026-09-16T07:32:08.065Z",
       "mediaType": "image",
       "githubSyncedAt": "2026-09-16T07:34:28.814Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-09-16T12:11:55.413Z"
     },
     {
       "aspectRatio": "4:5",
@@ -479,7 +479,7 @@
       "collectedAt": "2026-09-16T07:30:30.773Z",
       "mediaType": "image",
       "githubSyncedAt": "2026-09-16T07:32:34.929Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-09-16T12:11:55.413Z"
     },
     {
       "aspectRatio": "9:16",
