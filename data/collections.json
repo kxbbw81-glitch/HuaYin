@@ -1,7 +1,40 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-16T07:38:27.526Z",
+  "updatedAt": "2026-09-16T07:38:57.380Z",
   "collections": [
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-09-16",
+      "domain": "x.com",
+      "id": "ext_mu3sf5oc_cvkv",
+      "image": "https://pbs.twimg.com/media/HSUJKKObgAELbEh?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HSUJKKObgAELbEh?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HSUJKqYaYAA1g0j?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "\"Create an ultra-realistic cinematic fashion editorial photograph of an adult woman(match face) seated gracefully in an oversized white wicker peacock chair against a vibrant turquoise-blue studio backdrop. Appearance: Shoulder-length dark-brown hair styled with soft natural volume and gentle waves, refined glamorous makeup with defined eyes, subtle rosy cheeks, natural pink lips, luminous realistic skin, and a playful, confident expression toward the camera. Outfit: A fitted long-sleeve cropped blouse featuring a vibrant tropical floral and botanical print in white, turquoise, blue, and subtle pink accents, paired with elegant high-waisted white tailored shorts. The styling is polished, playful, and summery. Prop & pose: 1. she sits normally. One hand rests delicately near her face while she holds a bright red-orange heart-shaped lollipop near her lips in a playful fashion pose. Relaxed shoulders, natural hands and believable anatomy. 2. Sitting in a compact low crouched pose, facing the camera. Both knees are drawn upward and close together, with her legs naturally overlapping. One elbow rests on her knee while her hand gently supports the side of her face. Her other arm rests across her knees, with her hand hanging naturally over the opposite knee. Her head tilts slightly toward her supporting hand as she looks directly at the camera with a calm, subtle expression. Setting: Oversized white woven wicker peacock chair with intricate latticework and ornate curved sides, positioned against a clean saturated turquoise-blue backdrop. Strong graphic contrast between the white chair, colorful outfit, and blue background. Lighting: Bright natural-looking studio lighting with crisp highlights and soft directional shadows, creating subtle wicker shadows across the blue wall and realistic dimensionality. Photography: Ultra-realistic high-fashion editorial photography, authentic skin texture, fine individual hair strands, detailed woven wicker fibers, realistic fabric texture, natural anatomy and proportions, vibrant but sophisticated color grading, sharp subject detail, subtle depth of field. Composition: Vertical editorial portrait, centered composition with the entire ornate chair prominently visible, slightly low camera angle, playful retro-fashion campaign aesthetic, clean background, 9:16 aspect ratio.\"",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HSUJKKObgAELbEh?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HSUJKqYaYAA1g0j?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/gemini_prompts/status/2100094893247119761",
+      "tags": [
+        "cinematic",
+        "dark",
+        "studio lighting"
+      ],
+      "timestamp": 1789544215164,
+      "title": "电影感女性人像",
+      "url": "https://x.com/gemini_prompts/status/2100094893247119761",
+      "collectedAt": "2026-09-16T07:36:56.059Z",
+      "mediaType": "image",
+      "githubSyncedAt": "2026-09-16T07:38:57.380Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "9:16",
       "category": "人像",
