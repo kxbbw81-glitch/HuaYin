@@ -1,7 +1,68 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-16T07:34:28.814Z",
+  "updatedAt": "2026-09-16T07:37:41.493Z",
   "collections": [
+    {
+      "aspectRatio": "3:4",
+      "category": "电商视觉",
+      "date": "2026-09-16",
+      "domain": "x.com",
+      "id": "ext_mu3sdf8u_rgvo",
+      "image": "https://pbs.twimg.com/media/HSTB7AfXIAAicvk?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HSTB7AfXIAAicvk?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "主题：京都石板路的回眸 主体：竖幅全身，年轻东亚女性站在画面中右，占画面约68%，身体3/4背对镜头，头向右后回转看向相机，重心落在右腿，左腿微曲，左手自然下垂拎包。 人物与表情：22岁东亚女性，短黑微卷波波头，侧分空气刘海，发丝有自然光泽与少量碎发贴颊。小卵形脸，杏仁眼，上薄下厚唇，自然淡妆。皮肤保留自然肌理与淡淡血色，不过度均匀化。身材匀称丰满，胸部自然丰满（约D至E杯视觉效果），腰部纤细，臀腿比例协调，曲线柔和自然且明显，整体呈漂亮的沙漏型。浅笑回眸，眼神安静自信，瞳孔有明确捕捉光。 服装与姿势：白色紧身短袖T恤，面料被胸部撑出真实弧度，下摆微微离开腰线；裸色侧抽褶超短裙紧紧包裹臀部，褶皱沿臀线向上收束，裙摆极短。左手提米色菱格链条包，包带自然下垂。右臂放松贴身。裸色细带高跟凉鞋。衣服与身体有真实力学拉伸，无飘逸感。 背景与光线：京都东山传统石板窄巷，深色木构町屋、石灯笼、右侧盛开粉色樱花枝，远处五重塔。午后侧逆阳光从左上方打下，暖金色高光落在肩膀、锁骨、白T和大腿外侧，地面有清晰向右后方延伸的人物投影，阴影偏冷。空气通透，有轻微尘埃感。 构图与镜头：等效85mm，相机略低于视平线，焦点在面部与臀线，中等景深，石板路透视线条把视线导向远处塔楼。 质感与风格：时尚编辑级街拍写实，皮肤、棉质T恤、褶皱裙料、木质民居、石板纹理全部高细节。8K，自然暖调，高对比但不死黑。 负面提示：过瘦或过夸张体型、塑料皮肤、过度美颜、畸形手指、多余肢体、文字水印、logo、背景人物过大、樱花过密改变构图、裙摆过长、表情夸张。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HSTB7AfXIAAicvk?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/sdjn_wgc/status/2100016560127570035",
+      "tags": [
+        "8k"
+      ],
+      "timestamp": 1789544134254,
+      "title": "品牌视觉",
+      "url": "https://x.com/sdjn_wgc/status/2100016560127570035",
+      "collectedAt": "2026-09-16T07:35:35.448Z",
+      "mediaType": "image",
+      "commerceType": "品牌视觉",
+      "githubSyncedAt": "2026-09-16T07:37:41.493Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "3:4",
+      "category": "人像",
+      "date": "2026-09-16",
+      "domain": "x.com",
+      "id": "ext_mu3sdf8t_9nuk",
+      "image": "https://pbs.twimg.com/media/HSQpOMDXAAEvfxx?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HSQpOMDXAAEvfxx?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HSEHNq4bMAA_aen?format=jpg&name=240x240"
+      ],
+      "model": "",
+      "prompt": "3:4，手机前置镜头，韩系女友私房抓拍，晨起撒娇感 人物锚点：成年年轻女性，清秀鹅蛋脸，淡妆，真实皮肤，蓬松黑长发 服装方向：宽松白衬衫，浅灰短裤 场景：卧室床上，白色床单，窗边晨光 镜头：超近距离手机自拍，手伸向镜头形成前景虚化 动作表情：伸手拉近手机，眼睛温柔看着镜头，带一点刚醒的笑意 光线：柔光落在脸部和头发边缘，背景压低 右下角手写“ChenLin” 负面：不要手指畸形，不要夸张广角变形，不要商业广告感",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HSQpOMDXAAEvfxx?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HSEHNq4bMAA_aen?format=jpg&name=240x240"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/chenlinspark/status/2100029903307747540",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1789544134253,
+      "title": "为什么清晨的床总比夜晚更让人舍不得走？",
+      "url": "https://x.com/chenlinspark/status/2100029903307747540",
+      "collectedAt": "2026-09-16T07:35:35.448Z",
+      "mediaType": "image",
+      "githubSyncedAt": "2026-09-16T07:37:41.493Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "1:1",
       "category": "人像",
