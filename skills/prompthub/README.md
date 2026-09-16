@@ -16,7 +16,7 @@
 | 路径 | 用途 |
 | --- | --- |
 | `SKILL.md` | Codex 执行规则与工作流。 |
-| `references/` | 数据同步、发布验证和 X 合规参考。 |
+| `references/` | 数据同步、采集要素标准、发布验证和 X 合规参考。 |
 | `scripts/verify-prompthub.ps1` | 运行项目测试、Git 差异检查和远端主分支核验。 |
 | `dist/prompthub-skill.zip` | 可携带的 Skill 安装包。 |
 
@@ -37,6 +37,7 @@ Use $prompthub-operations to verify the PromptHub collection sync and release th
 ## 数据与安全约束
 
 - `data/collections.json` 的 GitHub `main` 版本是唯一权威数据源。
+- 采集不是全文搬运；必须按 `references/collection-extraction-standard.md` 判断是否具备完整提示词、结果媒体、来源、分类和唯一性。
 - 浏览器本地存储只允许保存短暂重试队列和本机凭据，不能作为跨设备收藏库。
 - 不把 Token、Cookie、浏览器会话或私钥加入 Skill、压缩包或 Git 仓库。
 - 国内站必须使用本地发布的数据，不让访问者依赖 GitHub Raw。

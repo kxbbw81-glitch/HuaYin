@@ -11,14 +11,16 @@ Use this skill for the PromptHub repository and its collection pipeline. Preserv
 
 1. Locate the repository and read its `OPERATING_RULES.md`.
 2. Read [references/operating-contract.md](references/operating-contract.md) before changing collection, parsing, sync, or status behavior.
-3. For release work, read [references/release-verification.md](references/release-verification.md).
-4. For any X automation request, read [references/x-compliance.md](references/x-compliance.md) before using a browser or scheduling work.
+3. Read [references/collection-extraction-standard.md](references/collection-extraction-standard.md) before collecting, importing, classifying, repairing, or deduplicating prompt records.
+4. For release work, read [references/release-verification.md](references/release-verification.md).
+5. For any X automation request, read [references/x-compliance.md](references/x-compliance.md) before using a browser or scheduling work.
 
 ## Non-Negotiable Contract
 
 - Treat `data/collections.json` on GitHub `main` as the only canonical collection store.
 - Use browser local storage only for a short-lived retry queue and machine-local credentials. Never use it as a cross-device database.
 - Validate a complete prompt, result media, and a concrete source URL before collection.
+- Do not collect every page fragment; only collect records that satisfy the extraction standard.
 - Reject duplicate normalized prompt text and duplicate normalized source-post URLs before writing.
 - Write GitHub first. Release to the domestic site only after the GitHub-confirmed record has aged 30 minutes.
 - State the actual completed target in all status text. Do not label a local queue as “synced”.
