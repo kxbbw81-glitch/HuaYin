@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "kind": "prompthub-extension-inbox",
+  "createdAt": "2026-09-16T07:32:08.065Z",
+  "count": 1,
+  "items": [
+    {
+      "aspectRatio": "1:1",
+      "category": "人像",
+      "date": "2026-09-16",
+      "domain": "x.com",
+      "id": "ext_mu3s8zip_wzhc",
+      "image": "https://pbs.twimg.com/media/HSRf_PnbwAAq4Sy?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HSRf_PnbwAAq4Sy?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HSRgChXakAAoR68?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HSRgDjebcAAiysq?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HSRgF3yagAANOcc?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "Photorealistic editorial portrait.\nThe setting is small British inn room, floral bedding, narrow sash window. Knee-up cowboy shot, waist-level view, front view. Photographed directly from the front. Her chest and pelvis face the lens, with her torso, hips, and thighs forming a frontal knee-up silhouette.\nA 20s seductive stunning Japanese or Korean woman with fine chain drop earrings, delicate metal chains hanging from the earlobes, understated movement and delicate collarbone chain detail, subtle metallic neck accent, 94-58-92 body proportion anchor, full bust, narrow defined waist, rounded hips, dramatic but lean bust-waist-hip curve, young cool editorial beauty face, refined sharp facial balance, calm distant gaze-ready features, deep side-parted long soft waves, defined face-framing layers, polished wave shape, sleek close-to-head roots, restrained volume, compact hair silhouette, fine aligned strands, smooth uniform texture with a soft natural sheen, clean tapered ends, neatly framing the face, silver-gray white hair, cool pale fashion color, realistic dyed hair texture.\nShe presents a casual, relaxed, and natural standing posture with a slight backward lean through the upper body.\nShe wears white regular-length pullover hoodie, drawstring hood, ribbed cuffs and hem, relaxed casual streetwear silhouette, ultra-low-rise waistband sitting very low on the hips, black seamless lace thong bottoms, ultra-thin side straps, low-rise V-front, minimal back panel, silver rhinestone butterfly waist chain, two delicate silver strands draped at slightly different heights, with multiple small rhinestone butterfly charms spaced across the low waist and upper hips, worn above low-rise bottoms.\nShaded indoor daylight with subdued room brightness, daytime exterior brightness where visible, window-frame pattern light cast on the subject, framed daylight shadows.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HSRf_PnbwAAq4Sy?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HSRgChXakAAoR68?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HSRgDjebcAAiysq?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HSRgF3yagAANOcc?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/VIBEQUIRKLABS/status/2099909035588042816",
+      "tags": [
+        "photorealistic"
+      ],
+      "timestamp": 1789543927249,
+      "title": "编辑写真女性人像",
+      "url": "https://x.com/VIBEQUIRKLABS/status/2099909035588042816",
+      "collectedAt": "2026-09-16T07:32:08.065Z"
+    }
+  ]
+}
