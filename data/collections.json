@@ -1,7 +1,65 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-16T07:38:57.380Z",
+  "updatedAt": "2026-09-16T07:39:26.434Z",
   "collections": [
+    {
+      "aspectRatio": "3:4",
+      "category": "抽象",
+      "date": "2026-09-16",
+      "domain": "x.com",
+      "id": "ext_mu3sfpa4_qkm8",
+      "image": "https://pbs.twimg.com/media/HSBtPgLawAANkSX?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HSBtPgLawAANkSX?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "构图・镜头： 3:4 的纵向构图，从略高于正面的镜头捕捉整张椅子和全身。将人物置于中央并放大，双膝作为前景的主要形状，椅子的左右扶手和脚尖均纳入画面。焦点对准眼眸和脸庞，背景采用浅景深。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HSBtPgLawAANkSX?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/CyberTotal2026/status/2100064633839030572",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1789544240572,
+      "title": "窗边的白色椅子上",
+      "url": "https://x.com/CyberTotal2026/status/2100064633839030572",
+      "collectedAt": "2026-09-16T07:37:21.790Z",
+      "mediaType": "image",
+      "githubSyncedAt": "2026-09-16T07:39:26.434Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "2:3",
+      "category": "人像",
+      "date": "2026-09-16",
+      "domain": "x.com",
+      "id": "ext_mu3sfpa4_3etw",
+      "image": "https://pbs.twimg.com/media/HSTeBkdX0AArzoG?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HSTeBkdX0AArzoG?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "3. Composition & Camera Vertical portrait, medium close-up to mid-shot, 85mm lens look, eye-level or slightly above. Subject fills the frame with space for the window light and curtains. Shallow depth of field, sharp eyes and skin, softly blurred background. Editorial fashion framing, not a selfie, not cropped too tight on the chest.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HSTeBkdX0AArzoG?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/MissAI_Show/status/2100072186878759112",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1789544240572,
+      "title": "编辑写真女性人像",
+      "url": "https://x.com/MissAI_Show/status/2100072186878759112",
+      "collectedAt": "2026-09-16T07:37:21.790Z",
+      "mediaType": "image",
+      "githubSyncedAt": "2026-09-16T07:39:26.434Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "9:16",
       "category": "人像",
