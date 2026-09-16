@@ -1,7 +1,71 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-16T07:39:26.434Z",
+  "updatedAt": "2026-09-16T07:40:01.758Z",
   "collections": [
+    {
+      "aspectRatio": "",
+      "category": "角色",
+      "date": "2026-09-16",
+      "domain": "x.com",
+      "id": "ext_mu3sghpq_mix9",
+      "image": "https://pbs.twimg.com/media/HST1XdmaYAAEoWA?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HST1XdmaYAAEoWA?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "一款基于AI的本地短剧和漫剧创作工具，支持从剧本到成片的一站式生成，数据完全存储在本地，无需云服务。 支持故事生成、剧本编辑、角色生成、场景生成、道具生成、分镜生成、图片/视频生成以及合成视频等功能，实现从故事到成片的自动化创作。 软件下载：https://github.com/xuanyustudio/LocalMiniDrama/releases…",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HST1XdmaYAAEoWA?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/FLMdongtianfudi/status/2100073196263473265",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1789544277422,
+      "title": "视频短片",
+      "url": "https://x.com/FLMdongtianfudi/status/2100073196263473265",
+      "collectedAt": "2026-09-16T07:37:59.137Z",
+      "mediaType": "image",
+      "githubSyncedAt": "2026-09-16T07:40:01.758Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "9:16",
+      "category": "时尚",
+      "date": "2026-09-16",
+      "domain": "x.com",
+      "id": "ext_mu3sghpp_lwyr",
+      "image": "https://pbs.twimg.com/media/HSTgojXaEAAzK2w?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HSTgojXaEAAzK2w?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HSTgojxbEAAYk4G?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "A beautiful adult East Asian female pipa musician suspended in midair, dynamic full-body fashion pose, holding an ornate traditional Chinese pipa diagonally behind her shoulders, one arm raised gripping the neck of the instrument while the other bends gracefully behind her head. She wears a translucent icy-blue silk robe with a subtle holographic iridescent sheen, enormous weightless flowing sleeves and ribbons, delicate oxidized matte antique-gold trim along the fabric edges, ornate Chinese gold headdress and jewelry with an aged non-reflective metal finish. A single cinnabar-red accent appears only on her lips. Pitch-black void background with strong negative space, sparse hairline matte-gold thread-cloud motifs, minimal distant black mountain silhouettes, a fragmented circular gold-wire halo dissolving into tiny particles along the arc of her movement. Dramatic side and rim lighting emphasizes the translucency, layered texture and pearlescent refraction of the silk. Restrained luxury, ethereal Chinese futurism, high-fashion editorial campaign, cinematic minimalism, elegant movement, realistic anatomy, five clear fingers, accurate pipa construction, ultra-detailed fabric, refined composition, no additional figures, no palace, no dense scenery, no text, no logo –ar 9:16 –raw (目前一些国风AI图片，普遍一个问题，色彩层次太满、太\"民俗风\"——绿、橙、白、金混在一起,缺乏那种\"克制感\"。如果让我按照西方油画的调色逻辑改,核心是做减法:冷感荧光蓝为主调、氧化哑金为辅、朱砂红仅作唯一高饱和点缀,背景转向近乎纯黑的深邃虚空。黑底+单一高饱和色(朱砂红)+冷色主调,是Dior、Cartier一类高定广告的经典配色逻辑,西方审美对\"克制\"比\"繁复\"更买账 •要去掉壁画式满铺背景,留白/虚空反而显得贵——奢侈品视觉语言核心是negative space •氧化哑金比亮金更显质感和年代感,这可以避免\"廉价镀金\"的观感 •侧逆光+纱质透光是时装摄影常用手法,能让东方元素读出\"高定摄影棚\"而非\"民俗插画\"的气质）",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HSTgojXaEAAzK2w?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HSTgojxbEAAYk4G?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/liluocheng13/status/2100050338242064597",
+      "tags": [
+        "cinematic",
+        "东方",
+        "国风",
+        "插画",
+        "摄影"
+      ],
+      "timestamp": 1789544277421,
+      "title": "古风设定图晚礼服女性人像",
+      "url": "https://x.com/liluocheng13/status/2100050338242064597",
+      "collectedAt": "2026-09-16T07:37:59.137Z",
+      "mediaType": "image",
+      "githubSyncedAt": "2026-09-16T07:40:01.758Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "3:4",
       "category": "抽象",
