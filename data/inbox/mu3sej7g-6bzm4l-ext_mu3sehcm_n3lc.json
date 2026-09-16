@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "kind": "prompthub-extension-inbox",
+  "createdAt": "2026-09-16T07:36:26.044Z",
+  "count": 1,
+  "items": [
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-09-16",
+      "domain": "x.com",
+      "id": "ext_mu3sehcm_n3lc",
+      "image": "https://pbs.twimg.com/media/HSRgNGibUAAPvw6?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HSRgNGibUAAPvw6?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HSH0x50aAAALNCT?format=jpg&name=240x240"
+      ],
+      "model": "",
+      "prompt": "\"Create an ultra-realistic cinematic fashion editorial photograph of an adult woman(match face) in a whimsical pink doll-inspired studio setting.\n\nAppearance: A short blonde bob haircut with straight blunt bangs, soft glamorous makeup with defined eyes, rosy cheeks, glossy pink lips, luminous realistic skin, and a playful, confident expression.\n\nOutfit: A structured strapless pastel-pink corset bodice with elegant vertical boning details, paired with a voluminous layered pink tulle tutu skirt. Matching pink ankle-strap heels with delicate bow embellishments complete the coordinated doll-inspired styling. The outfit is polished, playful, and fashion-forward.\n\nPose: She stands gracefully inside a large recessed rectangular pink display frame, balancing on one leg while the other leg bends elegantly across the front. One hand is raised near her lips in a playful blowing-a-kiss gesture while the other rests lightly near her shoulder. Natural anatomy and believable balance.\n\nSetting: A monochromatic pastel-pink studio designed like an oversized collectible fashion-doll display box, with pink walls, floor, recessed frame, and subtle dimensional architectural details. A large stylized \"Barbie\" inspired script sign appears along the lower foreground of the display.\n\nLighting: Soft diffused studio lighting, gentle pink ambient illumination, subtle highlights on the satin corset and translucent tulle layers, controlled shadows, polished commercial fashion aesthetic.\n\nPhotography: Ultra-realistic editorial photography, authentic skin texture, detailed individual hair strands, realistic satin and tulle textures, natural anatomy, crisp footwear details, cinematic depth of field, refined color grading, high-end fashion campaign finish.\n\nComposition: Full-body vertical portrait, centered subject, symmetrical doll-box framing, generous negative space around the figure, playful editorial composition, 9:16 aspect ratio.\"",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HSRgNGibUAAPvw6?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HSH0x50aAAALNCT?format=jpg&name=240x240"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/gemini_prompts/status/2099909112494707142",
+      "tags": [
+        "cinematic",
+        "studio lighting"
+      ],
+      "timestamp": 1789544183638,
+      "title": "电影感女性人像",
+      "url": "https://x.com/gemini_prompts/status/2099909112494707142",
+      "collectedAt": "2026-09-16T07:36:26.044Z"
+    }
+  ]
+}
