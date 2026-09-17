@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "kind": "prompthub-extension-inbox",
+  "createdAt": "2026-09-17T02:28:29.179Z",
+  "count": 2,
+  "items": [
+    {
+      "aspectRatio": "9:16",
+      "category": "城市",
+      "date": "2026-09-17",
+      "domain": "x.com",
+      "id": "ext_mu4wubtk_g2oh",
+      "image": "https://pbs.twimg.com/media/HSVDE6UasAAAKTp?format=jpg&name=900x900",
+      "images": [
+        "https://pbs.twimg.com/media/HSVDE6UasAAAKTp?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HSVDHD_a4AAuljK?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HSVDJ7UaIAA4MR9?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HSVDKiva8AAfCRk?format=jpg&name=900x900"
+      ],
+      "model": "",
+      "prompt": "科举、夜巡、水利、榫卯，用纸色、结构和微型场景把背后的逻辑做进构图里：\n\n1. 一榜定名，巨型折卷 × 科举流程\n\n2. 更鼓传夜，夜色分层 × 城市一夜\n\n3. 水脉有序，青蓝分流 × 水利调度\n\n4. 榫卯有度，硬边色块 × 榫卯咬合\n\n很适合历史文化、制度档案、博物馆视觉和东方编辑海报参考！\n\nPrompt below",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HSVDE6UasAAAKTp?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HSVDHD_a4AAuljK?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HSVDJ7UaIAA4MR9?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HSVDKiva8AAfCRk?format=jpg&name=900x900"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/MrLarus/status/2100159212047544806",
+      "tags": [
+        "东方",
+        "海报"
+      ],
+      "timestamp": 1789612107608,
+      "title": "用 Images 2.5 做东方文化海报",
+      "url": "https://x.com/MrLarus/status/2100159212047544806",
+      "collectedAt": "2026-09-17T02:28:29.179Z"
+    },
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-09-17",
+      "domain": "x.com",
+      "id": "ext_mu4wubtm_mron",
+      "image": "https://pbs.twimg.com/media/HSYNT14bkAAOGnv?format=jpg&name=900x900",
+      "images": [
+        "https://pbs.twimg.com/media/HSYNT14bkAAOGnv?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HSYNVqgbAAAcOKd?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HSYNW0saQAADRFB?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HSYNX3ka4AAJKyB?format=jpg&name=900x900"
+      ],
+      "model": "",
+      "prompt": "Camera Look:\nInspired by Orie Ichihashi, transparent natural-light image language. quiet natural portraiture, transparent natural-light quality, soft open shadows, low-saturation neutral palette, delicate film grain. shot on 135mm long telephoto lens, strong background compression, narrow field of view, flattened spatial layers, pronounced subject isolation, distant working distance. f/5.6-style balanced depth of field, subject cleanly readable, background gently softened but still recognizable, natural optical separation. high-dynamic-range digital rendering, transparent shadows, crisp natural color, daylight-neutral contrast, clear highlight retention, high-resolution detail.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HSYNT14bkAAOGnv?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HSYNVqgbAAAcOKd?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HSYNW0saQAADRFB?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HSYNX3ka4AAJKyB?format=jpg&name=900x900"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/VIBEQUIRKLABS/status/2100381088611025379",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1789612107611,
+      "title": "写真人像",
+      "url": "https://x.com/VIBEQUIRKLABS/status/2100381088611025379",
+      "collectedAt": "2026-09-17T02:28:29.179Z"
+    }
+  ]
+}
