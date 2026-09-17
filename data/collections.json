@@ -1,7 +1,78 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-17T02:26:58.239Z",
+  "updatedAt": "2026-09-17T02:28:42.477Z",
   "collections": [
+    {
+      "aspectRatio": "9:16",
+      "category": "抽象",
+      "date": "2026-09-17",
+      "domain": "x.com",
+      "id": "ext_mu4wrz0x_wtga",
+      "image": "https://pbs.twimg.com/media/HSVDE6UasAAAKTp?format=jpg&name=900x900",
+      "images": [
+        "https://pbs.twimg.com/media/HSVDE6UasAAAKTp?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HSVDHD_a4AAuljK?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HSVDJ7UaIAA4MR9?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HSVDKiva8AAfCRk?format=jpg&name=900x900"
+      ],
+      "model": "",
+      "prompt": "科举、夜巡、水利、榫卯，用纸色、结构和微型场景把背后的逻辑做进构图里： 1. 一榜定名，巨型折卷 × 科举流程 2. 更鼓传夜，夜色分层 × 城市一夜 3. 水脉有序，青蓝分流 × 水利调度 4. 榫卯有度，硬边色块 × 榫卯咬合 很适合历史文化、制度档案、博物馆视觉和东方编辑海报参考！ Prompt below",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HSVDE6UasAAAKTp?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HSVDHD_a4AAuljK?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HSVDJ7UaIAA4MR9?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HSVDKiva8AAfCRk?format=jpg&name=900x900"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/MrLarus/status/2100159212047544806",
+      "tags": [
+        "东方",
+        "海报"
+      ],
+      "timestamp": 1789611997713,
+      "title": "用 Images 2.5 做东方文化海报",
+      "url": "https://x.com/MrLarus/status/2100159212047544806",
+      "collectedAt": "2026-09-17T02:26:38.972Z",
+      "mediaType": "image",
+      "githubSyncedAt": "2026-09-17T02:28:42.477Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-09-17",
+      "domain": "x.com",
+      "id": "ext_mu4wrz0v_6t8c",
+      "image": "https://pbs.twimg.com/media/HSVtefTbkAAyF-R?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HSVtefTbkAAyF-R?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HSVs3ZZaYAA9pdM?format=jpg&name=240x240"
+      ],
+      "model": "",
+      "prompt": "9:16 竖版唐风美学国风 CG 人像，超写实与东方诗意融合，半身近景特写。一位明确成年的东亚古典美人立于清晨宫廊，身体为右侧面，头部随身体朝向前方，目光落在手中展开的薄绢书信上。她拥有冷白通透肌肤、细长凤眼和自然柔和的立体五官，眉间略微收紧，胭脂唇轻抿，表情从羞涩转为若有所思，情绪安静而明确。她穿浅杏粉高腰唐风襦裙与冷青灰披帛，鎏金纹样只点缀领缘和袖口，适度低领衬托修长颈线；头饰由轻巧金凤发簪、珍珠串和一枚青玉组成，保留唐风华贵感但更简洁。双手共同展开书信，手指结构自然，袖纱形成柔性引导线。背景虚化为朱红廊柱、青灰晨雾和微亮庭院，金色晨光从侧前方照亮脸颊，冷白天光填充暗部，发丝边缘清晰。85mm，f/1.8，浅景深，低饱和杏粉、金色和青灰体系，真实丝绢材质、轻颗粒与柔光。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HSVtefTbkAAyF-R?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HSVs3ZZaYAA9pdM?format=jpg&name=240x240"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/Mrpinecone888/status/2100205250825380199",
+      "tags": [
+        "东方",
+        "国风",
+        "人像",
+        "清晨",
+        "低饱和"
+      ],
+      "timestamp": 1789611997711,
+      "title": "古风设定图女性人像",
+      "url": "https://x.com/Mrpinecone888/status/2100205250825380199",
+      "collectedAt": "2026-09-17T02:26:38.972Z",
+      "mediaType": "image",
+      "githubSyncedAt": "2026-09-17T02:28:42.477Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "9:16",
       "category": "时尚",
