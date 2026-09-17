@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-17T10:15:57.317Z",
+  "updatedAt": "2026-09-17T15:34:09.613Z",
   "collections": [
     {
       "aspectRatio": "3:4",
@@ -57,11 +57,13 @@
         "photorealistic"
       ],
       "timestamp": 1789612666629,
-      "title": "海滨长廊金色人像",
+      "title": "咖啡馆牛仔背带裤女性人像",
+      "titleSource": "prompt-audit",
+      "titleGeneratedAt": "2026-09-17T15:34:09.613Z",
       "url": "https://x.com/gemini_prompts/status/2100220057507033486",
       "collectedAt": "2026-09-17T02:37:49.992Z",
       "mediaType": "image",
-      "githubSyncedAt": "2026-09-17T02:39:52.689Z",
+      "githubSyncedAt": "2026-09-17T15:34:09.613Z",
       "domesticSyncedAt": "2026-09-17T05:26:46.119Z"
     },
     {
@@ -86,11 +88,13 @@
         "人像"
       ],
       "timestamp": 1789612164617,
-      "title": "完整提示词来了！！",
+      "title": "时间冻结商业广告镜头运动",
+      "titleSource": "prompt-audit",
+      "titleGeneratedAt": "2026-09-17T15:34:09.613Z",
       "url": "https://x.com/yyyole/status/2100175317508006021",
       "collectedAt": "2026-09-17T02:29:27.464Z",
       "mediaType": "image",
-      "githubSyncedAt": "2026-09-17T02:31:34.890Z",
+      "githubSyncedAt": "2026-09-17T15:34:09.613Z",
       "domesticSyncedAt": "2026-09-17T05:26:46.119Z"
     },
     {
@@ -123,11 +127,13 @@
         "电影感"
       ],
       "timestamp": 1789612164616,
-      "title": "正向",
+      "title": "古风婚房女性人像",
+      "titleSource": "prompt-audit",
+      "titleGeneratedAt": "2026-09-17T15:34:09.613Z",
       "url": "https://x.com/jackzhang123vip/status/2100187343936475469",
       "collectedAt": "2026-09-17T02:29:27.464Z",
       "mediaType": "image",
-      "githubSyncedAt": "2026-09-17T02:31:34.890Z",
+      "githubSyncedAt": "2026-09-17T15:34:09.613Z",
       "domesticSyncedAt": "2026-09-17T05:26:46.119Z"
     },
     {
