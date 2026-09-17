@@ -1,7 +1,73 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-17T02:30:32.312Z",
+  "updatedAt": "2026-09-17T02:31:34.890Z",
   "collections": [
+    {
+      "aspectRatio": "1:1",
+      "category": "人像",
+      "date": "2026-09-17",
+      "domain": "x.com",
+      "id": "ext_mu4wvjt5_s5om",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2100059970737995776/img/bcUADKVMa_h5DiDA.jpg",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2100059970737995776/img/bcUADKVMa_h5DiDA.jpg"
+      ],
+      "model": "",
+      "prompt": "使用50mm、85mm人像镜头与微距镜头交替。 正常行走阶段采用低机位平稳跟拍；失手瞬间快速推近；时间冻结阶段使用极慢动作、微距特写和轻微环绕运镜；恢复时间后逐步加快动作；最终展示主页时使用稳定的正面中近景。 景深较浅，焦点根据手机、咖啡杯、眼镜和人物面部进行清晰转换。保持真实镜头呼吸、自然运动模糊和高级商业广告质感。",
+      "rawImages": [
+        "https://pbs.twimg.com/amplify_video_thumb/2100059970737995776/img/bcUADKVMa_h5DiDA.jpg"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/yyyole/status/2100175317508006021",
+      "tags": [
+        "人像"
+      ],
+      "timestamp": 1789612164617,
+      "title": "完整提示词来了！！",
+      "url": "https://x.com/yyyole/status/2100175317508006021",
+      "collectedAt": "2026-09-17T02:29:27.464Z",
+      "mediaType": "image",
+      "githubSyncedAt": "2026-09-17T02:31:34.890Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "9:16",
+      "category": "建筑",
+      "date": "2026-09-17",
+      "domain": "x.com",
+      "id": "ext_mu4wvjt4_7bvr",
+      "image": "https://pbs.twimg.com/media/HSVdP6ua8AAIUZw?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HSVdP6ua8AAIUZw?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HSVdP6uagAAs-pA?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HSVdP6uaMAA4WDw?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "超写实中式古风真人电影摄影，一名成年东亚女性坐在古典中式婚房风格寝殿床沿，身形高挑纤细，肩颈线条修长，腰身收紧，腿部线条修长自然，面部为精致古典东方美人长相，鹅蛋脸，尖而不削的下巴，五官立体但柔和，黑色瞳孔，细长眼型，眼神冷静克制、略带高贵疏离感，鼻梁挺直，嘴唇小巧饱满，淡豆沙色唇妆，整体妆容干净精致，皮肤白皙通透，有自然细腻质感，不要塑料磨皮。 人物发型为中式高盘发，发髻饱满立体，额前和鬓角留有少量自然碎发，佩戴华丽的金色中式凤冠/花枝头饰，嵌有蓝绿色宝石与垂坠流苏，搭配长款金色耳饰、蓝绿宝石吊坠耳环，颈部佩戴细致金链项饰，整体为高贵华美但不过分厚重的中式古典贵族造型。 服装为一套孔雀蓝 / 墨绿蓝调的中式改良古风礼服，整体材质轻薄、垂坠、半透明，带有高级真丝薄纱质感。上半身为深V挂脖式结构，胸前与腰腹位置以金线刺绣与金属饰件点缀，胸前绣有精致花卉纹样，腰间系红金色中式束腰，并垂落多条细金链、流苏、玉饰与红色细绳装饰。外层为宽松飘逸的透明薄纱披袖，衣摆自然垂落到地面，形成大面积流动褶皱。整体色彩以孔雀蓝、墨青、暗金、少量正红为主，华贵、冷艳、成熟。 人物姿态为侧身坐在木质床沿，上半身挺直，轻轻转头看向镜头，左手自然撑在床边，右手轻放在腿侧或床面，双腿交错伸展，一条腿自然垂下，另一条腿弯曲搭在床边，双足赤脚，脚趾自然放松，姿态优雅慵懒，像一帧精致古风电影剧照。整体气质是清冷、华艳、克制、成熟，不要夸张媚态，不要低俗摆拍感。 二、场景提示词 场景为中式古典婚房 / 寝殿内景，夜晚氛围。 背景中有： 深色木质雕花床架 床上铺有红色绸缎被褥与红色靠枕 左侧木质床头柜 / 小几 小几上摆放一盏中式红色灯笼 灯笼正面写有明显的红色“囍”字 室内挂有大量红色轻纱帷幔 / 红色帐幔 画面右侧有暖黄色中式落地灯笼 背后木窗打开，窗外可见蓝黑色夜空与若隐若现的古代建筑轮廓 地面为深色木地板，散落少量红色纸片或婚庆纸屑 整体空间是典型的： 中式古典婚房 + 古风寝殿 + 红帐烛影 + 夜色窗景 气氛华美暧昧但依旧偏电影感与艺术感，而不是低俗网红棚拍。 三、光线与氛围 光线为室内暖光主导 + 窗外冷蓝夜色对比补色。 主光来自画面左前方和右后方的暖色灯笼光 在人物皮肤、肩部、腿部、脸颊形成柔和暖光高光 背景窗外透入冷色夜景光，形成微弱冷暖对比 红纱帷幔在灯光下呈现半透明暖红色层次 整体光影柔和、细腻、精修级电影布光 不要太硬的闪光灯效果 不要过亮曝光 画面保持高动态范围和丰富暗部细节 氛围关键词： 华丽、安静、夜色、古典、微暧、贵气、东方电影感 四、构图与镜头语言 竖版 9:16，全身人像构图 镜头高度略低于人物胸口或接近平视，轻微仰拍，强化身形比例和气场。 建议镜头感： 85mm人像镜头 f/1.8 – f/2.8 浅景深但人物整体清晰 背景略虚化 对焦点在人物眼睛与面部 强调服饰垂感、腿部线条、红帐空间纵深 画面结构： 人物位于中间略偏右 红帐帷幔从左右两侧包裹画面 左侧灯笼与床柜形成前景支撑 背景床榻、窗景和暖灯形成层次 下方保留裙摆拖地与赤脚细节",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HSVdP6ua8AAIUZw?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HSVdP6uagAAs-pA?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HSVdP6uaMAA4WDw?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/jackzhang123vip/status/2100187343936475469",
+      "tags": [
+        "东方",
+        "古风",
+        "人像",
+        "摄影",
+        "电影感"
+      ],
+      "timestamp": 1789612164616,
+      "title": "正向",
+      "url": "https://x.com/jackzhang123vip/status/2100187343936475469",
+      "collectedAt": "2026-09-17T02:29:27.464Z",
+      "mediaType": "image",
+      "githubSyncedAt": "2026-09-17T02:31:34.890Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "9:16",
       "category": "人像",
