@@ -1,7 +1,69 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-16T12:11:55.416Z",
+  "updatedAt": "2026-09-17T02:25:40.533Z",
   "collections": [
+    {
+      "aspectRatio": "9:16",
+      "category": "抽象",
+      "date": "2026-09-17",
+      "domain": "x.com",
+      "id": "ext_mu4wo2b7_4i0j",
+      "image": "https://pbs.twimg.com/media/HSB8SdUa4AEUJTP?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HSB8SdUa4AEUJTP?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "构图・镜头： 9:16的纵向构图，从沙发前的低镜头位置以广角偏近的方式，收录全身从头顶的手到脚尖。将人物置于中央，突出向前伸展的右腿，将左膝配置在左侧。右脚在前前景轻微虚化，焦点在脸部，背景采用浅景深。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HSB8SdUa4AEUJTP?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/CyberTotal2026/status/2100350516463046998",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1789611815348,
+      "title": "在安静的房间里深呼吸",
+      "url": "https://x.com/CyberTotal2026/status/2100350516463046998",
+      "collectedAt": "2026-09-17T02:23:37.538Z",
+      "mediaType": "image",
+      "githubSyncedAt": "2026-09-17T02:25:40.533Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-09-17",
+      "domain": "x.com",
+      "id": "ext_mu4wo2b7_nyea",
+      "image": "https://pbs.twimg.com/media/HSU_LycaMAAvV2a?format=jpg&name=medium",
+      "images": [
+        "https://pbs.twimg.com/media/HSU_LycaMAAvV2a?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HSU_MNzakAACDrm?format=jpg&name=medium"
+      ],
+      "model": "",
+      "prompt": "\"Create an ultra-realistic cinematic fashion editorial portrait of an adult woman in a minimalist warm-white studio. Appearance: Sleek, long straight dark-brown hair, refined glamorous makeup with softly defined eyes, x.com/gemini_prompts…",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HSU_LycaMAAvV2a?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HSU_MNzakAACDrm?format=jpg&name=medium"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/gemini_prompts/status/2100154287393530001",
+      "tags": [
+        "cinematic",
+        "minimalist",
+        "dark"
+      ],
+      "timestamp": 1789611815347,
+      "title": "白色影棚女性人像",
+      "url": "https://x.com/gemini_prompts/status/2100154287393530001",
+      "collectedAt": "2026-09-17T02:23:37.538Z",
+      "mediaType": "image",
+      "githubSyncedAt": "2026-09-17T02:25:40.533Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "4:5",
       "category": "自然",
