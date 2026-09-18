@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-18T01:33:17.305Z",
+  "updatedAt": "2026-09-18T06:41:33.593Z",
   "collections": [
     {
       "aspectRatio": "2:3",
@@ -36,7 +36,7 @@
       "mediaType": "image",
       "commerceType": "产品主图",
       "githubSyncedAt": "2026-09-18T01:33:17.305Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-09-18T06:41:33.590Z"
     },
     {
       "aspectRatio": "3:4",
