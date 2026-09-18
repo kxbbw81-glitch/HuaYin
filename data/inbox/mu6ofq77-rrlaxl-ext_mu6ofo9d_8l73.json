@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "kind": "prompthub-extension-inbox",
+  "createdAt": "2026-09-18T08:08:41.827Z",
+  "count": 1,
+  "items": [
+    {
+      "aspectRatio": "3:4",
+      "category": "人像",
+      "date": "2026-09-18",
+      "domain": "x.com",
+      "id": "ext_mu6ofo9d_8l73",
+      "image": "https://pbs.twimg.com/media/HR1NcSPakAAO6yk?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HR1NcSPakAAO6yk?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "构图・镜头：\n3:4纵向构图，镜头从正面略低腰部位置拍摄。将人物置于中央并放大，用白色寝具包围下半身，后景置于绿色。焦点对准脸部和小花图案。将人物大幅收录，焦点集中在主角，背景轻微虚化。腰部以上照片。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HR1NcSPakAAO6yk?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/CyberTotal2026/status/2099262094302761246",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1789718919313,
+      "title": "在树荫的床上等待海风",
+      "url": "https://x.com/CyberTotal2026/status/2099262094302761246",
+      "collectedAt": "2026-09-18T08:08:41.827Z"
+    }
+  ]
+}
