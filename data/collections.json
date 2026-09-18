@@ -1,7 +1,38 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-18T08:10:47.580Z",
+  "updatedAt": "2026-09-18T10:46:02.899Z",
   "collections": [
+    {
+      "aspectRatio": "9:16",
+      "category": "抽象",
+      "date": "2026-09-18",
+      "domain": "x.com",
+      "id": "ext_mu6tza77_u1nh",
+      "image": "https://pbs.twimg.com/media/HSfUSwVbwAAz2BO?format=jpg&name=medium",
+      "images": [
+        "https://pbs.twimg.com/media/HSfUSwVbwAAz2BO?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HSfUmKxa0AAQdvs?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "年轻东亚女性，戴白色兔耳发箍，穿着轻薄紧身吊带，她头朝左，膝盖跪趴姿势在黑色皮革沙发上，因为臀部高抬而身体前倾，左手直挺撑在沙发上，回头看镜头，脸颊微微有点绯红。右侧画面边缘到腰部位置，不显示臀部。室内白墙房间，柔和光线，真实皮肤质感，高清摄影。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HSfUSwVbwAAz2BO?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HSfUmKxa0AAQdvs?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/MrGafish/status/2100881764675928365",
+      "tags": [
+        "摄影"
+      ],
+      "timestamp": 1789728232291,
+      "title": "提示词层层脱敏后",
+      "url": "https://x.com/MrGafish/status/2100881764675928365",
+      "collectedAt": "2026-09-18T10:43:55.054Z",
+      "mediaType": "image",
+      "githubSyncedAt": "2026-09-18T10:46:02.899Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "3:4",
       "category": "抽象",
