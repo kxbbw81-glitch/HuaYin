@@ -1,7 +1,43 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-17T18:57:36.059Z",
+  "updatedAt": "2026-09-18T01:33:17.305Z",
   "collections": [
+    {
+      "aspectRatio": "2:3",
+      "category": "电商视觉",
+      "date": "2026-09-18",
+      "domain": "x.com",
+      "id": "ext_mu6a8iv4_10bd",
+      "image": "https://pbs.twimg.com/media/HSbHJrzaEAADFJ3?format=jpg&name=900x900",
+      "images": [
+        "https://pbs.twimg.com/media/HSbHJrzaEAADFJ3?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HSbHLcwasAA_rCC?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HSbHNjEbIAAmm_F?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HSbHOqQa8AA_a9m?format=jpg&name=900x900"
+      ],
+      "model": "",
+      "prompt": "Photorealistic editorial portrait. The setting is horizonless seamless matte pure white color field, continuous white background blending into a solid white void, full-bleed white surface. Knee-up cowboy shot, waist-level view, front view. Photographed directly from the front. Her chest and pelvis face the lens, with her torso, hips, and thighs forming a frontal knee-up silhouette. A 20s seductive stunning Japanese or Korean woman with minimal metal ear cuff, small curved cuff fitted along the outer ear cartilage, subtle jewelry accent and delicate collarbone chain detail, subtle metallic neck accent, 94-58-92 body proportion anchor, full bust, narrow defined waist, rounded hips, dramatic but lean bust-waist-hip curve, young sweet pretty face, soft rounded charm, bright friendly eyes, gentle cute beauty, short flipped-out hair, retro outward ends, polished playful movement around the jawline, sleek wet finish, defined damp sections, neat separated strands, controlled close-to-head shape, soft black-tea brown hair, muted brown-black salon tone, soft natural smile, relaxed brows, gently narrowed eyes, softly parted lips, lifted cheeks.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HSbHJrzaEAADFJ3?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HSbHLcwasAA_rCC?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HSbHNjEbIAAmm_F?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HSbHOqQa8AA_a9m?format=jpg&name=900x900"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/VIBEQUIRKLABS/status/2100585515573719415",
+      "tags": [
+        "photorealistic"
+      ],
+      "timestamp": 1789695071105,
+      "title": "珠宝女性人像",
+      "url": "https://x.com/VIBEQUIRKLABS/status/2100585515573719415",
+      "collectedAt": "2026-09-18T01:31:13.375Z",
+      "mediaType": "image",
+      "commerceType": "产品主图",
+      "githubSyncedAt": "2026-09-18T01:33:17.305Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "3:4",
       "category": "人像",
