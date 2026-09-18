@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "kind": "prompthub-extension-inbox",
+  "createdAt": "2026-09-18T07:43:46.748Z",
+  "count": 1,
+  "items": [
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-09-18",
+      "domain": "x.com",
+      "id": "ext_mu6njmtz_mu4t",
+      "image": "https://pbs.twimg.com/media/HSeShOGbEAAgxq0?format=jpg&name=medium",
+      "images": [
+        "https://pbs.twimg.com/media/HSeShOGbEAAgxq0?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HSeShpobUAAnWGQ?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "\"Create an ultra-realistic cinematic fashion editorial portrait of an adult woman(match face) with a dark angel aesthetic, matching the reference composition closely.\n\nAppearance: Long ash-brown hair with subtle pink-purple streaks, soft wispy bangs, and natural loose strands. Delicate makeup with soft pink tones, luminous skin, and a serene expression with her eyes gently closed. Small earrings and layered necklaces with cross pendants.\n\nOutfit: Black textured off-shoulder cropped sweater with long sleeves, paired with distressed white denim shorts. Thin black waist chains and straps add subtle detail.\n\nPose:\n\n1. Standing close to the camera with her head slightly tilted upward and eyes closed. Large black feathered angel wings extend behind her on both sides, framing her body. Her hands hanging on side of her torso.\n\n2. Standing in a three-quarter profile, one shoulder slightly raised, one hand resting loosely near her hip, chin turned toward the camera with a soft mysterious half-smile.\n\n3. Standing with her body angled away from the camera, both hands gently clasped behind her back, head turned over her shoulder toward the camera with a calm, confident expression.\n\n4. Leaning slightly forward toward the camera, arms relaxed at her sides, chin lowered, eyes open with an intense piercing gaze and a subtle serious expression.\n\n5. Standing tall with both arms slightly extended away from her body, head tilted to one side, eyes closed with a peaceful faint smile, creating a graceful angelic pose.\n\nSetting: Dreamy pale-gray studio environment with soft misty textures, floating black feathers, and subtle sparkling particles in the background.\n\nLighting: Soft diffused cool lighting with gentle highlights on her hair, skin, and feathers, creating an ethereal dark-fantasy atmosphere.\n\nPhotography: Ultra-realistic cinematic portrait, natural skin and hair texture, detailed black feathers, shallow depth of field, soft contrast, vertical composition.\n\n9:16ar\"",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HSeShOGbEAAgxq0?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HSeShpobUAAnWGQ?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/gemini_prompts/status/2100808865734627738",
+      "tags": [
+        "cinematic",
+        "dark",
+        "dreamy"
+      ],
+      "timestamp": 1789717424471,
+      "title": "黄丝衬衫三联肖像",
+      "url": "https://x.com/gemini_prompts/status/2100808865734627738",
+      "collectedAt": "2026-09-18T07:43:46.748Z"
+    }
+  ]
+}
