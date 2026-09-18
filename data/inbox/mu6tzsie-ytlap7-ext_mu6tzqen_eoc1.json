@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "kind": "prompthub-extension-inbox",
+  "createdAt": "2026-09-18T10:44:16.022Z",
+  "count": 1,
+  "items": [
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-09-18",
+      "domain": "x.com",
+      "id": "ext_mu6tzqen_eoc1",
+      "image": "https://pbs.twimg.com/media/HScHzBAakAA5mYA?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HScHzBAakAA5mYA?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "\"Create an ultra-realistic full-body fashion character reference image of the same adult woman(match face) shown twice side-by-side against a dark charcoal studio background: one front view and one back view.\n\nAppearance: Long straight deep-red hair with smooth natural strands, full bangs, and a red headband. Soft doll-like makeup, rosy cheeks, subtle pink lips, and bright green eyes.\n\nOutfit: Pink short-sleeve fitted T-shirt under white denim short overalls. The overalls have red heart patches throughout, heart-shaped details on the bib and straps, rolled cuffs, and red metallic accents. She wears mismatched knee-high socks—one white with red stripes and a heart, the other red with a repeating heart pattern—and white, brown, and red high-top sneakers with heart details. A red heart choker and delicate necklace complete the outfit.\n\nFront pose: Slightly tilted head, one leg crossed and lifted behind her, arms relaxed at her sides, gentle playful expression.\n\nBack pose: Standing naturally with her back toward the camera, showing the long red hair, overall straps, rear pockets, heart details, and matching socks and sneakers.\n\nStyle: Clean studio character reference photography, realistic fabric and hair texture, soft even lighting, full-body framing, consistent proportions and identical outfit across both views.\n\n9:16ar\"",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HScHzBAakAA5mYA?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/gemini_prompts/status/2100656330990391650",
+      "tags": [
+        "dark"
+      ],
+      "timestamp": 1789728253295,
+      "title": "调皮表情美妆人像",
+      "url": "https://x.com/gemini_prompts/status/2100656330990391650",
+      "collectedAt": "2026-09-18T10:44:16.022Z"
+    }
+  ]
+}
