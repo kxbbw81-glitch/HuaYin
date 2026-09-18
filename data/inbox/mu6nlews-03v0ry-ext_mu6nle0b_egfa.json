@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "kind": "prompthub-extension-inbox",
+  "createdAt": "2026-09-18T07:45:07.516Z",
+  "count": 2,
+  "items": [
+    {
+      "aspectRatio": "3:4",
+      "category": "人像",
+      "date": "2026-09-18",
+      "domain": "x.com",
+      "id": "ext_mu6nle0b_egfa",
+      "image": "https://pbs.twimg.com/media/HRiiSbjbwAAOW8g?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HRiiSbjbwAAOW8g?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "构图・镜头：\n3:4 的纵向构图，镜头置于腰部稍低的位置，拍摄正面斜角的全身照片。人物置于中央并占据主要空间，上半部纳入黄昏天空与细月，下端收纳湿润的裙摆与双足。焦点集中在人物与透出的布料上，远景略微模糊。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HRiiSbjbwAAOW8g?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/CyberTotal2026/status/2097269715966230876",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1789717506347,
+      "title": "在夕月的轻辉下",
+      "url": "https://x.com/CyberTotal2026/status/2097269715966230876",
+      "collectedAt": "2026-09-18T07:45:07.516Z"
+    },
+    {
+      "aspectRatio": "2:3",
+      "category": "人像",
+      "date": "2026-09-18",
+      "domain": "x.com",
+      "id": "ext_mu6nle0c_yofg",
+      "image": "https://pbs.twimg.com/media/HR1CVAua8AAIPLI?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HR1CVAua8AAIPLI?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "构图・镜头：\n2:3的竖构图，镜头为正面膝上照片。人物置于中央，举起的臂膀位于左上，腰间的蝴蝶结和蕾丝口袋置于中央下。焦点在脸部和服装的结构上。人物占据较大空间，焦点集中在主角，背景轻微虚化。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HR1CVAua8AAIPLI?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/CyberTotal2026/status/2099004647814115529",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1789717506348,
+      "title": "清晨的厨房里",
+      "url": "https://x.com/CyberTotal2026/status/2099004647814115529",
+      "collectedAt": "2026-09-18T07:45:07.516Z"
+    }
+  ]
+}
