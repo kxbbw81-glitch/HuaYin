@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "kind": "prompthub-extension-inbox",
+  "createdAt": "2026-09-18T07:50:39.076Z",
+  "count": 3,
+  "items": [
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-09-18",
+      "domain": "x.com",
+      "id": "ext_mu6njbac_k41k",
+      "image": "https://pbs.twimg.com/media/HSbrESPagAIUlwR?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HSbrESPagAIUlwR?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HSRV9aRbMAE3nvr?format=jpg&name=240x240"
+      ],
+      "model": "",
+      "prompt": "提示词（欢迎返图）：\n玫瑰香槟粉 CCD 复古直闪，三位年轻成年东亚女性，脸型和气质略有差异，分别穿奶油白、香槟粉和裸玫瑰色修身礼裙。她们在高级酒店下午茶厅自然聊天，一人坐着端茶杯，一人站在桌边整理耳饰，一人侧身看向镜头。9:16  x.com/liyue_ai/statu…",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HSbrESPagAIUlwR?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HSRV9aRbMAE3nvr?format=jpg&name=240x240"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/liyue_ai/status/2100624976869228879",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1789717409508,
+      "title": "东方人像",
+      "url": "https://x.com/liyue_ai/status/2100624976869228879",
+      "collectedAt": "2026-09-18T07:50:39.076Z"
+    },
+    {
+      "aspectRatio": "2:3",
+      "category": "人像",
+      "date": "2026-09-18",
+      "domain": "x.com",
+      "id": "ext_mu6nsh1k_zauh",
+      "image": "https://pbs.twimg.com/media/HRNLH_wbkAA0IIa?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HRNLH_wbkAA0IIa?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "构图・相机：\n2:3的纵向构图，从略低于视线的正面拍摄，从头顶到靴底的全身照片，不裁剪画面边缘。人物置于中央并放大，左侧保留帐篷，右侧保留椅子作为背景。焦点在脸部和服装上，森林轻微虚化。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HRNLH_wbkAA0IIa?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/CyberTotal2026/status/2096800876622905471",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1789717836873,
+      "title": "在森林帐篷前摆出和平手势",
+      "url": "https://x.com/CyberTotal2026/status/2096800876622905471",
+      "collectedAt": "2026-09-18T07:50:39.076Z"
+    },
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-09-18",
+      "domain": "x.com",
+      "id": "ext_mu6nsh1l_oe7r",
+      "image": "https://pbs.twimg.com/media/HSdtGFJa4AAru8T?format=jpg&name=medium",
+      "images": [
+        "https://pbs.twimg.com/media/HSdtGFJa4AAru8T?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HSdtcmnbAAANxN1?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "Bright, warm dusk tones, cyan-blue reflections on the water, subtle film grain, and slight digital sharpening. Photorealistic photography with a Japanese outdoor portrait aesthetic. A beautiful young woman with shoulder-length black hair and wispy bangs, warm ivory skin with a natural rosy undertone. She wears a light apricot spaghetti-strap midi dress falling to mid-calf, barefoot on the stone steps of a riverside embankment, with a jacket casually draped over her forearm. Vertical full-body composition from a slightly low camera angle. She sits on the stone steps with both hands resting naturally at her sides, her legs hanging down in a relaxed position, her head slightly tilted as she smiles toward the camera. The setting sun illuminates her shoulder line, collarbones, and lower legs from the side and behind, while the water shimmers with scattered golden highlights. The buildings across the water are softly blurred and rendered in muted tones, with the spaghetti straps and collarbones forming the brightest visual accents.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HSdtGFJa4AAru8T?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HSdtcmnbAAANxN1?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/BubbleBrain/status/2100768652807287037",
+      "tags": [
+        "photorealistic"
+      ],
+      "timestamp": 1789717836873,
+      "title": "东方人像",
+      "url": "https://x.com/BubbleBrain/status/2100768652807287037",
+      "collectedAt": "2026-09-18T07:50:39.076Z"
+    }
+  ]
+}
