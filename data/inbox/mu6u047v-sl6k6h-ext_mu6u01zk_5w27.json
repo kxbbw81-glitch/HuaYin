@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "kind": "prompthub-extension-inbox",
+  "createdAt": "2026-09-18T10:44:31.195Z",
+  "count": 1,
+  "items": [
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-09-18",
+      "domain": "x.com",
+      "id": "ext_mu6u01zk_5w27",
+      "image": "https://pbs.twimg.com/media/HSd1SEvbYAAcTjV?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HSd1SEvbYAAcTjV?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HSd1R9za0AAjfpI?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HSd1R91bwAA8brl?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HSd1R9za8AA-v1z?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "Full-body portrait, eye-level view.\nA 20-year-old adult East Asian woman, elongated oval face with a firm angled jaw, deep-brown slender lifted almond eyes, defined medium-high bridge nose, warm light-olive skin, smooth warm light-olive skin with an even satin texture, tall athletic hourglass proportions with strong shoulders, full bust, narrow toned waist, rounded hips and long toned legs, long rich dark chestnut-brown hair with an open center part, smooth crown volume, long face-framing layers and broad polished S-waves falling below the chest, soft natural smile, relaxed brows, gently narrowed eyes, softly parted lips, lifted cheeks.\nShe wears glossy black patent triangle bikini top, oversized black varsity bomber jacket worn open with white striped ribbed trim and white script embroidery, plain black baseball cap, delicate gold chain necklace with a small round pendant, with black frame, thin-frame glasses, and small cross earring detail, subtle gothic-inspired accessory accent, pants waist button undone and front zipper slightly lowered, relaxed loosened waistband styling, still worn securely on the hips, dark grey denim shorts, short hemline, clean cut-off-inspired silhouette, black fishnet tights, open net hosiery texture, black lace-up heeled sandals, wraparound ankle straps, slim heel, delicate gold waist chain, fine linked chain with evenly spaced tiny clear diamond-like gemstone accents, subtle sparkling jewelry worn around the waist and upper hips.\nShe has her chin slightly raised, a close handheld companion snapshot from a boyfriend-or-best-friend point of view, with her leaning naturally toward the nearby camera and keeping her hands relaxed in candid body language, and presents a casual, relaxed, and natural standing pose with one shoulder and the upper back resting against an existing vertical surface in the scene, clear shoulder-to-surface contact with light body-weight support.\nThe scene is abandoned storefront window, damaged mannequins, broken glass on the floor.\nWarm low-light social interior ambience, dim amber room brightness, high-key subject lighting, bright even exposure.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HSd1SEvbYAAcTjV?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HSd1R9za0AAjfpI?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HSd1R91bwAA8brl?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HSd1R9za8AA-v1z?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/VIBEQUIRKLABS/status/2100776782152835404",
+      "tags": [
+        "dark"
+      ],
+      "timestamp": 1789728268305,
+      "title": "海滨长廊金色人像",
+      "url": "https://x.com/VIBEQUIRKLABS/status/2100776782152835404",
+      "collectedAt": "2026-09-18T10:44:31.195Z"
+    }
+  ]
+}
