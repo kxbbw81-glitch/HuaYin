@@ -1,7 +1,40 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-18T06:41:33.593Z",
+  "updatedAt": "2026-09-18T07:45:36.550Z",
   "collections": [
+    {
+      "aspectRatio": "2:3",
+      "category": "人像",
+      "date": "2026-09-18",
+      "domain": "x.com",
+      "id": "ext_mu6njbab_gwpp",
+      "image": "https://pbs.twimg.com/media/HSd_elDbkAA-PVI?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HSd_elDbkAA-PVI?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HSZxsF0bUAAvuqt?format=jpg&name=240x240"
+      ],
+      "model": "",
+      "prompt": "复古暖绿胶片调色、荧光灯混合光、轻微高光泛朦、明显胶片颗粒与低清扫描噪点的真人摄影环境人像。年轻女性穿白色复古服务员或护士风贴身制服，戴白色硬挺帽子，黑色中短发配轻薄分束刘海，深色眼线与柔和下眼影，红棕色水润唇妆，暖象牙偏米色肤调，脸颊微红。中景、略低机位，从人物身后偏侧方拍摄，人物位于画面右侧，身体前倾并用双臂支撑在设备或台面边缘，腰臀比例明显，制服沿背部、腰部和下身形成自然包裹与横向褶皱；肩颈转向左侧，头部回望镜头，半睁侧视，嘴唇微张，表情暧昧迷离。左侧放置带屏幕和按键的街机或服务设备，昏暗室内背景有模糊招牌、柜台与顶部椭圆荧光灯，青绿色暗部与暖黄色灯光交织，白色制服作为最亮视觉焦点，背景保持浅景深和低清灯光晕染，保留真实皮肤层次、布料纹理、胶片颗粒与细密灰尘感，避免棚拍纯白背景、过度锐化、塑料皮肤和过于干净的商业人像",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HSd_elDbkAA-PVI?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HSZxsF0bUAAvuqt?format=jpg&name=240x240"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/MANISH1027512/status/2100788096245842015",
+      "tags": [
+        "青绿",
+        "人像",
+        "摄影"
+      ],
+      "timestamp": 1789717409507,
+      "title": "家居人像",
+      "url": "https://x.com/MANISH1027512/status/2100788096245842015",
+      "collectedAt": "2026-09-18T07:43:31.316Z",
+      "mediaType": "image",
+      "githubSyncedAt": "2026-09-18T07:45:36.550Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "2:3",
       "category": "电商视觉",
