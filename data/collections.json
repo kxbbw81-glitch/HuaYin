@@ -1,7 +1,71 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-20T09:23:56.278Z",
+  "updatedAt": "2026-09-20T10:30:20.893Z",
   "collections": [
+    {
+      "aspectRatio": "4:5",
+      "category": "人像",
+      "date": "2026-09-20",
+      "domain": "x.com",
+      "id": "ext_mu9oam30_5rjf",
+      "image": "https://pbs.twimg.com/media/HSjkCQ-bQAAnFRL?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HSjkCQ-bQAAnFRL?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "超写实室内居家人像摄影，竖版约 4:5。一名明确成年的东亚女性，20+，半躺在黑色绒面沙发上，身体沿沙发斜向展开，摄影者位于人物正前方略偏左，以 28–35mm 等效镜头近距离拍摄，完整保留头部、躯干、双腿和脚部。 人物为自然纤细沙漏型身材，肩部偏窄，腰部收束，髋部圆润，大腿有真实柔软体积。人物上半身侧躺靠在沙发右侧扶手，头部枕在扶手边缘，黑色长发自然向下垂落；身体略微后仰，双腿同时屈膝抬高，一条腿从另一条腿前方交叉，膝盖位于画面左上区域，形成明显的立体层次。双脚落在沙发坐垫前方，脚掌和脚趾轮廓清楚。 人物留乌黑色长直发，中分，头发顺直浓密，部分自然散落在沙发边缘。脸型小巧偏鹅蛋形，肤色白皙，妆容淡雅，眼线自然，裸粉色嘴唇，双眼平静看向镜头。 上身穿纯黑色修身长袖连体衣 / bodysuit，圆领或浅 U 领，面料哑光贴身，设计极简，没有明显图案和装饰。 双腿穿烟黑色超薄高光连裤丝袜，约 10–15D，透明度很高，能够明显透出自然肤色。丝袜表面具有很强的丝光、油亮反射感，从大腿、膝盖、小腿到脚背形成连续银灰色高光带；脚部同样完整包裹，脚趾轮廓透过薄丝袜清晰可见。重点是高透明＋强反光＋自然拉伸纹理，不要厚黑袜、网袜或哑光丝袜。 场景为普通现代客厅：主体是一张黑色绒面 / 毛绒布艺长沙发，坐垫和靠背有明显柔软压痕。背景右侧是深灰色落地窗帘，后方摆放一台白色立式塔扇 / 空调扇，旁边有折叠椅和白色金属宠物围栏；右下角露出一小块奶油白色长毛地毯。墙面为简洁浅灰白色。 光线采用正面手机补光 / 较强室内直闪＋普通顶灯，人物脸部、黑色衣服和双腿被明显提亮，尤其丝袜出现强烈连续反光；沙发保持深黑色层次，背景相对较暗。整体不要电影级灯光。 画面呈 真实手机 / 数码相机居家抓拍质感：自然锐度、轻微广角、少量手机 HDR、真实皮肤纹理，背景基本清楚。 重点锁定：成年东亚女性＋黑色长直发＋黑色长袖连体衣＋黑色绒面沙发半躺＋头靠右侧扶手＋双腿高屈膝并交叉＋烟黑超薄高光连裤丝袜＋丝袜强烈银灰反光＋包脚结构＋普通现代客厅＋灰色窗帘＋白色塔扇＋真实居家随拍。 避免：站姿、坐直、双腿伸直并拢、裸腿、厚黑丝袜、网袜、白袜、鞋子、复杂服装、豪华酒店、摄影棚背景、强背景虚化、动漫脸、CG 感、塑料皮肤、多余肢体、水印和乱码文字。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HSjkCQ-bQAAnFRL?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/DDJCXX/status/2101179963131211848",
+      "tags": [
+        "人像",
+        "摄影",
+        "极简"
+      ],
+      "timestamp": 1789900081740,
+      "title": "客厅灯开一盏",
+      "url": "https://x.com/DDJCXX/status/2101179963131211848",
+      "collectedAt": "2026-09-20T10:28:03.955Z",
+      "mediaType": "image",
+      "githubSyncedAt": "2026-09-20T10:30:20.893Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "4:5",
+      "category": "抽象",
+      "date": "2026-09-20",
+      "domain": "x.com",
+      "id": "ext_mu9oam2z_762t",
+      "image": "https://pbs.twimg.com/media/HSoa_3OacAAF3-y?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HSoa_3OacAAF3-y?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HSobCHsbgAAY-F9?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "CITY = [Your City] Create a collectible minimalist travel-art poster inspired by CITY. Illustrate the city in a refined hand-drawn architectural sketch style, capturing its most recognizable skyline, architectural character, and overall urban identity as an elegant piece of modern graphic art. Use a warm ivory or off-white paper background, a limited location-inspired color palette, delicate ink lines, architectural hatching, subtle halftone texture, and lightly distressed vintage print details. Build the composition with restrained abstract design elements derived from the identity of CITY, such as its river, coastline, mountains, bridges, street grid, skyline rhythm, terrain, or local architectural language. These elements should feel naturally connected to the place and should support the composition without overpowering it. Show a curated urban scene rather than focusing on only one building. Include a few recognizable city features, subtle environmental details, and a clean surrounding context, while maintaining generous negative space and a strong visual hierarchy. Add minimal editorial typography featuring CITY, with optional coordinates or a short location descriptor. Premium editorial aesthetic, sophisticated, artistic, museum-quality travel poster, elegant composition, understated luxury, vintage screen-print texture, no people, no photorealistic background, no crowded layout, 4:5 vertical composition. Avoid oversized symbolic circles, flag-like compositions, and visual motifs unrelated to CITY.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HSoa_3OacAAF3-y?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HSobCHsbgAAY-F9?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/Adam38363368936/status/2101521918352593287",
+      "tags": [
+        "photorealistic",
+        "minimalist",
+        "vintage"
+      ],
+      "timestamp": 1789900081739,
+      "title": "试着做了一版城市印象海报",
+      "url": "https://x.com/Adam38363368936/status/2101521918352593287",
+      "collectedAt": "2026-09-20T10:28:03.955Z",
+      "mediaType": "image",
+      "githubSyncedAt": "2026-09-20T10:30:20.893Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "9:16",
       "category": "人像",
