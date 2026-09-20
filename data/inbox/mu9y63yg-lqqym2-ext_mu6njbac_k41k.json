@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "kind": "prompthub-extension-inbox",
+  "createdAt": "2026-09-20T15:04:27.784Z",
+  "count": 1,
+  "items": [
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-09-18",
+      "domain": "x.com",
+      "id": "ext_mu6njbac_k41k",
+      "image": "https://pbs.twimg.com/media/HSbrESPagAIUlwR?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HSbrESPagAIUlwR?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HSRV9aRbMAE3nvr?format=jpg&name=240x240"
+      ],
+      "model": "",
+      "prompt": "提示词（欢迎返图）：\n玫瑰香槟粉 CCD 复古直闪，三位年轻成年东亚女性，脸型和气质略有差异，分别穿奶油白、香槟粉和裸玫瑰色修身礼裙。她们在高级酒店下午茶厅自然聊天，一人坐着端茶杯，一人站在桌边整理耳饰，一人侧身看向镜头。9:16  x.com/liyue_ai/statu…",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HSbrESPagAIUlwR?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HSRV9aRbMAE3nvr?format=jpg&name=240x240"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/liyue_ai/status/2100624976869228879",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1789717409508,
+      "title": "东方人像",
+      "url": "https://x.com/liyue_ai/status/2100624976869228879",
+      "collectedAt": "2026-09-20T15:04:27.784Z"
+    }
+  ]
+}
