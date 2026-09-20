@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "kind": "prompthub-extension-inbox",
+  "createdAt": "2026-09-20T11:12:08.970Z",
+  "count": 2,
+  "items": [
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-09-20",
+      "domain": "x.com",
+      "id": "ext_mu9pvc00_508i",
+      "image": "https://pbs.twimg.com/media/HSoazN0bYAAjQyM?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HSoazN0bYAAjQyM?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HSjxKs0aQAAQGRV?format=jpg&name=240x240"
+      ],
+      "model": "",
+      "prompt": "构图与空间：9:16 竖版构图，巨大圆月位于上半部分作为第一视觉中心，人物位于下方偏一侧，顶部与一侧保留完整标题区\n色彩控制：月白作为高明度月轮和背景主基调，桂花金用于花朵和少量点睛，极浅靛蓝用于天空过渡，人物服装建议珍珠白或浅桂花黄；避免整图发灰或全图泛黄",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HSoazN0bYAAjQyM?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HSjxKs0aQAAQGRV?format=jpg&name=240x240"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/liyue_ai/status/2101521758260285910",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1789902728064,
+      "title": "马上中秋节了",
+      "url": "https://x.com/liyue_ai/status/2101521758260285910",
+      "collectedAt": "2026-09-20T11:12:08.970Z"
+    },
+    {
+      "aspectRatio": "3:4",
+      "category": "人像",
+      "date": "2026-09-20",
+      "domain": "x.com",
+      "id": "ext_mu9pvc01_k2dw",
+      "image": "https://pbs.twimg.com/media/HSbOR2Bb0AAGCYZ?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HSbOR2Bb0AAGCYZ?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "构图・镜头：\n3:4的纵向构图，以视线高度的近距离正面镜头，从兜帽上端到短裤上部，收录腰部以上的肖像。将脸部置于画面上半部放大，V手势置于左侧前景，眼镜置于中央。头顶、右臂和大腿在画面边缘裁切，对焦于睁开的右眼和眼镜，背景浅景深虚化。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HSbOR2Bb0AAGCYZ?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/CyberTotal2026/status/2101437931344851203",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1789902728066,
+      "title": "戴着兜帽",
+      "url": "https://x.com/CyberTotal2026/status/2101437931344851203",
+      "collectedAt": "2026-09-20T11:12:08.970Z"
+    }
+  ]
+}
