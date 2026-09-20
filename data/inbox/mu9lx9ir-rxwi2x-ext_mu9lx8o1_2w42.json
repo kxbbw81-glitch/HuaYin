@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "kind": "prompthub-extension-inbox",
+  "createdAt": "2026-09-20T09:21:39.699Z",
+  "count": 1,
+  "items": [
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-09-20",
+      "domain": "x.com",
+      "id": "ext_mu9lx8o1_2w42",
+      "image": "https://pbs.twimg.com/media/HSpeUfUaEAAtMRS?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HSpeUfUaEAAtMRS?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HSpeUfNaAAAE4IS?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "Vertical 9:16, Korean Instagram-style female idol hotel private photoshoot. Clearly an adult woman, 23–27 years old, exaggerated figure, sleek long black hair, cool fair natural skin, fresh pink shimmer makeup.\n\nShe wears a light beige lightweight blouse with the sleeves casually rolled up, a dark gray high-waisted fitted pencil skirt, and sheer nude stockings. A black blazer has slipped off and is piled beside the bed. The overall look is a mature, clean urban office-lady outfit.\n\nShe is kneeling sideways on a rumpled white hotel bed, body turned about three-quarters away from the camera, upper body gently twisting back, looking at the camera naturally. Both hands are at her waist, adjusting the hem of her blouse. Emphasize the shoulder-and-neck line, the waist-and-back silhouette, the leg proportions, and the natural fabric folds in the blouse and skirt. The pose is relaxed and unforced, like a moment accidentally caught by the photographer.\n\nSoft CCD look, black diffusion filter, slight soft focus, 35–40mm, low angle, close candid shot from behind and to the side. Natural framing, without deliberately emphasizing isolated body parts.\n\n35mm film texture, soft highlight bloom, warm blooming, light haze and flare, low contrast, low saturation, fine grain, Fuji negative airy tone, real skin texture retained.\n\nOverall mood: private, quiet, mature, natural, with a Korean magazine photoshoot and lived-in editorial feel.\n\nAvoid wet hair, towels, revealing styling, overly sexy poses, front-facing sitting poses, commercial studio lighting, HDR, plastic skin, CG look, heavy retouching, stiff posing, and incorrect anatomy.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HSpeUfUaEAAtMRS?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HSpeUfNaAAAE4IS?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/BubbleBrain/status/2101595916528718109",
+      "tags": [
+        "dark",
+        "studio lighting"
+      ],
+      "timestamp": 1789896098594,
+      "title": "现代办公室黑色西装女性人像",
+      "url": "https://x.com/BubbleBrain/status/2101595916528718109",
+      "collectedAt": "2026-09-20T09:21:39.699Z"
+    }
+  ]
+}
