@@ -1,7 +1,42 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-21T01:29:10.410Z",
+  "updatedAt": "2026-09-21T02:22:27.639Z",
   "collections": [
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-09-21",
+      "domain": "x.com",
+      "id": "ext_muamb1zd_glga",
+      "image": "https://pbs.twimg.com/media/HSpYbXfbIAAg_JK?format=jpg&name=900x900",
+      "images": [
+        "https://pbs.twimg.com/media/HSpYbXfbIAAg_JK?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HSpYdq1bsAA9PxQ?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HSpYfEMaAAApRtn?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HSpaoCNbsAA3kJ2?format=jpg&name=900x900"
+      ],
+      "model": "",
+      "prompt": "Photorealistic editorial portrait. The setting is boutique hotel room, crisp bed with white sheets, bedside table, an upper curtain track, the wall-to-ceiling junction. Full-body portrait, knee-level view, front view. Her entire figure is framed with natural-looking proportions. Photographed directly from the front. Her chest and pelvis face the lens, with both shoulders, both hips, legs, and feet forming a frontal full-body silhouette. A 20s seductive stunning Japanese or Korean woman, sexy tall slim-curvy silhouette, about 168-173 cm visual height and 53-58 kg lean visual weight, 94-58-92 body proportion anchor, long legs with about 3.8:6.2 torso-to-leg balance, full F-to-G-cup-scale bust, narrow defined waist, rounded hips, dramatic but lean bust-waist-hip curve, young sweet pretty face, soft rounded charm, bright friendly eyes, gentle cute beauty, Korean collarbone-length soft waves, defined layered shape, clean face-framing ends, lightly wind-swept movement, gentle directional flow, a few naturally loose strands, controlled overall silhouette, natural black hair, soft matte skin texture, refined pores, velvety smooth finish, delicate innocent expression, relaxed brows, softly open eyes, gently closed lips, relaxed cheek muscles. She has both hands resting naturally along the body or on a nearby support surface, fingers relaxed and loosely following the body line, and presents a seated pose with both legs angled to one side, soft asymmetrical lower-body line on a bed. She wears white lace bra top, delicate shoulder straps, floral lace, scalloped trim, refined lingerie detailing, ultra-low-rise waistband sitting very low on the hips, white seamless lace thong bottoms, ultra-thin side straps, low-rise V-front, minimal back panel. Indoor daylight ambience with natural window-lit room brightness, daytime exterior brightness where visible, window-frame pattern light across the subject, geometric daylight bands on face and clothing.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HSpYbXfbIAAg_JK?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HSpYdq1bsAA9PxQ?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HSpYfEMaAAApRtn?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HSpaoCNbsAA3kJ2?format=jpg&name=900x900"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/VIBEQUIRKLABS/status/2101592832654119068",
+      "tags": [
+        "photorealistic"
+      ],
+      "timestamp": 1789957209290,
+      "title": "城市高跟鞋街拍",
+      "url": "https://x.com/VIBEQUIRKLABS/status/2101592832654119068",
+      "collectedAt": "2026-09-21T02:20:11.837Z",
+      "mediaType": "image",
+      "githubSyncedAt": "2026-09-21T02:22:27.639Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "9:16",
       "category": "人像",
