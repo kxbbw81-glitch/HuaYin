@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "kind": "prompthub-extension-inbox",
+  "createdAt": "2026-09-21T05:36:47.661Z",
+  "count": 2,
+  "items": [
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-09-18",
+      "domain": "x.com",
+      "id": "ext_mu6njbac_k41k",
+      "image": "https://pbs.twimg.com/media/HSbrESPagAIUlwR?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HSbrESPagAIUlwR?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HSRV9aRbMAE3nvr?format=jpg&name=240x240"
+      ],
+      "model": "",
+      "prompt": "提示词（欢迎返图）：\n玫瑰香槟粉 CCD 复古直闪，三位年轻成年东亚女性，脸型和气质略有差异，分别穿奶油白、香槟粉和裸玫瑰色修身礼裙。她们在高级酒店下午茶厅自然聊天，一人坐着端茶杯，一人站在桌边整理耳饰，一人侧身看向镜头。9:16  x.com/liyue_ai/statu…",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HSbrESPagAIUlwR?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HSRV9aRbMAE3nvr?format=jpg&name=240x240"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/liyue_ai/status/2100624976869228879",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1789717409508,
+      "title": "东方人像",
+      "url": "https://x.com/liyue_ai/status/2100624976869228879",
+      "collectedAt": "2026-09-21T05:36:47.661Z"
+    },
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-09-21",
+      "domain": "x.com",
+      "id": "ext_muatbwcm_qwfw",
+      "image": "https://pbs.twimg.com/media/HSt6Jvna0AAUIYd?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HSt6Jvna0AAUIYd?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HSt6MFFaMAEViiP?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HSmG3n5bAAAIPaF?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HSmG4Jea4AA7WKV?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "\"Create an ultra-realistic cinematic fashion editorial photograph of an adult woman(match face), closely matching the reference image’s low-angle perspective, pose, framing, outfit, and styling.\n\nAppearance: Very long straight black hair with full wispy bangs, falling down her back. Dramatic dark eye makeup, softly defined features, natural lips, and a confident slightly serious expression looking back toward the camera.\n\nOutfit: Sparkling black mini dress with a fitted silhouette, asymmetric hem, and an open back with thin black straps. A large jeweled silver belt detail sits around her waist. Long silver rhinestone-studded gloves extend from her hands to above her elbows.\n\nPose:\n\n1. Shot from a low angle behind and slightly to her side. She stands with her legs apart, hips angled toward the camera, torso turned away, and head looking back over her shoulder. One arm hangs behind her with the jeweled glove and hand clearly visible. Keep the dramatic elongated leg proportions and exact body orientation of the reference.\n\n2. Seated sideways on a minimalist stool, one leg extended forward and the other bent, torso slightly twisted toward the camera, one arm resting casually along the back of the stool, chin slightly raised, giving a cool, self-assured expression.\n\n3. Standing upright with one leg crossed elegantly in front of the other, one hand resting on her hip and the other hanging naturally, shoulders relaxed, looking directly into the camera with a subtle confident smirk.\n\n4. Sitting on the studio floor with one knee raised and the other leg extended diagonally, torso leaning slightly back on one arm, the opposite hand resting on her raised knee, gazing toward the camera with a soft, contemplative expression.\n\n5. Standing beside a tall stool, leaning one hip lightly against it with one leg slightly bent, one hand placed on the stool and the other near her waist, head tilted slightly downward while looking up at the camera with an intense, mysterious expression.\n\nShoes: Black strappy stiletto sandals with extremely high thin heels and sparkling silver embellishments around the ankle and straps.\n\nSetting: Minimalist gray studio with a smooth gray wall and matching floor, completely uncluttered.\n\nLighting: Soft diffused studio lighting with subtle highlights catching the glittering dress, jewelry, gloves, and shoes.\n\nComposition: Vertical full-body frame, low camera position looking slightly upward, woman centered, entire legs and shoes visible, with generous gray background around her.\n\nStyle: Ultra-photorealistic high-fashion photography, realistic skin and hair, detailed sequins and rhinestones, natural anatomy, sharp subject, soft gray background, cinematic editorial finish.\n\n9:16ar\"",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HSt6Jvna0AAUIYd?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HSt6MFFaMAEViiP?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HSmG3n5bAAAIPaF?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HSmG4Jea4AA7WKV?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/gemini_prompts/status/2101908084579062052",
+      "tags": [
+        "cinematic",
+        "photorealistic",
+        "minimalist",
+        "dark",
+        "studio lighting"
+      ],
+      "timestamp": 1789969005958,
+      "title": "珠宝女性人像",
+      "url": "https://x.com/gemini_prompts/status/2101908084579062052",
+      "collectedAt": "2026-09-21T05:36:47.661Z"
+    }
+  ]
+}
