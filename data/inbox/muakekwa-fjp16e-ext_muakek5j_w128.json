@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "kind": "prompthub-extension-inbox",
+  "createdAt": "2026-09-21T01:26:54.538Z",
+  "count": 1,
+  "items": [
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-09-21",
+      "domain": "x.com",
+      "id": "ext_muakek5j_w128",
+      "image": "https://pbs.twimg.com/media/HSrF-n2a4AAmStt?format=jpg&name=900x900",
+      "images": [
+        "https://pbs.twimg.com/media/HSrF-n2a4AAmStt?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HSrF-n3bkAEehx7?format=jpg&name=900x900"
+      ],
+      "model": "",
+      "prompt": "vertical 9:16 photo of a woman in her mid 20s standing outside a Japanese convenience store at night, long black hair, light makeup, happy smile with crescent eyes, business casual office outfit, cream blouse, gray knee-length skirt, black blazer, black heels, holding a shopping bag, looking at camera, full body, feet on the sidewalk, store lights and street lamps, film photography, soft grain, natural skin, Korean magazine editorial",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HSrF-n2a4AAmStt?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HSrF-n3bkAEehx7?format=jpg&name=900x900"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/BubbleBrain/status/2101710085139636283",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1789954013575,
+      "title": "现代办公室黑色西装女性人像",
+      "url": "https://x.com/BubbleBrain/status/2101710085139636283",
+      "collectedAt": "2026-09-21T01:26:54.538Z"
+    }
+  ]
+}
