@@ -1,7 +1,74 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-21T05:39:06.369Z",
+  "updatedAt": "2026-09-21T05:41:14.717Z",
   "collections": [
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-09-21",
+      "domain": "x.com",
+      "id": "ext_muateruz_u93y",
+      "image": "https://pbs.twimg.com/media/HSqQXwPbcAAJolR?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HSqQXwPbcAAJolR?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HSqQApVb0AA4Y3H?format=jpg&name=240x240"
+      ],
+      "model": "",
+      "prompt": "GPT Image 2.5提示词： 9:16竖版海蚀洞口水中人像。一位25岁以上的成年东方女性半浸在明亮海蚀洞出口的浅水区，背景是浅灰色岩洞边缘、洞外湛蓝天空、闪亮海面和柔和反射光，人物周围保持开阔水域。她拥有圆润自然的胸部线条、柔美肩颈和真实细腻肤质，身穿象牙白流动面料长裙，轻柔交叉领、宽袖、真丝内层和多层薄纱裙摆在海水中形成自然弧线，披肩部分带有窄幅波浪边缘。湿发全部向后梳理并收成简洁高位发髻；佩戴哑金圆环耳饰与黑玛瑙戒指，搭配半透明烟灰色发梳。高角度近景半身拍摄，人物身体朝向洞外，一只手整理肩侧纱层，另一手自然掠过水面，目光看向远处海光。阳光落在洞口水面、肩膀和衣料边缘，脸部处于柔和反射光中，真实海水波纹、细小水滴与轻微动态模糊，无文字。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HSqQXwPbcAAJolR?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HSqQApVb0AA4Y3H?format=jpg&name=240x240"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/Mrpinecone888/status/2101651230212968465",
+      "tags": [
+        "东方",
+        "人像"
+      ],
+      "timestamp": 1789969140107,
+      "title": "水中高级人像",
+      "url": "https://x.com/Mrpinecone888/status/2101651230212968465",
+      "collectedAt": "2026-09-21T05:39:01.851Z",
+      "mediaType": "image",
+      "githubSyncedAt": "2026-09-21T05:41:14.717Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "9:16",
+      "category": "时尚",
+      "date": "2026-09-21",
+      "domain": "x.com",
+      "id": "ext_muatensd_49nh",
+      "image": "https://pbs.twimg.com/media/HSquxN1awAAeYHr?format=jpg&name=900x900",
+      "images": [
+        "https://pbs.twimg.com/media/HSquxN1awAAeYHr?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HSquxqDawAAwtfn?format=jpg&name=900x900"
+      ],
+      "model": "",
+      "prompt": "\"Create an ultra-realistic cinematic fashion editorial photograph of an adult woman(match face) in a futuristic pastel-blue studio outfit, closely matching the reference image’s composition, pose, framing, styling, and proportions. Appearance: Long straight blonde hair with soft curtain bangs and natural strands, tied loosely behind her. Light blue-gray eyes, subtle glamorous makeup, soft rosy cheeks, and natural nude-pink lips. Calm, slightly serious expression looking toward the left of the camera. Outfit: Shiny metallic light-blue corset-style cropped top with thin shoulder straps and structured seams, matching pleated mini skirt, and matching light-blue high-heeled ankle boots. Silver metallic bands wrap around her upper arm and thigh, with long thin ribbon-like ends hanging from the thigh wraps. Pose: 1. Standing in a dramatic fashion pose with both arms raised above her head. One leg remains straight supporting her weight while the other leg bends backward at the knee, with the raised foot lifted behind her. Her torso and hips are angled slightly sideways, creating the same elongated S-shaped silhouette as the reference. 2. Sitting sideways on a minimalist studio cube, one leg extended forward and the other bent, one arm resting casually on the cube while the other touches her hair, with a relaxed, subtly playful expression looking toward the camera. 3. Standing in a strong contrapposto pose, one hand resting on her hip and the other arm extended loosely upward, shoulders angled slightly away from the camera, chin tilted down, with a confident, intense gaze. 4. Kneeling gracefully on one knee, torso upright and slightly twisted toward the camera, one hand resting on the raised knee and the other touching her hair, with a soft, dreamy expression and eyes gazing slightly upward. 5. Sitting on the studio floor with one knee raised and the other leg extended diagonally, leaning back slightly on one hand while the other rests loosely on her raised knee, with a calm, mysterious expression looking past the camera. Composition: Vertical full-body framing against a plain light-gray studio background. Keep the subject centered, with her raised arms reaching close to the top edge and her lifted leg clearly visible. Match the reference's side-facing body angle and camera perspective. Lighting: Soft diffused studio lighting with gentle shadows and subtle highlights emphasizing the glossy blue material. Style: Ultra-photorealistic fashion photography, realistic skin and hair, detailed metallic fabric, accurate clothing construction, natural anatomy, clean minimalist background, soft cinematic finish. 9:16ar\"",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HSquxN1awAAeYHr?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HSquxqDawAAwtfn?format=jpg&name=900x900"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/gemini_prompts/status/2101684352090513413",
+      "tags": [
+        "cinematic",
+        "photorealistic",
+        "minimalist",
+        "dreamy",
+        "studio lighting"
+      ],
+      "timestamp": 1789969134830,
+      "title": "调皮表情美妆人像",
+      "url": "https://x.com/gemini_prompts/status/2101684352090513413",
+      "collectedAt": "2026-09-21T05:38:55.643Z",
+      "mediaType": "image",
+      "githubSyncedAt": "2026-09-21T05:41:14.717Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "9:16",
       "category": "时尚",
