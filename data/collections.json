@@ -1,7 +1,46 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-21T02:22:27.639Z",
+  "updatedAt": "2026-09-21T05:39:06.369Z",
   "collections": [
+    {
+      "aspectRatio": "9:16",
+      "category": "时尚",
+      "date": "2026-09-21",
+      "domain": "x.com",
+      "id": "ext_muatbwcm_qwfw",
+      "image": "https://pbs.twimg.com/media/HSt6Jvna0AAUIYd?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HSt6Jvna0AAUIYd?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HSt6MFFaMAEViiP?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HSmG3n5bAAAIPaF?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HSmG4Jea4AA7WKV?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "\"Create an ultra-realistic cinematic fashion editorial photograph of an adult woman(match face), closely matching the reference image’s low-angle perspective, pose, framing, outfit, and styling. Appearance: Very long straight black hair with full wispy bangs, falling down her back. Dramatic dark eye makeup, softly defined features, natural lips, and a confident slightly serious expression looking back toward the camera. Outfit: Sparkling black mini dress with a fitted silhouette, asymmetric hem, and an open back with thin black straps. A large jeweled silver belt detail sits around her waist. Long silver rhinestone-studded gloves extend from her hands to above her elbows. Pose: 1. Shot from a low angle behind and slightly to her side. She stands with her legs apart, hips angled toward the camera, torso turned away, and head looking back over her shoulder. One arm hangs behind her with the jeweled glove and hand clearly visible. Keep the dramatic elongated leg proportions and exact body orientation of the reference. 2. Seated sideways on a minimalist stool, one leg extended forward and the other bent, torso slightly twisted toward the camera, one arm resting casually along the back of the stool, chin slightly raised, giving a cool, self-assured expression. 3. Standing upright with one leg crossed elegantly in front of the other, one hand resting on her hip and the other hanging naturally, shoulders relaxed, looking directly into the camera with a subtle confident smirk. 4. Sitting on the studio floor with one knee raised and the other leg extended diagonally, torso leaning slightly back on one arm, the opposite hand resting on her raised knee, gazing toward the camera with a soft, contemplative expression. 5. Standing beside a tall stool, leaning one hip lightly against it with one leg slightly bent, one hand placed on the stool and the other near her waist, head tilted slightly downward while looking up at the camera with an intense, mysterious expression. Shoes: Black strappy stiletto sandals with extremely high thin heels and sparkling silver embellishments around the ankle and straps. Setting: Minimalist gray studio with a smooth gray wall and matching floor, completely uncluttered. Lighting: Soft diffused studio lighting with subtle highlights catching the glittering dress, jewelry, gloves, and shoes. Composition: Vertical full-body frame, low camera position looking slightly upward, woman centered, entire legs and shoes visible, with generous gray background around her. Style: Ultra-photorealistic high-fashion photography, realistic skin and hair, detailed sequins and rhinestones, natural anatomy, sharp subject, soft gray background, cinematic editorial finish. 9:16ar\"",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HSt6Jvna0AAUIYd?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HSt6MFFaMAEViiP?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HSmG3n5bAAAIPaF?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HSmG4Jea4AA7WKV?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/gemini_prompts/status/2101908084579062052",
+      "tags": [
+        "cinematic",
+        "photorealistic",
+        "minimalist",
+        "dark",
+        "studio lighting"
+      ],
+      "timestamp": 1789969005958,
+      "title": "珠宝女性人像",
+      "url": "https://x.com/gemini_prompts/status/2101908084579062052",
+      "collectedAt": "2026-09-21T05:36:47.661Z",
+      "mediaType": "image",
+      "githubSyncedAt": "2026-09-21T05:39:06.369Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "9:16",
       "category": "人像",
