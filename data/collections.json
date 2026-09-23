@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-23T09:39:21.969Z",
+  "updatedAt": "2026-09-23T15:32:51.294Z",
   "collections": [
     {
       "aspectRatio": "9:16",
@@ -30,11 +30,13 @@
         "photorealistic"
       ],
       "timestamp": 1790145300744,
-      "title": "城市高跟鞋街拍",
+      "title": "首尔街头运动鞋人像",
+      "titleSource": "prompt-audit",
+      "titleGeneratedAt": "2026-09-23T15:32:51.294Z",
       "url": "https://x.com/VIBEQUIRKLABS/status/2102204679430316279",
       "collectedAt": "2026-09-23T06:35:01.468Z",
       "mediaType": "image",
-      "githubSyncedAt": "2026-09-23T06:37:20.608Z",
+      "githubSyncedAt": "2026-09-23T15:32:51.294Z",
       "domesticSyncedAt": "2026-09-23T09:39:21.967Z"
     },
     {
