@@ -1,7 +1,39 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-23T18:29:59.499Z",
+  "updatedAt": "2026-09-24T06:21:49.442Z",
   "collections": [
+    {
+      "aspectRatio": "9:16",
+      "category": "电商视觉",
+      "date": "2026-09-24",
+      "domain": "x.com",
+      "id": "ext_muf56c4n_4xtz",
+      "image": "https://pbs.twimg.com/media/HS8WmL6aoAADCmE?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HS8WmL6aoAADCmE?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HS5yb5paQAAHrKF?format=jpg&name=240x240"
+      ],
+      "model": "",
+      "prompt": "GPT Image 2.5提示词： 生成一张9:16竖版蜜桃粉真丝睡裙电商详情页，整体像高级生活方式品牌的移动端页面。产品为短款轻薄吊带睡裙与同色配套内裤，主体采用柔粉真丝、细窄蕾丝领缘和可调节肩带，使用成年模特穿着端庄展示，胸部与敏感区域完整覆盖。首屏设在安静的私人酒店卧室，模特侧身坐在床沿，姿态放松自然，背景为米白寝具、浅木床头和柔和窗光；标题“蜜桃晨光真丝睡裙”，卖点“亲肤顺滑·自然垂坠·轻盈无束缚”。中段转为纯色商品区，展示正背面平铺、领口蕾丝、肩带滑扣、侧缝、下摆弧线和真丝光泽微距。加入布料悬垂测试、透气示意、色卡、长度数据、尺码表与不同身高穿着参考。底部展示折叠收纳、丝质洗护袋和礼盒包装。画面温柔清晰，避免过度磨皮、诱惑姿势、透视走光和杂乱文案。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HS8WmL6aoAADCmE?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HS5yb5paQAAHrKF?format=jpg&name=240x240"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/Mrpinecone888/status/2102924564787544273",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1790230766567,
+      "title": "蜜桃粉真丝睡裙电商详情页",
+      "url": "https://x.com/Mrpinecone888/status/2102924564787544273",
+      "collectedAt": "2026-09-24T06:19:30.556Z",
+      "mediaType": "image",
+      "commerceType": "商品详情页",
+      "githubSyncedAt": "2026-09-24T06:21:49.442Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "9:16",
       "category": "时尚",
