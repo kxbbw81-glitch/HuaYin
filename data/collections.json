@@ -13,8 +13,8 @@
         "https://pbs.twimg.com/media/HS5x6-za0AE4U7m?format=jpg&name=small",
         "https://pbs.twimg.com/media/HS1EYqWa8AEIt7K?format=jpg&name=large"
       ],
-      "model": "",
-      "prompt": "GPT Image 2.5提示词： 生成一张以「恋爱纪念日碎片」为主题的 iPhone 18 Pro Max 原生照片 App 截图，使用最新版 iOS Liquid Glass 风格，温暖环境色透过半透明顶部与底部控件，界面克制而真实；全屏展示相机胶卷，每行严格排列 4 张缩略图，混合普通照片、短视频和实况照片。内容包括两位成年人的餐厅合照、贴近镜头的面部自拍、牵手与肩颈局部、试衣镜合影、甜点、夜景散步、酒店窗边剪影，以及闭眼瞬间、被裁掉的脸、焦点落在背景、闪光灯反射和重复连拍，保留自然肤质、手机镜头畸变与不对外公开的亲密相册感。画面比例 1:2.17。",
+      "model": "GPT Image 2.5",
+      "prompt": "生成一张以「恋爱纪念日碎片」为主题的 iPhone 18 Pro Max 原生照片 App 截图，使用最新版 iOS Liquid Glass 风格，温暖环境色透过半透明顶部与底部控件，界面克制而真实；全屏展示相机胶卷，每行严格排列 4 张缩略图，混合普通照片、短视频和实况照片。内容包括两位成年人的餐厅合照、贴近镜头的面部自拍、牵手与肩颈局部、试衣镜合影、甜点、夜景散步、酒店窗边剪影，以及闭眼瞬间、被裁掉的脸、焦点落在背景、闪光灯反射和重复连拍，保留自然肤质、手机镜头畸变与不对外公开的亲密相册感。画面比例 1:2.17。",
       "rawImages": [
         "https://pbs.twimg.com/media/HS5x6-za0AE4U7m?format=jpg&name=small",
         "https://pbs.twimg.com/media/HS1EYqWa8AEIt7K?format=jpg&name=large"
@@ -30,7 +30,7 @@
       "url": "https://x.com/Mrpinecone888/status/2102743607258087610",
       "collectedAt": "2026-09-24T06:47:58.706Z",
       "mediaType": "image",
-      "githubSyncedAt": "2026-09-24T06:50:17.944Z",
+      "githubSyncedAt": "2026-09-24T15:32:47.266Z",
       "domesticSyncedAt": "2026-09-24T08:44:42.985Z"
     },
     {
@@ -44,8 +44,8 @@
         "https://pbs.twimg.com/media/HS8WmL6aoAADCmE?format=jpg&name=small",
         "https://pbs.twimg.com/media/HS5yb5paQAAHrKF?format=jpg&name=240x240"
       ],
-      "model": "",
-      "prompt": "GPT Image 2.5提示词： 生成一张9:16竖版蜜桃粉真丝睡裙电商详情页，整体像高级生活方式品牌的移动端页面。产品为短款轻薄吊带睡裙与同色配套内裤，主体采用柔粉真丝、细窄蕾丝领缘和可调节肩带，使用成年模特穿着端庄展示，胸部与敏感区域完整覆盖。首屏设在安静的私人酒店卧室，模特侧身坐在床沿，姿态放松自然，背景为米白寝具、浅木床头和柔和窗光；标题“蜜桃晨光真丝睡裙”，卖点“亲肤顺滑·自然垂坠·轻盈无束缚”。中段转为纯色商品区，展示正背面平铺、领口蕾丝、肩带滑扣、侧缝、下摆弧线和真丝光泽微距。加入布料悬垂测试、透气示意、色卡、长度数据、尺码表与不同身高穿着参考。底部展示折叠收纳、丝质洗护袋和礼盒包装。画面温柔清晰，避免过度磨皮、诱惑姿势、透视走光和杂乱文案。",
+      "model": "GPT Image 2.5",
+      "prompt": "生成一张9:16竖版蜜桃粉真丝睡裙电商详情页，整体像高级生活方式品牌的移动端页面。产品为短款轻薄吊带睡裙与同色配套内裤，主体采用柔粉真丝、细窄蕾丝领缘和可调节肩带，使用成年模特穿着端庄展示，胸部与敏感区域完整覆盖。首屏设在安静的私人酒店卧室，模特侧身坐在床沿，姿态放松自然，背景为米白寝具、浅木床头和柔和窗光；标题“蜜桃晨光真丝睡裙”，卖点“亲肤顺滑·自然垂坠·轻盈无束缚”。中段转为纯色商品区，展示正背面平铺、领口蕾丝、肩带滑扣、侧缝、下摆弧线和真丝光泽微距。加入布料悬垂测试、透气示意、色卡、长度数据、尺码表与不同身高穿着参考。底部展示折叠收纳、丝质洗护袋和礼盒包装。画面温柔清晰，避免过度磨皮、诱惑姿势、透视走光和杂乱文案。",
       "rawImages": [
         "https://pbs.twimg.com/media/HS8WmL6aoAADCmE?format=jpg&name=small",
         "https://pbs.twimg.com/media/HS5yb5paQAAHrKF?format=jpg&name=240x240"
@@ -62,7 +62,7 @@
       "collectedAt": "2026-09-24T06:19:30.556Z",
       "mediaType": "image",
       "commerceType": "商品详情页",
-      "githubSyncedAt": "2026-09-24T06:21:49.442Z",
+      "githubSyncedAt": "2026-09-24T15:32:47.266Z",
       "domesticSyncedAt": "2026-09-24T08:44:42.985Z"
     },
     {
