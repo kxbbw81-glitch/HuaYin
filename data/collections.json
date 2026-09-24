@@ -1,7 +1,38 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-24T06:21:49.442Z",
+  "updatedAt": "2026-09-24T06:50:17.944Z",
   "collections": [
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-09-24",
+      "domain": "x.com",
+      "id": "ext_muf6706e_2umy",
+      "image": "https://pbs.twimg.com/media/HS5x6-za0AE4U7m?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HS5x6-za0AE4U7m?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HS1EYqWa8AEIt7K?format=jpg&name=large"
+      ],
+      "model": "",
+      "prompt": "GPT Image 2.5提示词： 生成一张以「恋爱纪念日碎片」为主题的 iPhone 18 Pro Max 原生照片 App 截图，使用最新版 iOS Liquid Glass 风格，温暖环境色透过半透明顶部与底部控件，界面克制而真实；全屏展示相机胶卷，每行严格排列 4 张缩略图，混合普通照片、短视频和实况照片。内容包括两位成年人的餐厅合照、贴近镜头的面部自拍、牵手与肩颈局部、试衣镜合影、甜点、夜景散步、酒店窗边剪影，以及闭眼瞬间、被裁掉的脸、焦点落在背景、闪光灯反射和重复连拍，保留自然肤质、手机镜头畸变与不对外公开的亲密相册感。画面比例 1:2.17。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HS5x6-za0AE4U7m?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HS1EYqWa8AEIt7K?format=jpg&name=large"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/Mrpinecone888/status/2102743607258087610",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1790232477350,
+      "title": "恋爱纪念日相册",
+      "url": "https://x.com/Mrpinecone888/status/2102743607258087610",
+      "collectedAt": "2026-09-24T06:47:58.706Z",
+      "mediaType": "image",
+      "githubSyncedAt": "2026-09-24T06:50:17.944Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "9:16",
       "category": "电商视觉",
