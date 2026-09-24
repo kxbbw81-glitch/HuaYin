@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-24T06:50:17.944Z",
+  "updatedAt": "2026-09-24T08:44:42.988Z",
   "collections": [
     {
       "aspectRatio": "9:16",
@@ -31,7 +31,7 @@
       "collectedAt": "2026-09-24T06:47:58.706Z",
       "mediaType": "image",
       "githubSyncedAt": "2026-09-24T06:50:17.944Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-09-24T08:44:42.985Z"
     },
     {
       "aspectRatio": "9:16",
@@ -63,7 +63,7 @@
       "mediaType": "image",
       "commerceType": "商品详情页",
       "githubSyncedAt": "2026-09-24T06:21:49.442Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-09-24T08:44:42.985Z"
     },
     {
       "aspectRatio": "9:16",
