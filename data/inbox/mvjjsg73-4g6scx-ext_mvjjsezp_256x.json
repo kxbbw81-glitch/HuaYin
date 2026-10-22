@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "kind": "prompthub-extension-inbox",
+  "createdAt": "2026-10-22T12:59:19.935Z",
+  "count": 1,
+  "items": [
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-10-22",
+      "domain": "x.com",
+      "id": "ext_mvjjsezp_256x",
+      "image": "https://pbs.twimg.com/media/HVPBZ_TaAAATmZr?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HVPBZ_TaAAATmZr?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HVPBILba0AAUQV0?format=jpg&name=240x240"
+      ],
+      "model": "",
+      "prompt": "GPT Image 2.5提示词：\n俯视天鹅绒贵妃榻全身肖像，9:16竖版。一位年轻成年女性斜躺在墨绿色复古贵妃榻上，不出现沙发；她拥有柔软凌乱的长卷发、甜美成熟的面容、真实细腻肤质、纤细腰部、自然丰满的上身曲线和修长匀称双腿。她穿高级办公室时装：炭灰色收腰西装外套、象牙白真丝内搭、同色修身短裙、轻薄黑丝袜与黑色尖头高跟鞋。身体呈左侧前三分之四方向，背部陷入软垫，一只手轻扶西装领口，另一只手垂在榻沿；双腿在脚踝处自然交叉并向画面下方延伸，头部稍稍抬起，目光越过镜头看向房间门口，嘴角带若有若无的微笑。采用顶部偏右的高机位50mm全身构图，人物从发顶到鞋跟完整可见。机载闪光直接照明，丝绸、丝袜和漆皮鞋产生层次分明的高光，背景保持简洁，冷灰与深绿时尚调色。避免裁剪脚部、夸张透视、幼态外观、手指错误和过度磨皮。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HVPBZ_TaAAATmZr?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HVPBILba0AAUQV0?format=jpg&name=240x240"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/Mrpinecone888/status/2113245551882035679",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1792673958373,
+      "title": "贵妃榻上的职场精英少女",
+      "url": "https://x.com/Mrpinecone888/status/2113245551882035679",
+      "collectedAt": "2026-10-22T12:59:19.935Z"
+    }
+  ]
+}
