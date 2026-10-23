@@ -1,7 +1,71 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-22T15:35:26.814Z",
+  "updatedAt": "2026-10-23T06:27:26.318Z",
   "collections": [
+    {
+      "aspectRatio": "3:4",
+      "category": "人像",
+      "date": "2026-10-23",
+      "domain": "x.com",
+      "id": "ext_mvkl7o19_ue3d",
+      "image": "https://pbs.twimg.com/media/HVM2prDWQAAb9Fd?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HVM2prDWQAAb9Fd?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "brick + overcast Red brick and black window frames are already graphic. Soft grey sky keeps the patent from blowing out and the brick from turning orange. The human part: the hand on the window edge. She's holding on, just a little. It's the most honest detail in the frame. Prompt keys: worm's-eye, camera on the pavement, ~14mm ultrawide, high kick toward lens, glossy brown patent pointed pump, outsole to camera, white wide-leg trousers, brown tee, brick piers converging, overcast, Classic Chrome, film grain.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HVM2prDWQAAb9Fd?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/sidona/status/2113512494287225125",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1792736815726,
+      "title": "写真人像",
+      "url": "https://x.com/sidona/status/2113512494287225125",
+      "collectedAt": "2026-10-23T06:26:57.366Z",
+      "mediaType": "image",
+      "githubSyncedAt": "2026-10-23T06:27:26.318Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "16:9",
+      "category": "人像",
+      "date": "2026-10-23",
+      "domain": "x.com",
+      "id": "ext_mvkl7o18_aego",
+      "image": "https://pbs.twimg.com/media/HVPouEWakAAwGdU?format=jpg&name=900x900",
+      "images": [
+        "https://pbs.twimg.com/media/HVPouEWakAAwGdU?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HVPovaiakAAjL9C?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HVPow3UbMAA_PxY?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HVPoyyObUAALkn7?format=jpg&name=900x900"
+      ],
+      "model": "",
+      "prompt": "Camera Look: Inspired by Yoshihiko Ueda, quiet natural image language. Quiet natural portraiture, deep velvety shadows, cool desaturated greens and charcoals, low-key tonal calm, subtle atmospheric depth. Shot on 24mm wide-angle lens, broad field of view, clear spatial context, moderate perspective stretch, close camera-to-subject distance, readable foreground-to-background depth. f/2.8-style shallow depth of field, clear subject plane, soft background defocus, natural portrait separation. Analog film light leak artifacts, irregular edge exposure burns, translucent red-orange film-gate leaks, uneven accidental exposure streaks, frame-edge chemical light contamination. Vintage sharp rendering, rich micro-contrast, subtle warm highlights, clean 35mm color density, precise edge definition.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HVPouEWakAAwGdU?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HVPovaiakAAjL9C?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HVPow3UbMAA_PxY?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HVPoyyObUAALkn7?format=jpg&name=900x900"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/VIBEQUIRKLABS/status/2113288811191132331",
+      "tags": [
+        "vintage"
+      ],
+      "timestamp": 1792736815724,
+      "title": "写真人像",
+      "url": "https://x.com/VIBEQUIRKLABS/status/2113288811191132331",
+      "collectedAt": "2026-10-23T06:26:57.366Z",
+      "mediaType": "image",
+      "githubSyncedAt": "2026-10-23T06:27:26.318Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "9:16",
       "category": "时尚",
