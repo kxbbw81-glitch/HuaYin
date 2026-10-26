@@ -1,7 +1,43 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-26T06:11:25.447Z",
+  "updatedAt": "2026-10-26T06:13:36.373Z",
   "collections": [
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-10-26",
+      "domain": "x.com",
+      "id": "ext_mvov1fts_kpxr",
+      "image": "https://pbs.twimg.com/media/HVh2iWVbIAA-szq?format=jpg&name=900x900",
+      "images": [
+        "https://pbs.twimg.com/media/HVh2iWVbIAA-szq?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HVh2iVuaoAAbyd5?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HVh2jrlbEAAssFL?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HVh2lxqbIAArjhn?format=jpg&name=large"
+      ],
+      "model": "",
+      "prompt": "Photorealistic editorial portrait of one young adult woman. The setting is fitting room interior, mirror edge, curtain panels. She stands with her weight on one straight leg, both hands clasped behind her back. She has her head naturally facing the camera, her chin slightly raised. Very warm low-light indoor ambience with soft amber darkness and deep shadows, hard direct flash from near the camera axis, bright highlights on the visible subject and crisp compact shadows; she is photographed within the scene's ambient light. Head-dominant close portrait, close camera distance, head from hair crown to chin occupying 50–60% of frame height, full face and chin within the crop, little headroom, shoulders, upper torso and arms visible below, recognizable scene around the head and body. At close portrait distance, the camera is positioned above her and angled downward toward the head and upper body. Photographed directly from the front. Her chest and both shoulders face the lens in a frontal upper-body silhouette. A 20-year-old seductive stunning adult woman, F–G cup bust, lean limbs, narrow defined waist, rounded hips, long legs, dramatic lean hourglass silhouette; height 168–173 cm, bust–waist–hip 94–58–92 cm, young sweet pretty Japanese face, soft rounded charm, bright friendly eyes, gentle cute beauty, soft natural smile, relaxed brows, gently narrowed eyes, softly parted lips, lifted cheeks. She wears bold thick-frame glasses, black frame; and black disposable pleated face mask, covering the nose and mouth, fitted ear loops, lower face concealed. She wears dark green triangle bikini top, slim halter strings, minimal sliding triangle cups, smooth stretch swim fabric.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HVh2iWVbIAA-szq?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HVh2iVuaoAAbyd5?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HVh2jrlbEAAssFL?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HVh2lxqbIAArjhn?format=jpg&name=large"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/VIBEQUIRKLABS/status/2114570552467980336",
+      "tags": [
+        "photorealistic",
+        "dark"
+      ],
+      "timestamp": 1792995186016,
+      "title": "城市高跟鞋街拍",
+      "url": "https://x.com/VIBEQUIRKLABS/status/2114570552467980336",
+      "collectedAt": "2026-10-26T06:13:07.176Z",
+      "mediaType": "image",
+      "githubSyncedAt": "2026-10-26T06:13:36.373Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "9:16",
       "category": "人像",
