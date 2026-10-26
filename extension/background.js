@@ -3,15 +3,15 @@
 // 右键菜单收藏 + chrome.storage.local 队列管理
 // ==========================================
 
-const GITHUB_PAGES_URL = 'https://kxbbw81-glitch.github.io/PromptHub-/';
-const GITHUB_PAGES_TAB_PATTERN = '*://kxbbw81-glitch.github.io/PromptHub-/*';
+const GITHUB_PAGES_URL = 'https://kxbbw81-glitch.github.io/HuaYin/';
+const GITHUB_PAGES_TAB_PATTERN = '*://kxbbw81-glitch.github.io/HuaYin/*';
 const WEBSITE_URL = GITHUB_PAGES_URL;
 const QUEUE_KEY = 'prompthub_queue';
 const GITHUB_TOKEN_KEY = 'prompthub_github_token';
-const GITHUB_COLLECTIONS_API = 'https://api.github.com/repos/kxbbw81-glitch/PromptHub-/contents/data/collections.json';
-const GITHUB_INBOX_API_BASE = 'https://api.github.com/repos/kxbbw81-glitch/PromptHub-/contents/data/inbox/';
-const GITHUB_COLLECTIONS_RAW = 'https://raw.githubusercontent.com/kxbbw81-glitch/PromptHub-/main/data/collections.json';
-const GITHUB_BLOB_API_BASE = 'https://api.github.com/repos/kxbbw81-glitch/PromptHub-/git/blobs/';
+const GITHUB_COLLECTIONS_API = 'https://api.github.com/repos/kxbbw81-glitch/HuaYin/contents/data/collections.json';
+const GITHUB_INBOX_API_BASE = 'https://api.github.com/repos/kxbbw81-glitch/HuaYin/contents/data/inbox/';
+const GITHUB_COLLECTIONS_RAW = 'https://raw.githubusercontent.com/kxbbw81-glitch/HuaYin/main/data/collections.json';
+const GITHUB_BLOB_API_BASE = 'https://api.github.com/repos/kxbbw81-glitch/HuaYin/git/blobs/';
 const GITHUB_LARGE_FILE_BYTES = 1024 * 1024;
 const EXTENSION_INBOX_SCHEMA_VERSION = 1;
 const RECEIPT_KEY = 'prompthub_collection_receipts';
@@ -917,7 +917,7 @@ function isRetryableGitHubError(error) {
 function formatGitHubError(error) {
   const message = String(error?.message || error || 'GitHub 同步失败');
   if (/\b(401|403)\b/.test(message)) {
-    return 'GitHub Token 无效，或缺少 PromptHub- 仓库的 Contents 读写权限';
+    return 'GitHub Token 无效，或缺少 HuaYin 仓库的 Contents 读写权限';
   }
   if (/\b(409|422)\b|保存冲突/.test(message)) {
     return 'GitHub 正在更新收藏数据，已保留队列并自动重试';

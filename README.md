@@ -5,7 +5,7 @@
 主站：
 
 ```text
-https://kxbbw81-glitch.github.io/PromptHub-/
+https://kxbbw81-glitch.github.io/HuaYin/
 ```
 
 国内站：

@@ -130,12 +130,12 @@ test('collections use GitHub as their source of truth instead of browser local s
   assert.match(app, /function getCollectionsRequestUrl\(\)/);
   assert.match(app, /url\.searchParams\.set\('_', String\(Date\.now\(\)\)\);/);
   assert.match(app, /await fetch\(getCollectionsRequestUrl\(\)/);
-  assert.doesNotMatch(app, /raw\.githubusercontent\.com\/kxbbw81-glitch\/PromptHub-\/main\/data\/collections\.json/);
+  assert.doesNotMatch(app, /raw\.githubusercontent\.com\/kxbbw81-glitch\/HuaYin\/main\/data\/collections\.json/);
   assert.match(app, /isDomesticSite\(\) \? 300000 : 60000/);
   assert.doesNotMatch(app, /localStorage\.setItem\(COLLECTIONS_KEY/);
-  assert.match(background, /const GITHUB_COLLECTIONS_API = 'https:\/\/api\.github\.com\/repos\/kxbbw81-glitch\/PromptHub-\/contents\/data\/collections\.json';/);
-  assert.match(background, /const GITHUB_INBOX_API_BASE = 'https:\/\/api\.github\.com\/repos\/kxbbw81-glitch\/PromptHub-\/contents\/data\/inbox\/';/);
-  assert.match(background, /const GITHUB_BLOB_API_BASE = 'https:\/\/api\.github\.com\/repos\/kxbbw81-glitch\/PromptHub-\/git\/blobs\/';/);
+  assert.match(background, /const GITHUB_COLLECTIONS_API = 'https:\/\/api\.github\.com\/repos\/kxbbw81-glitch\/HuaYin\/contents\/data\/collections\.json';/);
+  assert.match(background, /const GITHUB_INBOX_API_BASE = 'https:\/\/api\.github\.com\/repos\/kxbbw81-glitch\/HuaYin\/contents\/data\/inbox\/';/);
+  assert.match(background, /const GITHUB_BLOB_API_BASE = 'https:\/\/api\.github\.com\/repos\/kxbbw81-glitch\/HuaYin\/git\/blobs\/';/);
   assert.match(background, /async function syncQueueToGitHub\(queue\)/);
   assert.match(popup, /GitHub Token/);
 });

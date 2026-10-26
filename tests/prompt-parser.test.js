@@ -187,7 +187,7 @@ test('domestic release is handled by the GitHub workflow after the GitHub write'
   const background = fs.readFileSync(path.join(__dirname, '../extension/background.js'), 'utf8');
   const workflow = fs.readFileSync(path.join(__dirname, '../.github/workflows/release-domestic-collections.yml'), 'utf8');
 
-  assert.match(background, /const GITHUB_COLLECTIONS_API = 'https:\/\/api\.github\.com\/repos\/kxbbw81-glitch\/PromptHub-\/contents\/data\/collections\.json';/);
+  assert.match(background, /const GITHUB_COLLECTIONS_API = 'https:\/\/api\.github\.com\/repos\/kxbbw81-glitch\/HuaYin\/contents\/data\/collections\.json';/);
   assert.doesNotMatch(background, /scheduleDomesticRelease|releaseDomesticCollections|CF_SYNC_DELAY_MINUTES/);
   assert.match(workflow, /node scripts\/release-domestic-collections\.js/);
 });

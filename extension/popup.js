@@ -3,7 +3,7 @@
 // 扫描页面 / 收藏队列 / GitHub 主站验证
 // ==========================================
 
-const GITHUB_PAGES_URL = 'https://kxbbw81-glitch.github.io/PromptHub-/';
+const GITHUB_PAGES_URL = 'https://kxbbw81-glitch.github.io/HuaYin/';
 const WEBSITE_URL = GITHUB_PAGES_URL;
 const VERIFICATION_STALE_MS = 45000;
 const MAIN_MERGE_STALE_MS = 5 * 60 * 1000;

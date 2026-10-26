@@ -1858,7 +1858,7 @@
             </section>
             <section id="disclaimer-feedback">
               <h2>侵权与内容反馈</h2>
-              <p>如你认为本站内容侵犯了你的合法权益，或发现来源、提示词、图片信息有误，请通过 <a href="https://github.com/kxbbw81-glitch/PromptHub-/issues" target="_blank" rel="noreferrer noopener">画引 GitHub Issues</a> 提交内容链接、权利说明和可核验材料。收到后会进行核查，并视情况更正、下线或保留必要的说明记录。</p>
+              <p>如你认为本站内容侵犯了你的合法权益，或发现来源、提示词、图片信息有误，请通过 <a href="https://github.com/kxbbw81-glitch/HuaYin/issues" target="_blank" rel="noreferrer noopener">画引 GitHub Issues</a> 提交内容链接、权利说明和可核验材料。收到后会进行核查，并视情况更正、下线或保留必要的说明记录。</p>
             </section>
           </article>
         </div>
@@ -2299,7 +2299,7 @@
                   <h2>画引浏览器插件</h2>
                   <p>在任意网页检测到 AI 提示词，点击插件按钮即可一键收藏</p>
                 </div>
-                <a class="imp-ext-download" href="https://github.com/kxbbw81-glitch/PromptHub-/raw/main/PromptHub-Extension-v3.31.0.zip" download="PromptHub-Extension-v3.31.0.zip" aria-label="下载画引浏览器插件 v3.31.0">↓ 下载浏览器插件 <span>v3.31.0</span></a>
+                <a class="imp-ext-download" href="https://github.com/kxbbw81-glitch/HuaYin/raw/main/PromptHub-Extension-v3.31.0.zip" download="PromptHub-Extension-v3.31.0.zip" aria-label="下载画引浏览器插件 v3.31.0">↓ 下载浏览器插件 <span>v3.31.0</span></a>
               </div>
 
               <div class="imp-ext-feats">
