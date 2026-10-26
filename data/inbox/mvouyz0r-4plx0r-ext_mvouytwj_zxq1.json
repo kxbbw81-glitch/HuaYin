@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "kind": "prompthub-extension-inbox",
+  "createdAt": "2026-10-26T06:11:10.923Z",
+  "count": 1,
+  "items": [
+    {
+      "aspectRatio": "16:9",
+      "category": "人像",
+      "date": "2026-10-26",
+      "domain": "x.com",
+      "id": "ext_mvouytwj_zxq1",
+      "image": "https://pbs.twimg.com/media/HVeyj3-aYAARV7W?format=jpg&name=large",
+      "images": [
+        "https://pbs.twimg.com/media/HVeyj3-aYAARV7W?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HVeyj4BaUAAbxlU?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HVeyj4CasAATipp?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HVeyj32bUAAdQY5?format=jpg&name=900x900"
+      ],
+      "model": "",
+      "prompt": "Photorealistic editorial portrait.\nThe setting is horizonless seamless indoor studio background formed by two to four large adjacent vivid color fields in freely varied hues, color fields of unequal widths and heights with crisp boundaries in an asymmetrical full-bleed layout, continuous ground-and-background color surface with a subtle natural contact shadow under the subject. Head-dominant close portrait, close camera distance, head from hair crown to chin occupying 50–60% of frame height, full face and chin within the crop, little headroom, shoulders, upper torso and arms visible below, recognizable scene around the head and body.\nA 20-year-old seductive stunning adult Japanese woman, I–K cup bust, slim arms, narrow waist, wide hips, fuller upper thighs, slim calves, balanced proportions, pronounced hourglass silhouette, curves stretching fitted fabric with soft flesh bulges at snug garment edges; height 163–168 cm, bust–waist–hip 103–60–98 cm, deep side-parted long soft waves, defined face-framing layers, polished wave shape, sleek close-to-head roots, restrained volume, compact hair silhouette, fine aligned strands, smooth uniform texture with a soft natural sheen, clean tapered ends, neatly framing the face, soft black-tea brown hair, muted brown-black salon tone.\nShe wears fitted varsity jacket with contrasting sleeves and snap buttons, body panels in dark blue, large centered vintage slogan graphic on the front, zipped halfway up, open above the zipper.\nMika Ninagawa-inspired explosive vivid complex color image language.\nShot on 28mm wide-angle lens, natural wide perspective, mild perspective expansion, f/2.8-style shallow depth of field, clear subject plane, 1/60s slow-shutter background smear, sharp central subject.\nNeon cross-processed rendering, cyan-shifted cool tones, fluorescent primary-color saturation, posterized hard contrast, aggressively crushed black levels.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HVeyj3-aYAARV7W?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HVeyj4BaUAAbxlU?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HVeyj4CasAATipp?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HVeyj32bUAAdQY5?format=jpg&name=900x900"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/VIBEQUIRKLABS/status/2114354966433546395",
+      "tags": [
+        "photorealistic",
+        "dark",
+        "vintage"
+      ],
+      "timestamp": 1792995064291,
+      "title": "霓虹夜街编辑写真女性人像",
+      "url": "https://x.com/VIBEQUIRKLABS/status/2114354966433546395",
+      "collectedAt": "2026-10-26T06:11:10.923Z"
+    }
+  ]
+}
