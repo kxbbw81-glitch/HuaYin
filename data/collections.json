@@ -1,7 +1,40 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-26T13:34:10.778Z",
+  "updatedAt": "2026-10-27T09:12:50.521Z",
   "collections": [
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-10-27",
+      "domain": "x.com",
+      "id": "ext_mvqgw6kk_vlcj",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2114883601758130176/img/wjOiiVBywSHsbx4i.jpg",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2114883601758130176/img/wjOiiVBywSHsbx4i.jpg",
+        "https://pbs.twimg.com/amplify_video_thumb/2114573698749669376/img/VTxNzutJTeh6DYvO.jpg"
+      ],
+      "model": "",
+      "prompt": "生成一段 15 秒、9:16 竖版、电影感人像短视频。 整体氛围为 夕阳逆光、暖金色光线、梦幻柔焦、复古胶片质感、浅景深、安静治愈、细腻情绪化人像。 人物为一位年轻女生，黑色中长发，发丝自然蓬松，穿宽松白色短袖衬衫和深色短裙，安静地坐在草地上，神情温柔、略带忧郁，眼神自然看向镜头或轻微偏移。 阳光勾勒发丝轮廓光、空气中的微粒、柔和镜头炫光、背景虚化草地。 人物动作幅度要小，保持自然真实，主要变化由 镜头运镜 来体现。 镜头1（0–3秒）中近景，摄影机从人物正前方 缓慢推近。 人物微微抬眼，轻轻注视镜头，头发被微风轻轻吹动。 突出夕阳逆光、发丝金色轮廓光和安静情绪。 镜头2（3–5秒）镜头从左向右 平滑横移，形成轻微视差。 背景草地与光斑产生层次变化，人物姿态基本不变，仅有轻微呼吸感和发丝摆动。 镜头3（5–8秒）切到面部特写，镜头 轻微推近眼神特写。 人物自然眨眼，目光短暂从镜头移向侧方，再缓慢回到镜头附近。 强调眼神细节、皮肤质感和柔和高光。 镜头4（8–11秒）低机位拍摄，镜头围绕人物 缓慢环绕，顺时针移动约 30–35 度，并轻微上升。 人物轻轻转头，发丝随着风和转头动作轻微摆动。 阳光穿过头发，形成柔和眩光和梦幻氛围。 镜头5（11–15秒）镜头 缓慢后拉并轻微升高，从中景过渡到更宽一点的环境镜头。 人物安静坐在草地上，长发轻轻飘动，阳光洒落，空气颗粒在光线中漂浮，整体收尾宁静、有余韵。 画面风格要求： 电影感摄影，复古胶片风，暖金色调，柔和光晕，浅景深，真实皮肤质感，细腻发丝，轻微胶片颗粒，画面高级、自然、不夸张，不过度磨皮，不过度锐化，不要卡通感，不要 AI 感过强。 镜头运动要 稳定、丝滑、克制，避免夸张甩镜和过强运镜。 保持人物面部一致性和原图气质。",
+      "rawImages": [
+        "https://pbs.twimg.com/amplify_video_thumb/2114883601758130176/img/wjOiiVBywSHsbx4i.jpg",
+        "https://pbs.twimg.com/amplify_video_thumb/2114573698749669376/img/VTxNzutJTeh6DYvO.jpg"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/yyyole/status/2114883865248497938",
+      "tags": [
+        "人像",
+        "摄影",
+        "电影感"
+      ],
+      "timestamp": 1793092358469,
+      "title": "成片来了！氛围感超绝！！",
+      "url": "https://x.com/yyyole/status/2114883865248497938",
+      "collectedAt": "2026-10-27T09:12:44.049Z",
+      "mediaType": "image",
+      "githubSyncedAt": "2026-10-27T09:12:50.521Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "9:16",
       "category": "人像",
