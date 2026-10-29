@@ -1,7 +1,357 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-29T02:46:55.003Z",
+  "updatedAt": "2026-10-29T12:12:04.594Z",
   "collections": [
+    {
+      "id": "grok_x_2115741849264795720",
+      "title": "夏日溪流森系写真",
+      "category": "自然",
+      "tags": [
+        "韩系",
+        "森系",
+        "溪流",
+        "写真",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "【整体画面风格】\n\n1:1正方形构图，单幅独立画面，超写实韩系成年女性自然人像摄影，高清真实相机摄影与韩系清冷森系写真融合。\n\n一位23至25岁、明确成年的美丽东亚女性，拥有精致小巧的鹅蛋脸、清透冷白肌肤、深灰棕色杏仁眼、柔和玫瑰粉色双唇，以及浓密乌黑的及腰长发。\n\n她站在夏日森林中的浅水溪流旁，身穿纯白色短款修身针织开衫，内搭浅粉色上衣。\n\n人物身体侧向镜头，头部自然回转，目光安静地直视摄影机。\n\n一只手抬起靠近耳朵，轻轻整理乌黑长发；另一只手自然弯曲，放在身体前方。\n\n背景是一条清澈流动的森林溪流，水面散布自然圆润的灰色鹅卵石，周围生长着茂密的深绿色树木。\n\n明亮夏日阳光穿过树林，在人物头发、脸颊、肩膀与溪流表面形成真实斑驳光影。\n\n画面整体清新、安静、自然，具有柔和的韩系初恋感与清冷气质。\n\n真实摄影光学质感，自然皮肤纹理，细腻发丝，轻微柔焦与真实相机颗粒，避免商业影棚质感与明显AI生成痕迹。\n\n【人物面容】\n\n23至25岁、明确成年的美丽东亚女性。\n\n精致小巧的鹅蛋脸，头部比例自然，额头柔和饱满，颧骨平滑，脸颊带有少量自然的柔软饱满感。\n\n下颌线从两侧自然收窄，小巧略圆的下巴，面部轮廓精致流畅。\n\n五官协调细腻，具有安静清冷的韩系美人气质。\n\n肌肤呈清透的奶油冷白色，脸颊带有极浅的蜜桃粉色血色感。\n\n保留真实皮肤微纹理、自然毛孔和细腻的面部光影过渡。\n\n双眼为深灰棕色杏仁眼，瞳孔清澈明亮，眼型自然偏大，眼尾轻微上扬。\n\n自然细致的双眼皮，柔和卧蚕，浅灰棕色眼影，贴近睫毛根部的纤细眼线。\n\n睫毛自然纤长，根根分明，眉毛呈柔和自然的深灰棕色平眉。\n\n鼻梁纤细挺直，鼻根过渡自然，鼻尖小巧圆润。\n\n嘴唇自然饱满，唇峰柔和，采用低饱和度玫瑰豆沙粉色唇妆。\n\n上下嘴唇轻轻闭合，嘴角自然放松，不刻意微笑。\n\n眼神清冷、温柔、安静，带有轻微若有所思的气质。\n\n人物直接凝视镜头，面部表情自然松弛。\n\n【发型——重点】\n\n极其浓密的乌黑色长发，发色为自然深黑茶色。\n\n头发长度延伸至腰部以下，长发厚实但具有自然蓬松感。\n\n头顶发量丰盈，发根自然抬起，呈现真实头发的体积感。\n\n发型采用自然偏中分设计。\n\n额前有少量轻薄、不规则的空气碎刘海。\n\n几缕细长刘海自然垂落在额头中央，部分发丝轻轻覆盖眉毛附近。\n\n脸颊两侧具有细长的八字修饰发丝，部分自然贴近面部。\n\n大部分乌黑长发披散在肩膀后方，顺着背部自然垂落至腰部。\n\n另一部分长发从肩膀前方自然滑落。\n\n发丝整体顺直，带有轻微自然的大弧度波浪。\n\n少量细小发丝受到森林微风影响，轻轻飘散在脸颊与头顶周围。\n\n阳光从人物左上方照射，头顶及外侧发丝出现自然银白色与深棕色反光。\n\n发丝层次清晰，能够看到真实独立的细小头发。\n\n避免过度规则的直发、假发质感和僵硬的头发轮廓。\n\n【服装设计】\n\n身穿纯白色短款修身针织开衫。\n\n开衫采用细密柔软的棉质针织面料，具有真实细小罗纹结构。\n\n长袖设计，袖子贴合手臂自然轮廓。\n\n上衣版型修身，面料柔软，长度至腰部上方。\n\n前襟自然敞开少许，形成轻微的纵向层叠结构。\n\n衣摆自然收边，具有柔软的针织褶皱。\n\n内搭一件浅樱花粉色的简洁上衣，只有少量浅粉色面料从白色开衫领口和衣摆之间露出。\n\n下半身可隐约看见浅米色或卡其色高腰裙装的腰部边缘。\n\n整体服装颜色以纯白色、淡粉色和浅米色为主。\n\n白色针织面料受到阳光照射后略微发亮，但保留真实织物细节。\n\n服装简洁自然，没有夸张印花、LOGO和复杂装饰。\n\n【人物姿势——核心】\n\n人物站立在清澈溪流旁的浅水石滩上。\n\n身体呈约60至70度侧身角度，肩膀略微向画面左侧转动。\n\n上半身自然挺直，腰部呈现柔和自然的曲线。\n\n头部向后轻轻回转，脸部朝向镜头。\n\n下巴略微收起，双眼平静地看向摄影机。\n\n画面右侧的一只手臂自然抬起，手肘向外弯曲。\n\n手掌轻轻放置在耳朵旁边的长发上。\n\n食指、中指和其余手指自然弯曲，轻轻拢住一束黑色长发。\n\n手指与头发有真实自然的接触关系。\n\n画面左侧的另一只手臂向上自然弯曲。\n\n手掌位于胸前偏左位置，手指微微蜷曲，呈现松弛的自然姿势。\n\n双肩放松，不刻意耸肩。\n\n浓密乌黑长发沿肩背自然垂落，部分发丝覆盖背部轮廓。\n\n整体姿势像在溪边被朋友随手拍到的一个自然回眸瞬间。\n\n肩膀、手臂、手腕、手指与脖颈比例真实，符合人体解剖结构。\n\n【背景环境——重点】\n\n真实夏日山林溪流环境。\n\n人物站在一条清澈、缓慢流动的小溪旁。\n\n溪水从画面左上方远处自然流向画面下方。\n\n水面透明清亮，呈现浅灰绿色、淡青绿色与自然银白色反光。\n\n溪流中分布大量大小不同的圆润石块。\n\n石头颜色包括浅灰色、深灰色、青灰色和少量浅褐色。\n\n部分石块露出水面，部分浸没在清澈溪水中。\n\n远处可以看见浅水流过石块形成的细小白色水花。\n\n画面左侧背景主要是明亮的溪水、自然鹅卵石与阳光照射的绿色植物。\n\n画面右侧背景为阴影较深的森林。\n\n大量深绿色树叶、灌木和树干形成浓密自然的树林背景。\n\n溪边具有略显湿润的灰色碎石小路。\n\n树林上方的阳光穿过叶片缝隙，在溪水与石头表面形成不规则的斑驳光斑。\n\n背景远处具有自然空间纵深，部分溪水和树木略微虚化。\n\n没有建筑物、人工泳池、木桥、路灯或其他人物。\n\n整体环境原始、自然、清澈，具有真实山林溪谷的空气感。\n\n【镜头与构图】\n\n严格1:1正方形画幅，单张独立人像。\n\n采用等效50mm至70mm人像镜头视角。\n\n摄影机位接近人物眼睛高度，自然平视。\n\n人物位于画面中央略偏右的位置。\n\n构图从头顶上方少量背景开始，延伸至人物腰部附近。\n\n人物头顶接近画面上缘。\n\n脸部位于画面中央偏上的位置，双眼为视觉焦点。\n\n人物身体侧向画面左侧，头部自然回转。\n\n一只手放在耳旁整理头发，另一只手自然抬起至胸前。\n\n长发垂落至画面底部，覆盖部分身体背面。\n\n画面左侧保留较多空间，用来展示明亮的森林溪流。\n\n画面右侧保留深绿色树林、灰色鹅卵石和自然溪岸。\n\n人物脸部、眼睛、嘴唇与乌黑长发保持清晰。\n\n溪流和近处石头具有一定自然清晰度，远处树木适度虚化。\n\n使用真实相机景深，不制造极度夸张的人像模式背景虚化。\n\n【自然光影设计——最重要】\n\n明亮夏日森林自然光摄影。\n\n午后阳光穿过茂密树冠，从画面左上方照射。\n\n背景左侧溪流受到强烈阳光照亮，形成大量明亮的银白色水面反射光。\n\n背景右侧树林处于自然阴影中，保持浓郁深绿色调。\n\n人物位于阳光与树荫交界处。\n\n脸部受到柔和天空漫射光及溪水反射光照亮，整体肤色明亮而自然。\n\n额头、鼻梁、脸颊、下巴具有细腻自然高光。\n\n人物头顶出现明显但不过分夸张的阳光反射，照亮细小飞散发丝。\n\n鼻梁与脸颊保留轻微自然阴影，使五官具有真实立体感。\n\n白色针织开衫受到阳光照射，呈现明亮干净的自然白色。\n\n人物肩膀与手臂具有柔和光影层次。\n\n溪水表面出现轻微局部过曝与真实高光闪烁。\n\n背景明暗反差明显，但面部曝光始终自然。\n\n整体呈现真实相机在森林强烈明暗反差环境下的摄影效果。\n\n不使用商业影棚补光、夸张逆光光束或人工柔光滤镜。\n\n【色彩与摄影质感】\n\n整体采用低饱和度韩系森林冷绿色调。\n\n主要色彩为深森林绿、浅青绿、自然灰色、纯白色、乌黑色与淡玫瑰粉色。\n\n背景森林呈浓郁墨绿色与深青绿色。\n\n溪水呈透明浅绿灰色，在阳光下具有银白色高光。\n\n人物肤色呈清透冷白色，脸颊具有淡淡粉色血色感。\n\n头发为浓郁乌黑色，受光区域呈现细腻深棕色反光。\n\n白色针织上衣明亮干净，浅粉色内搭保持柔和低饱和色调。\n\n整体亮度适中，人物比背景稍微明亮。\n\n保留真实阴影与自然高光，适度降低饱和度。\n\n细腻皮肤纹理，独立发丝，真实水波纹和鹅卵石纹理。\n\n轻微真实相机颗粒，适当自然柔焦，不过度锐化。\n\n拒绝过度磨皮、塑料皮肤、明显CG或AI渲染质感。\n\n单张独立画面，无文字，无水印，无LOGO，无拼图，无边框。\n\n【负面提示词】\n\n动漫，插画，卡通，3D渲染，CG假脸，塑料皮肤，过度磨皮，夸张美颜，过尖下巴，异常大眼，五官错位，眼睛不对称，畸形瞳孔，浓妆，夸张假睫毛，僵硬表情，假发，头发黏连，错误发丝方向，过度规则的头发，多余手指，手指融合，畸形手掌，错误手部抓发动作，多余手臂，肩膀错位，颈部异常，身体比例失真，错误衣服结构，针织面料穿模，服装过度透明，溪水变成游泳池，水面结构异常，石块融合，重复石头，树木纹理错误，背景过度虚化，严重面部过曝，强HDR，过度锐化，商业摄影棚灯光，明显AI生成痕迹，文字，LOGO，水印，拼图。",
+      "image": "https://pbs.twimg.com/media/HVyf_bybsAAl3Fc.jpg?format=jpg&name=large",
+      "images": [
+        "https://pbs.twimg.com/media/HVyf_bybsAAl3Fc.jpg?format=jpg&name=large"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HVyf_bybsAAl3Fc.jpg?format=jpg&name=large"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "1:1",
+      "model": "GPT Image",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/CryY666666/status/2115741849264795720",
+      "url": "https://x.com/CryY666666/status/2115741849264795720",
+      "domain": "x.com",
+      "date": "2026-10-29",
+      "timestamp": 1793275924384,
+      "collectedAt": "2026-10-29T12:12:04.384Z",
+      "githubSyncedAt": "2026-10-29T12:12:04.384Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2115722398913937515",
+      "title": "冰淇淋店CCD生活照",
+      "category": "时尚",
+      "tags": [
+        "CCD",
+        "生活照",
+        "冰淇淋",
+        "都市",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "摄影风格：日间清亮高光CCD生活照风\n写真方向：都市精致生活方式写真\n场景方向：现代精品冰淇淋实验室外廊 / 白色玻璃橱窗 / 银色冰淇淋设备 / 浅木色吧台 / 明亮现代商业街\n服装方向：浅香槟青色缎面荡领吊带短上衣 + 石墨灰色高腰立体裁剪西装短裤，上衣采用柔软丝缎材质，领口自然形成细腻垂坠褶皱，短裤配精致细腰带\n气质标签：温柔、轻熟、精致、松弛、优雅\n五官方向：温柔电影感淡颜\n五官细节：精致流畅的鹅蛋脸，清亮柔和杏眼，鼻梁细致自然，唇形柔软，裸粉色淡妆，整体温婉耐看，不过度精修\n发型方向：深棕色低盘发，耳侧自然垂落少量细碎发丝，发型松弛且高级\n身形方向：轻盈纤细，上围自然圆润\n线条强调：强\n线条重点：颈部、锁骨、胸部自然轮廓、腰线、腰臀比例\n镜头方向：半身到大腿\n姿态动作：站在冰淇淋店外，一只手拿透明小甜品杯，另一只手轻搭浅木吧台，身体略微侧向镜头，低头后自然抬眼微笑\n光线氛围：晴天高亮自然光 + 白色玻璃橱窗与银色设备形成清亮反射补光\n滤镜效果：高亮清晰中性CCD色彩 + 白皙通透肤色 + 干净高光 + 鲜明中间调 + 极轻颗粒\n画幅比例：9:16\n补充要求：缎面领口自然垂坠，顺应胸部真实曲线，不产生僵硬挤压；上衣显现纤细腰线，石墨灰短裤带来鲜明明暗对比；避免整图泛青或泛黄，整体清晰明亮",
+      "image": "https://pbs.twimg.com/media/HVyOS5nbAAAfWcQ.jpg?format=jpg&name=large",
+      "images": [
+        "https://pbs.twimg.com/media/HVyOS5nbAAAfWcQ.jpg?format=jpg&name=large"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HVyOS5nbAAAfWcQ.jpg?format=jpg&name=large"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "9:16",
+      "model": "GPT Image 2.5",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/liyue_ai/status/2115722398913937515",
+      "url": "https://x.com/liyue_ai/status/2115722398913937515",
+      "domain": "x.com",
+      "date": "2026-10-29",
+      "timestamp": 1793275924384,
+      "collectedAt": "2026-10-29T12:12:04.384Z",
+      "githubSyncedAt": "2026-10-29T12:12:04.384Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2115775886934921667",
+      "title": "窗边奶油针织街拍",
+      "category": "时尚",
+      "tags": [
+        "针织",
+        "街拍",
+        "窗边",
+        "时尚",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "Fashion editorial still, 9:16. Young East Asian woman mid-20s look, porcelain skin, dark sleek hair loosely tucked behind one ear, cool gray-blue eyes. Seated at a cafe window table three-quarter to camera, wearing an oversized cream knit turtleneck over charcoal wool trousers, fully covered, one hand around a ceramic cup, calm gaze past the glass. Soft overcast daylight through the window, quiet magazine lighting. Cream, charcoal, warm wood, soft taupe palette. 85mm f/2.8 eye level, shallow depth. Clean frame, no text overlays, logos, or watermarks.\n\nsteal it if you want",
+      "image": "https://pbs.twimg.com/media/HVy-9NgXEAARufa.jpg?format=jpg&name=large",
+      "images": [
+        "https://pbs.twimg.com/media/HVy-9NgXEAARufa.jpg?format=jpg&name=large"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HVy-9NgXEAARufa.jpg?format=jpg&name=large"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "9:16",
+      "model": "",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/liqing19960904/status/2115775886934921667",
+      "url": "https://x.com/liqing19960904/status/2115775886934921667",
+      "domain": "x.com",
+      "date": "2026-10-29",
+      "timestamp": 1793275924384,
+      "collectedAt": "2026-10-29T12:12:04.384Z",
+      "githubSyncedAt": "2026-10-29T12:12:04.384Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2115754147853000972",
+      "title": "日式漫画拼贴海报",
+      "category": "时尚",
+      "tags": [
+        "漫画",
+        "拼贴",
+        "海报",
+        "极简",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "UNIVERSAL PROMPT - JAPANESE MINIMALIST MANGA EDITORIAL POSTER | 3:4\n\nTransform each uploaded photograph into its own premium Japanese minimalist manga editorial poster. Process every image independently, never combining images or reusing previous compositions, colors, or decorations.\n\nFORMAT: Vertical 3:4 canvas, divided horizontally into exactly two equal 50% sections, connected naturally without borders or divider lines.\n\nTOP 50% — ORIGINAL PHOTOGRAPH: Preserve the original subject's identity, facial features, pose, clothing, proportions, distinctive details, perspective, lighting, shadows, and natural colors. Allow only subtle photographic enhancements. Never distort, redraw, replace, or invent subjects or objects.\n\nBOTTOM 50% — MANGA INTERPRETATION: Simplify the main subject into expressive Japanese manga ink illustration, preserving its recognizable silhouette and defining features. Use bold hand-drawn contours, varied line weights, dry-brush strokes, broken ink lines, selective black shadows, and subtle halftone textures.\n\nMINIMALIST COMPOSITION: Maintain approximately 70% clean negative space in the lower section. Keep the illustrated subject small, inset from all edges, and balanced through sophisticated asymmetry. Choose a unique composition suited to each photograph. Never overcrowd the frame.\n\nCOLOR RULE: Extract one dominant accent color, optionally two harmonious colors, exclusively from the current photograph. Combine them with black ink and a white or near-white paper background. Never introduce unrelated colors or reuse previous palettes.\n\nUse subtle paper grain and restrained print textures. Add motion lines only when appropriate. Avoid excessive decorations, gradients, dense textures, borders, comic panels, and full-bleed dark backgrounds.\n\nNO TEXT: No titles, Japanese characters, slogans, speech bubbles, sound effects, logos, or watermarks unless explicitly requested.\n\nFINAL CHECK: Exact 3:4 ratio, precise 50/50 division, authentic upper photography, recognizable lower manga illustration, generous negative space, source-derived colors, and no unwanted text or clutter.\n\nSTYLE: Bold yet minimal, expressive yet restrained, combining authentic photography with sophisticated contemporary Japanese manga editorial design.",
+      "image": "https://pbs.twimg.com/media/HVyrKkVbsAALJVv.jpg?format=jpg&name=large",
+      "images": [
+        "https://pbs.twimg.com/media/HVyrKkVbsAALJVv.jpg?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HVyrLVJacAAoEsV.jpg?format=jpg&name=large"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HVyrKkVbsAALJVv.jpg?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HVyrLVJacAAoEsV.jpg?format=jpg&name=large"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "3:4",
+      "model": "GPT Image 2.5",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/Goodmanprotocol/status/2115754147853000972",
+      "url": "https://x.com/Goodmanprotocol/status/2115754147853000972",
+      "domain": "x.com",
+      "date": "2026-10-29",
+      "timestamp": 1793275924384,
+      "collectedAt": "2026-10-29T12:12:04.384Z",
+      "githubSyncedAt": "2026-10-29T12:12:04.384Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2115760563150053583",
+      "title": "雪夜伞下回眸",
+      "category": "城市",
+      "tags": [
+        "雪夜",
+        "伞",
+        "回眸",
+        "电影感",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "A young woman stands under a large black umbrella on a wet cobblestone street during a snowy evening.  Subject: A fair-skinned woman with long brown hair styled in an updo, featuring bright blue eyes and red lipstick. She wears a decorative headpiece made of red berries and white frosted leaves.  Clothing: She is dressed in a black long-sleeved dress with a textured knit pattern on the bodice and sleeves.  Action: The woman holds the umbrella handle with her right hand, looking back over her left shoulder directly at the camera with a calm expression.  Environment: The setting is an urban street covered in light snow, featuring blurred buildings in the distance and a decorated Christmas tree with warm yellow lights behind her.  Camera: The shot utilizes a shallow depth of field that keeps the woman sharp while rendering the background traffic lights and city elements as soft bokeh circles.  Lighting: The scene is lit by cool ambient daylight mixed with the warm glow of streetlights and festive decorations, creating a high-contrast look between the dark foreground and bright background highlights.  Style Details: The image has a cinematic color grading with a cool blue tone dominating the shadows and a soft, slightly grainy texture typical of high-end photography.",
+      "image": "https://pbs.twimg.com/media/HVsyApsaEAAaIK9.jpg?format=jpg&name=large",
+      "images": [
+        "https://pbs.twimg.com/media/HVsyApsaEAAaIK9.jpg?format=jpg&name=large"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HVsyApsaEAAaIK9.jpg?format=jpg&name=large"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "3:4",
+      "model": "Nano Banana 2",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/dreamydigiarts/status/2115760563150053583",
+      "url": "https://x.com/dreamydigiarts/status/2115760563150053583",
+      "domain": "x.com",
+      "date": "2026-10-29",
+      "timestamp": 1793275924384,
+      "collectedAt": "2026-10-29T12:12:04.384Z",
+      "githubSyncedAt": "2026-10-29T12:12:04.384Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2115775665643426258",
+      "title": "翡翠丝绸香水广告",
+      "category": "电商视觉",
+      "commerceType": "产品主图",
+      "tags": [
+        "香水",
+        "广告",
+        "丝绸",
+        "电商视频",
+        "文生视频",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "A luxury perfume commercial. @ Image 1 = model reference; @ Image 2 = perfume bottle reference. Keep both consistent throughout the video. Rich emerald environment, minimalist luxury, high-contrast lighting with soft golden accents, glossy reflections, macro product cinematography. Elegant, controlled motion.\n\n**0–2s:** Start immediately with the woman clearly visible in an emerald silk dress, centered in a strong fashion pose, holding the **Frameo** perfume bottle near her chest. Her face, dress, and bottle are clearly visible in the first frame. Luminous emerald backdrop with soft golden light and gentle highlights on her face and silhouette. Bright, rich, premium atmosphere. No dark shadows, no gray background, no empty frame, no fade-in.\n\n**2–4s:** Cut to a close-up. She raises the Frameo bottle and sprays once toward her neck. Fine mist catches the golden light. She lowers the bottle and gently touches her collarbone. Smooth, elegant movement, sharp reflections, and emerald transparency.\n\n**4–7s:** Cut back to a wider shot. She slowly turns and walks forward as the camera tracks backward. Her emerald silk dress and hair move naturally. The emerald environment expands around her, with subtle mist and golden light streaks flowing through the scene.\n\n**7–10s:** Cut to a medium fashion shot. She pauses and slowly turns toward the camera with a confident gaze. The camera makes one elegant arc around her while golden highlights trace her silhouette. Refined cinematic movement.\n\n**10–12s:** Cut to a macro product shot. The Frameo perfume bottle floats and slowly tilts in the emerald space, catching golden highlights. Elegant liquid reflections, delicate vapor trails, and subtle amber particles enhance the luxurious presentation.\n\n**12–13.5s:** Cut back to the model for one final tight fashion shot. She gently turns her head toward the camera, with her hair and dress moving softly. Elegant, confident, and captivating.\n\n**13.5–15s:** Cut to the final hero packshot on a pure black background. The Frameo perfume bottle stands centered, illuminated by refined emerald highlights and a thin golden rim light. The tagline **“A Scent That Tells Your Story..”** fades in beneath the bottle, spoken clearly by a refined female voice. Clean, sophisticated luxury finish.\n\n**Consistency requirements:** Use the exact Frameo bottle from @ image 2 and the same woman from @ Image 1 throughout. Preserve the bottle's shape, cap, color, proportions, and branding. No logo changes, no misspelled text, no extra products, and no unnecessary visual effects. Cinematic 4K quality, realistic materials, smooth transitions, premium fragrance-advertising aesthetic.",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2115761375662489600/img/P3APtm2NQNLTqLsb.jpg",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2115761375662489600/img/P3APtm2NQNLTqLsb.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/amplify_video_thumb/2115761375662489600/img/P3APtm2NQNLTqLsb.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "9:16",
+      "model": "Seedance 2.5",
+      "mediaType": "video",
+      "videoPoster": "https://pbs.twimg.com/amplify_video_thumb/2115761375662489600/img/P3APtm2NQNLTqLsb.jpg",
+      "videoSourceUrl": "https://video.twimg.com/amplify_video/2115761375662489600/vid/avc1/1080x1920/lWOVq6Le25MXVDVa.mp4",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/dreamydigiarts/status/2115775665643426258",
+      "url": "https://x.com/dreamydigiarts/status/2115775665643426258",
+      "domain": "x.com",
+      "date": "2026-10-29",
+      "timestamp": 1793275924384,
+      "collectedAt": "2026-10-29T12:12:04.384Z",
+      "githubSyncedAt": "2026-10-29T12:12:04.384Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2115753690325733870",
+      "title": "雨窗雀斑金色光晕",
+      "category": "人像",
+      "tags": [
+        "雨窗",
+        "雀斑",
+        "光晕",
+        "人像",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "A hyper-realistic, cinematic close-up portrait of a young woman standing near a window during a gentle rain. Her dark, damp hair clings softly to her temples and shoulders, giving her a fresh, natural look. She has a scattering of delicate freckles across her cheeks and nose, expressive eyes, and a serene, subtle smile. Warm, golden backlighting catches the edges of her wet hair and illuminates her profile, creating a glowing halo effect. The background is dark and moody, filled with rain-streaked glass and soft, shimmering bokeh lights that add depth and a dreamy atmosphere to the shot.",
+      "image": "https://pbs.twimg.com/media/HVyqLUSbMAAXK6k.jpg?format=jpg&name=large",
+      "images": [
+        "https://pbs.twimg.com/media/HVyqLUSbMAAXK6k.jpg?format=jpg&name=large"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HVyqLUSbMAAXK6k.jpg?format=jpg&name=large"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "2:3",
+      "model": "GPT Image 2.5",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/Muzammil_OX/status/2115753690325733870",
+      "url": "https://x.com/Muzammil_OX/status/2115753690325733870",
+      "domain": "x.com",
+      "date": "2026-10-29",
+      "timestamp": 1793275924384,
+      "collectedAt": "2026-10-29T12:12:04.384Z",
+      "githubSyncedAt": "2026-10-29T12:12:04.384Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2115775670194208910",
+      "title": "圣诞曲奇追逐插画",
+      "category": "电商视觉",
+      "commerceType": "产品主图",
+      "tags": [
+        "圣诞",
+        "曲奇",
+        "插画",
+        "节日",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "A whimsical, cartoon-style illustration featuring a giant, anthropomorphic chocolate chip cookie wearing a Santa hat, with a large, wide-eyed expression and a gaping mouth. The cookie is chasing a terrified-looking reindeer, a running Santa Claus with a surprised expression, and a panicked snowman wearing a top hat and scarf. The characters are running across a snowy ground scattered with cookie crumbs and holly berries, set against a plain white background. The art style is detailed and vibrant, reminiscent of a festive storybook illustration.",
+      "image": "https://pbs.twimg.com/media/HVOZWYfXAAACBoy.jpg?format=jpg&name=large",
+      "images": [
+        "https://pbs.twimg.com/media/HVOZWYfXAAACBoy.jpg?format=jpg&name=large"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HVOZWYfXAAACBoy.jpg?format=jpg&name=large"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "4:3",
+      "model": "Nano Banana 2.1",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/heathergreen/status/2115775670194208910",
+      "url": "https://x.com/heathergreen/status/2115775670194208910",
+      "domain": "x.com",
+      "date": "2026-10-29",
+      "timestamp": 1793275924384,
+      "collectedAt": "2026-10-29T12:12:04.384Z",
+      "githubSyncedAt": "2026-10-29T12:12:04.384Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2115719788748042652",
+      "title": "保时捷车内青年写真",
+      "category": "自然",
+      "tags": [
+        "汽车",
+        "车内",
+        "青年",
+        "写真",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "A young handsome male in his early 20s sits right of center in the driver's bucket seat of a Porsche 718 GTS, wearing a cornflower blue (#5C82B8) and white vertical-striped button-down shirt—unbuttoned at the collar with a navy embroidered polo logo on the left chest—paired with baggy light acid-wash denim jeans (#9EB5C4). His medium-length, wavy light-brown hair reaches mid-ear and the nape of the neck, parted slightly left of center in a tousled flow with upward-swept curtain bangs, a natural matte finish, and loose flyaway strands at the crown and temple. With his torso angled 45 degrees toward the wheel, right shoulder extended forward, and left shoulder pulled back, he turns his head in near-full profile to his left, looking sharply backward with wide, alert eyes, relaxed eyebrows, and slightly parted lips in a candid, focused expression. His right hand grips the 11 o'clock position of the black Alcantara steering wheel with fingers wrapped over the rim and thumb tucked behind, while his relaxed left hand rests on the black Alcantara center console with curled index and middle fingertips lightly touching the edge, displaying a stainless steel link watch with a black dial on his wrist. In the foreground, a pristine black leather and Alcantara passenger bucket seat with crimson red (#B81D24) contrast stitching and a red seatbelt buckle frames the bottom-right, while the midground features the Porsche crest steering wheel, a red nylon door pull loop, an instrument hood with red stitching, and a sloped center console housing a silver metallic shift knob, leather boot, glossy black sans-serif labeled buttons alongside faint red GTS headrest embroidery. Beyond the driver's window, an aged utilitarian garage wall of unfinished, patchy matte olive-brown and beige-gray plaster shows vertical dark stains, weathered streaks, and a dimly visible electrical box and pipes. A single, hard, camera-mounted flash fires from the passenger side in a high-contrast, low-key setup, casting short, harsh, deep jet-black (#0B0B0D) shadows against the headrest and into the cabin while creating crisp specular highlights across his warm peach skin (#DFA389) at the forehead, nose bridge, and cheek, as well as the shift knob and watch bezel, evoking a sophisticated yet candid late-night atmosphere. Captured from a slightly high angle on the passenger side using a 35mm lens at f/4, 1/60s, and ISO 400, this realistic digital photograph features tack-sharp focus, deep depth of field, minimal shadow noise, crushed blacks, warmed skin tones, and a 2000s digicam and old-money aesthetic, framed in a 3:4 vertical aspect ratio.",
+      "image": "https://pbs.twimg.com/media/HVd0VIDXcAAQOAR.jpg?format=jpg&name=large",
+      "images": [
+        "https://pbs.twimg.com/media/HVd0VIDXcAAQOAR.jpg?format=jpg&name=large"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HVd0VIDXcAAQOAR.jpg?format=jpg&name=large"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "3:4",
+      "model": "Nano Banana 2.1",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/pictsbyai/status/2115719788748042652",
+      "url": "https://x.com/pictsbyai/status/2115719788748042652",
+      "domain": "x.com",
+      "date": "2026-10-29",
+      "timestamp": 1793275924384,
+      "collectedAt": "2026-10-29T12:12:04.384Z",
+      "githubSyncedAt": "2026-10-29T12:12:04.384Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2115738391652245803",
+      "title": "拉贾斯坦宫廷新娘",
+      "category": "人像",
+      "tags": [
+        "印度",
+        "宫廷",
+        "新娘",
+        "电影感",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "Create an extraordinarily photorealistic, breathtaking cinematic portrait of an exceptionally beautiful adult Indian woman in her mid-twenties, dressed in magnificent deep burgundy-red royal Indian bridal attire inside an opulent ancient Rajasthani palace illuminated by thousands of golden oil lamps. The atmosphere evokes majestic Indian royalty, timeless romance, regal femininity, and the enchanting grandeur of a royal wedding celebration. The final image must resemble an authentic professional photograph of a real living woman, absolutely not CGI, illustration, or digital artwork.\n\nWoman and Facial Features: A stunning Indian woman with luminous warm ivory-golden skin, an elegantly sculpted oval face, delicate cheekbones, a refined straight nose, naturally full rose-red lips, and mesmerizing almond-shaped dark-brown eyes framed by thick eyelashes. Her makeup features shimmering rose-gold eyeshadow, softly smoky kohl-lined eyes, delicate winged eyeliner, rosy blush, and glossy berry-red lips. Her expression is serene, mysterious, and quietly alluring as she lowers her gaze over her shoulder. Preserve realistic skin pores, natural facial asymmetry, and authentic human anatomy.\n\nHair: Her extraordinarily long, thick, glossy dark chocolate-brown hair cascades down her back in magnificent, voluminous, naturally defined waves reaching below her waist. The upper sections are elegantly gathered into a romantic half-up hairstyle with softly twisted strands and subtle volume at the crown. Loose tendrils frame her cheeks and temples, while golden backlighting illuminates individual curls with warm chestnut highlights.\n\nOutfit and Fabric: She wears an exquisite deep burgundy-maroon velvet bridal lehenga adorned with extraordinarily intricate antique-gold zardozi embroidery, delicate floral vines, shimmering sequins, miniature pearls, and elaborate metallic threadwork. Her fitted, long-sleeved blouse features a graceful open-back design framed by heavily embroidered golden borders. The voluminous lehenga skirt displays magnificent floral embroidery and luxurious flowing folds. A sheer crimson-red dupatta with an ornate gold border cascades vertically from her shoulder, revealing delicate embroidered motifs and realistic translucent fabric textures.\n\nJewellery and Accessories: Traditional royal Indian jewellery includes an elaborate ruby-and-kundan maang tikka, magnificent chandelier jhumka earrings, an ornate gold choker, delicate layered necklaces, a traditional gold nose ring with a fine connecting chain, stacked gold bangles, intricate hand jewellery, and dangling pearl ornaments. Every piece displays exquisite craftsmanship and realistic gemstone reflections.\n\nPose and Body Language: Capture her standing in an elegant three-quarter rear pose, her back partially facing the camera while her head turns gracefully over her shoulder. Her chin tilts downward, eyes softly lowered, and lips gently parted. One arm rests naturally beside her embroidered skirt, displaying delicate hand jewellery. Her long flowing hair and richly decorated dupatta frame her graceful silhouette.\n\nSetting and Atmosphere: A magnificent Rajasthani royal palace interior featuring intricately carved sandstone pillars, gilded arches, elaborate floral decorations, and glowing brass chandeliers. Hundreds of flickering diyas illuminate the surroundings, while deep crimson roses and scattered rose petals decorate the marble floor. Two elegantly dressed female attendants in matching burgundy traditional attire stand softly blurred in the background, holding ornate golden trays filled with glowing oil lamps and rose petals.",
+      "image": "https://pbs.twimg.com/media/HVyc2Lvb0AAK1Ry.jpg?format=jpg&name=large",
+      "images": [
+        "https://pbs.twimg.com/media/HVyc2Lvb0AAK1Ry.jpg?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HVyc2LxaEAA-2VY.jpg?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HVyc2LzbcAA455b.jpg?format=jpg&name=large"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HVyc2Lvb0AAK1Ry.jpg?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HVyc2LxaEAA-2VY.jpg?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HVyc2LzbcAA455b.jpg?format=jpg&name=large"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "9:16",
+      "model": "GPT Image",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/punkhuri1/status/2115738391652245803",
+      "url": "https://x.com/punkhuri1/status/2115738391652245803",
+      "domain": "x.com",
+      "date": "2026-10-29",
+      "timestamp": 1793275924384,
+      "collectedAt": "2026-10-29T12:12:04.384Z",
+      "githubSyncedAt": "2026-10-29T12:12:04.384Z",
+      "domesticSyncedAt": null
+    },
     {
       "id": "grok_x_2114206178939146352",
       "title": "诗词文字构图可视化",
