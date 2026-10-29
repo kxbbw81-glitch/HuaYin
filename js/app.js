@@ -433,8 +433,57 @@
       .slice(0, 12);
   }
 
-  function fallbackImage(id, size = 500) {
-    return `https://picsum.photos/seed/${encodeURIComponent(limitedText(id, 120) || 'fallback')}/${size}/${size}`;
+  // pbs.twimg.com answers 403 when the request carries this site's Referer.
+  const RESULT_IMAGE_REFERRER_POLICY = 'no-referrer';
+
+  function mediaUnavailableHtml(label) {
+    return `<div class="media-unavailable" role="img" aria-label="${escapeHtml(label)}"><span class="media-unavailable-label">${escapeHtml(label)}</span></div>`;
+  }
+
+  function resultImageHtml(url, { className = '', id = '', alt = '', loading = '', ratio = '', index = null } = {}) {
+    const safeRatio = /^\d+(?:\.\d+)? \/ \d+(?:\.\d+)?$/.test(ratio) ? ratio : '';
+    const attrs = [
+      className ? `class="${escapeHtml(className)}"` : '',
+      id ? `id="${escapeHtml(id)}"` : '',
+      safeRatio ? `style="--prompt-image-ratio: ${safeRatio}"` : '',
+      Number.isInteger(index) ? `data-index="${index}"` : '',
+      `src="${escapeHtml(url)}"`,
+      `alt="${escapeHtml(alt)}"`,
+      loading ? `loading="${escapeHtml(loading)}"` : ''
+    ].filter(Boolean);
+    return `<img ${attrs.join(' ')} referrerpolicy="no-referrer" />`;
+  }
+
+  function bindResultImage(image, { label = '图片加载失败', mode = 'placeholder' } = {}) {
+    if (!image) return;
+    image.referrerPolicy = RESULT_IMAGE_REFERRER_POLICY;
+    image.addEventListener('error', () => {
+      if (image.dataset.unavailable === '1') return;
+      image.dataset.unavailable = '1';
+      if (mode === 'remove') {
+        image.closest('.hero-gallery-card')?.remove();
+        return;
+      }
+      if (mode === 'hide') {
+        image.hidden = true;
+        return;
+      }
+      image.hidden = true;
+      if (image.nextElementSibling?.classList.contains('media-unavailable')) return;
+      image.insertAdjacentHTML('afterend', mediaUnavailableHtml(label));
+      if (image.parentElement) applyLanguage(image.parentElement);
+    });
+  }
+
+  function assignResultImage(image, url) {
+    if (!image || !url) return;
+    image.referrerPolicy = RESULT_IMAGE_REFERRER_POLICY;
+    if (image.nextElementSibling?.classList.contains('media-unavailable')) {
+      image.nextElementSibling.remove();
+    }
+    image.hidden = false;
+    delete image.dataset.unavailable;
+    if (image.getAttribute('src') !== url) image.src = url;
   }
 
   function normalizeCollectionItem(item) {
@@ -1035,9 +1084,7 @@
   function createPromptCard(prompt, opts = {}) {
     const isCollection = opts.isCollection || prompt.isCollection;
     const card = el('div', { class: 'prompt-card', onclick: () => openPromptDetail(prompt.id, isCollection) });
-    const imageUrl = sanitizeImageUrl(prompt.image)
-      || sanitizeImageUrl(prompt.images?.[0])
-      || fallbackImage(prompt.id);
+    const imageUrl = sanitizeImageUrl(prompt.image) || sanitizeImageUrl(prompt.images?.[0]);
     const ratioMatch = String(prompt.aspectRatio || '').match(/^(\d+(?:\.\d+)?)\s*[:/]\s*(\d+(?:\.\d+)?)$/);
     const imageRatio = ratioMatch ? `${ratioMatch[1]} / ${ratioMatch[2]}` : '4 / 5';
 
@@ -1062,8 +1109,10 @@
     const modelBadge = prompt.model ? `<span class="card-model-badge">${escapeHtml(prompt.model)}</span>` : '';
 
     card.innerHTML = `
-      <div class="prompt-card-img-wrap">
-        <img class="prompt-card-img" style="--prompt-image-ratio: ${imageRatio}" src="${escapeHtml(imageUrl)}" alt="${escapeHtml(prompt.title)}" loading="lazy" />
+      <div class="prompt-card-img-wrap" style="--prompt-image-ratio: ${imageRatio}">
+        ${imageUrl
+          ? resultImageHtml(imageUrl, { className: 'prompt-card-img', alt: prompt.title, loading: 'lazy', ratio: imageRatio })
+          : mediaUnavailableHtml('未检测到图片')}
         ${multiImgBadge}
         ${arBadge}
       </div>
@@ -1089,8 +1138,7 @@
       </div>
     `;
 
-    const image = card.querySelector('.prompt-card-img');
-    image.addEventListener('error', () => { image.src = fallbackImage('fallback'); }, { once: true });
+    bindResultImage(card.querySelector('.prompt-card-img'));
 
     const detailBtn = card.querySelector('.card-detail-btn');
     detailBtn.addEventListener('click', (e) => {
@@ -1135,13 +1183,13 @@
       : (prompt.image ? [prompt.image] : []);
     const allImages = sanitizeImageUrls(rawImages);
 
-    const mainImg = allImages[0] || fallbackImage(prompt.id);
+    const mainImg = allImages[0] || '';
     const thumbsHTML = allImages.length > 1
       ? `<div class="modal-gallery-thumbs">
-           ${allImages.map((url, i) => `
-             <img class="modal-gallery-thumb ${i === 0 ? 'active' : ''}" 
-                  src="${escapeHtml(url)}" data-index="${i}" />
-           `).join('')}
+           ${allImages.map((url, i) => resultImageHtml(url, {
+             className: `modal-gallery-thumb${i === 0 ? ' active' : ''}`,
+             index: i
+           })).join('')}
          </div>`
       : '';
 
@@ -1149,7 +1197,9 @@
       <div class="modal">
         <button class="modal-close" type="button" aria-label="关闭">×</button>
         <div class="modal-gallery" id="modal-gallery">
-          <img class="modal-img" id="modal-main-img" src="${escapeHtml(mainImg)}" alt="${escapeHtml(prompt.title)}" />
+          ${mainImg
+            ? resultImageHtml(mainImg, { className: 'modal-img', id: 'modal-main-img', alt: prompt.title })
+            : mediaUnavailableHtml('未检测到图片')}
           ${allImages.length > 1 ? `<span class="modal-gallery-count">${allImages.length} 张图片</span>` : ''}
         </div>
         ${thumbsHTML}
@@ -1197,11 +1247,10 @@
     // 存储弹窗图片列表
     window._modalGalleryImages = allImages;
 
-    const modalMainImage = $('#modal-main-img');
-    modalMainImage?.addEventListener('error', () => { modalMainImage.src = fallbackImage('fallback'); }, { once: true });
+    bindResultImage($('#modal-main-img'));
     $('.modal-close', overlay)?.addEventListener('click', () => overlay.classList.remove('active'));
     $$('.modal-gallery-thumb', overlay).forEach((thumb, index) => {
-      thumb.addEventListener('error', () => { thumb.style.display = 'none'; }, { once: true });
+      bindResultImage(thumb, { mode: 'hide' });
       thumb.addEventListener('click', () => window.switchModalImage(index));
     });
     $$('.modal-tag-clickable', overlay).forEach(tag => {
@@ -1283,7 +1332,7 @@
       ? prompt.images
       : (prompt.image ? [prompt.image] : []);
     const allImages = sanitizeImageUrls(rawImages);
-    const mainImg = allImages[0] || fallbackImage(prompt.id, 720);
+    const mainImg = allImages[0] || '';
     const sections = parsePromptSections(prompt.prompt);
     const related = getAllPromptItems()
       .filter(p => p.id !== prompt.id && normalizeCategory(p.category) === normalizeCategory(prompt.category))
@@ -1369,13 +1418,15 @@
             <aside class="detail-media-panel">
               <div class="detail-media-label">Result Image</div>
               <div class="detail-media">
-                <img id="detail-main-img" src="${escapeHtml(mainImg)}" alt="${escapeHtml(prompt.title)}" />
+                ${mainImg
+                  ? resultImageHtml(mainImg, { id: 'detail-main-img', alt: prompt.title })
+                  : mediaUnavailableHtml('未检测到图片')}
                 ${allImages.length > 1 ? `<span class="detail-image-count">${allImages.length} 张图片</span>` : ''}
               </div>
               ${allImages.length > 1 ? `
                 <div class="detail-thumbs">
                   ${allImages.map((url, i) => `
-                    <img class="detail-thumb ${i === 0 ? 'active' : ''}" src="${escapeHtml(url)}" data-index="${i}" />
+                    ${resultImageHtml(url, { className: `detail-thumb${i === 0 ? ' active' : ''}`, index: i })}
                   `).join('')}
                 </div>
               ` : ''}
@@ -1384,7 +1435,7 @@
                   <div class="detail-media-label">Reference Images</div>
                   <div class="detail-reference-grid">
                     ${referenceImages.map((url, i) => `
-                      <img class="detail-reference-image" src="${escapeHtml(url)}" alt="Reference ${i + 1}" />
+                      ${resultImageHtml(url, { className: 'detail-reference-image', alt: `Reference ${i + 1}` })}
                     `).join('')}
                   </div>
                 </div>
@@ -1452,14 +1503,13 @@
 
     window._detailGalleryImages = allImages;
 
-    const detailMainImage = $('#detail-main-img');
-    detailMainImage?.addEventListener('error', () => { detailMainImage.src = fallbackImage('fallback', 720); }, { once: true });
+    bindResultImage($('#detail-main-img'));
     $$('.detail-thumb', app).forEach((thumb, index) => {
-      thumb.addEventListener('error', () => { thumb.style.display = 'none'; }, { once: true });
+      bindResultImage(thumb, { mode: 'hide' });
       thumb.addEventListener('click', () => window.switchDetailImage(index));
     });
     $$('.detail-reference-image', app).forEach(image => {
-      image.addEventListener('error', () => { image.style.display = 'none'; }, { once: true });
+      bindResultImage(image, { mode: 'hide' });
     });
     $$('.detail-category-filter', app).forEach(button => {
       button.addEventListener('click', () => window.filterByCategoryAndOpen(button.dataset.category || '抽象'));
@@ -1589,8 +1639,7 @@
   window.switchDetailImage = function (index) {
     const images = window._detailGalleryImages || [];
     if (!images[index]) return;
-    const mainImg = $('#detail-main-img');
-    if (mainImg) mainImg.src = images[index];
+    assignResultImage($('#detail-main-img'), images[index]);
     document.querySelectorAll('.detail-thumb').forEach((thumb, i) => {
       thumb.classList.toggle('active', i === index);
     });
@@ -1677,6 +1726,14 @@
                   <div class="hero-gallery-track">
                     ${loopedColumn.map((prompt, itemIndex) => {
                       const cardIndex = (itemIndex % column.length) + 1;
+                      const heroImage = sanitizeImageUrl(prompt.image);
+                      const heroMedia = heroImage
+                        ? resultImageHtml(heroImage, {
+                          className: 'hero-gallery-image',
+                          alt: prompt.title,
+                          loading: columnIndex === 0 && itemIndex === 0 ? 'eager' : 'lazy'
+                        })
+                        : mediaUnavailableHtml('未检测到图片');
                       return `
                         <button
                           class="hero-gallery-card hero-gallery-card-${columnIndex + 1}-${cardIndex}"
@@ -1685,7 +1742,7 @@
                           data-prompt-id="${escapeHtml(prompt.id)}"
                           aria-label="查看提示词：${escapeHtml(prompt.title)}"
                         >
-                          <img class="hero-gallery-image" src="${escapeHtml(sanitizeImageUrl(prompt.image) || fallbackImage(prompt.id))}" alt="${escapeHtml(prompt.title)}" loading="${columnIndex === 0 && itemIndex === 0 ? 'eager' : 'lazy'}" />
+                          ${heroMedia}
                         </button>
                       `;
                     }).join('')}
@@ -1753,12 +1810,12 @@
           <h2 class="section-title">🎯 真实使用场景</h2>
           <p class="section-subtitle">解锁 AI 提示词的全部潜力，看看创作者们如何在不同领域使用它们。</p>
           <div class="usecases-grid">
-            <div class="usecase-card"><img class="usecase-img" src="https://picsum.photos/seed/uc1/400/200" alt="电商" /><div class="usecase-body"><div class="usecase-title">🛒 电商与产品摄影</div><div class="usecase-desc">为 Shopify、淘宝、亚马逊等平台生成专业级产品图，替代昂贵的商业摄影。</div></div></div>
-            <div class="usecase-card"><img class="usecase-img" src="https://picsum.photos/seed/uc2/400/200" alt="社交媒体" /><div class="usecase-body"><div class="usecase-title">📱 社交媒体与 AI 网红</div><div class="usecase-desc">创建角色一致的 AI 虚拟形象，生成小红书、Instagram 等平台的高质量视觉内容。</div></div></div>
-            <div class="usecase-card"><img class="usecase-img" src="https://picsum.photos/seed/uc3/400/200" alt="营销" /><div class="usecase-body"><div class="usecase-title">📢 营销与视觉设计</div><div class="usecase-desc">电影分镜、海报设计、品牌视觉，用提示词快速产出多种风格方案供团队选择。</div></div></div>
-            <div class="usecase-card"><img class="usecase-img" src="https://picsum.photos/seed/uc4/400/200" alt="教育" /><div class="usecase-body"><div class="usecase-title">📊 信息图表与教育内容</div><div class="usecase-desc">利用文字渲染能力生成信息图表、教学插画，让抽象概念变得直观易懂。</div></div></div>
-            <div class="usecase-card"><img class="usecase-img" src="https://picsum.photos/seed/uc5/400/200" alt="建筑" /><div class="usecase-body"><div class="usecase-title">🏛️ 建筑与室内设计</div><div class="usecase-desc">照片级建筑可视化、室内方案预览，帮助客户直观感受设计意图与空间氛围。</div></div></div>
-            <div class="usecase-card"><img class="usecase-img" src="https://picsum.photos/seed/uc6/400/200" alt="游戏" /><div class="usecase-body"><div class="usecase-title">🎮 游戏开发与概念艺术</div><div class="usecase-desc">快速构建世界观、角色概念、场景原画，加速游戏前期设计与美术迭代流程。</div></div></div>
+            <div class="usecase-card"><img class="usecase-img" src="https://picsum.photos/seed/uc1/400/200" alt="电商" referrerpolicy="no-referrer" /><div class="usecase-body"><div class="usecase-title">🛒 电商与产品摄影</div><div class="usecase-desc">为 Shopify、淘宝、亚马逊等平台生成专业级产品图，替代昂贵的商业摄影。</div></div></div>
+            <div class="usecase-card"><img class="usecase-img" src="https://picsum.photos/seed/uc2/400/200" alt="社交媒体" referrerpolicy="no-referrer" /><div class="usecase-body"><div class="usecase-title">📱 社交媒体与 AI 网红</div><div class="usecase-desc">创建角色一致的 AI 虚拟形象，生成小红书、Instagram 等平台的高质量视觉内容。</div></div></div>
+            <div class="usecase-card"><img class="usecase-img" src="https://picsum.photos/seed/uc3/400/200" alt="营销" referrerpolicy="no-referrer" /><div class="usecase-body"><div class="usecase-title">📢 营销与视觉设计</div><div class="usecase-desc">电影分镜、海报设计、品牌视觉，用提示词快速产出多种风格方案供团队选择。</div></div></div>
+            <div class="usecase-card"><img class="usecase-img" src="https://picsum.photos/seed/uc4/400/200" alt="教育" referrerpolicy="no-referrer" /><div class="usecase-body"><div class="usecase-title">📊 信息图表与教育内容</div><div class="usecase-desc">利用文字渲染能力生成信息图表、教学插画，让抽象概念变得直观易懂。</div></div></div>
+            <div class="usecase-card"><img class="usecase-img" src="https://picsum.photos/seed/uc5/400/200" alt="建筑" referrerpolicy="no-referrer" /><div class="usecase-body"><div class="usecase-title">🏛️ 建筑与室内设计</div><div class="usecase-desc">照片级建筑可视化、室内方案预览，帮助客户直观感受设计意图与空间氛围。</div></div></div>
+            <div class="usecase-card"><img class="usecase-img" src="https://picsum.photos/seed/uc6/400/200" alt="游戏" referrerpolicy="no-referrer" /><div class="usecase-body"><div class="usecase-title">🎮 游戏开发与概念艺术</div><div class="usecase-desc">快速构建世界观、角色概念、场景原画，加速游戏前期设计与美术迭代流程。</div></div></div>
           </div>
         </div>
       </section>
@@ -1784,16 +1841,19 @@
     `;
 
     $$('.hero-gallery-image', app).forEach(image => {
-      image.addEventListener('error', () => {
-        image.closest('.hero-gallery-card')?.remove();
-      }, { once: true });
+      bindResultImage(image, { mode: 'remove' });
     });
 
     const topContainer = $('#top-prompts');
     todayTop.forEach(p => {
       const item = el('div', { class: 'top-prompt-item', onclick: () => openPromptDetail(p.id) });
       const selectionMeta = Number(p.likes) > 0 ? `<span>❤ ${p.likes}</span>` : '<span>新入库</span>';
-      item.innerHTML = `<img class="top-prompt-thumb" src="${p.image}" alt="${p.title}" loading="lazy" /><div class="top-prompt-info"><div class="top-prompt-title">${p.title}</div><div class="top-prompt-meta"><span>${p.category}</span>${p.verified ? '<span class="verified-badge">已验证</span>' : ''}${selectionMeta}</div></div>`;
+      const topImage = sanitizeImageUrl(p.image);
+      const topMedia = topImage
+        ? resultImageHtml(topImage, { className: 'top-prompt-thumb', alt: p.title, loading: 'lazy' })
+        : mediaUnavailableHtml('未检测到图片');
+      item.innerHTML = `${topMedia}<div class="top-prompt-info"><div class="top-prompt-title">${escapeHtml(p.title)}</div><div class="top-prompt-meta"><span>${escapeHtml(p.category)}</span>${p.verified ? '<span class="verified-badge">已验证</span>' : ''}${selectionMeta}</div></div>`;
+      bindResultImage(item.querySelector('.top-prompt-thumb'));
       topContainer.appendChild(item);
     });
 
@@ -2434,7 +2494,7 @@
       galleryHTML = `
         <div class="imp-result-gallery" id="imp-gallery">
           <div class="imp-gallery-main">
-            <img id="imp-gallery-main-img" src="${escapeHtml(images[0])}" alt="${escapeHtml(item.title)}" />
+            ${resultImageHtml(images[0], { id: 'imp-gallery-main-img', alt: item.title })}
             <button class="imp-save-fab" id="imp-save-fab" type="button" title="收藏到库">
               <span>♡</span>
             </button>
@@ -2442,11 +2502,10 @@
           </div>
           ${images.length > 1 ? `
             <div class="imp-gallery-thumbs">
-              ${images.map((url, i) => `
-                <img class="imp-gallery-thumb ${i === 0 ? 'active' : ''}"
-                     src="${escapeHtml(url)}"
-                     data-index="${i}" />
-              `).join('')}
+              ${images.map((url, i) => resultImageHtml(url, {
+                className: `imp-gallery-thumb${i === 0 ? ' active' : ''}`,
+                index: i
+              })).join('')}
             </div>
           ` : ''}
         </div>
@@ -2557,7 +2616,11 @@
   window.updatePreviewImage = function (url) {
     const img = $('.imp-gallery-main-img');
     const safeUrl = sanitizeImageUrl(url);
-    if (img && safeUrl) { img.src = safeUrl; img.style.display = 'block'; }
+    if (img && safeUrl) {
+      img.referrerPolicy = RESULT_IMAGE_REFERRER_POLICY;
+      img.src = safeUrl;
+      img.style.display = 'block';
+    }
   };
 
   // 画廊缩略图切换
@@ -2565,7 +2628,10 @@
     const images = window._impGalleryImages || [];
     if (!images[index]) return;
     const mainImg = $('#imp-gallery-main-img');
-    if (mainImg) mainImg.src = images[index];
+    if (mainImg) {
+      mainImg.referrerPolicy = RESULT_IMAGE_REFERRER_POLICY;
+      mainImg.src = images[index];
+    }
     document.querySelectorAll('.imp-gallery-thumb').forEach((thumb, i) => {
       thumb.classList.toggle('active', i === index);
     });
@@ -2588,14 +2654,14 @@
     } else {
       gallery.innerHTML = `
         <div class="imp-gallery-main">
-          <img id="imp-gallery-main-img" src="${escapeHtml(safeUrls[0])}" alt="" />
+          ${resultImageHtml(safeUrls[0], { id: 'imp-gallery-main-img' })}
           <button class="imp-save-fab" id="imp-save-fab" type="button" title="收藏到库"><span>♡</span></button>
           ${safeUrls.length > 1 ? `<span class="imp-gallery-count">${safeUrls.length} 张图片</span>` : ''}
         </div>
         ${safeUrls.length > 1 ? `
           <div class="imp-gallery-thumbs">
             ${safeUrls.map((url, i) => `
-              <img class="imp-gallery-thumb ${i === 0 ? 'active' : ''}" src="${escapeHtml(url)}" data-index="${i}" />
+              ${resultImageHtml(url, { className: `imp-gallery-thumb${i === 0 ? ' active' : ''}`, index: i })}
             `).join('')}
           </div>
         ` : ''}
@@ -2722,8 +2788,7 @@
   window.switchModalImage = function (index) {
     const images = window._modalGalleryImages || [];
     if (!images[index]) return;
-    const mainImg = $('#modal-main-img');
-    if (mainImg) mainImg.src = images[index];
+    assignResultImage($('#modal-main-img'), images[index]);
     document.querySelectorAll('.modal-gallery-thumb').forEach((thumb, i) => {
       thumb.classList.toggle('active', i === index);
     });
