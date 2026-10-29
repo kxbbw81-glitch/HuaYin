@@ -1,7 +1,348 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-29T02:46:55.003Z",
+  "updatedAt": "2026-10-29T11:47:43.657Z",
   "collections": [
+    {
+      "id": "grok_x_2115725051853152640",
+      "title": "韩系Y2K白棚人像",
+      "category": "电商视觉",
+      "commerceType": "产品主图",
+      "tags": [
+        "Y2K",
+        "韩系",
+        "时尚",
+        "棚拍",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "9:16 vertical portrait, ultra-photorealistic Korean Y2K fashion editorial, Korean casual fashion photography, minimalist studio photography, 2000s Korean fashion magazine aesthetic, soft natural light. A clearly adult East Asian woman, aged 23–27, with a slim well-proportioned figure, slender waist, flat abdomen, natural waist-to-hip curve, and fair luminous creamy skin. She has a small delicate oval face, slightly upturned cat-like eyes, deep brown irises, a refined nose bridge, and glossy nude-pink lips. Long straight black hair falls naturally behind her shoulders, with a few loose strands framing her face. Black sunglasses rest on top of her head, and she wears large silver hoop earrings. Her makeup is soft Korean natural makeup with low-saturation brown eyeshadow, thin eyeliner, subtle pink blush, and glossy nude-pink lips. She wears a fitted light-gray cable-knit halter crop top, dark-gray vintage washed low-rise denim micro shorts with slightly distressed hems, sheer black pantyhose, chunky white retro sneakers, and a small black leather crossbody bag with a silver chain strap. Pose: she sits casually on a pure white studio floor with both legs bent and folded naturally to one side, one hand placed behind her on the floor for support, the other hand lightly touching her hair near her temple. She tilts her head slightly upward and looks directly into the camera with a relaxed, sweet, and slightly lazy expression. Camera angle is a high-angle 45-degree overhead shot, emphasizing her face, shoulders, and elegant body line. Full-body composition with clean negative space, seamless white background, soft highlight bloom, low contrast, pale creamy tones, delicate film grain, realistic skin texture, clean shadows, no text, no watermark.",
+      "image": "https://pbs.twimg.com/media/HVyQpTlbcAAvL0o.jpg?format=jpg&name=large",
+      "images": [
+        "https://pbs.twimg.com/media/HVyQpTlbcAAvL0o.jpg?format=jpg&name=large"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HVyQpTlbcAAvL0o.jpg?format=jpg&name=large"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "9:16",
+      "model": "GPT Image",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/BubbleBrain/status/2115725051853152640",
+      "url": "https://x.com/BubbleBrain/status/2115725051853152640",
+      "domain": "x.com",
+      "date": "2026-10-29",
+      "timestamp": 1793274463559,
+      "collectedAt": "2026-10-29T11:47:43.559Z",
+      "githubSyncedAt": "2026-10-29T11:47:43.559Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2115111311491150043",
+      "title": "四时代一镜环绕",
+      "category": "视频提示词",
+      "tags": [
+        "文生视频",
+        "一镜到底",
+        "时代穿越",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "Ultra-realistic cinematic time-transition sequence, one seamless 30-second continuous shot. Smooth slow circular camera orbit around one seated person. Premium live-action realism, elegant historical transitions, soft practical lighting, stable room geometry, no cuts.\n\nOne single adult person seated on the same chair the entire time, same face and body throughout, calm expression, almost perfectly still. Only clothing and hairstyle change with each era.\n\nOne single room with the exact same layout in every era: same chair position, same window position, same table position. The room transforms through time but keeps identical geometry.\n\n0-7s: EARLY PAST — The person sits in a simple rustic room with rough walls, wooden table, candlelight, handmade clothing, clay objects. Camera begins a slow orbit.\n\n7-14s: ANCIENT / CLASSICAL — As the camera passes briefly behind the seated person, the room transforms into a refined ancient interior with stone walls, pottery, woven fabrics, warmer daylight, simple elegant garments.\n\n14-21s: MEDIEVAL — During the next rear pass, the room becomes a medieval chamber with wooden beams, tapestry, candle sconces, carved furniture, heavier layered clothing.\n\n21-30s: PRESENT DAY — During the final rear pass, the room transforms into a modern minimalist apartment with clean walls, soft daylight, modern chair, subtle decor, laptop on the table. Camera completes the orbit and ends in a clean frontal medium shot on the seated person, still calm and centered.\n\nOnly 4 eras, one seated person only, one chair only, one room only, transitions happen only when camera passes behind the subject, stable identity, realistic materials, readable era changes, no extra characters, no empty-chair ending, no text, no logos.",
+      "image": "https://pbs.twimg.com/ext_tw_video_thumb/2115111279803117568/pu/img/8HsJCpVJ1MBSs4LV.jpg",
+      "images": [
+        "https://pbs.twimg.com/ext_tw_video_thumb/2115111279803117568/pu/img/8HsJCpVJ1MBSs4LV.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/ext_tw_video_thumb/2115111279803117568/pu/img/8HsJCpVJ1MBSs4LV.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "16:9",
+      "model": "Seedance",
+      "mediaType": "video",
+      "videoPoster": "https://pbs.twimg.com/ext_tw_video_thumb/2115111279803117568/pu/img/8HsJCpVJ1MBSs4LV.jpg",
+      "videoSourceUrl": "https://video.twimg.com/ext_tw_video/2115111279803117568/pu/vid/avc1/1280x720/RLVGgxQ2S1VEJ0gJ.mp4?tag=12",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/CharaspowerAI/status/2115111311491150043",
+      "url": "https://x.com/CharaspowerAI/status/2115111311491150043",
+      "domain": "x.com",
+      "date": "2026-10-29",
+      "timestamp": 1793274463559,
+      "collectedAt": "2026-10-29T11:47:43.559Z",
+      "githubSyncedAt": "2026-10-29T11:47:43.559Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2115545025366933834",
+      "title": "1890手绘动画人像",
+      "category": "人像",
+      "tags": [
+        "动画",
+        "复古",
+        "手绘",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "Hand-painted animation frame in the style of 1890s optical theater, soft gouache colors on glass, warm lantern glow, light film grain and vignette, simple outlined figures, gentle motion blur, vintage Parisian magic. Use the reference photo as the scene.",
+      "image": "https://pbs.twimg.com/media/HVvsuv3WgAAVCCA.jpg?format=jpg&name=large",
+      "images": [
+        "https://pbs.twimg.com/media/HVvsuv3WgAAVCCA.jpg?format=jpg&name=large"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HVvsuv3WgAAVCCA.jpg?format=jpg&name=large"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "3:4",
+      "model": "",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/icreatelife/status/2115545025366933834",
+      "url": "https://x.com/icreatelife/status/2115545025366933834",
+      "domain": "x.com",
+      "date": "2026-10-29",
+      "timestamp": 1793274463559,
+      "collectedAt": "2026-10-29T11:47:43.559Z",
+      "githubSyncedAt": "2026-10-29T11:47:43.559Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2115751163094331759",
+      "title": "古装买蟹喜剧短片",
+      "category": "视频提示词",
+      "tags": [
+        "文生视频",
+        "古装",
+        "喜剧",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "东方古装写实电影质感；古代农家与街市；真实皮肤、布料、食物蒸汽质感；禁CG感、塑料感、禁动物拟人；仅保留环境声：室内静响、街市人声、蒸汽声\n【人物锁定】女主A：图1；男配B：图2；女配C：图3；男配D：蟹摊摊主\n【场景锁定】场景一：古代农家堂屋，旧木桌、木柜、土墙，高窗透入一束光；场景二：古代街市螃蟹摊，木摊上四只竹筐盛满大闸蟹，木牌写\"大闸蟹\"\n【空间关系】堂屋里A坐主位居中，B坐画面左侧，C坐画面右侧，三人围着木桌；蟹摊处A站摊前，D抱臂站摊后\n【空间逻辑】三场戏：堂屋问吃→蟹摊买蟹→堂屋吃蟹；座位全程不变（B左、C右、A中）\n【光影氛围】堂屋昏暗，高窗光束带浮尘；蟹摊为晴日强光；蒸蟹热气在光束里升起\n\n【分镜】\n【镜头01】【时长】0–8.4秒【景别】中景【运镜】固定，桌面高度低机位【画面内容】三人围坐木桌：A居中看看左边又看看右边，一脸慈祥；B、C眼巴巴望着A【对白】A和气地说（约1秒）：\"两位好姐妹，你们今天想吃啥？\"B兴奋地说（约4秒）：\"小婉，我们想吃大闸蟹！！\"A一拍板（约6秒）：\"好！我这就上街去买螃蟹！\"【连续性锁定】开场问吃；B、C全程只看A\n\n【镜头02】【时长】8.4–11秒【景别】中景【运镜】固定【画面内容】街市蟹摊：四筐大闸蟹摆在木摊上，D抱臂站在摊后；A走到摊前，探头看筐里的蟹【对白】A打听道（约9秒）：\"螃蟹咋卖啊？\"D报价（约10.5秒）：\"十文一两！\"【连续性锁定】价格梗立住：一两计价\n\n【镜头03】【时长】11–20秒【景别】A面部大特写【运镜】固定【画面内容】A的脸占满画面：先是瞪圆眼睛、张大嘴的震惊；听着画外报价，表情慢慢变成眯眼盘算；最后咧嘴得意地坏笑【对白】A震惊地说（约12秒）：\"什么！？十文钱！！才一两！\"D画外音（约15秒）：\"便宜的也有——死螃蟹，两文一两。\"A得意地说（约17.5秒）：\"俺们老一辈人讲究节俭！给我来十两！\"【连续性锁定】整段只拍A的脸；D只出声不入画；A的表情链：震惊→盘算→得意\n\n【镜头04】【时长】20–30秒【景别】中景【运镜】固定，桌面高度低机位【画面内容】回到堂屋：一大陶盆蒸得通红的大闸蟹摆在桌子中央，热气腾腾；B、C各抓起一只蟹掰开就咬；C咬着咬着停住，伸手指着手里的蟹；B一惊，手里的蟹脱手掉在桌上，目瞪口呆，画面收束【对白】A招呼道（约21秒）：\"好姐妹们快吃吧~不够还有。\"B满足地说（约23.5秒）：\"太香了！\"C迟疑地说（约26.5秒）：\"不对劲啊这螃蟹……\"；B和C同时倒在椅子上…A一脸懵…【连续性锁定】收束悬念：不对劲点到为止，不揭晓；座位仍是B左C右A中\n\n【负面约束】严禁任何形式的背景音乐、无字幕；无多余文字（蟹摊木牌\"大闸蟹\"除外）、无水印、无人物复制（严禁出现猫或其他动物拟人）、无解剖错误、无身份漂移、无B、C座位互换、严禁对白串词、无螃蟹凭空增减、无慢动作拖沓",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2115750963567104000/img/MMKCorUUZ40ABlZm.jpg",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2115750963567104000/img/MMKCorUUZ40ABlZm.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/amplify_video_thumb/2115750963567104000/img/MMKCorUUZ40ABlZm.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "16:9",
+      "model": "",
+      "mediaType": "video",
+      "videoPoster": "https://pbs.twimg.com/amplify_video_thumb/2115750963567104000/img/MMKCorUUZ40ABlZm.jpg",
+      "videoSourceUrl": "https://video.twimg.com/amplify_video/2115750963567104000/vid/avc1/3840x2160/8SDiT-6RTKzaSW8_.mp4",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/GrayNoteLab/status/2115751163094331759",
+      "url": "https://x.com/GrayNoteLab/status/2115751163094331759",
+      "domain": "x.com",
+      "date": "2026-10-29",
+      "timestamp": 1793274463559,
+      "collectedAt": "2026-10-29T11:47:43.559Z",
+      "githubSyncedAt": "2026-10-29T11:47:43.559Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2115763144111051131",
+      "title": "午后咖啡馆街拍",
+      "category": "时尚",
+      "tags": [
+        "韩系",
+        "街拍",
+        "咖啡馆",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "分享 25/100\n\n午后咖啡馆 · 韩系温柔初恋感街拍\n\n【整体画面风格】\n\n1:1正方形构图，单幅独立画面，超写实韩系成年女性街头人像摄影，真实手机摄影与自然日光生活写真结合。\n\n一位23至25岁、明确成年的美丽东亚女性，拥有精致小巧的鹅蛋脸、清透自然冷白肌肤、深棕色明亮杏仁眼、柔和蜜桃粉色嘴唇，以及浓密蓬松的深巧克力棕色长发。\n\n身穿宽松奶油米色针织开衫，内搭纯白色细肩带上衣，佩戴精致细银色项链与小巧耳钉。\n\n人物自然站在城市街边咖啡馆门口，身体略微侧向镜头，头部轻轻倾斜，露出温柔甜美的闭嘴微笑。\n\n一只手轻轻整理肩膀旁的长发，另一只手自然举在胸前，做出拇指与小指伸展的俏皮手势。\n\n明亮午后阳光从画面左上方照射，微风轻轻吹动长发，发丝边缘形成柔和金棕色高光。\n\n背景为现代城市街道、咖啡馆玻璃门窗、温暖的室内吊灯，以及摆满粉白色鲜花的大型白色花箱。\n\n整体氛围温暖、自然、清新、甜美，像周末下午在咖啡馆门口被朋友随手拍摄的一张生活照片。\n\n保留真实摄影的自然曝光、细腻肤质、轻微光学柔化与自然景深，不使用明显AI渲染和过度商业化精修。\n\n【人物面容】\n\n一位23至25岁、明确成年的精致东亚女性。\n\n精致小巧的自然鹅蛋脸，额头柔和饱满，脸颊带有轻微自然饱满感，颧骨平滑，下颌线柔和收窄，小巧圆润的下巴。\n\n五官精致协调，具有自然温柔的韩系气质，不使用夸张尖下巴或过度幼态的五官比例。\n\n肌肤白皙透亮，呈现干净的奶油冷白色，在温暖阳光照射下带有自然浅象牙色光泽。\n\n保留轻微真实皮肤纹理、细小毛孔与柔和的面部阴影。\n\n双颊具有淡淡蜜桃粉色腮红，眼下与鼻尖带有轻微自然红润感。\n\n一双清澈明亮的深棕色杏仁眼，眼型自然偏大，眼尾轻微上扬。\n\n自然细致的双眼皮，柔软卧蚕，浅粉棕色眼影，纤长但不过分浓密的睫毛。\n\n眉毛自然平缓，深灰棕色，保留真实眉毛毛流。\n\n鼻梁纤细自然，鼻尖小巧圆润，鼻翼精致。\n\n嘴唇柔软饱满，采用淡蜜桃玫瑰粉色唇妆，唇部带有微弱的水润光泽。\n\n嘴角轻轻上扬，形成非常自然的闭嘴微笑。\n\n双眼温柔地直视镜头，眼睛带有浅浅的笑意。\n\n整体妆容为清透韩系日常裸妆，干净、自然，不过度修饰。\n\n【发型设计——核心重点】\n\n浓密蓬松的深巧克力棕色长发，发色接近自然深黑茶色。\n\n长发长度延伸至腰部附近，部分发丝自然垂落到胸前。\n\n头顶发量丰盈，发根自然蓬松，具有柔软的空气感。\n\n采用自然偏中分发型，额前拥有轻薄松散的八字长刘海。\n\n前额几缕细长碎发自然垂落，轻轻掠过额头和眉毛附近。\n\n脸颊两侧的长刘海呈现柔和弧线，修饰脸部轮廓。\n\n大部分长发披散在肩膀与背部，带有轻微自然波浪。\n\n画面左侧长发具有更加明显的蓬松体积。\n\n微风从画面右侧吹向左侧，使部分发丝向画面左方横向飘动。\n\n头发顶部有少量自然翘起的细小飞散发丝。\n\n阳光从左上方照亮头发，形成温暖浅栗棕色反光与细腻的发丝轮廓光。\n\n发丝具有真实物理重量，部分随风飘动，部分自然垂落。\n\n不要过分规则的卷发，不要过度整齐的发际线，不要假发般光滑厚重的发束。\n\n【服装设计】\n\n身穿一件浅奶油米色、淡燕麦色的宽松针织开衫。\n\n开衫采用柔软轻薄的细针织面料，具有真实细密的针织纤维和自然罗纹纹理。\n\n宽松落肩设计，肩部自然下垂，袖子略微宽松。\n\n袖口采用较长的罗纹收边，柔软地堆叠在手腕附近。\n\n开衫前襟自然敞开，露出内搭白色上衣。\n\n衣服整体颜色温暖柔和，呈现自然燕麦米白色。\n\n内搭一件纯白色细肩带上衣，面料柔软，领口采用简洁的浅弧形设计。\n\n细肩带自然贴合肩膀，白色内搭与外层针织衫形成轻柔的色彩层次。\n\n下身可在画面底部隐约出现少量深灰色或深色裤装。\n\n颈部佩戴一条极细的银色项链，中央带有小巧精致的吊坠。\n\n耳朵佩戴低调的小型银色耳钉。\n\n整体穿搭简约、温柔、舒适，呈现韩系春秋季城市日常穿搭风格。\n\n【人物姿势——重要】\n\n人物自然站在咖啡馆门前的城市人行道上。\n\n身体微微侧向画面左侧，约15至25度，上半身轻轻转向镜头。\n\n肩膀放松，头部略微向一侧倾斜。\n\n下巴自然微收，双眼看向摄影机。\n\n嘴角自然上扬，露出温柔而轻松的微笑。\n\n画面右侧的一只手臂自然抬起，手肘弯曲。\n\n右手轻轻握住肩膀前方的一小束长发，手指自然弯曲，呈现随手整理头发的动作。\n\n另一只手抬至胸前位置。\n\n手掌略微朝向自己，拇指与小指自然伸展，食指、中指与无名指轻轻弯曲。\n\n形成轻松、俏皮的双指伸展手势，而不是V字手势。\n\n两只手的位置高低错落，形成自然的非对称构图。\n\n手腕、手指与手臂符合真实人体比例。\n\n身体保持放松自然，不使用夸张的商业模特姿势。\n\n整体像朋友在街边叫住人物后，随手抓拍的一张自然微笑照片。\n\n【背景环境】\n\n现代城市街头的一家精致咖啡馆门口。\n\n人物站在咖啡馆入口附近的浅灰色人行道上。\n\n画面左侧可以看见向远处延伸的城市街道。\n\n街道两侧是浅灰白色现代建筑，具有真实门窗、外墙和少量店铺招牌。\n\n远处有轻微虚化的行人、车辆及街边绿色植物。\n\n街道透视自然，建筑物从近处向远处逐渐缩小。\n\n画面右侧是一家现代简约风格的咖啡馆。\n\n咖啡馆门面拥有深色金属窗框和大面积透明玻璃。\n\n透过玻璃可以看见暖色室内灯光、木质桌椅、咖啡吧台和两三盏圆形暖黄色吊灯。\n\n室内环境比室外略暗，呈现自然的咖啡馆空间层次。\n\n画面右下角有一个大型白色矩形花箱。\n\n花箱内生长着茂密的绿色植物与大量细小鲜花。\n\n花朵颜色以淡粉色、奶油白色、浅珊瑚粉色为主。\n\n鲜花大小不一，自然分布，部分花朵被阳光照亮，呈现柔和明亮的花瓣质感。\n\n咖啡馆门口整体干净、明亮，具有真实城市生活气息。\n\n【镜头与构图】\n\n严格1:1正方形构图，单幅独立画面。\n\n采用等效35mm至50mm的真实相机镜头视角。\n\n摄影机位接近人物眼睛高度，采用自然平视构图。\n\n拍摄距离约1.2至2米。\n\n人物位于画面中央略偏左位置。\n\n画面从头顶上方少量建筑留白开始，延伸至人物腰部附近。\n\n人物面部位于画面中央偏上区域，眼睛成为主要视觉中心。\n\n深棕色长发自然垂落在身体两侧，形成柔和的纵向视觉线条。\n\n两只手位于画面中央偏下位置，一只整理头发，一只做出自然手势。\n\n画面左侧保留城市街道的透视空间。\n\n画面右侧保留咖啡馆玻璃门窗、暖色吊灯和白色鲜花花箱。\n\n人物面部、眼睛、头发和手指保持清晰。\n\n背景具有轻微自然景深，远处行人和建筑稍微柔化，但咖啡馆及花箱仍具有可辨认的细节。\n\n不使用夸张超广角镜头，不使用强烈人像模式背景虚化。\n\n【光影设计——最重要】\n\n明亮的午后城市街头自然阳光。\n\n主光从画面左上方斜向照射。\n\n人物头顶、左侧长发和肩膀受到直接阳光照亮。\n\n头发顶部形成温暖金棕色高光，细小飞散发丝具有自然明亮的边缘反光。\n\n人物脸部受到柔和自然日光及街边建筑反射光照亮。\n\n额头、鼻梁、脸颊、下巴具有干净细腻的奶油白色高光。\n\n脸部另一侧保留轻微浅灰色柔和阴影。\n\n眼睛中具有自然的天空反射光点。\n\n奶油色针织开衫在阳光下呈现明亮柔和的纤维纹理。\n\n人物手指受到自然光照射，具有真实的皮肤明暗变化。\n\n背景咖啡馆室内略暗，暖黄色吊灯形成柔和的小型光斑。\n\n右下角白色花箱受到较强阳光照射，花瓣局部具有明亮的自然高光。\n\n整个场景具有真实午后阳光下的冷暖与明暗层次。\n\n允许少量头发和浅色墙面高光轻微溢出，模拟真实摄影曝光。\n\n不使用明显的闪光灯、夸张轮廓光和商业影棚柔光效果。\n\n【色彩与后期风格】\n\n整体采用韩系清透奶油暖色调。\n\n主要色彩为深巧克力棕、奶油米白、纯白、浅灰色、自然绿色、淡樱花粉和暖黄色。\n\n人物肤色保持清透自然冷白色，受到阳光照射后带有柔和暖白色高光。\n\n脸颊保留淡淡蜜桃粉色，嘴唇呈柔和玫瑰珊瑚粉色。\n\n头发为深黑茶棕色，部分受光区域呈现自然金栗棕色高光。\n\n针织开衫呈浅燕麦奶油色，内搭为柔和纯白色。\n\n街道和建筑保持自然灰白色调。\n\n咖啡馆室内呈现温暖木色与柔和黄色灯光。\n\n右下角的鲜花为低饱和淡粉色和奶油白色。\n\n整体画面明亮、温暖、自然，适当降低对比度，保留真实阴影和高光细节。\n\n轻微自然胶片柔焦，保留真实相机微颗粒，不过度锐化。\n\n【真实摄影质感】\n\n超写实真人摄影，真实自然的东亚女性五官。\n\n自然皮肤微纹理、真实睫毛与眉毛、清晰自然的瞳孔反光。\n\n深棕色长发具有细腻独立发丝、自然风力运动、真实发束层次。\n\n针织开衫具有真实布料纤维、柔软褶皱和合理的袖口结构。\n\n双手手势准确，手指数量正确，关节自然，手腕与前臂比例真实。\n\n街道建筑透视合理，咖啡馆门窗结构正确，花箱和鲜花具有自然真实的形态。\n\n保留生活抓拍的不完美细节，避免塑料皮肤、夸张网红脸、过度商业精修。\n\n无文字，无LOGO，无水印，无拼图，无边框。\n\n【负面提示词】\n\n动漫，卡通，插画，3D渲染，CG假脸，塑料皮肤，过度磨皮，过度美颜，异常大眼睛，过尖下巴，五官错位，眼睛不对称，瞳孔变形，浓妆，夸张假睫毛，僵硬笑容，假发，头发黏连，僵硬卷发，过度规则发型，错误发丝方向，多余手指，手指融合，畸形手掌，错误手势，V字手势，手腕扭曲，多余手臂，肩膀错位，身体比例失真，针织面料穿模，错误肩带结构，花箱畸形，重复花朵，咖啡馆建筑结构错误，街道透视畸形，过度背景虚化，强烈商业影棚灯光，严重曝光过度，强HDR，过度锐化，AI假脸，虚假皮肤质感，文字，LOGO，水印，拼图。",
+      "image": "https://pbs.twimg.com/media/HVyzPt2aEAAiU8n.jpg?name=large",
+      "images": [
+        "https://pbs.twimg.com/media/HVyzPt2aEAAiU8n.jpg?name=large"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HVyzPt2aEAAiU8n.jpg?name=large"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "1:1",
+      "model": "GPT Image",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/CryY666666/status/2115763144111051131",
+      "url": "https://x.com/CryY666666/status/2115763144111051131",
+      "domain": "x.com",
+      "date": "2026-10-29",
+      "timestamp": 1793274463559,
+      "collectedAt": "2026-10-29T11:47:43.559Z",
+      "githubSyncedAt": "2026-10-29T11:47:43.559Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2115760423563575485",
+      "title": "月下云纱宫廷时装",
+      "category": "时尚",
+      "tags": [
+        "古风",
+        "时装",
+        "宫廷",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "定位：一张成年东亚女性的架空王朝宫廷秀场时装写真，高级生活方式写真，电影感，ultra realistic, masterpiece, best quality，用于高定 lookbook 内页\n主题：月下云纱\n人设：绝美23岁东亚美女，身材匀称丰满，胸部明显自然丰满，视觉约E杯，具有自然重量感与柔和圆润轮廓，胸腰差明显但自然，纤细腰部与丰满胸部形成清晰比例；柔和鹅蛋脸，杏眼含水，眉形平缓，鼻尖小巧，温柔里藏着一股韧劲；温柔里带一点刚被点名时的局促。\n服装：月白薄纱荷叶边两件套，细肩带短上衣下摆止于肋骨下缘，胸前一枚银线小蝴蝶结，多层荷叶褶边垂到上臂并绣淡银云纹；低腰系带薄纱蓬裙，裙摆在大腿上段，细蕾丝边，柔光透过纱褶层叠。\n妆发神态：半披发，耳后别一朵白玉兰；目光柔软地看向画外龙椅方向，眼尾微红，水光唇微启，耳根泛起淡红；鼻梁与肩头有柔和冷白高光。\n瞬间：她刚从朱红廊柱后转出，双手捧着一盏青瓷宫灯，裙摆还在回落。\n光影：左侧暖黄宫灯光照亮脸与纱褶，粉紫色暮光从殿外沿发丝与肩线勾边，廊道深处偏冷；窗棂的格子影子斜落在青砖地面上。\n镜头：3:4竖幅，平视机位85mm长焦，前景虚化的红色纱幔斜穿左上角；人物占画面七成，下缘裁在大腿中段，合焦在瞳孔；保持双手捧灯侧身半转。\n质感：薄纱轻盈层叠、青瓷釉光与朱漆柱面对比，月白/粉紫/朱红色板，皮肤保留自然肌理。\n锁定：成年模特的高定时装杂志写真，月白薄纱荷叶边两件套款式、颜色、材质保持不变，面部与体型自然一致。",
+      "image": "https://pbs.twimg.com/media/HVyw4X4WkAALNLx.jpg?name=large",
+      "images": [
+        "https://pbs.twimg.com/media/HVyw4X4WkAALNLx.jpg?name=large"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HVyw4X4WkAALNLx.jpg?name=large"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "3:4",
+      "model": "",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/sdjn_wgc/status/2115760423563575485",
+      "url": "https://x.com/sdjn_wgc/status/2115760423563575485",
+      "domain": "x.com",
+      "date": "2026-10-29",
+      "timestamp": 1793274463559,
+      "collectedAt": "2026-10-29T11:47:43.559Z",
+      "githubSyncedAt": "2026-10-29T11:47:43.559Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2115768358134231210",
+      "title": "清迈夜市烤串写真",
+      "category": "时尚",
+      "tags": [
+        "夜市",
+        "生活感",
+        "写真",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "主题：素人感女友视角生活写真，周四晚上在清迈夜市吃晚饭，举着一串烤猪肉串\n主体：一位明确成年的23到25岁东亚女性，清秀好看，五官自然略不对称，内双，小鼻子，脸偏圆带一点婴儿肥，身材匀称有曲线，上身和腰的长度符合真实人体比例\n人物与表情：皮肤白净，近看有细毛孔，淡妆，豆沙色唇釉；黑色中长发扎成高马尾，几缕碎发垂下；看着镜头笑，嘴角有点满足\n服装与姿势：樱粉色短款荷叶边U领上衣，U领在锁骨下方两指宽，露出锁骨和一点自然的胸型，面料柔软垂坠，下摆在肋骨下方露出腰线；深色高腰牛仔短裙；站在小吃摊前，一只手举着烤猪肉串在脸侧，另一只手拿着一杯泰式青柠汁放在身侧，手不挡领口和腰\n背景与光线：清迈周末夜市热闹的小吃摊，串灯和暖黄灯泡，烤串的烟雾，背景人群虚化，暖光照亮脸\n构图与镜头：9:16竖构图，35mm，对面男朋友视角，胸口高度平视，取到大腿中部，背景轻微虚化\n质感与风格：手机原相机直出，真实生活照，皮肤真实但干净，轻微颗粒，不精修\n负向约束：未成年感，网红脸，整容脸，完美对称，瓷娃娃皮肤，过度磨皮，塑料皮肤，油光，出汗，黑眼圈，杂乱房间，腿部拉长，HDR，棚拍光，低画质，模糊，畸形手指，多余肢体，脸部变形，身体比例失调，文字水印",
+      "image": "https://pbs.twimg.com/media/HVx3esQaQAAflec.jpg?name=large",
+      "images": [
+        "https://pbs.twimg.com/media/HVx3esQaQAAflec.jpg?name=large"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HVx3esQaQAAflec.jpg?name=large"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "9:16",
+      "model": "",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/Levi_D_Ackerman/status/2115768358134231210",
+      "url": "https://x.com/Levi_D_Ackerman/status/2115768358134231210",
+      "domain": "x.com",
+      "date": "2026-10-29",
+      "timestamp": 1793274463559,
+      "collectedAt": "2026-10-29T11:47:43.559Z",
+      "githubSyncedAt": "2026-10-29T11:47:43.559Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2115771022800732540",
+      "title": "假面舞会回眸人像",
+      "category": "人像",
+      "tags": [
+        "舞会",
+        "晚礼服",
+        "回眸",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "Upload a reference photo to preserve the character's appearance. Dress them in a luxurious evening gown with lace and gold details.\nCreate an over-the-shoulder portrait at a grand masquerade party with a graceful backward glance.\nGolden bokeh, rim lighting on the hair, blurred guests, chandeliers, and candlelight. Deep teal shadows, natural skin tones, shallow depth of field, and film grain.\nCinematic, photorealistic, elegant. Avoid CGI and excessive glow.\n#AIart",
+      "image": "https://pbs.twimg.com/media/HVy6eeJaAAAlqJo.jpg?name=large",
+      "images": [
+        "https://pbs.twimg.com/media/HVy6eeJaAAAlqJo.jpg?name=large",
+        "https://pbs.twimg.com/media/HVy6eSIb0AA7s17.jpg?name=large",
+        "https://pbs.twimg.com/media/HVy6eSMaUAAc_Rh.jpg?name=large"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HVy6eeJaAAAlqJo.jpg?name=large",
+        "https://pbs.twimg.com/media/HVy6eSIb0AA7s17.jpg?name=large",
+        "https://pbs.twimg.com/media/HVy6eSMaUAAc_Rh.jpg?name=large"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "2:3",
+      "model": "ChatGPT",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/warner227/status/2115771022800732540",
+      "url": "https://x.com/warner227/status/2115771022800732540",
+      "domain": "x.com",
+      "date": "2026-10-29",
+      "timestamp": 1793274463559,
+      "collectedAt": "2026-10-29T11:47:43.559Z",
+      "githubSyncedAt": "2026-10-29T11:47:43.559Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2115771407091273965",
+      "title": "持刀回眸花剑人像",
+      "category": "人像",
+      "tags": [
+        "武士刀",
+        "回眸",
+        "花",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "solo, adult, beautiful elegant appearance, slender athletic physique, 1.8::exposed bare back::, defined shoulder blades, 2::looking back over shoulder::, three-quarter rear view, half-lidded eyes, confident subtle smile,\n\n2::holding a Japanese katana across the shoulders::, one hand gripping the sword handle, long silver blade extending behind the neck, 2::swirling flower petals wrapping around the katana::, spiraling white and pale pink petals, delicate floral trails,\n\n1.8::luxurious white silk kimono slipping off both shoulders::, exposed upper back, flowing fabric gathered around the elbows and waist, 2::intricate embroidered camellias and cherry blossoms::, ivory and blush pink floral patterns, delicate gold thread embroidery, deep crimson waist sash,\n\n2::abundant blooming white camellias::, pale pink cherry blossoms, flowering branches framing the composition, layered flower clusters, petals drifting through the air,\n\n1.8::deep midnight navy background::, elegant Japanese floral aesthetic, soft cool lighting, warm skin highlights, graceful composition, refined lineart, detailed fabric folds, cinematic upper body portrait",
+      "image": "https://pbs.twimg.com/media/HVy636eaIAAKyf4.jpg?name=large",
+      "images": [
+        "https://pbs.twimg.com/media/HVy636eaIAAKyf4.jpg?name=large",
+        "https://pbs.twimg.com/media/HVy64RUbgAAjJMb.jpg?name=large"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HVy636eaIAAKyf4.jpg?name=large",
+        "https://pbs.twimg.com/media/HVy64RUbgAAjJMb.jpg?name=large"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "3:2",
+      "model": "",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/Un_jin_OAOa/status/2115771407091273965",
+      "url": "https://x.com/Un_jin_OAOa/status/2115771407091273965",
+      "domain": "x.com",
+      "date": "2026-10-29",
+      "timestamp": 1793274463559,
+      "collectedAt": "2026-10-29T11:47:43.559Z",
+      "githubSyncedAt": "2026-10-29T11:47:43.559Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2114431897023471934",
+      "title": "逆向修复城市街景",
+      "category": "视频提示词",
+      "tags": [
+        "文生视频",
+        "VFX",
+        "逆向运动",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "Ultra-realistic Hollywood science-fiction VFX, one continuous 25-second lateral tracking shot, landscape 16:9. Bright city daylight, detailed practical-looking damage, precise reverse-motion reconstruction, restrained central performance.\n\nOne adult woman in a long burgundy coat walks calmly from left to right. Natural forward gait, normal hair and clothing movement, stable identity. No visible glowing power.\n\nOne damaged city block: a shattered shop window, a dented parked car and a partially collapsed decorative stone doorway. The roadway remains clear and safe for her path. No injured people.\n\nA vertical invisible restoration boundary follows one metre behind the woman. Everything ahead of it remains damaged. Objects behind it reconstruct through reverse motion: existing fragments return to their original positions. The woman and camera always move forward normally. No new debris appears.\n\n0–6s: Track beside her as she passes a shattered storefront. Behind her, glass fragments lift from the pavement and return to the window frame in reverse trajectories. The final pieces seal into a complete pane with a brief reflected flash of daylight.\n\n6–12s: She passes the dented parked car. Its crumpled body panels unfold progressively, scattered trim returns and the cracked headlamp repairs. Tyres remain planted; the car does not move along the street.\n\n12–19s: She reaches the damaged stone doorway. Behind her, fallen blocks rise and return into their visible architectural positions. Dust draws upward into the closing gaps. Camera widens slightly to preserve the full reconstruction.\n\n19–22s: The doorway finishes restoring. She slows beside an intact shop entrance and glances back for the first time. The completed street now lies behind her, while damage remains farther ahead.\n\n22–25s: She turns forward and resumes walking. Camera stays beside her as the restoration boundary continues just behind the coat’s trailing edge. End on the clear contrast between repaired and damaged portions of the same street.\n\nOne consistent moving boundary, existing fragments reconstruct rather than materialise, stable architecture, forward actor motion, accurate shadows and reflections, no random environmental morphing, no text or logos. Sound: reversed glass and metal movement behind normal footsteps, ending on quiet city ambience.",
+      "image": "https://pbs.twimg.com/ext_tw_video_thumb/2114431860088430592/pu/img/vxV8fpQhbthoxXEr.jpg",
+      "images": [
+        "https://pbs.twimg.com/ext_tw_video_thumb/2114431860088430592/pu/img/vxV8fpQhbthoxXEr.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/ext_tw_video_thumb/2114431860088430592/pu/img/vxV8fpQhbthoxXEr.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "16:9",
+      "model": "Dreamina",
+      "mediaType": "video",
+      "videoPoster": "https://pbs.twimg.com/ext_tw_video_thumb/2114431860088430592/pu/img/vxV8fpQhbthoxXEr.jpg",
+      "videoSourceUrl": "https://video.twimg.com/ext_tw_video/2114431860088430592/pu/vid/avc1/1280x720/rXLv-_9vvKJQ1R9a.mp4?tag=12",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/CharaspowerAI/status/2114431897023471934",
+      "url": "https://x.com/CharaspowerAI/status/2114431897023471934",
+      "domain": "x.com",
+      "date": "2026-10-29",
+      "timestamp": 1793274463559,
+      "collectedAt": "2026-10-29T11:47:43.559Z",
+      "githubSyncedAt": "2026-10-29T11:47:43.559Z",
+      "domesticSyncedAt": null
+    },
     {
       "id": "grok_x_2114206178939146352",
       "title": "诗词文字构图可视化",
