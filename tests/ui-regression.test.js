@@ -84,8 +84,8 @@ test('e-commerce prompts use a primary category with second-level use-case filte
 test('explore uses four parallel type, style, scene, and e-commerce facets', () => {
   assert.match(index, /js\/explore-facets\.js\?v=20261029a/);
   assert.match(index, /js\/daily-curation\.js\?v=20261029a/);
-  assert.match(index, /css\/style\.css\?v=20261029a/);
-  assert.match(index, /js\/app\.js\?v=20261029a/);
+  assert.match(index, /css\/style\.css\?v=20261029b/);
+  assert.match(index, /js\/app\.js\?v=20261029b/);
   assert.match(index, /js\/security\.js\?v=20261029a/);
   assert.match(index, /extension\/prompt-parser\.js\?v=20261029a/);
   assert.match(index, /js\/data\.js\?v=20261029a/);
@@ -263,4 +263,37 @@ test('the extension reports the GitHub primary-site write result precisely', () 
   assert.match(background, /GITHUB_LARGE_FILE_BYTES/);
   assert.match(background, /isLargeFile/);
   assert.match(background, /GitHub raw read failed, falling back to blob/);
+});
+
+test('result images do not send a referrer and do not swap in random photos', () => {
+  const imgTags = [...app.matchAll(/<img\b[^>]*>/g)].map(match => match[0]);
+  assert.ok(imgTags.length >= 7);
+  imgTags.forEach(tag => assert.match(tag, /referrerpolicy="no-referrer"/));
+  assert.ok((app.match(/resultImageHtml\(/g) || []).length >= 10);
+  assert.match(app, /const RESULT_IMAGE_REFERRER_POLICY = 'no-referrer'/);
+  assert.match(app, /function resultImageHtml/);
+  assert.match(app, /图片加载失败/);
+  assert.match(app, /未检测到图片/);
+  assert.doesNotMatch(app, /function fallbackImage/);
+  assert.doesNotMatch(app, /picsum\.photos\/seed\/fallback/);
+  assert.doesNotMatch(app, /\.src\s*=\s*[^;\n]*picsum/);
+  assert.match(popup, /class="prompt-item-thumb"[^>]*referrerpolicy="no-referrer"/);
+  assert.match(seoGenerator, /referrerpolicy="no-referrer"/);
+  assert.doesNotMatch(seoGenerator, /picsum\.photos/);
+
+  assert.match(
+    fs.readFileSync(path.join(root, 'prompt/tokyo-night-neon-reflections/index.html'), 'utf8'),
+    /<img referrerpolicy="no-referrer" src=/
+  );
+
+  for (const dirName of ['prompt', 'category']) {
+    const dir = path.join(root, dirName);
+    for (const entry of fs.readdirSync(dir)) {
+      const file = path.join(dir, entry, 'index.html');
+      if (!fs.existsSync(file)) continue;
+      const html = fs.readFileSync(file, 'utf8');
+      const tags = html.match(/<img\b[^>]*>/g) || [];
+      tags.forEach(tag => assert.match(tag, /referrerpolicy="no-referrer"/, file));
+    }
+  }
 });

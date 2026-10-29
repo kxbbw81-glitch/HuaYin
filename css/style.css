@@ -57,6 +57,10 @@ img {
   display: block;
 }
 
+img[hidden] {
+  display: none !important;
+}
+
 button {
   font-family: inherit;
   cursor: pointer;
@@ -1397,6 +1401,75 @@ button {
   object-fit: contain;
   background: #f5f5f5;
   border-bottom: 1px solid var(--border);
+}
+
+.media-unavailable {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 180px;
+  padding: 16px;
+  background: repeating-linear-gradient(-45deg, #f4f4f1, #f4f4f1 10px, #e9e9e6 10px, #e9e9e6 20px);
+  color: #5c5c5c;
+  text-align: center;
+}
+
+.media-unavailable-label {
+  max-width: 12em;
+  padding: 6px 10px;
+  border: 1px solid rgba(26, 26, 26, 0.12);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.92);
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1.35;
+}
+
+.prompt-card-img-wrap > .media-unavailable {
+  aspect-ratio: 1 / 1;
+  border-bottom: 1px solid var(--border);
+}
+
+.prompts-masonry .prompt-card-img-wrap > .media-unavailable {
+  aspect-ratio: var(--prompt-image-ratio, 4 / 5);
+  min-height: 250px;
+}
+
+.detail-media > .media-unavailable,
+.modal-gallery > .media-unavailable {
+  min-height: 320px;
+  background: #1a1a1a;
+  color: #fff;
+}
+
+.detail-media > .media-unavailable .media-unavailable-label,
+.modal-gallery > .media-unavailable .media-unavailable-label {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+
+.hero-gallery-card > .media-unavailable {
+  height: 100%;
+  min-height: 170px;
+  border-radius: inherit;
+}
+
+.top-prompt-item > .media-unavailable {
+  width: 56px;
+  height: 56px;
+  min-height: 56px;
+  flex: 0 0 56px;
+  padding: 4px;
+  border-radius: 10px;
+}
+
+.top-prompt-item > .media-unavailable .media-unavailable-label {
+  padding: 0;
+  border: 0;
+  background: transparent;
+  font-size: 10px;
 }
 
 .prompt-card-body {

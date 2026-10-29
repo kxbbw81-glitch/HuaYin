@@ -87,6 +87,14 @@ function jsonLd(data) {
   return `<script type="application/ld+json">${JSON.stringify(data).replace(/</g, '\\u003c')}</script>`;
 }
 
+function resultImageTag(src, alt) {
+  const safeSrc = String(src || '').trim();
+  if (!safeSrc) {
+    return `<div class="media-unavailable" role="img" aria-label="未检测到图片"><span class="media-unavailable-label">未检测到图片</span></div>`;
+  }
+  return `<img referrerpolicy="no-referrer" src="${escapeHtml(safeSrc)}" alt="${escapeHtml(alt)}" />`;
+}
+
 function pageShell({ title, description, canonical, image, body, structuredData }) {
   const safeTitle = escapeHtml(title);
   const safeDescription = escapeHtml(description);
@@ -137,6 +145,9 @@ function pageShell({ title, description, canonical, image, body, structuredData 
     .seo-grid-card div { padding:14px; }
     .seo-grid-card strong { display:block; line-height:1.35; }
     .seo-grid-card span { color:#777; font-size:13px; }
+    .media-unavailable { display:flex; align-items:center; justify-content:center; min-height:180px; padding:16px; background:#f3f3f1; color:#666; text-align:center; border-radius:18px; }
+    .media-unavailable-label { font-size:13px; font-weight:800; }
+    .seo-media .media-unavailable { min-height:320px; border-radius:22px; }
     @media (max-width: 820px) { .seo-layout { grid-template-columns: 1fr; } .seo-media { position: static; } .seo-meta { grid-template-columns: 1fr; } .seo-card { padding: 22px; } }
   </style>
   ${structuredData.map(jsonLd).join('\n  ')}
@@ -174,7 +185,7 @@ function writePromptPage(prompt) {
   <main class="seo-page">
     <div class="container seo-layout">
       <aside class="seo-media">
-        <img src="${escapeHtml(prompt.image || `https://picsum.photos/seed/${prompt.id}/720/720`)}" alt="${escapeHtml(prompt.title)}" />
+        ${resultImageTag(prompt.image, prompt.title)}
       </aside>
       <article class="seo-card">
         <div class="seo-kicker">
@@ -246,7 +257,7 @@ function writeCategoryPage(category) {
       <section style="margin-top:28px" class="seo-grid">
         ${prompts.map(prompt => `
           <a class="seo-grid-card" href="../../prompt/${encodeURIComponent(prompt.id)}/">
-            <img src="${escapeHtml(prompt.image || `https://picsum.photos/seed/${prompt.id}/500/500`)}" alt="${escapeHtml(prompt.title)}" />
+            ${resultImageTag(prompt.image, prompt.title)}
             <div><strong>${escapeHtml(prompt.title)}</strong><span>${escapeHtml((prompt.tags || []).slice(0, 3).join(' · '))}</span></div>
           </a>
         `).join('')}

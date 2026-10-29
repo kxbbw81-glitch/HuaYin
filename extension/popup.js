@@ -696,7 +696,7 @@ function renderPrompts(prompts) {
   let html = `<div class="scan-summary"><div class="scan-badge">${scanLabel}</div>${prompts.length > 1 ? '<button class="btn btn-collect-all" id="btn-collect-all">❤️ 一键收藏</button>' : ''}</div>`;
   prompts.forEach((p, idx) => {
     const imgHTML = p.image
-      ? `<img class="prompt-item-thumb" src="${p.image}" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" /><div class="prompt-item-thumb-placeholder" style="display:none;">🍌</div>`
+      ? `<img class="prompt-item-thumb" src="${p.image}" referrerpolicy="no-referrer" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" /><div class="prompt-item-thumb-placeholder" style="display:none;">🍌</div>`
       : `<div class="prompt-item-thumb-placeholder">🍌</div>`;
 
     html += `
