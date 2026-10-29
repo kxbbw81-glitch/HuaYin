@@ -1,5 +1,9 @@
 name: Release Domestic Collections
 
+# Updates data/collections.json only. Page assets (including js/app.js) are
+# published by Cloudflare Workers Builds from wrangler.jsonc when this push
+# lands on main. This workflow does not call wrangler and has no CF token.
+
 on:
   schedule:
     - cron: '*/5 * * * *'

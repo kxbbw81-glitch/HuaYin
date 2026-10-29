@@ -110,7 +110,7 @@ function pageShell({ title, description, canonical, image, body, structuredData 
   <meta name="twitter:title" content="${safeTitle}" />
   <meta name="twitter:description" content="${safeDescription}" />
   <meta name="twitter:image" content="${safeImage}" />
-  <link rel="stylesheet" href="../../css/style.css?v=20260728b" />
+  <link rel="stylesheet" href="../../css/style.css?v=20261029a" />
   <style>
     body { background: #f7f8fa; }
     .seo-page { padding: 28px 0 70px; }
@@ -157,7 +157,7 @@ function pageShell({ title, description, canonical, image, body, structuredData 
     </div>
   </header>
   ${body}
-  <script src="../../js/seo-page.js?v=20260728a"></script>
+  <script src="../../js/seo-page.js?v=20261029a"></script>
 </body>
 </html>`
     .split(/\r?\n/)
