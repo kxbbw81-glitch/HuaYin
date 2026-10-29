@@ -1,7 +1,36 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-28T14:25:03.308Z",
+  "updatedAt": "2026-10-29T01:31:03.315Z",
   "collections": [
+    {
+      "aspectRatio": "3:4",
+      "category": "抽象",
+      "date": "2026-10-29",
+      "domain": "x.com",
+      "id": "ext_mvsv9wv1_k1s4",
+      "image": "https://pbs.twimg.com/media/HVUxuK5acAACsCW?format=jpg&name=medium",
+      "images": [
+        "https://pbs.twimg.com/media/HVUxuK5acAACsCW?format=jpg&name=medium"
+      ],
+      "model": "",
+      "prompt": "人物·表情： 灰褐色的横长杏仁形眼睛和长睫毛。小巧的鼻子，轮廓收紧至短而圆润的下巴。光泽的粉色嘴唇微微张开，上排牙齿和舌尖略微可见。及胸的棕色长发。直线束和松散波浪，细碎凌乱的刘海或横过脸庞的发缕。明亮的奶油色肌肤中带有桃色，以及淡粉色的脸颊。鼻和唇上有细微光泽，肌肤有微小的表面质感和柔和阴影。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HVUxuK5acAACsCW?format=jpg&name=medium"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/CyberTotal2026/status/2115414275934093334",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1793237446045,
+      "title": "圆框眼镜与窗的光芒",
+      "url": "https://x.com/CyberTotal2026/status/2115414275934093334",
+      "collectedAt": "2026-10-29T01:30:47.517Z",
+      "mediaType": "image",
+      "githubSyncedAt": "2026-10-29T01:31:03.315Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "3:4",
       "category": "人像",
