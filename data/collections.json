@@ -1,7 +1,38 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-29T01:31:03.315Z",
+  "updatedAt": "2026-10-29T02:05:06.850Z",
   "collections": [
+    {
+      "aspectRatio": "9:16",
+      "category": "人像",
+      "date": "2026-10-29",
+      "domain": "x.com",
+      "id": "ext_mvswhd1b_yaoo",
+      "image": "https://pbs.twimg.com/media/HVtCe-jbQAAXua_?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HVtCe-jbQAAXua_?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HVtCfgmbsAAo45W?format=jpg&name=900x900"
+      ],
+      "model": "",
+      "prompt": "A real vertical smartphone travel snapshot of a young adult woman in her early 20s at a seaside viewpoint, framed from the top of her white baseball cap to the lower waist in a close front-facing medium portrait. She stands or leans near a wall, very close to the camera, at street. She wears a white ribbed scoop-neck tank top and a lightweight white jacket half-slipped off her shoulders, with visible rib texture, wrinkles, snap-button and zipper details, and a small strip of lower abdomen visible above a white bottom waistband. Her hair is deep black, long, side-tied or in a low side ponytail, falling over the left shoulder with windblown strands around her face. She has a small oval face, soft jawline, natural East Asian features, sheer clean vacation makeup, muted pink-coral lips, and a calm expression with lips closed. Her eyes look gently toward the camera from under the cap brim shadow. Keep the small black logo mark on the cap front, not flipped and not oversized. Strong midday sun from the upper left creates hard highlights and cool ocean-reflected shadows. Natural skin texture, slightly imperfect framing, subtle phone compression, deep smartphone depth of field. Avoid plastic skin, studio polish, heavy makeup, exaggerated proportions, wrong logo, app UI, cartoon or CGI style",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HVtCe-jbQAAXua_?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HVtCfgmbsAAo45W?format=jpg&name=900x900"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/MissDelulu9/status/2115357570722566196",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1793239473215,
+      "title": "海边晨光女性人像",
+      "url": "https://x.com/MissDelulu9/status/2115357570722566196",
+      "collectedAt": "2026-10-29T02:04:34.514Z",
+      "mediaType": "image",
+      "githubSyncedAt": "2026-10-29T02:05:06.850Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "3:4",
       "category": "抽象",
