@@ -1,0 +1,11 @@
+# Workers static assets reject any single file over 25 MiB.
+# Workers Builds clones the repo, so assets.directory "." would otherwise
+# upload .git/objects/pack/*.pack and fail the prompthub deploy.
+.git
+node_modules
+.wrangler
+.dev.vars
+.dev.vars.*
+.env
+.env.*
+.DS_Store

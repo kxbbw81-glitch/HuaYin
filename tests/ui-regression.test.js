@@ -59,7 +59,7 @@ test('home gallery is three times longer and category totals include saved colle
 });
 
 test('the homepage curates a fresh daily selection instead of fixed liked prompts', () => {
-  assert.match(index, /js\/daily-curation\.js\?v=20260802a/);
+  assert.match(index, /js\/daily-curation\.js\?v=20261029a/);
   assert.match(app, /const dailyCuratedPrompts = dailyCuration\.getDailyCuratedPrompts\(allPromptItems, 16\);/);
   assert.match(app, /const todayTop = dailyCuratedPrompts\.slice\(0, 6\);/);
   assert.match(app, /每日自动分析主站内容/);
@@ -82,10 +82,13 @@ test('e-commerce prompts use a primary category with second-level use-case filte
 });
 
 test('explore uses four parallel type, style, scene, and e-commerce facets', () => {
-  assert.match(index, /js\/explore-facets\.js\?v=20260802c/);
-  assert.match(index, /js\/daily-curation\.js\?v=20260802a/);
-  assert.match(index, /css\/style\.css\?v=20260802f/);
-  assert.match(index, /js\/app\.js\?v=20260914a/);
+  assert.match(index, /js\/explore-facets\.js\?v=20261029a/);
+  assert.match(index, /js\/daily-curation\.js\?v=20261029a/);
+  assert.match(index, /css\/style\.css\?v=20261029a/);
+  assert.match(index, /js\/app\.js\?v=20261029a/);
+  assert.match(index, /js\/security\.js\?v=20261029a/);
+  assert.match(index, /extension\/prompt-parser\.js\?v=20261029a/);
+  assert.match(index, /js\/data\.js\?v=20261029a/);
   assert.match(app, /id="content-type-filter-chips"/);
   assert.match(app, /id="style-filter-chips"/);
   assert.match(app, /id="scene-filter-chips"/);
@@ -195,14 +198,14 @@ test('new collections sort first across devices', () => {
 });
 
 test('the browser extension pane provides a direct download for the current package', () => {
-  assert.match(app, /PromptHub-Extension-v3\.31\.0\.zip/);
-  assert.match(app, /download="PromptHub-Extension-v3\.31\.0\.zip"/);
+  assert.match(app, /PromptHub-Extension-v3\.32\.0\.zip/);
+  assert.match(app, /download="PromptHub-Extension-v3\.32\.0\.zip"/);
   assert.match(app, /下载浏览器插件/);
 });
 
 test('the extension visible version matches the packaged manifest version', () => {
-  assert.match(fs.readFileSync(path.join(root, 'extension/manifest.json'), 'utf8'), /"version": "3\.31\.0"/);
-  assert.match(popupHtml, /AI 提示词收集器 v3\.31\.0/);
+  assert.match(fs.readFileSync(path.join(root, 'extension/manifest.json'), 'utf8'), /"version": "3\.32\.0"/);
+  assert.match(popupHtml, /AI 提示词收集器 v3\.32\.0/);
 });
 
 test('the extension shows a per-item ordered sync task panel', () => {
@@ -226,7 +229,8 @@ test('the extension recognizes WeChat article prompt blocks and lazy-loaded imag
   assert.match(content, /data-src/);
   assert.match(content, /extractWeChatArticlePrompts/);
   assert.match(app, /微信公众号复制帖子全文/);
-  assert.match(app, /PromptHub-Extension-v3\.31\.0\.zip/);
+  assert.match(app, /https:\/\/github\.com\/kxbbw81-glitch\/HuaYin\/raw\/main\/PromptHub-Extension-v3\.32\.0\.zip/);
+  assert.doesNotMatch(app, /kxbbw81-glitch\/PromptHub-\//);
 });
 
 test('the extension icon badge shows the current page collectable prompt count', () => {

@@ -1,0 +1,14 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "prompthub",
+  "compatibility_date": "2026-10-29",
+  "observability": {
+    "enabled": true
+  },
+  "assets": {
+    // Static site lives at the repo root, the same tree GitHub Pages publishes.
+    // Keep the checkout's .git out of the upload via .assetsignore: the packfile
+    // exceeds the 25 MiB per-asset Workers limit and fails the deploy.
+    "directory": "."
+  }
+}
