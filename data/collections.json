@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-29T02:13:59.272Z",
+  "updatedAt": "2026-10-29T02:46:55.003Z",
   "collections": [
     {
       "id": "grok_x_2114206178939146352",
@@ -37,7 +37,7 @@
       "timestamp": 1793240039128,
       "collectedAt": "2026-10-29T02:13:59.128Z",
       "githubSyncedAt": "2026-10-29T02:13:59.128Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-10-29T02:46:54.998Z"
     },
     {
       "id": "grok_x_2114441643428561232",
@@ -70,7 +70,7 @@
       "timestamp": 1793240039128,
       "collectedAt": "2026-10-29T02:13:59.128Z",
       "githubSyncedAt": "2026-10-29T02:13:59.128Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-10-29T02:46:54.998Z"
     },
     {
       "id": "grok_x_2114996079813148722",
@@ -109,7 +109,7 @@
       "timestamp": 1793240039128,
       "collectedAt": "2026-10-29T02:13:59.128Z",
       "githubSyncedAt": "2026-10-29T02:13:59.128Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-10-29T02:46:54.998Z"
     },
     {
       "id": "grok_x_2115415848861024720",
@@ -148,7 +148,7 @@
       "timestamp": 1793240039128,
       "collectedAt": "2026-10-29T02:13:59.128Z",
       "githubSyncedAt": "2026-10-29T02:13:59.128Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-10-29T02:46:54.998Z"
     },
     {
       "id": "grok_x_2115406292235776460",
@@ -181,7 +181,7 @@
       "timestamp": 1793240039128,
       "collectedAt": "2026-10-29T02:13:59.128Z",
       "githubSyncedAt": "2026-10-29T02:13:59.128Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-10-29T02:46:54.998Z"
     },
     {
       "id": "grok_x_2113951353987092749",
@@ -216,7 +216,7 @@
       "timestamp": 1793240039128,
       "collectedAt": "2026-10-29T02:13:59.128Z",
       "githubSyncedAt": "2026-10-29T02:13:59.128Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-10-29T02:46:54.998Z"
     },
     {
       "id": "grok_x_2113978013620859311",
@@ -249,7 +249,7 @@
       "timestamp": 1793240039128,
       "collectedAt": "2026-10-29T02:13:59.128Z",
       "githubSyncedAt": "2026-10-29T02:13:59.128Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-10-29T02:46:54.998Z"
     },
     {
       "id": "grok_x_2115282406093857244",
@@ -282,7 +282,7 @@
       "timestamp": 1793240039128,
       "collectedAt": "2026-10-29T02:13:59.128Z",
       "githubSyncedAt": "2026-10-29T02:13:59.128Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-10-29T02:46:54.998Z"
     },
     {
       "id": "grok_x_2114289111293129073",
@@ -315,7 +315,7 @@
       "timestamp": 1793240039128,
       "collectedAt": "2026-10-29T02:13:59.128Z",
       "githubSyncedAt": "2026-10-29T02:13:59.128Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-10-29T02:46:54.998Z"
     },
     {
       "aspectRatio": "9:16",
@@ -346,7 +346,7 @@
       "collectedAt": "2026-10-29T02:04:34.514Z",
       "mediaType": "image",
       "githubSyncedAt": "2026-10-29T02:05:06.850Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-10-29T02:46:54.998Z"
     },
     {
       "aspectRatio": "3:4",
@@ -375,7 +375,7 @@
       "collectedAt": "2026-10-29T01:30:47.517Z",
       "mediaType": "image",
       "githubSyncedAt": "2026-10-29T01:31:03.315Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-10-29T02:46:54.998Z"
     },
     {
       "aspectRatio": "3:4",
