@@ -1,7 +1,322 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-29T02:05:06.850Z",
+  "updatedAt": "2026-10-29T02:13:59.272Z",
   "collections": [
+    {
+      "id": "grok_x_2114206178939146352",
+      "title": "诗词文字构图可视化",
+      "category": "抽象",
+      "tags": [
+        "诗词",
+        "文字构图",
+        "教学",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "你要把一首诗变成一幅只由诗中文字组成的图。字的位置和走向就是画面本身：读者既能看出画面，也能顺着一条路径把整首诗读下来。\n\n第一步，找事实。读诗，写出画面里有哪些东西，以及它们之间的关系：谁在上，谁垂下，谁在动，往哪个方向动。只写诗里有的，不添加。\n\n第二步，定投影。\n\n- 每个东西由诗里指称它、或者描写它的那些字构成。\n- 关系换成空间关系：垂下就让字沿弧线往下排，高就让字竖着往上叠，风就让字斜着横穿画面。\n- 表示疑问、否定、比喻的字（如\"不知\"\"谁\"\"似\"）不对应任何东西，放在空白处或两个意象的交界处，用位置显示它们的作用。\n\n第三步，排出来。输出一张图片，元素是文字，呈现这个意向\n\n第四步，对照检查。逐条核对，有一条不满足就改，直到全部满足：\n\n1. 图中所有字都出自原诗。为了让画面饱满，可以重复使用诗里的字。\n2. 不看原诗的人能认出这是什么画面。\n3. 按阅读路径能把原诗一字不差读下来。\n4. 每个意象都由指称它的字构成，不拿别的字凑。\n\n诗：{在这里放诗}",
+      "image": "https://pbs.twimg.com/media/HVcrJEBbEAAGA9x.jpg?format=jpg&name=large",
+      "images": [
+        "https://pbs.twimg.com/media/HVcrJEBbEAAGA9x.jpg?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HVcrKbibMAERo4e.jpg?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HVcrM_AbcAAutMJ.jpg?format=jpg&name=large"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HVcrJEBbEAAGA9x.jpg?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HVcrKbibMAERo4e.jpg?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HVcrM_AbcAAutMJ.jpg?format=jpg&name=large"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "3:2",
+      "model": "",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/lijigang/status/2114206178939146352",
+      "url": "https://x.com/lijigang/status/2114206178939146352",
+      "domain": "x.com",
+      "date": "2026-10-29",
+      "timestamp": 1793240039128,
+      "collectedAt": "2026-10-29T02:13:59.128Z",
+      "githubSyncedAt": "2026-10-29T02:13:59.128Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2114441643428561232",
+      "title": "沙漠黑马斗篷人像",
+      "category": "时尚",
+      "tags": [
+        "fashion",
+        "couture",
+        "butterfly",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "Generate an image A majestic haute couture gown inspired by a monarch butterfly, with flowing, wing-shaped panels extending from the shoulders to the floor. The dress is intricately detailed with vibrant orange, black, and white patterns, mimicking real butterfly wings. The fabric shimmers with delicate glitter, and the train spreads like the lower wings of a butterfly in full display. Elegant, fantasy-inspired, and regal, displayed on a mannequin under soft studio lighting with a neutral backdrop.",
+      "image": "https://pbs.twimg.com/media/HVgBd8yWEAAWBEZ.jpg?format=jpg&name=large",
+      "images": [
+        "https://pbs.twimg.com/media/HVgBd8yWEAAWBEZ.jpg?format=jpg&name=large"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HVgBd8yWEAAWBEZ.jpg?format=jpg&name=large"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "2:3",
+      "model": "",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/icreatelife/status/2114441643428561232",
+      "url": "https://x.com/icreatelife/status/2114441643428561232",
+      "domain": "x.com",
+      "date": "2026-10-29",
+      "timestamp": 1793240039128,
+      "collectedAt": "2026-10-29T02:13:59.128Z",
+      "githubSyncedAt": "2026-10-29T02:13:59.128Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2114996079813148722",
+      "title": "液态玻璃裙仙侠点湖回眸",
+      "category": "奇幻",
+      "tags": [
+        "xianxia",
+        "液态玻璃",
+        "cinematic",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "Vertical 9:16 cinematic Xianxia fantasy CG still. A young East Asian woman balances on one pointed toe on a mirror-calm mountain lake, body arched in a dance pose, looking back over her shoulder with a serene expression. Long dark hair with translucent phoenix hairpins and silver tassels. Floor-length translucent gown like liquid glass — iridescent amber, teal, soft crimson, crystal droplets on sleeves. Warm golden-hour backlight from the right, strong rim light, soft lens flare. Misty cliffs, multi-tiered pagodas, stone bridges, waterfalls into cloud. Peach blossom petals on the water with ripples at her toe. Ultra-detailed refraction, soft natural skin. No logos, no watermark, no text.",
+      "image": "https://pbs.twimg.com/media/HVn5h4WaoAE0tDl.jpg?format=jpg&name=large",
+      "images": [
+        "https://pbs.twimg.com/media/HVn5h4WaoAE0tDl.jpg?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HVn5h4abUAAdQhd.jpg?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HVn5h4bbgAEpVzr.jpg?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HVn5h5ubwAAaAZm.jpg?format=jpg&name=large"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HVn5h4WaoAE0tDl.jpg?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HVn5h4abUAAdQhd.jpg?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HVn5h4bbgAEpVzr.jpg?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HVn5h5ubwAAaAZm.jpg?format=jpg&name=large"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "9:16",
+      "model": "GPT Image 2.5",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/static_stare/status/2114996079813148722",
+      "url": "https://x.com/static_stare/status/2114996079813148722",
+      "domain": "x.com",
+      "date": "2026-10-29",
+      "timestamp": 1793240039128,
+      "collectedAt": "2026-10-29T02:13:59.128Z",
+      "githubSyncedAt": "2026-10-29T02:13:59.128Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2115415848861024720",
+      "title": "3D潮玩少女薄荷配色肖像",
+      "category": "人像",
+      "tags": [
+        "designer toy",
+        "C4D",
+        "潮玩",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "Square 1:1 close-up portrait of a collectible 3D designer-toy girl, high-end Pop Mart / C4D Octane look. Soft East Asian teen features, round cheeks, light freckles across nose, glossy peach lips, large hazel eyes with long lashes. Soft wavy chestnut hair to collarbones with a loose side part and two tiny mint hair clips. She rests her chin lightly on the back of one hand. Cream translucent oval sunglasses with soft mint-tinted lenses. Mint ribbed tank under an oversized off-white zip hoodie slipped off one shoulder. Matching mint spherical earrings. Solid mint-seafoam background. Bright commercial key light, soft catchlights, subtle subsurface scattering, ultra-detailed hair strands and knit texture. No logos, no watermark, no text, not a photo of a real person.",
+      "image": "https://pbs.twimg.com/media/HVt3eXfW8AAzx5k.jpg?format=jpg&name=large",
+      "images": [
+        "https://pbs.twimg.com/media/HVt3eXfW8AAzx5k.jpg?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HVt3eXoXsAAoXfl.jpg?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HVt3eXtWIAAqHQq.jpg?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HVt3eXdXsAASS4a.jpg?format=jpg&name=large"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HVt3eXfW8AAzx5k.jpg?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HVt3eXoXsAAoXfl.jpg?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HVt3eXtWIAAqHQq.jpg?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HVt3eXdXsAASS4a.jpg?format=jpg&name=large"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "1:1",
+      "model": "GPT Image 2",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/static_stare/status/2115415848861024720",
+      "url": "https://x.com/static_stare/status/2115415848861024720",
+      "domain": "x.com",
+      "date": "2026-10-29",
+      "timestamp": 1793240039128,
+      "collectedAt": "2026-10-29T02:13:59.128Z",
+      "githubSyncedAt": "2026-10-29T02:13:59.128Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2115406292235776460",
+      "title": "针织背心女性人像",
+      "category": "人像",
+      "tags": [
+        "warrior",
+        "portrait",
+        "cinematic",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "Ultra-realistic cinematic close-up portrait of a mysterious female warrior, intense golden-brown eyes staring directly into the camera, long messy dark burgundy-red hair falling across her forehead and face, lower face covered with a textured black knitted scarf, wearing black tactical gloves with intricate red braided details and armored accessories. Dramatic low-key lighting, deep black background, extremely detailed skin texture, sharp eyelashes, realistic eye reflections, visible fabric fibers, dark red and black color palette, high contrast, moody atmosphere, shallow depth of field, professional fantasy character poster, photorealistic, 8K ultra-detailed, razor-sharp focus, vertical composition, 4:5 aspect ratio.",
+      "image": "https://pbs.twimg.com/media/HVtuz1DWEAAMgk5.jpg?format=jpg&name=large",
+      "images": [
+        "https://pbs.twimg.com/media/HVtuz1DWEAAMgk5.jpg?format=jpg&name=large"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HVtuz1DWEAAMgk5.jpg?format=jpg&name=large"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "4:5",
+      "model": "",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/BubbaArtwork/status/2115406292235776460",
+      "url": "https://x.com/BubbaArtwork/status/2115406292235776460",
+      "domain": "x.com",
+      "date": "2026-10-29",
+      "timestamp": 1793240039128,
+      "collectedAt": "2026-10-29T02:13:59.128Z",
+      "githubSyncedAt": "2026-10-29T02:13:59.128Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2113951353987092749",
+      "title": "电影感女性人像",
+      "category": "科幻",
+      "tags": [
+        "fashion",
+        "surreal",
+        "editorial",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "Create a surreal, cinematic fashion photograph of a stylish blonde woman wearing a pastel-pink floral mini dress, pink knee-high boots, and futuristic protective glasses, confidently walking while holding an oversized pink sci-fi cannon decorated with roses. The cannon fires a dramatic burst of flames and smoke into the distance. Set the scene in a dreamy pink suburban neighborhood with a vintage pink car, a pastel-pink house, dusty streets, and dramatic smoky skies. Use soft pastel colors, retro-futuristic aesthetics, realistic textures, cinematic lighting, a wide-angle composition, and high-end editorial photography. Dreamlike yet photorealistic, ultra-detailed, 8K quality.",
+      "image": "https://pbs.twimg.com/media/HVZDjCWaMAAdC17.jpg?format=jpg&name=large",
+      "images": [
+        "https://pbs.twimg.com/media/HVZDjCWaMAAdC17.jpg?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HVZDjCpbIAA7Q4S.jpg?format=jpg&name=large"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HVZDjCWaMAAdC17.jpg?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HVZDjCpbIAA7Q4S.jpg?format=jpg&name=large"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "4:5",
+      "model": "GPT Image 2",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/Taaruk_/status/2113951353987092749",
+      "url": "https://x.com/Taaruk_/status/2113951353987092749",
+      "domain": "x.com",
+      "date": "2026-10-29",
+      "timestamp": 1793240039128,
+      "collectedAt": "2026-10-29T02:13:59.128Z",
+      "githubSyncedAt": "2026-10-29T02:13:59.128Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2113978013620859311",
+      "title": "沙漠黑马斗篷人像",
+      "category": "人像",
+      "tags": [
+        "character sheet",
+        "fantasy",
+        "concept art",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "Create an ultra-detailed, cinematic fantasy character sheet for \"KAELAN — THE LAST SKYWARD,\" featuring a handsome, rugged 28-year-old male warrior-mage with tousled dark hair, piercing eyes, ancient celestial bloodline, midnight-blue cloak, black leather armor, intricate gold engravings, enchanted bracers, utility belt, and a glowing celestial sword, rendered in photorealistic 8K quality with dramatic lighting and a dark navy, gold, silver, and electric-blue palette. Design a premium professional concept-art layout featuring a heroic portrait, full-body front/side/back views, six facial expressions, costume and weapon close-ups, elemental magic and telekinesis demonstrations, energy shields, astral projection, a majestic blue-white sky dragon companion, additional cinematic poses, color swatches, character statistics, a compelling tragic backstory, and a memorable quote, with sharp details, consistent character identity, elegant typography, balanced panels, and epic fantasy worldbuilding.",
+      "image": "https://pbs.twimg.com/media/HVZby2dagAAbyaa.jpg?format=jpg&name=large",
+      "images": [
+        "https://pbs.twimg.com/media/HVZby2dagAAbyaa.jpg?format=jpg&name=large"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HVZby2dagAAbyaa.jpg?format=jpg&name=large"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "",
+      "model": "",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/ArtByte07/status/2113978013620859311",
+      "url": "https://x.com/ArtByte07/status/2113978013620859311",
+      "domain": "x.com",
+      "date": "2026-10-29",
+      "timestamp": 1793240039128,
+      "collectedAt": "2026-10-29T02:13:59.128Z",
+      "githubSyncedAt": "2026-10-29T02:13:59.128Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2115282406093857244",
+      "title": "电影感女性人像",
+      "category": "人像",
+      "tags": [
+        "dark fantasy",
+        "egypt",
+        "portrait",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "Ultra-detailed dark fantasy portrait of an undead Egyptian mummy queen, full upper-body standing pose, centered, vertical composition, cold intense stare directly at the viewer. Ashen grey-blue weathered skin with subtle cracks and dust specks, glowing emerald-green eyes, dramatic black Egyptian eyeliner and heavy brows, dark burgundy-black lips, stern menacing expression. A tall black flat-top Nefertiti-style crown with gold trim and a golden cobra uraeus at the front. Extremely long straight jet-black hair falling past the waist. Gold tassel earrings, a wide layered Egyptian usekh collar in gold, lapis blue and red beads, gold armlets and stacked bracelets. A strapless bodice and wrapped skirt made of aged tan linen mummy bandages, frayed and wrinkled, with an ornate gold belt featuring a large sun-disk medallion and hieroglyph-engraved hanging panel. Background of an ancient tomb with a sandstone sarcophagus, colorful hieroglyph wall paintings in gold, turquoise and red, and sandy rock. Floating dust particles in the air. Warm earthy palette of sand, gold, black and teal-grey, hyper-realistic textures, dramatic cinematic moody lighting, sharp focus, shallow depth of field, 8k, masterpiece, dark fantasy photorealistic art --ar 9:16 --v 6 --style raw",
+      "image": "https://pbs.twimg.com/media/HVqEbsAaYAEypWR.jpg?format=jpg&name=large",
+      "images": [
+        "https://pbs.twimg.com/media/HVqEbsAaYAEypWR.jpg?format=jpg&name=large"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HVqEbsAaYAEypWR.jpg?format=jpg&name=large"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "9:16",
+      "model": "",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/sabzar_Ai/status/2115282406093857244",
+      "url": "https://x.com/sabzar_Ai/status/2115282406093857244",
+      "domain": "x.com",
+      "date": "2026-10-29",
+      "timestamp": 1793240039128,
+      "collectedAt": "2026-10-29T02:13:59.128Z",
+      "githubSyncedAt": "2026-10-29T02:13:59.128Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2114289111293129073",
+      "title": "电影感女性人像",
+      "category": "人像",
+      "tags": [
+        "gothic",
+        "editorial",
+        "portrait",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "A photorealistic editorial studio portrait of a beautiful young woman in her early 20s with pale porcelain skin, sharp elegant features, dark smoky eye makeup, and long straight jet-black hair with subtle crimson undertones, lying on her side on a dark seamless studio floor. She wears an elegant gothic dress in black and deep crimson red with intricate lace, velvet, and structured bodice details. Her head rests on her stacked hands, which are placed over a weathered, semi-cracked human skull; a glossy black snake's head emerges from one of the skull's eye sockets. Moody candlelight from a few tall black candles creates warm highlights and deep shadows. Minimal dark studio set, no clutter. Shot as a high-end fashion editorial / luxury stock photograph, ultra-detailed textures on fabric, skin, lace, bone, and scales, cinematic lighting, shallow depth of field, 8K, razor-sharp focus, professional photography, photorealistic.",
+      "image": "https://pbs.twimg.com/media/HSQ8jyjWIAAeyoc.jpg?format=jpg&name=large",
+      "images": [
+        "https://pbs.twimg.com/media/HSQ8jyjWIAAeyoc.jpg?format=jpg&name=large"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HSQ8jyjWIAAeyoc.jpg?format=jpg&name=large"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "",
+      "model": "",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/MystiqueLicorne/status/2114289111293129073",
+      "url": "https://x.com/MystiqueLicorne/status/2114289111293129073",
+      "domain": "x.com",
+      "date": "2026-10-29",
+      "timestamp": 1793240039128,
+      "collectedAt": "2026-10-29T02:13:59.128Z",
+      "githubSyncedAt": "2026-10-29T02:13:59.128Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "9:16",
       "category": "人像",
