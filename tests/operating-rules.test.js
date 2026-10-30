@@ -46,6 +46,8 @@ test('the operating rulebook matches the primary collection architecture', () =>
   assert.match(dailyAuditWorkflow, /node --test tests\/\*\.test\.js/);
   assert.match(rules, /公开电商网站采集/);
   assert.match(rules, /commerce-public-sources\.json/);
+  assert.match(rules, /apimodels\/gpt-image-2-prompts/);
+  assert.match(rules, /归属 API Models/);
   assert.match(rules, /04:17.*Asia\/Shanghai/);
   assert.match(commerceWorkflow, /cron: '17 20 \* \* \*'/);
   assert.match(commerceWorkflow, /node scripts\/sync-public-commerce-sources\.js --apply/);
