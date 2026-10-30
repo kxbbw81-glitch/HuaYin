@@ -27,6 +27,21 @@ function normalizeSourceUrl(value) {
   }
 }
 
+function sourceIdentity(value) {
+  const normalized = normalizeSourceUrl(value);
+  if (!normalized) return '';
+  try {
+    const url = new URL(String(value || ''));
+    const fragment = decodeURIComponent(url.hash.replace(/^#/, '')).trim().toLowerCase();
+    const datasetRecord = url.hostname.replace(/^www\./, '').toLowerCase() === 'github.com'
+      && /\/blob\/[^/]+\/prompts\.json$/i.test(url.pathname)
+      && /^[a-z0-9][a-z0-9_-]{0,80}$/.test(fragment);
+    return datasetRecord ? `${normalized}#${fragment}` : normalized;
+  } catch {
+    return normalized;
+  }
+}
+
 function promptFingerprint(value) {
   return crypto.createHash('sha256').update(normalizeText(value).toLowerCase()).digest('hex');
 }
@@ -305,6 +320,7 @@ module.exports = {
   loadCreatorLibrary,
   extractCandidatePayload,
   normalizeSourceUrl,
+  sourceIdentity,
   parseCliOutputText,
   promptFingerprint,
   selectCandidatesForImport,

@@ -3,7 +3,9 @@ const path = require('node:path');
 const { classifyCommerceType, COMMERCE_CATEGORY } = require('./category-rules');
 const gptImageImporter = require('./import-awesome-gpt-image-2');
 const aiartImporter = require('./import-awesome-aiart-pics-prompts');
-const { normalizeSourceUrl, promptFingerprint } = require('./grok-x-discovery');
+const apimodelsImporter = require('./import-apimodels-gpt-image-2-prompts');
+const { promptFingerprint, sourceIdentity } = require('./grok-x-discovery');
+const APPROVED_ADAPTERS = ['awesome-gpt-image-2', 'awesome-aiart-pics-prompts', 'apimodels-gpt-image-2-prompts'];
 
 const MIN_PROMPT_LENGTH = 160;
 const REQUEST_TIMEOUT_MS = 30000;
@@ -28,7 +30,7 @@ function validateSource(source = {}) {
   const missing = required.filter(key => !cleanText(source[key]));
   if (missing.length) return { valid: false, reason: `missing source metadata: ${missing.join(', ')}` };
   if (!isHttps(source.dataUrl) || !isHttps(source.licenseUrl)) return { valid: false, reason: 'source metadata must use HTTPS' };
-  if (!['awesome-gpt-image-2', 'awesome-aiart-pics-prompts'].includes(source.adapter)) {
+  if (!APPROVED_ADAPTERS.includes(source.adapter)) {
     return { valid: false, reason: `unsupported source adapter: ${source.adapter}` };
   }
   return { valid: true };
@@ -83,6 +85,11 @@ function importSource(source, content, collections, now) {
     const cases = (payload.cases || []).filter(item => item.category === expectedCategory);
     return gptImageImporter.importCases({ cases }, collections, now);
   }
+  if (source.adapter === 'apimodels-gpt-image-2-prompts') {
+    return apimodelsImporter.importPrompts(JSON.parse(content), collections, now, {
+      categories: source.sourceCategories
+    });
+  }
   return aiartImporter.importEntries(content, collections, now);
 }
 
@@ -90,7 +97,7 @@ function existingKeys(collections) {
   return {
     ids: new Set(collections.map(item => cleanText(item.id)).filter(Boolean)),
     prompts: new Set(collections.map(item => promptFingerprint(item.prompt)).filter(Boolean)),
-    sources: new Set(collections.map(item => normalizeSourceUrl(item.sourceUrl || item.url)).filter(Boolean))
+    sources: new Set(collections.map(item => sourceIdentity(item.sourceUrl || item.url)).filter(Boolean))
   };
 }
 
@@ -139,7 +146,7 @@ function importApprovedCommerceSources({ sources, sourceContents, collections, n
       const item = toCommerceCollection(rawItem, source);
       const id = cleanText(item.id);
       const prompt = promptFingerprint(item.prompt);
-      const sourceUrl = normalizeSourceUrl(item.sourceUrl || item.url);
+      const sourceUrl = sourceIdentity(item.sourceUrl || item.url);
       if (keys.ids.has(id) || keys.prompts.has(prompt) || keys.sources.has(sourceUrl)) {
         rejected.push({ source: source.id, id, reason: 'duplicate collection' });
         sourceRejected += 1;

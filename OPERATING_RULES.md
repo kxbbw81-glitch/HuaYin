@@ -107,7 +107,7 @@
 
 - 每日 `04:17`（`Asia/Shanghai`）运行 `Sync Approved Public Commerce Prompts`，独立于 X 的公开检索任务。
 - `config/commerce-public-sources.json` 是公开电商来源唯一清单。仅允许清单内具备明确可复用许可、HTTPS 数据接口与可追溯来源链接的网站/仓库进入自动采集。
-- 目前启用的来源为 `awesome-gpt-image-2` 的 MIT 画廊数据和 `awesome-aiart-pics-prompts` 的 CC BY 4.0 公开案例；新网站先作为候选进行授权核验，不得被自动抓取或写入。
+- 目前启用的来源为 `awesome-gpt-image-2` 的 MIT 画廊数据、`awesome-aiart-pics-prompts` 的 CC BY 4.0 公开案例，以及 `apimodels/gpt-image-2-prompts` 的 CC BY 4.0 结构化提示词（仅 `ecommerce` / `product` / `poster`，归属 API Models（apimodels.app），许可证明为仓库 LICENSE）。用户已明确要求优先补充公开网页上的商业、电商、外贸和广告来源；除此之外，新网站仍须先核验明确可复用许可、HTTPS 数据与归属信息，不得被自动抓取或写入。
 - 每条内容仍须包含不少于 160 字的完整提示词、HTTPS 结果媒体、来源链接、许可和归属信息；并通过第三方 IP、唯一性及电商用途检查。
 - 仅收集“电商视觉”内容，并补齐产品主图、场景种草、广告海报、商品详情页、模特展示、UGC / 口碑、品牌视觉或电商视频等二级用途。每个来源单次最多写入 20 条，防止异常增量。
 - 工作流先读取 GitHub `main` 最新 `data/collections.json`，仅把通过项置顶写入主站；国内站仍在 GitHub 主站确认后至少 30 分钟发布。
@@ -165,3 +165,4 @@
 | 2026-08-04 | 扩展写入后用 GitHub 返回的新 blob SHA 验证主站数据，避免 raw 缓存导致“未确认”。 | 写入后立刻依赖 `raw.githubusercontent.com` 验证新收藏的做法。 |
 | 2026-08-04 | AhaPrompt 可通过公开详情页采集完整正文，禁止使用其 robots 禁止路径绕取。 | 将 SEO 摘要误当完整 Prompt，或通过 `/api`、`/_next` 抓取数据的做法。 |
 | 2026-08-05 | 扩展改为提交小型 `data/inbox/*.json` 入站批次，由 GitHub Action 服务端合并 `data/collections.json`。 | 扩展在浏览器中直接读写不断增大的 `data/collections.json`。 |
+| 2026-10-30 | 批准 `apimodels/gpt-image-2-prompts`（CC BY 4.0、HTTPS `prompts.json`、归属 API Models）进入公开电商自动采集，并限定 ecommerce / product / poster。 | 已批准来源只包含 awesome-gpt-image-2 与 awesome-aiart-pics-prompts、该仓库不得自动写入的限制。新来源仍须具备明确可复用许可、HTTPS 数据与归属。 |

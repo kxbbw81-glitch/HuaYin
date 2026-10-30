@@ -26,6 +26,19 @@
       "maxItemsPerRun": 20
     },
     {
+      "id": "apimodels-gpt-image-2-prompts-commerce",
+      "enabled": true,
+      "adapter": "apimodels-gpt-image-2-prompts",
+      "name": "apimodels GPT Image 2 Prompts (ecommerce/product/poster)",
+      "websiteUrl": "https://apimodels.github.io/gpt-image-2-prompts/",
+      "repositoryUrl": "https://github.com/apimodels/gpt-image-2-prompts",
+      "dataUrl": "https://raw.githubusercontent.com/apimodels/gpt-image-2-prompts/master/prompts.json",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/LICENSE",
+      "sourceCategories": ["ecommerce", "product", "poster"],
+      "maxItemsPerRun": 20
+    },
+    {
       "id": "awesome-aiart-pics-commerce",
       "enabled": true,
       "adapter": "awesome-aiart-pics-prompts",
