@@ -1,7 +1,351 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-29T18:08:57.257Z",
+  "updatedAt": "2026-10-30T07:33:15.603Z",
   "collections": [
+    {
+      "id": "grok_x_2115911199204483114",
+      "title": "韩系清冷铂金长发人像",
+      "category": "人像",
+      "tags": [
+        "超写实",
+        "韩系",
+        "GPT Image",
+        "人像",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "1:1正方形构图，单幅独立画面，超写实韩系清冷女性人像摄影，真实相机质感，柔和冷白光，低饱和奶油色调，精致温柔，轻微自然柔焦。\n\n【人物面容】\n\n一位23至25岁的成年东亚女性，精致小巧的鹅蛋脸，柔和收窄的下颌线，小巧圆润的下巴，清透冷白瓷肌，淡粉色腮红。\n\n明亮清澈的灰绿色杏仁眼，自然双眼皮，细致卧蚕，纤长卷翘睫毛，浅灰棕色眉毛，纤细挺直的鼻梁。\n\n柔软饱满的玫瑰豆沙粉色嘴唇，细腻水润光泽，双唇自然闭合，神情清冷温柔，眼睛直视镜头，保留真实皮肤微纹理。\n\n【发型】\n\n极其浓密柔软的奶油铂金色长发，带有浅银白色、香槟金色与淡冷灰色光泽。\n\n自然偏中分，头顶蓬松，发根具有真实空气感，轻薄八字碎刘海自然修饰额头与脸颊。\n\n长发延伸至胸部以下，整体顺直，发尾带有轻微自然波浪，两侧自然披散，保留独立发丝与少量飞散碎发。\n\n【服装与首饰】\n\n身穿浅薰衣草紫色修身V领长袖针织衫，细密纵向罗纹面料，柔软贴身，袖口略长并自然覆盖部分手掌。\n\n佩戴精致的银色水晶流苏耳环，手指佩戴一枚简约细银戒指。\n\n【人物姿势】\n\n人物坐在室内，正面面对镜头，上半身略微前倾，肩膀自然收拢。\n\n双手抬至下巴两侧，手指轻轻弯曲，形成双手托下巴的可爱姿势。\n\n长袖自然堆叠在手腕附近，头部微微倾斜，眼神安静地凝视镜头，表情平静温柔。\n\n【背景环境】\n\n现代简洁的卧室衣帽间，浅奶油白色墙壁。\n\n画面右侧是一组开放式白色衣柜，内部悬挂黑色、白色和米色衣服，顶部有柔和暖黄色LED灯带。\n\n衣柜背景轻微自然虚化，画面左侧为干净的浅白色墙面。\n\n【镜头与光影】\n\n等效50mm人像镜头，平视拍摄，近距离上半身构图，人物居中。\n\n柔和冷白色正面补光照亮面部，皮肤呈清透冷白色，眼睛具有自然反射光。\n\n铂金色头发呈现细腻银白高光，背景衣柜带有少量暖黄色灯光，形成轻微冷暖对比。\n\n低饱和度、柔和对比、自然曝光，细腻肤质，真实发丝，轻微相机颗粒，无明显AI感。\n\n【负面提示词】\n\n动漫，插画，3D渲染，CG假脸，塑料皮肤，过度磨皮，夸张大眼，过尖下巴，五官畸形，瞳孔异常，假发，头发黏连，僵硬发丝，多余手指，手掌变形，身体比例错误，服装穿模，过曝，强HDR，过度锐化，商业影棚质感，明显AI痕迹，文字，水印，LOGO，拼图。",
+      "image": "https://pbs.twimg.com/media/HV06BBEbkAA6v_b.jpg?name=large",
+      "images": [
+        "https://pbs.twimg.com/media/HV06BBEbkAA6v_b.jpg?name=large"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HV06BBEbkAA6v_b.jpg?name=large"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "1:1",
+      "model": "GPT Image",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/CryY666666/status/2115911199204483114",
+      "url": "https://x.com/CryY666666/status/2115911199204483114",
+      "domain": "x.com",
+      "date": "2026-10-30",
+      "timestamp": 1793345595491,
+      "collectedAt": "2026-10-30T07:33:15.491Z",
+      "githubSyncedAt": "2026-10-30T07:33:15.491Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2115851986335871313",
+      "title": "美妆店清纯自拍",
+      "category": "人像",
+      "tags": [
+        "超写实",
+        "韩系",
+        "GPT Image",
+        "人像",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "韩系清纯长发美人 · 美妆店日常自拍\n\n【整体画面风格】\n\n9:16竖版，单幅独立画面，超写实韩系清纯女性日常自拍摄影，真实智能手机前置摄像头拍摄效果，韩系自然甜美人像，温柔清透的室内生活写真。\n\n明亮的美妆集合店背景，浅米白色吊带上衣，浓密深黑棕色超长直发，柔和白皙肌肤，精致自然的面部轮廓，单手轻触下唇的自拍动作。\n\n画面呈现轻微柔焦、自然低对比度、微弱数码颗粒、柔和暖白色室内灯光，具有真实手机自拍的生活化质感。\n\n整体氛围干净、清纯、温柔、慵懒、自然，略带韩系少女感，但人物具有明确的成年女性特征。\n\n拒绝商业影棚质感，不使用夸张电影光效，不追求过度锐利的AI高清渲染效果。\n\n【人物面容】\n\n一位22至25岁、明确成年的美丽东亚女性。\n\n精致小巧的鹅蛋脸，巴掌大小的脸型，头型自然偏小，额头柔和饱满，脸颊软组织较少，面部轮廓圆润流畅，颧骨平滑，下颌线自然收窄，小巧精致的圆尖下巴。\n\n面部比例协调，五官集中而柔和，呈现清纯自然的韩系审美，不使用过度夸张的网红脸比例。\n\n肤色为柔和的奶油冷白色，具有轻微暖色室内灯光反射，皮肤细腻光滑，双颊带有非常自然的淡粉色血色感。\n\n保留微弱真实肌肤纹理，不过度磨皮。\n\n一双明亮清澈的深棕色圆杏眼，眼睛自然偏大，眼尾略微下垂，具有柔和温顺的眼型。\n\n双眼皮细致自然，眼下卧蚕轻微饱满，浅粉棕色眼影，细长但自然的睫毛。\n\n眉毛呈柔和平缓的深棕色眉形，眉峰不明显，具有自然毛流质感。\n\n鼻梁纤细秀气，鼻尖小巧圆润，鼻翼自然，鼻梁与鼻尖具有柔和的漫射高光。\n\n嘴唇自然饱满，唇峰柔和，淡玫瑰豆沙粉色水润唇妆，唇部保留细微真实纹理。\n\n双唇微微放松，自然轻合，嘴角没有明显上扬。\n\n人物表情平静、温柔、略带慵懒感，眼神柔和地直视手机镜头。\n\n【发型】\n\n深黑茶棕色超长直发，长度延伸至腰部附近，发量非常丰盈浓密。\n\n头顶具有明显的自然蓬松度，发根轻微隆起，形成柔和圆润的头部轮廓。\n\n自然偏中分发型，搭配轻薄松散的八字刘海。\n\n额头中央有少量细长碎发自然垂落，两侧刘海贴近脸颊，柔和修饰面部轮廓。\n\n长发从脸颊两侧大量垂落，形成蓬松的黑棕色发束。\n\n一部分长发披散于肩膀前方，另一部分自然延伸至背部。\n\n头发整体顺直，带有轻微松散自然波浪，发尾柔和微弯。\n\n靠近脸颊的头发具有细腻的自然层次，发丝不能完全整齐对称。\n\n室内灯光照亮头顶和部分发束，形成柔和的深栗棕色高光。\n\n发丝暗部呈自然黑茶色，保留真实发丝质感和少量飞散碎发。\n\n避免油亮塑料头发、夸张卷发、僵硬直发和明显假发质感。\n\n【服装设计】\n\n身穿一件浅奶油白色简约吊带上衣。\n\n上衣采用轻薄柔软的棉质或细腻针织面料，颜色介于象牙白与浅米白之间。\n\n细肩带设计，简洁平直的浅方形领口，肩膀自然露出。\n\n上衣没有复杂图案与印花，面料具有轻微自然褶皱。\n\n衣服自然贴合身体，呈现简洁舒适的日常穿搭效果。\n\n手腕佩戴一条纤细的银色手链，具有少量自然金属反光。\n\n不佩戴夸张项链、耳饰和大型装饰。\n\n【人物姿势】\n\n人物站立在商场美妆店内，面对手机镜头。\n\n身体基本正对镜头，上半身略微向前倾斜。\n\n一只手臂向镜头前方自然伸展，仿佛正在拿着手机进行前置自拍。\n\n前伸的手臂部分出现在画面右下方，形成真实近距离自拍透视。\n\n另一只手从画面下方自然抬起，手掌靠近下巴。\n\n食指指尖轻轻触碰下嘴唇旁边的面颊位置，拇指与其他手指自然弯曲，形成轻柔的托下巴动作。\n\n手部姿势放松，不要用力挤压脸颊。\n\n头部自然保持正面，略微向画面一侧倾斜。\n\n双肩放松，眼睛平静地注视手机镜头。\n\n浓密长发顺着身体两侧自然垂落，在胸前形成明显的纵向线条。\n\n整体姿势像年轻女性在逛街途中，站在美妆店内随手拍摄的一张自拍。\n\n【背景环境】\n\n现代大型商场内部的美妆集合店或护肤品零售店。\n\n背景为明亮的米白色商业室内空间。\n\n人物身后是一排排整洁的化妆品与护肤品展示货架。\n\n货架采用浅色金属框架与木质层板，整齐摆放大量白色、浅米色、淡粉色的护肤品包装盒、瓶罐与美妆商品。\n\n部分商品陈列架具有暖白色内置照明。\n\n商店顶部为浅奶油白色天花板，分布多个圆形嵌入式筒灯和简洁的轨道射灯。\n\n背景上方能够看到整齐的商业室内灯具。\n\n背景货架和产品具有真实的空间层次，受到手机摄像头景深及轻微运动影响，细节略微柔化。\n\n背景明亮但不过度曝光，保留真实商场购物环境。\n\n不要把背景换成纯色摄影棚、豪华卧室或模糊的抽象光斑。\n【镜头与自拍构图】\n\n9:16竖版，近距离胸部以上自拍构图。\n\n使用智能手机前置摄像头视角，等效24至28mm广角镜头。\n\n镜头距离人物面部约40至60厘米。\n\n手机位于人物面部正前方略高于眼睛的位置，轻微向下拍摄。\n\n人物脸部位于画面上半部分中央，头顶保留少量商店天花板空间。\n\n面部占据画面中心，双眼成为主要视觉中心。\n\n浓密深棕色长发覆盖画面左右两侧，并向下延伸至画面底部。\n\n画面左下方可见轻触下唇的手掌，画面右下方保留部分前伸的自拍手臂。",
+      "image": "https://pbs.twimg.com/media/HV0EKXwakAAdMM5.jpg?name=large",
+      "images": [
+        "https://pbs.twimg.com/media/HV0EKXwakAAdMM5.jpg?name=large"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HV0EKXwakAAdMM5.jpg?name=large"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "9:16",
+      "model": "GPT Image",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/FuguiChen1314/status/2115851986335871313",
+      "url": "https://x.com/FuguiChen1314/status/2115851986335871313",
+      "domain": "x.com",
+      "date": "2026-10-30",
+      "timestamp": 1793345595491,
+      "collectedAt": "2026-10-30T07:33:15.491Z",
+      "githubSyncedAt": "2026-10-30T07:33:15.491Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2115971405020082507",
+      "title": "物上造城微缩世界",
+      "category": "建筑",
+      "tags": [
+        "创意视觉",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "根据【上传的物件照片】，生成一张“物上造城”创意图像。\n\n保留原物件的外形、比例、颜色、材质纹理、拍摄角度和光线，让它保持真实摄影质感。将这个物件作为小人世界中的巨大地形，在其表面和边缘添加一组微型手绘人物，让他们围绕【物件的具体结构】完成【一个明确事件】。\n\n小人统一采用黑色细线钢笔速写风格，轮廓简练，用姿态表达动作，少量排线表现衣褶和工具。保持二维手绘感，不添加写实皮肤、立体渲染或塑料玩偶质感。\n\n安排约5—8名小人，身高约为物件长边的1/15至1/25，集中在一个主要活动区域。人物之间分工明确，动作都服务于同一件事。\n\n梯子、绳索、脚手架等道具使用相同的黑色细线绘制。人物和道具顺着物件表面的透视排列：脚踩在可站立的位置，手接触正在操作的部件，绳索有明确的固定点；位于物件背后的线条被遮挡。\n\n本次场景设定：\n【物件】：一条半拉开的金属拉链。\n【结构】：两侧拉链齿、中央开口和拉头。\n【事件】：一支小人维修队正在合拢拉链。两名工人站在布面上拉动系住拉头的绳索，一名工人站在固定于布面的小梯上检查拉链齿，其他工人在旁搬运工具、指挥作业。所有动作围绕拉链开口集中展开。\n物件占画面约三分之二，保留足够细节，让人先认出物件，再发现小人的活动。背景沿用原照片并适当简化，物件与小人的接触位置清楚可辨。\n输出一张3:4竖版完整画面，无文字、无边框、无水印。不做拼贴、多面板或前后对比图。不添加与事件无关的建筑，不把整个画面变成三维微缩模型。\n\n📌 总结\n物上造城：保留物件的真实质感，让手绘小人的动作顺着它的结构发生。\n\n你桌上哪件东西，最适合让他们开工？",
+      "image": "https://pbs.twimg.com/media/HV1whn-bQAABehv.jpg?name=large",
+      "images": [
+        "https://pbs.twimg.com/media/HV1whn-bQAABehv.jpg?name=large",
+        "https://pbs.twimg.com/media/HV1wiPUboAAzq8G.jpg?name=large",
+        "https://pbs.twimg.com/media/HV1wiPRbQAAR6Tq.jpg?name=large",
+        "https://pbs.twimg.com/media/HV1wiPBb0AAZKvv.jpg?name=large"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HV1whn-bQAABehv.jpg?name=large",
+        "https://pbs.twimg.com/media/HV1wiPUboAAzq8G.jpg?name=large",
+        "https://pbs.twimg.com/media/HV1wiPRbQAAR6Tq.jpg?name=large",
+        "https://pbs.twimg.com/media/HV1wiPBb0AAZKvv.jpg?name=large"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "3:4",
+      "model": "",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/derek_wall90176/status/2115971405020082507",
+      "url": "https://x.com/derek_wall90176/status/2115971405020082507",
+      "domain": "x.com",
+      "date": "2026-10-30",
+      "timestamp": 1793345595491,
+      "collectedAt": "2026-10-30T07:33:15.491Z",
+      "githubSyncedAt": "2026-10-30T07:33:15.491Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2115797160029761632",
+      "title": "角色一致性系列图",
+      "category": "人像",
+      "tags": [
+        "人像",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "以参考图中的成年女性为唯一人物参考，严格保持人物原有的面部特征、脸型、五官、发型发色、肤色、身形比例与个人气质，确保始终是同一个人，不换脸、不换人。\n\n保持参考图原有的场景、背景、服装款式、服装结构、配色、配饰及整体光线不变。基于原始拍摄情境，重新设计人物的动作、姿态、身体朝向、手部动作、头部角度、视线与面部表情，仿佛专业的明星随行人像摄影师在同一场景中持续拍摄，捕捉到了另一个自然、精彩且具有吸引力的瞬间。\n\n**动作与表情设计：** 不要机械套用固定姿势，也不要只改变头部角度或手部位置。根据人物、环境、服装与原始姿态，自主设计一个完整、合理且具有表现力的动作瞬间。可以是动作进行中的动态状态，也可以是富有感染力的静态瞬间。自然协调地安排身体重心、躯干旋转、肩部姿态、手部动作、头部角度、视线与面部表情，使它们共同构成一个完整的视觉表达。优先选择自然、自信、优雅、俏皮、活泼、妩媚或轻松随性的状态，避免僵硬摆拍、重复动作和不符合人体力学的姿势。\n\n**镜头与透视：** 不要默认使用固定的平视机位或普通正面构图。根据动作与场景，自主选择合适的相机高度、拍摄距离、拍摄方向及镜头透视。可以采用低机位、高机位、平视、侧前方视角、近距离透视或自然的长焦压缩效果，但每次只选择真正有助于当前画面的摄影方式。合理利用人物与镜头之间的距离、身体朝向及前后景关系，增强人物的立体感、空间深度和动作表现力。必要时允许适度的透视夸张，但必须保持合理的身体比例与自然的肢体形态，避免畸变和刻意炫技。\n\n**构图与人物占比：** 人物必须占据画面主体，尽可能占据画面高度的 70%–90%。优先采用近景、中近景或突出人物的中景构图，让面部、眼神、表情及身体姿态成为视觉焦点。不要默认人物居中，根据动作方向、视线、身体姿态和原有环境结构，自主决定人物在画面中的位置。合理运用前景、背景、环境线条、自然遮挡与空间留白，增强画面的层次感和视觉张力。根据动作选择合适的取景范围，在突出人物与保留完整动作之间取得平衡，避免人物过小、背景喧宾夺主、无意义的空旷构图，以及对头部或关键肢体的不合理裁切。\n\n**视觉冲击力：** 每张照片都应具有一个明确的视觉亮点，可以来自富有感染力的眼神、独特的身体姿态、自然的动作瞬间、具有张力的透视、鲜明的构图关系，或人物与环境之间的巧妙互动。根据参考图的特点自主选择最有潜力的方向，不要机械叠加多种摄影技巧，也不要仅仅依靠夸张表情或刻意的模特姿势制造吸引力。优先追求自然、有辨识度、令人印象深刻的画面。\n\n**真实摄影质感：** 采用高质量的真实人像摄影风格，保留自然的皮肤纹理、真实的头发细节、合理的光影层次、准确的身体结构与自然的景深。延续原图的光线逻辑，不要无故改变天气、光线方向或整体环境氛围。避免过度磨皮、塑料皮肤、过度锐化、夸张的背景虚化、过度电影化调色及明显的 AI 生成痕迹。照片可以精致，但必须保持自然可信的真实摄影观感。\n\n**变化与创意：** 每次生成都应像同一场拍摄中出现的另一个独立瞬间。根据参考图自主决定哪些摄影变量最值得改变，不必每次改变全部因素，也不要重复使用相同的动作、表情、机位与构图。让动作、表情、镜头、透视和构图相互配合，形成一个完整的摄影创意。约束最终成片的质量，而不是限制 AI 的创作路径。\n\n最终生成一张独立的全新照片，而不是原图的简单复制。保持人物身份、场景和服装的一致性，同时让动作、表情、镜头和构图具有足够的新鲜感与视觉吸引力。\n\n禁止更换人物身份，禁止改变原有服装，禁止无故重构场景，禁止添加第二个人物，禁止生成拼图、九宫格或多画面布局。",
+      "image": "https://pbs.twimg.com/media/HVzRv4gawAA48u9.jpg?name=large",
+      "images": [
+        "https://pbs.twimg.com/media/HVzRv4gawAA48u9.jpg?name=large",
+        "https://pbs.twimg.com/media/HVzRxsca4AAIIY3.jpg?name=large",
+        "https://pbs.twimg.com/media/HVzR1BuaMAAr8Ui.jpg?name=large"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HVzRv4gawAA48u9.jpg?name=large",
+        "https://pbs.twimg.com/media/HVzRxsca4AAIIY3.jpg?name=large",
+        "https://pbs.twimg.com/media/HVzR1BuaMAAr8Ui.jpg?name=large"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "2:3",
+      "model": "",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/WuBuKongAi/status/2115797160029761632",
+      "url": "https://x.com/WuBuKongAi/status/2115797160029761632",
+      "domain": "x.com",
+      "date": "2026-10-30",
+      "timestamp": 1793345595491,
+      "collectedAt": "2026-10-30T07:33:15.491Z",
+      "githubSyncedAt": "2026-10-30T07:33:15.491Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2115863736921596315",
+      "title": "冰箱荒诞人像",
+      "category": "人像",
+      "tags": [
+        "创意视觉",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "极简荒诞视觉 × 超现实日常摄影 × 真实数码直闪 × 冷幽默生活纪实。\n\n这一版的核心视觉公式：\n真实冰箱结构 + 成年角色蜷坐 + 单手托腮 + 冰箱暖光与直闪 + 疲惫冷淡表情\n其中最关键的一句是：「角色像另一件被存放在冰箱里的日常物品。」 它能帮助模型建立荒诞关系，而不只是生成一个站在冰箱前的人。\n\n完整提示词👇\n\n【角色】，明确成年真人化 Cos，保留角色核心身份识别特征：面部结构、发型、发色、瞳色、标志性配饰与角色主色。服装根据角色身份调整为自然居家状态，保留具有辨识度的服饰元素。\n\n极简荒诞视觉 × 超现实日常摄影 × 真实数码直闪 × 冷幽默生活纪实。\n\n场景与荒诞关系\n\n一台普通家用冰箱，冰箱门完全打开。角色竟然蜷缩坐在冰箱冷藏室内部，把狭窄的冰箱当成自己的休息空间，仿佛已经在这里住了很久。\n\n角色身体自然收拢，双腿弯曲藏于冷藏室深处，上半身轻微前倾，一侧手肘支撑身体，单手托住脸颊，脑袋慵懒地靠在手掌上。肩头随意披着柔软毛毯或宽松外套。\n\n角色眼睑半垂，眼神疲惫、放空，漫不经心地看向镜头，嘴唇自然放松，呈现熬夜后的困倦感与轻微厌世气质。整个行为自然随意，像在自己房间休息一样平静。\n\n空间与物品\n\n冰箱保持真实家电结构：白色塑料内胆、透明玻璃隔板、冷藏灯、门边储物格。上层摆放鸡蛋、饮料瓶、玻璃罐与少量日常食物，部分食材紧邻角色身体。\n\n人物与物品之间形成荒诞而可信的空间关系，角色像另一件被存放在冰箱里的日常物品。\n\n镜头与构图\n\n3:4 竖版真实摄影。摄影机位于打开的冰箱门外，从厨房向冰箱内部近距离拍摄。\n\n28–35mm 等效视角，轻微广角透视，中近景构图。人物头部与上半身成为画面中心，冰箱门框沿画面两侧形成自然取景框，顶部隔板与食物进入画面，强化封闭、拥挤的空间感。\n\n光线与成像\n\n冰箱内部暖黄色照明从上方照亮人物面部，叠加相机正面直闪，人物皮肤、发丝、塑料内壁与玻璃瓶产生真实反光。\n\n厨房环境保持较低曝光，冰箱内部明亮，形成自然明暗反差。\n\n早期数码相机生活快照质感，真实皮肤纹理、自然锐化、轻微高 ISO 颗粒，色彩略微偏冷，暗部干净，细节清晰。\n\n画面具有朋友随手打开冰箱、突然发现角色躲在里面，并顺手拍下一张照片的真实感。\n\n整体气质：日常、安静、困倦、荒诞、冷幽默。以平静的摄影方式记录不符合常识的行为，呈现自然可信的超现实生活瞬间。\n\n画面仅保留一个人物、一台冰箱与少量生活物品。右下角融入极小手写感 voxcat 签名。",
+      "image": "https://pbs.twimg.com/media/HVzleIbacAAqr5R.jpg?name=large",
+      "images": [
+        "https://pbs.twimg.com/media/HVzleIbacAAqr5R.jpg?name=large",
+        "https://pbs.twimg.com/media/HVzleIfbIAAcJPN.jpg?name=large",
+        "https://pbs.twimg.com/media/HVzleIfbcAApblo.jpg?name=large"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HVzleIbacAAqr5R.jpg?name=large",
+        "https://pbs.twimg.com/media/HVzleIfbIAAcJPN.jpg?name=large",
+        "https://pbs.twimg.com/media/HVzleIfbcAApblo.jpg?name=large"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "3:4",
+      "model": "",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/VoxcatAI/status/2115863736921596315",
+      "url": "https://x.com/VoxcatAI/status/2115863736921596315",
+      "domain": "x.com",
+      "date": "2026-10-30",
+      "timestamp": 1793345595491,
+      "collectedAt": "2026-10-30T07:33:15.491Z",
+      "githubSyncedAt": "2026-10-30T07:33:15.491Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2115813710862094800",
+      "title": "粉色女仆卧室人像",
+      "category": "奇幻",
+      "tags": [
+        "GPT Image",
+        "二次元",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "一名成人奇幻风格女性角色，精致3D CG插画风格，超高细节，9:16竖版构图，坐在柔软的粉色床上，整体场景是梦幻甜美的粉色女仆主题卧室。\n\n角色位于画面中央，正对镜头，双膝跪坐在床上（鸭子坐姿势），姿态自然端庄，身体微微前倾，肩颈柔和放松，腰身自然收束，整体身形展现成熟优雅的女性曲线。角色体态成熟丰腴，肩部圆润柔和，胸部饱满自然，腰线清晰但不过分纤细，臀腿线条圆润匀称，大腿与手臂有着柔和健康的肉感，整体传递温柔甜美、饱满优雅的女性美感。\n\n她有着精致可爱的脸型，肤质白皙细腻，明亮的大眼睛带着温柔梦幻的眼神，鼻梁纤细，柔软的嘴唇带着自然的笑意，五官整体有着甜美可爱、精致的日式人偶般的韵味。发型为黑色双长马尾，发丝轻盈细腻，刘海蓬松柔和，头上佩戴白色荷叶边女仆头饰，搭配粉色蝴蝶结与猫耳样式装饰。\n\n服饰是黑粉配色的日系甜系女仆套装，上身是粉色修身短袖女仆衬衣，胸口配有大号黑色蝴蝶结，领口与袖口带有白色荷叶花边；下身是黑色蓬蓬超短裙，搭配多层白色蕾丝围裙以及粉色蝴蝶结装饰。整套服饰精致可爱、层次丰富，突出甜美梦幻的风格，同时贴合角色饱满优雅的身形。腿部穿着黑色渔网袜或是黑色过膝长筒袜，搭配亮面黑色玛丽珍鞋，让造型更加完整。\n\n场景是柔和梦幻的粉色卧室，背景包含粉色床品、毛绒泰迪熊、粉色窗帘、柔和虚化的花艺以及浅色系家具，整体氛围柔和可爱、精致温暖。柔和的自然光从窗户照入，形成温润漫射的光晕效果，空气中有淡淡的发光微粒，搭配浅景深散景。\n\n整体色调以粉、白、黑为主，画面甜美梦幻、柔和精致，具备高完成度的3D CG人像质感，角色面部与服饰细节清晰，皮肤通透，光影层次丰富，景深自然，构图高级富有美感，超高锐度，8K，大师作品，最佳画质，极致细节，柔和光影，梦幻氛围，精致面容，优雅女性美感，曲线身形，成熟成年女性，3D CG渲染图。",
+      "image": "https://pbs.twimg.com/media/HVzhREwXoAANKJt.jpg?name=large",
+      "images": [
+        "https://pbs.twimg.com/media/HVzhREwXoAANKJt.jpg?name=large"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HVzhREwXoAANKJt.jpg?name=large"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "9:16",
+      "model": "GPT Image",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/wushi123321/status/2115813710862094800",
+      "url": "https://x.com/wushi123321/status/2115813710862094800",
+      "domain": "x.com",
+      "date": "2026-10-30",
+      "timestamp": 1793345595491,
+      "collectedAt": "2026-10-30T07:33:15.491Z",
+      "githubSyncedAt": "2026-10-30T07:33:15.491Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2115007343473705140",
+      "title": "月下灯影国风人像",
+      "category": "建筑",
+      "tags": [
+        "国风",
+        "人像",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "以原图为基础添加中文文案，2:3竖版国风摄影画报。保留人物面容、回眸神态、站姿、白色与浅紫色刺绣汉服、飘带及拖地裙摆，保留满月、古建筑、湖面、灯笼、石栏与湿润地面。维持真实人像摄影质感，以及黛蓝夜色、浅紫衣裙、暖金灯火的协调配色。\n\n【主标题】\n准确文字：灯月照归人\n放在人物右侧、月亮下方，以五字单列竖排呈现。\n采用清晰舒展、有自然笔锋的毛笔行书，笔画疏密有致，大小适中。\n颜色使用柔和的浅米金，与灯笼暖光呼应，不要金属质感或发光效果。\n\n【小文案】\n准确文字：\n走过长街灯火\n回头恰好是你\n\n采用精细端正的宋体，分为两列竖排，放在主标题左侧，按从右至左的顺序阅读。\n字号明显小于主标题，字距与行距疏朗，颜色为淡暖米白，清楚可读。\n\n【印章】\n在标题末尾旁点缀一枚小巧的暗朱红方印，印文为“归”，尺寸克制。\n\n【排版要求】\n文字集中在画面右侧中上部的背景区域，与人物、月亮保持适当距离，不遮挡脸部、发丝、手部及服饰主体。\n保留自然留白，标题、小文案、印章层次分明，整体精致雅致。\n所有中文准确，无错字、漏字、乱码；不增加其他文字、英文、水印、边框或大面积底色框。\n仅添加文字设计，尽量保持原图人物与场景不变。",
+      "image": "https://pbs.twimg.com/media/HVn2fPKagAA7r6b.jpg?name=large",
+      "images": [
+        "https://pbs.twimg.com/media/HVn2fPKagAA7r6b.jpg?name=large"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HVn2fPKagAA7r6b.jpg?name=large"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "2:3",
+      "model": "",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/krienknight/status/2115007343473705140",
+      "url": "https://x.com/krienknight/status/2115007343473705140",
+      "domain": "x.com",
+      "date": "2026-10-30",
+      "timestamp": 1793345595491,
+      "collectedAt": "2026-10-30T07:33:15.491Z",
+      "githubSyncedAt": "2026-10-30T07:33:15.491Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2114628730333335696",
+      "title": "复古漫画广告海报",
+      "category": "电商视觉",
+      "commerceType": "广告海报",
+      "tags": [
+        "GPT Image",
+        "电商视觉",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "将每张上传的照片转换成独立的高级日本复古漫画编辑广告海报。使用一致的风格，结合大胆的流行艺术墨水插画、巨大的伪3D英语字体和精选的复古印刷纹理。无需参考图片。每张照片必须产生一个独立的设计，包含其自己的主题、标题、颜色和构图；绝不能将照片结合在一起。格式：严格的3:4人像画布，水平分成精确地两个等同的50%部分，直接在中间连接。不要将照片结合在一起。格式中不要包含侧边排列、第三部分、边缘、分隔线、箭头、Before/After标签、标志、标志、表情、发型、服装、姿势、比例、物体、关系、真实的纹理、光线和原创的色彩氛围。只应用微妙的编辑色调评分。如有需要，请仔细裁剪或自然扩展周围背景，如果必要的话，请不要伸展、扭曲、重新绘制、替换或改变主主题。底部半部分 — 主题：分析当前的照片，并选择其最可识别的主题、特征的轮廓、有意义的表情或叙事关系。保留可识别的主题、轮廓、白色高光点、精确的白色高光点、粗糙的黑色墨水轮廓、坚实的黑色阴影形状、尖锐的白色高光点、精选的渲染和简单的饱和色区域。保留可识别的面部结构、发型、服装、动物标记、物体几何学和原创的表情。避免使用通用动漫、奇比角色、幼稚的卡通、柔和的阴影、真实主义和光泽的数字呈现。\n颜色：使用纯白作为主背景，深黑色用于轮廓和结构阴影，并从原始照片中提取一个主要的注点颜色。只在必要时添加第二张照片中提取的注点颜色。使用主颜色用于标题填充和主要的插画形状。保留必需的自然皮肤色调和中性色调。永远不要引入与无关的孟菲斯颜色、过大几何学领域或多色背景。巨型标题：自动生成一个短、专为照片而定制的英语标题，包含1-3个单词。这是一个必需的主视觉元素。使用巨大的超大压缩的Sans-Serf字母，紧密的间距，厚黑色轮廓和强烈的平板黑色偏移阴影，创建一个印刷的伪3D效果，没有真实的剥离、贝尔或光泽。填充字母使用照片的主要注点颜色。标题应该占用下面画板的约30-45%，并延伸到大多数的宽度上，允许轻微的边缘剪裁。永远不要将其降低到小字。构图：安排三个整合的层：干净的白色背景，中间或后层中的巨大的标题，和主体在前面显著的插画。主题应该占用下面画板的约45-70%的高度，并且必须在可视的范围内覆盖并部分覆盖选定的标题字母，保持文字合理可读和必需的面部或物体特征无阻碍。字体和插画必须形成一个统一的商业广告构图，永远不要将堆叠元素分开。文本：添加受限的半点图案、墨水粒、图形渗透和微妙的印刷错误，只在选定的阴影、插画区域、注点颜色或字体中添加。保留大多数白色背景。使用最少几张小型支持图标。避免使用巨大的圆圈、色彩带、长方形背景、随机的孟菲斯图案、纸张纹理、完整的框架破坏、过度的装饰、渐变色或不必要的物体。\n最终检查：确保精确的3:4比例，50/50面板均等，正宗的原创照片在上方，干净的白色底部背景，巨大的照片色彩英文标题，厚实的黑色轮廓和偏色，表达的漫画墨主题在标题上显然重叠，强烈的对比，照片来源的颜色和选择性复合，选择性复合的复古质地。当限制条件竞争时，优先布局的精确性，照片的忠实性，巨大的标题，主题-字体重叠，可识别的插画和干净的白色空间。结果必须类似于一份专业艺术指导的日本复古漫画杂志广告。GIANT TYPE FIRST。HERO ILLUSTRATION SECOND。白色空间始终如此。如果照片已经上传，立即生成完成的艺术作品。将每张上传的照片转换成独立的高级日本复古漫画编辑广告海报。使用一致的风格，结合大胆的流行艺术墨水插画、巨大的伪3D英语字体和精选的复古印刷纹理。无需参考图片。每张照片必须产生一个独立的设计，包含其自己的主题、标题、颜色和构图；绝不能将照片结合在一起。格式：严格的3:4人像画布，水平分成精确地两个等同的50%部分，直接在中间连接。不要将照片结合在一起。格式中不要包含侧边排列、第三部分、边缘、分隔线、箭头、Before/After标签、标志、标志、表情、发型、服装、姿势、比例、物体、关系、真实的纹理、光线和原创的色彩氛围。只应用微妙的编辑色调评分。如有需要，请仔细裁剪或自然扩展周围背景，如果必要的话，请不要伸展、扭曲、重新绘制、替换或改变主主题。底部半部分 — 主题：分析当前的照片，并选择其最可识别的主题、特征的轮廓、有意义的表情或叙事关系。保留可识别的主题、轮廓、白色高光点、精确的白色高光点、粗糙的黑色墨水轮廓、坚实的黑色阴影形状、尖锐的白色高光点、精选的渲染和简单的饱和色区域。保留可识别的面部结构、发型、服装、动物标记、物体几何学和原创的表情。避免使用通用动漫、奇比角色、幼稚的卡通、柔和的阴影、真实主义和光泽的数字呈现。\n颜色：使用纯白作为主背景，深黑色用于轮廓和结构阴影，并从原始照片中提取一个主要的注点颜色。只在必要时添加第二张照片中提取的注点颜色。使用主颜色用于标题填充和主要的插画形状。保留必需的自然皮肤色调和中性色调。永远不要引入与无关的孟菲斯颜色、过大几何学领域或多色背景。巨型标题：自动生成一个短、专为照片而定制的英语标题，包含1-3个单词。这是一个必需的主视觉元素。使用巨大的超大压缩的Sans-Serf字母，紧密的间距，厚黑色轮廓和强烈的平板黑色偏移阴影，创建一个印刷的伪3D效果，没有真实的剥离、贝尔或光泽。填充字母使用照片的主要注点颜色。标题应该占用下面画板的约30-45%，并延伸到大多数的宽度上，允许轻微的边缘剪裁。永远不要将其降低到小字。构图：安排三个整合的层：干净的白色背景，中间或后层中的巨大的标题，和主体在前面显著的插画。主题应该占用下面画板的约45-70%的高度，并且必须在可视的范围内覆盖并部分覆盖选定的标题字母，保持文字合理可读和必需的面部或物体特征无阻碍。字体和插画必须形成一个统一的商业广告构图，永远不要将堆叠元素分开。文本：添加受限的半点图案、墨水粒、图形渗透和微妙的印刷错误，只在选定的阴影、插画区域、注点颜色或字体中添加。保留大多数白色背景。使用最少几张小型支持图标。避免使用巨大的圆圈、色彩带、长方形背景、随机的孟菲斯图案、纸张纹理、完整的框架破坏、过度的装饰、渐变色或不必要的物体。\n最终检查：确保精确的3:4比例，50/50面板均等，正宗的原创照片在上方，干净的白色底部背景，巨大的照片色彩英文标题，厚实的黑色轮廓和偏色，表达的漫画墨主题在标题上显然重叠，强烈的对比，照片来源的颜色和选择性复合，选择性复合的复古质地。当限制条件竞争时，优先布局的精确性，照片的忠实性，巨大的标题，主题-字体重叠，可识别的插画和干净的白色空间。结果必须类似于一份专业艺术指导的日本复古漫画杂志广告。GIANT TYPE FIRST。HERO ILLUSTRATION SECOND。白色空间始终如此。如果照片已经上传，立即生成完成的艺术作品。",
+      "image": "https://pbs.twimg.com/media/HVirMk_b0AAOoxC.jpg?name=large",
+      "images": [
+        "https://pbs.twimg.com/media/HVirMk_b0AAOoxC.jpg?name=large",
+        "https://pbs.twimg.com/media/HVirNSJbUAArxUq.jpg?name=large",
+        "https://pbs.twimg.com/media/HVirOv6a0AA4gbz.jpg?name=large"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HVirMk_b0AAOoxC.jpg?name=large",
+        "https://pbs.twimg.com/media/HVirNSJbUAArxUq.jpg?name=large",
+        "https://pbs.twimg.com/media/HVirOv6a0AA4gbz.jpg?name=large"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "3:4",
+      "model": "",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/leo_xiaolei/status/2114628730333335696",
+      "url": "https://x.com/leo_xiaolei/status/2114628730333335696",
+      "domain": "x.com",
+      "date": "2026-10-30",
+      "timestamp": 1793345595491,
+      "collectedAt": "2026-10-30T07:33:15.491Z",
+      "githubSyncedAt": "2026-10-30T07:33:15.491Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2115794498005672269",
+      "title": "半写实日系动漫风",
+      "category": "人像",
+      "tags": [
+        "cinematic",
+        "GPT Image",
+        "Niji",
+        "二次元",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "16:9横版，高精度Niji系半写实日系动漫电影摄影风格，\n\nNiji-inspired anime aesthetics,\npremium semi-realistic anime illustration,\ncinematic 2.5D anime portrait,\nhigh-end Japanese fantasy anime character art,\nexquisite anime facial design,\nluminous soft anime skin,\nultra-detailed expressive eyes,\nfine wispy individual hair,\ncinematic fashion photography,\npremium painterly material rendering.\n\n整体融合高级日系动漫美型设计、\n精致半写实人物渲染、\n近距离电影摄影构图与明亮真实的自然光影。\n\n【角色主体】\n\n画面主体为《原神》雷电将军。\n\n一位视觉年龄25–27岁的明确成年东方动漫美型女性。\n\n身份为掌控雷霆与永恒的稻妻最高统治者。\n\n整体气质高贵、清冷、神秘、威严，\n具有安静而强大的神明气场。\n\n人物采用高级日系半写实动漫美型设计，\n保留雷电将军标志性的发型、五官与神明礼服。\n\n人物五官颜值与独特辨识度为最高视觉优先级。\n\n【人物五官｜第一视觉优先级】\n\n高贵冷艳型东方动漫美人。\n\n脸型为精致修长的柔美鹅蛋脸，\n面颊自然饱满，\n下颌线柔和流畅，\n下巴小巧但不过分尖锐。\n\n面部骨骼结构自然，\n具有柔软细腻的真实体积。\n\n眉形纤细自然，\n眼窝与眉骨具有精致立体结构。\n\n双眼为深紫晶色的细长杏眼，\n眼尾轻微上挑，\n眼睛略大于真实人类比例，\n保留成熟高级的日系动漫美型特征。\n\n紫晶色虹膜晶莹通透，\n内部具有精细放射状纹理，\n瞳孔清晰，\n存在丰富的自然环境高光。\n\n上下眼睑结构完整，\n睫毛纤长浓密，\n眼缘具有细腻自然的湿润高光。\n\n双眼自然凝视近处镜头，\n眼神冷静、神秘，\n带有轻微的高贵疏离感。\n\n鼻梁秀挺自然，\n鼻尖小巧柔和，\n鼻翼结构精致。\n\n嘴唇柔软精致，\n唇色为淡玫瑰粉色，\n嘴唇微微自然分开，\n唇部具有细腻柔和的真实光泽。\n\n皮肤奶白、细腻、柔软、通透。\n\n面颊与鼻尖存在极轻微的自然血色。\n\n眼周、鼻梁、面颊和嘴唇\n具有丰富而细腻的摄影式明暗过渡。\n\n皮肤融合高级动漫绘画美感\n与真实摄影式柔和体积光影。\n\n人物五官美丽、协调、自然，\n具有成熟东方动漫女性的独特魅力。\n\n【发型与发饰】\n\n深紫色浓密长发。\n\n保留雷电将军标志性的侧分刘海、\n紫金花卉发饰、金色发簪\n以及背后粗长麻花辫。\n\n长发从头顶向肩颈自然垂落，\n发根具有真实的蓬松度。\n\n大量高精度独立发丝\n沿着额头、耳侧与脸颊自然分布。\n\n部分细碎发丝受到高处微风影响，\n轻盈地向画面两侧飘散。\n\n深紫色粗长麻花辫\n从人物肩部向画面右下方自然延伸。\n\n麻花辫结构清晰，\n具有自然的编织层次与真实重量感。\n\n强烈清晨阳光从画面右上方照射，\n深紫色头发形成明亮的粉紫色轮廓光。\n\n大量纤细发丝呈现半透明透光效果。\n\n头发保留深紫色、紫罗兰色\n与少量粉紫色高光层次。\n\n整体精致、柔软、轻盈，\n避免整块塑料发束。\n\n【服装造型】\n\n雷电将军标志性的紫黑色稻妻神明礼装。\n\n保留经典和风衣领、\n白紫色胸前衣装结构、\n黑紫色装饰、\n深紫色宽腰封、\n金色雷电神纹与华丽金属配饰。\n\n人物身形成熟自然，\n胸部饱满圆润，\n服装贴合身体形成自然协调的成年女性曲线。\n\n胸前白紫色衣料具有精致织纹，\n衣领结构自然，\n保留符合服装设计的胸部轮廓。\n\n衣服面料采用高级丝缎、\n紫黑色织锦与轻薄半透明纱质。\n\n深紫色宽腰封\n采用层叠编织与精致金色纹样。\n\n腰封中央为大型紫金色圆形雷电纹章，\n配有精细金属结构与金色流苏。\n\n肩部和宽袖具有精致的金色装饰边缘。\n\n所有服装材质分别保留独立的反光效果。\n\n丝缎具有明亮柔和的流动高光，\n织锦具有细密真实的纹理，\n金属具有精致锐利的局部反射，\n轻纱具有柔和半透明层次。\n\n服装华丽、精致、富有神明威严，\n但不遮挡人物面部。\n\n【人物姿态与表情】\n\n雷电将军站在稻妻天守阁高层木质回廊。\n\n身体略微向镜头侧转，\n肩部自然前倾。\n\n头部轻微倾转，\n面部以三分之四角度朝向镜头。\n\n人物从稍高的位置\n自然俯视近处的摄影机。\n\n深紫色眼睛平静凝视观众。\n\n眉眼放松，\n神情清冷、神秘、从容，\n带有轻微的神明威严。\n\n嘴唇自然微启，\n表情柔和而富有生命感。\n\n靠近摄影机的一侧肩膀\n与宽大和风衣袖向前自然延伸。\n\n宽袖进入镜头近前景，\n形成富有冲击力的空间透视。\n\n人物动作自然，\n肩颈与躯干连接合理。\n\n整体像电影摄影机\n在近距离捕捉到的自然人物瞬间。\n\n【电影摄影构图】\n\n16:9横版。\n\n极近距离电影人像摄影构图。\n\n采用28–35mm广角人像的视觉透视。\n\n摄影机位置略低于人物面部，\n形成轻微仰视的近距离镜头语言。\n\n人物位于画面左侧及中部，\n面部处于画面左上方视觉中心。\n\n头部、肩部、胸腰结构完整，\n人物身体向画面下方自然延伸。\n\n人物脸部清晰锐利，\n双眼拥有极高细节完成度。\n\n画面左下方为巨大的浅紫色和风宽袖前景。\n\n宽袖距离镜头极近，\n产生明显的广角透视放大效果。\n\n前景衣袖自然虚化，\n呈现柔和的紫色与白色高光。\n\n人物脸部和眼睛保持最高清晰度。\n\n深紫色粗长麻花辫\n从人物肩部延伸至画面右下方。\n\n画面右侧保留较大面积的环境空间，\n完整呈现远处稻妻建筑与山峦。\n\n形成巨大虚化前景、\n清晰人物主体、\n精致中景建筑与辽阔远景的多层空间关系。\n\n整体具有强烈的电影摄影临场感，\n避免普通居中角色立绘构图。\n\n【场景环境】\n\n稻妻天守阁外的高层木质回廊。\n\n画面左上方与中景\n呈现深色木质立柱、\n传统日式横梁、\n精致金色建筑装饰\n与悬挂的紫色稻妻纹章旗帜。\n\n人物身后为木质栏杆与宽阔平台。\n\n画面右侧呈现宏大的稻妻幻想城镇。\n\n中景具有层叠日式楼阁、\n朱红色鸟居、\n传统神社建筑与盛开的粉色樱花树。\n\n远景为巨大的青灰色山峦、\n山顶宏伟的稻妻天守阁建筑群、\n漂浮白云与辽阔蓝天。\n\n远处山体与建筑之间\n存在少量细微的紫色雷电。\n\n天空明亮湛蓝，\n白色云层具有柔和立体的体积感。\n\n樱花树林与传统日式建筑\n形成丰富的空间层次。\n\n远景具有自然距离感，\n细节适度柔化。\n\n环境精致壮观，\n但人物五官始终为第一视觉中心。\n\n【电影光影】\n\n明亮清透的清晨自然光。\n\n强烈阳光从画面右上方照射。\n\n光线穿过深紫色发丝，\n形成大量精细明亮的粉紫色边缘高光。\n\n人物面部受到柔和自然光照射。\n\n额头、鼻梁、鼻尖、面颊和嘴唇\n形成细腻自然的皮肤高光。\n\n眼窝、鼻翼与下颌\n具有柔软而真实的立体阴影。\n\n皮肤奶白通透，\n面颊具有轻微自然血色。\n\n紫晶色虹膜具有清澈明亮的眼神光。\n\n深紫色头发存在丰富的明暗层次。\n\n紫色丝缎形成强烈但自然的高光反射。\n\n金属配饰具有精细锐利的局部闪光。\n\n近前景衣袖产生柔和的高光虚化。\n\n远景天空与建筑受到明亮自然阳光照射，\n空气感清爽通透。\n\n整体光影明亮、高级，\n具有丰富的高光与阴影反差。\n\n高光明亮但不过曝，\n阴影细腻但不出现死黑区域。\n\n【色彩控制】\n\n人物头发以深紫色为主体，\n保留紫罗兰色与粉紫色的自然高光层次。\n\n服装以深紫、浅紫、黑色与金色构成。\n\n人物皮肤独立保持奶白色，\n面颊具有自然淡粉色血色。\n\n建筑采用深木色、\n朱红色与青灰色。\n\n远景山峦呈现自然青灰色，\n天空保持明亮蓝色，\n云层保持自然白色。\n\n樱花为柔和自然的粉色。\n\n紫色雷电仅作为远景局部强调色。\n\n人物、服装、建筑与天空\n保留各自独立的固有色。\n\n避免整个画面被紫色滤镜覆盖。\n\n整体色彩鲜活、明亮、干净、通透，\n具有丰富的冷暖色彩关系。\n\n【最终风格锁定】\n\n高精度Niji系半写实日系动漫电影摄影美学。\n\n极致精美的成年东方动漫美型五官，\n柔软通透的半写实动漫肌肤，\n晶莹湿润的紫晶眼睛，\n超高密度精细独立发丝，\n高级真实丝缎与金属材质，\n明亮高反差的自然电影光影，\n近距离广角人像摄影透视，\n巨大虚化前景与丰富空间纵深。\n\n角色具有强烈生命感、\n自然微表情与沉静神明威严。\n\n整体保持高级2.5D动漫数字绘画质感。\n\n不要转化为真人摄影。\n不要转化为普通3D游戏人物。\n不要转化为传统二维平涂动漫。\n\n最终画面如同一部高预算日系东方幻想动画电影中，\n摄影机在近距离捕捉到雷电将军\n站在稻妻天守阁高处的绝美瞬间。",
+      "image": "https://pbs.twimg.com/media/HVzPl4la4AINIR0.jpg?name=large",
+      "images": [
+        "https://pbs.twimg.com/media/HVzPl4la4AINIR0.jpg?name=large"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HVzPl4la4AINIR0.jpg?name=large"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "16:9",
+      "model": "GPT Image",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/liyue_ai/status/2115794498005672269",
+      "url": "https://x.com/liyue_ai/status/2115794498005672269",
+      "domain": "x.com",
+      "date": "2026-10-30",
+      "timestamp": 1793345595491,
+      "collectedAt": "2026-10-30T07:33:15.491Z",
+      "githubSyncedAt": "2026-10-30T07:33:15.491Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "grok_x_2115310109698162797",
+      "title": "奢侈时尚大片人像",
+      "category": "时尚",
+      "tags": [
+        "photorealistic",
+        "cinematic",
+        "GPT Image",
+        "人像",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "Create an ABSOLUTELY ICONIC, ULTRA-PHOTOREALISTIC 8K LUXURY FASHION CAMPAIGN using the reference image. Preserve the woman’s exact facial identity, natural skin texture, dark-brown voluminous wavy bob, white oval sunglasses, emerald-green high-neck top, beige oversized jacket, cream tailored trousers, and original emerald-green studio aesthetic.\n\nPOSE DIRECTION — UNFORGETTABLE SIGNATURE SHOT: Capture her in a bold, sculptural, asymmetrical fashion pose. Her body is turned almost sideways, one shoulder pushed subtly forward, hips angled naturally, and head rotated back toward the camera. One hand elegantly grips the jacket collar near her shoulder while the other rests confidently inside her trouser pocket. Her chin is lifted slightly, lips relaxed, expression cool, untouchable, mysterious, and effortlessly dominant. Her jacket falls naturally from one shoulder, creating striking diagonal lines and sophisticated movement. No ordinary standing pose, no stiff posture.\n\nCINEMATIC VISUAL MASTERPIECE: Deep forest-green seamless backdrop with subtle tonal gradients, dramatic directional spotlight, sculpted chiaroscuro shadows, a fine emerald rim light tracing her hair, beautifully illuminated cheekbones, realistic sunglasses reflections, and luxurious interplay between matte beige fabric and rich jewel-toned green silk. Add subtle atmospheric depth without fog or distracting effects.\n\nCAMERA & COMPOSITION: Low-angle medium-full portrait, professional 85mm fashion lens, precise facial focus, natural perspective, exquisite depth of field, sophisticated negative space, editorial framing, authentic fabric creases, realistic hands, anatomically correct proportions, and premium cinematic color grading. The composition must feel like a world-class luxury fashion house’s signature campaign, not a generic AI portrait.\n\nFINAL FINISH: Extraordinary photorealism, lifelike skin pores, individual hair strands, physically accurate lighting, refined microcontrast, rich but natural colors, exceptional detail, visually commanding presence, elite international fashion-editorial quality, 8K-style high-resolution finish.\n\nSTRICT RULES: Preserve the original woman’s identity and every defining outfit detail. No face alteration, no wardrobe replacement, no hairstyle change, no extra fingers, no distorted anatomy, no plastic skin, no oversmoothing, no cartoon appearance, no excessive retouching, no text, no logos, no watermark. Vertical 4:5 composition.",
+      "image": "https://pbs.twimg.com/media/HVsXVHTbcAAVXlf.jpg?name=large",
+      "images": [
+        "https://pbs.twimg.com/media/HVsXVHTbcAAVXlf.jpg?name=large"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HVsXVHTbcAAVXlf.jpg?name=large"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "4:5",
+      "model": "GPT Image",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/AaqibVx/status/2115310109698162797",
+      "url": "https://x.com/AaqibVx/status/2115310109698162797",
+      "domain": "x.com",
+      "date": "2026-10-30",
+      "timestamp": 1793345595491,
+      "collectedAt": "2026-10-30T07:33:15.491Z",
+      "githubSyncedAt": "2026-10-30T07:33:15.491Z",
+      "domesticSyncedAt": null
+    },
     {
       "id": "grok_x_2114206178939146352",
       "title": "诗词文字构图可视化",
