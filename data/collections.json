@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-31T01:42:46.650Z",
+  "updatedAt": "2026-10-31T07:30:52.091Z",
   "collections": [
     {
       "id": "x_2116071021388480934",
@@ -35,7 +35,8 @@
       "date": "2026-10-31",
       "timestamp": 1793410126957,
       "collectedAt": "2026-10-31T01:28:46.957Z",
-      "githubSyncedAt": "2026-10-31T01:28:46.957Z"
+      "githubSyncedAt": "2026-10-31T01:28:46.957Z",
+      "domesticSyncedAt": "2026-10-31T07:30:52.089Z"
     },
     {
       "id": "x_2116055988591886640",
@@ -72,7 +73,8 @@
       "date": "2026-10-31",
       "timestamp": 1793410126957,
       "collectedAt": "2026-10-31T01:28:46.957Z",
-      "githubSyncedAt": "2026-10-31T01:28:46.957Z"
+      "githubSyncedAt": "2026-10-31T01:28:46.957Z",
+      "domesticSyncedAt": "2026-10-31T07:30:52.089Z"
     },
     {
       "id": "x_2116058024527958508",
@@ -108,7 +110,8 @@
       "date": "2026-10-31",
       "timestamp": 1793410126957,
       "collectedAt": "2026-10-31T01:28:46.957Z",
-      "githubSyncedAt": "2026-10-31T01:28:46.957Z"
+      "githubSyncedAt": "2026-10-31T01:28:46.957Z",
+      "domesticSyncedAt": "2026-10-31T07:30:52.089Z"
     },
     {
       "id": "x_2116123810105815412",
@@ -147,7 +150,8 @@
       "date": "2026-10-31",
       "timestamp": 1793410126957,
       "collectedAt": "2026-10-31T01:28:46.957Z",
-      "githubSyncedAt": "2026-10-31T01:28:46.957Z"
+      "githubSyncedAt": "2026-10-31T01:28:46.957Z",
+      "domesticSyncedAt": "2026-10-31T07:30:52.089Z"
     },
     {
       "id": "commerce_apimodels_ecommerce-81",
@@ -183,7 +187,8 @@
       "attribution": "apimodels/gpt-image-2-prompts (CC BY 4.0)",
       "license": "CC BY 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
-      "commerceSourceId": "apimodels-gpt-image-2-prompts"
+      "commerceSourceId": "apimodels-gpt-image-2-prompts",
+      "domesticSyncedAt": "2026-10-31T07:30:52.089Z"
     },
     {
       "id": "commerce_apimodels_ecommerce-42",
@@ -219,7 +224,8 @@
       "attribution": "apimodels/gpt-image-2-prompts (CC BY 4.0)",
       "license": "CC BY 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
-      "commerceSourceId": "apimodels-gpt-image-2-prompts"
+      "commerceSourceId": "apimodels-gpt-image-2-prompts",
+      "domesticSyncedAt": "2026-10-31T07:30:52.089Z"
     },
     {
       "id": "commerce_apimodels_ecommerce-68",
@@ -255,7 +261,8 @@
       "attribution": "apimodels/gpt-image-2-prompts (CC BY 4.0)",
       "license": "CC BY 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
-      "commerceSourceId": "apimodels-gpt-image-2-prompts"
+      "commerceSourceId": "apimodels-gpt-image-2-prompts",
+      "domesticSyncedAt": "2026-10-31T07:30:52.089Z"
     },
     {
       "id": "commerce_apimodels_ecommerce-78",
@@ -291,7 +298,8 @@
       "attribution": "apimodels/gpt-image-2-prompts (CC BY 4.0)",
       "license": "CC BY 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
-      "commerceSourceId": "apimodels-gpt-image-2-prompts"
+      "commerceSourceId": "apimodels-gpt-image-2-prompts",
+      "domesticSyncedAt": "2026-10-31T07:30:52.089Z"
     },
     {
       "id": "commerce_apimodels_ecommerce-44",
@@ -327,7 +335,8 @@
       "attribution": "apimodels/gpt-image-2-prompts (CC BY 4.0)",
       "license": "CC BY 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
-      "commerceSourceId": "apimodels-gpt-image-2-prompts"
+      "commerceSourceId": "apimodels-gpt-image-2-prompts",
+      "domesticSyncedAt": "2026-10-31T07:30:52.089Z"
     },
     {
       "id": "commerce_apimodels_ecommerce-59",
@@ -363,7 +372,8 @@
       "attribution": "apimodels/gpt-image-2-prompts (CC BY 4.0)",
       "license": "CC BY 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
-      "commerceSourceId": "apimodels-gpt-image-2-prompts"
+      "commerceSourceId": "apimodels-gpt-image-2-prompts",
+      "domesticSyncedAt": "2026-10-31T07:30:52.089Z"
     },
     {
       "id": "commerce_apimodels_ecommerce-75",
@@ -399,7 +409,8 @@
       "attribution": "apimodels/gpt-image-2-prompts (CC BY 4.0)",
       "license": "CC BY 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
-      "commerceSourceId": "apimodels-gpt-image-2-prompts"
+      "commerceSourceId": "apimodels-gpt-image-2-prompts",
+      "domesticSyncedAt": "2026-10-31T07:30:52.089Z"
     },
     {
       "id": "commerce_apimodels_product-266",
@@ -435,7 +446,8 @@
       "attribution": "apimodels/gpt-image-2-prompts (CC BY 4.0)",
       "license": "CC BY 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
-      "commerceSourceId": "apimodels-gpt-image-2-prompts"
+      "commerceSourceId": "apimodels-gpt-image-2-prompts",
+      "domesticSyncedAt": "2026-10-31T07:30:52.089Z"
     },
     {
       "id": "commerce_apimodels_product-161",
@@ -471,7 +483,8 @@
       "attribution": "apimodels/gpt-image-2-prompts (CC BY 4.0)",
       "license": "CC BY 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
-      "commerceSourceId": "apimodels-gpt-image-2-prompts"
+      "commerceSourceId": "apimodels-gpt-image-2-prompts",
+      "domesticSyncedAt": "2026-10-31T07:30:52.089Z"
     },
     {
       "id": "commerce_apimodels_product-270",
@@ -507,7 +520,8 @@
       "attribution": "apimodels/gpt-image-2-prompts (CC BY 4.0)",
       "license": "CC BY 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
-      "commerceSourceId": "apimodels-gpt-image-2-prompts"
+      "commerceSourceId": "apimodels-gpt-image-2-prompts",
+      "domesticSyncedAt": "2026-10-31T07:30:52.089Z"
     },
     {
       "id": "commerce_apimodels_product-245",
@@ -543,7 +557,8 @@
       "attribution": "apimodels/gpt-image-2-prompts (CC BY 4.0)",
       "license": "CC BY 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
-      "commerceSourceId": "apimodels-gpt-image-2-prompts"
+      "commerceSourceId": "apimodels-gpt-image-2-prompts",
+      "domesticSyncedAt": "2026-10-31T07:30:52.089Z"
     },
     {
       "id": "commerce_apimodels_product-164",
@@ -579,7 +594,8 @@
       "attribution": "apimodels/gpt-image-2-prompts (CC BY 4.0)",
       "license": "CC BY 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
-      "commerceSourceId": "apimodels-gpt-image-2-prompts"
+      "commerceSourceId": "apimodels-gpt-image-2-prompts",
+      "domesticSyncedAt": "2026-10-31T07:30:52.089Z"
     },
     {
       "id": "commerce_apimodels_product-256",
@@ -615,7 +631,8 @@
       "attribution": "apimodels/gpt-image-2-prompts (CC BY 4.0)",
       "license": "CC BY 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
-      "commerceSourceId": "apimodels-gpt-image-2-prompts"
+      "commerceSourceId": "apimodels-gpt-image-2-prompts",
+      "domesticSyncedAt": "2026-10-31T07:30:52.089Z"
     },
     {
       "id": "commerce_apimodels_product-252",
@@ -651,7 +668,8 @@
       "attribution": "apimodels/gpt-image-2-prompts (CC BY 4.0)",
       "license": "CC BY 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
-      "commerceSourceId": "apimodels-gpt-image-2-prompts"
+      "commerceSourceId": "apimodels-gpt-image-2-prompts",
+      "domesticSyncedAt": "2026-10-31T07:30:52.089Z"
     },
     {
       "id": "commerce_apimodels_product-265",
@@ -687,7 +705,8 @@
       "attribution": "apimodels/gpt-image-2-prompts (CC BY 4.0)",
       "license": "CC BY 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
-      "commerceSourceId": "apimodels-gpt-image-2-prompts"
+      "commerceSourceId": "apimodels-gpt-image-2-prompts",
+      "domesticSyncedAt": "2026-10-31T07:30:52.089Z"
     },
     {
       "id": "commerce_apimodels_product-259",
@@ -723,7 +742,8 @@
       "attribution": "apimodels/gpt-image-2-prompts (CC BY 4.0)",
       "license": "CC BY 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
-      "commerceSourceId": "apimodels-gpt-image-2-prompts"
+      "commerceSourceId": "apimodels-gpt-image-2-prompts",
+      "domesticSyncedAt": "2026-10-31T07:30:52.089Z"
     },
     {
       "id": "commerce_apimodels_product-162",
@@ -759,7 +779,8 @@
       "attribution": "apimodels/gpt-image-2-prompts (CC BY 4.0)",
       "license": "CC BY 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
-      "commerceSourceId": "apimodels-gpt-image-2-prompts"
+      "commerceSourceId": "apimodels-gpt-image-2-prompts",
+      "domesticSyncedAt": "2026-10-31T07:30:52.089Z"
     },
     {
       "id": "commerce_apimodels_product-243",
@@ -795,7 +816,8 @@
       "attribution": "apimodels/gpt-image-2-prompts (CC BY 4.0)",
       "license": "CC BY 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
-      "commerceSourceId": "apimodels-gpt-image-2-prompts"
+      "commerceSourceId": "apimodels-gpt-image-2-prompts",
+      "domesticSyncedAt": "2026-10-31T07:30:52.089Z"
     },
     {
       "id": "commerce_apimodels_product-246",
@@ -831,7 +853,8 @@
       "attribution": "apimodels/gpt-image-2-prompts (CC BY 4.0)",
       "license": "CC BY 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
-      "commerceSourceId": "apimodels-gpt-image-2-prompts"
+      "commerceSourceId": "apimodels-gpt-image-2-prompts",
+      "domesticSyncedAt": "2026-10-31T07:30:52.089Z"
     },
     {
       "id": "commerce_apimodels_product-241",
@@ -867,7 +890,8 @@
       "attribution": "apimodels/gpt-image-2-prompts (CC BY 4.0)",
       "license": "CC BY 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
-      "commerceSourceId": "apimodels-gpt-image-2-prompts"
+      "commerceSourceId": "apimodels-gpt-image-2-prompts",
+      "domesticSyncedAt": "2026-10-31T07:30:52.089Z"
     },
     {
       "id": "apimodels_gpt_image_2_ecommerce-21",
