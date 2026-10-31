@@ -1,7 +1,874 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-30T23:47:54.678Z",
+  "updatedAt": "2026-10-31T01:28:46.957Z",
   "collections": [
+    {
+      "id": "x_2116071021388480934",
+      "title": "夏装隐形模特穿搭展示",
+      "prompt": "生成一张专业女性夏季时尚穿搭展示图，每次从日系清新、韩系甜美、法式优雅、都市休闲、简约性感、海边度假等夏日风格中随机选择一种，随机搭配短袖、吊带、背心、露肩上衣、短裙、短裤、轻薄连衣裙、凉鞋、高跟鞋、包包及配饰，确保款式协调、色彩统一，每次生成不同的夏季穿搭。\n\n采用 Ghost Mannequin 隐形模特展示效果，所有服饰仿佛穿在完全透明的隐形人体上，自然呈现立体穿着轮廓，领口、袖口及衣服内部为空心结构。画面中只有服装和配饰，绝不出现真人、实体模特、皮肤、头部、手臂、双手、双腿或脚部。\n\n只展示一套完整夏装，正面直立，居中排列，竖版全身构图，浅灰色无缝摄影棚背景，柔和灯光，自然阴影，真实布料纹理，高端电商 Lookbook 风格，超写实3D渲染，无秋冬服装、无厚重外套、无文字、无拼图。",
+      "category": "电商视觉",
+      "commerceType": "模特展示",
+      "useCase": "模特展示",
+      "tags": [
+        "ghost-mannequin",
+        "电商",
+        "穿搭",
+        "Lookbook"
+      ],
+      "model": "GPT Image",
+      "mediaType": "image",
+      "image": "https://pbs.twimg.com/media/HV3LPCRb0AAD9Do.jpg?format=jpg&name=large",
+      "images": [
+        "https://pbs.twimg.com/media/HV3LPCRb0AAD9Do.jpg?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HV3LQGMbAAEhFJe.jpg?format=jpg&name=large"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HV3LPCRb0AAD9Do.jpg?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HV3LQGMbAAEhFJe.jpg?format=jpg&name=large"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "9:16",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/MrGafish/status/2116071021388480934",
+      "url": "https://x.com/MrGafish/status/2116071021388480934",
+      "domain": "x.com",
+      "date": "2026-10-31",
+      "timestamp": 1793410126957,
+      "collectedAt": "2026-10-31T01:28:46.957Z",
+      "githubSyncedAt": "2026-10-31T01:28:46.957Z"
+    },
+    {
+      "id": "x_2116055988591886640",
+      "title": "日系电商商品详情页",
+      "prompt": "以参考图为视觉风格参考，生成一张高完成度的日系电商商品详情页信息图，采用横向宽幅画布，16:9比例，真实商业摄影与精致电商排版相结合。\n\n【整体布局】\n将整张画面设计为一个完整的商品展示页面，采用清晰的多区域拼版布局，不要简单平均分割。上半部分为主要视觉区域，下半部分为商品细节与参数展示区域。使用白色背景、细灰色分隔线、柔和的粉色标签、整洁的日系无衬线字体，整体呈现专业日本电商商品详情页的视觉效果。\n\n【上半部分：人物与商品展示】\n左侧展示模特穿着商品搭配外层服装的全身或大半身照片，采用自然的生活化摄影风格。中间展示同一模特的近距离商品展示照片，突出商品穿着效果。通过醒目的粉色箭头连接两个画面，形成清晰的前后状态对比。右侧安排多张不同角度的穿着展示照片，包括正面、侧面、坐姿和自然互动姿势。所有照片中的模特身份、面部特征、发型、服装和商品必须保持一致。\n\n【下半部分：商品信息模块】\n左下区域展示商品正面、背面及主要组成部分，采用干净的白色背景与标准化产品摄影。\n中间区域展示商品的材质、花纹、缝线、肩带、连接结构和面料纹理等局部特写，每张细节图搭配简短的说明文字。\n底部设置尺码选择区域和颜色款式展示区域，以整齐的方框、色卡和小型商品图呈现。\n右下区域设置穿着前后轮廓对比，通过并排照片和简洁的箭头突出商品的版型或支撑效果。\n\n【摄影与视觉风格】\n真实人物摄影，商业级商品摄影，自然皮肤纹理，真实织物质感，清晰的缝线与材质细节，柔和环境光，合理的透视和阴影。人物照片具有真实的生活场景氛围，商品细节图采用干净、明亮、便于观察的背景。所有子画面具有统一的色彩、光线和摄影质感。\n\n【排版要求】\n信息层级清晰，主视觉突出，辅助模块整齐，文字与图片严格对齐，分隔线简洁，留白合理。日文标题、标签、商品说明和尺码文字应具有真实日本电商页面的排版风格。避免乱码、重复文字、错误字符、无意义的小字和过度拥挤的布局。确保每个模块完整可见，商品细节清晰，整体看起来像真实品牌制作的商品详情页，而不是随意拼接的照片合集。\n\n【一致性要求】\n所有人物照片必须表现同一人物；所有商品展示必须对应同一款商品；商品的颜色、材质、花纹、结构和版型保持一致。优先保证商品外观和页面布局的准确性，其次追求丰富的摄影角度与精致的视觉效果。",
+      "category": "电商视觉",
+      "commerceType": "商品详情页",
+      "useCase": "商品详情页",
+      "tags": [
+        "电商详情页",
+        "日系",
+        "商品摄影",
+        "拼版"
+      ],
+      "model": "GPT Image",
+      "mediaType": "image",
+      "image": "https://pbs.twimg.com/media/HV28HPwb0AAl2_p.jpg?format=jpg&name=large",
+      "images": [
+        "https://pbs.twimg.com/media/HV28HPwb0AAl2_p.jpg?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HV29XNbbYAAiIRP.jpg?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HV29lvBbgAAi4ID.jpg?format=jpg&name=large"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HV28HPwb0AAl2_p.jpg?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HV29XNbbYAAiIRP.jpg?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HV29lvBbgAAi4ID.jpg?format=jpg&name=large"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "16:9",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/aisima2046/status/2116055988591886640",
+      "url": "https://x.com/aisima2046/status/2116055988591886640",
+      "domain": "x.com",
+      "date": "2026-10-31",
+      "timestamp": 1793410126957,
+      "collectedAt": "2026-10-31T01:28:46.957Z",
+      "githubSyncedAt": "2026-10-31T01:28:46.957Z"
+    },
+    {
+      "id": "x_2116058024527958508",
+      "title": "电影感广告破屏海报",
+      "prompt": "Cinematic Advertisement with Centered Instagram Post\n\nAct as a professional advertising art director and create a high-quality, photorealistic commercial advertisement using the provided reference image as inspiration.\n\nMain Scene: Preserve the main product, brand identity, people, clothing, colors, environment, and overall concept from the reference image. Enhance the scene with cinematic lighting, realistic textures, natural facial expressions, detailed product presentation, and professional commercial photography.\n\nInstagram Interface Placement: Place a large, realistic Instagram-style post card horizontally across the middle of the entire composition, dividing the image into upper and lower visual sections. The card should feature a clean white background, circular brand profile picture, brand username, blue verification badge where appropriate, timestamp, three-dot menu, engagement icons, like count, caption text, and comment information.\n\nLayering and Composition: The main subject should appear prominently in the upper section, while complementary characters, product details, or a continuation of the scene occupy the lower section. Allow selected elements, such as a hand, product, food item, or packaging, to extend naturally in front of or behind the central Instagram card, creating a realistic 3D depth effect. Keep the interface readable and ensure it does not unnecessarily obscure the main subject.\n\nBranding and Text: Retain the original brand name, recognizable logo, and product identity when appropriate. Use a short, engaging promotional caption relevant to the product. Keep all text clean, legible, correctly spelled, and professionally aligned.\n\nVisual Style: Premium commercial campaign, photorealistic rendering, cinematic lighting, realistic shadows, rich but balanced colors, shallow depth of field where appropriate, sharp product details, polished art direction, realistic perspective, and seamless compositing.\n\nOutput Requirements: Vertical 4:5 aspect ratio, high resolution, carefully balanced composition, Instagram interface centered horizontally and vertically around the middle of the image, realistic foreground-background separation, no unnecessary interface elements, no distorted hands, no duplicated objects, and no garbled text.\n\nOriginality: Create a fresh composition inspired by the reference rather than an exact reproduction of an existing advertisement. Preserve the general creative concept while using original layouts, supporting details, and promotional copy.",
+      "category": "电商视觉",
+      "commerceType": "广告海报",
+      "useCase": "广告海报",
+      "tags": [
+        "advertising",
+        "cinematic",
+        "Instagram",
+        "商业广告"
+      ],
+      "model": "GPT Image 2.5",
+      "mediaType": "image",
+      "image": "https://pbs.twimg.com/media/HV2_iDQbcAA1QBE.jpg?format=jpg&name=large",
+      "images": [
+        "https://pbs.twimg.com/media/HV2_iDQbcAA1QBE.jpg?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HV2_i67bkAA7O1y.jpg?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HV2_jfRaEAA2q5x.jpg?format=jpg&name=large"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HV2_iDQbcAA1QBE.jpg?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HV2_i67bkAA7O1y.jpg?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HV2_jfRaEAA2q5x.jpg?format=jpg&name=large"
+      ],
+      "referenceImages": [],
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/meng_dagg695/status/2116058024527958508",
+      "url": "https://x.com/meng_dagg695/status/2116058024527958508",
+      "domain": "x.com",
+      "date": "2026-10-31",
+      "timestamp": 1793410126957,
+      "collectedAt": "2026-10-31T01:28:46.957Z",
+      "githubSyncedAt": "2026-10-31T01:28:46.957Z"
+    },
+    {
+      "id": "x_2116123810105815412",
+      "title": "掐丝珐琅现代物件产品照",
+      "prompt": "掐丝珐琅万物 × 现代物件开放抽卡 × 明清宫廷景泰蓝风格 × 工艺品产品摄影\n\n每张随机选择一个不同的现代物件，保留清晰可辨的外形与结构，转译为完整的掐丝珐琅工艺品，形成宫廷工艺与当代生活的趣味反差。\n\n鎏金铜丝分隔纹样，珐琅釉色鲜明，釉面温润反光，局部保留轻微的工艺痕迹。铜丝与填色贴合物件表面，转折、接缝与厚度合理。\n\n随机探索配色、纹样、装饰疏密、陈列环境、观察角度、景别与构图。装饰呼应物件自身特征，保留结构与功能的辨识度。\n\n柔光呈现金线与釉面，陈列方式随主体变化，突出工艺品本身。\n\n同批保持统一的掐丝珐琅工艺语言，主体、轮廓与主要构图差异明显。\n\nn=10，9:16，每次生成一张独立图片，逐张输出，不拼图。\n\n左下签名：深蓝色实心圆点在前，白色手写体「DeepBlue」在后。",
+      "category": "电商视觉",
+      "commerceType": "产品主图",
+      "useCase": "产品主图",
+      "tags": [
+        "景泰蓝",
+        "产品摄影",
+        "工艺品",
+        "开放抽卡"
+      ],
+      "model": "GPT Image 2.5",
+      "mediaType": "image",
+      "image": "https://pbs.twimg.com/media/HV37YgcbEAAox6M.jpg?format=jpg&name=large",
+      "images": [
+        "https://pbs.twimg.com/media/HV37YgcbEAAox6M.jpg?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HV37YghbAAAVl6d.jpg?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HV37Ygda8AAxduT.jpg?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HV37YkLaUAAoGZv.jpg?format=jpg&name=large"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HV37YgcbEAAox6M.jpg?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HV37YghbAAAVl6d.jpg?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HV37Ygda8AAxduT.jpg?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HV37YkLaUAAoGZv.jpg?format=jpg&name=large"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "9:16",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/DeepBlueX0/status/2116123810105815412",
+      "url": "https://x.com/DeepBlueX0/status/2116123810105815412",
+      "domain": "x.com",
+      "date": "2026-10-31",
+      "timestamp": 1793410126957,
+      "collectedAt": "2026-10-31T01:28:46.957Z",
+      "githubSyncedAt": "2026-10-31T01:28:46.957Z"
+    },
+    {
+      "id": "commerce_apimodels_ecommerce-81",
+      "title": "单一产地咖啡豆袋主图",
+      "prompt": "哑光牛皮纸色自立袋装的「Cerro Alto」单一产地咖啡豆,笔直立在粗粝的水泥台面上。袋底四周散落着刚烘焙好的整颗咖啡豆,旁边露出一角粗麻布,袋后有一缕若隐若现的热气升腾。柔和的窗光从左侧斜打进来,在右方投下长长的柔影。整体是栗棕、驼色与奶白的大地色调。略微四分之三正面角度、平视拍摄,浅景深,产品清晰锐利,呈现精品咖啡电商目录的高级质感。",
+      "category": "电商视觉",
+      "commerceType": "产品主图",
+      "useCase": "产品主图",
+      "tags": [
+        "coffee",
+        "packaging",
+        "specialty"
+      ],
+      "model": "GPT Image",
+      "mediaType": "image",
+      "image": "https://r2.apimodels.app/assets/prompt-gallery/1785070731607_ecommerce-81.png",
+      "images": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785070731607_ecommerce-81.png"
+      ],
+      "rawImages": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785070731607_ecommerce-81.png"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "4:5",
+      "source": "apimodels/gpt-image-2-prompts",
+      "sourceUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#ecommerce-81",
+      "url": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#ecommerce-81",
+      "domain": "github.com",
+      "date": "2026-10-31",
+      "timestamp": 1793410126957,
+      "collectedAt": "2026-10-31T01:28:46.957Z",
+      "githubSyncedAt": "2026-10-31T01:28:46.957Z",
+      "attribution": "apimodels/gpt-image-2-prompts (CC BY 4.0)",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "commerceSourceId": "apimodels-gpt-image-2-prompts"
+    },
+    {
+      "id": "commerce_apimodels_ecommerce-42",
+      "title": "Milk & Moss 沐浴露",
+      "prompt": "一支高挑哑光鼠尾草绿按压瓶装 Milk & Moss 奶油沐浴露立在湿润的板岩台面上，瓶底柔柔地泛起浓郁的白色泡沫，光亮的气泡附着其上。身后垂落一枝新鲜尤加利。清凉清新的浴室光从左上方打来，鼠尾草绿、奶白与板岩色调，雾蒙蒙的虚化背景。视平线正面拍摄，85mm 镜头，营造洁净水疗般的沐浴氛围，泡沫与气泡细节清晰，顶部留有通透负空间。",
+      "category": "电商视觉",
+      "commerceType": "产品主图",
+      "useCase": "产品主图",
+      "tags": [
+        "bath-body",
+        "body-wash",
+        "fresh"
+      ],
+      "model": "GPT Image",
+      "mediaType": "image",
+      "image": "https://r2.apimodels.app/assets/prompt-gallery/1785125906582_ecommerce-42.png",
+      "images": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785125906582_ecommerce-42.png"
+      ],
+      "rawImages": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785125906582_ecommerce-42.png"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "4:5",
+      "source": "apimodels/gpt-image-2-prompts",
+      "sourceUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#ecommerce-42",
+      "url": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#ecommerce-42",
+      "domain": "github.com",
+      "date": "2026-10-31",
+      "timestamp": 1793410126957,
+      "collectedAt": "2026-10-31T01:28:46.957Z",
+      "githubSyncedAt": "2026-10-31T01:28:46.957Z",
+      "attribution": "apimodels/gpt-image-2-prompts (CC BY 4.0)",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "commerceSourceId": "apimodels-gpt-image-2-prompts"
+    },
+    {
+      "id": "commerce_apimodels_ecommerce-68",
+      "title": "Gentry Co 剃须膏",
+      "prompt": "一只板岩蓝釉的圆形陶瓷碗装 Gentry Co 奢华剃须膏敞开放在大理石台面上，碗内是浓郁的白色膏体漩涡，顶部一层柔软泡沫，旁边搁着一把獾毛式剃须刷。旁边躺着一把镀铬安全剃刀。左上方洁净明亮的光，板岩蓝、白泡沫与铬色调，清爽的浅灰背景。俯拍 40 度倾斜，85mm 镜头，营造精致经典的护理氛围，打发泡沫质感细腻，刷毛细节清晰。",
+      "category": "电商视觉",
+      "commerceType": "产品主图",
+      "useCase": "产品主图",
+      "tags": [
+        "mens-grooming",
+        "shave-cream",
+        "classic"
+      ],
+      "model": "GPT Image",
+      "mediaType": "image",
+      "image": "https://r2.apimodels.app/assets/prompt-gallery/1785126054870_ecommerce-68.png",
+      "images": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785126054870_ecommerce-68.png"
+      ],
+      "rawImages": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785126054870_ecommerce-68.png"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "1:1",
+      "source": "apimodels/gpt-image-2-prompts",
+      "sourceUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#ecommerce-68",
+      "url": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#ecommerce-68",
+      "domain": "github.com",
+      "date": "2026-10-31",
+      "timestamp": 1793410126957,
+      "collectedAt": "2026-10-31T01:28:46.957Z",
+      "githubSyncedAt": "2026-10-31T01:28:46.957Z",
+      "attribution": "apimodels/gpt-image-2-prompts (CC BY 4.0)",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "commerceSourceId": "apimodels-gpt-image-2-prompts"
+    },
+    {
+      "id": "commerce_apimodels_ecommerce-78",
+      "title": "Purevity 欧米伽软胶囊",
+      "prompt": "一只透明玻璃罐装 Purevity 欧米伽-3 琥珀色软胶囊立在明亮的白色台面上，前方散落着一堆光亮的金色软胶囊，旁边点缀着银亮的鱼鳞质感元素和一角柠檬。上方明亮洁净的光，琥珀金、透明玻璃与白色调，清爽无缝的背景。视平线正面拍摄，90mm 镜头，营造洁净医美感的保健品氛围，半透明软胶囊光亮有质感，对焦锐利，极简通透构图。",
+      "category": "电商视觉",
+      "commerceType": "产品主图",
+      "useCase": "产品主图",
+      "tags": [
+        "wellness",
+        "omega-3",
+        "softgels"
+      ],
+      "model": "GPT Image",
+      "mediaType": "image",
+      "image": "https://r2.apimodels.app/assets/prompt-gallery/1785126075551_ecommerce-78.png",
+      "images": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785126075551_ecommerce-78.png"
+      ],
+      "rawImages": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785126075551_ecommerce-78.png"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "1:1",
+      "source": "apimodels/gpt-image-2-prompts",
+      "sourceUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#ecommerce-78",
+      "url": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#ecommerce-78",
+      "domain": "github.com",
+      "date": "2026-10-31",
+      "timestamp": 1793410126957,
+      "collectedAt": "2026-10-31T01:28:46.957Z",
+      "githubSyncedAt": "2026-10-31T01:28:46.957Z",
+      "attribution": "apimodels/gpt-image-2-prompts (CC BY 4.0)",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "commerceSourceId": "apimodels-gpt-image-2-prompts"
+    },
+    {
+      "id": "commerce_apimodels_ecommerce-44",
+      "title": "Cocoon 身体乳霜",
+      "prompt": "一只圆形磨砂白罐装 Cocoon 打发乳木果身体乳霜敞开放在蓬松的奶油色毛巾上，罐内云朵般打发的乳霜挑成柔软的漩涡尖，盖子上搁着一团顺滑的膏体。旁边躺着一颗可可荚和几颗乳木果。柔和温暖的布光，奶油、象牙与可可棕色调，温馨虚化的米色背景。俯拍 45 度倾斜，90mm 镜头，营造柔软抚慰的身体护理氛围，蓬松打发的质感细腻。",
+      "category": "电商视觉",
+      "commerceType": "产品主图",
+      "useCase": "产品主图",
+      "tags": [
+        "bath-body",
+        "body-butter",
+        "whipped"
+      ],
+      "model": "GPT Image",
+      "mediaType": "image",
+      "image": "https://r2.apimodels.app/assets/prompt-gallery/1785125907449_ecommerce-44.png",
+      "images": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785125907449_ecommerce-44.png"
+      ],
+      "rawImages": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785125907449_ecommerce-44.png"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "1:1",
+      "source": "apimodels/gpt-image-2-prompts",
+      "sourceUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#ecommerce-44",
+      "url": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#ecommerce-44",
+      "domain": "github.com",
+      "date": "2026-10-31",
+      "timestamp": 1793410126957,
+      "collectedAt": "2026-10-31T01:28:46.957Z",
+      "githubSyncedAt": "2026-10-31T01:28:46.957Z",
+      "attribution": "apimodels/gpt-image-2-prompts (CC BY 4.0)",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "commerceSourceId": "apimodels-gpt-image-2-prompts"
+    },
+    {
+      "id": "commerce_apimodels_ecommerce-59",
+      "title": "Chip Not 底油",
+      "prompt": "一支高挑纤细的透明瓶装 Chip Not 持久底油，配柔珊瑚色瓶盖，居中立在浅蜜桃色台面上，旁边刷着一道光亮的透明笔触。下方角落点缀着一颗新鲜蜜桃和一条卷曲丝带。明亮柔和欢快的布光，珊瑚、蜜桃与透明玻璃色调，暖调背景虚化。视平线略高正面拍摄，90mm 镜头，营造清新的日常美甲氛围，试色与瓶身光亮高光，顶部留有通透空间。",
+      "category": "电商视觉",
+      "commerceType": "产品主图",
+      "useCase": "产品主图",
+      "tags": [
+        "nail",
+        "base-coat",
+        "everyday"
+      ],
+      "model": "GPT Image",
+      "mediaType": "image",
+      "image": "https://r2.apimodels.app/assets/prompt-gallery/1785125989259_ecommerce-59.png",
+      "images": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785125989259_ecommerce-59.png"
+      ],
+      "rawImages": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785125989259_ecommerce-59.png"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "4:5",
+      "source": "apimodels/gpt-image-2-prompts",
+      "sourceUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#ecommerce-59",
+      "url": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#ecommerce-59",
+      "domain": "github.com",
+      "date": "2026-10-31",
+      "timestamp": 1793410126957,
+      "collectedAt": "2026-10-31T01:28:46.957Z",
+      "githubSyncedAt": "2026-10-31T01:28:46.957Z",
+      "attribution": "apimodels/gpt-image-2-prompts (CC BY 4.0)",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "commerceSourceId": "apimodels-gpt-image-2-prompts"
+    },
+    {
+      "id": "commerce_apimodels_ecommerce-75",
+      "title": "Flora Daily 益生菌",
+      "prompt": "一只圆润的琥珀玻璃瓶装 Flora Daily 益生菌胶囊，配奶油色标签，立在柔和的粉彩色台面上，旁边散落几颗浅色胶囊，一旁放着一枝新鲜薄荷。柔和洁净讨喜的布光，琥珀玻璃、奶油与腮红粉色调，干净的粉彩背景。视平线略高正面拍摄，90mm 镜头，营造温和天然的肠道健康氛围，胶囊光亮有质感，柔和通透构图，顶部留有充裕负空间。",
+      "category": "电商视觉",
+      "commerceType": "产品主图",
+      "useCase": "产品主图",
+      "tags": [
+        "wellness",
+        "probiotic",
+        "supplement"
+      ],
+      "model": "GPT Image",
+      "mediaType": "image",
+      "image": "https://r2.apimodels.app/assets/prompt-gallery/1785126077744_ecommerce-75.png",
+      "images": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785126077744_ecommerce-75.png"
+      ],
+      "rawImages": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785126077744_ecommerce-75.png"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "4:5",
+      "source": "apimodels/gpt-image-2-prompts",
+      "sourceUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#ecommerce-75",
+      "url": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#ecommerce-75",
+      "domain": "github.com",
+      "date": "2026-10-31",
+      "timestamp": 1793410126957,
+      "collectedAt": "2026-10-31T01:28:46.957Z",
+      "githubSyncedAt": "2026-10-31T01:28:46.957Z",
+      "attribution": "apimodels/gpt-image-2-prompts (CC BY 4.0)",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "commerceSourceId": "apimodels-gpt-image-2-prompts"
+    },
+    {
+      "id": "commerce_apimodels_product-266",
+      "title": "周末旅行袋出行大片",
+      "prompt": "虚构品牌 Otto Bell 的一款上蜡帆布拼皮革周末旅行袋，橄榄绿配栗棕色，放在温暖的木长椅上，旁边是一只黄铜包角的复古行李箱，背景为柔和的暖灰。卷制皮手柄、黄铜拉链头和加固的底部包角细节锐利。温暖的方向光从左侧打来，营造黄金时刻的出行感。配色为橄榄绿、栗棕与暖灰。平视四分之三机位。令人向往的复古旅行箱包广告氛围，粗犷又精致，上蜡质感清晰可见。",
+      "category": "电商视觉",
+      "commerceType": "产品主图",
+      "useCase": "产品主图",
+      "tags": [
+        "handbag",
+        "duffel",
+        "travel"
+      ],
+      "model": "GPT Image",
+      "mediaType": "image",
+      "image": "https://r2.apimodels.app/assets/prompt-gallery/1785126915967_product-266.png",
+      "images": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785126915967_product-266.png"
+      ],
+      "rawImages": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785126915967_product-266.png"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "2:3",
+      "source": "apimodels/gpt-image-2-prompts",
+      "sourceUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#product-266",
+      "url": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#product-266",
+      "domain": "github.com",
+      "date": "2026-10-31",
+      "timestamp": 1793410126957,
+      "collectedAt": "2026-10-31T01:28:46.957Z",
+      "githubSyncedAt": "2026-10-31T01:28:46.957Z",
+      "attribution": "apimodels/gpt-image-2-prompts (CC BY 4.0)",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "commerceSourceId": "apimodels-gpt-image-2-prompts"
+    },
+    {
+      "id": "commerce_apimodels_product-161",
+      "title": "Voltaro 磁吸移动电源",
+      "prompt": "产品主视觉:一块名为「Voltaro Pulse」的纤薄石墨灰磁吸移动电源,吸附在悬浮的深色手机背面,边缘泛出柔和的蓝色充电指示光环。哑光炭黑亚克力台面,底部一道干净利落的倒影。左上方柔光箱布光,冷调轮廓光勾勒铝合金边框,浅景深,金属表面点缀细腻高光。极简科技广告氛围,顶部留白放广告语「牢牢吸住每一度电」。相机俯视45度,极致干净的商业摄影。",
+      "category": "电商视觉",
+      "commerceType": "产品主图",
+      "useCase": "产品主图",
+      "tags": [
+        "gadget",
+        "powerbank",
+        "tech"
+      ],
+      "model": "GPT Image",
+      "mediaType": "image",
+      "image": "https://r2.apimodels.app/assets/prompt-gallery/1785126513909_product-161.png",
+      "images": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785126513909_product-161.png"
+      ],
+      "rawImages": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785126513909_product-161.png"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "4:5",
+      "source": "apimodels/gpt-image-2-prompts",
+      "sourceUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#product-161",
+      "url": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#product-161",
+      "domain": "github.com",
+      "date": "2026-10-31",
+      "timestamp": 1793410126957,
+      "collectedAt": "2026-10-31T01:28:46.957Z",
+      "githubSyncedAt": "2026-10-31T01:28:46.957Z",
+      "attribution": "apimodels/gpt-image-2-prompts (CC BY 4.0)",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "commerceSourceId": "apimodels-gpt-image-2-prompts"
+    },
+    {
+      "id": "commerce_apimodels_product-270",
+      "title": "双肩包都市通勤大片",
+      "prompt": "虚构品牌 Verdi Works 的一款极简卷盖式通勤双肩包，哑光石墨灰再生尼龙，立在粗糙的水泥台沿上，背景为柔和冷灰的都市感，带微妙的窗光渐变。磁吸卷盖、同色拉链、加厚笔记本隔层和低调的反光饰条细节锐利。冷调方向光从左侧打来，阴影干净。配色为石墨灰、冷灰与黑。略低的四分之三机位。利落现代的科技感配饰广告氛围，实用且高级，哑光质感清晰可见。",
+      "category": "电商视觉",
+      "commerceType": "产品主图",
+      "useCase": "产品主图",
+      "tags": [
+        "handbag",
+        "backpack",
+        "urban"
+      ],
+      "model": "GPT Image",
+      "mediaType": "image",
+      "image": "https://r2.apimodels.app/assets/prompt-gallery/1785126919105_product-270.png",
+      "images": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785126919105_product-270.png"
+      ],
+      "rawImages": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785126919105_product-270.png"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "2:3",
+      "source": "apimodels/gpt-image-2-prompts",
+      "sourceUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#product-270",
+      "url": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#product-270",
+      "domain": "github.com",
+      "date": "2026-10-31",
+      "timestamp": 1793410126957,
+      "collectedAt": "2026-10-31T01:28:46.957Z",
+      "githubSyncedAt": "2026-10-31T01:28:46.957Z",
+      "attribution": "apimodels/gpt-image-2-prompts (CC BY 4.0)",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "commerceSourceId": "apimodels-gpt-image-2-prompts"
+    },
+    {
+      "id": "commerce_apimodels_product-245",
+      "title": "夏日连衣裙粉彩平铺",
+      "prompt": "俯拍平铺一件虚构品牌 Meadowlark 的清爽多层棉质中长裙，柔和奶油黄色，铺展开来展示轻盈的荷叶层次与手工缩褶胸衣细节。搭配在刷白的木地板上，配一双拉菲草编凉鞋、一顶草编太阳帽和几枝新鲜雏菊。明亮通透的日光从上方均匀铺洒，画面清新。愉悦的奶油黄、白与本色草编配色。正俯视 90 度机位，俏皮的春夏 lookbook 氛围，轻盈又乐观。",
+      "category": "电商视觉",
+      "commerceType": "产品主图",
+      "useCase": "产品主图",
+      "tags": [
+        "apparel",
+        "dress",
+        "flat-lay"
+      ],
+      "model": "GPT Image",
+      "mediaType": "image",
+      "image": "https://r2.apimodels.app/assets/prompt-gallery/1785126837063_product-245.png",
+      "images": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785126837063_product-245.png"
+      ],
+      "rawImages": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785126837063_product-245.png"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "4:5",
+      "source": "apimodels/gpt-image-2-prompts",
+      "sourceUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#product-245",
+      "url": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#product-245",
+      "domain": "github.com",
+      "date": "2026-10-31",
+      "timestamp": 1793410126957,
+      "collectedAt": "2026-10-31T01:28:46.957Z",
+      "githubSyncedAt": "2026-10-31T01:28:46.957Z",
+      "attribution": "apimodels/gpt-image-2-prompts (CC BY 4.0)",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "commerceSourceId": "apimodels-gpt-image-2-prompts"
+    },
+    {
+      "id": "commerce_apimodels_product-164",
+      "title": "Lumen 电子墨水阅读器",
+      "prompt": "干净的产品照:一台名为「Lumen Paperlight」的纤薄鼠尾草绿电子墨水阅读器,屏幕上是暖纸白页面与清晰的黑色文字,由隐形支架立起。柔和奶油色无缝背景配轻微暗角。顶部漫射光,暖色前光模拟阅读器可调冷暖屏光,哑光边框带细腻类肤触感。宁静书香的科技广告氛围,4:5竖幅,居中,底部纤细阴影。上方留白广告语「一整座图书馆,一次一页」。",
+      "category": "电商视觉",
+      "commerceType": "产品主图",
+      "useCase": "产品主图",
+      "tags": [
+        "gadget",
+        "e-reader",
+        "minimal"
+      ],
+      "model": "GPT Image",
+      "mediaType": "image",
+      "image": "https://r2.apimodels.app/assets/prompt-gallery/1785126539424_product-164.png",
+      "images": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785126539424_product-164.png"
+      ],
+      "rawImages": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785126539424_product-164.png"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "4:5",
+      "source": "apimodels/gpt-image-2-prompts",
+      "sourceUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#product-164",
+      "url": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#product-164",
+      "domain": "github.com",
+      "date": "2026-10-31",
+      "timestamp": 1793410126957,
+      "collectedAt": "2026-10-31T01:28:46.957Z",
+      "githubSyncedAt": "2026-10-31T01:28:46.957Z",
+      "attribution": "apimodels/gpt-image-2-prompts (CC BY 4.0)",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "commerceSourceId": "apimodels-gpt-image-2-prompts"
+    },
+    {
+      "id": "commerce_apimodels_product-256",
+      "title": "芭蕾平底鞋柔美产品图",
+      "prompt": "虚构品牌 Aeroleaf 的一双精致芭蕾平底鞋，柔和腮红色麂皮，一只立起一只侧放在奶油色螺纹亚麻布面上，展示小巧的蝴蝶结、松紧鞋口和柔软的皮革内垫。旁边搭配浅粉牡丹花瓣和一条折好的薄纱缎带。柔和的日光从右上方漫射，带来梦幻朦胧的光晕。配色为腮红、奶油与浅粉。略高的四分之三机位。浪漫女性化的鞋履 lookbook 氛围，柔美而细腻。",
+      "category": "电商视觉",
+      "commerceType": "产品主图",
+      "useCase": "产品主图",
+      "tags": [
+        "footwear",
+        "flats",
+        "romantic"
+      ],
+      "model": "GPT Image",
+      "mediaType": "image",
+      "image": "https://r2.apimodels.app/assets/prompt-gallery/1785126871104_product-256.png",
+      "images": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785126871104_product-256.png"
+      ],
+      "rawImages": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785126871104_product-256.png"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "1:1",
+      "source": "apimodels/gpt-image-2-prompts",
+      "sourceUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#product-256",
+      "url": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#product-256",
+      "domain": "github.com",
+      "date": "2026-10-31",
+      "timestamp": 1793410126957,
+      "collectedAt": "2026-10-31T01:28:46.957Z",
+      "githubSyncedAt": "2026-10-31T01:28:46.957Z",
+      "attribution": "apimodels/gpt-image-2-prompts (CC BY 4.0)",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "commerceSourceId": "apimodels-gpt-image-2-prompts"
+    },
+    {
+      "id": "commerce_apimodels_product-252",
+      "title": "越野跑鞋动感大片",
+      "prompt": "虚构品牌 Terra Vela 的硬派越野跑鞋，石板灰配荧光青柠色，捕捉腾空瞬间，扬起一小簇干燥的沙漠尘土，背景为暖赭石色峡谷色调。凶悍的深齿橡胶大底、透气的格子布网面鞋身和加固鞋头细节锐利。低角度右侧的暖硬光营造出戏剧性的动感阴影。配色为石板灰、荧光青柠与赭石。动感十足的低位四分之三运动机位。高能的运动鞋广告氛围，动态感十足。",
+      "category": "电商视觉",
+      "commerceType": "产品主图",
+      "useCase": "产品主图",
+      "tags": [
+        "footwear",
+        "running",
+        "dynamic"
+      ],
+      "model": "GPT Image",
+      "mediaType": "image",
+      "image": "https://r2.apimodels.app/assets/prompt-gallery/1785126857546_product-252.png",
+      "images": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785126857546_product-252.png"
+      ],
+      "rawImages": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785126857546_product-252.png"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "4:5",
+      "source": "apimodels/gpt-image-2-prompts",
+      "sourceUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#product-252",
+      "url": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#product-252",
+      "domain": "github.com",
+      "date": "2026-10-31",
+      "timestamp": 1793410126957,
+      "collectedAt": "2026-10-31T01:28:46.957Z",
+      "githubSyncedAt": "2026-10-31T01:28:46.957Z",
+      "attribution": "apimodels/gpt-image-2-prompts (CC BY 4.0)",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "commerceSourceId": "apimodels-gpt-image-2-prompts"
+    },
+    {
+      "id": "commerce_apimodels_product-265",
+      "title": "真丝丝巾流动产品图",
+      "prompt": "虚构品牌 Marchetti 的一条大方形真丝斜纹丝巾，印有华丽的佩斯利与植物花纹，青绿、珊瑚与金配色，捕捉其腾空飘动、优雅流动的涟漪瞬间，背景为干净的暖白。光泽的斜纹面料映着柔和的影棚光，展现鲜艳的印花细节和手卷边。明亮均匀的灯光带柔和光泽。配色为青绿、珊瑚与金。正面机位捕捉面料的动态。优雅的奢华丝巾配饰广告氛围，鲜艳而灵动。",
+      "category": "电商视觉",
+      "commerceType": "产品主图",
+      "useCase": "产品主图",
+      "tags": [
+        "accessory",
+        "scarf",
+        "silk"
+      ],
+      "model": "GPT Image",
+      "mediaType": "image",
+      "image": "https://r2.apimodels.app/assets/prompt-gallery/1785126915360_product-265.png",
+      "images": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785126915360_product-265.png"
+      ],
+      "rawImages": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785126915360_product-265.png"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "1:1",
+      "source": "apimodels/gpt-image-2-prompts",
+      "sourceUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#product-265",
+      "url": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#product-265",
+      "domain": "github.com",
+      "date": "2026-10-31",
+      "timestamp": 1793410126957,
+      "collectedAt": "2026-10-31T01:28:46.957Z",
+      "githubSyncedAt": "2026-10-31T01:28:46.957Z",
+      "attribution": "apimodels/gpt-image-2-prompts (CC BY 4.0)",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "commerceSourceId": "apimodels-gpt-image-2-prompts"
+    },
+    {
+      "id": "commerce_apimodels_product-259",
+      "title": "复古慢跑鞋怀旧大片",
+      "prompt": "虚构品牌 Lumen Runners 的一双复古风麂皮拼网面跑鞋，奶油、森林绿与芥末黄配色，摆在暖米色无缝背景前，带柔和的复古调色。橡胶大底、麂皮贴片、缝制侧板和华夫格鞋纹细节锐利。温暖怀旧的日光从右侧照入，带柔和颗粒和轻微光晕。配色为奶油、森林绿与芥末黄。平视四分之三机位。七十年代复古慢跑鞋广告氛围，温暖复古，可见麂皮绒面。",
+      "category": "电商视觉",
+      "commerceType": "产品主图",
+      "useCase": "产品主图",
+      "tags": [
+        "footwear",
+        "retro",
+        "sneaker"
+      ],
+      "model": "GPT Image",
+      "mediaType": "image",
+      "image": "https://r2.apimodels.app/assets/prompt-gallery/1785126887317_product-259.png",
+      "images": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785126887317_product-259.png"
+      ],
+      "rawImages": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785126887317_product-259.png"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "4:5",
+      "source": "apimodels/gpt-image-2-prompts",
+      "sourceUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#product-259",
+      "url": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#product-259",
+      "domain": "github.com",
+      "date": "2026-10-31",
+      "timestamp": 1793410126957,
+      "collectedAt": "2026-10-31T01:28:46.957Z",
+      "githubSyncedAt": "2026-10-31T01:28:46.957Z",
+      "attribution": "apimodels/gpt-image-2-prompts (CC BY 4.0)",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "commerceSourceId": "apimodels-gpt-image-2-prompts"
+    },
+    {
+      "id": "commerce_apimodels_product-162",
+      "title": "Kestrel USB-C 扩展坞",
+      "prompt": "一款名为「Kestrel Link」的紧凑太空银铝合金 USB-C 扩展坞悬浮于半空,编织线材优雅弧线延伸至笔记本、SD卡与HDMI接头,每个接口都被柔光点亮。青绿到藏蓝渐变背景上的定格产品摄影,硬光源在拉丝金属上拉出明亮镜面高光,接口指示灯散发淡蓝辅光。居中对称构图,1:1画幅,底部悬浮阴影。高端配件品牌质感,锐利而未来。",
+      "category": "电商视觉",
+      "commerceType": "产品主图",
+      "useCase": "产品主图",
+      "tags": [
+        "gadget",
+        "usb-hub",
+        "accessory"
+      ],
+      "model": "GPT Image",
+      "mediaType": "image",
+      "image": "https://r2.apimodels.app/assets/prompt-gallery/1785126492128_product-162.png",
+      "images": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785126492128_product-162.png"
+      ],
+      "rawImages": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785126492128_product-162.png"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "1:1",
+      "source": "apimodels/gpt-image-2-prompts",
+      "sourceUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#product-162",
+      "url": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#product-162",
+      "domain": "github.com",
+      "date": "2026-10-31",
+      "timestamp": 1793410126957,
+      "collectedAt": "2026-10-31T01:28:46.957Z",
+      "githubSyncedAt": "2026-10-31T01:28:46.957Z",
+      "attribution": "apimodels/gpt-image-2-prompts (CC BY 4.0)",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "commerceSourceId": "apimodels-gpt-image-2-prompts"
+    },
+    {
+      "id": "commerce_apimodels_product-243",
+      "title": "针织毛衣温暖平铺",
+      "prompt": "俯拍平铺一件虚构品牌 Nord & Ash 的粗棒麻花羊毛毛衣，焦陶土色，折叠展示密实的编织针法与螺纹袖口。摆在质朴的橡木台面上，旁边有一杯黑咖啡的陶瓷马克杯、一副圆框老花镜和一本摊开的亚麻封面笔记本。温暖的清晨窗光从右侧照入，投出柔和阴影。秋意浓的陶土、胡桃与奶油配色。正俯视 90 度机位，营造惬意的居家生活方式画册氛围。",
+      "category": "电商视觉",
+      "commerceType": "产品主图",
+      "useCase": "产品主图",
+      "tags": [
+        "apparel",
+        "knitwear",
+        "flat-lay"
+      ],
+      "model": "GPT Image",
+      "mediaType": "image",
+      "image": "https://r2.apimodels.app/assets/prompt-gallery/1785126834846_product-243.png",
+      "images": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785126834846_product-243.png"
+      ],
+      "rawImages": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785126834846_product-243.png"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "1:1",
+      "source": "apimodels/gpt-image-2-prompts",
+      "sourceUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#product-243",
+      "url": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#product-243",
+      "domain": "github.com",
+      "date": "2026-10-31",
+      "timestamp": 1793410126957,
+      "collectedAt": "2026-10-31T01:28:46.957Z",
+      "githubSyncedAt": "2026-10-31T01:28:46.957Z",
+      "attribution": "apimodels/gpt-image-2-prompts (CC BY 4.0)",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "commerceSourceId": "apimodels-gpt-image-2-prompts"
+    },
+    {
+      "id": "commerce_apimodels_product-246",
+      "title": "牛仔外套硬朗平铺",
+      "prompt": "俯拍平铺一件虚构品牌 Grit Provisions 的水洗靛蓝牛仔夹克，敞开摆放，露出撞色铜线明缝、磨旧的赤耳袖口和灯芯绒领子。铺在斑驳的水泥台面上，旁边有折好的印花头巾、黄铜铆钉和一只复古黄铜打火机。硬朗的方向光从右侧打来，强调面料的洗白层次与缝线质感。配色为靛蓝、古铜与冷灰。正俯视 90 度机位，粗犷的工装风产品氛围。",
+      "category": "电商视觉",
+      "commerceType": "产品主图",
+      "useCase": "产品主图",
+      "tags": [
+        "apparel",
+        "denim",
+        "flat-lay"
+      ],
+      "model": "GPT Image",
+      "mediaType": "image",
+      "image": "https://r2.apimodels.app/assets/prompt-gallery/1785126845079_product-246.png",
+      "images": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785126845079_product-246.png"
+      ],
+      "rawImages": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785126845079_product-246.png"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "1:1",
+      "source": "apimodels/gpt-image-2-prompts",
+      "sourceUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#product-246",
+      "url": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#product-246",
+      "domain": "github.com",
+      "date": "2026-10-31",
+      "timestamp": 1793410126957,
+      "collectedAt": "2026-10-31T01:28:46.957Z",
+      "githubSyncedAt": "2026-10-31T01:28:46.957Z",
+      "attribution": "apimodels/gpt-image-2-prompts (CC BY 4.0)",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "commerceSourceId": "apimodels-gpt-image-2-prompts"
+    },
+    {
+      "id": "commerce_apimodels_product-241",
+      "title": "亚麻衬衫平铺特写",
+      "prompt": "俯拍平铺一件虚构品牌 Vireo Studio 的宽松燕麦色亚麻衬衫，袖子精心叠放，露出粗纺竹节纹理与天然纤维质感。背景为暖沙色卡纸，一旁摆放折好的腰带、一枝干桉叶和散落的玳瑁纽扣。柔和的自然光从左上方漫射进来，投下长而温柔的阴影。整体为燕麦、陶土与浅鼠尾草绿的大地色系。正俯视 90 度机位，留白克制，呈现慢时尚编辑质感。",
+      "category": "电商视觉",
+      "commerceType": "产品主图",
+      "useCase": "产品主图",
+      "tags": [
+        "apparel",
+        "flat-lay",
+        "linen"
+      ],
+      "model": "GPT Image",
+      "mediaType": "image",
+      "image": "https://r2.apimodels.app/assets/prompt-gallery/1785126825310_product-241.png",
+      "images": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785126825310_product-241.png"
+      ],
+      "rawImages": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785126825310_product-241.png"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "4:5",
+      "source": "apimodels/gpt-image-2-prompts",
+      "sourceUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#product-241",
+      "url": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#product-241",
+      "domain": "github.com",
+      "date": "2026-10-31",
+      "timestamp": 1793410126957,
+      "collectedAt": "2026-10-31T01:28:46.957Z",
+      "githubSyncedAt": "2026-10-31T01:28:46.957Z",
+      "attribution": "apimodels/gpt-image-2-prompts (CC BY 4.0)",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "commerceSourceId": "apimodels-gpt-image-2-prompts"
+    },
     {
       "id": "apimodels_gpt_image_2_ecommerce-21",
       "title": "Maison Cendre 香水",
