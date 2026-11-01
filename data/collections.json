@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-01T01:23:04.283Z",
+  "updatedAt": "2026-11-01T05:55:32.056Z",
   "collections": [
     {
       "id": "x_2116688791893361068",
@@ -36,7 +36,8 @@
       "date": "2026-11-01",
       "timestamp": 1793496184283,
       "collectedAt": "2026-11-01T01:23:04.283Z",
-      "githubSyncedAt": "2026-11-01T01:23:04.283Z"
+      "githubSyncedAt": "2026-11-01T01:23:04.283Z",
+      "domesticSyncedAt": "2026-11-01T05:55:32.053Z"
     },
     {
       "id": "x_2116458946307477893",
@@ -73,7 +74,8 @@
       "date": "2026-11-01",
       "timestamp": 1793496184283,
       "collectedAt": "2026-11-01T01:23:04.283Z",
-      "githubSyncedAt": "2026-11-01T01:23:04.283Z"
+      "githubSyncedAt": "2026-11-01T01:23:04.283Z",
+      "domesticSyncedAt": "2026-11-01T05:55:32.053Z"
     },
     {
       "id": "x_2116191389407125749",
@@ -108,7 +110,8 @@
       "date": "2026-11-01",
       "timestamp": 1793496184283,
       "collectedAt": "2026-11-01T01:23:04.283Z",
-      "githubSyncedAt": "2026-11-01T01:23:04.283Z"
+      "githubSyncedAt": "2026-11-01T01:23:04.283Z",
+      "domesticSyncedAt": "2026-11-01T05:55:32.053Z"
     },
     {
       "id": "x_2116696734340637007",
@@ -141,7 +144,8 @@
       "date": "2026-11-01",
       "timestamp": 1793496184283,
       "collectedAt": "2026-11-01T01:23:04.283Z",
-      "githubSyncedAt": "2026-11-01T01:23:04.283Z"
+      "githubSyncedAt": "2026-11-01T01:23:04.283Z",
+      "domesticSyncedAt": "2026-11-01T05:55:32.053Z"
     },
     {
       "id": "apimodels_gpt_image_2_product-244",
@@ -179,7 +183,8 @@
       "date": "2026-11-01",
       "timestamp": 1793496184283,
       "collectedAt": "2026-11-01T01:23:04.283Z",
-      "githubSyncedAt": "2026-11-01T01:23:04.283Z"
+      "githubSyncedAt": "2026-11-01T01:23:04.283Z",
+      "domesticSyncedAt": "2026-11-01T05:55:32.053Z"
     },
     {
       "id": "apimodels_gpt_image_2_product-251",
@@ -217,7 +222,8 @@
       "date": "2026-11-01",
       "timestamp": 1793496184283,
       "collectedAt": "2026-11-01T01:23:04.283Z",
-      "githubSyncedAt": "2026-11-01T01:23:04.283Z"
+      "githubSyncedAt": "2026-11-01T01:23:04.283Z",
+      "domesticSyncedAt": "2026-11-01T05:55:32.053Z"
     },
     {
       "id": "apimodels_gpt_image_2_product-261",
@@ -255,7 +261,8 @@
       "date": "2026-11-01",
       "timestamp": 1793496184283,
       "collectedAt": "2026-11-01T01:23:04.283Z",
-      "githubSyncedAt": "2026-11-01T01:23:04.283Z"
+      "githubSyncedAt": "2026-11-01T01:23:04.283Z",
+      "domesticSyncedAt": "2026-11-01T05:55:32.053Z"
     },
     {
       "id": "apimodels_gpt_image_2_product-268",
@@ -293,7 +300,8 @@
       "date": "2026-11-01",
       "timestamp": 1793496184283,
       "collectedAt": "2026-11-01T01:23:04.283Z",
-      "githubSyncedAt": "2026-11-01T01:23:04.283Z"
+      "githubSyncedAt": "2026-11-01T01:23:04.283Z",
+      "domesticSyncedAt": "2026-11-01T05:55:32.053Z"
     },
     {
       "id": "apimodels_gpt_image_2_product-272",
@@ -331,7 +339,8 @@
       "date": "2026-11-01",
       "timestamp": 1793496184283,
       "collectedAt": "2026-11-01T01:23:04.283Z",
-      "githubSyncedAt": "2026-11-01T01:23:04.283Z"
+      "githubSyncedAt": "2026-11-01T01:23:04.283Z",
+      "domesticSyncedAt": "2026-11-01T05:55:32.053Z"
     },
     {
       "id": "apimodels_gpt_image_2_product-278",
@@ -369,7 +378,8 @@
       "date": "2026-11-01",
       "timestamp": 1793496184283,
       "collectedAt": "2026-11-01T01:23:04.283Z",
-      "githubSyncedAt": "2026-11-01T01:23:04.283Z"
+      "githubSyncedAt": "2026-11-01T01:23:04.283Z",
+      "domesticSyncedAt": "2026-11-01T05:55:32.053Z"
     },
     {
       "id": "apimodels_gpt_image_2_product-281",
@@ -407,7 +417,8 @@
       "date": "2026-11-01",
       "timestamp": 1793496184283,
       "collectedAt": "2026-11-01T01:23:04.283Z",
-      "githubSyncedAt": "2026-11-01T01:23:04.283Z"
+      "githubSyncedAt": "2026-11-01T01:23:04.283Z",
+      "domesticSyncedAt": "2026-11-01T05:55:32.053Z"
     },
     {
       "id": "apimodels_gpt_image_2_product-282",
@@ -445,7 +456,8 @@
       "date": "2026-11-01",
       "timestamp": 1793496184283,
       "collectedAt": "2026-11-01T01:23:04.283Z",
-      "githubSyncedAt": "2026-11-01T01:23:04.283Z"
+      "githubSyncedAt": "2026-11-01T01:23:04.283Z",
+      "domesticSyncedAt": "2026-11-01T05:55:32.053Z"
     },
     {
       "id": "apimodels_gpt_image_2_poster-589",
@@ -484,7 +496,8 @@
       "date": "2026-11-01",
       "timestamp": 1793496184283,
       "collectedAt": "2026-11-01T01:23:04.283Z",
-      "githubSyncedAt": "2026-11-01T01:23:04.283Z"
+      "githubSyncedAt": "2026-11-01T01:23:04.283Z",
+      "domesticSyncedAt": "2026-11-01T05:55:32.053Z"
     },
     {
       "id": "apimodels_gpt_image_2_poster-590",
@@ -523,7 +536,8 @@
       "date": "2026-11-01",
       "timestamp": 1793496184283,
       "collectedAt": "2026-11-01T01:23:04.283Z",
-      "githubSyncedAt": "2026-11-01T01:23:04.283Z"
+      "githubSyncedAt": "2026-11-01T01:23:04.283Z",
+      "domesticSyncedAt": "2026-11-01T05:55:32.053Z"
     },
     {
       "id": "apimodels_gpt_image_2_poster-591",
@@ -562,7 +576,8 @@
       "date": "2026-11-01",
       "timestamp": 1793496184283,
       "collectedAt": "2026-11-01T01:23:04.283Z",
-      "githubSyncedAt": "2026-11-01T01:23:04.283Z"
+      "githubSyncedAt": "2026-11-01T01:23:04.283Z",
+      "domesticSyncedAt": "2026-11-01T05:55:32.053Z"
     },
     {
       "id": "apimodels_gpt_image_2_poster-592",
@@ -601,7 +616,8 @@
       "date": "2026-11-01",
       "timestamp": 1793496184283,
       "collectedAt": "2026-11-01T01:23:04.283Z",
-      "githubSyncedAt": "2026-11-01T01:23:04.283Z"
+      "githubSyncedAt": "2026-11-01T01:23:04.283Z",
+      "domesticSyncedAt": "2026-11-01T05:55:32.053Z"
     },
     {
       "id": "apimodels_gpt_image_2_poster-593",
@@ -640,7 +656,8 @@
       "date": "2026-11-01",
       "timestamp": 1793496184283,
       "collectedAt": "2026-11-01T01:23:04.283Z",
-      "githubSyncedAt": "2026-11-01T01:23:04.283Z"
+      "githubSyncedAt": "2026-11-01T01:23:04.283Z",
+      "domesticSyncedAt": "2026-11-01T05:55:32.053Z"
     },
     {
       "id": "apimodels_gpt_image_2_poster-594",
@@ -679,7 +696,8 @@
       "date": "2026-11-01",
       "timestamp": 1793496184283,
       "collectedAt": "2026-11-01T01:23:04.283Z",
-      "githubSyncedAt": "2026-11-01T01:23:04.283Z"
+      "githubSyncedAt": "2026-11-01T01:23:04.283Z",
+      "domesticSyncedAt": "2026-11-01T05:55:32.053Z"
     },
     {
       "id": "apimodels_gpt_image_2_product-286",
@@ -717,7 +735,8 @@
       "date": "2026-11-01",
       "timestamp": 1793496184283,
       "collectedAt": "2026-11-01T01:23:04.283Z",
-      "githubSyncedAt": "2026-11-01T01:23:04.283Z"
+      "githubSyncedAt": "2026-11-01T01:23:04.283Z",
+      "domesticSyncedAt": "2026-11-01T05:55:32.053Z"
     },
     {
       "id": "apimodels_gpt_image_2_product-287",
@@ -755,7 +774,8 @@
       "date": "2026-11-01",
       "timestamp": 1793496184283,
       "collectedAt": "2026-11-01T01:23:04.283Z",
-      "githubSyncedAt": "2026-11-01T01:23:04.283Z"
+      "githubSyncedAt": "2026-11-01T01:23:04.283Z",
+      "domesticSyncedAt": "2026-11-01T05:55:32.053Z"
     },
     {
       "id": "apimodels_gpt_image_2_product-289",
@@ -793,7 +813,8 @@
       "date": "2026-11-01",
       "timestamp": 1793496184283,
       "collectedAt": "2026-11-01T01:23:04.283Z",
-      "githubSyncedAt": "2026-11-01T01:23:04.283Z"
+      "githubSyncedAt": "2026-11-01T01:23:04.283Z",
+      "domesticSyncedAt": "2026-11-01T05:55:32.053Z"
     },
     {
       "id": "apimodels_gpt_image_2_product-290",
@@ -831,7 +852,8 @@
       "date": "2026-11-01",
       "timestamp": 1793496184283,
       "collectedAt": "2026-11-01T01:23:04.283Z",
-      "githubSyncedAt": "2026-11-01T01:23:04.283Z"
+      "githubSyncedAt": "2026-11-01T01:23:04.283Z",
+      "domesticSyncedAt": "2026-11-01T05:55:32.053Z"
     },
     {
       "id": "apimodels_gpt_image_2_product-294",
@@ -869,7 +891,8 @@
       "date": "2026-11-01",
       "timestamp": 1793496184283,
       "collectedAt": "2026-11-01T01:23:04.283Z",
-      "githubSyncedAt": "2026-11-01T01:23:04.283Z"
+      "githubSyncedAt": "2026-11-01T01:23:04.283Z",
+      "domesticSyncedAt": "2026-11-01T05:55:32.053Z"
     },
     {
       "id": "apimodels_gpt_image_2_product-296",
@@ -907,7 +930,8 @@
       "date": "2026-11-01",
       "timestamp": 1793496184283,
       "collectedAt": "2026-11-01T01:23:04.283Z",
-      "githubSyncedAt": "2026-11-01T01:23:04.283Z"
+      "githubSyncedAt": "2026-11-01T01:23:04.283Z",
+      "domesticSyncedAt": "2026-11-01T05:55:32.053Z"
     },
     {
       "id": "apimodels_gpt_image_2_ecommerce-43",
