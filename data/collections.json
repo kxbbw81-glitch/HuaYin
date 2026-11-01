@@ -1,7 +1,914 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-01T00:08:18.462Z",
+  "updatedAt": "2026-11-01T01:23:04.283Z",
   "collections": [
+    {
+      "id": "x_2116688791893361068",
+      "title": "万圣节奢侈香水广告片",
+      "prompt": "Create a cinematic, ultra-realistic Halloween-themed luxury perfume commercial.\n\nScene 1: A dark, mysterious underground parking garage with wet reflective flooring. A black liquid-like creature slowly spreads across the floor under dramatic blue lighting.\n\nScene 2: Transition to a mysterious greenhouse filled with exotic carnivorous plants, glass windows, and magical sunlight. A Venus flytrap plant slowly opens its mouth.\n\nScene 3: A dragonfly appears in front of a large glass window, captured in a dramatic slow-motion macro shot.\n\nScene 4: A surreal, colorful magical transformation with intense red, blue, and green visual effects.\n\nScene 5: Return to the dark underground setting, where a mysterious black liquid creature transforms into an elegant luxury perfume bottle.\n\nScene 6: Reveal a luxurious KHADLAJ ISLAND perfume bottle standing on a glossy black reflective surface. Dramatic cinematic lighting, detailed glass reflections, luxurious gold cap, and premium product photography.\n\nScene 7: Extreme close-up of the perfume bottle's gold label, showing beautiful embossed typography and intricate glass texture.\n\nScene 8: Transform the perfume bottle into a magical Halloween scene with a full moon, witch silhouette, mysterious green fog, and a glowing perfume bottle.\n\nFinal Scene: A beautiful white pumpkin surrounded by autumn leaves, golden branches, and warm magical lighting. Display the text \"HAPPY HALLOWEEN!\"\n\nVisual Style: Photorealistic, cinematic luxury commercial, dark fantasy, magical atmosphere, ultra-detailed textures, smooth transitions, dramatic lighting, shallow depth of field, 4K quality, professional product cinematography, 9:16 vertical aspect ratio.",
+      "category": "电商视觉",
+      "commerceType": "电商视频",
+      "useCase": "电商视频",
+      "tags": [
+        "perfume",
+        "commercial",
+        "halloween",
+        "广告"
+      ],
+      "model": "Seedance",
+      "mediaType": "video",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2116688753888739328/img/iIUwS_9j8zQrt2y7.jpg",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2116688753888739328/img/iIUwS_9j8zQrt2y7.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/amplify_video_thumb/2116688753888739328/img/iIUwS_9j8zQrt2y7.jpg"
+      ],
+      "referenceImages": [],
+      "videoPoster": "https://pbs.twimg.com/amplify_video_thumb/2116688753888739328/img/iIUwS_9j8zQrt2y7.jpg",
+      "videoUrl": "https://video.twimg.com/amplify_video/2116688753888739328/vid/avc1/720x1280/SgCKszjJ3UYSm1IY.mp4",
+      "videoSourceUrl": "https://video.twimg.com/amplify_video/2116688753888739328/vid/avc1/720x1280/SgCKszjJ3UYSm1IY.mp4",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/zaviaanroy/status/2116688791893361068",
+      "url": "https://x.com/zaviaanroy/status/2116688791893361068",
+      "domain": "x.com",
+      "creator": "zaviaanroy",
+      "date": "2026-11-01",
+      "timestamp": 1793496184283,
+      "collectedAt": "2026-11-01T01:23:04.283Z",
+      "githubSyncedAt": "2026-11-01T01:23:04.283Z"
+    },
+    {
+      "id": "x_2116458946307477893",
+      "title": "淘宝女装吊带裙模特展示",
+      "prompt": "一组高品质淘宝女装商品展示摄影，采用真实商业服装模特摄影风格。\n\n人物设定：\n一位年轻漂亮的东亚成年女性模特，五官精致自然，长款深棕黑色微卷长发，轻薄空气刘海，清新淡雅妆容，身材匀称修长，气质温柔优雅。\n\n服装设定：\n穿着浅绿色纯棉吊带连衣短裙，简洁修身版型，胸前自然抽褶设计，腰部收腰，下摆自然A字微蓬，棉质面料纹理真实细腻，呈现自然的棉布质感。服装颜色、款式、剪裁、长度和细节必须保持一致，不添加复杂装饰，不改变原有设计。\n\n拍摄场景：\n高级简约室内空间，浅灰米色墙面，左侧有简洁的水泥台阶，阳光透过落地窗形成柔和的几何光影，浅色石材地板，干净整洁的背景。\n\n摄影风格：\n真实高端电商女装画册摄影，自然柔和的日光，真实皮肤质感，清晰呈现棉质面料、服装剪裁和上身轮廓。色彩清新、明亮、自然，不使用过度磨皮和夸张滤镜。\n\n构图要求：\n9:16竖版构图，全身人物展示，完整呈现服装和鞋子，模特位于画面中央，服装是画面视觉重点，高清真实摄影质感。\n\n核心要求：\n保持同一模特、同一套服装、同一发型、同一拍摄场景和光线。每张照片只改变模特的站姿、手部动作和腿部姿势。服装结构和面料细节不得发生变化。无包包、无头饰、无额外道具。\n\n#女装穿搭 #淘宝女装 #夏日穿搭 #模特写真 #时尚摄影 #服装展示 #AI绘画 #AI写真",
+      "category": "电商视觉",
+      "commerceType": "模特展示",
+      "useCase": "模特展示",
+      "tags": [
+        "淘宝",
+        "女装",
+        "模特展示",
+        "电商"
+      ],
+      "model": "GPT Image",
+      "mediaType": "image",
+      "image": "https://pbs.twimg.com/media/HV8sMC6bQAEn_Pg.jpg?name=large",
+      "images": [
+        "https://pbs.twimg.com/media/HV8sMC6bQAEn_Pg.jpg?name=large",
+        "https://pbs.twimg.com/media/HV8sMC7aoAArExf.jpg?name=large",
+        "https://pbs.twimg.com/media/HV8sMC-bgAAb1_D.jpg?name=large"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HV8sMC6bQAEn_Pg.jpg?name=large",
+        "https://pbs.twimg.com/media/HV8sMC7aoAArExf.jpg?name=large",
+        "https://pbs.twimg.com/media/HV8sMC-bgAAb1_D.jpg?name=large"
+      ],
+      "referenceImages": [],
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/zhangjiajia1314/status/2116458946307477893",
+      "url": "https://x.com/zhangjiajia1314/status/2116458946307477893",
+      "domain": "x.com",
+      "creator": "zhangjiajia1314",
+      "date": "2026-11-01",
+      "timestamp": 1793496184283,
+      "collectedAt": "2026-11-01T01:23:04.283Z",
+      "githubSyncedAt": "2026-11-01T01:23:04.283Z"
+    },
+    {
+      "id": "x_2116191389407125749",
+      "title": "高端家居风扇灯产品广告",
+      "prompt": "制作一条15秒的国际高端家居品牌商业广告，采用苹果式产品摄影与北欧高端家居广告相结合的视觉风格。\n\n16:9横屏，超写实4K商业摄影，电影级自然光，精致细腻的产品材质，真实的物理运动，流畅克制的镜头语言。\n\n【核心视觉】\n\n产品是Rayuhome黑色吸顶式风扇灯。\n\n严格锁定参考图片中的产品外观：黑色金属机身、四片黑色扇叶、圆形LED照明灯体、顶部固定安装结构。\n\n产品始终牢固安装在天花板上，整体机身和灯体静止，只有扇叶围绕固定旋转轴转动。\n\n不得改变任何产品部件的形状、位置、数量和比例。\n\n广告场景是阳光充足的现代北欧极简客厅。米白色沙发、浅木色茶几、落地窗、绿色植物、柔和米色墙面。\n\n色彩以暖白、浅米色、自然木色为主，黑色风扇灯形成高级视觉对比。\n\n整体气质：极简、高级、温暖、真实，具有国际高端家居品牌商业广告质感。\n\n【镜头一｜0–3秒】\n生活场景开场 · Establishing Shot\n\n宽阔明亮的现代客厅。\n\n摄影机从客厅侧前方缓慢向前推进。\n\n清晨柔和的阳光穿过落地窗，照亮米白色沙发和浅木色茶几。\n\n天花板中央安装着黑色Rayuhome风扇灯，LED灯发出自然柔和的暖白光。\n\n风扇叶片平稳缓慢旋转。\n\n靠近窗户的轻薄窗帘轻轻摆动，空间安静而舒适。\n\n画面呈现高端家居杂志般的自然美感。\n\n【镜头二｜3–6秒】\n苹果式产品展示 · Hero Product Shot\n\n自然硬切至风扇灯的低角度近景。\n\n镜头位于产品斜下方约45度位置，缓慢向产品推进，同时进行极小幅度的环绕移动。\n\n重点展示黑色金属机身、四片扇叶的流畅曲线、灯体边缘的精致结构。\n\n柔和的自然光在黑色金属表面形成细腻而克制的高光。\n\n镜头靠近时，扇叶保持均匀旋转，出现真实、轻微的运动模糊。\n\n产品主体轮廓清晰，灯体结构稳定。\n\n画面具有苹果产品发布广告般的精密工业设计质感。\n\n【镜头三｜6–9秒】\n微距细节 · Premium Detail Shot\n\n自然切换至LED环形灯体特写。\n\n摄影机沿着圆形灯体边缘缓慢横向移动。\n\n展示黑色外壳的细腻材质、圆润流畅的边缘、乳白色灯罩与柔和均匀的LED灯光。\n\n灯体从柔和暖白光自然过渡到略明亮的中性白光，变化平稳，没有闪烁和过曝。\n\n画面背景虚化为温暖米色。\n\n强调精致工艺、灯光品质与高级材质细节。\n\n镜头稳定、缓慢、克制。\n\n【镜头四｜9–12秒】\n舒适生活 · Lifestyle Experience\n\n镜头切回客厅中景。\n\n摄影机沿着沙发前方缓慢横向滑动，视线自然向上延伸至天花板的风扇灯。\n\n黑色风扇灯持续平稳运转。\n\n窗边的轻薄窗帘自然摆动，附近植物的叶片轻微摇曳，表现舒适柔和的空气流动。\n\n阳光在沙发和地面形成自然的明暗层次。\n\n整个空间干净、通透、舒适，呈现安静而精致的现代居家生活。\n\n【镜头五｜12–15秒】\n品牌收尾 · Signature Hero Shot\n\n自然切换到产品斜下方仰拍视角。\n\n摄影机极其缓慢地向上推进。\n\nRayuhome黑色风扇灯位于画面中央偏上位置，背后是柔和干净的米白色天花板。\n\n四片扇叶平稳旋转，圆形LED灯散发柔和而均匀的白色光线。\n\n镜头逐渐停止运动，形成简洁、稳定、有高级感的产品定格画面。\n\n最后0.5秒画面自然淡出。\n\n为后期添加Rayuhome品牌LOGO与英文广告语预留干净空间。\n\n品牌广告语：\n\nComfort in Every Breeze.\n\n【摄影与画质】\n\n真实摄影机拍摄质感，4K高清细节。\n\n35mm电影镜头用于空间全景。\n\n50mm和85mm镜头用于产品近景。\n\n微距镜头用于灯体材质和LED光线细节。\n\n自然真实的景深变化。\n\n柔和高光，丰富的黑色层次，真实金属反射。\n\n不使用夸张HDR、过度锐化、塑料质感或AI生成感明显的光影。\n\n【声音】\n\n现代极简风格的高端商业广告配乐。\n\n柔和的钢琴音符，轻微电子氛围音乐，节奏舒缓而精致。\n\n镜头切换配合轻微的空气流动音效。\n\n无人物对白，无旁白。\n\n【严格禁止】\n\n禁止改变参考产品的外观、颜色、结构和比例。\n\n禁止增加或减少扇叶数量。\n\n禁止扇叶旋转时出现融合、断裂、变形和重复结构。\n\n禁止固定机身随扇叶一起旋转。\n\n禁止产品脱离天花板、悬浮或移动。\n\n禁止灯体突然变形或出现额外光源。\n\n禁止夸张的风柱、科幻光束和漂浮树叶。\n\n禁止不合理的镜头穿模。\n\n禁止场景布局在连续镜头中发生明显变化。\n\n禁止凭空出现人物和其他产品。\n\n禁止生成任何文字、LOGO、字幕、功能图标或水印 。\n\n所有镜头必须保持产品外观一致、物理运动合理、商业摄影质感真实。16:9。",
+      "category": "电商视觉",
+      "commerceType": "电商视频",
+      "useCase": "电商视频",
+      "tags": [
+        "家居",
+        "产品广告",
+        "风扇灯"
+      ],
+      "model": "",
+      "mediaType": "video",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2116189827599335424/img/WfvfUi9_zjlioDgU.jpg",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2116189827599335424/img/WfvfUi9_zjlioDgU.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/amplify_video_thumb/2116189827599335424/img/WfvfUi9_zjlioDgU.jpg"
+      ],
+      "referenceImages": [],
+      "videoPoster": "https://pbs.twimg.com/amplify_video_thumb/2116189827599335424/img/WfvfUi9_zjlioDgU.jpg",
+      "videoUrl": "https://video.twimg.com/amplify_video/2116189827599335424/vid/avc1/1280x720/CBAqASUCn4uG2pcx.mp4",
+      "videoSourceUrl": "https://video.twimg.com/amplify_video/2116189827599335424/vid/avc1/1280x720/CBAqASUCn4uG2pcx.mp4",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/Adam38363368936/status/2116191389407125749",
+      "url": "https://x.com/Adam38363368936/status/2116191389407125749",
+      "domain": "x.com",
+      "creator": "Adam38363368936",
+      "date": "2026-11-01",
+      "timestamp": 1793496184283,
+      "collectedAt": "2026-11-01T01:23:04.283Z",
+      "githubSyncedAt": "2026-11-01T01:23:04.283Z"
+    },
+    {
+      "id": "x_2116696734340637007",
+      "title": "蓝瓷盘俯拍产品静物",
+      "prompt": "A top-down, high-angle studio shot of a blue ceramic plate centered on a pink and white gingham tablecloth. The plate is filled with several realistic, textured lemons, each featuring intricate, hand-stitched embroidery detailing that mimics the bumpy skin of the fruit. The lemons are accompanied by vibrant green embroidered leaves and a small sprig of white citrus blossoms. The lighting is bright and even, highlighting the tactile, thread-work texture of the lemons against the smooth, glazed surface of the blue plate.",
+      "category": "电商视觉",
+      "commerceType": "产品主图",
+      "useCase": "产品主图",
+      "tags": [
+        "food",
+        "product",
+        "studio",
+        "静物"
+      ],
+      "model": "Nano Banana",
+      "mediaType": "image",
+      "image": "https://pbs.twimg.com/media/HV8-lT0WAAA0E_4.jpg?format=jpg&name=large",
+      "images": [
+        "https://pbs.twimg.com/media/HV8-lT0WAAA0E_4.jpg?format=jpg&name=large"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HV8-lT0WAAA0E_4.jpg?format=jpg&name=large"
+      ],
+      "referenceImages": [],
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/heathergreen/status/2116696734340637007",
+      "url": "https://x.com/heathergreen/status/2116696734340637007",
+      "domain": "x.com",
+      "creator": "heathergreen",
+      "date": "2026-11-01",
+      "timestamp": 1793496184283,
+      "collectedAt": "2026-11-01T01:23:04.283Z",
+      "githubSyncedAt": "2026-11-01T01:23:04.283Z"
+    },
+    {
+      "id": "apimodels_gpt_image_2_product-244",
+      "title": "定制西装人台大片",
+      "prompt": "虚构品牌 Meridian Tailors 的炭灰羊毛双排扣西装外套，展示在雕塑感十足的哑黑半身人台上，翻领挺括，金色纽扣泛起高光。背景为深浓咖啡棕，戏剧性的单侧主光从左方打来，在肩部结构上投下强烈的雕塑阴影。配色为炭灰、浓咖与仿古金。略仰的四分之三机位以彰显气场。高级男装广告的沉稳氛围，对比浓郁，可见细腻的人字纹面料。",
+      "category": "电商视觉",
+      "commerceType": "产品主图",
+      "tags": [
+        "apparel",
+        "blazer",
+        "menswear"
+      ],
+      "model": "GPT Image",
+      "mediaType": "image",
+      "image": "https://r2.apimodels.app/assets/prompt-gallery/1785126825874_product-244.png",
+      "images": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785126825874_product-244.png"
+      ],
+      "rawImages": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785126825874_product-244.png"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "2:3",
+      "source": "apimodels/gpt-image-2-prompts",
+      "sourceUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#product-244",
+      "url": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#product-244",
+      "domain": "github.com",
+      "attribution": "apimodels/gpt-image-2-prompts",
+      "license": "CC BY 4.0",
+      "sourceLicenseUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/LICENSE",
+      "sourceRepository": "https://github.com/apimodels/gpt-image-2-prompts",
+      "sourceLicenseVerified": true,
+      "collectionOrigin": "approved-public-commerce",
+      "externalId": "product-244",
+      "date": "2026-11-01",
+      "timestamp": 1793496184283,
+      "collectedAt": "2026-11-01T01:23:04.283Z",
+      "githubSyncedAt": "2026-11-01T01:23:04.283Z"
+    },
+    {
+      "id": "apimodels_gpt_image_2_product-251",
+      "title": "白色球鞋棚拍主图",
+      "prompt": "虚构品牌 Stride Nine 的极简低帮皮革运动鞋，纯净亮白色，作为主图产品，微微悬浮在浅蓝色柔和渐变影棚背景之上，带一道淡淡的接触阴影。冲孔鞋头、同色鞋带和厚实的奶油色橡胶大底清晰锐利。干净明亮的影棚灯光沿轮廓打出柔和的边缘高光。配色为亮白、天蓝与奶油。略低的四分之三机位。清新现代的鞋类电商氛围，极致干净且高级。",
+      "category": "电商视觉",
+      "commerceType": "产品主图",
+      "tags": [
+        "footwear",
+        "sneaker",
+        "studio"
+      ],
+      "model": "GPT Image",
+      "mediaType": "image",
+      "image": "https://r2.apimodels.app/assets/prompt-gallery/1785126853295_product-251.png",
+      "images": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785126853295_product-251.png"
+      ],
+      "rawImages": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785126853295_product-251.png"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "1:1",
+      "source": "apimodels/gpt-image-2-prompts",
+      "sourceUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#product-251",
+      "url": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#product-251",
+      "domain": "github.com",
+      "attribution": "apimodels/gpt-image-2-prompts",
+      "license": "CC BY 4.0",
+      "sourceLicenseUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/LICENSE",
+      "sourceRepository": "https://github.com/apimodels/gpt-image-2-prompts",
+      "sourceLicenseVerified": true,
+      "collectionOrigin": "approved-public-commerce",
+      "externalId": "product-251",
+      "date": "2026-11-01",
+      "timestamp": 1793496184283,
+      "collectedAt": "2026-11-01T01:23:04.283Z",
+      "githubSyncedAt": "2026-11-01T01:23:04.283Z"
+    },
+    {
+      "id": "apimodels_gpt_image_2_product-261",
+      "title": "结构手提包主图",
+      "prompt": "虚构品牌 Belvoir 的一款结构挺括的顶提手手提包，光滑鞍棕色皮革，直立在暖奶油色展台上，背景为柔和的米色渐变。利落的建筑线条、抛光金色旋锁扣和整齐的封边缝线清晰锐利。柔和均匀的影棚灯光沿正面板打出柔和高光。配色为鞍棕、奶油与暖金。略低的四分之三机位以强调方正廓形。精致的奢华手袋电商氛围，干净且令人向往，皮纹清晰可见。",
+      "category": "电商视觉",
+      "commerceType": "产品主图",
+      "tags": [
+        "handbag",
+        "tote",
+        "luxury"
+      ],
+      "model": "GPT Image",
+      "mediaType": "image",
+      "image": "https://r2.apimodels.app/assets/prompt-gallery/1785126889369_product-261.png",
+      "images": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785126889369_product-261.png"
+      ],
+      "rawImages": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785126889369_product-261.png"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "4:5",
+      "source": "apimodels/gpt-image-2-prompts",
+      "sourceUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#product-261",
+      "url": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#product-261",
+      "domain": "github.com",
+      "attribution": "apimodels/gpt-image-2-prompts",
+      "license": "CC BY 4.0",
+      "sourceLicenseUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/LICENSE",
+      "sourceRepository": "https://github.com/apimodels/gpt-image-2-prompts",
+      "sourceLicenseVerified": true,
+      "collectionOrigin": "approved-public-commerce",
+      "externalId": "product-261",
+      "date": "2026-11-01",
+      "timestamp": 1793496184283,
+      "collectedAt": "2026-11-01T01:23:04.283Z",
+      "githubSyncedAt": "2026-11-01T01:23:04.283Z"
+    },
+    {
+      "id": "apimodels_gpt_image_2_product-268",
+      "title": "渔夫帽与包套装",
+      "prompt": "虚构品牌 Bramble 的一套配套单品——绗缝尼龙渔夫帽和同款迷你单肩包，柔和鼠尾草绿，一同摆在天然洞石台面上，背景为暖中性色。蓬松的沟槽绗缝、同色织带和哑光金属五金细节锐利。柔和均匀的日光从上方洒下，画面干净现代。配色为鼠尾草绿、灰褐与银。略高的四分之三机位。当代生活方式配饰广告氛围，成套且清新，绗缝质感清晰可见。",
+      "category": "电商视觉",
+      "commerceType": "产品主图",
+      "tags": [
+        "accessory",
+        "hat",
+        "set"
+      ],
+      "model": "GPT Image",
+      "mediaType": "image",
+      "image": "https://r2.apimodels.app/assets/prompt-gallery/1785126914568_product-268.png",
+      "images": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785126914568_product-268.png"
+      ],
+      "rawImages": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785126914568_product-268.png"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "4:5",
+      "source": "apimodels/gpt-image-2-prompts",
+      "sourceUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#product-268",
+      "url": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#product-268",
+      "domain": "github.com",
+      "attribution": "apimodels/gpt-image-2-prompts",
+      "license": "CC BY 4.0",
+      "sourceLicenseUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/LICENSE",
+      "sourceRepository": "https://github.com/apimodels/gpt-image-2-prompts",
+      "sourceLicenseVerified": true,
+      "collectionOrigin": "approved-public-commerce",
+      "externalId": "product-268",
+      "date": "2026-11-01",
+      "timestamp": 1793496184283,
+      "collectedAt": "2026-11-01T01:23:04.283Z",
+      "githubSyncedAt": "2026-11-01T01:23:04.283Z"
+    },
+    {
+      "id": "apimodels_gpt_image_2_product-272",
+      "title": "金项链叠戴平铺",
+      "prompt": "俯拍平铺三条虚构品牌 Celeste 的精致叠戴金链项链，各为不同长度，分别缀有一颗小珍珠、一枚锤纹圆片和一个长方吊坠，轻轻交叠成弧形。搭配在暖奶油色真丝面料上，配一只折起的天然贝壳小碟和一枝满天星。柔和的日光从右上方斜射，带来暖金高光。配色为暖金、奶油与珍珠。正俯视 90 度机位，精巧的日常细金饰品平铺氛围，细腻而温暖。",
+      "category": "电商视觉",
+      "commerceType": "产品主图",
+      "tags": [
+        "jewelry",
+        "necklace",
+        "flat-lay"
+      ],
+      "model": "GPT Image",
+      "mediaType": "image",
+      "image": "https://r2.apimodels.app/assets/prompt-gallery/1785126935690_product-272.png",
+      "images": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785126935690_product-272.png"
+      ],
+      "rawImages": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785126935690_product-272.png"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "1:1",
+      "source": "apimodels/gpt-image-2-prompts",
+      "sourceUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#product-272",
+      "url": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#product-272",
+      "domain": "github.com",
+      "attribution": "apimodels/gpt-image-2-prompts",
+      "license": "CC BY 4.0",
+      "sourceLicenseUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/LICENSE",
+      "sourceRepository": "https://github.com/apimodels/gpt-image-2-prompts",
+      "sourceLicenseVerified": true,
+      "collectionOrigin": "approved-public-commerce",
+      "externalId": "product-272",
+      "date": "2026-11-01",
+      "timestamp": 1793496184283,
+      "collectedAt": "2026-11-01T01:23:04.283Z",
+      "githubSyncedAt": "2026-11-01T01:23:04.283Z"
+    },
+    {
+      "id": "apimodels_gpt_image_2_product-278",
+      "title": "脚链沙滩平铺",
+      "prompt": "俯拍平铺一条虚构品牌 Vann 的精致串珠金脚链，缀有细小的绿松石和贝壳吊饰，松散地弯成一道弧线，放在温暖细腻的沙滩上，旁边有几只真贝壳和一颗光滑鹅卵石。明亮的自然阳光从左上方打来，投出清晰的小阴影，金饰上泛起光点。配色为暖金、绿松石与沙米色。正俯视 90 度机位，轻快的夏日波西米亚饰品平铺氛围，阳光俏皮，串珠细节清晰可见。",
+      "category": "电商视觉",
+      "commerceType": "产品主图",
+      "tags": [
+        "jewelry",
+        "anklet",
+        "summer"
+      ],
+      "model": "GPT Image",
+      "mediaType": "image",
+      "image": "https://r2.apimodels.app/assets/prompt-gallery/1785126947480_product-278.png",
+      "images": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785126947480_product-278.png"
+      ],
+      "rawImages": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785126947480_product-278.png"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "1:1",
+      "source": "apimodels/gpt-image-2-prompts",
+      "sourceUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#product-278",
+      "url": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#product-278",
+      "domain": "github.com",
+      "attribution": "apimodels/gpt-image-2-prompts",
+      "license": "CC BY 4.0",
+      "sourceLicenseUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/LICENSE",
+      "sourceRepository": "https://github.com/apimodels/gpt-image-2-prompts",
+      "sourceLicenseVerified": true,
+      "collectionOrigin": "approved-public-commerce",
+      "externalId": "product-278",
+      "date": "2026-11-01",
+      "timestamp": 1793496184283,
+      "collectedAt": "2026-11-01T01:23:04.283Z",
+      "githubSyncedAt": "2026-11-01T01:23:04.283Z"
+    },
+    {
+      "id": "apimodels_gpt_image_2_product-281",
+      "title": "潜水表水下质感",
+      "prompt": "虚构品牌 Corvel 的一款硬派自动潜水表，深青绿表盘配旋转陶瓷表圈，斜倚在潮湿的深色玄武岩上，蓝宝石镜面上凝着几颗水珠。拉丝钢表壳、微微发光的夜光刻度和实心链带表带细节锐利。冷调方向光从左上方打来，水面上映出清晰的反光。配色为深青绿、钢与冷蓝。紧凑的低位四分之三机位。富有冒险感的运动腕表广告氛围，精准而硬朗，质感清晰可见。",
+      "category": "电商视觉",
+      "commerceType": "产品主图",
+      "tags": [
+        "watch",
+        "dive",
+        "sport"
+      ],
+      "model": "GPT Image",
+      "mediaType": "image",
+      "image": "https://r2.apimodels.app/assets/prompt-gallery/1785126956223_product-281.png",
+      "images": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785126956223_product-281.png"
+      ],
+      "rawImages": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785126956223_product-281.png"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "1:1",
+      "source": "apimodels/gpt-image-2-prompts",
+      "sourceUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#product-281",
+      "url": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#product-281",
+      "domain": "github.com",
+      "attribution": "apimodels/gpt-image-2-prompts",
+      "license": "CC BY 4.0",
+      "sourceLicenseUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/LICENSE",
+      "sourceRepository": "https://github.com/apimodels/gpt-image-2-prompts",
+      "sourceLicenseVerified": true,
+      "collectionOrigin": "approved-public-commerce",
+      "externalId": "product-281",
+      "date": "2026-11-01",
+      "timestamp": 1793496184283,
+      "collectedAt": "2026-11-01T01:23:04.283Z",
+      "githubSyncedAt": "2026-11-01T01:23:04.283Z"
+    },
+    {
+      "id": "apimodels_gpt_image_2_product-282",
+      "title": "正装腕表优雅产品图",
+      "prompt": "虚构品牌 Aldwych 的一款超薄正装腕表，银白色玑镂表盘，纤细罗马数字，配浓郁棕色鳄鱼纹皮表带，直立在暖奶油大理石台沿上，背景为柔和香槟色。抛光玫瑰金表壳和拱形镜面泛起柔和高光。柔和优雅的灯光从右前方打来，阴影精致。配色为银白、玫瑰金与暖棕。平视四分之三机位。精致的经典高级制表广告氛围，优雅而精准，表盘纹理清晰可见。",
+      "category": "电商视觉",
+      "commerceType": "产品主图",
+      "tags": [
+        "watch",
+        "dress",
+        "luxury"
+      ],
+      "model": "GPT Image",
+      "mediaType": "image",
+      "image": "https://r2.apimodels.app/assets/prompt-gallery/1785126955277_product-282.png",
+      "images": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785126955277_product-282.png"
+      ],
+      "rawImages": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785126955277_product-282.png"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "2:3",
+      "source": "apimodels/gpt-image-2-prompts",
+      "sourceUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#product-282",
+      "url": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#product-282",
+      "domain": "github.com",
+      "attribution": "apimodels/gpt-image-2-prompts",
+      "license": "CC BY 4.0",
+      "sourceLicenseUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/LICENSE",
+      "sourceRepository": "https://github.com/apimodels/gpt-image-2-prompts",
+      "sourceLicenseVerified": true,
+      "collectionOrigin": "approved-public-commerce",
+      "externalId": "product-282",
+      "date": "2026-11-01",
+      "timestamp": 1793496184283,
+      "collectedAt": "2026-11-01T01:23:04.283Z",
+      "githubSyncedAt": "2026-11-01T01:23:04.283Z"
+    },
+    {
+      "id": "apimodels_gpt_image_2_poster-589",
+      "title": "霓虹潮汐音乐节",
+      "prompt": "电子音乐节竖版海报,标题「霓虹潮汐 NEON TIDE」,地点海湾露天剧场,8月22至24日。主视觉:一道巨浪在浪尖处化作粉色与青色的发光声波丝带,底部是举手欢呼的人群剪影。构图:巨浪从左下向右上斜扫,标题用粗压缩无衬线字体、表面呈液态铬金属质感横贯画面中央。配色:深靛蓝夜色、艳品红、电光青,点缀紫外线紫。底部有干净的演出阵容小字和日期条。氛围:狂喜、湿润、通透、极具夜场能量。",
+      "category": "电商视觉",
+      "commerceType": "广告海报",
+      "tags": [
+        "music",
+        "festival",
+        "electronic",
+        "neon"
+      ],
+      "model": "GPT Image",
+      "mediaType": "image",
+      "image": "https://r2.apimodels.app/assets/prompt-gallery/1785128304858_poster-589.png",
+      "images": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785128304858_poster-589.png"
+      ],
+      "rawImages": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785128304858_poster-589.png"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "2:3",
+      "source": "apimodels/gpt-image-2-prompts",
+      "sourceUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#poster-589",
+      "url": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#poster-589",
+      "domain": "github.com",
+      "attribution": "apimodels/gpt-image-2-prompts",
+      "license": "CC BY 4.0",
+      "sourceLicenseUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/LICENSE",
+      "sourceRepository": "https://github.com/apimodels/gpt-image-2-prompts",
+      "sourceLicenseVerified": true,
+      "collectionOrigin": "approved-public-commerce",
+      "externalId": "poster-589",
+      "date": "2026-11-01",
+      "timestamp": 1793496184283,
+      "collectedAt": "2026-11-01T01:23:04.283Z",
+      "githubSyncedAt": "2026-11-01T01:23:04.283Z"
+    },
+    {
+      "id": "apimodels_gpt_image_2_poster-590",
+      "title": "金色麦田乡村音乐节",
+      "prompt": "质朴风乡村音乐节海报,标题「金色麦田 GOLDEN FIELDS」,柳溪牧场,9月6至7日。主视觉:金色麦浪上方是温暖的落日,一把木吉他斜靠在风化的木栅栏柱上,琥珀色天空中飘着一只热气球。构图:地平线压在下三分之一,手写衬线大标题像旗帜一样弧形横跨天空。配色:焦橙、蜜金、灰玫瑰、鼠尾草绿。复古丝网印刷质感,带轻微纸张颗粒。底部用做旧西部厚板字体列出阵容,附小票务信息标签。氛围:怀旧、温暖、治愈、户外。",
+      "category": "电商视觉",
+      "commerceType": "广告海报",
+      "tags": [
+        "music",
+        "festival",
+        "country",
+        "vintage"
+      ],
+      "model": "GPT Image",
+      "mediaType": "image",
+      "image": "https://r2.apimodels.app/assets/prompt-gallery/1785128300915_poster-590.png",
+      "images": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785128300915_poster-590.png"
+      ],
+      "rawImages": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785128300915_poster-590.png"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "2:3",
+      "source": "apimodels/gpt-image-2-prompts",
+      "sourceUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#poster-590",
+      "url": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#poster-590",
+      "domain": "github.com",
+      "attribution": "apimodels/gpt-image-2-prompts",
+      "license": "CC BY 4.0",
+      "sourceLicenseUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/LICENSE",
+      "sourceRepository": "https://github.com/apimodels/gpt-image-2-prompts",
+      "sourceLicenseVerified": true,
+      "collectionOrigin": "approved-public-commerce",
+      "externalId": "poster-590",
+      "date": "2026-11-01",
+      "timestamp": 1793496184283,
+      "collectedAt": "2026-11-01T01:23:04.283Z",
+      "githubSyncedAt": "2026-11-01T01:23:04.283Z"
+    },
+    {
+      "id": "apimodels_gpt_image_2_poster-591",
+      "title": "午夜爵士现场",
+      "prompt": "优雅爵士音乐会海报,标题「午夜现场 MIDNIGHT SESSIONS」,天鹅绒厅,整个冬季每周五晚9点开场。主视觉:一支黄铜小号吐出袅袅烟雾,烟雾盘旋化作高音谱号,右上方单一光源投下戏剧性的琥珀色聚光。构图:乐器偏左,大量留白,标题用精致的高对比衬线体,配纤细斜体副标题。配色:近黑炭灰、温暖黄铜金、牛血红点缀。带细腻的黑色电影颗粒与暗角。底部有场馆地址与入场费小字。氛围:烟雾缭绕、私密、考究、深夜。",
+      "category": "电商视觉",
+      "commerceType": "广告海报",
+      "tags": [
+        "music",
+        "jazz",
+        "concert",
+        "noir"
+      ],
+      "model": "GPT Image",
+      "mediaType": "image",
+      "image": "https://r2.apimodels.app/assets/prompt-gallery/1785128294309_poster-591.png",
+      "images": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785128294309_poster-591.png"
+      ],
+      "rawImages": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785128294309_poster-591.png"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "3:4",
+      "source": "apimodels/gpt-image-2-prompts",
+      "sourceUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#poster-591",
+      "url": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#poster-591",
+      "domain": "github.com",
+      "attribution": "apimodels/gpt-image-2-prompts",
+      "license": "CC BY 4.0",
+      "sourceLicenseUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/LICENSE",
+      "sourceRepository": "https://github.com/apimodels/gpt-image-2-prompts",
+      "sourceLicenseVerified": true,
+      "collectionOrigin": "approved-public-commerce",
+      "externalId": "poster-591",
+      "date": "2026-11-01",
+      "timestamp": 1793496184283,
+      "collectedAt": "2026-11-01T01:23:04.283Z",
+      "githubSyncedAt": "2026-11-01T01:23:04.283Z"
+    },
+    {
+      "id": "apimodels_gpt_image_2_poster-592",
+      "title": "回声花开独立巡演",
+      "prompt": "梦幻独立流行巡演海报,乐队「回声花开 ECHO BLOOM」,2027春季北美巡演。主视觉:一盒放大的复古卡带,磁带轮盘处长出野花与蝴蝶,漂浮在柔和渐变的天空中。构图:卡带居中,花朵向上蔓延,乐队名用柔软圆润的复古手写体,右侧竖排列出各巡演城市与日期。配色:蜜桃、薰衣草、薄荷、奶油黄。带半调网点与理光孔版印刷质感。氛围:异想天开、温柔、Lo-Fi、春日气息。",
+      "category": "电商视觉",
+      "commerceType": "广告海报",
+      "tags": [
+        "music",
+        "indie",
+        "tour",
+        "pastel"
+      ],
+      "model": "GPT Image",
+      "mediaType": "image",
+      "image": "https://r2.apimodels.app/assets/prompt-gallery/1785128312700_poster-592.png",
+      "images": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785128312700_poster-592.png"
+      ],
+      "rawImages": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785128312700_poster-592.png"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "2:3",
+      "source": "apimodels/gpt-image-2-prompts",
+      "sourceUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#poster-592",
+      "url": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#poster-592",
+      "domain": "github.com",
+      "attribution": "apimodels/gpt-image-2-prompts",
+      "license": "CC BY 4.0",
+      "sourceLicenseUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/LICENSE",
+      "sourceRepository": "https://github.com/apimodels/gpt-image-2-prompts",
+      "sourceLicenseVerified": true,
+      "collectionOrigin": "approved-public-commerce",
+      "externalId": "poster-592",
+      "date": "2026-11-01",
+      "timestamp": 1793496184283,
+      "collectedAt": "2026-11-01T01:23:04.283Z",
+      "githubSyncedAt": "2026-11-01T01:23:04.283Z"
+    },
+    {
+      "id": "apimodels_gpt_image_2_poster-593",
+      "title": "雷霆之根雷鬼夜",
+      "prompt": "活力雷鬼音乐会海报,标题「雷霆之根 THUNDER ROOTS」,特邀金斯敦雄狮乐队,棕榈林海滩舞台,7月19日晚6点。主视觉:一个由层叠热带叶片与闪电组成的风格化狮头,四周放射太阳光芒。构图:狮头居中如徽章,标题用粗壮圆润的雷鬼风格展示字体弧形置于上方,下方是波浪状回响线条。配色:祖母绿、金、宝石红、黑。木刻海报质感与磨损边缘。底部用干净色带排布票务与阵容信息。氛围:温暖、叛逆、欢快、根源律动。",
+      "category": "电商视觉",
+      "commerceType": "广告海报",
+      "tags": [
+        "music",
+        "reggae",
+        "concert",
+        "tropical"
+      ],
+      "model": "GPT Image",
+      "mediaType": "image",
+      "image": "https://r2.apimodels.app/assets/prompt-gallery/1785128351720_poster-593.png",
+      "images": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785128351720_poster-593.png"
+      ],
+      "rawImages": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785128351720_poster-593.png"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "2:3",
+      "source": "apimodels/gpt-image-2-prompts",
+      "sourceUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#poster-593",
+      "url": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#poster-593",
+      "domain": "github.com",
+      "attribution": "apimodels/gpt-image-2-prompts",
+      "license": "CC BY 4.0",
+      "sourceLicenseUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/LICENSE",
+      "sourceRepository": "https://github.com/apimodels/gpt-image-2-prompts",
+      "sourceLicenseVerified": true,
+      "collectionOrigin": "approved-public-commerce",
+      "externalId": "poster-593",
+      "date": "2026-11-01",
+      "timestamp": 1793496184283,
+      "collectedAt": "2026-11-01T01:23:04.283Z",
+      "githubSyncedAt": "2026-11-01T01:23:04.283Z"
+    },
+    {
+      "id": "apimodels_gpt_image_2_poster-594",
+      "title": "电压金属崛起",
+      "prompt": "凶悍重金属演出海报,标题「电压崛起 VOLTAGE UPRISING」,四支乐队同台,铁厅,10月31日晚8点。主视觉:一颗龟裂的骷髅被带刺电缆缠绕,火花四溅,背景是被闪电撕裂的破碎天空。构图:骷髅正中,尖锐哥特体标题置于上方,乐队名以锋利如刀的金属字体堆叠,四周环绕做旧边框。配色:哑光黑、血红、钢银、病态酸绿火花。厚重垃圾摇滚质感、复印机粗粝纹理。底部标注年龄与票务信息。氛围:残暴、带电、混乱、末日感。",
+      "category": "电商视觉",
+      "commerceType": "广告海报",
+      "tags": [
+        "music",
+        "metal",
+        "gig",
+        "grunge"
+      ],
+      "model": "GPT Image",
+      "mediaType": "image",
+      "image": "https://r2.apimodels.app/assets/prompt-gallery/1785128349390_poster-594.png",
+      "images": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785128349390_poster-594.png"
+      ],
+      "rawImages": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785128349390_poster-594.png"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "2:3",
+      "source": "apimodels/gpt-image-2-prompts",
+      "sourceUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#poster-594",
+      "url": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#poster-594",
+      "domain": "github.com",
+      "attribution": "apimodels/gpt-image-2-prompts",
+      "license": "CC BY 4.0",
+      "sourceLicenseUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/LICENSE",
+      "sourceRepository": "https://github.com/apimodels/gpt-image-2-prompts",
+      "sourceLicenseVerified": true,
+      "collectionOrigin": "approved-public-commerce",
+      "externalId": "poster-594",
+      "date": "2026-11-01",
+      "timestamp": 1793496184283,
+      "collectedAt": "2026-11-01T01:23:04.283Z",
+      "githubSyncedAt": "2026-11-01T01:23:04.283Z"
+    },
+    {
+      "id": "apimodels_gpt_image_2_product-286",
+      "title": "智能手表生活产品图",
+      "prompt": "虚构品牌 Vantage 的一款现代智能手表，鲜艳的 AMOLED 运动显示屏配柔珊瑚色硅胶运动表带，立在浅砂岩方块上，背景为暖色极简蜜桃。圆润的铝合金表壳、显示抽象健身圆环界面的发光屏幕和纹理表带细节清晰。柔和明亮均匀的灯光营造干净科技感。配色为珊瑚、砂岩与柔蜜桃。略低的四分之三机位。清新的健康科技广告氛围，明亮现代，屏幕光晕清晰可见。",
+      "category": "电商视觉",
+      "commerceType": "产品主图",
+      "tags": [
+        "watch",
+        "smartwatch",
+        "tech"
+      ],
+      "model": "GPT Image",
+      "mediaType": "image",
+      "image": "https://r2.apimodels.app/assets/prompt-gallery/1785126972919_product-286.png",
+      "images": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785126972919_product-286.png"
+      ],
+      "rawImages": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785126972919_product-286.png"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "1:1",
+      "source": "apimodels/gpt-image-2-prompts",
+      "sourceUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#product-286",
+      "url": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#product-286",
+      "domain": "github.com",
+      "attribution": "apimodels/gpt-image-2-prompts",
+      "license": "CC BY 4.0",
+      "sourceLicenseUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/LICENSE",
+      "sourceRepository": "https://github.com/apimodels/gpt-image-2-prompts",
+      "sourceLicenseVerified": true,
+      "collectionOrigin": "approved-public-commerce",
+      "externalId": "product-286",
+      "date": "2026-11-01",
+      "timestamp": 1793496184283,
+      "collectedAt": "2026-11-01T01:23:04.283Z",
+      "githubSyncedAt": "2026-11-01T01:23:04.283Z"
+    },
+    {
+      "id": "apimodels_gpt_image_2_product-287",
+      "title": "军表硬派平铺",
+      "prompt": "俯拍平铺一款虚构品牌 Halden 的硬派军表，橄榄绿表盘，高对比数字刻度，配卡其帆布表带，摆在磨旧的棕褐皮革面上，旁边有折好的等高线地图、一只黄铜指南针和一把小折刀。温暖的方向光从右侧打来，投下清晰阴影，凸显哑光表壳质感。配色为橄榄绿、卡其与暖棕褐。正俯视 90 度机位，富有冒险感的户外传承腕表平铺氛围，硬朗实用，质感清晰可见。",
+      "category": "电商视觉",
+      "commerceType": "产品主图",
+      "tags": [
+        "watch",
+        "field",
+        "flat-lay"
+      ],
+      "model": "GPT Image",
+      "mediaType": "image",
+      "image": "https://r2.apimodels.app/assets/prompt-gallery/1785126973757_product-287.png",
+      "images": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785126973757_product-287.png"
+      ],
+      "rawImages": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785126973757_product-287.png"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "1:1",
+      "source": "apimodels/gpt-image-2-prompts",
+      "sourceUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#product-287",
+      "url": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#product-287",
+      "domain": "github.com",
+      "attribution": "apimodels/gpt-image-2-prompts",
+      "license": "CC BY 4.0",
+      "sourceLicenseUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/LICENSE",
+      "sourceRepository": "https://github.com/apimodels/gpt-image-2-prompts",
+      "sourceLicenseVerified": true,
+      "collectionOrigin": "approved-public-commerce",
+      "externalId": "product-287",
+      "date": "2026-11-01",
+      "timestamp": 1793496184283,
+      "collectedAt": "2026-11-01T01:23:04.283Z",
+      "githubSyncedAt": "2026-11-01T01:23:04.283Z"
+    },
+    {
+      "id": "apimodels_gpt_image_2_product-289",
+      "title": "飞行员墨镜主图",
+      "prompt": "虚构品牌 Vesper Frames 的一副经典飞行员墨镜，纤细金色金属框配烟灰渐变镜片，微微悬浮在柔和暖灰渐变背景之上，带一道淡淡的接触阴影。水滴形镜片映出干净的镜面高光，双梁和纤细镜腿细节锐利。明亮均匀的影棚灯光带清晰反光。配色为金、烟灰与暖中性色。略带四分之三的正面机位。永恒的高级眼镜电商氛围，利落干净，镜片渐变清晰可见。",
+      "category": "电商视觉",
+      "commerceType": "产品主图",
+      "tags": [
+        "eyewear",
+        "sunglasses",
+        "studio"
+      ],
+      "model": "GPT Image",
+      "mediaType": "image",
+      "image": "https://r2.apimodels.app/assets/prompt-gallery/1785126972129_product-289.png",
+      "images": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785126972129_product-289.png"
+      ],
+      "rawImages": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785126972129_product-289.png"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "1:1",
+      "source": "apimodels/gpt-image-2-prompts",
+      "sourceUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#product-289",
+      "url": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#product-289",
+      "domain": "github.com",
+      "attribution": "apimodels/gpt-image-2-prompts",
+      "license": "CC BY 4.0",
+      "sourceLicenseUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/LICENSE",
+      "sourceRepository": "https://github.com/apimodels/gpt-image-2-prompts",
+      "sourceLicenseVerified": true,
+      "collectionOrigin": "approved-public-commerce",
+      "externalId": "product-289",
+      "date": "2026-11-01",
+      "timestamp": 1793496184283,
+      "collectedAt": "2026-11-01T01:23:04.283Z",
+      "githubSyncedAt": "2026-11-01T01:23:04.283Z"
+    },
+    {
+      "id": "apimodels_gpt_image_2_product-290",
+      "title": "猫眼墨镜平铺",
+      "prompt": "俯拍平铺一副虚构品牌 Marlowe Optic 的大胆猫眼墨镜，光亮玳瑁醋酸板材框配暖琥珀镜片，斜置于暖陶土色台面上。搭配一方折好的豹纹真丝方巾、一支红色口红和几片干橙。明亮温暖的日光从左上方打来，投下清晰阴影和光亮反光。配色为玳瑁棕、琥珀与陶土。正俯视 90 度机位，复古迷人的眼镜平铺氛围，温暖时髦，板材细节清晰可见。",
+      "category": "电商视觉",
+      "commerceType": "产品主图",
+      "tags": [
+        "eyewear",
+        "sunglasses",
+        "flat-lay"
+      ],
+      "model": "GPT Image",
+      "mediaType": "image",
+      "image": "https://r2.apimodels.app/assets/prompt-gallery/1785126981064_product-290.png",
+      "images": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785126981064_product-290.png"
+      ],
+      "rawImages": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785126981064_product-290.png"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "1:1",
+      "source": "apimodels/gpt-image-2-prompts",
+      "sourceUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#product-290",
+      "url": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#product-290",
+      "domain": "github.com",
+      "attribution": "apimodels/gpt-image-2-prompts",
+      "license": "CC BY 4.0",
+      "sourceLicenseUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/LICENSE",
+      "sourceRepository": "https://github.com/apimodels/gpt-image-2-prompts",
+      "sourceLicenseVerified": true,
+      "collectionOrigin": "approved-public-commerce",
+      "externalId": "product-290",
+      "date": "2026-11-01",
+      "timestamp": 1793496184283,
+      "collectedAt": "2026-11-01T01:23:04.283Z",
+      "githubSyncedAt": "2026-11-01T01:23:04.283Z"
+    },
+    {
+      "id": "apimodels_gpt_image_2_product-294",
+      "title": "夹片墨镜平铺",
+      "prompt": "俯拍平铺一副虚构品牌 Otto & Vale 的现代光学镜框，半透明蜜糖色醋酸板材，配磁吸夹片偏光墨镜镜片，夹片微微掀起放在镜框旁，背景为浅沙色。一块折好的超细纤维布和一只纤薄皮革镜盒作为配套。柔和均匀的日光从上方洒下，透出微妙的通透光晕。配色为蜜糖、琥珀与浅沙。正俯视 90 度机位，巧妙实用的眼镜平铺氛围，干净现代，半透明细节清晰可见。",
+      "category": "电商视觉",
+      "commerceType": "产品主图",
+      "tags": [
+        "eyewear",
+        "clip-on",
+        "flat-lay"
+      ],
+      "model": "GPT Image",
+      "mediaType": "image",
+      "image": "https://r2.apimodels.app/assets/prompt-gallery/1785126995491_product-294.png",
+      "images": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785126995491_product-294.png"
+      ],
+      "rawImages": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785126995491_product-294.png"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "1:1",
+      "source": "apimodels/gpt-image-2-prompts",
+      "sourceUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#product-294",
+      "url": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#product-294",
+      "domain": "github.com",
+      "attribution": "apimodels/gpt-image-2-prompts",
+      "license": "CC BY 4.0",
+      "sourceLicenseUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/LICENSE",
+      "sourceRepository": "https://github.com/apimodels/gpt-image-2-prompts",
+      "sourceLicenseVerified": true,
+      "collectionOrigin": "approved-public-commerce",
+      "externalId": "product-294",
+      "date": "2026-11-01",
+      "timestamp": 1793496184283,
+      "collectedAt": "2026-11-01T01:23:04.283Z",
+      "githubSyncedAt": "2026-11-01T01:23:04.283Z"
+    },
+    {
+      "id": "apimodels_gpt_image_2_product-296",
+      "title": "复古墨镜暖调大片",
+      "prompt": "虚构品牌 Solene Optics 的一副复古锁孔梁墨镜，暖焦糖棕醋酸板材框配 G15 绿镜片，搁在木桌上一摞磨旧的复古书籍上，背景为暖调怀旧色。柔和的黄金时刻光线从左侧照来，带微弱胶片颗粒和轻微光晕。镜框的斜切边缘和镜片色调清晰锐利。配色为焦糖棕、橄榄绿与暖琥珀。平视四分之三机位。怀旧的复古眼镜广告氛围，温暖且复古。",
+      "category": "电商视觉",
+      "commerceType": "产品主图",
+      "tags": [
+        "eyewear",
+        "vintage",
+        "sunglasses"
+      ],
+      "model": "GPT Image",
+      "mediaType": "image",
+      "image": "https://r2.apimodels.app/assets/prompt-gallery/1785127008464_product-296.png",
+      "images": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785127008464_product-296.png"
+      ],
+      "rawImages": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785127008464_product-296.png"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "2:3",
+      "source": "apimodels/gpt-image-2-prompts",
+      "sourceUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#product-296",
+      "url": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#product-296",
+      "domain": "github.com",
+      "attribution": "apimodels/gpt-image-2-prompts",
+      "license": "CC BY 4.0",
+      "sourceLicenseUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/LICENSE",
+      "sourceRepository": "https://github.com/apimodels/gpt-image-2-prompts",
+      "sourceLicenseVerified": true,
+      "collectionOrigin": "approved-public-commerce",
+      "externalId": "product-296",
+      "date": "2026-11-01",
+      "timestamp": 1793496184283,
+      "collectedAt": "2026-11-01T01:23:04.283Z",
+      "githubSyncedAt": "2026-11-01T01:23:04.283Z"
+    },
     {
       "id": "apimodels_gpt_image_2_ecommerce-43",
       "title": "Honeyfern 身体磨砂膏",
