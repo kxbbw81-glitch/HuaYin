@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "kind": "prompthub-extension-inbox",
+  "createdAt": "2026-11-02T14:06:07.272Z",
+  "count": 2,
+  "items": [
+    {
+      "aspectRatio": "2:3",
+      "category": "人像",
+      "date": "2026-11-02",
+      "domain": "x.com",
+      "id": "ext_mvzc0mt4_k4y5",
+      "image": "https://pbs.twimg.com/media/HWGTHjHWYAIEmhv?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HWGTHjHWYAIEmhv?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "Serene morning in the jungle — eyes closed, soaking in the soft golden light and misty forest stillness. \n\nPrompt:           A photographic portrait of a serene young woman with long, dark, wavy hair, standing amidst a lush, misty tropical forest or jungle. She is wearing a simple red spaghetti-strap dress and has her eyes closed with a peaceful, blissful expression, lifting her face slightly toward the warm morning sunlight filtering through the dense canopy. Vibrant green leaves with visible dewdrops surround her, and dramatic rays of golden light pierce through the trees, creating a magical, ethereal atmosphere.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HWGTHjHWYAIEmhv?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/Minahil42298354/status/2117135161221415340",
+      "tags": [
+        "dark"
+      ],
+      "timestamp": 1793628363640,
+      "title": "Serene morning in the jungle — eyes closed, soakin",
+      "url": "https://x.com/Minahil42298354/status/2117135161221415340",
+      "collectedAt": "2026-11-02T14:06:07.272Z"
+    },
+    {
+      "aspectRatio": "16:9",
+      "category": "奇幻",
+      "date": "2026-11-02",
+      "domain": "x.com",
+      "id": "ext_mvzc0mt4_db5q",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2116887707989446657/img/6Esr3m40MIN0k4sd.jpg",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2116887707989446657/img/6Esr3m40MIN0k4sd.jpg"
+      ],
+      "model": "",
+      "prompt": "今日新增小林说风格的解析金融和日常问题的数字人模板，已经更新在GitHub中。\n\n包含完整的B-roll 镜头，场景全部都由AI自主完成。\n\n因为很多人做口播视频长视频其实素材采集、剪辑都会花巨量时间，而我的数字人结合Renoise AI 剪辑 生产全部 一条龙搞定。\n\n完全不同担心，地址我放评论区哈。   x.com/berryxia/statu…",
+      "rawImages": [
+        "https://pbs.twimg.com/amplify_video_thumb/2116887707989446657/img/6Esr3m40MIN0k4sd.jpg"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/yhslgg/status/2116925978136220028",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1793628363640,
+      "title": "今日新增小林说风格的解析金融和日常问题的数字人模板，已经更新在GitHub中。",
+      "url": "https://x.com/yhslgg/status/2116925978136220028",
+      "collectedAt": "2026-11-02T14:06:07.272Z"
+    }
+  ]
+}
