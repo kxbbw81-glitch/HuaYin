@@ -1,7 +1,36 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-02T12:51:12.578Z",
+  "updatedAt": "2026-11-02T14:07:16.276Z",
   "collections": [
+    {
+      "aspectRatio": "2:3",
+      "category": "人像",
+      "date": "2026-11-02",
+      "domain": "x.com",
+      "id": "ext_mvzc0mt4_k4y5",
+      "image": "https://pbs.twimg.com/media/HWGTHjHWYAIEmhv?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HWGTHjHWYAIEmhv?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "Serene morning in the jungle — eyes closed, soaking in the soft golden light and misty forest stillness. Prompt: A photographic portrait of a serene young woman with long, dark, wavy hair, standing amidst a lush, misty tropical forest or jungle. She is wearing a simple red spaghetti-strap dress and has her eyes closed with a peaceful, blissful expression, lifting her face slightly toward the warm morning sunlight filtering through the dense canopy. Vibrant green leaves with visible dewdrops surround her, and dramatic rays of golden light pierce through the trees, creating a magical, ethereal atmosphere.",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HWGTHjHWYAIEmhv?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/Minahil42298354/status/2117135161221415340",
+      "tags": [
+        "dark"
+      ],
+      "timestamp": 1793628363640,
+      "title": "Serene morning in the jungle — eyes closed, soakin",
+      "url": "https://x.com/Minahil42298354/status/2117135161221415340",
+      "collectedAt": "2026-11-02T14:06:07.272Z",
+      "mediaType": "image",
+      "githubSyncedAt": "2026-11-02T14:07:16.276Z",
+      "domesticSyncedAt": null
+    },
     {
       "aspectRatio": "3:4",
       "category": "时尚",
