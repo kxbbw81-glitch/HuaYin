@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "kind": "prompthub-extension-inbox",
+  "createdAt": "2026-11-02T12:50:04.365Z",
+  "count": 2,
+  "items": [
+    {
+      "aspectRatio": "2:3",
+      "category": "人像",
+      "date": "2026-11-02",
+      "domain": "x.com",
+      "id": "ext_mvz9avz0_sx1q",
+      "image": "https://pbs.twimg.com/media/HWGgDejbsAAeyzO?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HWGgDejbsAAeyzO?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "有没有朋友帮个忙\n也用 GPT Image 这个提示词生成图片\n我想试试你们是什么效果\n\nPrompt:\n\n人物主体： 一位成年东亚女性，年轻貌美，长发飘逸，五官精致，妆容精致。自然站立，身体微微侧转，面向镜头，姿态优雅迷人。\n服装设计： 穿着一件极具未来感的高级定制礼服，随机搭配鲜艳高级配色、金属缎面、透明薄纱、立体欧根纱、水晶、珍珠、宝石刺绣、不对称肩部、立体花朵、层叠裙摆及华丽披肩。不对称肩部及多层飘逸裙摆。裙身采用优雅的不规则高开衩设计，展现修长腿部线条。整体华丽、优雅、前卫。\n背景场景： 日常现代城市街景，玻璃幕墙商业建筑、时尚店铺、城市人行道、街边绿植及远处行人。自然融入真实城市环境，呈现高级时装与日常街景的视觉反差。\n构图与摄影： 竖版全身构图，人物居中，从头部到鞋子完整入镜，礼服裙摆完整呈现。自然日光，柔和光影，背景适度虚化，人物清晰突出。\n摄影风格： 超写实真人摄影，电影级布光，真实细腻的皮肤质感，精致服装纹理，鲜艳饱满的色彩，8K高清质感，时尚杂志大片效果。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HWGgDejbsAAeyzO?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/MrGafish/status/2117149893399916637",
+      "tags": [
+        "8k",
+        "摄影"
+      ],
+      "timestamp": 1793623803229,
+      "title": "有没有朋友帮个忙",
+      "url": "https://x.com/MrGafish/status/2117149893399916637",
+      "collectedAt": "2026-11-02T12:50:04.365Z"
+    },
+    {
+      "aspectRatio": "3:4",
+      "category": "人像",
+      "date": "2026-11-02",
+      "domain": "x.com",
+      "id": "ext_mvz9avz1_2i68",
+      "image": "https://pbs.twimg.com/media/HV1yYYMacAAt4XV?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HV1yYYMacAAt4XV?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "在罂粟花旁，托着腮帮子。湖面吹来的风让人舒爽，不知不觉就多待了一会儿\n\n#AIart #AI写真 #ポピーと湖\n\n【图像生成提示】\n\n主题：\n在罂粟花旁托腮\n\n主体：\n一位20多岁的成年女性坐在湖畔的花草地上。面向正面，双膝高高弯曲并拉向身体前方。头部向画面右侧倾斜。\n\n人物・表情：\n小巧的鼻子和短小的下巴，柔软的脸颊。灰褐色的杏仁形眼睛望着镜头，微微露出牙齿微笑。\n及胸的亮棕色波浪发。上方松散地束起，留下细碎的刘海和脸颊两侧的发束。\n奶油色中带淡桃色的肌肤。脸颊是柔和的粉色。脸部沐浴在明亮的漫射光中，靠近的膝盖处有温暖的阳光。\n\n服装・姿势：\n奶油白色系，饰以红绿小花图案的细肩带连衣裙。领口和肩部有褶边，肩带打结，胸前有蕾丝。花卉布料向左下方垂落，搭配细银色的花形项链。\n画面右侧的前臂竖起，用手掌支撑右脸颊。画面左侧的胳膊低垂，手部被靠近的膝盖、布料和花朵遮挡。两条大腿大大向手前伸展，小腿向右下方画面外延伸。\n\n背景・光线：\n前景左下方至中央，大面积虚化的红色罂粟花重叠，遮挡住腿部的一部分。左侧是石砌小屋，缠绕着红玫瑰藤蔓和黑色壁灯。右侧远处是蓝色湖泊和绿色山峦，上方是蓝天和少量白云。\n正午的明亮光线。在头发和身体边缘加入温暖的光晕，保留脸部的淡桃色调。\n\n构图・镜头：\n纵向3:4。从非常低的正面前方仰视草地。\n巨大的膝盖和大腿占据下方前景，脸部位于上方画面右侧。按照前景的花朵、膝盖、托腮的脸部、石屋和湖泊的顺序营造距离感。脚尖位于画面外。\n\n质感・风格：\n明亮的花朵和湖泊照片。保留光滑的肌肤、细致的发丝和柔和的花朵虚化，同时保持前景腿部的大小感。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HV1yYYMacAAt4XV?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/CyberTotal2026/status/2117201048641372490",
+      "tags": [
+        "写真"
+      ],
+      "timestamp": 1793623803229,
+      "title": "在罂粟花旁，托着腮帮子。湖面吹来的风让人舒爽，不知不觉就多待了一会儿",
+      "url": "https://x.com/CyberTotal2026/status/2117201048641372490",
+      "collectedAt": "2026-11-02T12:50:04.365Z"
+    }
+  ]
+}
