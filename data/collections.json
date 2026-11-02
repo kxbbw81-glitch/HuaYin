@@ -1,7 +1,209 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-02T07:43:11.623Z",
+  "updatedAt": "2026-11-02T08:31:22.277Z",
   "collections": [
+    {
+      "aspectRatio": "3:4",
+      "category": "风景",
+      "date": "2026-11-02",
+      "domain": "x.com",
+      "id": "ext_mvyzge8d_630h",
+      "image": "https://pbs.twimg.com/media/HWAUqy8aoAAn9wS?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HWAUqy8aoAAn9wS?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "我把墨镜稍微往下拉一点，从沙滩上向你打招呼。连手臂上的沙子都闪闪发光 #AIart #AI照片 #沙滩与墨镜 【图像生成提示】 主题： 透过墨镜的海边 主体： 一位20多岁的成年女性在沙滩上趴着。脸贴近沙子，额头朝左上方，�下巴朝右下方斜置，从眼镜上方看向镜头。 人物・表情： 圆润的茶褐色大眼睛和长睫毛，短而圆润的下巴，小巧的鼻子。珊瑚粉色的光泽嘴唇微微张开，露出一点上排牙齿。 浅棕色的头发在脑后松散地扎起，额头有薄薄的刘海，脸颊和肩膀上留有被风吹散的细发束。 阳光下温暖的奶油桃色肌肤。鼻子和嘴唇上有细小的反光，手臂上附着细小的沙粒和明亮的光泽。 服装・姿势： 将黑色的横长墨镜滑到眼睛下方。白色底布上印有小花的细水着肩带，小巧的耳饰和细金项链。 从画面左侧进入的前臂在脸下方横向弯曲，手掌和手指并拢，置于右手前臂附近。另一只手臂从右下方伸向前方超出画面。双腿和躯干的大部分不可见。 背景・光线： 近景满布粗糙的沙子。左后方是海滩和小群人影或棕榈树，右后方是水蓝色的海洋。上方广阔地保留蓝天和细碎的白云。 强烈的晴朗天光照亮头发和前臂。脸部由近处沙子发出的柔和反射光保持温暖的色调和淡淡的脸颊红晕。 构图・镜头： 纵向3:4。从地面高度的极近距离斜正面，保持脸部的倾斜和海岸线的微小斜角。 脸部大而置于中央下方，横向的前臂置于下方前景。头顶保留蓝天，不透过眼镜而清晰显示镜片上方的双眼。 质感・风格： 明亮的海边照片。沙粒、墨镜的硬质光泽、风中的发束清晰鲜明，脸部阴影柔和渐变。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HWAUqy8aoAAn9wS?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/CyberTotal2026/status/2117095352142827579",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1793607264013,
+      "title": "我把墨镜稍微往下拉一点，从沙滩上向你打招呼。连手臂上的沙子都闪闪发光",
+      "url": "https://x.com/CyberTotal2026/status/2117095352142827579",
+      "collectedAt": "2026-11-02T08:30:20.661Z",
+      "mediaType": "image",
+      "githubSyncedAt": "2026-11-02T08:31:22.277Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "category": "时尚",
+      "date": "2026-07-27",
+      "domain": "x.com",
+      "id": "ext_ms30dpic_c98d",
+      "image": "https://pbs.twimg.com/media/HOMIJ02XYAAetN4?format=jpg&name=small",
+      "prompt": "新中式不等于把中式符号堆满。 一套蓝灰剪裁、一张茶桌、一点窗光，人物轻轻回头，画面就有了东方气质。 ——Prompt—— Use case: photorealistic-natural Asset type: editorial lifestyle portrait, independent image 2 of 4 Primary request: Create a brand-new realistic photograph of a clearly adult East Asian woman, approximately 30 years old, inside a minimalist new Chinese tea room. Preserve this action skeleton: her body is turned sideways to the camera, she is lightly side-on and naturally turning her head back to look at the camera, candid and unposed, relaxed posture. She stands beside a simple tea table with only a small ceramic teapot and one cup. Input images: the two local reference images are style references only for Eastern negative space, soft natural window light, understated editorial portrait mood, and quiet composition; do not copy the original person, face, hairstyle, clothing, or room. Scene/backdrop: minimalist contemporary Chinese tea room, pale plaster walls, light ash wood, a single dark stone tea table, restrained architectural lines, one tall window, sparse and calm, large areas of uncluttered negative space. Subject: clearly adult East Asian woman, natural facial proportions, realistic anatomy, natural hands and fingers, dark hair in a low loose knot, understated makeup. She wears a complete blue-gray tailored set: structured collarless jacket and wide-leg trousers, matte textured fabric, subtle tonal buttons, modest and elegant. Style/medium: high-end real photography, believable skin texture and textile detail, quiet contemporary fashion editorial, 50mm lens, shallow depth of field, no artificial glamour retouching. Composition/framing: strict 9:16 vertical portrait, full-body or three-quarter full figure with the complete blue-gray outfit visible, subject placed slightly off-center with architectural negative space, body facing sideways and head turned back toward lens, eye-level camera. Lighting/mood: soft natural side light from the tall window, gentle shadow gradients, tranquil, refined, meditative. Color palette: blue-gray suit, warm ivory plaster, pale ash wood, charcoal stone, very restrained neutral accents. Materials/textures: washed matte wool or cotton tailoring, subtly tactile plaster, light wood grain, handmade ceramic glaze, real skin and hair texture. Text (verbatim): \"\" Constraints: clothes fully cover the body and are completely visible; keep the pose natural and non-posing; no text, no logo, no watermark. Avoid: minors, childlike appearance, copied reference identity, exaggerated beauty filter, deformed hands, extra fingers, fused fingers, cropped clothing, nudity, lingerie, glamour pose, busy décor, red wedding styling, collage, split screen, illustration, CGI, text, watermark.",
+      "source": "插件扫描",
+      "tags": [
+        "photorealistic",
+        "minimalist",
+        "dark"
+      ],
+      "timestamp": 1785143553636,
+      "title": "新中式不等于把中式符号堆满。",
+      "url": "https://x.com/chenlinspark/status/2081561713321865342",
+      "images": [
+        "https://pbs.twimg.com/media/HOMIJ02XYAAetN4?format=jpg&name=small"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOMIJ02XYAAetN4?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "",
+      "model": "",
+      "sourceUrl": "https://x.com/chenlinspark/status/2081561713321865342",
+      "collectedAt": "2026-11-02T08:30:17.698Z",
+      "mediaType": "image",
+      "githubSyncedAt": "2026-11-02T08:31:22.277Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "aspectRatio": "",
+      "category": "自然",
+      "date": "2026-07-27",
+      "domain": "x.com",
+      "id": "ext_ms31pvfl_fgsq",
+      "image": "https://pbs.twimg.com/media/HOMJpmEWwAAPY-G?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HOMJpmEWwAAPY-G?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOMJrH2X0AADiF6?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOG__j4XYAExDdg?format=jpg&name=900x900"
+      ],
+      "model": "",
+      "prompt": "她在织机前系好最后一段青缎，深色木线把人物和远山分成两层。 ——Prompt—— 参考上传的两张图片，仅借鉴其蓝白瓷器 / 青绿版画的风格与构图关系，不复制参考人物身份。生成一张 4:5 竖版、1122×1402 像素的独立当代东方女性写真海报。一位约 25 岁、明确成年的虚构东方女性，黑色低盘发，自然东方五官，神情柔和而克制，穿象牙白立领上衣、浅青绿色外衫和低饱和裙装，佩戴极简青玉色耳饰。色彩使用宣纸白、瓷白、钴蓝、青绿和少量木质深褐，表现瓷釉开片、纸纤维、木刻刀线和旧印刷颗粒。 时间切片是清晨园门下的片刻停步。人物站在深色木质园门旁，手里轻轻举着一枝淡色玉兰，头部转向花朵，视线落在花瓣上，另一只手自然垂落，动作只保留观察花枝这一件小事。背景只保留园门上的蓝白花卉瓷片、门洞后的浅青绿远山和米白墙面上的竹影。 采用大半身三分之二侧面构图，人物位于右侧，左侧留出大面积宣纸白，园门木框与花枝组成简洁的视觉线条。柔和清晨光照亮面部、花瓣、手部与青绿外衫，蓝白边框保持克制而清晰，整体像收藏级当代东方版画海报，不生成任何文字或水印。 负面约束：不要文字、汉字、Logo、水印、拼图、网格、长图、多人、重复人物、欧美脸、幼态脸、塑料皮肤、3D、动漫感、廉价国潮、仙侠特效、鲜艳红金、复杂家具、畸形手指、额外肢体、背景拥挤、透明或暴露服装。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOMJpmEWwAAPY-G?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOMJrH2X0AADiF6?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOG__j4XYAExDdg?format=jpg&name=900x900"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "tags": [
+        "东方",
+        "版画",
+        "青绿",
+        "瓷白",
+        "写真"
+      ],
+      "timestamp": 1785145800801,
+      "title": "她在织机前系好最后一段青缎",
+      "updatedAt": "2026-07-27T13:55:22.625Z",
+      "url": "https://x.com/chenlinspark/status/2081593672173289667",
+      "sourceUrl": "https://x.com/chenlinspark/status/2081593672173289667",
+      "collectedAt": "2026-11-02T08:30:17.698Z",
+      "mediaType": "image",
+      "githubSyncedAt": "2026-11-02T08:31:22.277Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "category": "城市",
+      "date": "2026-07-27",
+      "domain": "x.com",
+      "id": "ext_ms3b5td0_gqq3",
+      "image": "https://pbs.twimg.com/media/HOMO8kaXQAA5sai?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HOMO8kaXQAA5sai?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOMO9WZX0AAhdLO?format=jpg&name=small"
+      ],
+      "prompt": "同一个靠窗远眺，清透风像周末的安静呼吸，港风复古则多了一点“等人”的故事感。 ——Prompt—— 生成一张 9:16 竖版、单张独立图片、真实摄影质感的清透自然生活感女性写真。画面主体是一位 26 岁、明确成年的东方女性，成年气质清楚，不幼态化；脸型柔和流畅，眉眼清秀自然，眼神干净安静，妆容是清透淡妆、自然眉形、低饱和豆沙粉唇色，肤质保留真实细微纹理，黑色中长发自然披散，气质亲近、温柔、耐看，不是网红脸，也不是学生感。 时间切片是安静的周末上午，人物正站在浅色公寓的窗边，身体向窗外略转约30度，肩膀放松，重心稳定；她的一只手用放松的手指轻扶白色亚麻窗帘边缘，窗帘被微风带起一点，另一只手自然落在身侧并轻轻触碰米白开衫的衣摆，眼神明确看向窗外远处的树影和城市天际线，不看镜头，表情像被生活中一个安静瞬间吸引，动作摄影可信、连续、自然。 服装是完整的米白色针织开衫，柔软、略宽松、针织纹理清楚，内搭浅蓝色棉质衬衫，搭配高腰浅色长裤，衣料自然垂落，不透明、不情趣化、不暴露重点部位；主色为米白和浅蓝，辅以浅木色与自然肤色，整体低饱和、清爽、生活化，发丝和衣摆只有轻微自然动态，视觉重点是脸部、肩颈线条、手扶窗帘的动作和服装层次。 场景是干净的浅色公寓窗边，只保留白色亚麻窗帘、浅色木质窗台和窗外轻微虚化的绿色树影三个环境细节，前景有一点窗帘柔焦，中景人物清晰，后景是柔和虚化的远处城市景色；使用 50mm 镜头、平视机位、半身到大腿以上构图，人物位于画面偏右，左侧留出窗外光线和呼吸感，能清楚看见脸部、完整手部、窗帘边缘和上半身服装，不要身体局部特写。 柔和的自然窗光从侧前方进入，照亮人物脸侧、眼睛、鼻梁、肩颈和针织纹理，另一侧保留柔和阴影，窗外远处有轻微泛白天光但不过曝；整体采用奶油暖白生活剧照滤镜，色温略暖、低对比、柔和高光、干净暗部、真实肤色、轻微空气感和细腻自然摄影质感，像真实生活电影中被安静捕捉到的一帧。必须是单张完整竖版照片，不要拼图、九宫格、分屏、海报、文字或水印。",
+      "source": "插件扫描",
+      "tags": [
+        "东方",
+        "写真",
+        "海报",
+        "摄影",
+        "低饱和"
+      ],
+      "timestamp": 1785161661156,
+      "title": "同一个靠窗远眺，清透风像周末的安静呼吸，港风复古则多了一点“等人”的故事感。",
+      "url": "https://x.com/chenlinspark/status/2081539062368805194",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOMO8kaXQAA5sai?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOMO9WZX0AAhdLO?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "",
+      "model": "",
+      "sourceUrl": "https://x.com/chenlinspark/status/2081539062368805194",
+      "collectedAt": "2026-11-02T08:30:17.698Z",
+      "mediaType": "image",
+      "githubSyncedAt": "2026-11-02T08:31:22.277Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "category": "电商视觉",
+      "date": "2026-07-27",
+      "domain": "x.com",
+      "id": "ext_ms3b92eu_0ak5",
+      "image": "https://pbs.twimg.com/media/HOJ_nrEXgAEPImI?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HOJ_nrEXgAEPImI?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOJ_oC_WkAAOTxi?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOIO-nWXEAEpcVI?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOIPAV7WgAAnvU4?format=jpg&name=small"
+      ],
+      "prompt": "同一个动作，换座到两座城市里。一张是雨后的玻璃幕墙，一张是老电车站。—— 提示—— 使用场景：照片级写实自然素材类型：高端时尚编辑人像，独立竖图主要要求：创作一张以“复古电车站，动作捕捉活力”为主题的原创9:16竖图时尚照片。仅使用提供的两张图片作为姿势和摄影质量参考；请勿复制人物、面部、身份、发型、服装或背景。参考图片1的作用：略微后转的姿势参考。参考图片2的作用：自然的面部、手部和摄影质量参考。拍摄对象：一位年龄在35-45岁左右的东亚成年女性，自信且富有表现力。保留其精确的动作骨架，同时使其具有动态感：身体转向镜头约35-45度，头部后仰直视镜头，重心落在后腿上，一只手拨弄耳边的头发或抓住衣领，另一只手臂自然下垂或插入口袋。从头到脚的完整服装清晰可见，手部和四肢的解剖结构也十分逼真。场景/背景：一个位于历史街区的老式电车站，一辆饱经风霜的米绿色电车正从她身后驶入，头顶的电线、磨损的站台边缘、字迹模糊不清的旧时刻表，以及几个模糊的通勤者，他们只是背景中不明显的轮廓。服装：一件锈橙色短款羊毛夹克，内搭米色衬衫，系着一条窄围巾；一条高腰深橄榄绿中长裙，侧边开衩设计大胆，但遮盖度适中；不透明的连裤袜；复古皮质短靴；一个小巧的硬质手提包；一套完整、精致、充满时代感的都市时尚装扮。构图/取景：9:16 人像，全身抓拍，街头时尚风格，相机置于臀部高度，略微偏离轴线，仿佛在拍摄过程中被捕捉到。人物转身瞬间，外套下摆和围巾因运动而微微抬起，电车和背景呈现微妙的动态虚化效果，而面部和服装保持清晰。站台和电车之间形成动感的对角线。光线/氛围：傍晚的侧光照射在站台上，头发和外套上呈现暖色调的高光，阴影部分则较为冷色调，营造出胶片纪录片般的质感，真实的快门拖拽感，同时又不影响人物的清晰度。风格/媒介：写实专业的街头风格摄影，35mm 镜头的质感，颗粒感十足，面料和金属纹理真实自然，既有电影感又不失真实感。限制条件：无文字、无标志、无水印、无拼贴、无分屏、无重复人物、无裁剪脚部、无暴露服装、无青少年形象、无变形人体结构、面部无过度虚化。",
+      "source": "插件扫描",
+      "tags": [
+        "人像",
+        "摄影",
+        "电影感"
+      ],
+      "timestamp": 1785161812854,
+      "title": "同一个动作，换座到两座城市里。一张是雨后的玻璃幕墙，一张是老电车站。——",
+      "url": "https://x.com/chenlinspark/status/2081371459289854176",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HOJ_nrEXgAEPImI?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOJ_oC_WkAAOTxi?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOIO-nWXEAEpcVI?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HOIPAV7WgAAnvU4?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "",
+      "model": "",
+      "sourceUrl": "https://x.com/chenlinspark/status/2081371459289854176",
+      "collectedAt": "2026-11-02T08:30:17.698Z",
+      "mediaType": "image",
+      "commerceType": "场景种草",
+      "githubSyncedAt": "2026-11-02T08:31:22.277Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "category": "时尚",
+      "date": "2026-07-27",
+      "domain": "x.com",
+      "id": "ext_ms3cbczz_t2za",
+      "image": "https://pbs.twimg.com/media/HMszoCha0AAWyUZ?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HMszoCha0AAWyUZ?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HMszoQbaYAA0W-k?format=jpg&name=small"
+      ],
+      "prompt": "Generated in CliQi. Prompt: Ultra-realistic high fashion studio portrait of a striking young East Asian woman posing confidently on a seamless light gray cyclorama studio background. She has waist-length silky jet-black hair with perfectly blunt straight bangs, luminous",
+      "source": "插件扫描",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1785163599503,
+      "title": "Generated in CliQi.",
+      "url": "https://x.com/chenlinspark/status/2081348809230258379",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HMszoCha0AAWyUZ?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HMszoQbaYAA0W-k?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "",
+      "model": "",
+      "sourceUrl": "https://x.com/chenlinspark/status/2081348809230258379",
+      "collectedAt": "2026-11-02T08:30:17.698Z",
+      "mediaType": "image",
+      "githubSyncedAt": "2026-11-02T08:31:22.277Z",
+      "domesticSyncedAt": null
+    },
     {
       "id": "x_2117048681233060298",
       "title": "WORTID奢侈香水广告片",
