@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "kind": "prompthub-extension-inbox",
+  "createdAt": "2026-11-02T08:38:08.009Z",
+  "count": 2,
+  "items": [
+    {
+      "aspectRatio": "",
+      "category": "人像",
+      "date": "2026-11-02",
+      "domain": "x.com",
+      "id": "ext_mvz01t79_1rcf",
+      "image": "https://pbs.twimg.com/media/HWDaq6yasAA7H8H?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HWDaq6yasAA7H8H?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "emmmm 大家可以猜猜这张图~\n\n下半身被我截掉了\n\n提示词送你们~\n会有意想不到的惊喜\n\n提示词：\n写实室内暖色背影人像摄影，6:12狭长竖幅，从盘发顶部拍到下方垂落的外衣与腿部局部，双脚不入镜。成年东亚女性位于画面中央，上方保留一段灰米色空墙，身体处于较低位置，背部大面积朝向镜头，肩线略倾斜，腰部自然收束。\n\n头部转向画面左侧，略低头，下巴轻收，露出近侧耳朵与局部侧脸，目光朝画面左下方，双唇轻微分开。深棕黑发松松盘起，脑后以琥珀棕色抓夹固定，额前、耳侧与后颈留有松散细发。\n\n身穿白色细肩带内衣，纤细肩带沿两肩向背部落下，背部有一道横向白色衣带；下身为乳白色细罗纹贴身短裤。宽大的白色柔软外衣从肩头滑落，堆叠于双臂、腰胯和身后，形成包围下半身的宽大垂褶。双臂自然向下，肘部略弯，两手停在髋部两侧，被衣料大部分遮挡。\n\n光线呈集中而克制的橙金色。画面左侧可见脸颊、鼻唇轮廓、颈侧和近侧肩缘受到暖光，背部大面维持较暗的棕金色中间调，肩胛与脊背以柔和明暗变化呈现；画面右侧腰胯附近和堆叠白衣上有一块明显更亮的奶油金色受光区。亮区边缘轻微柔化，头发与上背较暗，脸部不单独提亮。\n\n背景上方为灰米色墙面，中部有横向暗灰绿色区域，下方是深棕色空间与支撑面，背景自然虚化，仅保留横向块面关系。整体暖棕色调，局部金色亮部与沉静暗面形成层次，轮廓柔和而仍可辨。\n\n干净的数码画质，曝光忠于局部暖光与大面积暗面的关系，影调平滑过渡，暗部在既定亮度内保留可见层次，皮肤自然细腻且质感适度。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HWDaq6yasAA7H8H?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/lishishen7i/status/2117003748115693835",
+      "tags": [
+        "人像",
+        "摄影"
+      ],
+      "timestamp": 1793608263189,
+      "title": "emmmm 大家可以猜猜这张图~",
+      "url": "https://x.com/lishishen7i/status/2117003748115693835",
+      "collectedAt": "2026-11-02T08:38:08.009Z"
+    },
+    {
+      "aspectRatio": "16:9",
+      "category": "奇幻",
+      "date": "2026-11-02",
+      "domain": "x.com",
+      "id": "ext_mvz01t7a_mgtg",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2116887707989446657/img/6Esr3m40MIN0k4sd.jpg",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2116887707989446657/img/6Esr3m40MIN0k4sd.jpg"
+      ],
+      "model": "",
+      "prompt": "今日新增小林说风格的解析金融和日常问题的数字人模板，已经更新在GitHub中。\n\n包含完整的B-roll 镜头，场景全部都由AI自主完成。\n\n因为很多人做口播视频长视频其实素材采集、剪辑都会花巨量时间，而我的数字人结合Renoise AI 剪辑 生产全部 一条龙搞定。\n\n完全不同担心，地址我放评论区哈。   x.com/berryxia/statu…",
+      "rawImages": [
+        "https://pbs.twimg.com/amplify_video_thumb/2116887707989446657/img/6Esr3m40MIN0k4sd.jpg"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/berryxia/status/2117136400521003156",
+      "tags": [
+        "AI生成"
+      ],
+      "timestamp": 1793608263190,
+      "title": "今日新增小林说风格的解析金融和日常问题的数字人模板，已经更新在GitHub中。",
+      "url": "https://x.com/berryxia/status/2117136400521003156",
+      "collectedAt": "2026-11-02T08:38:08.009Z"
+    }
+  ]
+}
