@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-02T14:07:16.276Z",
+  "updatedAt": "2026-11-02T17:26:46.819Z",
   "collections": [
     {
       "aspectRatio": "2:3",
@@ -29,7 +29,7 @@
       "collectedAt": "2026-11-02T14:06:07.272Z",
       "mediaType": "image",
       "githubSyncedAt": "2026-11-02T14:07:16.276Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-11-02T17:26:46.815Z"
     },
     {
       "aspectRatio": "3:4",
@@ -58,7 +58,7 @@
       "collectedAt": "2026-11-02T12:50:04.365Z",
       "mediaType": "image",
       "githubSyncedAt": "2026-11-02T12:51:12.578Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-11-02T17:26:46.815Z"
     },
     {
       "aspectRatio": "2:3",
@@ -88,7 +88,7 @@
       "collectedAt": "2026-11-02T12:50:04.365Z",
       "mediaType": "image",
       "githubSyncedAt": "2026-11-02T12:51:12.578Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-11-02T17:26:46.815Z"
     },
     {
       "aspectRatio": "16:9",
@@ -117,7 +117,7 @@
       "collectedAt": "2026-11-02T08:31:05.432Z",
       "mediaType": "image",
       "githubSyncedAt": "2026-11-02T08:32:11.433Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-11-02T17:26:46.815Z"
     },
     {
       "aspectRatio": "",
@@ -147,7 +147,7 @@
       "collectedAt": "2026-11-02T08:31:05.432Z",
       "mediaType": "image",
       "githubSyncedAt": "2026-11-02T08:32:11.433Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-11-02T17:26:46.815Z"
     },
     {
       "aspectRatio": "3:4",
@@ -184,7 +184,7 @@
       "collectedAt": "2026-11-02T08:30:31.608Z",
       "mediaType": "image",
       "githubSyncedAt": "2026-11-02T08:31:37.530Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-11-02T17:26:46.815Z"
     },
     {
       "aspectRatio": "3:4",
@@ -213,7 +213,7 @@
       "collectedAt": "2026-11-02T08:30:20.661Z",
       "mediaType": "image",
       "githubSyncedAt": "2026-11-02T08:31:22.277Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-11-02T17:26:46.815Z"
     },
     {
       "category": "时尚",
@@ -244,7 +244,7 @@
       "collectedAt": "2026-11-02T08:30:17.698Z",
       "mediaType": "image",
       "githubSyncedAt": "2026-11-02T08:31:22.277Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-11-02T17:26:46.815Z"
     },
     {
       "aspectRatio": "",
@@ -282,7 +282,7 @@
       "collectedAt": "2026-11-02T08:30:17.698Z",
       "mediaType": "image",
       "githubSyncedAt": "2026-11-02T08:31:22.277Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-11-02T17:26:46.815Z"
     },
     {
       "category": "城市",
@@ -317,7 +317,7 @@
       "collectedAt": "2026-11-02T08:30:17.698Z",
       "mediaType": "image",
       "githubSyncedAt": "2026-11-02T08:31:22.277Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-11-02T17:26:46.815Z"
     },
     {
       "category": "电商视觉",
@@ -355,7 +355,7 @@
       "mediaType": "image",
       "commerceType": "场景种草",
       "githubSyncedAt": "2026-11-02T08:31:22.277Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-11-02T17:26:46.815Z"
     },
     {
       "category": "时尚",
@@ -386,7 +386,7 @@
       "collectedAt": "2026-11-02T08:30:17.698Z",
       "mediaType": "image",
       "githubSyncedAt": "2026-11-02T08:31:22.277Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-11-02T17:26:46.815Z"
     },
     {
       "id": "x_2117048681233060298",
