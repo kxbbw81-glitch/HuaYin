@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-03T09:08:16.605Z",
+  "updatedAt": "2026-11-03T13:01:42.889Z",
   "collections": [
     {
       "aspectRatio": "2:3",
@@ -31,7 +31,7 @@
       "collectedAt": "2026-11-03T09:07:09.489Z",
       "mediaType": "image",
       "githubSyncedAt": "2026-11-03T09:08:16.605Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-11-03T13:01:42.886Z"
     },
     {
       "aspectRatio": "9:16",
@@ -62,7 +62,7 @@
       "collectedAt": "2026-11-03T09:06:53.225Z",
       "mediaType": "image",
       "githubSyncedAt": "2026-11-03T09:08:02.070Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-11-03T13:01:42.886Z"
     },
     {
       "id": "apimodels_gpt_image_2_ecommerce-135",
