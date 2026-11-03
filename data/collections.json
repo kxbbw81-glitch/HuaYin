@@ -1,7 +1,1198 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-02T17:26:46.819Z",
+  "updatedAt": "2026-11-03T01:57:01.662Z",
   "collections": [
+    {
+      "id": "x_2117238218957681123",
+      "title": "BERRY DAYS草莓牛奶海报",
+      "prompt": "生成一张专业饮品品牌的夏日新品商业广告海报，4:5 竖版，超高清，真实商业产品摄影与时尚平面设计相结合。\n\n品牌名称：BERRY DAYS\n产品名称：STRAWBERRY MILK\n\n【整体视觉风格】\n\n夏日精品饮品广告，Fresh Summer Beverage Editorial Campaign。\n\n主色调为草莓粉、奶油白、柔和珊瑚红和少量浅绿色。\n\n整体明亮、清新、甜美，但保持高级商业设计感，避免廉价卡通或过度可爱的儿童化风格。\n\n视觉具有精致的日系生活方式美学与现代欧美食品广告设计语言。\n\n【核心产品】\n\n画面中央偏右位置，一瓶透明玻璃草莓牛奶放置在浅粉色哑光亚克力展示台上。\n\n玻璃瓶采用简洁的经典牛奶瓶造型，瓶颈短而自然，瓶身具有真实玻璃厚度和轻微折射。\n\n瓶内装满淡粉色草莓牛奶，液体颜色自然柔和，具有真实的乳白色混合质感，表面不透明，呈均匀细腻的草莓乳饮状态。\n\n玻璃瓶顶部使用完整闭合的白色旋盖，瓶盖结构真实，没有变形或多余零件。\n\n瓶身正面贴着奶油白色简洁品牌标签，标签中央印有：\n\nBERRY DAYS\n\n下方：\n\nSTRAWBERRY MILK\n\n配合一个精致的小型红色草莓图案。\n\n玻璃瓶表面有细小而真实的冷凝水珠，体现刚从冰箱取出的清凉感。\n\n【创意视觉】\n\n展示台周围摆放三至五颗真实饱满的鲜红草莓，其中一两颗切开，露出真实的内部果肉纹理。\n\n一颗草莓位于瓶子左侧的半空中，仿佛被轻轻抛起的瞬间。\n\n下方有少量粉色草莓牛奶飞溅，液体形成自然的弧形和大小不同的细微液滴。\n\n飞溅液体体积克制，不遮挡瓶身标签，不出现不符合物理规律的巨大液体漩涡。\n\n右下角放置一片自然弯曲的绿色草莓叶，与粉色背景形成细腻对比。\n\n【场景与背景】\n\n背景为柔和的奶油粉色和浅珊瑚色渐变，远处隐约出现地中海风格的粉色建筑几何轮廓。\n\n夏日午后的阳光从画面左上方照射，在亚克力台面形成真实柔和的产品阴影。\n\n背景具有明亮通透的夏日氛围，适度景深，干净整洁。\n\n整体像一张在阳光充足的专业商业摄影棚中拍摄的真实饮品广告照片。\n\n【商业海报文字排版】\n\n画面顶部左侧放置品牌名称：\n\nBERRY DAYS\n\n右上角放置小型标签：\n\nSUMMER COLLECTION\n\n画面左上方使用大号复古时尚衬线字体：\n\nSWEET\nON YOU.\n\n标题采用草莓红色，具有时尚杂志设计感，笔画精致，行距紧凑。\n\n标题下方使用现代无衬线小字：\n\nFRESH STRAWBERRY MILK\n\n画面底部左侧排版：\n\nREAL STRAWBERRIES\nREAL HAPPINESS.\n\n右下角设计一枚简洁的圆形红色印章：\n\nFRESH\n& SWEET\n\n底部居中排版广告语：\n\nA LITTLE SIP OF SUMMER.\n\n【设计与摄影要求】\n\n采用高级饮品品牌商业产品摄影标准。\n\n使用50mm产品摄影镜头，真实玻璃折射、自然冷凝水珠、细腻液体质感和真实草莓果肉纹理。\n\n产品清晰锐利，玻璃瓶结构准确，标签文字真实可读。\n\n文字采用精致的复古衬线字体与现代无衬线字体组合。\n\n构图具有明确的视觉中心，主标题醒目，品牌标识清晰，产品主体与文字相互协调。\n\n避免过度饱和、廉价糖果色、塑料质感、卡通效果和夸张 CGI。\n\n禁止玻璃瓶变形、错误瓶盖、液体穿过瓶身、草莓数量异常、草莓内部纹理错误、液体无故悬浮、错误阴影和乱码文字。\n\n最终效果为一张具有夏日活力、产品真实感和完整商业排版的精品饮品广告海报。",
+      "category": "电商视觉",
+      "commerceType": "广告海报",
+      "useCase": "广告海报",
+      "tags": [
+        "饮品",
+        "广告海报",
+        "产品主图"
+      ],
+      "model": "GPT Image 2.5",
+      "mediaType": "image",
+      "image": "https://pbs.twimg.com/media/HWHw61vaEAAztFS.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HWHw61vaEAAztFS.jpg",
+        "https://pbs.twimg.com/media/HWHw61wboAEUpGz.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HWHw61vaEAAztFS.jpg",
+        "https://pbs.twimg.com/media/HWHw61wboAEUpGz.jpg"
+      ],
+      "referenceImages": [],
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/Adam38363368936/status/2117238218957681123",
+      "url": "https://x.com/Adam38363368936/status/2117238218957681123",
+      "domain": "x.com",
+      "creator": "Adam38363368936",
+      "date": "2026-11-03",
+      "timestamp": 1793671021662,
+      "collectedAt": "2026-11-03T01:57:01.662Z",
+      "githubSyncedAt": "2026-11-03T01:57:01.662Z"
+    },
+    {
+      "id": "x_2116176197789110575",
+      "title": "NOCTURNE香水广告海报",
+      "prompt": "生成一张国际奢侈品香水品牌级别的商业广告海报，4:5 竖版，超高清，真实商业产品摄影与高级杂志平面设计结合。\n\n品牌名称：NOCTURNE\n产品名称：MIDNIGHT EAU DE PARFUM\n\n【整体视觉风格】\n\n现代高端香水广告，Midnight Luxury Editorial Campaign。\n\n主色调为午夜深蓝、深海蓝、银白色和少量冷金色。\n\n画面具有神秘、浪漫、安静的午夜氛围，采用大面积深蓝色空间、精致玻璃折射、柔和月光和高级杂志式字体排版。\n\n设计简洁克制，具有国际奢侈品品牌的广告质感。\n\n【核心产品】\n\n画面中央偏下，一瓶具有独特建筑美感的高级香水瓶，稳稳立在一块刚刚露出水面的深蓝色抛光石台上。\n\n香水瓶为透明厚底玻璃材质，采用修长的长方体瓶身，边缘略微倒角，内部装有浅琥珀色香水。\n\n瓶盖为银色磨砂金属材质，造型简洁，瓶盖与瓶颈结构准确，瓶身没有变形。\n\n瓶子正面印有清晰的银白色品牌文字：\n\nNOCTURNE\n\n下方小字：\n\nEAU DE PARFUM\n\n采用略微低角度的三分之二侧面产品摄影视角，香水瓶正面文字完整可读，同时能看到瓶身的真实厚度。\n\n【场景与光影】\n\n香水瓶周围是一片安静的深蓝色水面，水面具有真实细微波纹，倒映着香水瓶的轮廓和银白色月光。\n\n背景远处是一座朦胧的午夜欧洲城市，只有少量温暖的窗户灯光，城市轮廓柔和虚化。\n\n天空中有一轮较大的柔和月亮，但亮度克制，月亮与玻璃瓶的反射方向符合真实光学规律。\n\n柔和冷色主光从画面左上方照亮玻璃瓶，瓶身边缘形成精致的银色轮廓高光。\n\n玻璃具有真实的光线折射、厚度、透明度和细腻的内部反射。\n\n香水瓶底部与石台有真实接触阴影，水面倒影自然，没有悬浮或结构错误。\n\n【商业海报文字排版】\n\n顶部中央使用小号银白色字母：\n\nNOCTURNE\n\n右上角放置小号文字：\n\nTHE MIDNIGHT COLLECTION\n\n在画面上半部分偏左位置，使用超大号优雅的高对比衬线字体，分两行排版：\n\nAFTER\nDARK.\n\n字体采用高级时尚杂志风格，银白色，字母边缘清晰，字距与行距精致。\n\n标题下方放置简短副标题：\n\nA FRAGRANCE THAT STAYS.\n\n画面底部采用极简商业信息排版：\n\nMIDNIGHT\nEAU DE PARFUM\n\n下方小字：\n\n50 ML · EAU DE PARFUM\n\n底部右侧用优雅的小号字体：\n\nTHE NIGHT IS YOURS.\n\n【设计与摄影要求】\n\n采用专业奢侈品广告摄影标准，85mm 产品摄影镜头，真实玻璃折射、真实金属反射、自然景深和精致的局部高光。\n\n商业文字具有明确的视觉层级，字体排版整洁，不遮挡瓶身。\n\n画面具有克制的电影感，避免过度夸张的蓝色发光、廉价霓虹灯、科幻感、塑料玻璃质感和明显的 AI 渲染感。\n\n禁止错误倒影、双重瓶盖、漂浮瓶身、玻璃瓶变形、液面倾斜、乱码文字和多余品牌 Logo。\n\n最终呈现为一张兼具高级时尚美学、真实摄影质感与专业排版的国际香水品牌商业海报。",
+      "category": "电商视觉",
+      "commerceType": "广告海报",
+      "useCase": "广告海报",
+      "tags": [
+        "香水",
+        "广告海报",
+        "奢侈品"
+      ],
+      "model": "GPT Image 2.5",
+      "mediaType": "image",
+      "image": "https://pbs.twimg.com/media/HV4qEInbcAArGMx.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HV4qEInbcAArGMx.jpg",
+        "https://pbs.twimg.com/media/HV4qEIpacAAV4El.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HV4qEInbcAArGMx.jpg",
+        "https://pbs.twimg.com/media/HV4qEIpacAAV4El.jpg"
+      ],
+      "referenceImages": [],
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/Adam38363368936/status/2116176197789110575",
+      "url": "https://x.com/Adam38363368936/status/2116176197789110575",
+      "domain": "x.com",
+      "creator": "Adam38363368936",
+      "date": "2026-11-03",
+      "timestamp": 1793671021662,
+      "collectedAt": "2026-11-03T01:57:01.662Z",
+      "githubSyncedAt": "2026-11-03T01:57:01.662Z"
+    },
+    {
+      "id": "x_2117247231913038145",
+      "title": "CRUNCH-X薯片广告片",
+      "prompt": "Create an ultra-premium, photorealistic cinematic advertisement for the futuristic potato chips brand CRUNCH-X, filmed like a multimillion-dollar luxury automotive commercial.\nDuration: 15 seconds | Vertical 9:16 | 4K\nScene 1 (0–3s) — Luxury Atmosphere:\nA slow, elegant camera dolly moves through a magnificent futuristic black-marble lounge. Champagne-gold architectural lights illuminate polished surfaces. A panoramic glass window reveals a breathtaking galaxy. Deep cinematic shadows and atmospheric golden haze.\nScene 2 (3–6s) — Product Reveal:\nA mysterious golden spotlight activates. A luxurious matte-black CRUNCH-X packet with metallic-gold lettering rises from a floating obsidian pedestal. The camera slowly pushes towards the packaging as golden reflections travel across its surface.\nScene 3 (6–9s) — Sensory Explosion:\nThe package opens elegantly in zero gravity. Dozens of golden crispy potato chips emerge, floating and rotating in beautiful slow motion. Extreme macro photography captures salt crystals, delicate textures and crispy edges.\nScene 4 (9–12s) — Cinematic Experience:\nThe camera performs a smooth 360-degree orbit around the floating product. Chips pass close to the lens, creating extraordinary foreground depth. Golden particles, volumetric light rays and subtle blue energy illuminate the environment.\nScene 5 (12–15s) — Iconic Finale:\nEverything suddenly freezes. One perfectly golden chip slowly approaches the camera. Dramatic bass impact. Cut to a powerful hero shot of the CRUNCH-X package against a magnificent golden halo.\n\nCinematic direction:\nCamera: ARRI Alexa 65 look, anamorphic lenses, macro close-ups.\nLighting: Dramatic golden key light, deep black shadows, subtle electric-blue rim lighting.\nMovement: Smooth dolly, orbital tracking, controlled slow motion.\nSound: Deep orchestral bass, futuristic mechanical ambience, elegant whooshes and an explosive crispy crunch.\nQuality: Hyper-realistic, sophisticated luxury advertising, exceptional depth of field, realistic physics, premium Hollywood colour grading.\nNegative prompt: Cartoon graphics, cheap packaging, distorted lettering, blurry product, artificial-looking chips, excessive visual clutter, shaky camera, low-resolution textures, inconsistent branding.",
+      "category": "电商视觉",
+      "commerceType": "电商视频",
+      "useCase": "电商视频",
+      "tags": [
+        "零食",
+        "广告",
+        "电商视频"
+      ],
+      "model": "",
+      "mediaType": "video",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2117247193203769344/img/Z-Dl_yGoZ4hI24tZ.jpg",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2117247193203769344/img/Z-Dl_yGoZ4hI24tZ.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/amplify_video_thumb/2117247193203769344/img/Z-Dl_yGoZ4hI24tZ.jpg"
+      ],
+      "referenceImages": [],
+      "videoPoster": "https://pbs.twimg.com/amplify_video_thumb/2117247193203769344/img/Z-Dl_yGoZ4hI24tZ.jpg",
+      "videoUrl": "https://video.twimg.com/amplify_video/2117247193203769344/vid/avc1/1280x720/1Vz7k9DVvIBlUAlR.mp4",
+      "videoSourceUrl": "https://video.twimg.com/amplify_video/2117247193203769344/vid/avc1/1280x720/1Vz7k9DVvIBlUAlR.mp4",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/iamsoulAI/status/2117247231913038145",
+      "url": "https://x.com/iamsoulAI/status/2117247231913038145",
+      "domain": "x.com",
+      "creator": "iamsoulAI",
+      "date": "2026-11-03",
+      "timestamp": 1793671021662,
+      "collectedAt": "2026-11-03T01:57:01.662Z",
+      "githubSyncedAt": "2026-11-03T01:57:01.662Z"
+    },
+    {
+      "id": "x_2117184942614737190",
+      "title": "球鞋中底产品广告片",
+      "prompt": "10-second commercial shoot, 16:9 anamorphic. 0-3s: Macro 50mm close-up on the exposed carbon-fiber plate sandwiched within the high-resilience foam midsole, catching cool blue studio rim light. 3-7s: High-speed tracking shot shows the textured mesh upper flexing dynamically as water splashes away in slow motion. 7-10s: Dynamic diagonal hero framing on a stark minimalist matte-black platform.",
+      "category": "电商视觉",
+      "commerceType": "电商视频",
+      "useCase": "电商视频",
+      "tags": [
+        "球鞋",
+        "产品",
+        "电商视频"
+      ],
+      "model": "Google Flow",
+      "mediaType": "video",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2116837749919514624/img/9hn-4cqmNmE91_6W.jpg",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2116837749919514624/img/9hn-4cqmNmE91_6W.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/amplify_video_thumb/2116837749919514624/img/9hn-4cqmNmE91_6W.jpg"
+      ],
+      "referenceImages": [],
+      "videoPoster": "https://pbs.twimg.com/amplify_video_thumb/2116837749919514624/img/9hn-4cqmNmE91_6W.jpg",
+      "videoUrl": "https://video.twimg.com/amplify_video/2116837749919514624/vid/avc1/1280x720/B4Vvfc788EgHfuK0.mp4",
+      "videoSourceUrl": "https://video.twimg.com/amplify_video/2116837749919514624/vid/avc1/1280x720/B4Vvfc788EgHfuK0.mp4",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/SethAIGC/status/2117184942614737190",
+      "url": "https://x.com/SethAIGC/status/2117184942614737190",
+      "domain": "x.com",
+      "creator": "SethAIGC",
+      "date": "2026-11-03",
+      "timestamp": 1793671021662,
+      "collectedAt": "2026-11-03T01:57:01.662Z",
+      "githubSyncedAt": "2026-11-03T01:57:01.662Z"
+    },
+    {
+      "id": "x_2117276042645688752",
+      "title": "钛合金飞行墨镜广告片",
+      "prompt": "10-second commercial shoot, 16:9 anamorphic. 0-3s: Close-up macro reveal of the laser-etched hinges on ultra-light titanium aviator frames reflecting a neon-lit city skyline. 3-7s: Smooth 360-degree orbit shot reveals the subtle gradient tint and sleek double-bridge structure. 7-10s: Hero front lockup against a dark brushed-metal backdrop with subtle anamorphic lens flare.",
+      "category": "电商视觉",
+      "commerceType": "电商视频",
+      "useCase": "电商视频",
+      "tags": [
+        "眼镜",
+        "产品",
+        "电商视频"
+      ],
+      "model": "Google Flow",
+      "mediaType": "video",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2116838118364000256/img/I0YQPtcB9r8loSp9.jpg",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2116838118364000256/img/I0YQPtcB9r8loSp9.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/amplify_video_thumb/2116838118364000256/img/I0YQPtcB9r8loSp9.jpg"
+      ],
+      "referenceImages": [],
+      "videoPoster": "https://pbs.twimg.com/amplify_video_thumb/2116838118364000256/img/I0YQPtcB9r8loSp9.jpg",
+      "videoUrl": "https://video.twimg.com/amplify_video/2116838118364000256/vid/avc1/1280x720/uQ2Wj-r717JKIHYu.mp4",
+      "videoSourceUrl": "https://video.twimg.com/amplify_video/2116838118364000256/vid/avc1/1280x720/uQ2Wj-r717JKIHYu.mp4",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/SethAIGC/status/2117276042645688752",
+      "url": "https://x.com/SethAIGC/status/2117276042645688752",
+      "domain": "x.com",
+      "creator": "SethAIGC",
+      "date": "2026-11-03",
+      "timestamp": 1793671021662,
+      "collectedAt": "2026-11-03T01:57:01.662Z",
+      "githubSyncedAt": "2026-11-03T01:57:01.662Z"
+    },
+    {
+      "id": "x_2117366639360422273",
+      "title": "豪华轿车轮毂广告片",
+      "prompt": "10-second commercial shoot, 16:9 anamorphic. 0-3s: Close-up macro on the intricate multi-spoke alloy wheels and carbon-ceramic brake calipers of the midnight-silver grand tourer. 3-7s: Sweeping tracking shot moves along the muscular shoulder line as cinematic studio lights glide across the flawless metallic paint. 7-10s: Majestic low-angle hero framing highlighting the powerful aggressive stance.",
+      "category": "电商视觉",
+      "commerceType": "电商视频",
+      "useCase": "电商视频",
+      "tags": [
+        "汽车",
+        "产品",
+        "电商视频"
+      ],
+      "model": "Google Flow",
+      "mediaType": "video",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2116838271615447040/img/IPgTpdSl1zin89UR.jpg",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2116838271615447040/img/IPgTpdSl1zin89UR.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/amplify_video_thumb/2116838271615447040/img/IPgTpdSl1zin89UR.jpg"
+      ],
+      "referenceImages": [],
+      "videoPoster": "https://pbs.twimg.com/amplify_video_thumb/2116838271615447040/img/IPgTpdSl1zin89UR.jpg",
+      "videoUrl": "https://video.twimg.com/amplify_video/2116838271615447040/vid/avc1/1280x720/IeVsdp0AezFiSxBj.mp4",
+      "videoSourceUrl": "https://video.twimg.com/amplify_video/2116838271615447040/vid/avc1/1280x720/IeVsdp0AezFiSxBj.mp4",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/SethAIGC/status/2117366639360422273",
+      "url": "https://x.com/SethAIGC/status/2117366639360422273",
+      "domain": "x.com",
+      "creator": "SethAIGC",
+      "date": "2026-11-03",
+      "timestamp": 1793671021662,
+      "collectedAt": "2026-11-03T01:57:01.662Z",
+      "githubSyncedAt": "2026-11-03T01:57:01.662Z"
+    },
+    {
+      "id": "x_2117201379983041019",
+      "title": "水钻面膜ASMR护肤片",
+      "prompt": "Create an 18-second, 16:9 realistic ASMR skincare video.\nA beautiful young woman with long brunette hair wears soft pink pajamas in a cozy pink bedroom at night.\nUse one completely fixed iPhone-style camera. No camera movement, zoom, dialogue, voiceover, or BGM. Only natural ASMR sounds.\n0–3s:\nOpen on the finished look. She wears a glossy translucent sheet mask fully covered with colorful rhinestones, pearls, hearts, stars, flowers, and crystals. She slowly turns her face so the gems catch the light.\n3–5s:\nCut to her bare face. She picks up and unfolds a plain wet sheet mask.\n5–8s:\nShe carefully applies the mask and smooths it over her forehead, cheeks, and chin.\n8–13s:\nShe brings in a tray of colorful rhinestones and presses them onto the mask one by one. Focus on satisfying gem clicks, fingertip taps, and soft pressing sounds.\n13–16s:\nShe places the final heart-shaped gem on her cheek, then slowly looks into the camera and tilts her head to reveal the finished jeweled mask.\n16–18s:\nShe taps three rhinestones on her cheek: tap, tap, tap, then gives a small satisfied smile.\nOn-screen text:\n“skincare but make it fun ✨”\n“would you try it? 💎🎀”\nStyle:\nintimate, realistic, pinkcore, tactile, satisfying ASMR.\nNatural skin texture, realistic wet sheet mask, clear varied rhinestones, no CGI sparkle, no excessive retouching, no dramatic transitions.",
+      "category": "电商视觉",
+      "commerceType": "电商视频",
+      "useCase": "电商视频",
+      "tags": [
+        "护肤",
+        "面膜",
+        "电商视频"
+      ],
+      "model": "MiniMax H3",
+      "mediaType": "video",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2117201178094432256/img/HHR78qcB2-9q8iJ3.jpg",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2117201178094432256/img/HHR78qcB2-9q8iJ3.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/amplify_video_thumb/2117201178094432256/img/HHR78qcB2-9q8iJ3.jpg"
+      ],
+      "referenceImages": [],
+      "videoPoster": "https://pbs.twimg.com/amplify_video_thumb/2117201178094432256/img/HHR78qcB2-9q8iJ3.jpg",
+      "videoUrl": "https://video.twimg.com/amplify_video/2117201178094432256/vid/avc1/2160x2386/y_tC0VCo4ld8Nq2B.mp4",
+      "videoSourceUrl": "https://video.twimg.com/amplify_video/2117201178094432256/vid/avc1/2160x2386/y_tC0VCo4ld8Nq2B.mp4",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/ImaStudio_ai/status/2117201379983041019",
+      "url": "https://x.com/ImaStudio_ai/status/2117201379983041019",
+      "domain": "x.com",
+      "creator": "ImaStudio_ai",
+      "date": "2026-11-03",
+      "timestamp": 1793671021662,
+      "collectedAt": "2026-11-03T01:57:01.662Z",
+      "githubSyncedAt": "2026-11-03T01:57:01.662Z"
+    },
+    {
+      "id": "x_2117204319695261921",
+      "title": "压纹烫金酒标海报",
+      "prompt": "请将我上传的每一张照片分别制作成一张独立的高级设计海报，不多图拼接，每张照片单独输出。整体采用3:4竖版构图，上下两个区域高度严格1:1，各占画面50%。\n\n上半部分保留原始照片，保持主体身份、结构、姿态、真实质感、自然光影和原有色彩氛围，仅进行轻微高级调色，使其具有艺术杂志、独立出版物与展览图像质感。为适配画幅，可自然扩展环境背景，但不得拉伸、扭曲或改变主体。上半部分只放上传的照片本身，沿用原有取景，不添加任何文字、边框或图形。\n\n下半部分提取照片中最具识别性的主体、轮廓、姿态与叙事关系，重构为一张酒标：一张窄长的竖版标签，贴在极浅的纸面上，带轻微的压纹边框。不要复制照片，只保留主体最关键的形态与细部，用单色套印的剪影和色块概括成一到三个大的主体形象，居于标签中央。\n\n构图遵循“一张窄标、一大片留白”：标签约占下半部分高度的四分之三、宽度的四分之一，轻微倾斜，居中偏一侧，周围保留大面积留白。标签四周是一圈细的压纹边框，上部是一行小字，中部是那个主体，下部是一行年份，上下两行之间用一条细线隔开。\n\n配色从上方照片中提取三种颜色：主体的主色、辅助色，加上一点暖金，提纯为沉静的专色油墨，标签本身是极浅的象牙白，不偏黄不偏灰，明度明显高于图案。\n\n材质是高级的酒标纸：厚实的棉纸，带细腻的纤维和压花边框；套印轻微错位，金色部分是细腻的烫金，带一点微光；边缘整齐，只有一角有轻微翘起。压纹和烫金保持精致，不要夸张。\n\n文字只出现在标签上，如下：标签上部一行小字（一个与主体相关的全大写英文词，如其生长的地方或季节，不超过十个字母），标签下部一行“2026”。字体是细的衬线体，大写字母间距宽，居中对齐。除此之外画面中不出现任何文字、字母、数字或标志。\n\n整体呈现真实摄影 × 压纹酒标 × 小型纪念物的视觉关系，明亮、安静、精致、有收藏感。避免灰脏做旧、满版纹理、写实插画、整瓶酒的渲染、复杂装饰、商业广告文案和模板感。",
+      "category": "电商视觉",
+      "commerceType": "包装设计",
+      "useCase": "包装设计",
+      "tags": [
+        "包装",
+        "酒标",
+        "设计"
+      ],
+      "model": "",
+      "mediaType": "image",
+      "image": "https://pbs.twimg.com/media/HWFI21ka0AAmieI.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HWFI21ka0AAmieI.jpg",
+        "https://pbs.twimg.com/media/HWFI21laEAAbobT.jpg",
+        "https://pbs.twimg.com/media/HWFI21daAAAHeMh.jpg",
+        "https://pbs.twimg.com/media/HWFI21ibAAAM1FI.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HWFI21ka0AAmieI.jpg",
+        "https://pbs.twimg.com/media/HWFI21laEAAbobT.jpg",
+        "https://pbs.twimg.com/media/HWFI21daAAAHeMh.jpg",
+        "https://pbs.twimg.com/media/HWFI21ibAAAM1FI.jpg"
+      ],
+      "referenceImages": [],
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/Hamburgerai/status/2117204319695261921",
+      "url": "https://x.com/Hamburgerai/status/2117204319695261921",
+      "domain": "x.com",
+      "creator": "Hamburgerai",
+      "date": "2026-11-03",
+      "timestamp": 1793671021662,
+      "collectedAt": "2026-11-03T01:57:01.662Z",
+      "githubSyncedAt": "2026-11-03T01:57:01.662Z"
+    },
+    {
+      "id": "x_2117427816019165316",
+      "title": "人物肖像品牌Logo提示词",
+      "prompt": "品牌名称：【填写准确名称】行业品类：【填写行业或店铺类型】人物特征：【年龄段、发型、眼镜等辨识特征】职业与道具：【职业，以及一个代表性工具】主色搭配：【填写两到三种颜色】辅助文字：【填写需要出现的短文字，可留空】制作一张竖版3:4的原创品牌Logo展示图，风格为“人物肖像品牌字标”。每次只生成一个完整标志方案。风格与创意：围绕指定人物与职业设计原创肖像标志。用概括的线条或少量平涂色保留最有辨识度的面部特征，表情自然，有亲近感；搭配一个必要的职业道具即可。肖像与品牌名组合成完整标志，字标清楚、风格统一。若上传本人照片，以照片中的外貌特征为依据，简化成插画，避免无关名人面孔、写真质感和复杂场景。画面与文字：浅暖灰或米白底，不用纯白。标志居中、足够大，四周留白。品牌名称逐字准确，只显示填写的名称和辅助文字，不自行增加口号、年份或英文。若有参考图，仅借鉴风格与构图，不照搬其他品牌标志。不要场景背景、墙面招牌、包装样机、多方案拼版、教程说明、水印、二维码或价格。",
+      "category": "电商视觉",
+      "commerceType": "品牌视觉",
+      "useCase": "品牌视觉",
+      "tags": [
+        "Logo",
+        "品牌视觉",
+        "VI"
+      ],
+      "model": "",
+      "mediaType": "image",
+      "image": "https://pbs.twimg.com/media/HWKdSG9bsAA5Jsd.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HWKdSG9bsAA5Jsd.jpg",
+        "https://pbs.twimg.com/media/HWKdUJ6b0AIuXN1.jpg",
+        "https://pbs.twimg.com/media/HWKdUKSacAAnKLB.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HWKdSG9bsAA5Jsd.jpg",
+        "https://pbs.twimg.com/media/HWKdUJ6b0AIuXN1.jpg",
+        "https://pbs.twimg.com/media/HWKdUKSacAAnKLB.jpg"
+      ],
+      "referenceImages": [],
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/dalidaddyy/status/2117427816019165316",
+      "url": "https://x.com/dalidaddyy/status/2117427816019165316",
+      "domain": "x.com",
+      "creator": "dalidaddyy",
+      "date": "2026-11-03",
+      "timestamp": 1793671021662,
+      "collectedAt": "2026-11-03T01:57:01.662Z",
+      "githubSyncedAt": "2026-11-03T01:57:01.662Z"
+    },
+    {
+      "id": "x_2117318781454467123",
+      "title": "汽车灵感咖啡机产品图",
+      "prompt": "UNIVERSAL LUXURY AUTOMOTIVE-INSPIRED PRODUCT DESIGN PROMPT\n\nCreate an ultra-realistic, premium coffee machine inspired by the design and silhouette of a luxury automobile. The concept should creatively transform the selected vehicle's distinctive exterior styling into a fully integrated, functional-looking countertop coffee maker.\n\n1. AUTOMOTIVE DESIGN\n\nStudy the chosen vehicle's defining design elements, including its body shape, proportions, front grille, headlights, wheels, windows, and signature styling. Faithfully translate these features into the coffee machine while maintaining the recognizable identity of the vehicle. The result should look like a professionally engineered miniature automotive-inspired appliance, not simply a toy car.\n\n2. TRANSPARENT COFFEE BEAN COMPARTMENT\n\nIntegrate an elegant, crystal-clear glass coffee bean container into the upper section or roof of the vehicle. Fill it with freshly roasted coffee beans, making their texture and rich brown colour clearly visible. Ensure the glass compartment looks naturally incorporated into the overall design.\n\n3. COFFEE DISPENSING SYSTEM\n\nSeamlessly integrate a realistic coffee dispenser into the front section of the vehicle. Show freshly brewed espresso flowing directly into a stylish coffee cup positioned underneath. Include delicate rising steam to create a warm, freshly brewed atmosphere.\n\n4. ENVIRONMENT & COMPOSITION\n\nPlace the coffee machine on a sophisticated kitchen countertop. Create a warm, modern kitchen environment with softly blurred green indoor plants, tasteful decorations, and subtle lifestyle details. Keep the product as the central focal point.\n\n5. PHOTOGRAPHY & LIGHTING\n\nUse premium commercial product photography with photorealistic materials, refined reflections, realistic glass transparency, detailed automotive finishes, soft natural lighting, cinematic depth of field, and beautifully controlled shadows.\n\nFINAL CREATIVE DIRECTION\n\nThe final image must look like an exclusive luxury designer appliance that combines automotive craftsmanship with modern coffee-making technology. Preserve the selected vehicle's recognizable design language while ensuring every coffee-making component is visually integrated and believable.\n\nQUALITY REQUIREMENTS: Ultra-photorealistic, 8K detail, professional advertising photography, realistic proportions, premium industrial design, sharp product focus, no distorted components, no additional vehicles, no unnecessary text, and no watermark.\n\nCustomization: Replace the selected vehicle with any car, SUV, sports car, classic automobile, or other vehicle while adapting its signature design elements to the coffee machine.",
+      "category": "电商视觉",
+      "commerceType": "产品主图",
+      "useCase": "产品主图",
+      "tags": [
+        "家电",
+        "产品主图",
+        "咖啡机"
+      ],
+      "model": "GPT Image 2.5",
+      "mediaType": "image",
+      "image": "https://pbs.twimg.com/media/HWI6MHGbgAEfeGe.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HWI6MHGbgAEfeGe.jpg",
+        "https://pbs.twimg.com/media/HWI6M8ubIAAAmmQ.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HWI6MHGbgAEfeGe.jpg",
+        "https://pbs.twimg.com/media/HWI6M8ubIAAAmmQ.jpg"
+      ],
+      "referenceImages": [],
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/Goodmanprotocol/status/2117318781454467123",
+      "url": "https://x.com/Goodmanprotocol/status/2117318781454467123",
+      "domain": "x.com",
+      "creator": "Goodmanprotocol",
+      "date": "2026-11-03",
+      "timestamp": 1793671021662,
+      "collectedAt": "2026-11-03T01:57:01.662Z",
+      "githubSyncedAt": "2026-11-03T01:57:01.662Z"
+    },
+    {
+      "id": "apimodels_gpt_image_2_ecommerce-113",
+      "title": "小熊软糖彩色堆",
+      "prompt": "A glossy translucent pile of \"Bear Hugs\" fruit gummy bears in red, orange, yellow, green and purple spilling from a clear cellophane bag onto a bright white surface. A few bears standing upright in front. Cheerful pastel-blue background. Bright even studio light, playful saturated rainbow palette, soft shadows, slight overhead angle, jiggly glossy candy texture, fun colorful gummy-candy packaging photography.",
+      "promptZh": "一堆光泽晶莹的半透明「Bear Hugs」水果小熊软糖,红、橙、黄、绿、紫色从透明玻璃纸袋中倾出,落在亮白台面上。前方几只小熊直立着。背景是欢快的柔和天蓝色。明亮均匀的影棚灯光,俏皮饱和的彩虹色调,阴影柔和,略带俯角,软糖Q弹油亮的质感,呈现趣味缤纷的软糖包装摄影。",
+      "category": "电商视觉",
+      "commerceType": "产品主图",
+      "tags": [
+        "电商视觉",
+        "GPT Image 2",
+        "产品主图",
+        "candy",
+        "gummy",
+        "colorful"
+      ],
+      "model": "GPT Image 2",
+      "mediaType": "image",
+      "image": "https://r2.apimodels.app/assets/prompt-gallery/1785126252662_ecommerce-113.png",
+      "images": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785126252662_ecommerce-113.png"
+      ],
+      "rawImages": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785126252662_ecommerce-113.png"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "1:1",
+      "source": "apimodels/gpt-image-2-prompts",
+      "sourceUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#ecommerce-113",
+      "url": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#ecommerce-113",
+      "domain": "github.com",
+      "attribution": "API Models (apimodels.app)",
+      "license": "CC BY 4.0",
+      "sourceLicenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "sourceRepository": "apimodels/gpt-image-2-prompts",
+      "archiveUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json",
+      "collectionOrigin": "commerce-public-sources",
+      "externalId": "ecommerce-113",
+      "date": "2026-11-03",
+      "timestamp": 1793671021662,
+      "collectedAt": "2026-11-03T01:57:01.662Z",
+      "githubSyncedAt": "2026-11-03T01:57:01.662Z"
+    },
+    {
+      "id": "apimodels_gpt_image_2_ecommerce-114",
+      "title": "牛奶巧克力金币",
+      "prompt": "A generous scatter of \"Golden Coin\" foil-wrapped milk chocolate coins in shiny gold and copper, a few unwrapped to show smooth glossy chocolate discs, piled on a warm walnut surface. A small kraft drawstring pouch spilling more coins behind. Warm golden side light from the right, soft shadows, rich gold, copper and cocoa-brown palette, slight overhead angle, glossy metallic and chocolate texture, festive candy product photography.",
+      "promptZh": "一堆丰盛的「Golden Coin」金箔包装牛奶巧克力金币,闪着金色与铜色光泽,几枚已剥开露出光滑油亮的巧克力圆片,堆在温润的胡桃木面上。后方一只牛皮纸束口袋倾出更多金币。温暖金色的侧光从右侧打入,阴影柔和,浓郁的金、铜与可可棕色调,略带俯角,金属与巧克力交织的油亮质感,呈现喜庆的糖果产品摄影。",
+      "category": "电商视觉",
+      "commerceType": "产品主图",
+      "tags": [
+        "电商视觉",
+        "GPT Image 2",
+        "产品主图",
+        "chocolate",
+        "coins",
+        "festive"
+      ],
+      "model": "GPT Image 2",
+      "mediaType": "image",
+      "image": "https://r2.apimodels.app/assets/prompt-gallery/1785126263661_ecommerce-114.png",
+      "images": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785126263661_ecommerce-114.png"
+      ],
+      "rawImages": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785126263661_ecommerce-114.png"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "1:1",
+      "source": "apimodels/gpt-image-2-prompts",
+      "sourceUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#ecommerce-114",
+      "url": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#ecommerce-114",
+      "domain": "github.com",
+      "attribution": "API Models (apimodels.app)",
+      "license": "CC BY 4.0",
+      "sourceLicenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "sourceRepository": "apimodels/gpt-image-2-prompts",
+      "archiveUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json",
+      "collectionOrigin": "commerce-public-sources",
+      "externalId": "ecommerce-114",
+      "date": "2026-11-03",
+      "timestamp": 1793671021662,
+      "collectedAt": "2026-11-03T01:57:01.662Z",
+      "githubSyncedAt": "2026-11-03T01:57:01.662Z"
+    },
+    {
+      "id": "apimodels_gpt_image_2_ecommerce-115",
+      "title": "棒棒糖花束展示",
+      "prompt": "A cheerful bouquet of \"Swirl Pop\" spiral rainbow lollipops arranged like flowers in a white ceramic vase, each disc showing bright candy swirls. Set on a soft mint surface with a few loose wrapped lollipops and confetti scattered. Bright playful studio light from above-front, vivid rainbow, mint and white palette, soft shadows, front eye-level angle, glossy hard-candy texture, whimsical fun candy product photography.",
+      "promptZh": "一束欢快的「Swirl Pop」螺旋彩虹棒棒糖像花朵般插在白瓷花瓶里,每片糖盘都是明快的糖果漩涡。整体置于柔和薄荷绿台面上,周围散落几支包装棒棒糖和彩色纸屑。明亮俏皮的上前方影棚灯光,鲜亮的彩虹、薄荷与白色调,阴影柔和,正面平视角度,硬糖油亮的质感,呈现天马行空的趣味糖果产品摄影。",
+      "category": "电商视觉",
+      "commerceType": "产品主图",
+      "tags": [
+        "电商视觉",
+        "GPT Image 2",
+        "产品主图",
+        "candy",
+        "lollipop",
+        "whimsical"
+      ],
+      "model": "GPT Image 2",
+      "mediaType": "image",
+      "image": "https://r2.apimodels.app/assets/prompt-gallery/1785126262228_ecommerce-115.png",
+      "images": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785126262228_ecommerce-115.png"
+      ],
+      "rawImages": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785126262228_ecommerce-115.png"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "4:5",
+      "source": "apimodels/gpt-image-2-prompts",
+      "sourceUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#ecommerce-115",
+      "url": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#ecommerce-115",
+      "domain": "github.com",
+      "attribution": "API Models (apimodels.app)",
+      "license": "CC BY 4.0",
+      "sourceLicenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "sourceRepository": "apimodels/gpt-image-2-prompts",
+      "archiveUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json",
+      "collectionOrigin": "commerce-public-sources",
+      "externalId": "ecommerce-115",
+      "date": "2026-11-03",
+      "timestamp": 1793671021662,
+      "collectedAt": "2026-11-03T01:57:01.662Z",
+      "githubSyncedAt": "2026-11-03T01:57:01.662Z"
+    },
+    {
+      "id": "apimodels_gpt_image_2_ecommerce-116",
+      "title": "焦糖软糖方块",
+      "prompt": "A tidy stack of \"Buttermel\" sea-salt caramel fudge cubes on baking parchment, glossy amber tops sprinkled with flaky salt, one cube bitten to show a soft chewy interior. Loose cubes and salt flakes scattered on a warm cream surface. Soft warm side light from the left, gentle shadows, golden caramel, cream and butter-yellow palette, slight overhead angle, glossy sticky texture, artisanal caramel confectionery photography.",
+      "promptZh": "一摞整齐的「Buttermel」海盐焦糖软糖方块摆在烘焙纸上,油亮的琥珀色顶面撒着盐片,其中一块被咬开露出柔软耐嚼的内里。暖奶白台面上散落着零星糖块与盐片。柔和温暖的侧光从左侧打入,阴影温和,金焦糖、奶白与黄油色调,略带俯角,油亮黏软的质感,呈现手工焦糖糖果摄影。",
+      "category": "电商视觉",
+      "commerceType": "产品主图",
+      "tags": [
+        "电商视觉",
+        "GPT Image 2",
+        "产品主图",
+        "candy",
+        "caramel",
+        "fudge"
+      ],
+      "model": "GPT Image 2",
+      "mediaType": "image",
+      "image": "https://r2.apimodels.app/assets/prompt-gallery/1785126292859_ecommerce-116.png",
+      "images": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785126292859_ecommerce-116.png"
+      ],
+      "rawImages": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785126292859_ecommerce-116.png"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "1:1",
+      "source": "apimodels/gpt-image-2-prompts",
+      "sourceUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#ecommerce-116",
+      "url": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#ecommerce-116",
+      "domain": "github.com",
+      "attribution": "API Models (apimodels.app)",
+      "license": "CC BY 4.0",
+      "sourceLicenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "sourceRepository": "apimodels/gpt-image-2-prompts",
+      "archiveUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json",
+      "collectionOrigin": "commerce-public-sources",
+      "externalId": "ecommerce-116",
+      "date": "2026-11-03",
+      "timestamp": 1793671021662,
+      "collectedAt": "2026-11-03T01:57:01.662Z",
+      "githubSyncedAt": "2026-11-03T01:57:01.662Z"
+    },
+    {
+      "id": "apimodels_gpt_image_2_ecommerce-117",
+      "title": "巧克力草莓",
+      "prompt": "Six \"Berry Dip\" chocolate-covered strawberries arranged on a white marble slab, half dipped in dark chocolate and drizzled with white, glossy and freshly set. Fresh strawberries and a small bowl of melted chocolate beside them. Soft bright natural light from the right, romantic red, dark-chocolate brown and white palette, gentle shadows, slight overhead angle, juicy glossy texture, indulgent gourmet dessert product photography.",
+      "promptZh": "六颗「Berry Dip」巧克力草莓摆在白色大理石板上,半浸在黑巧克力中并淋着白巧线条,油亮而刚凝好。旁边配新鲜草莓和一小碗融化的巧克力。柔和明亮的自然光从右侧照入,浪漫的红、黑巧棕与白色调,阴影温和,略带俯角,多汁油亮的质感,呈现放纵的高级甜品产品摄影。",
+      "category": "电商视觉",
+      "commerceType": "产品主图",
+      "tags": [
+        "电商视觉",
+        "GPT Image 2",
+        "产品主图",
+        "chocolate",
+        "strawberry",
+        "gourmet"
+      ],
+      "model": "GPT Image 2",
+      "mediaType": "image",
+      "image": "https://r2.apimodels.app/assets/prompt-gallery/1785126295037_ecommerce-117.png",
+      "images": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785126295037_ecommerce-117.png"
+      ],
+      "rawImages": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785126295037_ecommerce-117.png"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "4:5",
+      "source": "apimodels/gpt-image-2-prompts",
+      "sourceUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#ecommerce-117",
+      "url": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#ecommerce-117",
+      "domain": "github.com",
+      "attribution": "API Models (apimodels.app)",
+      "license": "CC BY 4.0",
+      "sourceLicenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "sourceRepository": "apimodels/gpt-image-2-prompts",
+      "archiveUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json",
+      "collectionOrigin": "commerce-public-sources",
+      "externalId": "ecommerce-117",
+      "date": "2026-11-03",
+      "timestamp": 1793671021662,
+      "collectedAt": "2026-11-03T01:57:01.662Z",
+      "githubSyncedAt": "2026-11-03T01:57:01.662Z"
+    },
+    {
+      "id": "apimodels_gpt_image_2_ecommerce-118",
+      "title": "薄荷树皮巧克力",
+      "prompt": "Irregular broken slabs of \"Frost Mint\" peppermint bark stacked on a cool grey stone, dark chocolate base topped with white chocolate and crushed candy-cane pieces, glossy and shattered at the edges. Loose peppermint shards and a striped candy cane beside it. Cool bright light from above-left, crisp shadows, red, white and dark-brown palette, slight overhead angle, glossy crunchy texture, festive holiday candy product photography.",
+      "promptZh": "几块不规则掰断的「Frost Mint」薄荷树皮巧克力叠在清冷的灰石上,黑巧克力底层覆着白巧克力与碎拐杖糖粒,边缘油亮而碎裂。旁边散落薄荷碎片和一根条纹拐杖糖。清冷明亮的上左方灯光,阴影利落,红、白与深棕色调,略带俯角,油亮酥脆的质感,呈现节庆的假日糖果产品摄影。",
+      "category": "电商视觉",
+      "commerceType": "产品主图",
+      "tags": [
+        "电商视觉",
+        "GPT Image 2",
+        "产品主图",
+        "chocolate",
+        "peppermint",
+        "holiday"
+      ],
+      "model": "GPT Image 2",
+      "mediaType": "image",
+      "image": "https://r2.apimodels.app/assets/prompt-gallery/1785126314309_ecommerce-118.png",
+      "images": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785126314309_ecommerce-118.png"
+      ],
+      "rawImages": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785126314309_ecommerce-118.png"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "1:1",
+      "source": "apimodels/gpt-image-2-prompts",
+      "sourceUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#ecommerce-118",
+      "url": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#ecommerce-118",
+      "domain": "github.com",
+      "attribution": "API Models (apimodels.app)",
+      "license": "CC BY 4.0",
+      "sourceLicenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "sourceRepository": "apimodels/gpt-image-2-prompts",
+      "archiveUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json",
+      "collectionOrigin": "commerce-public-sources",
+      "externalId": "ecommerce-118",
+      "date": "2026-11-03",
+      "timestamp": 1793671021662,
+      "collectedAt": "2026-11-03T01:57:01.662Z",
+      "githubSyncedAt": "2026-11-03T01:57:01.662Z"
+    },
+    {
+      "id": "apimodels_gpt_image_2_ecommerce-119",
+      "title": "酸味糖带袋装",
+      "prompt": "A bright pink pouch of \"Zing Strips\" rainbow sour candy belts torn open at the top, colorful sugar-coated belts twisting out and coiling onto a glossy white surface. A dusting of sour sugar crystals scattered around. Bold electric-yellow background. Punchy bright studio light, saturated hot-pink, lime and orange palette, crisp shadows, front three-quarter angle, sparkly sugary texture, fun playful candy packaging photography.",
+      "promptZh": "一只亮粉色袋子装着「Zing Strips」彩虹酸味糖带,袋口撕开,裹着糖霜的彩色糖带扭曲探出,盘绕在光亮白面上。周围散落着酸糖晶粒。背景是张扬的电光黄。明快有力的影棚灯光,饱和的亮粉、青柠与橙色调,阴影利落,正面四分之三角度,糖霜闪亮的质感,呈现趣味俏皮的糖果包装摄影。",
+      "category": "电商视觉",
+      "commerceType": "产品主图",
+      "tags": [
+        "电商视觉",
+        "GPT Image 2",
+        "产品主图",
+        "candy",
+        "sour",
+        "playful"
+      ],
+      "model": "GPT Image 2",
+      "mediaType": "image",
+      "image": "https://r2.apimodels.app/assets/prompt-gallery/1785126320423_ecommerce-119.png",
+      "images": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785126320423_ecommerce-119.png"
+      ],
+      "rawImages": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785126320423_ecommerce-119.png"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "1:1",
+      "source": "apimodels/gpt-image-2-prompts",
+      "sourceUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#ecommerce-119",
+      "url": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#ecommerce-119",
+      "domain": "github.com",
+      "attribution": "API Models (apimodels.app)",
+      "license": "CC BY 4.0",
+      "sourceLicenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "sourceRepository": "apimodels/gpt-image-2-prompts",
+      "archiveUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json",
+      "collectionOrigin": "commerce-public-sources",
+      "externalId": "ecommerce-119",
+      "date": "2026-11-03",
+      "timestamp": 1793671021662,
+      "collectedAt": "2026-11-03T01:57:01.662Z",
+      "githubSyncedAt": "2026-11-03T01:57:01.662Z"
+    },
+    {
+      "id": "apimodels_gpt_image_2_ecommerce-120",
+      "title": "乳清蛋白粉桶主图",
+      "prompt": "A large matte-black tub of \"IronPeak\" vanilla whey protein powder standing on a dark grey gym floor, lid off with a heaping scoop of cream powder resting on top. A shaker bottle of mixed protein shake beside it, faint powder dust in the air. Cool dramatic side light from the right, deep shadows, charcoal, cream and steel-blue palette, low hero angle looking up, powdery smooth texture, bold sports-nutrition product photography.",
+      "promptZh": "一只大号哑光黑桶装着「IronPeak」香草乳清蛋白粉,立在深灰健身房地面上,盖子打开,顶上搁着一勺满满的奶白粉末。旁边一只摇摇杯盛着调好的蛋白奶昔,空气中飘着淡淡粉尘。清冷戏剧的侧光从右侧打入,阴影深邃,炭灰、奶白与钢蓝色调,低机位英雄仰角,粉末细腻的质感,呈现有力的运动营养产品摄影。",
+      "category": "电商视觉",
+      "commerceType": "产品主图",
+      "tags": [
+        "电商视觉",
+        "GPT Image 2",
+        "产品主图",
+        "health",
+        "protein",
+        "fitness"
+      ],
+      "model": "GPT Image 2",
+      "mediaType": "image",
+      "image": "https://r2.apimodels.app/assets/prompt-gallery/1785126326453_ecommerce-120.png",
+      "images": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785126326453_ecommerce-120.png"
+      ],
+      "rawImages": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785126326453_ecommerce-120.png"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "4:5",
+      "source": "apimodels/gpt-image-2-prompts",
+      "sourceUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#ecommerce-120",
+      "url": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#ecommerce-120",
+      "domain": "github.com",
+      "attribution": "API Models (apimodels.app)",
+      "license": "CC BY 4.0",
+      "sourceLicenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "sourceRepository": "apimodels/gpt-image-2-prompts",
+      "archiveUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json",
+      "collectionOrigin": "commerce-public-sources",
+      "externalId": "ecommerce-120",
+      "date": "2026-11-03",
+      "timestamp": 1793671021662,
+      "collectedAt": "2026-11-03T01:57:01.662Z",
+      "githubSyncedAt": "2026-11-03T01:57:01.662Z"
+    },
+    {
+      "id": "apimodels_gpt_image_2_ecommerce-122",
+      "title": "超级食物粉罐组",
+      "prompt": "Three amber glass jars of \"Vital Bloom\" superfood powders — green spirulina, pink beetroot and golden turmeric — lids off with a small mound of each vivid powder in front. Set on a pale oak surface with a wooden scoop and fresh ingredients scattered. Soft bright natural light from above-left, gentle shadows, vibrant green, magenta and gold against warm neutrals, slight overhead angle, fine powdery texture, clean wellness product photography.",
+      "promptZh": "三只琥珀色玻璃罐装着「Vital Bloom」超级食物粉——绿螺旋藻、粉甜菜根与金姜黄——盖子打开,前方各堆着一小丘鲜艳粉末。整体置于浅橡木台面上,配一把木勺和散落的新鲜原料。柔和明亮的自然光从上左方照入,阴影温和,鲜绿、洋红与金黄映衬暖中性背景,略带俯角,粉末细腻的质感,呈现干净的养生产品摄影。",
+      "category": "电商视觉",
+      "commerceType": "产品主图",
+      "tags": [
+        "电商视觉",
+        "GPT Image 2",
+        "产品主图",
+        "health",
+        "superfood",
+        "wellness"
+      ],
+      "model": "GPT Image 2",
+      "mediaType": "image",
+      "image": "https://r2.apimodels.app/assets/prompt-gallery/1785126330147_ecommerce-122.png",
+      "images": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785126330147_ecommerce-122.png"
+      ],
+      "rawImages": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785126330147_ecommerce-122.png"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "1:1",
+      "source": "apimodels/gpt-image-2-prompts",
+      "sourceUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#ecommerce-122",
+      "url": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#ecommerce-122",
+      "domain": "github.com",
+      "attribution": "API Models (apimodels.app)",
+      "license": "CC BY 4.0",
+      "sourceLicenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "sourceRepository": "apimodels/gpt-image-2-prompts",
+      "archiveUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json",
+      "collectionOrigin": "commerce-public-sources",
+      "externalId": "ecommerce-122",
+      "date": "2026-11-03",
+      "timestamp": 1793671021662,
+      "collectedAt": "2026-11-03T01:57:01.662Z",
+      "githubSyncedAt": "2026-11-03T01:57:01.662Z"
+    },
+    {
+      "id": "apimodels_gpt_image_2_ecommerce-123",
+      "title": "维生素软糖瓶",
+      "prompt": "A white bottle of \"DailyGlow\" elderberry vitamin gummies with the cap off and glossy purple gummies tumbling out onto a soft lavender surface, a small pile of gummies beside the bottle. Fresh elderberries and a sprig of leaves scattered around. Bright clean studio light from the right, gentle shadows, deep purple, white and soft green palette, front three-quarter angle at eye level, glossy chewy texture, friendly wellness-supplement product photography.",
+      "promptZh": "一只白色瓶装着「DailyGlow」接骨木维生素软糖,盖子打开,油亮的紫色软糖倾倒到柔和薰衣草色台面上,瓶边堆着一小撮软糖。周围散落着新鲜接骨木莓和一小枝叶片。明亮干净的影棚光从右侧照入,阴影温和,深紫、白与柔绿色调,正面四分之三平视角度,软糖油亮弹润的质感,呈现亲和的养生补剂产品摄影。",
+      "category": "电商视觉",
+      "commerceType": "产品主图",
+      "tags": [
+        "电商视觉",
+        "GPT Image 2",
+        "产品主图",
+        "health",
+        "gummies",
+        "supplement"
+      ],
+      "model": "GPT Image 2",
+      "mediaType": "image",
+      "image": "https://r2.apimodels.app/assets/prompt-gallery/1785126319412_ecommerce-123.png",
+      "images": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785126319412_ecommerce-123.png"
+      ],
+      "rawImages": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785126319412_ecommerce-123.png"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "1:1",
+      "source": "apimodels/gpt-image-2-prompts",
+      "sourceUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#ecommerce-123",
+      "url": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#ecommerce-123",
+      "domain": "github.com",
+      "attribution": "API Models (apimodels.app)",
+      "license": "CC BY 4.0",
+      "sourceLicenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "sourceRepository": "apimodels/gpt-image-2-prompts",
+      "archiveUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json",
+      "collectionOrigin": "commerce-public-sources",
+      "externalId": "ecommerce-123",
+      "date": "2026-11-03",
+      "timestamp": 1793671021662,
+      "collectedAt": "2026-11-03T01:57:01.662Z",
+      "githubSyncedAt": "2026-11-03T01:57:01.662Z"
+    },
+    {
+      "id": "apimodels_gpt_image_2_ecommerce-124",
+      "title": "坚果酱淋落图",
+      "prompt": "An open glass jar of \"Grove & Grain\" crunchy almond butter with a knife lifting a thick ribbon that drips slowly back in, jar set on a warm wooden board. Whole almonds and a halved apple with a smear of butter beside it. Warm natural light from the left, soft shadows, golden-brown, cream and warm wood palette, front three-quarter angle at eye level, thick creamy grainy texture, wholesome pantry product photography.",
+      "promptZh": "一只敞口玻璃罐装着「Grove & Grain」颗粒杏仁酱,一把刀挑起浓稠的酱带缓缓滴落回罐中,罐子置于温润木板上。旁边配整颗杏仁和一颗抹了酱的对半苹果。温暖的自然光从左侧照入,阴影柔和,金棕、奶白与暖木色调,正面四分之三平视角度,浓稠绵密带颗粒的质感,呈现健康的食品柜产品摄影。",
+      "category": "电商视觉",
+      "commerceType": "产品主图",
+      "tags": [
+        "电商视觉",
+        "GPT Image 2",
+        "产品主图",
+        "health",
+        "nutbutter",
+        "pantry"
+      ],
+      "model": "GPT Image 2",
+      "mediaType": "image",
+      "image": "https://r2.apimodels.app/assets/prompt-gallery/1785126327933_ecommerce-124.png",
+      "images": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785126327933_ecommerce-124.png"
+      ],
+      "rawImages": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785126327933_ecommerce-124.png"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "4:5",
+      "source": "apimodels/gpt-image-2-prompts",
+      "sourceUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#ecommerce-124",
+      "url": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#ecommerce-124",
+      "domain": "github.com",
+      "attribution": "API Models (apimodels.app)",
+      "license": "CC BY 4.0",
+      "sourceLicenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "sourceRepository": "apimodels/gpt-image-2-prompts",
+      "archiveUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json",
+      "collectionOrigin": "commerce-public-sources",
+      "externalId": "ecommerce-124",
+      "date": "2026-11-03",
+      "timestamp": 1793671021662,
+      "collectedAt": "2026-11-03T01:57:01.662Z",
+      "githubSyncedAt": "2026-11-03T01:57:01.662Z"
+    },
+    {
+      "id": "apimodels_gpt_image_2_ecommerce-125",
+      "title": "燕麦杯早餐组",
+      "prompt": "Three paper cups of \"MorningOats\" instant oatmeal — apple-cinnamon, mixed-berry and maple — one open and prepared with fruit toppings and a spoon, steam gently rising. Set on a light linen cloth with fresh berries, apple slices and oats scattered. Soft warm morning light from the right, cozy oat-beige, berry-red and maple-gold palette, gentle shadows, slight overhead angle, hearty warm texture, comforting breakfast product photography.",
+      "promptZh": "三只纸杯装着「MorningOats」即食燕麦——苹果肉桂、综合莓果与枫糖——其中一杯已冲泡好,盖着水果配料并插着勺子,热气轻柔升腾。整体置于浅色亚麻布上,周围散落新鲜浆果、苹果片与燕麦。柔和温暖的晨光从右侧照入,温馨的燕麦米、莓果红与枫糖金色调,阴影温和,略带俯角,扎实暖心的质感,呈现治愈的早餐产品摄影。",
+      "category": "电商视觉",
+      "commerceType": "产品主图",
+      "tags": [
+        "电商视觉",
+        "GPT Image 2",
+        "产品主图",
+        "health",
+        "oatmeal",
+        "breakfast"
+      ],
+      "model": "GPT Image 2",
+      "mediaType": "image",
+      "image": "https://r2.apimodels.app/assets/prompt-gallery/1785126336296_ecommerce-125.png",
+      "images": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785126336296_ecommerce-125.png"
+      ],
+      "rawImages": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785126336296_ecommerce-125.png"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "4:5",
+      "source": "apimodels/gpt-image-2-prompts",
+      "sourceUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#ecommerce-125",
+      "url": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#ecommerce-125",
+      "domain": "github.com",
+      "attribution": "API Models (apimodels.app)",
+      "license": "CC BY 4.0",
+      "sourceLicenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "sourceRepository": "apimodels/gpt-image-2-prompts",
+      "archiveUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json",
+      "collectionOrigin": "commerce-public-sources",
+      "externalId": "ecommerce-125",
+      "date": "2026-11-03",
+      "timestamp": 1793671021662,
+      "collectedAt": "2026-11-03T01:57:01.662Z",
+      "githubSyncedAt": "2026-11-03T01:57:01.662Z"
+    },
+    {
+      "id": "apimodels_gpt_image_2_ecommerce-126",
+      "title": "羽衣甘蓝脆片袋",
+      "prompt": "A matte green pouch of \"Leaf Life\" nacho-cheese kale chips standing upright, crisp dark-green chips dusted with cheesy seasoning spilling onto a rustic wood board. A small bowl of chips and fresh kale leaves beside it. Bright natural light from above-left, gentle shadows, deep green, cheddar-orange and warm wood palette, front three-quarter angle at eye level, crispy leafy texture, healthy plant-based snack product photography.",
+      "promptZh": "一只哑光绿色袋子装着「Leaf Life」墨西哥芝士味羽衣甘蓝脆片,笔直立着,裹着芝士调味粉的深绿脆片撒到质朴木板上。旁边一小碗脆片和几片新鲜羽衣甘蓝。明亮的自然光从上左方照入,阴影温和,深绿、切达橙与暖木色调,正面四分之三平视角度,酥脆的叶片质感,呈现健康的植物基零食产品摄影。",
+      "category": "电商视觉",
+      "commerceType": "产品主图",
+      "tags": [
+        "电商视觉",
+        "GPT Image 2",
+        "产品主图",
+        "health",
+        "kalechips",
+        "plantbased"
+      ],
+      "model": "GPT Image 2",
+      "mediaType": "image",
+      "image": "https://r2.apimodels.app/assets/prompt-gallery/1785126329304_ecommerce-126.png",
+      "images": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785126329304_ecommerce-126.png"
+      ],
+      "rawImages": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785126329304_ecommerce-126.png"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "1:1",
+      "source": "apimodels/gpt-image-2-prompts",
+      "sourceUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#ecommerce-126",
+      "url": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#ecommerce-126",
+      "domain": "github.com",
+      "attribution": "API Models (apimodels.app)",
+      "license": "CC BY 4.0",
+      "sourceLicenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "sourceRepository": "apimodels/gpt-image-2-prompts",
+      "archiveUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json",
+      "collectionOrigin": "commerce-public-sources",
+      "externalId": "ecommerce-126",
+      "date": "2026-11-03",
+      "timestamp": 1793671021662,
+      "collectedAt": "2026-11-03T01:57:01.662Z",
+      "githubSyncedAt": "2026-11-03T01:57:01.662Z"
+    },
+    {
+      "id": "apimodels_gpt_image_2_ecommerce-127",
+      "title": "胶原蛋白粉平铺",
+      "prompt": "A row of pastel single-serve sachets of \"LumiCollagen\" marine collagen powder fanned across a soft blush surface, one torn open with fine cream powder spilling out beside a glass of clear water mid-stir. A few fresh rose petals and a small spoon nearby. Soft bright even light, gentle shadows, blush-pink, cream and rose-gold palette, top-down flat lay composition, delicate powdery texture, elegant beauty-supplement product photography.",
+      "promptZh": "一排柔彩独立包装的「LumiCollagen」海洋胶原蛋白粉在柔和浅粉台面上呈扇形铺开,其中一包撕开,细腻奶白粉末洒出,旁边一杯正搅拌的清水。附近点缀几片新鲜玫瑰花瓣和一把小勺。柔和明亮均匀的光线,阴影温和,浅粉、奶白与玫瑰金色调,顶视平铺构图,粉末细腻的质感,呈现雅致的美容补剂产品摄影。",
+      "category": "电商视觉",
+      "commerceType": "产品主图",
+      "tags": [
+        "电商视觉",
+        "GPT Image 2",
+        "产品主图",
+        "health",
+        "collagen",
+        "beauty"
+      ],
+      "model": "GPT Image 2",
+      "mediaType": "image",
+      "image": "https://r2.apimodels.app/assets/prompt-gallery/1785126354261_ecommerce-127.png",
+      "images": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785126354261_ecommerce-127.png"
+      ],
+      "rawImages": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785126354261_ecommerce-127.png"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "1:1",
+      "source": "apimodels/gpt-image-2-prompts",
+      "sourceUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#ecommerce-127",
+      "url": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#ecommerce-127",
+      "domain": "github.com",
+      "attribution": "API Models (apimodels.app)",
+      "license": "CC BY 4.0",
+      "sourceLicenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "sourceRepository": "apimodels/gpt-image-2-prompts",
+      "archiveUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json",
+      "collectionOrigin": "commerce-public-sources",
+      "externalId": "ecommerce-127",
+      "date": "2026-11-03",
+      "timestamp": 1793671021662,
+      "collectedAt": "2026-11-03T01:57:01.662Z",
+      "githubSyncedAt": "2026-11-03T01:57:01.662Z"
+    },
+    {
+      "id": "apimodels_gpt_image_2_ecommerce-128",
+      "title": "辣酱瓶火辣图",
+      "prompt": "A slim clear glass bottle of \"Ember Drop\" habanero hot sauce with a bright red-orange label, standing on a dark charcoal slate, a thick drip of glossy sauce running down the side. Fresh habanero peppers and a scatter of dried chili flakes around it. Dramatic warm side light from the right, deep shadows, fiery red-orange, black and green palette, front three-quarter angle at eye level, glossy saucy texture, bold condiment product photography.",
+      "promptZh": "一只纤细透明玻璃瓶装着「Ember Drop」哈瓦那辣酱,贴着亮红橙标签,立在深炭灰板岩上,瓶身淌下一道油亮的辣酱。周围散落着新鲜哈瓦那辣椒和干辣椒碎。戏剧性暖侧光从右侧打入,阴影深邃,火红橙、黑与绿色调,正面四分之三平视角度,油亮浓稠的质感,呈现张扬的调味品产品摄影。",
+      "category": "电商视觉",
+      "commerceType": "产品主图",
+      "tags": [
+        "电商视觉",
+        "GPT Image 2",
+        "产品主图",
+        "condiment",
+        "hotsauce",
+        "spicy"
+      ],
+      "model": "GPT Image 2",
+      "mediaType": "image",
+      "image": "https://r2.apimodels.app/assets/prompt-gallery/1785126373752_ecommerce-128.png",
+      "images": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785126373752_ecommerce-128.png"
+      ],
+      "rawImages": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785126373752_ecommerce-128.png"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "4:5",
+      "source": "apimodels/gpt-image-2-prompts",
+      "sourceUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#ecommerce-128",
+      "url": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#ecommerce-128",
+      "domain": "github.com",
+      "attribution": "API Models (apimodels.app)",
+      "license": "CC BY 4.0",
+      "sourceLicenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "sourceRepository": "apimodels/gpt-image-2-prompts",
+      "archiveUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json",
+      "collectionOrigin": "commerce-public-sources",
+      "externalId": "ecommerce-128",
+      "date": "2026-11-03",
+      "timestamp": 1793671021662,
+      "collectedAt": "2026-11-03T01:57:01.662Z",
+      "githubSyncedAt": "2026-11-03T01:57:01.662Z"
+    },
+    {
+      "id": "apimodels_gpt_image_2_ecommerce-129",
+      "title": "橄榄油瓶质朴图",
+      "prompt": "A tall dark-green glass bottle of \"Terra Uliva\" extra-virgin olive oil with a minimalist cream label, standing on a rough stone counter, a small dish of golden-green oil with a piece of bread beside it. Fresh olives on a leafy branch and a linen cloth around. Warm Mediterranean afternoon light from the left, soft long shadows, olive-green, golden and warm stone palette, front three-quarter angle, glossy oil texture, artisanal gourmet product photography.",
+      "promptZh": "一只高身深绿玻璃瓶装着「Terra Uliva」特级初榨橄榄油,贴着极简奶白标签,立在粗石台面上,旁边一只小碟盛着金绿色油液并配一块面包。周围摆着带叶的橄榄枝和亚麻布。温暖的地中海午后光从左侧照入,长影柔和,橄榄绿、金黄与暖石色调,正面四分之三角度,油液油亮的质感,呈现手工高级食品产品摄影。",
+      "category": "电商视觉",
+      "commerceType": "产品主图",
+      "tags": [
+        "电商视觉",
+        "GPT Image 2",
+        "产品主图",
+        "condiment",
+        "oliveoil",
+        "gourmet"
+      ],
+      "model": "GPT Image 2",
+      "mediaType": "image",
+      "image": "https://r2.apimodels.app/assets/prompt-gallery/1785126378914_ecommerce-129.png",
+      "images": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785126378914_ecommerce-129.png"
+      ],
+      "rawImages": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785126378914_ecommerce-129.png"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "4:5",
+      "source": "apimodels/gpt-image-2-prompts",
+      "sourceUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#ecommerce-129",
+      "url": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#ecommerce-129",
+      "domain": "github.com",
+      "attribution": "API Models (apimodels.app)",
+      "license": "CC BY 4.0",
+      "sourceLicenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "sourceRepository": "apimodels/gpt-image-2-prompts",
+      "archiveUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json",
+      "collectionOrigin": "commerce-public-sources",
+      "externalId": "ecommerce-129",
+      "date": "2026-11-03",
+      "timestamp": 1793671021662,
+      "collectedAt": "2026-11-03T01:57:01.662Z",
+      "githubSyncedAt": "2026-11-03T01:57:01.662Z"
+    },
+    {
+      "id": "apimodels_gpt_image_2_ecommerce-130",
+      "title": "番茄酱挤瓶",
+      "prompt": "A glossy red squeeze bottle of \"Vine Ripe\" tomato ketchup standing on a clean white surface, a fresh ribbon of ketchup swirled onto a small white dish in front. Ripe cherry tomatoes on the vine and a few crispy fries beside it. Bright cheerful studio light from above-front, punchy tomato-red, green and white palette, soft shadows, front eye-level angle, glossy smooth sauce texture, appetizing everyday condiment product photography.",
+      "promptZh": "一只光亮的红色挤瓶装着「Vine Ripe」番茄酱,立在干净白面上,前方一小白碟里挤出一圈新鲜的番茄酱漩涡。旁边配带藤的成熟樱桃番茄和几根酥脆薯条。明亮欢快的上前方影棚灯光,明快的番茄红、绿与白色调,阴影柔和,正面平视角度,酱料顺滑油亮的质感,呈现诱人的日常调味品产品摄影。",
+      "category": "电商视觉",
+      "commerceType": "产品主图",
+      "tags": [
+        "电商视觉",
+        "GPT Image 2",
+        "产品主图",
+        "condiment",
+        "ketchup",
+        "everyday"
+      ],
+      "model": "GPT Image 2",
+      "mediaType": "image",
+      "image": "https://r2.apimodels.app/assets/prompt-gallery/1785126367678_ecommerce-130.png",
+      "images": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785126367678_ecommerce-130.png"
+      ],
+      "rawImages": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785126367678_ecommerce-130.png"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "1:1",
+      "source": "apimodels/gpt-image-2-prompts",
+      "sourceUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#ecommerce-130",
+      "url": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#ecommerce-130",
+      "domain": "github.com",
+      "attribution": "API Models (apimodels.app)",
+      "license": "CC BY 4.0",
+      "sourceLicenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "sourceRepository": "apimodels/gpt-image-2-prompts",
+      "archiveUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json",
+      "collectionOrigin": "commerce-public-sources",
+      "externalId": "ecommerce-130",
+      "date": "2026-11-03",
+      "timestamp": 1793671021662,
+      "collectedAt": "2026-11-03T01:57:01.662Z",
+      "githubSyncedAt": "2026-11-03T01:57:01.662Z"
+    },
+    {
+      "id": "apimodels_gpt_image_2_ecommerce-132",
+      "title": "蜂蜜罐金色垂滴",
+      "prompt": "A round glass jar of \"Wildmeadow\" raw wildflower honey with a wooden honey dipper lifting a slow golden drizzle above it, set on a warm rustic wood table. A honeycomb piece and fresh wildflowers scattered around, soft blurred meadow background. Warm golden backlight from behind-right glowing through the honey, amber-gold, cream and soft green palette, gentle shadows, front three-quarter angle, glossy thick texture, natural artisanal product photography.",
+      "promptZh": "一只圆形玻璃罐装着「Wildmeadow」原蜜野花蜂蜜,一支木蜂蜜棒挑起缓缓垂落的金色蜜丝,置于温润质朴的木桌上。周围散落一块蜂巢和几朵新鲜野花,背景是虚化的草甸。温暖金色的逆光从右后方透过蜂蜜发亮,琥珀金、奶白与柔绿色调,阴影轻柔,正面四分之三角度,浓稠油亮的质感,呈现自然手工的产品摄影。",
+      "category": "电商视觉",
+      "commerceType": "产品主图",
+      "tags": [
+        "电商视觉",
+        "GPT Image 2",
+        "产品主图",
+        "condiment",
+        "honey",
+        "natural"
+      ],
+      "model": "GPT Image 2",
+      "mediaType": "image",
+      "image": "https://r2.apimodels.app/assets/prompt-gallery/1785126387690_ecommerce-132.png",
+      "images": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785126387690_ecommerce-132.png"
+      ],
+      "rawImages": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785126387690_ecommerce-132.png"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "4:5",
+      "source": "apimodels/gpt-image-2-prompts",
+      "sourceUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#ecommerce-132",
+      "url": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#ecommerce-132",
+      "domain": "github.com",
+      "attribution": "API Models (apimodels.app)",
+      "license": "CC BY 4.0",
+      "sourceLicenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "sourceRepository": "apimodels/gpt-image-2-prompts",
+      "archiveUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json",
+      "collectionOrigin": "commerce-public-sources",
+      "externalId": "ecommerce-132",
+      "date": "2026-11-03",
+      "timestamp": 1793671021662,
+      "collectedAt": "2026-11-03T01:57:01.662Z",
+      "githubSyncedAt": "2026-11-03T01:57:01.662Z"
+    },
+    {
+      "id": "apimodels_gpt_image_2_ecommerce-133",
+      "title": "青酱罐新鲜罗勒",
+      "prompt": "An open glass jar of \"Verde Fresco\" basil pesto with a spoon lifting a thick vibrant-green scoop, set on a pale marble counter. Fresh basil leaves, pine nuts, a wedge of parmesan and a garlic clove arranged around it. Bright natural light from the left, soft shadows, vivid basil-green, cream and warm white palette, slight overhead angle, thick textured saucy detail, fresh gourmet condiment product photography.",
+      "promptZh": "一只敞口玻璃罐装着「Verde Fresco」罗勒青酱,一把勺挑起浓稠鲜绿的一勺,置于浅色大理石台面上。周围摆着新鲜罗勒叶、松子、一角帕玛森奶酪和一瓣蒜。明亮的自然光从左侧照入,阴影柔和,鲜亮的罗勒绿、奶白与暖白色调,略带俯角,浓稠带颗粒的质感细节,呈现新鲜的高级调味品产品摄影。",
+      "category": "电商视觉",
+      "commerceType": "产品主图",
+      "tags": [
+        "电商视觉",
+        "GPT Image 2",
+        "产品主图",
+        "condiment",
+        "pesto",
+        "fresh"
+      ],
+      "model": "GPT Image 2",
+      "mediaType": "image",
+      "image": "https://r2.apimodels.app/assets/prompt-gallery/1785126389929_ecommerce-133.png",
+      "images": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785126389929_ecommerce-133.png"
+      ],
+      "rawImages": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785126389929_ecommerce-133.png"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "1:1",
+      "source": "apimodels/gpt-image-2-prompts",
+      "sourceUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#ecommerce-133",
+      "url": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#ecommerce-133",
+      "domain": "github.com",
+      "attribution": "API Models (apimodels.app)",
+      "license": "CC BY 4.0",
+      "sourceLicenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "sourceRepository": "apimodels/gpt-image-2-prompts",
+      "archiveUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json",
+      "collectionOrigin": "commerce-public-sources",
+      "externalId": "ecommerce-133",
+      "date": "2026-11-03",
+      "timestamp": 1793671021662,
+      "collectedAt": "2026-11-03T01:57:01.662Z",
+      "githubSyncedAt": "2026-11-03T01:57:01.662Z"
+    },
+    {
+      "id": "apimodels_gpt_image_2_ecommerce-134",
+      "title": "枫糖浆瓶小屋风",
+      "prompt": "A classic clear glass bottle of \"North Ridge\" pure maple syrup with a cabin-shaped silhouette label, standing on a warm plank table beside a stack of golden pancakes with syrup pouring over. A few maple leaves and a pat of butter nearby. Warm cozy morning light from the right, soft shadows, deep amber, golden-brown and warm wood palette, front three-quarter angle at eye level, glossy pouring texture, rustic breakfast product photography.",
+      "promptZh": "一只经典透明玻璃瓶装着「North Ridge」纯枫糖浆,贴着小木屋剪影标签,立在温润的木板桌上,旁边一摞金黄薄饼正淋着糖浆。附近点缀几片枫叶和一块黄油。温暖惬意的晨光从右侧照入,阴影柔和,深琥珀、金棕与暖木色调,正面四分之三平视角度,糖浆流淌油亮的质感,呈现质朴的早餐产品摄影。",
+      "category": "电商视觉",
+      "commerceType": "产品主图",
+      "tags": [
+        "电商视觉",
+        "GPT Image 2",
+        "产品主图",
+        "condiment",
+        "maplesyrup",
+        "breakfast"
+      ],
+      "model": "GPT Image 2",
+      "mediaType": "image",
+      "image": "https://r2.apimodels.app/assets/prompt-gallery/1785126429110_ecommerce-134.png",
+      "images": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785126429110_ecommerce-134.png"
+      ],
+      "rawImages": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785126429110_ecommerce-134.png"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "4:5",
+      "source": "apimodels/gpt-image-2-prompts",
+      "sourceUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#ecommerce-134",
+      "url": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#ecommerce-134",
+      "domain": "github.com",
+      "attribution": "API Models (apimodels.app)",
+      "license": "CC BY 4.0",
+      "sourceLicenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "sourceRepository": "apimodels/gpt-image-2-prompts",
+      "archiveUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json",
+      "collectionOrigin": "commerce-public-sources",
+      "externalId": "ecommerce-134",
+      "date": "2026-11-03",
+      "timestamp": 1793671021662,
+      "collectedAt": "2026-11-03T01:57:01.662Z",
+      "githubSyncedAt": "2026-11-03T01:57:01.662Z"
+    },
     {
       "aspectRatio": "2:3",
       "category": "人像",
