@@ -1,7 +1,38 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-03T05:50:18.464Z",
+  "updatedAt": "2026-11-03T09:08:02.070Z",
   "collections": [
+    {
+      "aspectRatio": "9:16",
+      "category": "时尚",
+      "date": "2026-11-03",
+      "domain": "x.com",
+      "id": "ext_mw0grptm_igs6",
+      "image": "https://pbs.twimg.com/media/HWKo3pIa4AAD8wX?format=jpg&name=small",
+      "images": [
+        "https://pbs.twimg.com/media/HWKo3pIa4AAD8wX?format=jpg&name=small"
+      ],
+      "model": "",
+      "prompt": "9:16竖版，写实人像摄影。一位25岁的成年东方女性，黑色自然长发，清秀小鹅蛋脸、杏眼、小巧鼻梁、薄唇，淡妆，白皙肌肤保留毛孔、细微肤色变化与真实纹理。 穿黑色修身长袖罗纹针织上衣、深灰色高腰牛仔短裤，肩上搭着细黑色包带。侧坐在黑色复古摩托车的皮质座垫上，上身自然挺直，略微转向镜头，一只手向后撑住座垫，头部自然回转，平静地看着镜头。 关键构图：从人物左侧近距离侧拍，相机略高于座垫，轻微向上取景。臀部位于画面左下侧，双腿从左向右延伸，大腿接近水平，双膝朝向画面右侧，一条腿自然交叠在另一条腿上。靠近镜头的大腿侧面横贯画面下半部，形成清晰的前景；膝盖靠近右侧边缘，小腿自然向下延伸并在画面底部裁切。完整脸部和上半身位于画面上半部，头顶留少量空间。保持真实透视与自然人体比例，不要夸张放大或拉长腿部。 背景为简洁的现代车库，灰色金属墙板、横向白色灯带与上方窗户，画面右侧露出摩托车后视镜、车把和油箱，下方可见金属发动机与减震弹簧。柔和自然光照亮面部和腿部，黑色针织纹理、牛仔布纹理、皮革与金属反光清晰可信。整体呈现真实相机拍摄的自然时尚人像质感，无文字、无水印、无拼图。 画面保持干净自然的真实照片质感：不要数字噪点与彩色噪点，不要颗粒覆盖，不要过度锐化，不要 HDR 与油腻高光，不要蜡质表面，不要脏灰色调，不要假细节与压缩伪影。",
+      "rawImages": [
+        "https://pbs.twimg.com/media/HWKo3pIa4AAD8wX?format=jpg&name=small"
+      ],
+      "referenceImages": [],
+      "source": "插件扫描",
+      "sourceUrl": "https://x.com/krienknight/status/2117440458460926071",
+      "tags": [
+        "东方",
+        "人像",
+        "摄影"
+      ],
+      "timestamp": 1793696811898,
+      "title": "老是古风",
+      "url": "https://x.com/krienknight/status/2117440458460926071",
+      "collectedAt": "2026-11-03T09:06:53.225Z",
+      "mediaType": "image",
+      "githubSyncedAt": "2026-11-03T09:08:02.070Z",
+      "domesticSyncedAt": null
+    },
     {
       "id": "apimodels_gpt_image_2_ecommerce-135",
       "title": "芥末酱颗粒特写",
