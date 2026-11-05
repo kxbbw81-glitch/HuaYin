@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-05T02:07:35.951Z",
+  "updatedAt": "2026-11-05T08:14:06.181Z",
   "collections": [
     {
       "id": "grok_x_2117895898999210440",
@@ -36,7 +36,7 @@
       "timestamp": 1793844455839,
       "collectedAt": "2026-11-05T02:07:35.839Z",
       "githubSyncedAt": "2026-11-05T02:07:35.839Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-11-05T08:14:06.177Z"
     },
     {
       "id": "grok_x_2118066566415986696",
@@ -72,7 +72,7 @@
       "timestamp": 1793844455839,
       "collectedAt": "2026-11-05T02:07:35.839Z",
       "githubSyncedAt": "2026-11-05T02:07:35.839Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-11-05T08:14:06.177Z"
     },
     {
       "id": "grok_x_2117876349050225025",
@@ -108,7 +108,7 @@
       "timestamp": 1793844455839,
       "collectedAt": "2026-11-05T02:07:35.839Z",
       "githubSyncedAt": "2026-11-05T02:07:35.839Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-11-05T08:14:06.177Z"
     },
     {
       "id": "grok_x_2117236604960158039",
@@ -144,7 +144,7 @@
       "timestamp": 1793844455839,
       "collectedAt": "2026-11-05T02:07:35.839Z",
       "githubSyncedAt": "2026-11-05T02:07:35.839Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-11-05T08:14:06.177Z"
     },
     {
       "id": "grok_x_2117896716322291763",
@@ -180,7 +180,7 @@
       "timestamp": 1793844455839,
       "collectedAt": "2026-11-05T02:07:35.839Z",
       "githubSyncedAt": "2026-11-05T02:07:35.839Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-11-05T08:14:06.177Z"
     },
     {
       "id": "grok_x_2118131177387331884",
@@ -214,7 +214,7 @@
       "timestamp": 1793844455839,
       "collectedAt": "2026-11-05T02:07:35.839Z",
       "githubSyncedAt": "2026-11-05T02:07:35.839Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-11-05T08:14:06.177Z"
     },
     {
       "id": "grok_x_2118025490573165054",
@@ -248,7 +248,7 @@
       "timestamp": 1793844455839,
       "collectedAt": "2026-11-05T02:07:35.839Z",
       "githubSyncedAt": "2026-11-05T02:07:35.839Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-11-05T08:14:06.177Z"
     },
     {
       "id": "grok_x_2117188824329588835",
@@ -288,7 +288,7 @@
       "timestamp": 1793844455839,
       "collectedAt": "2026-11-05T02:07:35.839Z",
       "githubSyncedAt": "2026-11-05T02:07:35.839Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-11-05T08:14:06.177Z"
     },
     {
       "id": "grok_x_2118093176711852231",
@@ -324,7 +324,7 @@
       "timestamp": 1793844455839,
       "collectedAt": "2026-11-05T02:07:35.839Z",
       "githubSyncedAt": "2026-11-05T02:07:35.839Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-11-05T08:14:06.177Z"
     },
     {
       "id": "grok_x_2118032527114051738",
@@ -360,7 +360,7 @@
       "timestamp": 1793844455839,
       "collectedAt": "2026-11-05T02:07:35.839Z",
       "githubSyncedAt": "2026-11-05T02:07:35.839Z",
-      "domesticSyncedAt": null
+      "domesticSyncedAt": "2026-11-05T08:14:06.177Z"
     },
     {
       "id": "apimodels_gpt_image_2_product-205",
@@ -401,7 +401,7 @@
       "timestamp": 1793844446392,
       "collectedAt": "2026-11-05T02:07:26.392Z",
       "githubSyncedAt": "2026-11-05T02:07:26.392Z",
-      "domesticSyncedAt": null,
+      "domesticSyncedAt": "2026-11-05T08:14:06.177Z",
       "sourceLicenseVerified": true,
       "sourceLicenseUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/LICENSE",
       "collectionOrigin": "approved-public-commerce"
@@ -445,7 +445,7 @@
       "timestamp": 1793844446392,
       "collectedAt": "2026-11-05T02:07:26.392Z",
       "githubSyncedAt": "2026-11-05T02:07:26.392Z",
-      "domesticSyncedAt": null,
+      "domesticSyncedAt": "2026-11-05T08:14:06.177Z",
       "sourceLicenseVerified": true,
       "sourceLicenseUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/LICENSE",
       "collectionOrigin": "approved-public-commerce"
@@ -489,7 +489,7 @@
       "timestamp": 1793844446392,
       "collectedAt": "2026-11-05T02:07:26.392Z",
       "githubSyncedAt": "2026-11-05T02:07:26.392Z",
-      "domesticSyncedAt": null,
+      "domesticSyncedAt": "2026-11-05T08:14:06.177Z",
       "sourceLicenseVerified": true,
       "sourceLicenseUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/LICENSE",
       "collectionOrigin": "approved-public-commerce"
@@ -533,7 +533,7 @@
       "timestamp": 1793844446392,
       "collectedAt": "2026-11-05T02:07:26.392Z",
       "githubSyncedAt": "2026-11-05T02:07:26.392Z",
-      "domesticSyncedAt": null,
+      "domesticSyncedAt": "2026-11-05T08:14:06.177Z",
       "sourceLicenseVerified": true,
       "sourceLicenseUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/LICENSE",
       "collectionOrigin": "approved-public-commerce"
@@ -577,7 +577,7 @@
       "timestamp": 1793844446392,
       "collectedAt": "2026-11-05T02:07:26.392Z",
       "githubSyncedAt": "2026-11-05T02:07:26.392Z",
-      "domesticSyncedAt": null,
+      "domesticSyncedAt": "2026-11-05T08:14:06.177Z",
       "sourceLicenseVerified": true,
       "sourceLicenseUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/LICENSE",
       "collectionOrigin": "approved-public-commerce"
@@ -621,7 +621,7 @@
       "timestamp": 1793844446392,
       "collectedAt": "2026-11-05T02:07:26.392Z",
       "githubSyncedAt": "2026-11-05T02:07:26.392Z",
-      "domesticSyncedAt": null,
+      "domesticSyncedAt": "2026-11-05T08:14:06.177Z",
       "sourceLicenseVerified": true,
       "sourceLicenseUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/LICENSE",
       "collectionOrigin": "approved-public-commerce"
@@ -665,7 +665,7 @@
       "timestamp": 1793844446392,
       "collectedAt": "2026-11-05T02:07:26.392Z",
       "githubSyncedAt": "2026-11-05T02:07:26.392Z",
-      "domesticSyncedAt": null,
+      "domesticSyncedAt": "2026-11-05T08:14:06.177Z",
       "sourceLicenseVerified": true,
       "sourceLicenseUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/LICENSE",
       "collectionOrigin": "approved-public-commerce"
@@ -709,7 +709,7 @@
       "timestamp": 1793844446392,
       "collectedAt": "2026-11-05T02:07:26.392Z",
       "githubSyncedAt": "2026-11-05T02:07:26.392Z",
-      "domesticSyncedAt": null,
+      "domesticSyncedAt": "2026-11-05T08:14:06.177Z",
       "sourceLicenseVerified": true,
       "sourceLicenseUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/LICENSE",
       "collectionOrigin": "approved-public-commerce"
@@ -753,7 +753,7 @@
       "timestamp": 1793844446392,
       "collectedAt": "2026-11-05T02:07:26.392Z",
       "githubSyncedAt": "2026-11-05T02:07:26.392Z",
-      "domesticSyncedAt": null,
+      "domesticSyncedAt": "2026-11-05T08:14:06.177Z",
       "sourceLicenseVerified": true,
       "sourceLicenseUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/LICENSE",
       "collectionOrigin": "approved-public-commerce"
@@ -797,7 +797,7 @@
       "timestamp": 1793844446392,
       "collectedAt": "2026-11-05T02:07:26.392Z",
       "githubSyncedAt": "2026-11-05T02:07:26.392Z",
-      "domesticSyncedAt": null,
+      "domesticSyncedAt": "2026-11-05T08:14:06.177Z",
       "sourceLicenseVerified": true,
       "sourceLicenseUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/LICENSE",
       "collectionOrigin": "approved-public-commerce"
@@ -841,7 +841,7 @@
       "timestamp": 1793844446392,
       "collectedAt": "2026-11-05T02:07:26.392Z",
       "githubSyncedAt": "2026-11-05T02:07:26.392Z",
-      "domesticSyncedAt": null,
+      "domesticSyncedAt": "2026-11-05T08:14:06.177Z",
       "sourceLicenseVerified": true,
       "sourceLicenseUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/LICENSE",
       "collectionOrigin": "approved-public-commerce"
@@ -885,7 +885,7 @@
       "timestamp": 1793844446392,
       "collectedAt": "2026-11-05T02:07:26.392Z",
       "githubSyncedAt": "2026-11-05T02:07:26.392Z",
-      "domesticSyncedAt": null,
+      "domesticSyncedAt": "2026-11-05T08:14:06.177Z",
       "sourceLicenseVerified": true,
       "sourceLicenseUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/LICENSE",
       "collectionOrigin": "approved-public-commerce"
@@ -929,7 +929,7 @@
       "timestamp": 1793844446392,
       "collectedAt": "2026-11-05T02:07:26.392Z",
       "githubSyncedAt": "2026-11-05T02:07:26.392Z",
-      "domesticSyncedAt": null,
+      "domesticSyncedAt": "2026-11-05T08:14:06.177Z",
       "sourceLicenseVerified": true,
       "sourceLicenseUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/LICENSE",
       "collectionOrigin": "approved-public-commerce"
@@ -973,7 +973,7 @@
       "timestamp": 1793844446392,
       "collectedAt": "2026-11-05T02:07:26.392Z",
       "githubSyncedAt": "2026-11-05T02:07:26.392Z",
-      "domesticSyncedAt": null,
+      "domesticSyncedAt": "2026-11-05T08:14:06.177Z",
       "sourceLicenseVerified": true,
       "sourceLicenseUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/LICENSE",
       "collectionOrigin": "approved-public-commerce"
@@ -1017,7 +1017,7 @@
       "timestamp": 1793844446392,
       "collectedAt": "2026-11-05T02:07:26.392Z",
       "githubSyncedAt": "2026-11-05T02:07:26.392Z",
-      "domesticSyncedAt": null,
+      "domesticSyncedAt": "2026-11-05T08:14:06.177Z",
       "sourceLicenseVerified": true,
       "sourceLicenseUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/LICENSE",
       "collectionOrigin": "approved-public-commerce"
@@ -1061,7 +1061,7 @@
       "timestamp": 1793844446392,
       "collectedAt": "2026-11-05T02:07:26.392Z",
       "githubSyncedAt": "2026-11-05T02:07:26.392Z",
-      "domesticSyncedAt": null,
+      "domesticSyncedAt": "2026-11-05T08:14:06.177Z",
       "sourceLicenseVerified": true,
       "sourceLicenseUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/LICENSE",
       "collectionOrigin": "approved-public-commerce"
@@ -1105,7 +1105,7 @@
       "timestamp": 1793844446392,
       "collectedAt": "2026-11-05T02:07:26.392Z",
       "githubSyncedAt": "2026-11-05T02:07:26.392Z",
-      "domesticSyncedAt": null,
+      "domesticSyncedAt": "2026-11-05T08:14:06.177Z",
       "sourceLicenseVerified": true,
       "sourceLicenseUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/LICENSE",
       "collectionOrigin": "approved-public-commerce"
@@ -1149,7 +1149,7 @@
       "timestamp": 1793844446392,
       "collectedAt": "2026-11-05T02:07:26.392Z",
       "githubSyncedAt": "2026-11-05T02:07:26.392Z",
-      "domesticSyncedAt": null,
+      "domesticSyncedAt": "2026-11-05T08:14:06.177Z",
       "sourceLicenseVerified": true,
       "sourceLicenseUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/LICENSE",
       "collectionOrigin": "approved-public-commerce"
@@ -1193,7 +1193,7 @@
       "timestamp": 1793844446392,
       "collectedAt": "2026-11-05T02:07:26.392Z",
       "githubSyncedAt": "2026-11-05T02:07:26.392Z",
-      "domesticSyncedAt": null,
+      "domesticSyncedAt": "2026-11-05T08:14:06.177Z",
       "sourceLicenseVerified": true,
       "sourceLicenseUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/LICENSE",
       "collectionOrigin": "approved-public-commerce"
@@ -1237,7 +1237,7 @@
       "timestamp": 1793844446392,
       "collectedAt": "2026-11-05T02:07:26.392Z",
       "githubSyncedAt": "2026-11-05T02:07:26.392Z",
-      "domesticSyncedAt": null,
+      "domesticSyncedAt": "2026-11-05T08:14:06.177Z",
       "sourceLicenseVerified": true,
       "sourceLicenseUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/LICENSE",
       "collectionOrigin": "approved-public-commerce"
