@@ -22,7 +22,8 @@ function createHarness() {
     rawStaleAfterPut: false,
     staleRawCollections: null,
     currentSha: 'test-sha',
-    inbox: []
+    inbox: [],
+    mergeResults: new Map()
   };
   const alarms = [];
   const alarmListeners = [];
@@ -95,6 +96,15 @@ function createHarness() {
         remote.currentSha = `test-sha-${remote.putCalls}`;
         if (remote.rawStaleAfterPut) remote.staleRawCollections = previousCollections;
         return { ok: true, status: 200, json: async () => ({ content: { sha: remote.currentSha }, commit: { sha: `commit-${remote.putCalls}` } }) };
+      }
+      if (String(url).includes('/contents/data/merge-results/')) {
+        const name = decodeURIComponent(String(url).split('/').pop());
+        const result = remote.mergeResults.get(name);
+        return result
+          ? { ok: true, status: 200, json: async () => ({
+            content: Buffer.from(JSON.stringify(result), 'utf8').toString('base64')
+          }) }
+          : { ok: false, status: 404 };
       }
       if (String(url).includes('raw.githubusercontent.com')) {
         remote.rawGetCalls += 1;
@@ -339,26 +349,57 @@ test('GitHub request timeouts leave the queue retryable instead of keeping it sy
   assert.ok(alarms.some(alarm => alarm.name === 'prompthub_primary_retry'));
 });
 
-test('submitted inbox items are requeued when the main-site merge is not confirmed within five minutes', async () => {
+test('unconfirmed merges stop automatic resubmission and preserve the receipt', async () => {
   const { context, remote, storage, alarms } = createHarness();
   const first = prompt('stale-submit', 'A premium e-commerce photograph of a translucent skincare serum bottle on frosted glass, cool rim light, precise reflection control, botanical shadow, minimal luxury catalog composition, 100mm lens, realistic liquid texture, photorealistic finish, no text, no logo, no watermark.');
 
   await context.addToQueue(first);
   assert.equal((await waitForReceipt(context, 'stale-submit')).state, 'submitted');
-  assert.equal(storage.prompthub_queue, undefined);
-  assert.deepEqual(inboxIds(remote), ['stale-submit']);
-
   storage.prompthub_collection_receipts['stale-submit'].submittedAt = new Date(Date.now() - 6 * 60 * 1000).toISOString();
   const result = await context.verifySubmittedMainReceipts();
-
   const receipt = await context.getCollectionReceipt('stale-submit');
+
   assert.equal(result.stale, 1);
   assert.equal(receipt.state, 'failed');
-  assert.equal(receipt.outcome, 'merge_timeout');
-  assert.match(receipt.error, /超过 5 分钟未确认/);
-  assert.equal(storage.prompthub_queue.length, 1);
-  assert.equal(storage.prompthub_queue[0].id, 'stale-submit');
-  assert.ok(alarms.some(alarm => alarm.name === 'prompthub_primary_retry'));
+  assert.equal(receipt.outcome, 'merge_unconfirmed');
+  assert.match(receipt.error, /已停止自动重投/);
+  assert.equal(receipt.item.id, 'stale-submit');
+  assert.equal(storage.prompthub_queue, undefined);
+  assert.equal(remote.putCalls, 1);
+  assert.ok(!alarms.some(alarm => alarm.name === 'prompthub_primary_retry'));
+});
+
+test('merge results distinguish saved, existing and rejected items without resubmitting', async () => {
+  const { context, remote, storage } = createHarness();
+  const ids = ['result-saved', 'result-existing', 'result-rejected'];
+  const items = ids.map((id, index) => prompt(id,
+    `A cinematic editorial product photograph of a sculpted glass bottle number ${index}, on textured limestone with soft directional daylight, realistic reflections, precise composition, shallow depth of field, 85mm lens, premium commercial finish, natural material texture, photorealistic, no text, no logo, no watermark.`
+  ));
+  await context.addItemsToQueue(items);
+  for (let attempt = 0; attempt < 30 && (await context.getCollectionReceipt(ids[2]))?.state !== 'submitted'; attempt += 1) {
+    await new Promise(resolve => setTimeout(resolve, 1));
+  }
+  const inboxPath = (await context.getCollectionReceipt(ids[0])).inboxPath;
+  remote.mergeResults.set(inboxPath.split('/').pop(), {
+    inboxPath,
+    items: [
+      { id: ids[0], status: 'saved' },
+      { id: ids[1], status: 'already_exists' },
+      { id: ids[2], status: 'rejected', reason: '不是完整提示词' }
+    ]
+  });
+  const result = await context.verifySubmittedMainReceipts();
+  assert.equal(result.confirmed, 2);
+  assert.equal(result.rejected, 1);
+  assert.equal((await context.getCollectionReceipt(ids[0])).outcome, 'saved');
+  assert.equal((await context.getCollectionReceipt(ids[1])).outcome, 'already_exists');
+  const rejected = await context.getCollectionReceipt(ids[2]);
+  assert.equal(rejected.state, 'failed');
+  assert.equal(rejected.outcome, 'merge_rejected');
+  assert.equal(rejected.error, '不是完整提示词');
+  assert.equal(storage.prompthub_queue, undefined);
+  assert.equal(remote.putCalls, 1);
+  assert.equal((await context.retryCollectionReceipt(ids[2])).success, false);
 });
 
 test('extension leaves the delayed domestic release to the GitHub workflow', () => {

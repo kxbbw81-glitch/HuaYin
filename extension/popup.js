@@ -135,7 +135,7 @@ function renderSyncTasks(receipts) {
           <div class="sync-task-meta">${escapeHTML(outcome)} · ${escapeHTML(formatTaskTime(receipt.updatedAt))}</div>
           ${detail ? `<div class="sync-task-detail">${escapeHTML(detail)}</div>` : ''}
         </div>
-        ${state === 'failed' ? `<button class="sync-task-retry" data-retry-id="${escapeHTML(receipt.id)}" type="button">重试</button>` : ''}
+        ${state === 'failed' && receipt.outcome !== 'merge_rejected' ? `<button class="sync-task-retry" data-retry-id="${escapeHTML(receipt.id)}" type="button">重试</button>` : ''}
       </div>
     `;
   }).join('');

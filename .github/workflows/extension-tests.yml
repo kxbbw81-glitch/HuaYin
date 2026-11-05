@@ -1,0 +1,25 @@
+name: Extension regression tests
+
+on:
+  pull_request:
+    paths:
+      - 'extension/**'
+      - 'scripts/merge-extension-inbox.js'
+      - 'tests/**'
+      - '.github/workflows/merge-extension-inbox.yml'
+      - '.github/workflows/extension-tests.yml'
+      - 'PromptHub-Extension-v3.32.2.zip'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 24
+      - run: node --test tests/*.test.js

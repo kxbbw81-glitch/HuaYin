@@ -4,6 +4,7 @@ const { classifyCollection, classifyCommerceType } = require('./category-rules')
 
 const DEFAULT_COLLECTIONS_PATH = path.join(__dirname, '..', 'data', 'collections.json');
 const DEFAULT_INBOX_DIR = path.join(__dirname, '..', 'data', 'inbox');
+const DEFAULT_RESULTS_DIR = path.join(__dirname, '..', 'data', 'merge-results');
 const MIN_PROMPT_LENGTH = 70;
 const LONG_PROMPT_LENGTH = 160;
 
@@ -159,17 +160,23 @@ function mergeExtensionInbox({ collectionsPayload, inboxFiles, now = new Date().
   const accepted = [];
   const rejected = [];
   const processedFiles = [];
+  const batchResults = [];
 
   for (const file of inboxFiles) {
     processedFiles.push(file.filePath);
+    const batch = { inboxPath: `data/inbox/${file.name}`, processedAt: now, items: [] };
+    batchResults.push({ name: file.name, result: batch });
     if (file.error) {
       rejected.push({ file: file.name, reason: 'invalid inbox JSON' });
+      batch.error = '入站文件不是有效 JSON';
       continue;
     }
     for (const rawItem of file.items) {
       const item = sanitizeInboxItem(rawItem);
       if (!item) {
-        rejected.push({ file: file.name, id: cleanText(rawItem?.id, 120), reason: 'incomplete collection item' });
+        const id = cleanText(rawItem?.id, 120);
+        rejected.push({ file: file.name, id, reason: 'incomplete collection item' });
+        batch.items.push({ id, status: 'rejected', reason: '缺少有效提示词、来源或图片，请重新扫描并检查内容' });
         continue;
       }
       const id = cleanText(item.id, 120);
@@ -177,12 +184,14 @@ function mergeExtensionInbox({ collectionsPayload, inboxFiles, now = new Date().
       const fingerprint = promptFingerprint(item.prompt);
       if (keys.ids.has(id) || keys.sources.has(sourceKey) || keys.prompts.has(fingerprint)) {
         rejected.push({ file: file.name, id, reason: 'duplicate collection' });
+        batch.items.push({ id, status: 'already_exists', reason: 'GitHub 主站已存在相同来源或提示词' });
         continue;
       }
       keys.ids.add(id);
       keys.sources.add(sourceKey);
       keys.prompts.add(fingerprint);
       accepted.push(toCollection(item, now));
+      batch.items.push({ id, status: 'saved', reason: '已写入 GitHub 主站' });
     }
   }
 
@@ -191,16 +200,17 @@ function mergeExtensionInbox({ collectionsPayload, inboxFiles, now = new Date().
     collectionsPayload.updatedAt = now;
   }
 
-  return { payload: collectionsPayload, accepted, rejected, processedFiles };
+  return { payload: collectionsPayload, accepted, rejected, processedFiles, batchResults };
 }
 
 function parseArgs(argv) {
-  const options = { apply: false, collectionsPath: DEFAULT_COLLECTIONS_PATH, inboxDir: DEFAULT_INBOX_DIR };
+  const options = { apply: false, collectionsPath: DEFAULT_COLLECTIONS_PATH, inboxDir: DEFAULT_INBOX_DIR, resultsDir: DEFAULT_RESULTS_DIR };
   for (let index = 2; index < argv.length; index += 1) {
     const arg = argv[index];
     if (arg === '--apply') options.apply = true;
     else if (arg === '--collections') options.collectionsPath = path.resolve(argv[++index]);
     else if (arg === '--inbox') options.inboxDir = path.resolve(argv[++index]);
+    else if (arg === '--results') options.resultsDir = path.resolve(argv[++index]);
   }
   return options;
 }
@@ -212,7 +222,11 @@ function run(argv = process.argv) {
   const result = mergeExtensionInbox({ collectionsPayload, inboxFiles });
 
   if (options.apply && (result.accepted.length || result.processedFiles.length)) {
-    fs.writeFileSync(options.collectionsPath, `${JSON.stringify(result.payload, null, 2)}\n`);
+    if (result.accepted.length) fs.writeFileSync(options.collectionsPath, `${JSON.stringify(result.payload, null, 2)}\n`);
+    fs.mkdirSync(options.resultsDir, { recursive: true });
+    for (const batch of result.batchResults) {
+      fs.writeFileSync(path.join(options.resultsDir, batch.name), `${JSON.stringify(batch.result, null, 2)}\n`);
+    }
     for (const filePath of result.processedFiles) {
       if (fs.existsSync(filePath)) fs.unlinkSync(filePath);
     }
@@ -234,5 +248,6 @@ module.exports = {
   readInboxFiles,
   sanitizeInboxItem,
   promptFingerprint,
-  collectionSourceKey
+  collectionSourceKey,
+  run
 };

@@ -1,7 +1,7 @@
 # PromptHub 运行规则
 
 **状态：生效**  
-**最后整理：2026-08-05**
+**最后整理：2026-11-05**
 **单一规则源：本文件**
 
 本文件把此前分散在聊天记录、插件说明和实现中的约定收敛为可执行规则。聊天记录只作为需求来源；一旦某项决定写入本文件，后续实现、测试和说明均以本文件为准。
@@ -63,7 +63,8 @@
 - 扫描结果存在多条候选时，“一键收藏”必须在一次队列锁定中批量加入所有通过校验且未重复的候选，再触发一次主站同步；单条收藏流程保持可用。
 - 扩展不得在浏览器中直接读写整份 `data/collections.json`。收藏队列只允许提交小型入站批次文件到 `data/inbox/*.json`，由仓库端 GitHub Action 合并进权威数据源。
 - 扩展收到 `data/inbox/*.json` 创建成功确认后，才可从本机队列移除，并显示“已提交 GitHub 主站队列”；不能把入站队列提交称为“已写入 GitHub 主站”。
-- `Merge Extension Inbox` 工作流必须读取最新 `main`，运行 `scripts/merge-extension-inbox.js --apply`，执行完整 Node 测试，再提交合并后的 `data/collections.json` 并删除已处理的入站文件。
+- `Merge Extension Inbox` 工作流必须读取最新 `main`，运行 `scripts/merge-extension-inbox.js --apply`，执行完整 Node 测试，再提交合并后的 `data/collections.json` 并将每条候选的保存、重复或拒绝结果写入 `data/merge-results/*.json` 后删除已处理的入站文件。
+- 扩展读取对应的合并结果，按条确认已写入、已存在或校验未通过；合并超过 5 分钟仍未确认时保留本机回执并显示未确认，不得自动重新提交相同入站项目。
 - GitHub Action 合并提交成功后，才是用户可见主站数据同步成功；如 Action 失败，入站文件保留在仓库中，可手动重跑工作流，扩展无需重复上传同一大文件。
 - 批量收藏必须为每条候选保留最终结果：`已提交主站队列`、`主站已存在，未重复写入`、`本批重复`、`无法收藏` 或 `提交失败待重试`；不得只显示一个总数而隐去被跳过的条目。
 - GitHub 写入失败时保留队列并重试，向用户显示失败原因；不能把“已进入本机队列”称为“已同步”。
@@ -166,3 +167,9 @@
 | 2026-08-04 | AhaPrompt 可通过公开详情页采集完整正文，禁止使用其 robots 禁止路径绕取。 | 将 SEO 摘要误当完整 Prompt，或通过 `/api`、`/_next` 抓取数据的做法。 |
 | 2026-08-05 | 扩展改为提交小型 `data/inbox/*.json` 入站批次，由 GitHub Action 服务端合并 `data/collections.json`。 | 扩展在浏览器中直接读写不断增大的 `data/collections.json`。 |
 | 2026-10-30 | 批准 `apimodels/gpt-image-2-prompts`（CC BY 4.0、HTTPS `prompts.json`、归属 API Models）进入公开电商自动采集，并限定 ecommerce / product / poster。 | 已批准来源只包含 awesome-gpt-image-2 与 awesome-aiart-pics-prompts、该仓库不得自动写入的限制。新来源仍须具备明确可复用许可、HTTPS 数据与归属。 |
+
+## 2026-11-05 修复记录
+
+- 合并入站批次时为每条候选生成持久回执，区分已写入、已存在和内容校验未通过。
+- 扩展停止对超过 5 分钟未确认的提交自动重新上传；保留状态和错误说明供人工检查，避免同一批次反复触发 GitHub 提交。
+- 禁止直接重试已被合并规则拒绝的无效收藏，修正内容后需重新扫描。
