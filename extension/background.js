@@ -10,6 +10,7 @@ const QUEUE_KEY = 'prompthub_queue';
 const GITHUB_TOKEN_KEY = 'prompthub_github_token';
 const GITHUB_COLLECTIONS_API = 'https://api.github.com/repos/kxbbw81-glitch/HuaYin/contents/data/collections.json';
 const GITHUB_INBOX_API_BASE = 'https://api.github.com/repos/kxbbw81-glitch/HuaYin/contents/data/inbox/';
+const GITHUB_MERGE_RESULTS_API_BASE = 'https://api.github.com/repos/kxbbw81-glitch/HuaYin/contents/data/merge-results/';
 const GITHUB_COLLECTIONS_RAW = 'https://raw.githubusercontent.com/kxbbw81-glitch/HuaYin/main/data/collections.json';
 const GITHUB_BLOB_API_BASE = 'https://api.github.com/repos/kxbbw81-glitch/HuaYin/git/blobs/';
 const GITHUB_LARGE_FILE_BYTES = 1024 * 1024;
@@ -382,7 +383,7 @@ async function setCollectionReceipts(items, state, details = {}) {
     const updatedAt = new Date().toISOString();
     for (const item of safeItems) {
       const previous = current[item.id] || {};
-      const storedItem = details.keepItem ? sanitizeRemoteItem(item) : previous.item || null;
+      const storedItem = details.keepItem ? sanitizeRemoteItem(item.item || item) : previous.item || null;
       current[item.id] = {
         id: item.id,
         title: trimText(item.title || previous.title || storedItem?.title, 120),
@@ -429,6 +430,9 @@ async function getCollectionFeedback() {
 
 async function retryCollectionReceipt(id) {
   const receipt = await getCollectionReceipt(id);
+  if (receipt?.outcome === 'merge_rejected') {
+    return { success: false, error: receipt.error || '合并校验未通过，请重新扫描并修正内容' };
+  }
   const item = sanitizeRemoteItem(receipt?.item);
   if (!item || !isCompleteCollectionItem(item)) {
     return { success: false, error: '该任务缺少完整收藏数据，请重新扫描后收藏' };
@@ -450,28 +454,20 @@ function isStaleSubmittedReceipt(receipt, now = Date.now()) {
   return Number.isFinite(submittedAt) && now - submittedAt > MAIN_VERIFICATION_TIMEOUT_MS;
 }
 
-async function requeueSubmittedReceipts(receipts) {
-  const candidates = receipts
-    .map(receipt => sanitizeRemoteItem(receipt?.item))
-    .filter(item => item && isCompleteCollectionItem(item));
-  if (candidates.length === 0) return 0;
-
-  return withQueueLock(async () => {
-    const queue = await getQueue();
-    const queuedFingerprints = new Set(queue.map(collectionFingerprint).filter(Boolean));
-    const queuedSources = new Set(queue.map(collectionSourceKey).filter(Boolean));
-    const additions = [];
-    for (const item of candidates) {
-      const fingerprint = collectionFingerprint(item);
-      const sourceKey = collectionSourceKey(item);
-      if (!fingerprint || !sourceKey || queuedFingerprints.has(fingerprint) || queuedSources.has(sourceKey)) continue;
-      queuedFingerprints.add(fingerprint);
-      queuedSources.add(sourceKey);
-      additions.push(item);
-    }
-    if (additions.length) await chrome.storage.local.set({ [QUEUE_KEY]: [...queue, ...additions] });
-    return additions.length;
+async function readGitHubMergeResult(token, inboxPath) {
+  const match = String(inboxPath || '').match(/^data\/inbox\/([a-z0-9_-]+\.json)$/i);
+  if (!match) return null;
+  const response = await fetchGitHub(`${GITHUB_MERGE_RESULTS_API_BASE}${encodeURIComponent(match[1])}`, {
+    headers: githubHeaders(token),
+    cache: 'no-store'
   });
+  if (response.status === 404) return null;
+  if (!response.ok) throw new Error(`GitHub 合并结果读取失败 (${response.status})`);
+  const payload = await response.json();
+  if (typeof payload.content !== 'string') throw new Error('GitHub 合并结果缺少内容');
+  const result = JSON.parse(decodeBase64Utf8(payload.content));
+  if (result.inboxPath !== inboxPath || !Array.isArray(result.items)) throw new Error('GitHub 合并结果格式错误');
+  return result;
 }
 
 async function verifySubmittedMainReceipts() {
@@ -482,41 +478,57 @@ async function verifySubmittedMainReceipts() {
     await chrome.alarms.clear(MAIN_VERIFICATION_ALARM_NAME);
     return { checked: 0, confirmed: 0 };
   }
-
   const token = await getGitHubToken();
-  if (!token) return { checked: submitted.length, confirmed: 0 };
-
   try {
-    const snapshot = await readGitHubCollections(token);
-    const sourceUrls = new Set(snapshot.collections.map(item => normalizeSourceUrl(item.sourceUrl || item.url)).filter(Boolean));
-    const confirmed = submitted.filter(receipt => sourceUrls.has(normalizeSourceUrl(receipt.sourceUrl)));
+    const batchResults = new Map(), saved = [], existing = [], rejected = [], pending = [];
+    for (const receipt of submitted) {
+      const inboxPath = receipt.inboxPath || '';
+      if (!batchResults.has(inboxPath)) batchResults.set(inboxPath, await readGitHubMergeResult(token, inboxPath));
+      const result = batchResults.get(inboxPath);
+      const itemResult = result?.items.find(item => item.id === receipt.id);
+      if (itemResult?.status === 'saved') saved.push(receipt);
+      else if (itemResult?.status === 'already_exists') existing.push(receipt);
+      else if (itemResult?.status === 'rejected') rejected.push({ receipt, reason: itemResult.reason });
+      else if (result?.error) rejected.push({ receipt, reason: result.error });
+      else pending.push(receipt);
+    }
+    // 兼容升级前提交的入站批次，及结果尚未写入的批次。
+    let confirmed = [];
+    if (pending.length) {
+      const snapshot = await readGitHubCollections(token);
+      const sourceUrls = new Set(snapshot.collections.map(item => normalizeSourceUrl(item.sourceUrl || item.url)).filter(Boolean));
+      confirmed = pending.filter(receipt => sourceUrls.has(normalizeSourceUrl(receipt.sourceUrl)));
+    }
     const confirmedIds = new Set(confirmed.map(receipt => receipt.id));
-    const stale = submitted.filter(receipt => !confirmedIds.has(receipt.id) && isStaleSubmittedReceipt(receipt));
-    if (confirmed.length) {
-      await setCollectionReceipts(confirmed.map(receipt => ({ id: receipt.id, sourceUrl: receipt.sourceUrl })), 'verified', {
-        outcome: 'saved',
-        message: '已验证写入 GitHub 主站',
-        verifiedAt: new Date().toISOString()
+    const stale = pending.filter(receipt => !confirmedIds.has(receipt.id) && isStaleSubmittedReceipt(receipt));
+    if (saved.length || confirmed.length) {
+      await setCollectionReceipts([...saved, ...confirmed], 'verified', {
+        outcome: 'saved', message: '已验证写入 GitHub 主站', verifiedAt: new Date().toISOString()
+      });
+    }
+    if (existing.length) {
+      await setCollectionReceipts(existing, 'verified', {
+        outcome: 'already_exists', message: 'GitHub 主站已存在，未重复写入', verifiedAt: new Date().toISOString()
+      });
+    }
+    for (const { receipt, reason } of rejected) {
+      await setCollectionReceipts([receipt], 'failed', {
+        outcome: 'merge_rejected',
+        error: reason || '合并校验未通过，请检查提示词、图片和来源',
+        message: 'GitHub 主站拒绝收录'
       });
     }
     if (stale.length) {
-      const requeued = await requeueSubmittedReceipts(stale);
-      await setCollectionReceipts(stale.map(receipt => ({
-        id: receipt.id,
-        sourceUrl: receipt.sourceUrl,
-        item: receipt.item
-      })), 'failed', {
-        keepItem: true,
-        outcome: 'merge_timeout',
-        error: requeued
-          ? `GitHub 主站合并超过 5 分钟未确认，已放回本机队列 ${requeued} 个，可点击重试`
-          : 'GitHub 主站合并超过 5 分钟未确认，请重新扫描后收藏',
+      await setCollectionReceipts(stale, 'failed', {
+        outcome: 'merge_unconfirmed',
+        error: 'GitHub 主站合并超过 5 分钟仍未确认；已停止自动重投，请检查入站任务和合并结果',
         message: '主站合并超时，未确认写入'
       });
-      if (requeued) await schedulePrimaryRetry();
     }
-    if (confirmed.length + stale.length === submitted.length) await chrome.alarms.clear(MAIN_VERIFICATION_ALARM_NAME);
-    return { checked: submitted.length, confirmed: confirmed.length, stale: stale.length };
+    if (saved.length + existing.length + rejected.length + confirmed.length + stale.length === submitted.length) {
+      await chrome.alarms.clear(MAIN_VERIFICATION_ALARM_NAME);
+    }
+    return { checked: submitted.length, confirmed: saved.length + existing.length + confirmed.length, rejected: rejected.length, stale: stale.length };
   } catch (error) {
     console.warn('[PromptHub] Main verification deferred:', error?.message || error);
     return { checked: submitted.length, confirmed: 0 };

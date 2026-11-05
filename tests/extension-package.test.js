@@ -7,7 +7,7 @@ const zlib = require('node:zlib');
 
 const root = path.join(__dirname, '..');
 const extensionDir = path.join(root, 'extension');
-const zipPath = path.join(root, 'PromptHub-Extension-v3.32.0.zip');
+const zipPath = path.join(root, 'PromptHub-Extension-v3.32.2.zip');
 
 function sha256(buffer) {
   return crypto.createHash('sha256').update(buffer).digest('hex');
@@ -44,15 +44,15 @@ function readZip(buffer) {
   return files;
 }
 
-test('the published extension zip matches extension/ at version 3.32.0', () => {
+test('the published extension zip matches extension/ at version 3.32.2', () => {
   assert.equal(fs.existsSync(zipPath), true);
   const sourceFiles = listExtensionFiles(extensionDir);
   const zip = readZip(fs.readFileSync(zipPath));
   assert.deepEqual([...zip.keys()].sort(), sourceFiles);
 
   const manifest = JSON.parse(fs.readFileSync(path.join(extensionDir, 'manifest.json'), 'utf8'));
-  assert.equal(manifest.version, '3.32.0');
-  assert.equal(JSON.parse(zip.get('manifest.json').toString('utf8')).version, '3.32.0');
+  assert.equal(manifest.version, '3.32.2');
+  assert.equal(JSON.parse(zip.get('manifest.json').toString('utf8')).version, '3.32.2');
 
   for (const name of sourceFiles) {
     const sourceHash = sha256(fs.readFileSync(path.join(extensionDir, name)));

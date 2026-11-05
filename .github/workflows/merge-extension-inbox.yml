@@ -31,12 +31,12 @@ jobs:
         run: node --test tests/*.test.js
       - name: Commit merged extension collections
         run: |
-          if git diff --quiet -- data/collections.json data/inbox; then
+          if git diff --quiet -- data/collections.json data/inbox data/merge-results; then
             exit 0
           fi
           git config user.name "prompthub-extension[bot]"
           git config user.email "prompthub-extension[bot]@users.noreply.github.com"
-          git add data/collections.json data/inbox
+          git add data/collections.json data/inbox data/merge-results
           git commit -m "data: merge extension inbox"
           git pull --rebase origin main
           git push origin HEAD:main

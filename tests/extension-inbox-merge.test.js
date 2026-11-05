@@ -1,10 +1,14 @@
 const test = require('node:test');
 const assert = require('node:assert/strict');
+const fs = require('node:fs');
+const os = require('node:os');
+const path = require('node:path');
 const {
   mergeExtensionInbox,
   sanitizeInboxItem,
   promptFingerprint,
-  collectionSourceKey
+  collectionSourceKey,
+  run
 } = require('../scripts/merge-extension-inbox');
 
 const PROMPT_BASE = 'A premium e-commerce product shot and product hero photograph of a translucent amber perfume bottle placed on polished black stone, soft side lighting, precise rim highlights, controlled glass reflections, subtle atmospheric haze, shallow depth of field, 85mm lens, luxury catalog composition, realistic material texture, clean background, no text, no logo, no watermark.';
@@ -62,6 +66,9 @@ test('extension inbox merge prepends valid items and dedupes existing source or 
 
   assert.equal(result.accepted.length, 1);
   assert.equal(result.rejected.length, 3);
+  assert.deepEqual(result.batchResults[0].result.items.map(item => item.status), [
+    'already_exists', 'already_exists', 'rejected', 'saved'
+  ]);
   assert.equal(result.payload.collections[0].id, 'accepted-4004');
   assert.equal(result.payload.collections[0].category, '电商视觉');
   assert.equal(result.payload.collections[0].commerceType, '产品主图');
@@ -131,4 +138,28 @@ test('extension inbox merge rejects social teaser text without the real prompt b
 
   assert.equal(result.accepted.length, 0);
   assert.equal(result.rejected[0].reason, 'incomplete collection item');
+});
+
+test('apply writes a per-batch result before removing the inbox file', () => {
+  const root = fs.mkdtempSync(path.join(os.tmpdir(), 'extension-inbox-'));
+  const inboxDir = path.join(root, 'inbox');
+  const resultsDir = path.join(root, 'merge-results');
+  const collectionsPath = path.join(root, 'collections.json');
+  fs.mkdirSync(inboxDir);
+  fs.writeFileSync(collectionsPath, JSON.stringify({ collections: [] }));
+  const batchName = 'batch-123.json';
+  fs.writeFileSync(path.join(inboxDir, batchName), JSON.stringify({
+    items: [inboxItem('saved-8008'), inboxItem('bad-9009', { prompt: 'short' })]
+  }));
+  try {
+    run(['node', 'merge-extension-inbox.js', '--apply',
+      '--collections', collectionsPath, '--inbox', inboxDir, '--results', resultsDir]);
+    const result = JSON.parse(fs.readFileSync(path.join(resultsDir, batchName), 'utf8'));
+    assert.equal(result.inboxPath, `data/inbox/${batchName}`);
+    assert.deepEqual(result.items.map(item => item.status), ['saved', 'rejected']);
+    assert.equal(JSON.parse(fs.readFileSync(collectionsPath, 'utf8')).collections.length, 1);
+    assert.equal(fs.existsSync(path.join(inboxDir, batchName)), false);
+  } finally {
+    fs.rmSync(root, { recursive: true, force: true });
+  }
 });
