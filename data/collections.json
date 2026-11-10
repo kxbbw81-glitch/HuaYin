@@ -1,7 +1,1208 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T02:05:47.679Z",
+  "updatedAt": "2026-11-10T02:08:43.098Z",
   "collections": [
+    {
+      "id": "x_2119967517263409223",
+      "title": "动物微记融入产品Logo",
+      "prompt": "品牌名称【填写准确名称】\n行业品类【填写行业或店铺类型】\n动物形象【填写一种动物】\n产品或工具【填写希望融入的产品、器物或行业细节】\n品牌气质【填写希望传达的感觉】\n主色搭配【填写一到三种颜色】\n辅助文字【填写需要出现的短文字，可留空】\n制作一张竖版 3:4 的原创品牌 Logo 展示图，风格为“精致动物徽记”。每次只生成一个完整标志方案。\n将指定动物提炼为姿态自然、轮廓独特的图形，把产品或工具融入动物的身体轮廓、局部线条或负形空间。例如让燕尾形成剪刀，或用缝线勾出鹿的颈部。结合行业重新构思，保持动物和物件都容易辨认。\n用少量精细刻线表现羽毛、鳞片等特征，采用深色与少量低饱和辅色，保持平面印刷感。字标精细易读，与动物组成完整标志。\n浅暖灰或米白底，主体居中，四周留白。品牌名称逐字准确，只显示填写的名称和辅助文字。\n避免复杂场景、招牌或包装样机、多方案拼版、投影、3D、无关装饰、额外口号、年份、水印、二维码和价格。",
+      "category": "电商视觉",
+      "commerceType": "品牌视觉",
+      "useCase": "品牌视觉",
+      "tags": [
+        "Logo",
+        "品牌视觉",
+        "动物徽记"
+      ],
+      "model": "",
+      "mediaType": "image",
+      "image": "https://pbs.twimg.com/media/HWujKcRasAAXAgI?format=jpg&name=large",
+      "images": [
+        "https://pbs.twimg.com/media/HWujKcRasAAXAgI?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HWujKg0awAACwDh?format=jpg&name=large"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HWujKcRasAAXAgI?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HWujKg0awAACwDh?format=jpg&name=large"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "3:4",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/dalidaddyy/status/2119967517263409223",
+      "url": "https://x.com/dalidaddyy/status/2119967517263409223",
+      "domain": "x.com",
+      "creator": "dalidaddyy",
+      "date": "2026-11-10",
+      "timestamp": 1794276523098,
+      "collectedAt": "2026-11-10T02:08:43.098Z",
+      "githubSyncedAt": "2026-11-10T02:08:43.098Z"
+    },
+    {
+      "id": "x_2119792329032683706",
+      "title": "红玻香水大理石静物",
+      "prompt": "Luxury product photography of a square-cut perfume bottle made of thick, transparent crimson-red glass with deep ruby and magenta-pink tones, tilted diagonally at about 30 degrees and leaning against stepped blocks of white marble. The bottle has heavy beveled edges and a thick glass base, with an inner rounded-square glass core that creates layered internal reflections and refractions. The liquid and glass glow vivid red, shifting to pink-magenta at the edges and lower corners. A polished, mirror-like gold cap with a hexagonal faceted shape sits on a short gold collar at the neck, catching bright sparkling highlights.\n\nThe bottle rests between two stacked, rough-cut white marble blocks with soft grey veining and a matte, slightly textured surface, arranged like stairs, with one block in the lower foreground and a taller block on the right. The background is a smooth gradient of lavender-purple, from soft violet at the top to richer amethyst-purple on the left, with a diagonal beam of soft light falling from the top right corner.\n\nStrong directional studio lighting from the upper right casts a sharp red-tinted shadow and glowing red caustic light reflection on the marble surface at the bottom left, where light passes through the glass. Glossy specular highlights on the glass edges, high contrast between the warm red and gold and the cool purple background, clean, elegant, premium editorial look. Shallow depth of field, ultra-sharp focus on the bottle, hyper-realistic, 8K, commercial advertising photography style, 1:1 aspect ratio.",
+      "category": "电商视觉",
+      "commerceType": "产品主图",
+      "useCase": "产品主图",
+      "tags": [
+        "香水",
+        "产品摄影",
+        "静物"
+      ],
+      "model": "",
+      "mediaType": "image",
+      "image": "https://pbs.twimg.com/media/HWsD2wVX0AADW7k?format=jpg&name=large",
+      "images": [
+        "https://pbs.twimg.com/media/HWsD2wVX0AADW7k?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HWsD3mIWkAANdhC?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HWsD4P8WAAAt-U5?format=jpg&name=large"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HWsD2wVX0AADW7k?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HWsD3mIWkAANdhC?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HWsD4P8WAAAt-U5?format=jpg&name=large"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "1:1",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/sheCodezArt/status/2119792329032683706",
+      "url": "https://x.com/sheCodezArt/status/2119792329032683706",
+      "domain": "x.com",
+      "creator": "sheCodezArt",
+      "date": "2026-11-10",
+      "timestamp": 1794276523098,
+      "collectedAt": "2026-11-10T02:08:43.098Z",
+      "githubSyncedAt": "2026-11-10T02:08:43.098Z"
+    },
+    {
+      "id": "x_2119479604909940968",
+      "title": "双口味气泡水产品海报",
+      "prompt": "1. Pink Splash – Funky Fruit Explosion\n\nCreate an ultra-realistic, high-end commercial product advertising image featuring the exact two PULP sparkling water cans from the provided reference image: Lemon Spark and Peachly.\n\nProduct Composition: Position both cans dynamically in the center. The Lemon Spark can floats diagonally above the Peachly can, which stands upright at a slight angle. Preserve the original packaging design, brand name, yellow and red stripes, fruit illustrations, flavor labels, and overall can proportions.\n\nEnvironment: A vibrant bubblegum-pink studio background with dramatic splashes of sparkling water surrounding both cans. Add floating lemon slices, fresh peaches, translucent ice cubes, tiny water droplets, and fresh green leaves.\n\nVisual Style: Playful, energetic, premium beverage advertising with a bold fruit-inspired aesthetic. Use dramatic studio lighting, glossy reflections, realistic condensation, crisp details, and dynamic movement.\n\nColor Palette: Bright pink, sunny yellow, peach red, and fresh green.\n\nFinal Finish: Photorealistic product photography, sophisticated commercial art direction, sharp focus, realistic textures, vibrant colors, vertical 4:5 composition.\n\nNo additional products, no distorted cans, no altered branding, no unnecessary text, no watermark.\n\n---\n\n2. Summer Chill – Refreshment in Style\n\nCreate a premium, photorealistic summer beverage advertising campaign featuring the exact two PULP sparkling water cans from the provided reference image: Lemon Spark and Peachly.\n\nProduct Composition: Place both cans inside a large stylish galvanized metal ice bucket filled with crystal-clear ice cubes. The Lemon Spark can and Peachly can should be tilted slightly in opposite directions, with their front labels clearly visible. Preserve the original packaging, colors, logos, fruit illustrations, and product details.\n\nEnvironment: A beautiful sunlit summer setting with a bright blue sky, tropical palm leaves, and a softly blurred beach-club atmosphere. Surround the bucket with fresh lemon halves, juicy peach slices, mint leaves, and scattered ice cubes.\n\nCreative Details: Add realistic water droplets on the cans and bucket, sparkling ice reflections, subtle splashes of water, and warm sunlight creating beautiful highlights and shadows.\n\nArt Direction: Luxury summer lifestyle campaign meets playful modern beverage photography. Fresh, youthful, refreshing, colorful, and visually striking.\n\nColor Palette: Sky blue, lemon yellow, peach coral, silver, and natural green.\n\nFinal Finish: Ultra-realistic commercial photography, premium product styling, cinematic sunlight, crisp textures, professional advertising quality, vertical 4:5 composition.\n\nNo altered packaging, no distorted logos, no extra cans, no watermark.",
+      "category": "电商视觉",
+      "commerceType": "广告海报",
+      "useCase": "广告海报",
+      "tags": [
+        "饮料",
+        "产品海报",
+        "气泡水"
+      ],
+      "model": "GPT Image 2",
+      "mediaType": "image",
+      "image": "https://pbs.twimg.com/media/HWnnagRaEAAPm37?format=jpg&name=large",
+      "images": [
+        "https://pbs.twimg.com/media/HWnnagRaEAAPm37?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HWnncgYbMAAzpzF?format=jpg&name=large"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HWnnagRaEAAPm37?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HWnncgYbMAAzpzF?format=jpg&name=large"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "2:3",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/minhoo_kim_/status/2119479604909940968",
+      "url": "https://x.com/minhoo_kim_/status/2119479604909940968",
+      "domain": "x.com",
+      "creator": "minhoo_kim_",
+      "date": "2026-11-10",
+      "timestamp": 1794276523098,
+      "collectedAt": "2026-11-10T02:08:43.098Z",
+      "githubSyncedAt": "2026-11-10T02:08:43.098Z"
+    },
+    {
+      "id": "x_2119443673033458124",
+      "title": "冰奶茶溅射广告片",
+      "prompt": "Create a 15-second ultra-realistic cinematic 3D beverage commercial featuring a premium iced milk tea in a transparent takeaway cup with a beautiful orange-brown tea color and creamy texture.\n\n**Aspect Ratio:** 9:16 vertical  \n**Style:** Luxury beverage advertisement, photorealistic CGI, cinematic studio lighting, macro photography, high-speed liquid simulation.\n\n**Scene 1 (0–3 seconds):** A stream of rich caramel-colored milk tea pours dramatically into a transparent branded takeaway cup. The liquid creates a spectacular crown-shaped splash around the cup.\n\n**Scene 2 (3–6 seconds):** A smooth stream of fresh white milk pours into the orange tea, creating an explosive artistic splash. Capture every tiny droplet in stunning slow motion.\n\n**Scene 3 (6–9 seconds):** Transition into a mesmerizing close-up of creamy orange-and-white tea swirling together in a beautiful spiral pattern.\n\n**Scene 4 (9–12 seconds):** The finished iced milk tea appears suspended inside a dramatic circular wave of caramel-colored liquid. The camera slowly moves around the cup.\n\n**Scene 5 (12–15 seconds):** A perfectly presented milk tea cup stands centered on a glossy dark reflective surface. Delicate steam rises behind it as the camera slowly pushes in for a luxurious final product shot.\n\n**Visual Details:** Deep black background, warm amber highlights, realistic liquid physics, glossy reflections, detailed condensation on the cup, ultra-smooth slow-motion splashes, premium commercial cinematography, sharp product focus, elegant composition.\n\n**Important:** Maintain consistent cup design, logo placement, and beverage color throughout. No people, no hands, no extra objects, no distorted text. Professional high-end beverage advertising quality.",
+      "category": "电商视觉",
+      "commerceType": "电商视频",
+      "useCase": "电商视频",
+      "tags": [
+        "奶茶",
+        "饮料",
+        "电商视频"
+      ],
+      "model": "Seedance 2.5",
+      "mediaType": "video",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2119443231318654976/img/my2HiOXKxX2tEiDq.jpg",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2119443231318654976/img/my2HiOXKxX2tEiDq.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/amplify_video_thumb/2119443231318654976/img/my2HiOXKxX2tEiDq.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "9:16",
+      "videoPoster": "https://pbs.twimg.com/amplify_video_thumb/2119443231318654976/img/my2HiOXKxX2tEiDq.jpg",
+      "videoUrl": "https://video.twimg.com/amplify_video/2119443231318654976/vid/avc1/720x1280/Uh_CsDPIvPqQ4tF3.mp4",
+      "videoSourceUrl": "https://video.twimg.com/amplify_video/2119443231318654976/vid/avc1/720x1280/Uh_CsDPIvPqQ4tF3.mp4",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/xnouraya/status/2119443673033458124",
+      "url": "https://x.com/xnouraya/status/2119443673033458124",
+      "domain": "x.com",
+      "creator": "xnouraya",
+      "date": "2026-11-10",
+      "timestamp": 1794276523098,
+      "collectedAt": "2026-11-10T02:08:43.098Z",
+      "githubSyncedAt": "2026-11-10T02:08:43.098Z"
+    },
+    {
+      "id": "x_2119792738396971209",
+      "title": "美妆产品电影广告模板",
+      "prompt": "{\n  \"task\": \"Create a premium, photorealistic cinematic beauty and product advertisement using the uploaded reference image as visual inspiration.\",\n\n  \"user_inputs\": {\n    \"subject\": \"[USER DEFINED SUBJECT]\",\n    \"pose\": \"[USER DEFINED POSE]\",\n    \"product_name\": \"[USER DEFINED PRODUCT NAME]\",\n    \"header\": \"[USER DEFINED MAIN HEADER]\"\n  },\n\n  \"creative_direction\": {\n    \"concept\": \"Create an original luxury editorial advertising campaign with bold visual storytelling, realistic human details, premium product photography, and sophisticated art direction.\",\n    \"automatic_design\": \"Automatically generate the ideal advertising concept, environment, color palette, lighting, typography, styling, and supporting visual elements based on the subject and product.\"\n  },\n\n  \"subject\": {\n    \"identity\": \"Generate the subject according to the user's description.\",\n    \"pose\": \"Follow the user-defined pose accurately.\",\n    \"expression\": \"Choose a natural, expressive facial expression that complements the campaign.\",\n    \"styling\": \"Automatically select fashionable clothing, accessories, hairstyle, and makeup appropriate to the product and overall visual concept.\",\n    \"realism\": \"Natural skin texture, realistic facial anatomy, detailed hair strands, authentic proportions, subtle imperfections, and lifelike expressions.\"\n  },\n\n  \"product_design\": {\n    \"name\": \"[USER DEFINED PRODUCT NAME]\",\n    \"packaging\": \"Invent premium, realistic packaging appropriate to the product category.\",\n    \"branding\": \"Create an original brand identity, logo, typography, and packaging layout.\",\n    \"colors\": \"Automatically select complementary product colors based on the campaign's visual direction.\",\n    \"details\": \"Include realistic material finishes, reflections, shadows, cap details, labels, and packaging textures.\",\n    \"text_accuracy\": \"Keep the user-provided product name exactly as written. All additional packaging copy must be relevant, minimal, and legible.\"\n  },\n\n  \"composition\": {\n    \"layout\": \"Create a visually striking commercial advertisement with strong foreground and background separation.\",\n    \"subject_placement\": \"Position the subject and product naturally according to the user-defined pose.\",\n    \"product_visibility\": \"Make the product clearly visible and visually prominent without obscuring important subject details.\",\n    \"camera\": \"Use an appropriate close-up, extreme close-up, medium close-up, or editorial perspective depending on the concept.\",\n    \"depth\": \"Natural optical depth, realistic perspective, and carefully controlled background separation.\"\n  },\n\n  \"environment\": {\n    \"background\": \"Automatically generate a visually distinctive environment that complements the product and subject.\",\n    \"lighting\": \"Choose cinematic sunlight, dramatic directional lighting, soft studio illumination, or creative shadows depending on the concept.\",\n    \"atmosphere\": \"Build an immersive advertising environment with subtle visual storytelling and premium commercial appeal.\"\n  },\n\n  \"typography\": {\n    \"main_header\": \"[USER DEFINED HEADER]\",\n    \"headline_placement\": \"Integrate the main header into the composition using bold, sophisticated advertising typography.\",\n    \"supporting_copy\": \"Automatically generate short, relevant supporting text where appropriate.\",\n    \"design\": \"Use carefully selected fonts, scale, spacing, contrast, and alignment.\",\n    \"integration\": \"Typography should feel like an intentional part of the original art direction rather than an overlay.\"\n  },\n\n  \"color_grading\": {\n    \"palette\": \"Automatically develop a cohesive color palette based on the product, subject, and campaign mood.\",\n    \"grading\": \"Premium commercial color grading with rich tones, realistic highlights, controlled contrast, and natural skin tones.\"\n  },\n\n  \"photography\": {\n    \"style\": \"Ultra-photorealistic luxury beauty and commercial product photography.\",\n    \"lens\": \"Choose the most suitable 35mm, 50mm, or 85mm photographic perspective.\",\n    \"quality\": \"High-end advertising campaign, crisp product details, realistic reflections, natural skin texture, subtle film grain, and professional retouching restraint.\"\n  },\n\n  \"output\": {\n    \"aspect_ratio\": \"3:4\",\n    \"resolution\": \"Ultra-high resolution\",\n    \"quality\": \"Premium commercial advertising quality\",\n    \"finish\": \"Visually cohesive, sophisticated, realistic, and publication-ready.\"\n  },\n\n  \"strict_rules\": [\n    \"Preserve the exact user-defined subject and pose.\",\n    \"Use the exact user-defined product name.\",\n    \"Use the exact user-defined header.\",\n    \"Automatically generate all remaining creative and design decisions.\",\n    \"Make every campaign visually unique rather than repeating a fixed template.\",\n    \"Ensure product packaging looks physically realistic.\",\n    \"Avoid distorted hands, fingers, facial features, and product geometry.\",\n    \"Avoid generic AI aesthetics, excessive retouching, plastic skin, and artificial textures.\",\n    \"Do not introduce unrelated products or unnecessary promotional text.\",\n    \"Maintain professional advertising composition and visual hierarchy.\"\n  ]\n}",
+      "category": "电商视觉",
+      "commerceType": "广告海报",
+      "useCase": "广告海报",
+      "tags": [
+        "美妆",
+        "产品广告",
+        "海报模板"
+      ],
+      "model": "GPT Image 2.0",
+      "mediaType": "image",
+      "image": "https://pbs.twimg.com/media/HWsDxMPaQAEvKau?format=jpg&name=large",
+      "images": [
+        "https://pbs.twimg.com/media/HWsDxMPaQAEvKau?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HWsEI_bbUAARZQ2?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HWsEOkPboAAO3QP?format=jpg&name=large"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HWsDxMPaQAEvKau?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HWsEI_bbUAARZQ2?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HWsEOkPboAAO3QP?format=jpg&name=large"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "3:4",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/Maercihh/status/2119792738396971209",
+      "url": "https://x.com/Maercihh/status/2119792738396971209",
+      "domain": "x.com",
+      "creator": "Maercihh",
+      "date": "2026-11-10",
+      "timestamp": 1794276523098,
+      "collectedAt": "2026-11-10T02:08:43.098Z",
+      "githubSyncedAt": "2026-11-10T02:08:43.098Z"
+    },
+    {
+      "id": "x_2119671234552008863",
+      "title": "街头高定时装杂志广告",
+      "prompt": "UNIVERSAL HIGH-FASHION STREET EDITORIAL CAMPAIGN\n\nCORE INSTRUCTION:\n\nUse the uploaded image as the primary visual reference. Automatically identify the main subject, appearance, clothing, accessories, products, colours, and distinctive characteristics. Transform it into an ultra-photorealistic, premium streetwear editorial advertising campaign inspired by international fashion magazines and luxury commercial photography.\n\nThe creative direction must adapt intelligently to the uploaded subject rather than forcing a fixed concept.\n\nSUBJECT & IDENTITY PRESERVATION:\n\nPreserve the subject's original identity, facial features, proportions, hairstyle, skin tone, and recognizable details. If the reference contains a product, maintain its exact design, shape, branding, colours, and proportions.\n\nElevate the overall presentation through sophisticated styling, confident poses, and premium editorial art direction without unnecessarily changing the original subject.\n\nCOMPOSITION & ENVIRONMENT:\n\nCreate a dynamic editorial composition using dramatic camera angles, natural poses, and carefully controlled perspective. Position the main subject or featured product prominently in the foreground.\n\nBuild a complementary urban environment featuring concrete architecture, city streets, industrial textures, staircases, subway entrances, or subtle graffiti, depending on what best suits the reference. Keep the surroundings authentic and visually engaging.\n\nEDITORIAL TYPOGRAPHY & GRAPHIC DESIGN:\n\nDesign the image as a premium international fashion magazine advertisement.\n\nUse oversized, bold, condensed uppercase headlines, elegant italic serif typography, small editorial labels, collection details, and short advertising slogans. Integrate typography naturally around and behind the subject, creating depth and a sophisticated magazine-style layout.\n\nGenerate suitable fictional editorial branding when appropriate. Avoid altering existing product logos or introducing unrelated brand identities. Ensure text is correctly spelled and visually balanced.\n\nPHOTOGRAPHY & LIGHTING:\n\nUse high-end street fashion photography with a 35mm editorial lens aesthetic, dramatic natural lighting, realistic shadows, crisp details, authentic textures, subtle film grain, and professional commercial colour grading.\n\nCOLOUR & VISUAL STYLE:\n\nDerive the colour palette from the uploaded reference. Use complementary tones with striking crimson-red accents where appropriate, balanced by charcoal blacks, muted urban greys, and clean white typography. Maintain cinematic contrast and realistic colours.\n\nFINAL OUTPUT:\n\nCreate a 3:4 vertical, ultra-photorealistic luxury streetwear editorial poster with premium magazine typography, authentic urban atmosphere, realistic product details, and professional advertising composition.\n\nIMPORTANT: Every creative decision must complement the uploaded reference. Preserve the subject's defining characteristics and make the final result look like an authentic, professionally photographed international fashion campaign—not a generic AI template, digital illustration, or ordinary photo collage.",
+      "category": "电商视觉",
+      "commerceType": "广告海报",
+      "useCase": "广告海报",
+      "tags": [
+        "时装",
+        "杂志广告",
+        "街拍"
+      ],
+      "model": "GPT Image 2.6",
+      "mediaType": "image",
+      "image": "https://pbs.twimg.com/media/HWqVu-HaUAEMpNQ?format=jpg&name=large",
+      "images": [
+        "https://pbs.twimg.com/media/HWqVu-HaUAEMpNQ?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HWqVvrqbUAAXj4E?format=jpg&name=large"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HWqVu-HaUAEMpNQ?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HWqVvrqbUAAXj4E?format=jpg&name=large"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "3:4",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/Goodmanprotocol/status/2119671234552008863",
+      "url": "https://x.com/Goodmanprotocol/status/2119671234552008863",
+      "domain": "x.com",
+      "creator": "Goodmanprotocol",
+      "date": "2026-11-10",
+      "timestamp": 1794276523098,
+      "collectedAt": "2026-11-10T02:08:43.098Z",
+      "githubSyncedAt": "2026-11-10T02:08:43.098Z"
+    },
+    {
+      "id": "x_2119818691022033288",
+      "title": "中古风居家商品场景",
+      "prompt": "保持原图人物姿态与自身服装款式，将整体画面转换为高端商业居家生活方式摄影风格。几何构图与视角：生活化微俯拍视角，强几何线条构图，重情绪互动的自然抓拍感。色彩与色温：5400K 清透纯净日光，拒绝脏黄偏色；同色系绿色延伸搭配暖色点缀，固定背景墙为奶油米白（#EFECE6），地面为抹茶绿（#6E8B4B）与深森绿（#2C4C28）高低绒棋盘格地毯，家具为深橄榄绿灯芯绒（#3A4F2D）、焦糖真皮（#8C4A27）与镀铬钢管（#D0D5D8），搭配胡桃木（#6E3B23）与鲜橙色（#E87A1E）小道具点缀；人物服装自然适配环境色调。材质与道具：“去广告化”叙事道具（画册、玻璃果饮、复古音响），表面质感鲜明细腻。光影与渲染：大窗柔和通透的伪自然漫射光，整片干净光影、无碎光，柔和侧向阴影；f/4 中景深保留极简几何背景，哈苏商业摄影级高通透度、精致S型对比度与丝滑影调。",
+      "category": "电商视觉",
+      "commerceType": "场景种草",
+      "useCase": "场景种草",
+      "tags": [
+        "家居",
+        "场景种草",
+        "风格替换"
+      ],
+      "model": "",
+      "mediaType": "image",
+      "image": "https://pbs.twimg.com/media/HWsb1pdbUAAKMJC?format=jpg&name=large",
+      "images": [
+        "https://pbs.twimg.com/media/HWsb1pdbUAAKMJC?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HWsb2HibwAEj07f?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HWsb2pWbMAAgeFM?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HWsb3FcawAI2Kbw?format=jpg&name=large"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HWsb1pdbUAAKMJC?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HWsb2HibwAEj07f?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HWsb2pWbMAAgeFM?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HWsb3FcawAI2Kbw?format=jpg&name=large"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "3:4",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/iminhui119530/status/2119818691022033288",
+      "url": "https://x.com/iminhui119530/status/2119818691022033288",
+      "domain": "x.com",
+      "creator": "iminhui119530",
+      "date": "2026-11-10",
+      "timestamp": 1794276523098,
+      "collectedAt": "2026-11-10T02:08:43.098Z",
+      "githubSyncedAt": "2026-11-10T02:08:43.098Z"
+    },
+    {
+      "id": "x_2119838679376011389",
+      "title": "字母象形一体化字标",
+      "prompt": "2x2 grid, 16:9, do this for 4 tech topics that were hot button issues this week: Hybrid Style 1 = {\n<living_letter_wordmark>\n\nCORE IDEA:\nTransform the subject into one integral letter of a short bold wordmark, so the image and typography become a single inseparable symbol.\n\nMEDIUM:\nMinimalist logo design × pictogram × typographic optical illusion.\n\nBACKGROUND:\nPure white or warm off-white.\n\nCOLOR:\nNearly pure black.\nOptional tiny white negative-space details only.\n\nTYPOGRAPHY:\nThick rounded sans-serif.\nSoft terminals.\nHeavy geometric strokes.\nFriendly but highly simplified.\nNo decorative lettering.\nSUBJECT_INTEGRATION:\nInfer the most recognizable silhouette, gesture, feature, or contour of the subject and use it to replace part or all of one letter.\n\n</living_letter_wordmark>\n\n<transformation>\n- Infer one concise word strongly associated with the subject.\nPreserve that word’s readability first.\nIdentify the letter whose anatomy most naturally resembles the subject.\nTransform that letter into a simplified subject silhouette without breaking the overall typographic rhythm.\nConvert the subject into a single continuous black mass wherever possible.\nUse only the minimum internal details needed for recognition:\neyes,\nears,\nhorns,\nwindows,\nwheels,\nleaves,\nhandles,\nfins,\nwings,\nor another defining feature inferred from the subject.\nLet negative space create secondary details instead of drawing them explicitly.\nUse adjoining letters to complete the illusion when useful:\na neighboring counter may become an eye,\na terminal may become a tail,\na stem may become a limb,\na bowl may become a body,\na crossbar may become an object held by the subject.\nKeep the transformation clever but immediate: the viewer should read the word first and discover the subject almost simultaneously.\n</transformation>\n\n<design_rules>\nOne visual joke only.\nOne transformed letter is usually stronger than transforming every letter.\nMaintain consistent stroke weight.\nSubject silhouette must feel native to the typeface.\nAvoid detached illustrations.\nAvoid unnecessary facial detail.\nKeep the entire mark readable at icon size.\n</design_rules>\n<finish>\n- Ultra-minimal conceptual wordmark.\n- Cute, clever, iconic, and memorable.\n- Feels like a logo discovered rather than decorated.\n</finish>\n\n<avoid>\n- Avoid gradients.\n- Avoid shadows.\n- Avoid outlines around black shapes.\n- Avoid color unless specifically requested.\n- Avoid detailed illustration.\n- Avoid placing the subject beside the word.\n- Avoid forcing symbolism into every letter.\n}",
+      "category": "电商视觉",
+      "commerceType": "品牌视觉",
+      "useCase": "品牌视觉",
+      "tags": [
+        "Logo",
+        "字体设计",
+        "品牌视觉"
+      ],
+      "model": "",
+      "mediaType": "image",
+      "image": "https://pbs.twimg.com/media/HWfnJfaXkAAOCW7?format=jpg&name=large",
+      "images": [
+        "https://pbs.twimg.com/media/HWfnJfaXkAAOCW7?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HWfnudcWMAAFFNi?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HWfnxmnWQAAxPOe?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HWfobQqWgAAQiqj?format=jpg&name=large"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HWfnJfaXkAAOCW7?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HWfnudcWMAAFFNi?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HWfnxmnWQAAxPOe?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HWfobQqWgAAQiqj?format=jpg&name=large"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "16:9",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/Gdgtify/status/2119838679376011389",
+      "url": "https://x.com/Gdgtify/status/2119838679376011389",
+      "domain": "x.com",
+      "creator": "Gdgtify",
+      "date": "2026-11-10",
+      "timestamp": 1794276523098,
+      "collectedAt": "2026-11-10T02:08:43.098Z",
+      "githubSyncedAt": "2026-11-10T02:08:43.098Z"
+    },
+    {
+      "id": "x_2119651481473192355",
+      "title": "掌心迷你陶瓷茶具挂件",
+      "prompt": "Create an image with the following visual system. Replace the subject as specified.\n\nVisual system (light, color, composition, medium, mood):\n一张竖幅约 4:5 的手作陶瓷小挂件实拍：一只摊开的手掌从左下斜伸入画面，掌心朝上占画面中下大半，掌心和几根手指上松散摆着十几枚可整体替换的迷你釉彩陶瓷挂件，每枚约指甲盖大小，顶端带一枚细小金色挂环，彼此互不重叠、疏密自然，指缝间留一点空隙。机位约 45 度俯拍略斜，焦点落在掌心中央那几枚挂件上，边缘挂件和背景轻微虚化。背景是一张摊开的奶油米色素纸或浅木桌面，只作浅底，不出现任何可读文字；一角可放一片干枯落叶做前景点缀。光线是窗边柔和侧光，从右上进入，色温偏暖，每枚挂件釉面有小而柔的高光点，挂件在掌心投下浅暖灰的短阴影，不要硬闪光。材质：手捏陶瓷小坯体，表面厚涂玻璃釉，手绘小斑点、细线条和金边描边，轮廓略不规整，看得出手作痕迹，拒绝塑料、树脂或 3D 渲染感；手掌皮肤纹理真实自然。配色：暖肤色与奶油纸底占大面，挂件以珊瑚橘、奶白、焦糖棕、芥末黄为主，少量金色点缀。画面无品牌、无商标、无水印、无可读文字。温暖、手作、像工作室里刚把一把新烧好的小挂件倒在手上拍一张。\n\nNew subject:\n迷你茶杯挂件：十几枚迷你茶杯、带盖小茶壶、小茶碟和一只小糖罐，釉色在奶白、薄荷绿、珊瑚粉之间轮换，杯沿和壶嘴描一圈细金线，几只杯子里有一小汪琥珀色茶釉，杯身手绘小圆点或小碎花。每枚顶端有小金环。画面中没有文字。",
+      "category": "电商视觉",
+      "commerceType": "产品主图",
+      "useCase": "产品主图",
+      "tags": [
+        "陶瓷",
+        "手作",
+        "产品摄影"
+      ],
+      "model": "GPT Image 2.5",
+      "mediaType": "image",
+      "image": "https://pbs.twimg.com/media/HWqDmShXcAAq2cK?format=jpg&name=large",
+      "images": [
+        "https://pbs.twimg.com/media/HWqDmShXcAAq2cK?format=jpg&name=large"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HWqDmShXcAAq2cK?format=jpg&name=large"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "4:5",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/static_stare/status/2119651481473192355",
+      "url": "https://x.com/static_stare/status/2119651481473192355",
+      "domain": "x.com",
+      "creator": "static_stare",
+      "date": "2026-11-10",
+      "timestamp": 1794276523098,
+      "collectedAt": "2026-11-10T02:08:43.098Z",
+      "githubSyncedAt": "2026-11-10T02:08:43.098Z"
+    },
+    {
+      "id": "x_2119448198091768033",
+      "title": "礼盒式鲜果堆顶海报",
+      "prompt": "围绕任意主题对象生成商品海报视觉，整体保持礼盒式中轴陈列：上方留出深而干净的主题色空场，中上部放精细标题锁定，画面下半部让主题对象成为低矮圆润的承载体，顶面被主题派生的鲜亮小元素密集插入、半露、重叠和切开，形成丰盛堆顶，外圈保留连续厚实的环形边缘与细密绒面或主题材质纹理，底部用极小副标题收束。色彩由主题推导，但遵循深背景、亮主体、暖浅金文字、少量高亮点缀的角色关系：背景占最大视觉重量，纯净饱和且由上到下有细微明度漂移；主体与背景同属一个情绪色系但更明亮、更有材质颗粒；顶部附着物保持湿润高光、清晰边缘和可触摸的切面，少量浅色块制造甜润间隔。光线从左前方柔和压下，主体正面清楚、右侧和底部阴影更厚，台面有低反射和轻微倒影，空间不堆杂物，只用色场托住产品。标题使用细长高对比笔画，字距宽松，横竖线条像金属箔或烫金印刷浮在深色上，局部笔画可被主题小图标或圆点替换，但不破坏阅读；顶部弧形小字和中心小符号制造礼品感，底部双语式细字与左右细线装饰保持低声量。保持干净广告摄影质感，边缘锐利、纹理清楚、没有纸张做旧和杂乱背景，失败症状是主体不够丰盛、字太粗、背景变脏或颜色关系散开。",
+      "category": "电商视觉",
+      "commerceType": "广告海报",
+      "useCase": "广告海报",
+      "tags": [
+        "产品海报",
+        "礼盒",
+        "电商视觉"
+      ],
+      "model": "GPT Image 2",
+      "mediaType": "image",
+      "image": "https://pbs.twimg.com/media/HWnKMUpasAAL_Z6?format=jpg&name=large",
+      "images": [
+        "https://pbs.twimg.com/media/HWnKMUpasAAL_Z6?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HWnKMtea4AACwSc?format=jpg&name=large"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HWnKMUpasAAL_Z6?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HWnKMtea4AACwSc?format=jpg&name=large"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "3:4",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/xiaoxiaodong/status/2119448198091768033",
+      "url": "https://x.com/xiaoxiaodong/status/2119448198091768033",
+      "domain": "x.com",
+      "creator": "xiaoxiaodong",
+      "date": "2026-11-10",
+      "timestamp": 1794276523098,
+      "collectedAt": "2026-11-10T02:08:43.098Z",
+      "githubSyncedAt": "2026-11-10T02:08:43.098Z"
+    },
+    {
+      "id": "apimodels_gpt_image_2_poster-739",
+      "title": "周二塔可特惠",
+      "prompt": "A vibrant restaurant menu-special flyer for 'Casa Verde Cantina.' A hand-drawn illustration of three loaded street tacos with lime wedges and cilantro on a warm terracotta background with painted folk-art borders. Bold festive display type reads 'TACO TUESDAY — $2 EACH.' A chalk panel lists 'al pastor · carnitas · grilled veggie · 5–9pm.' A sombrero-shaped badge notes 'margaritas half off.' Palette of terracotta, lime green, marigold, chili red. Lively, appetizing, festive Latin-eatery energy.",
+      "promptZh": "活力四射的餐厅菜品特惠传单,为「Casa Verde Cantina」而作。暖赤陶背景上一幅手绘插画:三个配青柠角与香菜的丰盛街头塔可,配民俗艺术彩绘边框。醒目喜庆展示字写着「TACO TUESDAY — $2 EACH」。一块黑板面板列出「al pastor · carnitas · grilled veggie · 5–9pm」。一枚草帽形徽章注明「margaritas half off」。配色为赤陶、青柠绿、万寿菊、辣椒红。热闹、诱人、喜庆的拉美餐馆能量。",
+      "category": "电商视觉",
+      "commerceType": "广告海报",
+      "tags": [
+        "电商视觉",
+        "GPT Image 2",
+        "广告海报",
+        "restaurant",
+        "menu",
+        "mexican"
+      ],
+      "model": "GPT Image 2",
+      "mediaType": "image",
+      "image": "https://r2.apimodels.app/assets/prompt-gallery/1785128959743_poster-739.png",
+      "images": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785128959743_poster-739.png"
+      ],
+      "rawImages": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785128959743_poster-739.png"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "3:4",
+      "source": "apimodels/gpt-image-2-prompts",
+      "sourceUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#poster-739",
+      "url": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#poster-739",
+      "archiveUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json",
+      "sourceRepository": "apimodels/gpt-image-2-prompts",
+      "license": "CC BY 4.0",
+      "sourceLicenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "attribution": "API Models (apimodels.app)",
+      "domain": "github.com",
+      "externalId": "poster-739",
+      "collectionOrigin": "commerce-public-sources",
+      "date": "2026-11-10",
+      "timestamp": 1794276523098,
+      "collectedAt": "2026-11-10T02:08:43.098Z",
+      "githubSyncedAt": "2026-11-10T02:08:43.098Z"
+    },
+    {
+      "id": "apimodels_gpt_image_2_poster-740",
+      "title": "寿司欢乐时光",
+      "prompt": "A sleek restaurant menu-special flyer for 'Sakura Nine Sushi.' A minimalist dark slate background with an elegant illustration of a nigiri set and a single pink cherry blossom branch. Refined thin sans reads 'HAPPY HOUR — 4 TO 6PM.' A clean list shows 'select rolls $6 · sake flight $12 · edamame free.' A brush-stroke badge notes 'weekdays only.' Palette of slate black, salmon pink, seaweed green, gold. Elegant, minimal, upscale-Japanese refinement.",
+      "promptZh": "时尚的餐厅菜品特惠传单,为「Sakura Nine Sushi」而作。极简深石板背景上一幅优雅插画:一套握寿司与一枝粉樱。考究纤细无衬线写着「HAPPY HOUR — 4 TO 6PM」。干净列表显示「select rolls $6 · sake flight $12 · edamame free」。一枚笔触徽章注明「weekdays only」。配色为石板黑、三文鱼粉、海苔绿、金。优雅、极简、高端日式的精致。",
+      "category": "电商视觉",
+      "commerceType": "广告海报",
+      "tags": [
+        "电商视觉",
+        "GPT Image 2",
+        "广告海报",
+        "restaurant",
+        "menu",
+        "sushi"
+      ],
+      "model": "GPT Image 2",
+      "mediaType": "image",
+      "image": "https://r2.apimodels.app/assets/prompt-gallery/1785128947249_poster-740.png",
+      "images": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785128947249_poster-740.png"
+      ],
+      "rawImages": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785128947249_poster-740.png"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "3:4",
+      "source": "apimodels/gpt-image-2-prompts",
+      "sourceUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#poster-740",
+      "url": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#poster-740",
+      "archiveUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json",
+      "sourceRepository": "apimodels/gpt-image-2-prompts",
+      "license": "CC BY 4.0",
+      "sourceLicenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "attribution": "API Models (apimodels.app)",
+      "domain": "github.com",
+      "externalId": "poster-740",
+      "collectionOrigin": "commerce-public-sources",
+      "date": "2026-11-10",
+      "timestamp": 1794276523098,
+      "collectedAt": "2026-11-10T02:08:43.098Z",
+      "githubSyncedAt": "2026-11-10T02:08:43.098Z"
+    },
+    {
+      "id": "apimodels_gpt_image_2_poster-741",
+      "title": "披萨家庭套餐",
+      "prompt": "A fun restaurant menu-special flyer for 'Nonna's Wood-Fired Pizza.' A mouthwatering top-down illustration of a bubbling margherita pizza with fresh basil on a checkered red-and-white tablecloth. Chunky retro script reads 'FAMILY NIGHT DEAL.' A bright starburst shouts 'LARGE PIZZA + 2 SIDES — $24.99.' A small list notes 'garlic knots · house salad · every Wednesday.' Palette of tomato red, cream, basil green, mozzarella white. Warm, hearty, family-pizzeria comfort.",
+      "promptZh": "有趣的餐厅菜品特惠传单,为「Nonna's Wood-Fired Pizza」而作。红白格子桌布上一幅诱人俯拍插画:冒着热气、点缀新鲜罗勒的玛格丽特披萨。粗壮复古手写体写着「FAMILY NIGHT DEAL」。一个亮星爆高喊「LARGE PIZZA + 2 SIDES — $24.99」。小列表注明「garlic knots · house salad · every Wednesday」。配色为番茄红、奶油、罗勒绿、马苏里拉白。温暖、丰盛、家庭披萨店的慰藉。",
+      "category": "电商视觉",
+      "commerceType": "广告海报",
+      "tags": [
+        "电商视觉",
+        "GPT Image 2",
+        "广告海报",
+        "restaurant",
+        "menu",
+        "pizza"
+      ],
+      "model": "GPT Image 2",
+      "mediaType": "image",
+      "image": "https://r2.apimodels.app/assets/prompt-gallery/1785128974451_poster-741.png",
+      "images": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785128974451_poster-741.png"
+      ],
+      "rawImages": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785128974451_poster-741.png"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "3:4",
+      "source": "apimodels/gpt-image-2-prompts",
+      "sourceUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#poster-741",
+      "url": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#poster-741",
+      "archiveUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json",
+      "sourceRepository": "apimodels/gpt-image-2-prompts",
+      "license": "CC BY 4.0",
+      "sourceLicenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "attribution": "API Models (apimodels.app)",
+      "domain": "github.com",
+      "externalId": "poster-741",
+      "collectionOrigin": "commerce-public-sources",
+      "date": "2026-11-10",
+      "timestamp": 1794276523098,
+      "collectedAt": "2026-11-10T02:08:43.098Z",
+      "githubSyncedAt": "2026-11-10T02:08:43.098Z"
+    },
+    {
+      "id": "apimodels_gpt_image_2_poster-742",
+      "title": "早午餐菜单海报",
+      "prompt": "A charming restaurant brunch-special flyer for 'The Copper Spoon.' A soft watercolor illustration of pancakes with berries, a poached egg on toast, and a latte on a pastel peach background. Elegant handwritten script reads 'WEEKEND BRUNCH.' A tidy menu lists 'buttermilk stack $9 · avocado toast $11 · bottomless mimosas $15 · Sat & Sun 9–2.' A small sprig badge decorates the corner. Palette of peach, sage, cream, soft gold. Cozy, delightful, artisan-cafe brunch charm.",
+      "promptZh": "迷人的餐厅早午餐特惠传单,为「The Copper Spoon」而作。淡粉桃背景上一幅柔和水彩插画:配莓果的松饼、吐司上的水波蛋、一杯拿铁。优雅手写体写着「WEEKEND BRUNCH」。整齐菜单列出「buttermilk stack $9 · avocado toast $11 · bottomless mimosas $15 · Sat & Sun 9–2」。一枚小枝叶徽章点缀角落。配色为桃、鼠尾草、奶油、柔金。温馨、愉悦、手作咖啡馆的早午餐魅力。",
+      "category": "电商视觉",
+      "commerceType": "广告海报",
+      "tags": [
+        "电商视觉",
+        "GPT Image 2",
+        "广告海报",
+        "restaurant",
+        "menu",
+        "brunch"
+      ],
+      "model": "GPT Image 2",
+      "mediaType": "image",
+      "image": "https://r2.apimodels.app/assets/prompt-gallery/1785128969263_poster-742.png",
+      "images": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785128969263_poster-742.png"
+      ],
+      "rawImages": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785128969263_poster-742.png"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "3:4",
+      "source": "apimodels/gpt-image-2-prompts",
+      "sourceUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#poster-742",
+      "url": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#poster-742",
+      "archiveUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json",
+      "sourceRepository": "apimodels/gpt-image-2-prompts",
+      "license": "CC BY 4.0",
+      "sourceLicenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "attribution": "API Models (apimodels.app)",
+      "domain": "github.com",
+      "externalId": "poster-742",
+      "collectionOrigin": "commerce-public-sources",
+      "date": "2026-11-10",
+      "timestamp": 1794276523098,
+      "collectedAt": "2026-11-10T02:08:43.098Z",
+      "githubSyncedAt": "2026-11-10T02:08:43.098Z"
+    },
+    {
+      "id": "apimodels_gpt_image_2_poster-743",
+      "title": "汉堡套餐狂欢",
+      "prompt": "A bold restaurant menu-special flyer for 'Grind House Burgers.' A juicy illustrated double cheeseburger with dripping cheese and crispy fries on a gritty dark background with halftone accents. Heavy impact type shouts 'BURGER COMBO BLOWOUT.' A price flash reads 'DOUBLE + FRIES + SHAKE — $12.' A ticket badge notes 'daily till 10pm.' Palette of charcoal, mustard yellow, ketchup red, cream. Loud, craveable, gritty street-food energy.",
+      "promptZh": "醒目的餐厅菜品特惠传单,为「Grind House Burgers」而作。粗粝深色背景配半调点缀,一幅多汁插画:流淌芝士的双层芝士汉堡与酥脆薯条。厚重冲击字高喊「BURGER COMBO BLOWOUT」。一个价格闪标写着「DOUBLE + FRIES + SHAKE — $12」。一枚票券徽章注明「daily till 10pm」。配色为炭黑、芥末黄、番茄酱红、奶油。喧闹、令人垂涎、粗粝的街头美食能量。",
+      "category": "电商视觉",
+      "commerceType": "广告海报",
+      "tags": [
+        "电商视觉",
+        "GPT Image 2",
+        "广告海报",
+        "restaurant",
+        "menu",
+        "burger"
+      ],
+      "model": "GPT Image 2",
+      "mediaType": "image",
+      "image": "https://r2.apimodels.app/assets/prompt-gallery/1785128979342_poster-743.png",
+      "images": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785128979342_poster-743.png"
+      ],
+      "rawImages": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785128979342_poster-743.png"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "3:4",
+      "source": "apimodels/gpt-image-2-prompts",
+      "sourceUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#poster-743",
+      "url": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#poster-743",
+      "archiveUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json",
+      "sourceRepository": "apimodels/gpt-image-2-prompts",
+      "license": "CC BY 4.0",
+      "sourceLicenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "attribution": "API Models (apimodels.app)",
+      "domain": "github.com",
+      "externalId": "poster-743",
+      "collectionOrigin": "commerce-public-sources",
+      "date": "2026-11-10",
+      "timestamp": 1794276523098,
+      "collectedAt": "2026-11-10T02:08:43.098Z",
+      "githubSyncedAt": "2026-11-10T02:08:43.098Z"
+    },
+    {
+      "id": "apimodels_gpt_image_2_poster-744",
+      "title": "拉面之夜特惠",
+      "prompt": "An atmospheric restaurant menu-special flyer for 'Midnight Bowl Ramen.' A steamy illustration of a rich tonkotsu ramen bowl with soft egg, nori, and scallions, rising steam curling upward against a deep indigo background with red lantern glow. Bold brush-style caps read 'RAMEN NIGHT.' A list shows 'signature bowl $11 · gyoza $5 · Fri & Sat till late.' A lantern badge glows in the corner. Palette of indigo, lantern red, warm cream, gold. Moody, comforting, late-night noodle-bar vibe.",
+      "promptZh": "氛围感十足的餐厅菜品特惠传单,为「Midnight Bowl Ramen」而作。深靛蓝背景配红灯笼光晕,一幅热气腾腾的插画:浓郁豚骨拉面配溏心蛋、海苔、葱花,蒸汽向上卷起。醒目毛笔风大写字写着「RAMEN NIGHT」。列表显示「signature bowl $11 · gyoza $5 · Fri & Sat till late」。一枚灯笼徽章在角落发光。配色为靛蓝、灯笼红、暖奶油、金。氛围感、慰藉、深夜面馆的调性。",
+      "category": "电商视觉",
+      "commerceType": "广告海报",
+      "tags": [
+        "电商视觉",
+        "GPT Image 2",
+        "广告海报",
+        "restaurant",
+        "menu",
+        "ramen"
+      ],
+      "model": "GPT Image 2",
+      "mediaType": "image",
+      "image": "https://r2.apimodels.app/assets/prompt-gallery/1785128982981_poster-744.png",
+      "images": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785128982981_poster-744.png"
+      ],
+      "rawImages": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785128982981_poster-744.png"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "3:4",
+      "source": "apimodels/gpt-image-2-prompts",
+      "sourceUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#poster-744",
+      "url": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#poster-744",
+      "archiveUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json",
+      "sourceRepository": "apimodels/gpt-image-2-prompts",
+      "license": "CC BY 4.0",
+      "sourceLicenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "attribution": "API Models (apimodels.app)",
+      "domain": "github.com",
+      "externalId": "poster-744",
+      "collectionOrigin": "commerce-public-sources",
+      "date": "2026-11-10",
+      "timestamp": 1794276523098,
+      "collectedAt": "2026-11-10T02:08:43.098Z",
+      "githubSyncedAt": "2026-11-10T02:08:43.098Z"
+    },
+    {
+      "id": "apimodels_gpt_image_2_poster-745",
+      "title": "海鲜盛宴",
+      "prompt": "A festive restaurant menu-special flyer for 'Bayou Shell Shack.' A vibrant illustration of a Cajun seafood boil — crab, shrimp, corn, and sausage spilled on newspaper — on a rustic wood background. Bold cajun-style display type reads 'SEAFOOD BOIL FRIDAYS.' A pot-shaped badge shouts 'ALL YOU CAN EAT — $29.' A list notes 'crab · shrimp · crawfish · Fri 5–10pm.' Palette of boil red, corn yellow, rustic brown, sea green. Hearty, festive, southern-comfort feast energy.",
+      "promptZh": "喜庆的餐厅菜品特惠传单,为「Bayou Shell Shack」而作。质朴木背景上一幅活力插画:卡真海鲜煮——蟹、虾、玉米、香肠散铺在报纸上。醒目卡真风格展示字写着「SEAFOOD BOIL FRIDAYS」。一枚锅形徽章高喊「ALL YOU CAN EAT — $29」。列表注明「crab · shrimp · crawfish · Fri 5–10pm」。配色为水煮红、玉米黄、质朴棕、海绿。丰盛、喜庆、南方慰藉盛宴的能量。",
+      "category": "电商视觉",
+      "commerceType": "广告海报",
+      "tags": [
+        "电商视觉",
+        "GPT Image 2",
+        "广告海报",
+        "restaurant",
+        "menu",
+        "seafood"
+      ],
+      "model": "GPT Image 2",
+      "mediaType": "image",
+      "image": "https://r2.apimodels.app/assets/prompt-gallery/1785128987100_poster-745.png",
+      "images": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785128987100_poster-745.png"
+      ],
+      "rawImages": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785128987100_poster-745.png"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "3:4",
+      "source": "apimodels/gpt-image-2-prompts",
+      "sourceUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#poster-745",
+      "url": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#poster-745",
+      "archiveUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json",
+      "sourceRepository": "apimodels/gpt-image-2-prompts",
+      "license": "CC BY 4.0",
+      "sourceLicenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "attribution": "API Models (apimodels.app)",
+      "domain": "github.com",
+      "externalId": "poster-745",
+      "collectionOrigin": "commerce-public-sources",
+      "date": "2026-11-10",
+      "timestamp": 1794276523098,
+      "collectedAt": "2026-11-10T02:08:43.098Z",
+      "githubSyncedAt": "2026-11-10T02:08:43.098Z"
+    },
+    {
+      "id": "apimodels_gpt_image_2_poster-746",
+      "title": "甜品吧特惠",
+      "prompt": "A sweet restaurant menu-special flyer for 'Velvet & Sugar Dessert Bar.' A delicate illustration of a tiered cake, macarons, and a swirl of gelato on a soft pastel-pink background with gold flecks. Elegant flowing script reads 'SWEET HOUR.' A dainty list shows 'macaron trio $6 · lava cake $8 · gelato scoop $4 · daily 2–5pm.' A tiny bow badge decorates the corner. Palette of pastel pink, mint, cream, champagne gold. Dainty, indulgent, boutique-patisserie sweetness.",
+      "promptZh": "甜蜜的餐厅菜品特惠传单,为「Velvet & Sugar Dessert Bar」而作。柔粉彩背景带金箔点,一幅精致插画:多层蛋糕、马卡龙、一卷意式冰淇淋。优雅流畅手写体写着「SWEET HOUR」。精致列表显示「macaron trio $6 · lava cake $8 · gelato scoop $4 · daily 2–5pm」。一枚小蝴蝶结徽章点缀角落。配色为粉彩粉、薄荷、奶油、香槟金。精致、纵享、精品甜点店的甜美。",
+      "category": "电商视觉",
+      "commerceType": "广告海报",
+      "tags": [
+        "电商视觉",
+        "GPT Image 2",
+        "广告海报",
+        "restaurant",
+        "menu",
+        "dessert"
+      ],
+      "model": "GPT Image 2",
+      "mediaType": "image",
+      "image": "https://r2.apimodels.app/assets/prompt-gallery/1785128989565_poster-746.png",
+      "images": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785128989565_poster-746.png"
+      ],
+      "rawImages": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785128989565_poster-746.png"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "3:4",
+      "source": "apimodels/gpt-image-2-prompts",
+      "sourceUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#poster-746",
+      "url": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#poster-746",
+      "archiveUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json",
+      "sourceRepository": "apimodels/gpt-image-2-prompts",
+      "license": "CC BY 4.0",
+      "sourceLicenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "attribution": "API Models (apimodels.app)",
+      "domain": "github.com",
+      "externalId": "poster-746",
+      "collectionOrigin": "commerce-public-sources",
+      "date": "2026-11-10",
+      "timestamp": 1794276523098,
+      "collectedAt": "2026-11-10T02:08:43.098Z",
+      "githubSyncedAt": "2026-11-10T02:08:43.098Z"
+    },
+    {
+      "id": "apimodels_gpt_image_2_poster-747",
+      "title": "咖喱屋午市",
+      "prompt": "A warm restaurant lunch-special flyer for 'Golden Turmeric Curry House.' A rich illustration of a thali platter — curry, rice, naan, and chutneys — with warm spice-toned patterns bordering a deep saffron background. Ornate display type reads 'LUNCH THALI SPECIAL.' A mandala badge shows '$10 — WEEKDAYS 11–3.' A list notes 'butter chicken · dal · veg curry · fresh naan.' Palette of saffron, deep red, turmeric gold, cream. Warm, aromatic, richly-spiced South-Asian appeal.",
+      "promptZh": "温暖的餐厅午市特惠传单,为「Golden Turmeric Curry House」而作。深藏红花背景配暖香料色调纹样边框,一幅丰盛插画:塔利拼盘——咖喱、米饭、印度飞饼、酸辣酱。华丽展示字写着「LUNCH THALI SPECIAL」。一枚曼陀罗徽章显示「$10 — WEEKDAYS 11–3」。列表注明「butter chicken · dal · veg curry · fresh naan」。配色为藏红花、深红、姜黄金、奶油。温暖、芳香、浓郁香料的南亚风情。",
+      "category": "电商视觉",
+      "commerceType": "广告海报",
+      "tags": [
+        "电商视觉",
+        "GPT Image 2",
+        "广告海报",
+        "restaurant",
+        "menu",
+        "curry"
+      ],
+      "model": "GPT Image 2",
+      "mediaType": "image",
+      "image": "https://r2.apimodels.app/assets/prompt-gallery/1785129004315_poster-747.png",
+      "images": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785129004315_poster-747.png"
+      ],
+      "rawImages": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785129004315_poster-747.png"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "3:4",
+      "source": "apimodels/gpt-image-2-prompts",
+      "sourceUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#poster-747",
+      "url": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#poster-747",
+      "archiveUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json",
+      "sourceRepository": "apimodels/gpt-image-2-prompts",
+      "license": "CC BY 4.0",
+      "sourceLicenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "attribution": "API Models (apimodels.app)",
+      "domain": "github.com",
+      "externalId": "poster-747",
+      "collectionOrigin": "commerce-public-sources",
+      "date": "2026-11-10",
+      "timestamp": 1794276523098,
+      "collectedAt": "2026-11-10T02:08:43.098Z",
+      "githubSyncedAt": "2026-11-10T02:08:43.098Z"
+    },
+    {
+      "id": "apimodels_gpt_image_2_poster-748",
+      "title": "咖啡糕点套餐",
+      "prompt": "A cozy cafe menu-special flyer for 'The Daily Grind Cafe.' A warm hand-drawn illustration of a flat white with latte art and a flaky croissant on a rustic kraft-paper background. Friendly chalkboard lettering reads 'MORNING COMBO.' A stamp badge shows 'COFFEE + CROISSANT — $6.' A tidy note lists 'every morning till 11am · add pastry $2.' A small coffee-bean border frames the edge. Palette of kraft brown, cream, muted teal, espresso. Cozy, wholesome, neighborhood-cafe warmth.",
+      "promptZh": "温馨的咖啡馆菜品特惠传单,为「The Daily Grind Cafe」而作。质朴牛皮纸背景上一幅温暖手绘插画:带拉花的馥芮白与酥脆牛角包。友好黑板字写着「MORNING COMBO」。一枚印章徽章显示「COFFEE + CROISSANT — $6」。整齐提示列出「every morning till 11am · add pastry $2」。一圈小咖啡豆边框环绕。配色为牛皮棕、奶油、柔青、浓缩咖啡。温馨、健康、街坊咖啡馆的暖意。",
+      "category": "电商视觉",
+      "commerceType": "广告海报",
+      "tags": [
+        "电商视觉",
+        "GPT Image 2",
+        "广告海报",
+        "restaurant",
+        "menu",
+        "cafe"
+      ],
+      "model": "GPT Image 2",
+      "mediaType": "image",
+      "image": "https://r2.apimodels.app/assets/prompt-gallery/1785129004812_poster-748.png",
+      "images": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785129004812_poster-748.png"
+      ],
+      "rawImages": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785129004812_poster-748.png"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "3:4",
+      "source": "apimodels/gpt-image-2-prompts",
+      "sourceUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#poster-748",
+      "url": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#poster-748",
+      "archiveUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json",
+      "sourceRepository": "apimodels/gpt-image-2-prompts",
+      "license": "CC BY 4.0",
+      "sourceLicenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "attribution": "API Models (apimodels.app)",
+      "domain": "github.com",
+      "externalId": "poster-748",
+      "collectionOrigin": "commerce-public-sources",
+      "date": "2026-11-10",
+      "timestamp": 1794276523098,
+      "collectedAt": "2026-11-10T02:08:43.098Z",
+      "githubSyncedAt": "2026-11-10T02:08:43.098Z"
+    },
+    {
+      "id": "apimodels_gpt_image_2_poster-729",
+      "title": "现代开放看房",
+      "prompt": "A clean real-estate open-house flyer for a modern property. A bright photo-style render of a sleek two-story house with large glass windows and a manicured lawn at golden hour. Elegant sans headline reads 'OPEN HOUSE — SATURDAY 1–4PM'; a slim info bar lists '4 Bed · 3 Bath · 2,400 sq ft · $685,000.' A gold banner names the agent 'Priya Malhotra, Crestline Realty.' Palette of warm white, sage green, gold, charcoal. Polished, aspirational, upscale property marketing.",
+      "promptZh": "简洁的房地产开放看房传单,为一处现代住宅而作。一张明亮照片风格渲染图:金色时分,一栋带大玻璃窗与修剪草坪的时尚两层住宅。优雅无衬线主标题写着「OPEN HOUSE — SATURDAY 1–4PM」;一条纤细信息栏列出「4 Bed · 3 Bath · 2,400 sq ft · $685,000」。一条金色横幅标出经纪人「Priya Malhotra, Crestline Realty」。配色为暖白、鼠尾草绿、金、炭黑。精致、有抱负、高端的房产营销。",
+      "category": "电商视觉",
+      "commerceType": "广告海报",
+      "tags": [
+        "电商视觉",
+        "GPT Image 2",
+        "广告海报",
+        "real-estate",
+        "open-house",
+        "modern"
+      ],
+      "model": "GPT Image 2",
+      "mediaType": "image",
+      "image": "https://r2.apimodels.app/assets/prompt-gallery/1785128912196_poster-729.png",
+      "images": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785128912196_poster-729.png"
+      ],
+      "rawImages": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785128912196_poster-729.png"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "3:4",
+      "source": "apimodels/gpt-image-2-prompts",
+      "sourceUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#poster-729",
+      "url": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#poster-729",
+      "archiveUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json",
+      "sourceRepository": "apimodels/gpt-image-2-prompts",
+      "license": "CC BY 4.0",
+      "sourceLicenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "attribution": "API Models (apimodels.app)",
+      "domain": "github.com",
+      "externalId": "poster-729",
+      "collectionOrigin": "commerce-public-sources",
+      "date": "2026-11-10",
+      "timestamp": 1794276523098,
+      "collectedAt": "2026-11-10T02:08:43.098Z",
+      "githubSyncedAt": "2026-11-10T02:08:43.098Z"
+    },
+    {
+      "id": "apimodels_gpt_image_2_poster-730",
+      "title": "温馨小屋房源",
+      "prompt": "A warm real-estate open-house flyer for a charming cottage. A cozy render of a brick cottage with a red front door, flower boxes, and an autumn maple. Friendly rounded serif reads 'JUST LISTED — COME SEE IT SUNDAY.' A ribbon strip lists '3 Bed · 2 Bath · large garden · $429,000.' A round photo-badge names 'Daniel Ortiz, Hearthstone Homes.' Palette of warm brick red, cream, forest green, gold. Inviting, homey, heartfelt residential appeal.",
+      "promptZh": "温暖的房地产开放看房传单,为一栋迷人小屋而作。一张温馨渲染图:红色前门、花箱与秋日枫树的砖砌小屋。友好圆润衬线写着「JUST LISTED — COME SEE IT SUNDAY」。一条丝带列出「3 Bed · 2 Bath · large garden · $429,000」。一枚圆形照片徽章标出「Daniel Ortiz, Hearthstone Homes」。配色为暖砖红、奶油、森林绿、金。诱人、居家、真挚的住宅吸引力。",
+      "category": "电商视觉",
+      "commerceType": "广告海报",
+      "tags": [
+        "电商视觉",
+        "GPT Image 2",
+        "广告海报",
+        "real-estate",
+        "open-house",
+        "cottage"
+      ],
+      "model": "GPT Image 2",
+      "mediaType": "image",
+      "image": "https://r2.apimodels.app/assets/prompt-gallery/1785128914434_poster-730.png",
+      "images": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785128914434_poster-730.png"
+      ],
+      "rawImages": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785128914434_poster-730.png"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "3:4",
+      "source": "apimodels/gpt-image-2-prompts",
+      "sourceUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#poster-730",
+      "url": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#poster-730",
+      "archiveUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json",
+      "sourceRepository": "apimodels/gpt-image-2-prompts",
+      "license": "CC BY 4.0",
+      "sourceLicenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "attribution": "API Models (apimodels.app)",
+      "domain": "github.com",
+      "externalId": "poster-730",
+      "collectionOrigin": "commerce-public-sources",
+      "date": "2026-11-10",
+      "timestamp": 1794276523098,
+      "collectedAt": "2026-11-10T02:08:43.098Z",
+      "githubSyncedAt": "2026-11-10T02:08:43.098Z"
+    },
+    {
+      "id": "apimodels_gpt_image_2_poster-731",
+      "title": "豪华公寓传单",
+      "prompt": "A sophisticated luxury-condo open-house flyer. A dramatic dusk render of a glass high-rise skyline with warm interior lights glowing, viewed across a reflecting pool. Refined thin serif reads 'PRIVATE VIEWING — BY APPOINTMENT.' A minimal gold-line divider precedes '2 Bed Penthouse · floor-to-ceiling views · $1.2M.' A subtle monogram names 'The Aurelian Residences.' Palette of midnight blue, warm gold, charcoal, ivory. Elegant, exclusive, premium real-estate luxury.",
+      "promptZh": "精致的豪华公寓开放看房传单。一张戏剧性黄昏渲染图:玻璃高层天际线,暖色室内灯光透亮,越过一池倒影望去。考究纤细衬线写着「PRIVATE VIEWING — BY APPOINTMENT」。一条极简金线分隔符引出「2 Bed Penthouse · floor-to-ceiling views · $1.2M」。一枚含蓄花押标出「The Aurelian Residences」。配色为午夜蓝、暖金、炭黑、象牙。优雅、专属、顶级的房产奢华。",
+      "category": "电商视觉",
+      "commerceType": "广告海报",
+      "tags": [
+        "电商视觉",
+        "GPT Image 2",
+        "广告海报",
+        "real-estate",
+        "open-house",
+        "luxury"
+      ],
+      "model": "GPT Image 2",
+      "mediaType": "image",
+      "image": "https://r2.apimodels.app/assets/prompt-gallery/1785128938174_poster-731.png",
+      "images": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785128938174_poster-731.png"
+      ],
+      "rawImages": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785128938174_poster-731.png"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "3:4",
+      "source": "apimodels/gpt-image-2-prompts",
+      "sourceUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#poster-731",
+      "url": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#poster-731",
+      "archiveUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json",
+      "sourceRepository": "apimodels/gpt-image-2-prompts",
+      "license": "CC BY 4.0",
+      "sourceLicenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "attribution": "API Models (apimodels.app)",
+      "domain": "github.com",
+      "externalId": "poster-731",
+      "collectionOrigin": "commerce-public-sources",
+      "date": "2026-11-10",
+      "timestamp": 1794276523098,
+      "collectedAt": "2026-11-10T02:08:43.098Z",
+      "githubSyncedAt": "2026-11-10T02:08:43.098Z"
+    },
+    {
+      "id": "apimodels_gpt_image_2_poster-732",
+      "title": "郊区家庭住宅",
+      "prompt": "A bright, family-friendly open-house flyer for a suburban home. A cheerful daytime render of a two-car garage house with a swing set in the backyard and a blue sky. Approachable bold sans reads 'OPEN HOUSE THIS WEEKEND!' A clean spec strip lists '4 Bed · 2.5 Bath · great school district · $549,900.' A photo-circle names 'Karen Whitfield, Bluebird Realty.' Palette of sky blue, fresh green, warm white, sunny yellow. Wholesome, welcoming, family-oriented marketing.",
+      "promptZh": "明亮、亲家庭的开放看房传单,为一栋郊区住宅而作。一张欢快日间渲染图:带双车库的住宅、后院秋千架、蓝天。亲和的粗无衬线写着「OPEN HOUSE THIS WEEKEND!」。一条干净规格条列出「4 Bed · 2.5 Bath · great school district · $549,900」。一个照片圆圈标出「Karen Whitfield, Bluebird Realty」。配色为天蓝、清新绿、暖白、明黄。健康、亲切、面向家庭的营销。",
+      "category": "电商视觉",
+      "commerceType": "广告海报",
+      "tags": [
+        "电商视觉",
+        "GPT Image 2",
+        "广告海报",
+        "real-estate",
+        "open-house",
+        "family"
+      ],
+      "model": "GPT Image 2",
+      "mediaType": "image",
+      "image": "https://r2.apimodels.app/assets/prompt-gallery/1785128992314_poster-732.png",
+      "images": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785128992314_poster-732.png"
+      ],
+      "rawImages": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785128992314_poster-732.png"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "3:4",
+      "source": "apimodels/gpt-image-2-prompts",
+      "sourceUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#poster-732",
+      "url": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#poster-732",
+      "archiveUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json",
+      "sourceRepository": "apimodels/gpt-image-2-prompts",
+      "license": "CC BY 4.0",
+      "sourceLicenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "attribution": "API Models (apimodels.app)",
+      "domain": "github.com",
+      "externalId": "poster-732",
+      "collectionOrigin": "commerce-public-sources",
+      "date": "2026-11-10",
+      "timestamp": 1794276523098,
+      "collectedAt": "2026-11-10T02:08:43.098Z",
+      "githubSyncedAt": "2026-11-10T02:08:43.098Z"
+    },
+    {
+      "id": "apimodels_gpt_image_2_poster-733",
+      "title": "市中心阁楼",
+      "prompt": "A stylish open-house flyer for an urban loft. A moody render of an exposed-brick loft with tall industrial windows, polished concrete floors, and hanging Edison bulbs. Bold uppercase condensed type reads 'LOFT LIVING — OPEN FRIDAY 5–7PM.' A thin rule precedes 'open-plan · 1,100 sq ft · $410,000.' A stamp-style badge names 'Marcus Lin, Ironworks Property Group.' Palette of warm brick, charcoal, amber light, off-white. Trendy, industrial-chic, young-urban appeal.",
+      "promptZh": "时尚的开放看房传单,为一处城市阁楼而作。一张氛围感渲染图:裸砖阁楼、高工业窗、抛光混凝土地面、悬挂爱迪生灯泡。醒目大写窄字写着「LOFT LIVING — OPEN FRIDAY 5–7PM」。一条细线引出「open-plan · 1,100 sq ft · $410,000」。一枚印章风格徽章标出「Marcus Lin, Ironworks Property Group」。配色为暖砖、炭黑、琥珀光、米白。潮流、工业别致、年轻都市的吸引力。",
+      "category": "电商视觉",
+      "commerceType": "广告海报",
+      "tags": [
+        "电商视觉",
+        "GPT Image 2",
+        "广告海报",
+        "real-estate",
+        "open-house",
+        "loft"
+      ],
+      "model": "GPT Image 2",
+      "mediaType": "image",
+      "image": "https://r2.apimodels.app/assets/prompt-gallery/1785128966429_poster-733.png",
+      "images": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785128966429_poster-733.png"
+      ],
+      "rawImages": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785128966429_poster-733.png"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "3:4",
+      "source": "apimodels/gpt-image-2-prompts",
+      "sourceUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#poster-733",
+      "url": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#poster-733",
+      "archiveUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json",
+      "sourceRepository": "apimodels/gpt-image-2-prompts",
+      "license": "CC BY 4.0",
+      "sourceLicenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "attribution": "API Models (apimodels.app)",
+      "domain": "github.com",
+      "externalId": "poster-733",
+      "collectionOrigin": "commerce-public-sources",
+      "date": "2026-11-10",
+      "timestamp": 1794276523098,
+      "collectedAt": "2026-11-10T02:08:43.098Z",
+      "githubSyncedAt": "2026-11-10T02:08:43.098Z"
+    },
+    {
+      "id": "apimodels_gpt_image_2_poster-734",
+      "title": "海滨房产",
+      "prompt": "A breezy coastal open-house flyer for a beachfront property. A sunlit render of a white-and-teal beach house on stilts, palm trees, and turquoise ocean behind. Airy light script reads 'BEACHFRONT OPEN HOUSE — SUN 12–3.' A shell-motif divider precedes '3 Bed · ocean views · private deck · $875,000.' A soft badge names 'Sofia Reyes, Tidewater Realty.' Palette of turquoise, sandy beige, white, coral. Relaxed, sunny, dreamy coastal-lifestyle marketing.",
+      "promptZh": "清爽的海滨开放看房传单,为一处海滩房产而作。一张阳光渲染图:白青相间的高脚海滩别墅、棕榈树、背后绿松石海洋。通透轻盈手写体写着「BEACHFRONT OPEN HOUSE — SUN 12–3」。一个贝壳纹样分隔符引出「3 Bed · ocean views · private deck · $875,000」。一枚柔和徽章标出「Sofia Reyes, Tidewater Realty」。配色为绿松石、沙米、白、珊瑚。放松、阳光、梦幻的海滨生活方式营销。",
+      "category": "电商视觉",
+      "commerceType": "广告海报",
+      "tags": [
+        "电商视觉",
+        "GPT Image 2",
+        "广告海报",
+        "real-estate",
+        "open-house",
+        "coastal"
+      ],
+      "model": "GPT Image 2",
+      "mediaType": "image",
+      "image": "https://r2.apimodels.app/assets/prompt-gallery/1785128934246_poster-734.png",
+      "images": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785128934246_poster-734.png"
+      ],
+      "rawImages": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785128934246_poster-734.png"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "3:4",
+      "source": "apimodels/gpt-image-2-prompts",
+      "sourceUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#poster-734",
+      "url": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#poster-734",
+      "archiveUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json",
+      "sourceRepository": "apimodels/gpt-image-2-prompts",
+      "license": "CC BY 4.0",
+      "sourceLicenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "attribution": "API Models (apimodels.app)",
+      "domain": "github.com",
+      "externalId": "poster-734",
+      "collectionOrigin": "commerce-public-sources",
+      "date": "2026-11-10",
+      "timestamp": 1794276523098,
+      "collectedAt": "2026-11-10T02:08:43.098Z",
+      "githubSyncedAt": "2026-11-10T02:08:43.098Z"
+    },
+    {
+      "id": "apimodels_gpt_image_2_poster-735",
+      "title": "成交喜报",
+      "prompt": "A celebratory 'JUST SOLD' real-estate flyer. A crisp render of a handsome craftsman house with a bold red 'SOLD' rider clipped over a for-sale sign in the yard. Confident bold serif reads 'ANOTHER HOME SOLD!' A clean line notes 'sold in 6 days, above asking.' A round headshot-style badge names 'Elena Farrow, Summit Group Realty' with the tagline 'thinking of selling? let's talk.' Palette of crisp white, deep red, navy, gold. Proud, trustworthy, results-driven agent branding.",
+      "promptZh": "喜庆的「JUST SOLD」房产传单。一张清晰渲染图:一栋英俊的工匠风住宅,院中待售牌上夹着醒目的红色「SOLD」标牌。自信粗衬线写着「ANOTHER HOME SOLD!」。一行干净文字注明「sold in 6 days, above asking」。一枚圆形头像风徽章标出「Elena Farrow, Summit Group Realty」并配标语「thinking of selling? let's talk.」。配色为清爽白、深红、藏青、金。自豪、可信、结果导向的经纪人品牌。",
+      "category": "电商视觉",
+      "commerceType": "广告海报",
+      "tags": [
+        "电商视觉",
+        "GPT Image 2",
+        "广告海报",
+        "real-estate",
+        "sold",
+        "announcement"
+      ],
+      "model": "GPT Image 2",
+      "mediaType": "image",
+      "image": "https://r2.apimodels.app/assets/prompt-gallery/1785128959577_poster-735.png",
+      "images": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785128959577_poster-735.png"
+      ],
+      "rawImages": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785128959577_poster-735.png"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "3:4",
+      "source": "apimodels/gpt-image-2-prompts",
+      "sourceUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#poster-735",
+      "url": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#poster-735",
+      "archiveUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json",
+      "sourceRepository": "apimodels/gpt-image-2-prompts",
+      "license": "CC BY 4.0",
+      "sourceLicenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "attribution": "API Models (apimodels.app)",
+      "domain": "github.com",
+      "externalId": "poster-735",
+      "collectionOrigin": "commerce-public-sources",
+      "date": "2026-11-10",
+      "timestamp": 1794276523098,
+      "collectedAt": "2026-11-10T02:08:43.098Z",
+      "githubSyncedAt": "2026-11-10T02:08:43.098Z"
+    },
+    {
+      "id": "apimodels_gpt_image_2_poster-736",
+      "title": "山间木屋",
+      "prompt": "A rustic open-house flyer for a mountain cabin. A warm render of a log cabin nestled among snow-dusted pines with smoke rising from the chimney at dusk. Woodsy slab-serif reads 'MOUNTAIN RETREAT — OPEN SAT.' A carved-wood divider precedes '2 Bed · wood stove · 5 acres · $335,000.' A pinecone badge names 'Jesse Blackwood, Timberline Realty.' Palette of pine green, warm log brown, snow white, amber. Cozy, escapist, rustic-getaway charm.",
+      "promptZh": "质朴的开放看房传单,为一栋山间木屋而作。一张温暖渲染图:黄昏时分,一栋原木小屋依偎在覆雪松林间,烟囱升起炊烟。林野板衬线写着「MOUNTAIN RETREAT — OPEN SAT」。一个雕木分隔符引出「2 Bed · wood stove · 5 acres · $335,000」。一枚松果徽章标出「Jesse Blackwood, Timberline Realty」。配色为松绿、暖原木棕、雪白、琥珀。温馨、逃离尘嚣、质朴度假的魅力。",
+      "category": "电商视觉",
+      "commerceType": "广告海报",
+      "tags": [
+        "电商视觉",
+        "GPT Image 2",
+        "广告海报",
+        "real-estate",
+        "open-house",
+        "cabin"
+      ],
+      "model": "GPT Image 2",
+      "mediaType": "image",
+      "image": "https://r2.apimodels.app/assets/prompt-gallery/1785128945947_poster-736.png",
+      "images": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785128945947_poster-736.png"
+      ],
+      "rawImages": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785128945947_poster-736.png"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "3:4",
+      "source": "apimodels/gpt-image-2-prompts",
+      "sourceUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#poster-736",
+      "url": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#poster-736",
+      "archiveUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json",
+      "sourceRepository": "apimodels/gpt-image-2-prompts",
+      "license": "CC BY 4.0",
+      "sourceLicenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "attribution": "API Models (apimodels.app)",
+      "domain": "github.com",
+      "externalId": "poster-736",
+      "collectionOrigin": "commerce-public-sources",
+      "date": "2026-11-10",
+      "timestamp": 1794276523098,
+      "collectedAt": "2026-11-10T02:08:43.098Z",
+      "githubSyncedAt": "2026-11-10T02:08:43.098Z"
+    },
+    {
+      "id": "apimodels_gpt_image_2_poster-737",
+      "title": "新盘预览",
+      "prompt": "A polished pre-construction real-estate flyer for a new development. A crisp architectural render of a row of modern townhomes with landscaped courtyards and clean geometric facades under a clear sky. Sleek uppercase sans reads 'NOW SELLING — PHASE ONE.' A gradient bar lists 'from the low $400s · move in spring · 12 homes remaining.' A monogram names 'The Marlowe Collection.' Palette of soft grey, sage, warm white, deep teal. Modern, aspirational, developer-grade presentation.",
+      "promptZh": "精致的期房房产传单,为一处新开发项目而作。一张清晰建筑渲染图:晴空下一排现代联排别墅,带景观庭院与简洁几何立面。时尚大写无衬线写着「NOW SELLING — PHASE ONE」。一条渐变栏列出「from the low $400s · move in spring · 12 homes remaining」。一枚花押标出「The Marlowe Collection」。配色为柔灰、鼠尾草、暖白、深青。现代、有抱负、开发商级别的呈现。",
+      "category": "电商视觉",
+      "commerceType": "广告海报",
+      "tags": [
+        "电商视觉",
+        "GPT Image 2",
+        "广告海报",
+        "real-estate",
+        "development",
+        "modern"
+      ],
+      "model": "GPT Image 2",
+      "mediaType": "image",
+      "image": "https://r2.apimodels.app/assets/prompt-gallery/1785128933288_poster-737.png",
+      "images": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785128933288_poster-737.png"
+      ],
+      "rawImages": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785128933288_poster-737.png"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "3:4",
+      "source": "apimodels/gpt-image-2-prompts",
+      "sourceUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#poster-737",
+      "url": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#poster-737",
+      "archiveUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json",
+      "sourceRepository": "apimodels/gpt-image-2-prompts",
+      "license": "CC BY 4.0",
+      "sourceLicenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "attribution": "API Models (apimodels.app)",
+      "domain": "github.com",
+      "externalId": "poster-737",
+      "collectionOrigin": "commerce-public-sources",
+      "date": "2026-11-10",
+      "timestamp": 1794276523098,
+      "collectedAt": "2026-11-10T02:08:43.098Z",
+      "githubSyncedAt": "2026-11-10T02:08:43.098Z"
+    },
+    {
+      "id": "apimodels_gpt_image_2_poster-738",
+      "title": "乡村农舍庄园",
+      "prompt": "An elegant open-house flyer for a country farmhouse estate. A golden-hour render of a white farmhouse with a wraparound porch, a red barn, and rolling green pasture behind a wooden fence. Graceful serif reads 'COUNTRY ESTATE — OPEN SUNDAY.' A wheat-motif divider precedes '5 Bed · 10 acres · barn & stables · $920,000.' A crest badge names 'William Hart, Meadowlane Estates.' Palette of warm cream, barn red, meadow green, gold. Refined, pastoral, luxury-country lifestyle appeal.",
+      "promptZh": "优雅的开放看房传单,为一处乡村农舍庄园而作。一张金色时分渲染图:带环绕门廊的白色农舍、红色谷仓、木栅栏后起伏的绿色牧场。优美衬线写着「COUNTRY ESTATE — OPEN SUNDAY」。一个麦穗纹样分隔符引出「5 Bed · 10 acres · barn & stables · $920,000」。一枚徽章标出「William Hart, Meadowlane Estates」。配色为暖奶油、谷仓红、草地绿、金。精致、田园、奢华乡村生活方式的吸引力。",
+      "category": "电商视觉",
+      "commerceType": "广告海报",
+      "tags": [
+        "电商视觉",
+        "GPT Image 2",
+        "广告海报",
+        "real-estate",
+        "open-house",
+        "farmhouse"
+      ],
+      "model": "GPT Image 2",
+      "mediaType": "image",
+      "image": "https://r2.apimodels.app/assets/prompt-gallery/1785128944635_poster-738.png",
+      "images": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785128944635_poster-738.png"
+      ],
+      "rawImages": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785128944635_poster-738.png"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "3:4",
+      "source": "apimodels/gpt-image-2-prompts",
+      "sourceUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#poster-738",
+      "url": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#poster-738",
+      "archiveUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json",
+      "sourceRepository": "apimodels/gpt-image-2-prompts",
+      "license": "CC BY 4.0",
+      "sourceLicenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "attribution": "API Models (apimodels.app)",
+      "domain": "github.com",
+      "externalId": "poster-738",
+      "collectionOrigin": "commerce-public-sources",
+      "date": "2026-11-10",
+      "timestamp": 1794276523098,
+      "collectedAt": "2026-11-10T02:08:43.098Z",
+      "githubSyncedAt": "2026-11-10T02:08:43.098Z"
+    },
     {
       "id": "apimodels_gpt_image_2_product-315",
       "title": "防风外套亮色产品图",
