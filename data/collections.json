@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T02:08:43.098Z",
+  "updatedAt": "2026-11-10T02:40:10.148Z",
   "collections": [
     {
       "id": "x_2119967517263409223",
@@ -35,7 +35,8 @@
       "date": "2026-11-10",
       "timestamp": 1794276523098,
       "collectedAt": "2026-11-10T02:08:43.098Z",
-      "githubSyncedAt": "2026-11-10T02:08:43.098Z"
+      "githubSyncedAt": "2026-11-10T02:08:43.098Z",
+      "domesticSyncedAt": "2026-11-10T02:40:10.144Z"
     },
     {
       "id": "x_2119792329032683706",
@@ -72,7 +73,8 @@
       "date": "2026-11-10",
       "timestamp": 1794276523098,
       "collectedAt": "2026-11-10T02:08:43.098Z",
-      "githubSyncedAt": "2026-11-10T02:08:43.098Z"
+      "githubSyncedAt": "2026-11-10T02:08:43.098Z",
+      "domesticSyncedAt": "2026-11-10T02:40:10.144Z"
     },
     {
       "id": "x_2119479604909940968",
@@ -107,7 +109,8 @@
       "date": "2026-11-10",
       "timestamp": 1794276523098,
       "collectedAt": "2026-11-10T02:08:43.098Z",
-      "githubSyncedAt": "2026-11-10T02:08:43.098Z"
+      "githubSyncedAt": "2026-11-10T02:08:43.098Z",
+      "domesticSyncedAt": "2026-11-10T02:40:10.144Z"
     },
     {
       "id": "x_2119443673033458124",
@@ -143,7 +146,8 @@
       "date": "2026-11-10",
       "timestamp": 1794276523098,
       "collectedAt": "2026-11-10T02:08:43.098Z",
-      "githubSyncedAt": "2026-11-10T02:08:43.098Z"
+      "githubSyncedAt": "2026-11-10T02:08:43.098Z",
+      "domesticSyncedAt": "2026-11-10T02:40:10.144Z"
     },
     {
       "id": "x_2119792738396971209",
@@ -180,7 +184,8 @@
       "date": "2026-11-10",
       "timestamp": 1794276523098,
       "collectedAt": "2026-11-10T02:08:43.098Z",
-      "githubSyncedAt": "2026-11-10T02:08:43.098Z"
+      "githubSyncedAt": "2026-11-10T02:08:43.098Z",
+      "domesticSyncedAt": "2026-11-10T02:40:10.144Z"
     },
     {
       "id": "x_2119671234552008863",
@@ -215,7 +220,8 @@
       "date": "2026-11-10",
       "timestamp": 1794276523098,
       "collectedAt": "2026-11-10T02:08:43.098Z",
-      "githubSyncedAt": "2026-11-10T02:08:43.098Z"
+      "githubSyncedAt": "2026-11-10T02:08:43.098Z",
+      "domesticSyncedAt": "2026-11-10T02:40:10.144Z"
     },
     {
       "id": "x_2119818691022033288",
@@ -254,7 +260,8 @@
       "date": "2026-11-10",
       "timestamp": 1794276523098,
       "collectedAt": "2026-11-10T02:08:43.098Z",
-      "githubSyncedAt": "2026-11-10T02:08:43.098Z"
+      "githubSyncedAt": "2026-11-10T02:08:43.098Z",
+      "domesticSyncedAt": "2026-11-10T02:40:10.144Z"
     },
     {
       "id": "x_2119838679376011389",
@@ -293,7 +300,8 @@
       "date": "2026-11-10",
       "timestamp": 1794276523098,
       "collectedAt": "2026-11-10T02:08:43.098Z",
-      "githubSyncedAt": "2026-11-10T02:08:43.098Z"
+      "githubSyncedAt": "2026-11-10T02:08:43.098Z",
+      "domesticSyncedAt": "2026-11-10T02:40:10.144Z"
     },
     {
       "id": "x_2119651481473192355",
@@ -326,7 +334,8 @@
       "date": "2026-11-10",
       "timestamp": 1794276523098,
       "collectedAt": "2026-11-10T02:08:43.098Z",
-      "githubSyncedAt": "2026-11-10T02:08:43.098Z"
+      "githubSyncedAt": "2026-11-10T02:08:43.098Z",
+      "domesticSyncedAt": "2026-11-10T02:40:10.144Z"
     },
     {
       "id": "x_2119448198091768033",
@@ -361,7 +370,8 @@
       "date": "2026-11-10",
       "timestamp": 1794276523098,
       "collectedAt": "2026-11-10T02:08:43.098Z",
-      "githubSyncedAt": "2026-11-10T02:08:43.098Z"
+      "githubSyncedAt": "2026-11-10T02:08:43.098Z",
+      "domesticSyncedAt": "2026-11-10T02:40:10.144Z"
     },
     {
       "id": "apimodels_gpt_image_2_poster-739",
@@ -403,7 +413,8 @@
       "date": "2026-11-10",
       "timestamp": 1794276523098,
       "collectedAt": "2026-11-10T02:08:43.098Z",
-      "githubSyncedAt": "2026-11-10T02:08:43.098Z"
+      "githubSyncedAt": "2026-11-10T02:08:43.098Z",
+      "domesticSyncedAt": "2026-11-10T02:40:10.144Z"
     },
     {
       "id": "apimodels_gpt_image_2_poster-740",
@@ -445,7 +456,8 @@
       "date": "2026-11-10",
       "timestamp": 1794276523098,
       "collectedAt": "2026-11-10T02:08:43.098Z",
-      "githubSyncedAt": "2026-11-10T02:08:43.098Z"
+      "githubSyncedAt": "2026-11-10T02:08:43.098Z",
+      "domesticSyncedAt": "2026-11-10T02:40:10.144Z"
     },
     {
       "id": "apimodels_gpt_image_2_poster-741",
@@ -487,7 +499,8 @@
       "date": "2026-11-10",
       "timestamp": 1794276523098,
       "collectedAt": "2026-11-10T02:08:43.098Z",
-      "githubSyncedAt": "2026-11-10T02:08:43.098Z"
+      "githubSyncedAt": "2026-11-10T02:08:43.098Z",
+      "domesticSyncedAt": "2026-11-10T02:40:10.144Z"
     },
     {
       "id": "apimodels_gpt_image_2_poster-742",
@@ -529,7 +542,8 @@
       "date": "2026-11-10",
       "timestamp": 1794276523098,
       "collectedAt": "2026-11-10T02:08:43.098Z",
-      "githubSyncedAt": "2026-11-10T02:08:43.098Z"
+      "githubSyncedAt": "2026-11-10T02:08:43.098Z",
+      "domesticSyncedAt": "2026-11-10T02:40:10.144Z"
     },
     {
       "id": "apimodels_gpt_image_2_poster-743",
@@ -571,7 +585,8 @@
       "date": "2026-11-10",
       "timestamp": 1794276523098,
       "collectedAt": "2026-11-10T02:08:43.098Z",
-      "githubSyncedAt": "2026-11-10T02:08:43.098Z"
+      "githubSyncedAt": "2026-11-10T02:08:43.098Z",
+      "domesticSyncedAt": "2026-11-10T02:40:10.144Z"
     },
     {
       "id": "apimodels_gpt_image_2_poster-744",
@@ -613,7 +628,8 @@
       "date": "2026-11-10",
       "timestamp": 1794276523098,
       "collectedAt": "2026-11-10T02:08:43.098Z",
-      "githubSyncedAt": "2026-11-10T02:08:43.098Z"
+      "githubSyncedAt": "2026-11-10T02:08:43.098Z",
+      "domesticSyncedAt": "2026-11-10T02:40:10.144Z"
     },
     {
       "id": "apimodels_gpt_image_2_poster-745",
@@ -655,7 +671,8 @@
       "date": "2026-11-10",
       "timestamp": 1794276523098,
       "collectedAt": "2026-11-10T02:08:43.098Z",
-      "githubSyncedAt": "2026-11-10T02:08:43.098Z"
+      "githubSyncedAt": "2026-11-10T02:08:43.098Z",
+      "domesticSyncedAt": "2026-11-10T02:40:10.144Z"
     },
     {
       "id": "apimodels_gpt_image_2_poster-746",
@@ -697,7 +714,8 @@
       "date": "2026-11-10",
       "timestamp": 1794276523098,
       "collectedAt": "2026-11-10T02:08:43.098Z",
-      "githubSyncedAt": "2026-11-10T02:08:43.098Z"
+      "githubSyncedAt": "2026-11-10T02:08:43.098Z",
+      "domesticSyncedAt": "2026-11-10T02:40:10.144Z"
     },
     {
       "id": "apimodels_gpt_image_2_poster-747",
@@ -739,7 +757,8 @@
       "date": "2026-11-10",
       "timestamp": 1794276523098,
       "collectedAt": "2026-11-10T02:08:43.098Z",
-      "githubSyncedAt": "2026-11-10T02:08:43.098Z"
+      "githubSyncedAt": "2026-11-10T02:08:43.098Z",
+      "domesticSyncedAt": "2026-11-10T02:40:10.144Z"
     },
     {
       "id": "apimodels_gpt_image_2_poster-748",
@@ -781,7 +800,8 @@
       "date": "2026-11-10",
       "timestamp": 1794276523098,
       "collectedAt": "2026-11-10T02:08:43.098Z",
-      "githubSyncedAt": "2026-11-10T02:08:43.098Z"
+      "githubSyncedAt": "2026-11-10T02:08:43.098Z",
+      "domesticSyncedAt": "2026-11-10T02:40:10.144Z"
     },
     {
       "id": "apimodels_gpt_image_2_poster-729",
@@ -823,7 +843,8 @@
       "date": "2026-11-10",
       "timestamp": 1794276523098,
       "collectedAt": "2026-11-10T02:08:43.098Z",
-      "githubSyncedAt": "2026-11-10T02:08:43.098Z"
+      "githubSyncedAt": "2026-11-10T02:08:43.098Z",
+      "domesticSyncedAt": "2026-11-10T02:40:10.144Z"
     },
     {
       "id": "apimodels_gpt_image_2_poster-730",
@@ -865,7 +886,8 @@
       "date": "2026-11-10",
       "timestamp": 1794276523098,
       "collectedAt": "2026-11-10T02:08:43.098Z",
-      "githubSyncedAt": "2026-11-10T02:08:43.098Z"
+      "githubSyncedAt": "2026-11-10T02:08:43.098Z",
+      "domesticSyncedAt": "2026-11-10T02:40:10.144Z"
     },
     {
       "id": "apimodels_gpt_image_2_poster-731",
@@ -907,7 +929,8 @@
       "date": "2026-11-10",
       "timestamp": 1794276523098,
       "collectedAt": "2026-11-10T02:08:43.098Z",
-      "githubSyncedAt": "2026-11-10T02:08:43.098Z"
+      "githubSyncedAt": "2026-11-10T02:08:43.098Z",
+      "domesticSyncedAt": "2026-11-10T02:40:10.144Z"
     },
     {
       "id": "apimodels_gpt_image_2_poster-732",
@@ -949,7 +972,8 @@
       "date": "2026-11-10",
       "timestamp": 1794276523098,
       "collectedAt": "2026-11-10T02:08:43.098Z",
-      "githubSyncedAt": "2026-11-10T02:08:43.098Z"
+      "githubSyncedAt": "2026-11-10T02:08:43.098Z",
+      "domesticSyncedAt": "2026-11-10T02:40:10.144Z"
     },
     {
       "id": "apimodels_gpt_image_2_poster-733",
@@ -991,7 +1015,8 @@
       "date": "2026-11-10",
       "timestamp": 1794276523098,
       "collectedAt": "2026-11-10T02:08:43.098Z",
-      "githubSyncedAt": "2026-11-10T02:08:43.098Z"
+      "githubSyncedAt": "2026-11-10T02:08:43.098Z",
+      "domesticSyncedAt": "2026-11-10T02:40:10.144Z"
     },
     {
       "id": "apimodels_gpt_image_2_poster-734",
@@ -1033,7 +1058,8 @@
       "date": "2026-11-10",
       "timestamp": 1794276523098,
       "collectedAt": "2026-11-10T02:08:43.098Z",
-      "githubSyncedAt": "2026-11-10T02:08:43.098Z"
+      "githubSyncedAt": "2026-11-10T02:08:43.098Z",
+      "domesticSyncedAt": "2026-11-10T02:40:10.144Z"
     },
     {
       "id": "apimodels_gpt_image_2_poster-735",
@@ -1075,7 +1101,8 @@
       "date": "2026-11-10",
       "timestamp": 1794276523098,
       "collectedAt": "2026-11-10T02:08:43.098Z",
-      "githubSyncedAt": "2026-11-10T02:08:43.098Z"
+      "githubSyncedAt": "2026-11-10T02:08:43.098Z",
+      "domesticSyncedAt": "2026-11-10T02:40:10.144Z"
     },
     {
       "id": "apimodels_gpt_image_2_poster-736",
@@ -1117,7 +1144,8 @@
       "date": "2026-11-10",
       "timestamp": 1794276523098,
       "collectedAt": "2026-11-10T02:08:43.098Z",
-      "githubSyncedAt": "2026-11-10T02:08:43.098Z"
+      "githubSyncedAt": "2026-11-10T02:08:43.098Z",
+      "domesticSyncedAt": "2026-11-10T02:40:10.144Z"
     },
     {
       "id": "apimodels_gpt_image_2_poster-737",
@@ -1159,7 +1187,8 @@
       "date": "2026-11-10",
       "timestamp": 1794276523098,
       "collectedAt": "2026-11-10T02:08:43.098Z",
-      "githubSyncedAt": "2026-11-10T02:08:43.098Z"
+      "githubSyncedAt": "2026-11-10T02:08:43.098Z",
+      "domesticSyncedAt": "2026-11-10T02:40:10.144Z"
     },
     {
       "id": "apimodels_gpt_image_2_poster-738",
@@ -1201,7 +1230,8 @@
       "date": "2026-11-10",
       "timestamp": 1794276523098,
       "collectedAt": "2026-11-10T02:08:43.098Z",
-      "githubSyncedAt": "2026-11-10T02:08:43.098Z"
+      "githubSyncedAt": "2026-11-10T02:08:43.098Z",
+      "domesticSyncedAt": "2026-11-10T02:40:10.144Z"
     },
     {
       "id": "apimodels_gpt_image_2_product-315",
