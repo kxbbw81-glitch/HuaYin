@@ -1,7 +1,1194 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-11T00:39:50.231Z",
+  "updatedAt": "2026-11-11T02:06:11.670Z",
   "collections": [
+    {
+      "id": "x_2120089181577982443",
+      "title": "复古野花蜂蜜罐贴",
+      "prompt": "Create an image with the following visual system. Replace the subject as specified.\n\nVisual system (light, color, composition, medium, mood):\n【画面风格】一张横幅约 3:2 的复古食品罐标签平面设计稿：画面中央是一张横向长条标签，几乎占满画面宽度、约占一半高度，四周露出一圈更浅的暖白背景。标签纸是温暖的象牙米色，带细微的纸纤维颗粒和少量做旧小斑点，正面平拍、均匀平光，没有阴影、透视、罐子或桌面。标签中央是主角：大号手写感粗体无衬线的产品名，分两行排，下面跟一行很小的手写花体短句；产品名两侧或周围环绕一组水彩加细墨线手绘图案，颜色克制、半透明、留着笔触边缘。标签正上方居中有一行很小的砖红色衬线小字作品类标语。标签左右两端各留一块素净区域，只放一个细线小框或一个简单的手绘小图标，不放条码、营养成分表、配料表、数字、重量或回收标志。配色：象牙米色底，黑褐色墨字，图案只用一到两种低饱和颜色，加那一行砖红小字点缀。整张标签上的文字只有主体里指定的三处，逐字照写、拼写准确，不添加任何其他文字、品牌或 Logo。克制、干净，带一点手作小铺的复古感，可以直接拿去做罐子贴纸。\n\nNew subject:\n【主体】野花蜂蜜标签。产品名两行：\"WILDFLOWER\" / \"HONEY\"；下面花体小字：\"raw & unfiltered\"；顶部砖红小字：\"from the meadow\"。图案：几株手绘矢车菊、三叶草和小野菊，两三只小蜜蜂绕着飞，颜色用蜂蜜金和灰蓝。标签上只有这三处文字。",
+      "category": "电商视觉",
+      "commerceType": "品牌视觉",
+      "useCase": "品牌视觉",
+      "tags": [
+        "包装",
+        "食品标签",
+        "复古"
+      ],
+      "model": "GPT Image 2.5",
+      "mediaType": "image",
+      "image": "https://pbs.twimg.com/media/HWwRWzBXgAAN_ep.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HWwRWzBXgAAN_ep.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HWwRWzBXgAAN_ep.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "3:2",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/static_stare/status/2120089181577982443",
+      "url": "https://x.com/static_stare/status/2120089181577982443",
+      "domain": "x.com",
+      "creator": "static_stare",
+      "date": "2026-11-11",
+      "timestamp": 1794362771670,
+      "collectedAt": "2026-11-11T02:06:11.670Z",
+      "githubSyncedAt": "2026-11-11T02:06:11.670Z"
+    },
+    {
+      "id": "x_2120078778487505206",
+      "title": "货架双盒零食包装",
+      "prompt": "A realistic on-shelf product mockup of exactly two adjacent milk-white cartons for a fictional Alpine snack brand. Both cartons show the same original white-haired delivery woman mascot in a tiny ochre hooded coat, standing beside a black-and-white pack goat with one bent left horn. Carton on the left has a copper accent band, and carton on the right has a deep blue accent band. Match the mascot's nose, hood buckle, glove shape, and the goat's horn on both cartons. Print exactly “RIDGE SNACK” at the top of each package and “AGED” on the copper band, “MILD” on the blue band. Slight view from above to show both label faces, real folded-paper edges, empty warm gray countertop.",
+      "category": "电商视觉",
+      "commerceType": "产品主图",
+      "useCase": "产品主图",
+      "tags": [
+        "包装",
+        "货架陈列",
+        "零食"
+      ],
+      "model": "",
+      "mediaType": "image",
+      "image": "https://pbs.twimg.com/media/HWwH0z8XIAALEd4.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HWwH0z8XIAALEd4.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HWwH0z8XIAALEd4.jpg"
+      ],
+      "referenceImages": [],
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/maxescu/status/2120078778487505206",
+      "url": "https://x.com/maxescu/status/2120078778487505206",
+      "domain": "x.com",
+      "creator": "maxescu",
+      "date": "2026-11-11",
+      "timestamp": 1794362771670,
+      "collectedAt": "2026-11-11T02:06:11.670Z",
+      "githubSyncedAt": "2026-11-11T02:06:11.670Z"
+    },
+    {
+      "id": "x_2119040469166416372",
+      "title": "奢侈产品电影广告海报",
+      "prompt": "ROLE & OBJECTIVE\n\nYou are a senior art director at a world-class advertising agency. Turn the product in my uploaded image into a premium advertising campaign worthy of an international luxury brand.\n\nPRODUCT\n\nPreserve the product exactly as provided, including its shape, proportions, colours, materials, packaging, logo, and label. Do not redesign or alter any branding.\n\nSCENE & LIGHTING\n\nPlace the product in a cinematic environment that reflects its identity. Use natural directional lighting, realistic reflections, soft shadows, atmospheric depth, and carefully controlled highlights. The product must appear physically present in the scene.\n\nLAYOUT\n\nVertical 2:3 advertising poster. Position the product as the central hero with generous negative space. Add one sophisticated headline of 2–4 words at the top, a short supporting tagline, and three understated product features along the bottom.\n\nSTYLE\n\nLuxury editorial photography, restrained colours, realistic materials, precise composition, and exceptional visual detail. Match the surrounding palette to the product.\n\nOUTPUT\n\nOne finished, photorealistic advertising poster with sharp, correctly spelled typography. No clutter, discount badges, unnecessary decorations, or altered logos.",
+      "category": "电商视觉",
+      "commerceType": "广告海报",
+      "useCase": "广告海报",
+      "tags": [
+        "广告海报",
+        "产品广告",
+        "奢侈品"
+      ],
+      "model": "",
+      "mediaType": "image",
+      "image": "https://pbs.twimg.com/media/HWhWY37WcAAfQvr.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HWhWY37WcAAfQvr.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HWhWY37WcAAfQvr.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "2:3",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/TawohAwa/status/2119040469166416372",
+      "url": "https://x.com/TawohAwa/status/2119040469166416372",
+      "domain": "x.com",
+      "creator": "TawohAwa",
+      "date": "2026-11-11",
+      "timestamp": 1794362771670,
+      "collectedAt": "2026-11-11T02:06:11.670Z",
+      "githubSyncedAt": "2026-11-11T02:06:11.670Z"
+    },
+    {
+      "id": "x_2120127733460054405",
+      "title": "护肤美妆宫格海报",
+      "prompt": "A multi-panel commercial beauty grid featuring portraits of four diverse women with serene expressions, smooth glowing skin, and natural makeup against a neutral, warm beige studio background. Each woman is captured in close-up or medium-close shots, gently touching their face, neck, or hair with closed or softly gazing eyes to evoke a sense of relaxation, self-care, and skincare wellness. The composition consists of eight distinct vertical and horizontal frames, showcasing varying hair textures from sleek straight dark hair to soft blonde waves and curly locks, emphasizing a clean, minimalist aesthetic typical of skincare or cosmetics campaigns.",
+      "category": "电商视觉",
+      "commerceType": "广告海报",
+      "useCase": "广告海报",
+      "tags": [
+        "美妆",
+        "护肤",
+        "广告海报"
+      ],
+      "model": "",
+      "mediaType": "image",
+      "image": "https://pbs.twimg.com/media/HWw07hqXEAAu4go.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HWw07hqXEAAu4go.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HWw07hqXEAAu4go.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "4:5",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/Minahil42298354/status/2120127733460054405",
+      "url": "https://x.com/Minahil42298354/status/2120127733460054405",
+      "domain": "x.com",
+      "creator": "Minahil42298354",
+      "date": "2026-11-11",
+      "timestamp": 1794362771670,
+      "collectedAt": "2026-11-11T02:06:11.670Z",
+      "githubSyncedAt": "2026-11-11T02:06:11.670Z"
+    },
+    {
+      "id": "x_2120083202333458938",
+      "title": "街头杂志风品牌海报",
+      "prompt": "为[品牌名称]创作一张地下街头文化杂志封面或品牌海报，参考Thrasher、i-D、The Face、Dazed的纪实摄影与大胆排版气质，真实、自由、有态度。\n\n【品牌判断】\n根据品牌身份，自主确定核心人物、代表产品、真实场景、手绘字标风格、一种荧光强调色，以及一句符合品牌口吻的简短宣言。人物与场景必须属于品牌自身的文化世界，除非品牌以滑板为核心，否则不要默认加入滑板元素。\n\n【主角与摄影】\n以一位漂亮、有独特辨识度的成年女性为主角，服装、发型及动作符合品牌气质。选择街道、天台、海岸、公路、音乐现场等真实外景，使用自然光或现场已有光源。采用低角度仰拍或适度倾斜构图，捕捉自然动作中最鲜活的瞬间。照片铺满画布，适度增强对比，保留自然色彩、真实肤质与胶片颗粒。人物面容清晰、曝光充足、衣着整洁，不出现污垢、汗水、泥浆或破衣。\n\n【巨幅笔刷标识】\n将品牌标志或名称绘制为白色或米白色的巨幅手绘笔刷字，横跨画面宽度的70%—85%，占据上方三分之一。保留品牌标识的辨识度，同时呈现刷毛痕迹、不规则边缘、少量流漆与薄涂透底效果，避免干净的矢量质感。\n\n【荧光涂鸦】\n仅选择一种荧光色或高饱和色，用于随手写下的涂鸦词语或记号。涂鸦覆盖于所有图层之上，在画面上部与品牌字标交叠，部分笔画可延伸至中部；右下角添加同色小签名。该颜色不得用于其他设计元素。\n\n【文字排版】\n使用克制的小字号，建立杂志式信息层级：左上角放3—4行品牌背景小字，下方排列活动名称与简短标签；右侧中部放一句带引号的品牌宣言，下方标注品牌名及3—4行短文案；右下角保留涂鸦签名。文字避免遮挡人物面部。\n\n【整体要求】\n视觉顺序：人物与现场能量→巨幅品牌字标→荧光涂鸦→小字信息。采用竖版满幅构图，像真实杂志封面或街墙海报。仅使用摄影、文字与单色涂鸦，不添加边框、几何图形、插画、图标或贴纸。粗粝感来自构图、笔触与现场氛围，人物始终干净、自然、有吸引力。",
+      "category": "电商视觉",
+      "commerceType": "广告海报",
+      "useCase": "广告海报",
+      "tags": [
+        "品牌海报",
+        "杂志封面",
+        "街头文化"
+      ],
+      "model": "",
+      "mediaType": "image",
+      "image": "https://pbs.twimg.com/media/HWwMHIiaQAAwoAe.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HWwMHIiaQAAwoAe.jpg",
+        "https://pbs.twimg.com/media/HWwMHIhacAACDXs.jpg",
+        "https://pbs.twimg.com/media/HWwMHIcagAAyjnc.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HWwMHIiaQAAwoAe.jpg",
+        "https://pbs.twimg.com/media/HWwMHIhacAACDXs.jpg",
+        "https://pbs.twimg.com/media/HWwMHIcagAAyjnc.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "2:3",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/harrisonzhuanf/status/2120083202333458938",
+      "url": "https://x.com/harrisonzhuanf/status/2120083202333458938",
+      "domain": "x.com",
+      "creator": "harrisonzhuanf",
+      "date": "2026-11-11",
+      "timestamp": 1794362771670,
+      "collectedAt": "2026-11-11T02:06:11.670Z",
+      "githubSyncedAt": "2026-11-11T02:06:11.670Z"
+    },
+    {
+      "id": "x_2120197273317412971",
+      "title": "全套高端品牌识别设计",
+      "prompt": "Act as a world-class senior brand identity designer, creative director, art director and branding strategist.\n\nCreate a stunning, professional, visually consistent and commercially appealing brand identity for [INSERT BRAND NAME], a brand that specializes in [INSERT PRODUCT, SERVICE OR INDUSTRY].\n\nThe goal is to develop a completely original brand identity that looks like it was created by a top international branding agency. Avoid generic AI designs, overused templates and predictable visual concepts.\n\n1. BRAND STRATEGY\n\n- Brand name: [Brand Name]\n- Industry: [Industry]\n- Main products/services: [Products]\n- Target audience: [Target Audience]\n- Brand personality: [Luxury / Modern / Minimalist / Bold / Playful / Premium]\n- Brand positioning: [Affordable / Luxury / Professional / Innovative]\n- Brand slogan: Create a memorable slogan that fits the brand.\n\n2. LOGO DESIGN\n\nCreate an original and memorable logo featuring:\n\n- A distinctive brand symbol or icon.\n- Professional typography and custom lettering.\n- A recognizable visual identity.\n- Primary logo, secondary logo and icon-only version.\n- A clean design that works across digital and physical products.\n\n3. BRAND COLOUR PALETTE\n\nDevelop a sophisticated colour system featuring:\n\n- Primary brand colours.\n- Secondary colours.\n- Neutral colours.\n- Exact HEX colour codes.\n- Consistent colour application across all brand materials.\n\n4. TYPOGRAPHY SYSTEM\n\nSelect professional fonts for:\n\n- Main brand name.\n- Headlines and titles.\n- Body text.\n- Product descriptions.\n- Advertising campaigns.\n\n5. PRODUCT AND PACKAGING DESIGN\n\nCreate realistic, premium product mockups showcasing the brand across relevant items.\n\nExamples include:\n\n- Product packaging and labels.\n- Shopping bags and boxes.\n- Bottles, containers or product accessories.\n- Branded merchandise.\n- Product tags and business stationery.\n\nAdapt the mockups to the actual industry. Do not include irrelevant products.\n\n6. BRAND APPLICATIONS\n\nShow how the identity works in the real world:\n\n- Business cards.\n- Letterheads and envelopes.\n- Staff uniforms.\n- Storefront or office signage.\n- Website and mobile app.\n- Social media profile and post designs.\n- Advertising banners and promotional materials.\n\n7. LIFESTYLE AND ADVERTISING\n\nCreate professional advertising visuals featuring:\n\n- Realistic product photography.\n- Appropriate lifestyle scenes.\n- Professional brand ambassadors where relevant.\n- Branded environments.\n- Attractive promotional compositions.\n\n8. FINAL BRAND PRESENTATION BOARD\n\nArrange everything into a stunning, high-end brand identity presentation board using a carefully structured editorial grid.\n\nInclude:\n\n- Main brand logo prominently displayed.\n- Brand slogan.\n- Colour palette with HEX codes.\n- Typography samples.\n- Product mockups.\n- Packaging designs.\n- Marketing materials.\n- Lifestyle advertising.\n- Realistic brand applications.\n\nART DIRECTION\n\nUse premium studio lighting, realistic materials, beautiful shadows, sophisticated composition, clean spacing, consistent branding and high-resolution photorealistic rendering.\n\nEvery product, package, logo and marketing material must share the same visual identity.\n\nIMPORTANT INSTRUCTIONS:\n\n- Create an original brand, not a copy of an existing company.\n- Do not reuse another brand's logo or visual identity.\n- Make the design distinctive, memorable and commercially realistic.\n- Choose colours, products and mockups that make sense for the industry.\n- Prioritize visual consistency and professional presentation.\n- Avoid unnecessary text, spelling mistakes and distorted logos.\n\nFINAL RESULT: A complete, premium brand identity showcase that looks like a professional branding agency's portfolio presentation.",
+      "category": "电商视觉",
+      "commerceType": "品牌视觉",
+      "useCase": "品牌视觉",
+      "tags": [
+        "品牌视觉",
+        "Logo",
+        "包装"
+      ],
+      "model": "",
+      "mediaType": "image",
+      "image": "https://pbs.twimg.com/media/HWx0K20WoAAfs7W.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HWx0K20WoAAfs7W.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HWx0K20WoAAfs7W.jpg"
+      ],
+      "referenceImages": [],
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/abs_crea8or/status/2120197273317412971",
+      "url": "https://x.com/abs_crea8or/status/2120197273317412971",
+      "domain": "x.com",
+      "creator": "abs_crea8or",
+      "date": "2026-11-11",
+      "timestamp": 1794362771670,
+      "collectedAt": "2026-11-11T02:06:11.670Z",
+      "githubSyncedAt": "2026-11-11T02:06:11.670Z"
+    },
+    {
+      "id": "x_2120032374914445723",
+      "title": "韩式夜间护肤UGC",
+      "prompt": "KOREAN NIGHTTIME SKINCARE VLOG\nFORMAT: Exactly 20 seconds | 8 cuts | Vertical 9:16 | Photorealistic live-action | 24fps | Korean beauty lifestyle UGC | Vintage DV camcorder aesthetic\nCHARACTER — CHASE\nCHASE is a 25-year-old adult Korean woman with long, naturally straight black hair, soft facial features, natural skin texture and minimal makeup.\nNighttime styling: She wears loose-fitting, fully covering pastel baby-pink cotton sleepwear with tiny white heart patterns, a relaxed button-up top and matching full-length pajama bottoms. Her hair is held back with a cute fluffy white skincare headband featuring decorative bunny ears.\nHer personality is gentle, cheerful and slightly playful. She speaks naturally in Korean, as if recording a personal beauty vlog for her friends.\nLOCATION & VISUAL AESTHETIC\nA cozy modern Korean apartment in Seoul. Minimalist wooden bedroom vanity, warm wooden furniture, a clean beige-tiled bathroom, a small bedside lamp and neatly arranged skincare products.\nWarm amber lighting throughout the nighttime scenes.\nCAMERA STYLE: Authentic early-2000s DV camcorder footage with a 16mm film-inspired aesthetic. Imperfect handheld framing, subtle camera shake, occasional autofocus shifts, soft focus, visible tape grain, muted contrast, slightly faded colors and realistic skin texture.\nREAL KOREAN SKINCARE PRODUCTS\nUse authentic commercial packaging and recognizable original branding.\n1. ROUND LAB 1025 Dokdo Cleanser — 150ml tube\n2. ROUND LAB 1025 Dokdo Toner — 200ml bottle\n3. ROUND LAB 1025 Dokdo Cream — 80ml white jar\nMaintain accurate product proportions, original labels, colors and packaging throughout.\n8-CUT SCENE BREAKDOWN\nCUT 01 — 0:00–0:02 | NIGHTTIME GREETING\nHandheld close-up of CHASE sitting comfortably at her bedroom vanity. She wears her pastel baby-pink heart-pattern sleepwear and fluffy white bunny-ear skincare headband.\nShe looks directly into the camcorder, smiles warmly and waves.\nKOREAN DIALOGUE:\n\"안녕 여러분, 오늘도 밤 스킨케어 시작할게요!\"\n(Hi everyone, let's start my nighttime skincare!)\nCUT 02 — 0:02–0:04 | CLEANSER\nShe picks up the ROUND LAB 1025 Dokdo Cleanser and brings the original packaging close to the camera. Cut to a close-up of her dispensing cleanser onto her wet hands and creating soft foam.\nKOREAN DIALOGUE:\n\"먼저 독도 클렌저부터!\"\n(First, the Dokdo Cleanser!)\nCUT 03 — 0:04–0:06 | FACIAL CLEANSING\nA close-up bathroom beauty shot focused on her face and hands. She gently massages the foam across her cheeks and forehead, rinses with lukewarm water and pats her face dry with a clean white towel.\nNatural water sounds and realistic movements.\nCUT 04 — 0:06–0:09 | DOKDO TONER\nBack at her vanity, she picks up the ROUND LAB 1025 Dokdo Toner, pours a little into her palm and gently presses it into her cheeks and forehead.\nKOREAN DIALOGUE:\n\"다음은 독도 토너예요. 촉촉해서 너무 좋아요.\"\n(Next is the Dokdo Toner. I love how hydrating it feels.)\nCUT 05 — 0:09–0:12 | INTRODUCING THE CREAM\nShe reaches for the ROUND LAB 1025 Dokdo Cream and holds the original white jar close to the camera. She opens the lid and shows the creamy white texture with her fingertip.\nKOREAN DIALOGUE:\n\"마지막은 독도 크림! 제형이 너무 부드러워요.\"\n(Last is the Dokdo Cream! The texture is so smooth.)\nCUT 06 — 0:12–0:15 | APPLYING THE CREAM\nClose-up beauty shot of CHASE gently applying the cream to both cheeks, forehead and chin. She massages it into her skin with slow, natural movements.\nWarm bedside lighting softly illuminates her face.\nKOREAN DIALOGUE:\n\"이렇게 발라주면 끝!\"\n(And that's it!)\nCUT 07 — 0:15–0:17 | ENDING THE NIGHT\nShe places the Dokdo Cream back on her wooden vanity beside the cleanser and toner. She smiles sleepily at the camera and switches off the bedside lamp.\nKOREAN DIALOGUE:\n\"이제 잘게요. 잘 자요!\"\n(I'm going to sleep now. Goodnight!)\nCUT 08 — 0:17–0:20 | FINAL PRODUCT SHOT\nA cozy handheld close-up of the three ROUND LAB products arranged naturally on her vanity. CHASE smiles in the background, gives a little wave and looks directly into the camcorder.\nThe footage gently fades to black.\nAUDIO & SOUND DESIGN\n- Natural Korean female voice, conversational Seoul accent\n- Relaxed, gentle speaking pace\n- No artificial commercial voiceover\n- Soft nighttime apartment ambience\n- Running water and subtle skincare application sounds\n- Gentle fabric movement\n- Very soft nostalgic lo-fi instrumental background music\n- Accurate Korean pronunciation and synchronized lip movements\nSTRICT GENERATION REQUIREMENTS\n- Exactly 20 seconds and exactly 8 cuts.\n- Vertical 9:16 composition throughout.\n- CHASE must remain visibly an adult woman throughout.\n- Preserve consistent facial identity, hairstyle and appearance.\n- Maintain pastel baby-pink heart-pattern sleepwear and fluffy white bunny-ear skincare headband throughout.\n- Clothing must remain fully covering and modest.\n- No claw clips or alternative nighttime hair accessories.\n- All skincare products must be authentic ROUND LAB products.\n- No fictional skincare brands or invented packaging.\n- No product redesign or changing labels between shots.\n- Focus on face, hands, skincare products and facial application.\n- Natural pores, realistic skin texture and authentic facial expressions.\n- No beauty filters or artificial skin smoothing.\n- No suggestive framing or poses.\n- Avoid overly polished commercial cinematography.\nOVERALL FEEL: An authentic Korean adult woman's cozy nighttime skincare vlog, recorded on an old DV camcorder, featuring natural Korean conversations, genuine K-beauty products, cute pink heart-pattern sleepwear and a fluffy bunny-ear skincare headband.",
+      "category": "电商视觉",
+      "commerceType": "电商视频",
+      "useCase": "UGC / 口碑",
+      "tags": [
+        "护肤",
+        "UGC",
+        "电商视频"
+      ],
+      "model": "Seedance 2.5",
+      "mediaType": "video",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2120031900849020929/img/QVn2G1sYTtlC0HEy.jpg",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2120031900849020929/img/QVn2G1sYTtlC0HEy.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/amplify_video_thumb/2120031900849020929/img/QVn2G1sYTtlC0HEy.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "9:16",
+      "videoPoster": "https://pbs.twimg.com/amplify_video_thumb/2120031900849020929/img/QVn2G1sYTtlC0HEy.jpg",
+      "videoUrl": "https://video.twimg.com/amplify_video/2120031900849020929/vid/avc1/480x854/4OrI7bA5jsIQmyuu.mp4",
+      "videoSourceUrl": "https://video.twimg.com/amplify_video/2120031900849020929/vid/avc1/480x854/4OrI7bA5jsIQmyuu.mp4",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/chandrapie/status/2120032374914445723",
+      "url": "https://x.com/chandrapie/status/2120032374914445723",
+      "domain": "x.com",
+      "creator": "chandrapie",
+      "date": "2026-11-11",
+      "timestamp": 1794362771670,
+      "collectedAt": "2026-11-11T02:06:11.670Z",
+      "githubSyncedAt": "2026-11-11T02:06:11.670Z"
+    },
+    {
+      "id": "x_2118941122450137350",
+      "title": "美蒂秋精华UGC广告",
+      "prompt": "Create a luxurious, ultra-realistic skincare UGC advertisement featuring a beautiful young woman holding a Medicube EGF NAD Firming Serum bottle close to the camera. She has glowing, dewy glass skin, natural makeup, glossy lips, and neatly tied-back hair.\n\nShe gently brings the serum bottle closer to the camera, rotates it slightly to showcase the product label, then looks directly into the camera with a soft confident smile. In the next shot, she applies a few drops of serum to her cheek using the dropper and gently massages it into her skin.\n\nWarm beige studio background, soft golden sunlight, premium Korean skincare commercial aesthetic, realistic skin texture, elegant hand movements, cinematic close-up shots, smooth camera movement, professional product lighting, 4K ultra-realistic quality.\n\nKeep the Medicube bottle, logo, packaging, and label exactly consistent with the reference image. No distorted hands, no extra fingers, no text overlays.",
+      "category": "电商视觉",
+      "commerceType": "模特展示",
+      "useCase": "UGC / 口碑",
+      "tags": [
+        "护肤",
+        "UGC",
+        "美妆"
+      ],
+      "model": "GPT Image 2.0",
+      "mediaType": "image",
+      "image": "https://pbs.twimg.com/media/HWf9rhlaUAAwQir.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HWf9rhlaUAAwQir.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HWf9rhlaUAAwQir.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "9:16",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/AIwithMinal/status/2118941122450137350",
+      "url": "https://x.com/AIwithMinal/status/2118941122450137350",
+      "domain": "x.com",
+      "creator": "AIwithMinal",
+      "date": "2026-11-11",
+      "timestamp": 1794362771670,
+      "collectedAt": "2026-11-11T02:06:11.670Z",
+      "githubSyncedAt": "2026-11-11T02:06:11.670Z"
+    },
+    {
+      "id": "x_2118901259310961014",
+      "title": "钛架墨镜日落广告",
+      "prompt": "10-second commercial shoot, 16:9 anamorphic. 0-3s: Macro close-up on the delicate double-bridge weld and titanium frame texture. 3-7s: Smooth orbital camera movement capturing rich amber sunset reflections moving fluidly across the polarized lenses. 7-10s: Crisp, elegant hero product lockup floating above a dark slate slab with subtle rim lighting.",
+      "category": "电商视觉",
+      "commerceType": "电商视频",
+      "useCase": "电商视频",
+      "tags": [
+        "墨镜",
+        "产品广告",
+        "电商视频"
+      ],
+      "model": "Flow",
+      "mediaType": "video",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2116841540207149056/img/4mQIfPgdt0eROsuZ.jpg",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2116841540207149056/img/4mQIfPgdt0eROsuZ.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/amplify_video_thumb/2116841540207149056/img/4mQIfPgdt0eROsuZ.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "16:9",
+      "videoPoster": "https://pbs.twimg.com/amplify_video_thumb/2116841540207149056/img/4mQIfPgdt0eROsuZ.jpg",
+      "videoUrl": "https://video.twimg.com/amplify_video/2116841540207149056/vid/avc1/1280x720/kwja0DJmpvRiH1Kd.mp4",
+      "videoSourceUrl": "https://video.twimg.com/amplify_video/2116841540207149056/vid/avc1/1280x720/kwja0DJmpvRiH1Kd.mp4",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/SethAIGC/status/2118901259310961014",
+      "url": "https://x.com/SethAIGC/status/2118901259310961014",
+      "domain": "x.com",
+      "creator": "SethAIGC",
+      "date": "2026-11-11",
+      "timestamp": 1794362771670,
+      "collectedAt": "2026-11-11T02:06:11.670Z",
+      "githubSyncedAt": "2026-11-11T02:06:11.670Z"
+    },
+    {
+      "id": "x_2120183974912036870",
+      "title": "微距材质冒险创意海报",
+      "prompt": "【核心真实材质】：{颜料 / 水花 / 肥皂泡 / 蜂蜜 / 咖啡 / 巧克力等}\n【视觉创意】：{材质形成的超现实场景或结构}\n【人物动作】：{滑行 / 冲浪 / 漂浮 / 划船 / 攀爬等}\n【物理互动】：{飞溅 / 挤压 / 折射 / 漂浮 / 拉丝 / 流动等}\n【主标题】：{一句简短有趣的英文短句}\n【英文副文案】：{一句与画面相关的简短英文}\n【主色调】：{根据真实材质选择}\n【画幅比例】：9:16\n\n创作一张「TINY FLOW」系列的摄影质感 × 手绘线稿混合视觉创意海报。\n\n将【核心真实材质】放大到超现实尺度，让它自然形成【视觉创意】所描述的场景。一位微型手绘成年人物正在其中进行【人物动作】，让真实物质成为可以探索、使用或互动的奇妙世界。\n\n真实材质表现：\n\n核心物体采用高度写实的微距摄影质感，准确呈现对应材质的纹理、厚度、光泽、透光、反射和物理特性。液体应具有真实的重力、黏度、表面张力与流动方向；泡泡应呈现自然虹彩薄膜和光学反射；浓稠物质需要保留真实拉丝、堆积和缓慢形变。主体必须具有清晰、完整的大形，避免塑料、CGI、抽象雕塑或不合理的魔法效果。\n\n手绘人物表现：\n\n人物采用自然修长的成年人比例，黑灰铅笔线稿、彩铅局部填色、轻微蜡笔纹理和简洁灵动的五官。穿着米白色休闲上衣、浅蓝牛仔服装、白色运动鞋，搭配少量芥末黄色配饰。深棕色头发自然蓬松，动作轻松、有趣，具有真实的运动姿态。人物必须明显是手绘角色，不要生成真人摄影皮肤、3D 卡通或动漫人物。\n\n物理融合与互动：\n\n人物与真实物质之间必须产生明确的【物理互动】。根据动作表现真实的接触、遮挡、受力、反射、压痕、飞溅、流动扰动或液体形变，让手绘人物真正存在于真实物质的空间中。人物动作、重心、道具和物体的运动方向应符合物理逻辑，避免简单贴图、悬浮或没有接触关系的拼贴效果。\n\n构图与排版：\n\n采用「巨大真实主体 + 微型手绘人物 + 大面积留白」的编辑海报构图。核心真实材质占据主要视觉区域，通过圆形、S 形、C 形、流动曲线或其他鲜明轮廓形成强烈视觉锚点。背景使用干净温润的奶油白纸张，保留极轻微天然纸纤维。环境元素尽量简化，不要加入无关道具。\n\n画面上方或左上方加入英文手写主标题：【主标题】\n\n下方以较小的自然手写字体加入：【英文副文案】\n\n文字采用深海军蓝或近黑色，笔触略有不规则，搭配少量中性手绘曲线作为辅助装饰。所有可见文字必须为英文，拼写准确，不出现中文、编号、Logo 或无意义文字。\n\n光线与色彩：\n\n使用明亮、柔和、具有真实方向性的摄影级自然光。核心材质保持【主色调】的鲜明色彩，充分表现真实高光、阴影、透光和纹理层次。人物、道具与真实物质共享一致的光线方向、透视与空间关系。整体色彩克制，以一个鲜明主色为视觉焦点，搭配奶油白背景、深蓝文字及少量低饱和辅助色。\n\n最终效果：\n\n画面同时具有真实物质的摄影级细节、手绘人物的温度、超现实尺度的趣味和国际化编辑海报的设计感。\n\n第一眼被巨大真实材质的颜色、形态和光影吸引，第二眼发现手绘小人物正在与它发生意想不到但可信的物理互动。即使不阅读文字，也能理解画面中的视觉创意。\n\n避免：纯摄影、纯插画、3D 卡通人物、CGI 塑料材质、生硬拼贴、人物悬浮、错误物理关系、复杂背景、过度装饰、大量随机液滴、无意义英文、中文文字和信息过载。",
+      "category": "电商视觉",
+      "commerceType": "广告海报",
+      "useCase": "广告海报",
+      "tags": [
+        "创意海报",
+        "包装质感",
+        "品牌视觉"
+      ],
+      "model": "GPT Image 2.6",
+      "mediaType": "image",
+      "image": "https://pbs.twimg.com/media/HWxncpkaMAAilRV.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HWxncpkaMAAilRV.jpg",
+        "https://pbs.twimg.com/media/HWxngMwbkAAI3uH.jpg",
+        "https://pbs.twimg.com/media/HWxnh1iaAAAm6YH.jpg",
+        "https://pbs.twimg.com/media/HWxnjTTacAAoggV.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HWxncpkaMAAilRV.jpg",
+        "https://pbs.twimg.com/media/HWxngMwbkAAI3uH.jpg",
+        "https://pbs.twimg.com/media/HWxnh1iaAAAm6YH.jpg",
+        "https://pbs.twimg.com/media/HWxnjTTacAAoggV.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "9:16",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/MrLarus/status/2120183974912036870",
+      "url": "https://x.com/MrLarus/status/2120183974912036870",
+      "domain": "x.com",
+      "creator": "MrLarus",
+      "date": "2026-11-11",
+      "timestamp": 1794362771670,
+      "collectedAt": "2026-11-11T02:06:11.670Z",
+      "githubSyncedAt": "2026-11-11T02:06:11.670Z"
+    },
+    {
+      "id": "apimodels_gpt_image_2_poster-636",
+      "title": "环球香料集市",
+      "prompt": "Rich, exotic food-market poster for 'GLOBAL SPICE BAZAAR', a world street-food festival at Old Mill Square, September 12-14. Hero: overhead rows of colorful spice mounds in burlap sacks, saffron, paprika, turmeric, cardamom, forming a mosaic of warm colors with a brass scoop. Composition: top-down vibrant spice-mound grid filling the frame, ornate hand-drawn title with intricate patterns at the top, food-country flags and details below. Palette: turmeric gold, paprika red, saffron orange, cumin brown, cardamom green. Rich saturated textures, warm market light, ornamental detailing. Ticket and cuisine-lineup info at the base. Mood: exotic, vibrant, aromatic, cultural.",
+      "promptZh": "浓郁异域风情的美食市集海报,标题「环球香料集市 GLOBAL SPICE BAZAAR」,老磨坊广场世界街头美食节,9月12至14日。主视觉:俯拍成排的彩色香料堆盛在麻袋里——藏红花、红椒粉、姜黄、豆蔻——组成暖色马赛克,配一把黄铜量勺。构图:顶视鲜艳的香料堆网格填满画面,华丽手绘标题带繁复纹样置于顶部,美食国别小旗与详情列于下方。配色:姜黄金、红椒红、藏红花橙、孜然棕、豆蔻绿。浓郁饱和质感、温暖市集光、装饰性细节。底部有票务与菜系阵容信息。氛围:异域、鲜活、芳香、多元文化。",
+      "category": "电商视觉",
+      "commerceType": "广告海报",
+      "tags": [
+        "电商视觉",
+        "GPT Image 2",
+        "广告海报",
+        "food",
+        "festival",
+        "spice",
+        "bazaar"
+      ],
+      "model": "GPT Image 2",
+      "mediaType": "image",
+      "image": "https://r2.apimodels.app/assets/prompt-gallery/1785128513232_poster-636.png",
+      "images": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785128513232_poster-636.png"
+      ],
+      "rawImages": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785128513232_poster-636.png"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "2:3",
+      "source": "apimodels/gpt-image-2-prompts",
+      "sourceUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#poster-636",
+      "url": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#poster-636",
+      "archiveUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json",
+      "sourceRepository": "apimodels/gpt-image-2-prompts",
+      "license": "CC BY 4.0",
+      "attribution": "API Models (apimodels.app)",
+      "domain": "github.com",
+      "date": "2026-11-11",
+      "timestamp": 1794362771670,
+      "collectedAt": "2026-11-11T02:06:11.670Z",
+      "githubSyncedAt": "2026-11-11T02:06:11.670Z",
+      "sourceLicenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "collectionOrigin": "commerce-public-sources",
+      "externalId": "poster-636"
+    },
+    {
+      "id": "apimodels_gpt_image_2_poster-666",
+      "title": "可可嘉年华巧克力节",
+      "prompt": "Indulgent chocolate festival poster for 'COCOA CARNIVAL', a chocolate and cacao fair at Cocoa Square, February 21-22. Hero: a decadent chocolate fountain cascading glossy molten chocolate over fresh strawberries and truffles, cocoa beans and dark cacao pods scattered around. Composition: rich flowing chocolate fountain centered, glossy indulgent close-up, warm ornate vintage-confectionery serif title at the top, vendor and ticket details on a chocolate-brown ribbon below. Palette: deep chocolate brown, caramel gold, strawberry red, cream, cocoa cream. Glossy molten texture, warm indulgent light, rich decadent detail. Entry and tasting info at the base. Mood: indulgent, rich, warm, mouthwatering.",
+      "promptZh": "令人沉醉的巧克力节海报,标题「可可嘉年华 COCOA CARNIVAL」,可可广场巧克力与可可豆集市,2月21至22日。主视觉:一座奢华的巧克力喷泉将光泽的熔岩巧克力浇淋在新鲜草莓与松露上,可可豆与深色可可荚散落四周。构图:丰盈流动的巧克力喷泉居中,光泽诱人的特写,温暖华丽的复古糖果店衬线体标题置于顶部,摊位与票务详情排在下方巧克力棕丝带上。配色:深巧克力棕、焦糖金、草莓红、奶白、可可奶油色。光泽熔岩质感、温暖诱人光线、丰富奢华细节。底部有入场与品尝信息。氛围:沉醉、浓郁、温暖、令人垂涎。",
+      "category": "电商视觉",
+      "commerceType": "广告海报",
+      "tags": [
+        "电商视觉",
+        "GPT Image 2",
+        "广告海报",
+        "food",
+        "festival",
+        "chocolate",
+        "indulgent"
+      ],
+      "model": "GPT Image 2",
+      "mediaType": "image",
+      "image": "https://r2.apimodels.app/assets/prompt-gallery/1785128640093_poster-666.png",
+      "images": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785128640093_poster-666.png"
+      ],
+      "rawImages": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785128640093_poster-666.png"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "2:3",
+      "source": "apimodels/gpt-image-2-prompts",
+      "sourceUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#poster-666",
+      "url": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#poster-666",
+      "archiveUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json",
+      "sourceRepository": "apimodels/gpt-image-2-prompts",
+      "license": "CC BY 4.0",
+      "attribution": "API Models (apimodels.app)",
+      "domain": "github.com",
+      "date": "2026-11-11",
+      "timestamp": 1794362771670,
+      "collectedAt": "2026-11-11T02:06:11.670Z",
+      "githubSyncedAt": "2026-11-11T02:06:11.670Z",
+      "sourceLicenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "collectionOrigin": "commerce-public-sources",
+      "externalId": "poster-666"
+    },
+    {
+      "id": "apimodels_gpt_image_2_poster-654",
+      "title": "天际线地产论坛",
+      "prompt": "Polished real-estate and architecture conference poster for 'SKYLINE PROPERTY FORUM', an urban-development summit at Grand Pavilion, May 22-23. Hero: a sleek modern city skyline of glass towers rendered as elegant geometric line-art rising against a warm gradient sky, blueprint grid subtly overlaid. Composition: architectural skyline along the lower half, clean confident geometric serif title above with generous spacing, program and speakers in a refined grid below. Palette: warm dusk gold, slate blue, architectural white, bronze accent, deep navy. Refined architectural line-work, blueprint precision, upscale professional polish. Registration and venue at the base. Mood: professional, aspirational, refined, visionary.",
+      "promptZh": "精致的房地产与建筑大会海报,标题「天际线地产论坛 SKYLINE PROPERTY FORUM」,大展馆城市发展峰会,5月22至23日。主视觉:一片流线型现代玻璃塔楼天际线,以优雅几何线描形式在温暖渐变天空上升起,蓝图网格若隐若现地叠加其上。构图:建筑天际线位于下半部,干净自信的几何衬线体标题、宽松字距置于上方,议程与讲者以考究网格列于下方。配色:暖暮金、石板蓝、建筑白、青铜点缀、深藏青。考究的建筑线描、蓝图般精准、高端专业精致感。底部有报名与场馆。氛围:专业、进取、考究、有远见。",
+      "category": "电商视觉",
+      "commerceType": "广告海报",
+      "tags": [
+        "电商视觉",
+        "GPT Image 2",
+        "广告海报",
+        "conference",
+        "realestate",
+        "architecture",
+        "professional"
+      ],
+      "model": "GPT Image 2",
+      "mediaType": "image",
+      "image": "https://r2.apimodels.app/assets/prompt-gallery/1785128585563_poster-654.png",
+      "images": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785128585563_poster-654.png"
+      ],
+      "rawImages": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785128585563_poster-654.png"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "2:3",
+      "source": "apimodels/gpt-image-2-prompts",
+      "sourceUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#poster-654",
+      "url": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#poster-654",
+      "archiveUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json",
+      "sourceRepository": "apimodels/gpt-image-2-prompts",
+      "license": "CC BY 4.0",
+      "attribution": "API Models (apimodels.app)",
+      "domain": "github.com",
+      "date": "2026-11-11",
+      "timestamp": 1794362771670,
+      "collectedAt": "2026-11-11T02:06:11.670Z",
+      "githubSyncedAt": "2026-11-11T02:06:11.670Z",
+      "sourceLicenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "collectionOrigin": "commerce-public-sources",
+      "externalId": "poster-654"
+    },
+    {
+      "id": "apimodels_gpt_image_2_poster-709",
+      "title": "铁志健身",
+      "prompt": "A high-impact gym promo poster for 'IRON WILL FITNESS.' A dramatic low-key photograph feel of a barbell loaded with plates against dark concrete, rim-lit in cold blue, sweat particles catching light. Aggressive slanted condensed caps shout 'FORGE YOUR LIMITS'; a bright orange flash-badge reads '6-WEEK STRENGTH CHALLENGE — JOIN NOW.' Small details list class times. Palette of charcoal, steel blue, molten orange. Intense, muscular, motivational gym energy.",
+      "promptZh": "高冲击力的健身房宣传海报,为「IRON WILL FITNESS」而作。深色水泥前一根杠铃满载杠铃片,冷蓝轮廓光勾勒,汗珠微粒捕捉光线,呈现低调摄影质感。激进的倾斜窄大写字高喊「FORGE YOUR LIMITS」;一枚亮橘闪光徽章写着「6-WEEK STRENGTH CHALLENGE — JOIN NOW」。小字列出课程时间。配色为炭黑、钢蓝、熔橙。强烈、力量感、励志的健身能量。",
+      "category": "电商视觉",
+      "commerceType": "广告海报",
+      "tags": [
+        "电商视觉",
+        "GPT Image 2",
+        "广告海报",
+        "gym",
+        "fitness",
+        "bold"
+      ],
+      "model": "GPT Image 2",
+      "mediaType": "image",
+      "image": "https://r2.apimodels.app/assets/prompt-gallery/1785128810288_poster-709.png",
+      "images": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785128810288_poster-709.png"
+      ],
+      "rawImages": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785128810288_poster-709.png"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "2:3",
+      "source": "apimodels/gpt-image-2-prompts",
+      "sourceUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#poster-709",
+      "url": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#poster-709",
+      "archiveUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json",
+      "sourceRepository": "apimodels/gpt-image-2-prompts",
+      "license": "CC BY 4.0",
+      "attribution": "API Models (apimodels.app)",
+      "domain": "github.com",
+      "date": "2026-11-11",
+      "timestamp": 1794362771670,
+      "collectedAt": "2026-11-11T02:06:11.670Z",
+      "githubSyncedAt": "2026-11-11T02:06:11.670Z",
+      "sourceLicenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "collectionOrigin": "commerce-public-sources",
+      "externalId": "poster-709"
+    },
+    {
+      "id": "apimodels_gpt_image_2_poster-710",
+      "title": "日出瑜伽流",
+      "prompt": "A calming fitness promo poster for 'LUMEN YOGA STUDIO.' A serene silhouette of a person in a standing stretch against a soft peach-to-lavender sunrise gradient, thin sun rays behind. Light airy sans-serif reads 'MORNING FLOW — 6AM SESSIONS'; a gentle rounded badge notes 'first class free.' Small footer lists a fictional address. Palette of peach, lavender, soft gold, cream. Peaceful, wellness-focused, elegant and inviting.",
+      "promptZh": "沉静的健身宣传海报,为「LUMEN YOGA STUDIO」而作。一个人做站立伸展的宁静剪影,映衬柔和的桃色到薰衣草日出渐变,背后有细日光。轻盈通透的无衬线字写着「MORNING FLOW — 6AM SESSIONS」;一枚柔和圆徽注明「first class free」。小页脚列出虚构地址。配色为桃、薰衣草、柔金、奶油。平和、注重身心、优雅诱人。",
+      "category": "电商视觉",
+      "commerceType": "广告海报",
+      "tags": [
+        "电商视觉",
+        "GPT Image 2",
+        "广告海报",
+        "gym",
+        "fitness",
+        "yoga"
+      ],
+      "model": "GPT Image 2",
+      "mediaType": "image",
+      "image": "https://r2.apimodels.app/assets/prompt-gallery/1785128818323_poster-710.png",
+      "images": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785128818323_poster-710.png"
+      ],
+      "rawImages": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785128818323_poster-710.png"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "2:3",
+      "source": "apimodels/gpt-image-2-prompts",
+      "sourceUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#poster-710",
+      "url": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#poster-710",
+      "archiveUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json",
+      "sourceRepository": "apimodels/gpt-image-2-prompts",
+      "license": "CC BY 4.0",
+      "attribution": "API Models (apimodels.app)",
+      "domain": "github.com",
+      "date": "2026-11-11",
+      "timestamp": 1794362771670,
+      "collectedAt": "2026-11-11T02:06:11.670Z",
+      "githubSyncedAt": "2026-11-11T02:06:11.670Z",
+      "sourceLicenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "collectionOrigin": "commerce-public-sources",
+      "externalId": "poster-710"
+    },
+    {
+      "id": "apimodels_gpt_image_2_poster-711",
+      "title": "拳击俱乐部传单",
+      "prompt": "A gritty boxing club promo flyer for 'SOUTHPAW BOXING CO.' A weathered pair of red boxing gloves hangs against a distressed brick wall, harsh top light casting deep shadow. Heavy vintage-athletic block letters read 'STEP INTO THE RING'; a torn-ticket badge shouts 'FREE TRIAL WEEK.' Bold grunge textures and paint-splatter accents. Palette of blood red, charcoal, dusty white. Raw, tough, old-school combat-gym attitude.",
+      "promptZh": "粗粝的拳击俱乐部宣传传单,为「SOUTHPAW BOXING CO.」而作。一对饱经风霜的红拳套挂在斑驳砖墙前,刺目顶光投下深影。厚重复古运动块字写着「STEP INTO THE RING」;一枚撕票造型徽章高喊「FREE TRIAL WEEK」。醒目垃圾摇滚肌理与颜料飞溅点缀。配色为血红、炭黑、灰白。原始、硬朗、老派格斗馆的态度。",
+      "category": "电商视觉",
+      "commerceType": "广告海报",
+      "tags": [
+        "电商视觉",
+        "GPT Image 2",
+        "广告海报",
+        "gym",
+        "fitness",
+        "boxing"
+      ],
+      "model": "GPT Image 2",
+      "mediaType": "image",
+      "image": "https://r2.apimodels.app/assets/prompt-gallery/1785128823887_poster-711.png",
+      "images": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785128823887_poster-711.png"
+      ],
+      "rawImages": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785128823887_poster-711.png"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "2:3",
+      "source": "apimodels/gpt-image-2-prompts",
+      "sourceUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#poster-711",
+      "url": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#poster-711",
+      "archiveUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json",
+      "sourceRepository": "apimodels/gpt-image-2-prompts",
+      "license": "CC BY 4.0",
+      "attribution": "API Models (apimodels.app)",
+      "domain": "github.com",
+      "date": "2026-11-11",
+      "timestamp": 1794362771670,
+      "collectedAt": "2026-11-11T02:06:11.670Z",
+      "githubSyncedAt": "2026-11-11T02:06:11.670Z",
+      "sourceLicenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "collectionOrigin": "commerce-public-sources",
+      "externalId": "poster-711"
+    },
+    {
+      "id": "apimodels_gpt_image_2_poster-712",
+      "title": "高强度训练营",
+      "prompt": "An energetic HIIT bootcamp promo poster for 'PULSE BOOTCAMP.' Diagonal neon-green speed streaks cut across a dark athletic background; a dynamic dumbbell icon bursts from the center. Bold italic sans reads 'BURN. BUILD. REPEAT.'; a lightning-bolt badge announces '45-MIN GROUP SESSIONS.' Small schedule grid at the bottom. Palette of black, neon green, hot white, slate grey. Explosive, high-energy, modern group-fitness hype.",
+      "promptZh": "充满活力的高强度间歇训练营宣传海报,为「PULSE BOOTCAMP」而作。霓虹绿斜向速度光条切过深色运动背景;一个动感哑铃图标从中央迸发。粗斜无衬线写着「BURN. BUILD. REPEAT.」;一枚闪电徽章宣布「45-MIN GROUP SESSIONS」。底部有小课表网格。配色为黑、霓虹绿、亮白、石板灰。爆发力、高能量、现代团体健身的热潮。",
+      "category": "电商视觉",
+      "commerceType": "广告海报",
+      "tags": [
+        "电商视觉",
+        "GPT Image 2",
+        "广告海报",
+        "gym",
+        "fitness",
+        "hiit"
+      ],
+      "model": "GPT Image 2",
+      "mediaType": "image",
+      "image": "https://r2.apimodels.app/assets/prompt-gallery/1785128835580_poster-712.png",
+      "images": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785128835580_poster-712.png"
+      ],
+      "rawImages": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785128835580_poster-712.png"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "2:3",
+      "source": "apimodels/gpt-image-2-prompts",
+      "sourceUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#poster-712",
+      "url": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#poster-712",
+      "archiveUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json",
+      "sourceRepository": "apimodels/gpt-image-2-prompts",
+      "license": "CC BY 4.0",
+      "attribution": "API Models (apimodels.app)",
+      "domain": "github.com",
+      "date": "2026-11-11",
+      "timestamp": 1794362771670,
+      "collectedAt": "2026-11-11T02:06:11.670Z",
+      "githubSyncedAt": "2026-11-11T02:06:11.670Z",
+      "sourceLicenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "collectionOrigin": "commerce-public-sources",
+      "externalId": "poster-712"
+    },
+    {
+      "id": "apimodels_gpt_image_2_poster-713",
+      "title": "力量举比赛",
+      "prompt": "A bold powerlifting meet poster for the 'STEEL SUMMIT OPEN.' A dramatic silhouette of a lifter locking out a heavy deadlift under stark spotlight, chalk dust rising in the beam. Massive stencil-military caps read 'STEEL SUMMIT OPEN'; a plate-shaped badge lists 'SEP 14 — 3 WEIGHT CLASSES.' Distressed metal texture. Palette of gunmetal grey, safety yellow, black. Heavy, competitive, industrial strength-sport intensity.",
+      "promptZh": "醒目的力量举比赛海报,为「STEEL SUMMIT OPEN」而作。一位举重者在刺目聚光下锁定硬拉的戏剧剪影,镁粉在光束中扬起。巨大军事模板大写字写着「STEEL SUMMIT OPEN」;一枚杠铃片形徽章列出「SEP 14 — 3 WEIGHT CLASSES」。做旧金属肌理。配色为枪灰、安全黄、黑。厚重、竞技、工业力量运动的强度。",
+      "category": "电商视觉",
+      "commerceType": "广告海报",
+      "tags": [
+        "电商视觉",
+        "GPT Image 2",
+        "广告海报",
+        "gym",
+        "fitness",
+        "powerlifting"
+      ],
+      "model": "GPT Image 2",
+      "mediaType": "image",
+      "image": "https://r2.apimodels.app/assets/prompt-gallery/1785128833134_poster-713.png",
+      "images": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785128833134_poster-713.png"
+      ],
+      "rawImages": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785128833134_poster-713.png"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "2:3",
+      "source": "apimodels/gpt-image-2-prompts",
+      "sourceUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#poster-713",
+      "url": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#poster-713",
+      "archiveUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json",
+      "sourceRepository": "apimodels/gpt-image-2-prompts",
+      "license": "CC BY 4.0",
+      "attribution": "API Models (apimodels.app)",
+      "domain": "github.com",
+      "date": "2026-11-11",
+      "timestamp": 1794362771670,
+      "collectedAt": "2026-11-11T02:06:11.670Z",
+      "githubSyncedAt": "2026-11-11T02:06:11.670Z",
+      "sourceLicenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "collectionOrigin": "commerce-public-sources",
+      "externalId": "poster-713"
+    },
+    {
+      "id": "apimodels_gpt_image_2_poster-714",
+      "title": "动感单车课",
+      "prompt": "A vibrant indoor-cycling studio promo poster for 'REVOLVE RIDE.' A stylized spin bike glows in a dark studio pierced by pink and violet stage lights, motion blur on the wheel. Sleek rounded caps read 'RIDE TO THE BEAT'; a neon disc badge announces 'THURSDAY GLOW RIDE — 7PM.' Small pricing note below. Palette of hot pink, deep violet, cyan, black. Electric, rhythmic, nightclub-style fitness excitement.",
+      "promptZh": "活力四射的室内动感单车工作室宣传海报,为「REVOLVE RIDE」而作。一辆风格化动感单车在被粉紫舞台灯穿透的暗室中发光,车轮带运动模糊。流线圆润大写字写着「RIDE TO THE BEAT」;一枚霓虹圆盘徽章宣布「THURSDAY GLOW RIDE — 7PM」。下方有小号价格提示。配色为亮粉、深紫、青、黑。电感、韵律、夜店风的健身兴奋。",
+      "category": "电商视觉",
+      "commerceType": "广告海报",
+      "tags": [
+        "电商视觉",
+        "GPT Image 2",
+        "广告海报",
+        "gym",
+        "fitness",
+        "cycling"
+      ],
+      "model": "GPT Image 2",
+      "mediaType": "image",
+      "image": "https://r2.apimodels.app/assets/prompt-gallery/1785128846252_poster-714.png",
+      "images": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785128846252_poster-714.png"
+      ],
+      "rawImages": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785128846252_poster-714.png"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "2:3",
+      "source": "apimodels/gpt-image-2-prompts",
+      "sourceUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#poster-714",
+      "url": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#poster-714",
+      "archiveUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json",
+      "sourceRepository": "apimodels/gpt-image-2-prompts",
+      "license": "CC BY 4.0",
+      "attribution": "API Models (apimodels.app)",
+      "domain": "github.com",
+      "date": "2026-11-11",
+      "timestamp": 1794362771670,
+      "collectedAt": "2026-11-11T02:06:11.670Z",
+      "githubSyncedAt": "2026-11-11T02:06:11.670Z",
+      "sourceLicenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "collectionOrigin": "commerce-public-sources",
+      "externalId": "poster-714"
+    },
+    {
+      "id": "apimodels_gpt_image_2_poster-715",
+      "title": "交叉训练战士",
+      "prompt": "A tough functional-fitness promo poster for 'FORGE FUNCTIONAL.' A chalk-dusted kettlebell and battle ropes mid-swing frozen against raw industrial concrete, dramatic side light. Aggressive stencil caps read 'EARN YOUR STRENGTH'; a hazard-stripe badge reads 'ONBOARDING CLASS — SATURDAYS 9AM.' Grunge splatter and rivet details. Palette of concrete grey, safety orange, matte black. Rugged, no-excuses, functional-training grit.",
+      "promptZh": "硬朗的功能性健身宣传海报,为「FORGE FUNCTIONAL」而作。沾满镁粉的壶铃与甩动中定格的战绳映衬原始工业水泥,戏剧性侧光。激进模板大写字写着「EARN YOUR STRENGTH」;一枚警示条纹徽章写着「ONBOARDING CLASS — SATURDAYS 9AM」。垃圾摇滚飞溅与铆钉细节。配色为水泥灰、安全橙、哑黑。粗犷、无借口、功能训练的坚毅。",
+      "category": "电商视觉",
+      "commerceType": "广告海报",
+      "tags": [
+        "电商视觉",
+        "GPT Image 2",
+        "广告海报",
+        "gym",
+        "fitness",
+        "functional"
+      ],
+      "model": "GPT Image 2",
+      "mediaType": "image",
+      "image": "https://r2.apimodels.app/assets/prompt-gallery/1785128885738_poster-715.png",
+      "images": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785128885738_poster-715.png"
+      ],
+      "rawImages": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785128885738_poster-715.png"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "2:3",
+      "source": "apimodels/gpt-image-2-prompts",
+      "sourceUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#poster-715",
+      "url": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#poster-715",
+      "archiveUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json",
+      "sourceRepository": "apimodels/gpt-image-2-prompts",
+      "license": "CC BY 4.0",
+      "attribution": "API Models (apimodels.app)",
+      "domain": "github.com",
+      "date": "2026-11-11",
+      "timestamp": 1794362771670,
+      "collectedAt": "2026-11-11T02:06:11.670Z",
+      "githubSyncedAt": "2026-11-11T02:06:11.670Z",
+      "sourceLicenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "collectionOrigin": "commerce-public-sources",
+      "externalId": "poster-715"
+    },
+    {
+      "id": "apimodels_gpt_image_2_poster-716",
+      "title": "普拉提器械馆",
+      "prompt": "A refined pilates studio promo poster for 'CORE & COMPOSURE.' A minimal line illustration of a reformer machine sits on a warm blush background, thin elegant strokes. Light modern serif reads 'STRENGTH IN STILLNESS'; a slim capsule badge notes 'INTRO OFFER — 3 CLASSES FOR $39.' Generous white space and delicate detailing. Palette of blush pink, soft taupe, deep plum type. Elegant, calm, boutique-wellness sophistication.",
+      "promptZh": "精致的普拉提工作室宣传海报,为「CORE & COMPOSURE」而作。一台器械床的极简线描落在暖腮红背景上,笔触纤细优雅。轻盈现代衬线写着「STRENGTH IN STILLNESS」;一枚纤长胶囊徽章注明「INTRO OFFER — 3 CLASSES FOR $39」。宽裕留白与精细细节。配色为腮红粉、柔灰褐、深梅红字。优雅、沉静、精品身心美学的精致。",
+      "category": "电商视觉",
+      "commerceType": "广告海报",
+      "tags": [
+        "电商视觉",
+        "GPT Image 2",
+        "广告海报",
+        "gym",
+        "fitness",
+        "pilates"
+      ],
+      "model": "GPT Image 2",
+      "mediaType": "image",
+      "image": "https://r2.apimodels.app/assets/prompt-gallery/1785128868372_poster-716.png",
+      "images": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785128868372_poster-716.png"
+      ],
+      "rawImages": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785128868372_poster-716.png"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "3:4",
+      "source": "apimodels/gpt-image-2-prompts",
+      "sourceUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#poster-716",
+      "url": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#poster-716",
+      "archiveUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json",
+      "sourceRepository": "apimodels/gpt-image-2-prompts",
+      "license": "CC BY 4.0",
+      "attribution": "API Models (apimodels.app)",
+      "domain": "github.com",
+      "date": "2026-11-11",
+      "timestamp": 1794362771670,
+      "collectedAt": "2026-11-11T02:06:11.670Z",
+      "githubSyncedAt": "2026-11-11T02:06:11.670Z",
+      "sourceLicenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "collectionOrigin": "commerce-public-sources",
+      "externalId": "poster-716"
+    },
+    {
+      "id": "apimodels_gpt_image_2_poster-717",
+      "title": "马拉松训练团",
+      "prompt": "A dynamic running-club promo poster for 'STRIDE COLLECTIVE.' A stylized runner mid-stride is composed of overlapping orange and teal motion trails against a bright dawn sky. Bold sporty italic reads 'RUN FURTHER TOGETHER'; a route-marker badge announces 'FREE SATURDAY LONG RUN — 7AM.' A small dotted map line curves below. Palette of sunrise orange, teal, sky blue, white. Motivating, communal, fresh outdoor-running vibe.",
+      "promptZh": "动感的跑步俱乐部宣传海报,为「STRIDE COLLECTIVE」而作。一位跨步中的风格化跑者由橙青交叠的运动拖尾构成,映衬明亮的破晓天空。粗壮运动斜体写着「RUN FURTHER TOGETHER」;一枚路标造型徽章宣布「FREE SATURDAY LONG RUN — 7AM」。下方一条小虚线地图路径弯曲。配色为日出橙、青、天蓝、白。激励、社群感、清新的户外跑步氛围。",
+      "category": "电商视觉",
+      "commerceType": "广告海报",
+      "tags": [
+        "电商视觉",
+        "GPT Image 2",
+        "广告海报",
+        "gym",
+        "fitness",
+        "running"
+      ],
+      "model": "GPT Image 2",
+      "mediaType": "image",
+      "image": "https://r2.apimodels.app/assets/prompt-gallery/1785128862142_poster-717.png",
+      "images": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785128862142_poster-717.png"
+      ],
+      "rawImages": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785128862142_poster-717.png"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "2:3",
+      "source": "apimodels/gpt-image-2-prompts",
+      "sourceUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#poster-717",
+      "url": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#poster-717",
+      "archiveUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json",
+      "sourceRepository": "apimodels/gpt-image-2-prompts",
+      "license": "CC BY 4.0",
+      "attribution": "API Models (apimodels.app)",
+      "domain": "github.com",
+      "date": "2026-11-11",
+      "timestamp": 1794362771670,
+      "collectedAt": "2026-11-11T02:06:11.670Z",
+      "githubSyncedAt": "2026-11-11T02:06:11.670Z",
+      "sourceLicenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "collectionOrigin": "commerce-public-sources",
+      "externalId": "poster-717"
+    },
+    {
+      "id": "apimodels_gpt_image_2_poster-718",
+      "title": "24小时健身房开业",
+      "prompt": "A punchy grand-opening promo poster for '24 FLEX GYM.' A bold burst-ray background in electric blue radiates from a central dumbbell icon; a giant ribbon banner shouts 'NOW OPEN 24/7.' Heavy athletic caps read 'FLEX ON YOUR SCHEDULE'; a starburst badge screams 'FOUNDING MEMBERS — NO JOINING FEE.' Small terms line at the bottom. Palette of electric blue, bright yellow, white, black. Loud, promotional, high-energy launch buzz.",
+      "promptZh": "有冲击力的开业宣传海报,为「24 FLEX GYM」而作。电光蓝的醒目放射光条背景从中央哑铃图标射出;一条巨大丝带横幅高喊「NOW OPEN 24/7」。厚重运动大写字写着「FLEX ON YOUR SCHEDULE」;一枚星爆徽章尖叫「FOUNDING MEMBERS — NO JOINING FEE」。底部有小号条款行。配色为电光蓝、亮黄、白、黑。喧闹、促销、高能量的开业热潮。",
+      "category": "电商视觉",
+      "commerceType": "广告海报",
+      "tags": [
+        "电商视觉",
+        "GPT Image 2",
+        "广告海报",
+        "gym",
+        "fitness",
+        "opening"
+      ],
+      "model": "GPT Image 2",
+      "mediaType": "image",
+      "image": "https://r2.apimodels.app/assets/prompt-gallery/1785128859890_poster-718.png",
+      "images": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785128859890_poster-718.png"
+      ],
+      "rawImages": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785128859890_poster-718.png"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "2:3",
+      "source": "apimodels/gpt-image-2-prompts",
+      "sourceUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#poster-718",
+      "url": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#poster-718",
+      "archiveUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json",
+      "sourceRepository": "apimodels/gpt-image-2-prompts",
+      "license": "CC BY 4.0",
+      "attribution": "API Models (apimodels.app)",
+      "domain": "github.com",
+      "date": "2026-11-11",
+      "timestamp": 1794362771670,
+      "collectedAt": "2026-11-11T02:06:11.670Z",
+      "githubSyncedAt": "2026-11-11T02:06:11.670Z",
+      "sourceLicenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "collectionOrigin": "commerce-public-sources",
+      "externalId": "poster-718"
+    },
+    {
+      "id": "apimodels_gpt_image_2_poster-720",
+      "title": "招募咖啡师",
+      "prompt": "A charming 'NOW HIRING' flyer for the fictional coffee shop 'Maple & Steam.' A hand-drawn latte cup with steam curling into the words 'JOIN THE CREW' on a warm kraft-paper background. Chalkboard-style lettering reads 'BARISTAS WANTED — PART TIME & FULL TIME.' A small tear-off strip row at the bottom shows repeated phone tabs. Palette of kraft brown, cream, sage green, espresso black. Cozy, handcrafted, neighborhood-cafe warmth.",
+      "promptZh": "迷人的「NOW HIRING」传单,为虚构咖啡馆「Maple & Steam」而作。一只手绘拿铁杯,蒸汽卷曲成「JOIN THE CREW」字样,置于暖牛皮纸背景。黑板风格字写着「BARISTAS WANTED — PART TIME & FULL TIME」。底部一排小号可撕电话条。配色为牛皮棕、奶油、鼠尾草绿、浓缩咖啡黑。温馨、手作、街坊咖啡馆的暖意。",
+      "category": "电商视觉",
+      "commerceType": "广告海报",
+      "tags": [
+        "电商视觉",
+        "GPT Image 2",
+        "广告海报",
+        "hiring",
+        "flyer",
+        "cafe"
+      ],
+      "model": "GPT Image 2",
+      "mediaType": "image",
+      "image": "https://r2.apimodels.app/assets/prompt-gallery/1785128873267_poster-720.png",
+      "images": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785128873267_poster-720.png"
+      ],
+      "rawImages": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785128873267_poster-720.png"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "3:4",
+      "source": "apimodels/gpt-image-2-prompts",
+      "sourceUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#poster-720",
+      "url": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#poster-720",
+      "archiveUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json",
+      "sourceRepository": "apimodels/gpt-image-2-prompts",
+      "license": "CC BY 4.0",
+      "attribution": "API Models (apimodels.app)",
+      "domain": "github.com",
+      "date": "2026-11-11",
+      "timestamp": 1794362771670,
+      "collectedAt": "2026-11-11T02:06:11.670Z",
+      "githubSyncedAt": "2026-11-11T02:06:11.670Z",
+      "sourceLicenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "collectionOrigin": "commerce-public-sources",
+      "externalId": "poster-720"
+    },
+    {
+      "id": "apimodels_gpt_image_2_poster-721",
+      "title": "科技招聘海报",
+      "prompt": "A sleek tech recruitment poster for the invented company 'NovaGrid Labs.' A dark navy background with a subtle glowing circuit-line pattern; a bright gradient headline reads 'BUILD THE FUTURE WITH US.' Below, clean white type lists 'Now hiring engineers, data scientists, and designers.' A neon capsule badge notes 'remote-friendly · flexible hours.' A minimalist rocket icon ascends the right edge. Palette of navy, cyan, magenta gradient, white. Futuristic, professional, aspirational tech-brand tone.",
+      "promptZh": "时尚的科技招聘海报,为虚构公司「NovaGrid Labs」而作。深藏青背景带微妙发光电路线纹样;明亮渐变主标题写着「BUILD THE FUTURE WITH US」。下方干净白字列出「Now hiring engineers, data scientists, and designers」。一枚霓虹胶囊徽章注明「remote-friendly · flexible hours」。极简火箭图标沿右缘上升。配色为藏青、青、品红渐变、白。未来感、专业、有抱负的科技品牌调性。",
+      "category": "电商视觉",
+      "commerceType": "广告海报",
+      "tags": [
+        "电商视觉",
+        "GPT Image 2",
+        "广告海报",
+        "hiring",
+        "flyer",
+        "tech"
+      ],
+      "model": "GPT Image 2",
+      "mediaType": "image",
+      "image": "https://r2.apimodels.app/assets/prompt-gallery/1785128867899_poster-721.png",
+      "images": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785128867899_poster-721.png"
+      ],
+      "rawImages": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785128867899_poster-721.png"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "3:4",
+      "source": "apimodels/gpt-image-2-prompts",
+      "sourceUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#poster-721",
+      "url": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#poster-721",
+      "archiveUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json",
+      "sourceRepository": "apimodels/gpt-image-2-prompts",
+      "license": "CC BY 4.0",
+      "attribution": "API Models (apimodels.app)",
+      "domain": "github.com",
+      "date": "2026-11-11",
+      "timestamp": 1794362771670,
+      "collectedAt": "2026-11-11T02:06:11.670Z",
+      "githubSyncedAt": "2026-11-11T02:06:11.670Z",
+      "sourceLicenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "collectionOrigin": "commerce-public-sources",
+      "externalId": "poster-721"
+    },
+    {
+      "id": "apimodels_gpt_image_2_poster-722",
+      "title": "零售周末员工",
+      "prompt": "A bright, friendly hiring flyer for the fictional boutique 'Petal & Thread.' A flat pastel illustration of a shop counter with hanging plants and folded clothes. Playful rounded lettering reads 'WE'RE LOOKING FOR YOU!'; a speech-bubble badge lists 'Weekend Sales Associates — flexible shifts, staff discount.' A cheerful arrow points to 'ask inside for details.' Palette of blush pink, mint, butter yellow, warm white. Sunny, approachable, small-boutique friendliness.",
+      "promptZh": "明亮友好的招聘传单,为虚构精品店「Petal & Thread」而作。一幅平面粉彩插画:挂着植物与叠放衣物的店铺柜台。俏皮圆润字写着「WE'RE LOOKING FOR YOU!」;一枚对话气泡徽章列出「Weekend Sales Associates — flexible shifts, staff discount」。一个欢快箭头指向「ask inside for details」。配色为腮红粉、薄荷、黄油黄、暖白。阳光、亲和、小精品店的友善。",
+      "category": "电商视觉",
+      "commerceType": "广告海报",
+      "tags": [
+        "电商视觉",
+        "GPT Image 2",
+        "广告海报",
+        "hiring",
+        "flyer",
+        "retail"
+      ],
+      "model": "GPT Image 2",
+      "mediaType": "image",
+      "image": "https://r2.apimodels.app/assets/prompt-gallery/1785128876316_poster-722.png",
+      "images": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785128876316_poster-722.png"
+      ],
+      "rawImages": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785128876316_poster-722.png"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "3:4",
+      "source": "apimodels/gpt-image-2-prompts",
+      "sourceUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#poster-722",
+      "url": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#poster-722",
+      "archiveUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json",
+      "sourceRepository": "apimodels/gpt-image-2-prompts",
+      "license": "CC BY 4.0",
+      "attribution": "API Models (apimodels.app)",
+      "domain": "github.com",
+      "date": "2026-11-11",
+      "timestamp": 1794362771670,
+      "collectedAt": "2026-11-11T02:06:11.670Z",
+      "githubSyncedAt": "2026-11-11T02:06:11.670Z",
+      "sourceLicenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "collectionOrigin": "commerce-public-sources",
+      "externalId": "poster-722"
+    },
+    {
+      "id": "apimodels_gpt_image_2_poster-723",
+      "title": "餐厅厨房招聘",
+      "prompt": "A bold 'NOW HIRING' flyer for the invented restaurant 'Ember & Oak Kitchen.' A dramatic dark background with warm flame-orange glow; a chef's knife and whisk crossed like a crest at the top. Rustic slab-serif reads 'JOIN OUR KITCHEN BRIGADE'; a chalk-panel lists 'Line Cooks · Dishwashers · Servers wanted.' A footer notes 'walk-in interviews Mon–Thu, 2–4pm.' Palette of charcoal, ember orange, cream, deep red. Warm, appetizing, hospitality-industry energy.",
+      "promptZh": "醒目的「NOW HIRING」传单,为虚构餐厅「Ember & Oak Kitchen」而作。戏剧性深色背景带暖火橙光晕;顶部一把厨刀与打蛋器如徽章般交叉。质朴板衬线写着「JOIN OUR KITCHEN BRIGADE」;一块黑板面板列出「Line Cooks · Dishwashers · Servers wanted」。页脚注明「walk-in interviews Mon–Thu, 2–4pm」。配色为炭黑、余烬橙、奶油、深红。温暖、诱人、餐饮业的活力。",
+      "category": "电商视觉",
+      "commerceType": "广告海报",
+      "tags": [
+        "电商视觉",
+        "GPT Image 2",
+        "广告海报",
+        "hiring",
+        "flyer",
+        "restaurant"
+      ],
+      "model": "GPT Image 2",
+      "mediaType": "image",
+      "image": "https://r2.apimodels.app/assets/prompt-gallery/1785128876393_poster-723.png",
+      "images": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785128876393_poster-723.png"
+      ],
+      "rawImages": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785128876393_poster-723.png"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "3:4",
+      "source": "apimodels/gpt-image-2-prompts",
+      "sourceUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#poster-723",
+      "url": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#poster-723",
+      "archiveUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json",
+      "sourceRepository": "apimodels/gpt-image-2-prompts",
+      "license": "CC BY 4.0",
+      "attribution": "API Models (apimodels.app)",
+      "domain": "github.com",
+      "date": "2026-11-11",
+      "timestamp": 1794362771670,
+      "collectedAt": "2026-11-11T02:06:11.670Z",
+      "githubSyncedAt": "2026-11-11T02:06:11.670Z",
+      "sourceLicenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "collectionOrigin": "commerce-public-sources",
+      "externalId": "poster-723"
+    },
+    {
+      "id": "apimodels_gpt_image_2_poster-725",
+      "title": "创意机构招聘",
+      "prompt": "A bold, design-forward hiring poster for the invented agency 'Studio Halcyon.' A big overprinted collage of overlapping geometric shapes in risograph pink and blue on off-white. Oversized condensed type reads 'WANTED: MAKERS & DREAMERS.' Below, small mono-spaced type lists 'Art Director · Copywriter · Motion Designer.' A stamped circle badge reads 'send us your best work.' Palette of riso pink, riso blue, off-white, black. Artsy, confident, creative-studio edge.",
+      "promptZh": "醒目、设计感十足的招聘海报,为虚构机构「Studio Halcyon」而作。米白底上一大幅叠印拼贴:里索印刷粉与蓝的交叠几何形。超大窄字写着「WANTED: MAKERS & DREAMERS」。下方小等宽字列出「Art Director · Copywriter · Motion Designer」。一枚盖章圆徽写着「send us your best work」。配色为里索粉、里索蓝、米白、黑。艺术范、自信、创意工作室的锋芒。",
+      "category": "电商视觉",
+      "commerceType": "广告海报",
+      "tags": [
+        "电商视觉",
+        "GPT Image 2",
+        "广告海报",
+        "hiring",
+        "flyer",
+        "agency"
+      ],
+      "model": "GPT Image 2",
+      "mediaType": "image",
+      "image": "https://r2.apimodels.app/assets/prompt-gallery/1785128896676_poster-725.png",
+      "images": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785128896676_poster-725.png"
+      ],
+      "rawImages": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785128896676_poster-725.png"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "3:4",
+      "source": "apimodels/gpt-image-2-prompts",
+      "sourceUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#poster-725",
+      "url": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#poster-725",
+      "archiveUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json",
+      "sourceRepository": "apimodels/gpt-image-2-prompts",
+      "license": "CC BY 4.0",
+      "attribution": "API Models (apimodels.app)",
+      "domain": "github.com",
+      "date": "2026-11-11",
+      "timestamp": 1794362771670,
+      "collectedAt": "2026-11-11T02:06:11.670Z",
+      "githubSyncedAt": "2026-11-11T02:06:11.670Z",
+      "sourceLicenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "collectionOrigin": "commerce-public-sources",
+      "externalId": "poster-725"
+    },
+    {
+      "id": "apimodels_gpt_image_2_poster-726",
+      "title": "仓储招工传单",
+      "prompt": "A clear, high-visibility hiring flyer for the fictional logistics firm 'PrimeMove Logistics.' A bold safety-yellow and black diagonal-stripe header shouts 'NOW HIRING.' Clean industrial sans lists 'Warehouse Associates & Forklift Operators — $22/hr starting.' Bullet points note 'weekly pay · health benefits · overtime available.' A large arrow and 'apply today' fill the bottom. Palette of safety yellow, black, white, steel grey. Direct, practical, no-nonsense industrial recruitment.",
+      "promptZh": "清晰、高辨识度的招工传单,为虚构物流公司「PrimeMove Logistics」而作。醒目的安全黄与黑斜条纹页眉高喊「NOW HIRING」。干净工业无衬线列出「Warehouse Associates & Forklift Operators — $22/hr starting」。要点注明「weekly pay · health benefits · overtime available」。底部一个大箭头与「apply today」。配色为安全黄、黑、白、钢灰。直接、务实、干脆利落的工业招聘。",
+      "category": "电商视觉",
+      "commerceType": "广告海报",
+      "tags": [
+        "电商视觉",
+        "GPT Image 2",
+        "广告海报",
+        "hiring",
+        "flyer",
+        "warehouse"
+      ],
+      "model": "GPT Image 2",
+      "mediaType": "image",
+      "image": "https://r2.apimodels.app/assets/prompt-gallery/1785128900859_poster-726.png",
+      "images": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785128900859_poster-726.png"
+      ],
+      "rawImages": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785128900859_poster-726.png"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "3:4",
+      "source": "apimodels/gpt-image-2-prompts",
+      "sourceUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#poster-726",
+      "url": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#poster-726",
+      "archiveUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json",
+      "sourceRepository": "apimodels/gpt-image-2-prompts",
+      "license": "CC BY 4.0",
+      "attribution": "API Models (apimodels.app)",
+      "domain": "github.com",
+      "date": "2026-11-11",
+      "timestamp": 1794362771670,
+      "collectedAt": "2026-11-11T02:06:11.670Z",
+      "githubSyncedAt": "2026-11-11T02:06:11.670Z",
+      "sourceLicenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "collectionOrigin": "commerce-public-sources",
+      "externalId": "poster-726"
+    },
+    {
+      "id": "apimodels_gpt_image_2_poster-728",
+      "title": "沙龙发型师招募",
+      "prompt": "An elegant hiring flyer for the fictional salon 'Vellour Hair Studio.' A luxe blush-and-gold background with a fine line-art illustration of scissors and a comb crossed like a monogram. Sophisticated modern serif reads 'JOIN OUR CHAIR — HAIRSTYLIST WANTED.' A gold-foil-look badge notes 'commission + booth rental options.' A footer invites 'portfolio drop-off welcome.' Palette of blush, champagne gold, deep charcoal, ivory. Chic, upscale, beauty-industry refinement.",
+      "promptZh": "优雅的招聘传单,为虚构沙龙「Vellour Hair Studio」而作。奢华腮红与金色背景,一幅精细线描:剪刀与梳子如花押字般交叉。精致现代衬线写着「JOIN OUR CHAIR — HAIRSTYLIST WANTED」。一枚仿金箔徽章注明「commission + booth rental options」。页脚邀请「portfolio drop-off welcome」。配色为腮红、香槟金、深炭、象牙。别致、高端、美业的精致。",
+      "category": "电商视觉",
+      "commerceType": "广告海报",
+      "tags": [
+        "电商视觉",
+        "GPT Image 2",
+        "广告海报",
+        "hiring",
+        "flyer",
+        "salon"
+      ],
+      "model": "GPT Image 2",
+      "mediaType": "image",
+      "image": "https://r2.apimodels.app/assets/prompt-gallery/1785128898741_poster-728.png",
+      "images": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785128898741_poster-728.png"
+      ],
+      "rawImages": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785128898741_poster-728.png"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "3:4",
+      "source": "apimodels/gpt-image-2-prompts",
+      "sourceUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#poster-728",
+      "url": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#poster-728",
+      "archiveUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json",
+      "sourceRepository": "apimodels/gpt-image-2-prompts",
+      "license": "CC BY 4.0",
+      "attribution": "API Models (apimodels.app)",
+      "domain": "github.com",
+      "date": "2026-11-11",
+      "timestamp": 1794362771670,
+      "collectedAt": "2026-11-11T02:06:11.670Z",
+      "githubSyncedAt": "2026-11-11T02:06:11.670Z",
+      "sourceLicenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "collectionOrigin": "commerce-public-sources",
+      "externalId": "poster-728"
+    },
     {
       "id": "apimodels_gpt_image_2_poster-616",
       "title": "玻璃花园展",
