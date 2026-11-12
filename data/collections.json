@@ -1,7 +1,783 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-12T01:54:11.052Z",
+  "updatedAt": "2026-11-12T02:04:56.368Z",
   "collections": [
+    {
+      "id": "x_2119159225364726032",
+      "title": "时尚Lookbook拼贴",
+      "prompt": "Analyze the attached social media profile screenshot: its colors, profile picture, header, bio, post themes, and overall aesthetic. Create a fashion lookbook collage of the same fictional person plus styled object photos that captures the profile's identity.\n\nLayout: vertical 4:5, solid ecru background (#F3EEE4). A clean 3×3 grid of 3:4 tiles centered on the page, with wide outer margins (about 12% of the width) and thin gaps (about 2%). Square corners. Nothing goes into the margins.\n\nPeople: the four corner tiles and the center show the same photorealistic fictional adult with an identical face, hair, and makeup. Don't copy anyone from the screenshot. Each corner uses a bold, cropped angle: an extreme face close-up, a low angle, a high angle, and a body detail. Two diagonal corners sit in real fine-art frames, one thick wood and one ornate gold, with a wide white mat.\n\nCenter: a paper-cutout collage on the ecru background. A full-body cutout of the person, about twice a tile's height, overlaps the tiles above and below. It has a thin white hand-cut outline, a subtle shadow, and a slight tilt. Around it go 3–4 cutout accessories from the outfit, a scrap of colored paper, and a piece of masking tape.\n\nObjects: the four middle-edge tiles hold object photos that reflect the person's job, interests, and lifestyle (a bag, shoes or jewelry flat lays, work tools or favorite things, a motif from the profile). Each shows one small human detail, like fingertips, a sleeve, or a bag strap, never a face. Natural nails.\n\nMakeup: fresh glowing skin, high colored blush, one colored eye accent matching a background color, defined brows, glossy lips.\n\nFashion: five clearly different elevated smart-casual outfits, like a department store ad. Each has one statement piece (two of them patterned), one or two current details, a different accent color, mixed materials, and minimal accessories. No logos.\n\nColors: each photo has a seamless solid background in one of three colors: sage or teal, mustard, and the profile's signature color (deepened if too bright). Split them 3/3/2 across the eight tiles, with no matching tiles next to each other. Nothing childish or neon.\n\nLight: bright, soft, high-key studio light, with real skin and fabric texture, no HDR.\n\nText: one short positive English phrase (2–4 words) in small, thin, spaced-out uppercase serif, centered in the bottom margin. No other text, logos, or UI anywhere.\n\nThe result should feel like an elegant, slightly playful fashion magazine lookbook page.",
+      "category": "电商视觉",
+      "commerceType": "模特展示",
+      "useCase": "模特展示",
+      "tags": [
+        "时尚",
+        "Lookbook",
+        "模特展示"
+      ],
+      "model": "",
+      "mediaType": "image",
+      "image": "https://pbs.twimg.com/media/HWjEFV8XsAAJfmZ.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HWjEFV8XsAAJfmZ.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HWjEFV8XsAAJfmZ.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "4:5",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/icreatelife/status/2119159225364726032",
+      "url": "https://x.com/icreatelife/status/2119159225364726032",
+      "domain": "x.com",
+      "creator": "icreatelife",
+      "date": "2026-11-12",
+      "timestamp": 1794449096368,
+      "collectedAt": "2026-11-12T02:04:56.368Z",
+      "githubSyncedAt": "2026-11-12T02:04:56.368Z"
+    },
+    {
+      "id": "x_2120678702396915795",
+      "title": "风土手作店铺Logo",
+      "prompt": "【风土手作 Logo 提示词】\n品牌名称【填写准确名称】\n主营产品【填写物产或手作产品】\n店铺特色【填写一个工具、制作动作或地方景物】\n主色【填写两到三种颜色】\n为这家店设计一个原创手绘 Logo。围绕主营产品画一个简单的小场景，用指定细节说明它怎么做出来，或来自什么地方。保留少量手工印刷的纹理，搭配容易读清的中文店名。\n竖版 3:4，米白底，构图简洁，适合缩小到包装标签上。只输出一个方案，画面里只放 Logo 和准确的店名。",
+      "category": "电商视觉",
+      "commerceType": "品牌视觉",
+      "useCase": "品牌视觉",
+      "tags": [
+        "Logo",
+        "品牌视觉",
+        "包装标签"
+      ],
+      "model": "",
+      "mediaType": "image",
+      "image": "https://pbs.twimg.com/media/HW4p_xpakAAzPZt.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HW4p_xpakAAzPZt.jpg",
+        "https://pbs.twimg.com/media/HW4p_xtbwAA05-Z.jpg",
+        "https://pbs.twimg.com/media/HW4p_xqbMAA9MxK.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HW4p_xpakAAzPZt.jpg",
+        "https://pbs.twimg.com/media/HW4p_xtbwAA05-Z.jpg",
+        "https://pbs.twimg.com/media/HW4p_xqbMAA9MxK.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "3:4",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/dalidaddyy/status/2120678702396915795",
+      "url": "https://x.com/dalidaddyy/status/2120678702396915795",
+      "domain": "x.com",
+      "creator": "dalidaddyy",
+      "date": "2026-11-12",
+      "timestamp": 1794449096368,
+      "collectedAt": "2026-11-12T02:04:56.368Z",
+      "githubSyncedAt": "2026-11-12T02:04:56.368Z"
+    },
+    {
+      "id": "x_2119947646764998777",
+      "title": "复古旅行T恤网格",
+      "prompt": "2x2 grid, 16:9, do this for 4 underrated European cities:CONCEPT ANCHOR 1: \"Vintage mid-century travel-poster kawaii — flat gouache-on-cream, bubbly rounded chunky forms, no outlines, googly-eye dot-smile faces on inanimate objects, saturated primaries + teal/orange, pictographic elements radiating around a central totem figure, chunky 3D extruded cartoon display type\"\n::\nCONCEPT ANCHOR 2: \"Black-and-white lettermark badge — pure silhouette, knockout white highlights, inflated bubble letters that double as objects, letter counters hold pictographic cutouts, thick uniform outline, dense interlock, screen-print two-tone, punchy sticker energy\"\n::\n\nINSTRUCTION:\nFind the exact visual center of these two concepts.\nTake into account style elements, ignore character traits and topics but capture the essence of the styles.\n\nOUTPUT:\nA vertical seal-style badge poster of $ SUBJECT, rendered in two-tone monochrome (warm off-white cream paper + dense black ink) with exactly ONE flat accent color block allowed per quadrant — tomato red, mustard yellow, or teal-green, used only inside letter counters and on one pictographic chip.\n- $ SUBJECT reduced to a single bold chunky silhouette at center, packed inside a circular badge ring of inflated bubble letters spelling an invented motto derived from $ SUBJECT's identity; letterforms fuse with the silhouette so the letter counters become flat pictographic cutouts of $ SUBJECT-related icons.\n- Decorate the silhouette's surface and the badge ring with small flat googly-eye dot-smile faces on normally inanimate parts — kawaii motif applied directly onto the monochrome badge.\n- No gradients, no shading, no outline weight variation; everything is bounded by color edges only; thick uniform black stroke.\n- Cream paper-grain overlay across the whole badge; one kawaii dot-smile face per major icon, mandatory.\n- Composition: dense self-contained badge lockup, edge-to-edge, symmetrical vertical totem.\n- Result feels like a screen-printed retro tourism seal where the iconic lettermark and the giggling kawaii mascot language are the SAME object — neither layered on top of the other.\n- No photorealism, no perspective, no soft lighting, no midtones, no gray.",
+      "category": "电商视觉",
+      "commerceType": "品牌视觉",
+      "useCase": "品牌视觉",
+      "tags": [
+        "T恤",
+        "旅行海报",
+        "品牌视觉"
+      ],
+      "model": "GPT Image 2.6",
+      "mediaType": "image",
+      "image": "https://pbs.twimg.com/media/HWpVXdLWAAANhIO.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HWpVXdLWAAANhIO.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HWpVXdLWAAANhIO.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "16:9",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/Gdgtify/status/2119947646764998777",
+      "url": "https://x.com/Gdgtify/status/2119947646764998777",
+      "domain": "x.com",
+      "creator": "Gdgtify",
+      "date": "2026-11-12",
+      "timestamp": 1794449096368,
+      "collectedAt": "2026-11-12T02:04:56.368Z",
+      "githubSyncedAt": "2026-11-12T02:04:56.368Z"
+    },
+    {
+      "id": "x_2119286354714521890",
+      "title": "香水瓶中的春日",
+      "prompt": "A beautiful young East Asian woman kneeling inside an enormous transparent crystal perfume bottle, surrounded by delicate pink blossoms and floating flower petals. She wears an exquisite blush-pink couture mini dress with a fitted, floral-embroidered bodice, delicate spaghetti straps, sparkling beadwork, and a voluminous layered organza skirt with soft ruffles.\n\nHer long dark brown hair flows naturally over her shoulders, styled half-up with delicate white floral hairpins, pearl ornaments, and dangling crystal earrings. Holding a small pink peony near her face, she raises her other hand toward the transparent crystal wall, gazing upward with a joyful, dreamy smile.\n\nThe oversized perfume bottle features thick faceted glass edges, a luxurious golden neck, and an elegant oversized translucent pink ribbon wrapped around its top. Pale pink peonies and cherry blossoms fill the bottle's interior, while loose petals drift through the surrounding air.\n\nSet inside a magnificent sunlit conservatory with tall arched windows, ornate white architecture, sparkling chandeliers, and blooming spring flowers. Soft golden morning sunlight streams through the glass, creating beautiful prismatic reflections, pastel rainbow highlights, and delicate sparkling light across the scene.\n\nDreamy luxury perfume campaign photography, whimsical floral fantasy, realistic glass refraction, intricate couture textures, natural skin details, romantic pastel-pink and champagne-gold palette, cinematic wide-angle composition, 35mm lens, soft luminous atmosphere, photorealistic, 16:9 horizontal composition, no text or watermark.",
+      "category": "电商视觉",
+      "commerceType": "广告海报",
+      "useCase": "广告海报",
+      "tags": [
+        "香水",
+        "广告海报",
+        "美妆"
+      ],
+      "model": "",
+      "mediaType": "image",
+      "image": "https://pbs.twimg.com/media/HWk3tGeWAAAv9h2.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HWk3tGeWAAAv9h2.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HWk3tGeWAAAv9h2.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "16:9",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/HuanAIart/status/2119286354714521890",
+      "url": "https://x.com/HuanAIart/status/2119286354714521890",
+      "domain": "x.com",
+      "creator": "HuanAIart",
+      "date": "2026-11-12",
+      "timestamp": 1794449096368,
+      "collectedAt": "2026-11-12T02:04:56.368Z",
+      "githubSyncedAt": "2026-11-12T02:04:56.368Z"
+    },
+    {
+      "id": "x_2119040486602133764",
+      "title": "奢侈地产广告海报",
+      "prompt": "ROLE & OBJECTIVE\n\nYou are the creative director of an international luxury real estate advertising agency. Transform the property photograph I upload into a premium architectural advertising poster.\n\nPROPERTY\n\nPreserve the actual architecture, building proportions, window positions, roof design, materials, and structural features. Do not invent extensions, additional floors, landscaping features, or architectural elements.\n\nSCENE & LIGHTING\n\nPresent the property in beautiful, realistic natural light, preferably during a warm golden hour or sophisticated blue-hour setting. Use believable reflections, balanced exposure, precise perspective, and realistic shadows. Enhance the scene without misrepresenting the property.\n\nLAYOUT\n\nVertical 2:3 property advertisement. Make the building the primary visual. Add an elegant property headline at the top, a short descriptive tagline, and a discreet information section at the bottom containing only verified property details supplied by me.\n\nSTYLE\n\nArchitectural Digest-inspired photography, restrained luxury, natural materials, polished typography, neutral colours, and generous negative space.\n\nOUTPUT\n\nOne finished high-end real estate poster suitable for a premium property campaign. Maintain architectural accuracy and realistic photographic detail. No invented property features, exaggerated skies, unnecessary effects, or fabricated pricing.",
+      "category": "电商视觉",
+      "commerceType": "广告海报",
+      "useCase": "广告海报",
+      "tags": [
+        "地产",
+        "广告海报",
+        "奢侈"
+      ],
+      "model": "",
+      "mediaType": "image",
+      "image": "https://pbs.twimg.com/media/HWhXQT2W4AAxcGv.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HWhXQT2W4AAxcGv.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HWhXQT2W4AAxcGv.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "4:5",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/TawohAwa/status/2119040486602133764",
+      "url": "https://x.com/TawohAwa/status/2119040486602133764",
+      "domain": "x.com",
+      "creator": "TawohAwa",
+      "date": "2026-11-12",
+      "timestamp": 1794449096368,
+      "collectedAt": "2026-11-12T02:04:56.368Z",
+      "githubSyncedAt": "2026-11-12T02:04:56.368Z"
+    },
+    {
+      "id": "x_2119587469951967656",
+      "title": "下颌旁奢侈香水广告",
+      "prompt": "Create a high-end luxury perfume advertisement in a vertical smartphone-friendly editorial layout. Show a close-up, cropped portrait of an elegant woman from the back-left side, with only the lower half of her face and shoulder area visible, her head turned slightly away so her ear, jawline, neck, and shoulder are prominent while the upper face is mostly out of frame. Her hair is styled in a soft, voluminous brunette updo with loose, polished strands. She wears a silky ivory spaghetti-strap slip dress. Her skin is luminous with warm, diffused highlights. In one hand she delicately holds a rectangular glass perfume bottle near her neck and collarbone, fingers graceful and refined. The bottle contains pale golden liquid, has a faceted transparent cap, and a cream square label that reads {argument name=\"brand name\" default=\"LUMIÈRE\"} with smaller text below reading \"EAU DE PARFUM\". Use a minimalist fine-art beauty campaign aesthetic with soft beige, champagne, ivory, and blush tones, bright natural studio lighting, gentle shadows, shallow depth of field, crisp glass reflections, and a clean off-white background. Leave generous negative space on the right side for ad copy. Add elegant serif headline text on the right in a muted taupe color, split across 3 lines reading {argument name=\"headline text\" default=\"A scent that lingers in silence.\"}. Include a subtle premium fashion-magazine feel, ultra-realistic skin texture, luxury product photography, and polished commercial beauty retouching.",
+      "category": "电商视觉",
+      "commerceType": "广告海报",
+      "useCase": "广告海报",
+      "tags": [
+        "香水",
+        "广告海报",
+        "美妆"
+      ],
+      "model": "gpt-image-2",
+      "mediaType": "image",
+      "image": "https://pbs.twimg.com/media/HWpJkGQaMAA4oHa.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HWpJkGQaMAA4oHa.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HWpJkGQaMAA4oHa.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "2:3",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/ColorWolf2006/status/2119587469951967656",
+      "url": "https://x.com/ColorWolf2006/status/2119587469951967656",
+      "domain": "x.com",
+      "creator": "ColorWolf2006",
+      "date": "2026-11-12",
+      "timestamp": 1794449096368,
+      "collectedAt": "2026-11-12T02:04:56.368Z",
+      "githubSyncedAt": "2026-11-12T02:04:56.368Z"
+    },
+    {
+      "id": "x_2118486266945646903",
+      "title": "铝壳耳机微距广告",
+      "prompt": "10-second commercial shoot, 16:9 anamorphic. 0-3s: Extreme macro lens highlights the precision CNC-milled acoustic ports on the brushed aluminum earcups. 3-7s: Slow panning shot reveals the plush protein-leather ear cushions and seamless sliding adjustment arms. 7-10s: Clean, symmetrical hero product lockup against a soft-focus charcoal grey background.",
+      "category": "电商视觉",
+      "commerceType": "电商视频",
+      "useCase": "电商视频",
+      "tags": [
+        "耳机",
+        "电商视频",
+        "产品广告"
+      ],
+      "model": "",
+      "mediaType": "video",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2116840511306670080/img/YtS91OmYzWYNGLNy.jpg",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2116840511306670080/img/YtS91OmYzWYNGLNy.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/amplify_video_thumb/2116840511306670080/img/YtS91OmYzWYNGLNy.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "16:9",
+      "videoPoster": "https://pbs.twimg.com/amplify_video_thumb/2116840511306670080/img/YtS91OmYzWYNGLNy.jpg",
+      "videoUrl": "https://video.twimg.com/amplify_video/2116840511306670080/vid/avc1/1280x720/hIFb65-YeTYatGG8.mp4",
+      "videoSourceUrl": "https://video.twimg.com/amplify_video/2116840511306670080/vid/avc1/1280x720/hIFb65-YeTYatGG8.mp4",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/SethAIGC/status/2118486266945646903",
+      "url": "https://x.com/SethAIGC/status/2118486266945646903",
+      "domain": "x.com",
+      "creator": "SethAIGC",
+      "date": "2026-11-12",
+      "timestamp": 1794449096368,
+      "collectedAt": "2026-11-12T02:04:56.368Z",
+      "githubSyncedAt": "2026-11-12T02:04:56.368Z"
+    },
+    {
+      "id": "x_2120537862856691787",
+      "title": "山间围栏毛线帽主图",
+      "prompt": "Subject and action: a single chunky rib-knit wool beanie in [rust orange], with a folded cuff and a small cream woven label stitched on the front of the cuff that reads \"SERRAFIO\" in simple dark brown capital letters. SERRAFIO is a made-up brand. The beanie sits upright on top of a weathered wooden fence post, holding its shape.\nSetting: a mountain pasture in [Serra da Mantiqueira] at early morning, a split-rail wooden fence running away from camera toward the beanie, tall araucaria pine trees soft in the background, low white mist in the valley behind, frost on the short grass.\nCamera: low FPV perspective, 24mm wide lens, about 40 cm above the top fence rail, 2 meters from the beanie, looking along the rail straight at it.\nLighting: cool blue morning light with a warm 3500K sun just rising from camera left, rim light on the wool fibers, soft glow in the mist.\nComposition: vertical 9:16, beanie centered in the middle third, fence rail leading toward it from the lower third, mist and araucaria silhouettes filling the upper third.\nMaterials and textures: thick ribbed wool with visible loose fibers, tight woven label edges, rough gray weathered wood with lichen, white frost crystals on grass.\nColor grade and film look: rust orange against cool blue gray and pine green, cream label, rich blacks, cinematic film look, fine grain.\nMood: quiet cold morning, a warm handmade object waiting to be worn.\nRealism details: a few wool fibers catching the sun, tiny frost on the fence rail, faint mist drifting between trees, label stitched slightly off straight.\nAspect ratio and settings: 9:16 vertical, photorealistic, the only text is the SERRAFIO label.\nAvoid: any other logo or text, a second beanie, misspelled label, warped knit pattern, cartoon look, oversaturation, camera brand text.",
+      "category": "电商视觉",
+      "commerceType": "场景种草",
+      "useCase": "场景种草",
+      "tags": [
+        "帽类",
+        "产品主图",
+        "场景种草"
+      ],
+      "model": "GPT Image 2.6 Flare",
+      "mediaType": "image",
+      "image": "https://pbs.twimg.com/media/HW2pPP2WwAAbtYx.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HW2pPP2WwAAbtYx.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HW2pPP2WwAAbtYx.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "9:16",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/leoverstand/status/2120537862856691787",
+      "url": "https://x.com/leoverstand/status/2120537862856691787",
+      "domain": "x.com",
+      "creator": "leoverstand",
+      "date": "2026-11-12",
+      "timestamp": 1794449096368,
+      "collectedAt": "2026-11-12T02:04:56.368Z",
+      "githubSyncedAt": "2026-11-12T02:04:56.368Z"
+    },
+    {
+      "id": "apimodels_gpt_image_2_poster-719",
+      "title": "加入我们传单",
+      "prompt": "A modern 'WE'RE HIRING' recruitment flyer for the invented startup 'Brightloop Studio.' A friendly flat-illustration scene of diverse abstract figures collaborating around a glowing lightbulb. Bold cheerful sans reads 'WE'RE HIRING — JOIN OUR TEAM'; role tags in rounded pills list 'Product Designer · Frontend Dev · Marketer.' A dotted arrow points to a fake QR-style square labeled 'apply here.' Palette of coral, teal, sunny yellow, white. Warm, inviting, upbeat startup culture.",
+      "promptZh": "现代「WE'RE HIRING」招聘传单,为虚构初创公司「Brightloop Studio」而作。一幅友好的平面插画场景:多元抽象人物围绕发光灯泡协作。粗壮欢快无衬线写着「WE'RE HIRING — JOIN OUR TEAM」;圆润药丸标签列出职位「Product Designer · Frontend Dev · Marketer」。一条虚线箭头指向标注「apply here」的仿二维码方块。配色为珊瑚、青、明黄、白。温暖、诱人、积极向上的初创文化。",
+      "category": "电商视觉",
+      "commerceType": "广告海报",
+      "tags": [
+        "电商视觉",
+        "GPT Image 2",
+        "广告海报",
+        "hiring",
+        "flyer",
+        "startup"
+      ],
+      "model": "GPT Image 2",
+      "mediaType": "image",
+      "image": "https://r2.apimodels.app/assets/prompt-gallery/1785128864997_poster-719.png",
+      "images": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785128864997_poster-719.png"
+      ],
+      "rawImages": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785128864997_poster-719.png"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "3:4",
+      "source": "apimodels/gpt-image-2-prompts",
+      "sourceUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#poster-719",
+      "url": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#poster-719",
+      "archiveUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json",
+      "sourceRepository": "apimodels/gpt-image-2-prompts",
+      "license": "CC BY 4.0",
+      "sourceLicenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "attribution": "API Models (apimodels.app)",
+      "domain": "github.com",
+      "externalId": "poster-719",
+      "collectionOrigin": "commerce-public-sources",
+      "date": "2026-11-12",
+      "timestamp": 1794449096368,
+      "collectedAt": "2026-11-12T02:04:56.368Z",
+      "githubSyncedAt": "2026-11-12T02:04:56.368Z"
+    },
+    {
+      "id": "apimodels_gpt_image_2_poster-724",
+      "title": "公益招募志愿者",
+      "prompt": "A warm community recruitment flyer for the fictional nonprofit 'Green Roots Collective.' A hopeful flat illustration of hands planting a young tree under a soft sunrise. Friendly humanist sans reads 'VOLUNTEERS WANTED — GROW WITH US.' A leaf-shaped badge lists 'weekend planting days · community garden · no experience needed.' A footer invites 'sign up at the info table.' Palette of leaf green, sky blue, warm sand, cream. Heartfelt, communal, purpose-driven positivity.",
+      "promptZh": "温暖的社区招募传单,为虚构公益组织「Green Roots Collective」而作。一幅充满希望的平面插画:双手在柔和日出下栽种小树。友好人文无衬线写着「VOLUNTEERS WANTED — GROW WITH US」。一枚叶形徽章列出「weekend planting days · community garden · no experience needed」。页脚邀请「sign up at the info table」。配色为叶绿、天蓝、暖沙、奶油。真挚、社群感、使命驱动的正能量。",
+      "category": "电商视觉",
+      "commerceType": "广告海报",
+      "tags": [
+        "电商视觉",
+        "GPT Image 2",
+        "广告海报",
+        "hiring",
+        "flyer",
+        "nonprofit"
+      ],
+      "model": "GPT Image 2",
+      "mediaType": "image",
+      "image": "https://r2.apimodels.app/assets/prompt-gallery/1785128902257_poster-724.png",
+      "images": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785128902257_poster-724.png"
+      ],
+      "rawImages": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785128902257_poster-724.png"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "3:4",
+      "source": "apimodels/gpt-image-2-prompts",
+      "sourceUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#poster-724",
+      "url": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#poster-724",
+      "archiveUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json",
+      "sourceRepository": "apimodels/gpt-image-2-prompts",
+      "license": "CC BY 4.0",
+      "sourceLicenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "attribution": "API Models (apimodels.app)",
+      "domain": "github.com",
+      "externalId": "poster-724",
+      "collectionOrigin": "commerce-public-sources",
+      "date": "2026-11-12",
+      "timestamp": 1794449096368,
+      "collectedAt": "2026-11-12T02:04:56.368Z",
+      "githubSyncedAt": "2026-11-12T02:04:56.368Z"
+    },
+    {
+      "id": "apimodels_gpt_image_2_poster-727",
+      "title": "夏令营辅导员",
+      "prompt": "A playful summer-camp recruitment flyer for the fictional 'Camp Willow Creek.' A hand-drawn scene of pine trees, a canoe on a lake, and a campfire under a starry evening sky. Bouncy varsity-style lettering reads 'CAMP COUNSELORS WANTED'; a wooden-sign badge lists 'June–August · lakeside cabins · make summer magic.' A footer notes 'applications open now.' Palette of forest green, lake blue, campfire orange, cream. Nostalgic, cheerful, outdoorsy adventure spirit.",
+      "promptZh": "俏皮的夏令营招募传单,为虚构的「Camp Willow Creek」而作。一幅手绘场景:松树、湖上独木舟、星空夜幕下的营火。跳动的校队风格字写着「CAMP COUNSELORS WANTED」;一枚木牌造型徽章列出「June–August · lakeside cabins · make summer magic」。页脚注明「applications open now」。配色为森林绿、湖蓝、营火橙、奶油。怀旧、欢快、户外冒险的精神。",
+      "category": "电商视觉",
+      "commerceType": "广告海报",
+      "tags": [
+        "电商视觉",
+        "GPT Image 2",
+        "广告海报",
+        "hiring",
+        "flyer",
+        "camp"
+      ],
+      "model": "GPT Image 2",
+      "mediaType": "image",
+      "image": "https://r2.apimodels.app/assets/prompt-gallery/1785128902358_poster-727.png",
+      "images": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785128902358_poster-727.png"
+      ],
+      "rawImages": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785128902358_poster-727.png"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "3:4",
+      "source": "apimodels/gpt-image-2-prompts",
+      "sourceUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#poster-727",
+      "url": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#poster-727",
+      "archiveUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json",
+      "sourceRepository": "apimodels/gpt-image-2-prompts",
+      "license": "CC BY 4.0",
+      "sourceLicenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "attribution": "API Models (apimodels.app)",
+      "domain": "github.com",
+      "externalId": "poster-727",
+      "collectionOrigin": "commerce-public-sources",
+      "date": "2026-11-12",
+      "timestamp": 1794449096368,
+      "collectedAt": "2026-11-12T02:04:56.368Z",
+      "githubSyncedAt": "2026-11-12T02:04:56.368Z"
+    },
+    {
+      "id": "apimodels_gpt_image_2_poster-668",
+      "title": "轨道发射太空博览会",
+      "prompt": "Inspiring aerospace conference poster for 'ORBITLAUNCH SPACE EXPO', a commercial-space and exploration summit at Skyport Center, June 12-14. Hero: a sleek fictional rocket ascending on a plume of light through wispy clouds toward a star-filled sky, an orbital station and glowing blue Earth curve on the horizon. Composition: rocket rising diagonally from bottom, cosmic horizon above, confident modern geometric sans title at the top, tracks and speakers in a clean grid below. Palette: deep space navy, rocket-plume orange, cosmic violet, Earth-glow cyan, white. Sleek aspirational glow, cinematic space clarity, premium futuristic polish. Registration and venue at the base. Mood: inspiring, ambitious, visionary, expansive.",
+      "promptZh": "鼓舞人心的航天大会海报,标题「轨道发射太空博览会 ORBITLAUNCH SPACE EXPO」,天港中心商业航天与探索峰会,6月12至14日。主视觉:一枚流线型虚构火箭乘着一道光焰穿过缕缕云层、飞向繁星密布的天空,地平线上有一座轨道空间站与发光的蓝色地球弧线。构图:火箭从底部斜向升起,宇宙地平线在上,自信的现代几何无衬线体标题置于顶部,分论坛与讲者以干净网格列于下方。配色:深空藏青、火箭尾焰橙、宇宙紫罗兰、地球辉光青、白。流线进取的辉光、电影般的太空通透、高端未来精致感。底部有报名与场馆。氛围:鼓舞、雄心、有远见、辽阔。",
+      "category": "电商视觉",
+      "commerceType": "广告海报",
+      "tags": [
+        "电商视觉",
+        "GPT Image 2",
+        "广告海报",
+        "conference",
+        "aerospace",
+        "space",
+        "futuristic"
+      ],
+      "model": "GPT Image 2",
+      "mediaType": "image",
+      "image": "https://r2.apimodels.app/assets/prompt-gallery/1785128669211_poster-668.png",
+      "images": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785128669211_poster-668.png"
+      ],
+      "rawImages": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785128669211_poster-668.png"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "2:3",
+      "source": "apimodels/gpt-image-2-prompts",
+      "sourceUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#poster-668",
+      "url": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#poster-668",
+      "archiveUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json",
+      "sourceRepository": "apimodels/gpt-image-2-prompts",
+      "license": "CC BY 4.0",
+      "sourceLicenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "attribution": "API Models (apimodels.app)",
+      "domain": "github.com",
+      "externalId": "poster-668",
+      "collectionOrigin": "commerce-public-sources",
+      "date": "2026-11-12",
+      "timestamp": 1794449096368,
+      "collectedAt": "2026-11-12T02:04:56.368Z",
+      "githubSyncedAt": "2026-11-12T02:04:56.368Z"
+    },
+    {
+      "id": "apimodels_gpt_image_2_poster-706",
+      "title": "复古滑雪胜地",
+      "prompt": "A vintage winter-sports travel poster for the invented resort 'GLACIER PLATEAU.' A stylized skier carves down a bright white slope under crisp blue skies and geometric snowy peaks, a plume of powder trailing behind. Bold condensed deco caps arc across the top; a small crest reads 'winter season.' Flat lithograph blocks, subtle grain. Palette of ice blue, crimson, white, warm cream. Crisp, energetic, alpine mid-century glamour.",
+      "promptZh": "复古冬季运动旅行海报,为虚构度假地「GLACIER PLATEAU」而作。一位风格化滑雪者在清爽蓝天与几何雪峰下沿明亮雪坡切下,身后拖着一缕粉雪。粗壮窄装饰艺术大写字沿顶部弧排;一枚小徽章写着「winter season」。平面石版块色,微妙颗粒。配色为冰蓝、绯红、白、暖奶油。清爽、有活力、阿尔卑斯中世纪魅力。",
+      "category": "电商视觉",
+      "commerceType": "广告海报",
+      "tags": [
+        "电商视觉",
+        "GPT Image 2",
+        "广告海报",
+        "vintage",
+        "travel",
+        "winter"
+      ],
+      "model": "GPT Image 2",
+      "mediaType": "image",
+      "image": "https://r2.apimodels.app/assets/prompt-gallery/1785128814740_poster-706.png",
+      "images": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785128814740_poster-706.png"
+      ],
+      "rawImages": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785128814740_poster-706.png"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "2:3",
+      "source": "apimodels/gpt-image-2-prompts",
+      "sourceUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#poster-706",
+      "url": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#poster-706",
+      "archiveUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json",
+      "sourceRepository": "apimodels/gpt-image-2-prompts",
+      "license": "CC BY 4.0",
+      "sourceLicenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "attribution": "API Models (apimodels.app)",
+      "domain": "github.com",
+      "externalId": "poster-706",
+      "collectionOrigin": "commerce-public-sources",
+      "date": "2026-11-12",
+      "timestamp": 1794449096368,
+      "collectedAt": "2026-11-12T02:04:56.368Z",
+      "githubSyncedAt": "2026-11-12T02:04:56.368Z"
+    },
+    {
+      "id": "apimodels_gpt_image_2_poster-707",
+      "title": "葡萄园乡野",
+      "prompt": "A retro travel poster for the fictional wine region 'VAL DORINE.' Rolling terraced vineyards recede in warm golden bands under a low amber sun, a stone farmhouse and cypress trees dotting the hills. Elegant vintage serif title curves at top; a small ribbon reads 'harvest festival.' Soft grain, flat sun-warmed blocks. Palette of golden ochre, olive green, wine red, cream. Warm, pastoral, romantic countryside nostalgia.",
+      "promptZh": "复古旅行海报,为虚构葡萄酒产区「VAL DORINE」而作。层叠梯田葡萄园在低垂琥珀色太阳下以暖金色带退向远方,石砌农舍与柏树点缀山丘。优雅复古衬线标题在顶部弯排;一条小丝带写着「harvest festival」。柔和颗粒,平涂的阳光暖块。配色为金赭、橄榄绿、酒红、奶油。温暖、田园、浪漫的乡野怀旧。",
+      "category": "电商视觉",
+      "commerceType": "广告海报",
+      "tags": [
+        "电商视觉",
+        "GPT Image 2",
+        "广告海报",
+        "vintage",
+        "travel",
+        "countryside"
+      ],
+      "model": "GPT Image 2",
+      "mediaType": "image",
+      "image": "https://r2.apimodels.app/assets/prompt-gallery/1785128830596_poster-707.png",
+      "images": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785128830596_poster-707.png"
+      ],
+      "rawImages": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785128830596_poster-707.png"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "2:3",
+      "source": "apimodels/gpt-image-2-prompts",
+      "sourceUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#poster-707",
+      "url": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#poster-707",
+      "archiveUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json",
+      "sourceRepository": "apimodels/gpt-image-2-prompts",
+      "license": "CC BY 4.0",
+      "sourceLicenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "attribution": "API Models (apimodels.app)",
+      "domain": "github.com",
+      "externalId": "poster-707",
+      "collectionOrigin": "commerce-public-sources",
+      "date": "2026-11-12",
+      "timestamp": 1794449096368,
+      "collectedAt": "2026-11-12T02:04:56.368Z",
+      "githubSyncedAt": "2026-11-12T02:04:56.368Z"
+    },
+    {
+      "id": "apimodels_gpt_image_2_poster-705",
+      "title": "远洋邮轮航行",
+      "prompt": "An art-deco ocean-liner travel poster for the fictional line 'AURELIA CROSSINGS.' A colossal steamship cuts diagonally across the sheet, twin funnels trailing stylized smoke, seen from a low heroic angle. Bold geometric deco lettering spells the line name; a small banner reads 'to the New World in five days.' Metallic gold accents, flat two-tone sea. Palette of navy, gold, cream, teal. Opulent, streamlined, 1930s luxury-travel grandeur.",
+      "promptZh": "装饰艺术风格的远洋邮轮旅行海报,为虚构船运公司「AURELIA CROSSINGS」而作。一艘巨型蒸汽船以低视角英雄式构图斜切过画面,双烟囱拖曳风格化烟雾。粗壮几何装饰艺术字拼出公司名;一条小横幅写着「to the New World in five days」。金属金点缀,平涂双色海面。配色为藏青、金、奶油、青。奢华、流线、1930年代豪华旅行的恢弘。",
+      "category": "电商视觉",
+      "commerceType": "广告海报",
+      "tags": [
+        "电商视觉",
+        "GPT Image 2",
+        "广告海报",
+        "vintage",
+        "travel",
+        "art-deco"
+      ],
+      "model": "GPT Image 2",
+      "mediaType": "image",
+      "image": "https://r2.apimodels.app/assets/prompt-gallery/1785128894741_poster-705.png",
+      "images": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785128894741_poster-705.png"
+      ],
+      "rawImages": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785128894741_poster-705.png"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "2:3",
+      "source": "apimodels/gpt-image-2-prompts",
+      "sourceUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#poster-705",
+      "url": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#poster-705",
+      "archiveUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json",
+      "sourceRepository": "apimodels/gpt-image-2-prompts",
+      "license": "CC BY 4.0",
+      "sourceLicenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "attribution": "API Models (apimodels.app)",
+      "domain": "github.com",
+      "externalId": "poster-705",
+      "collectionOrigin": "commerce-public-sources",
+      "date": "2026-11-12",
+      "timestamp": 1794449096368,
+      "collectedAt": "2026-11-12T02:04:56.368Z",
+      "githubSyncedAt": "2026-11-12T02:04:56.368Z"
+    },
+    {
+      "id": "apimodels_gpt_image_2_poster-702",
+      "title": "热带岛屿海报",
+      "prompt": "A retro airline travel poster promoting the invented destination 'ISLA CORVELA.' A propeller plane banks over a lush volcanic island ringed by reef-blue lagoons, palm fronds framing the corners. Elegant vintage sans caps spell the name; a small winged badge reads 'Trans-Pacific Air.' Flat lithograph color, subtle grain, soft sun haze. Palette of jade green, sky blue, coral, ivory. Exotic, glamorous, 1950s jet-age travel optimism.",
+      "promptZh": "复古航空旅行海报,推介虚构目的地「ISLA CORVELA」。一架螺旋桨飞机倾侧飞越被礁蓝潟湖环绕的葱郁火山岛,棕榈叶框住四角。优雅的复古无衬线大写字拼出岛名;一枚小翼徽写着「Trans-Pacific Air」。平面石版印刷色彩,微妙颗粒,柔和阳光薄雾。配色为翡翠绿、天蓝、珊瑚、象牙。异域、迷人、1950年代喷气时代的旅行乐观。",
+      "category": "电商视觉",
+      "commerceType": "广告海报",
+      "tags": [
+        "电商视觉",
+        "GPT Image 2",
+        "广告海报",
+        "vintage",
+        "travel",
+        "airline"
+      ],
+      "model": "GPT Image 2",
+      "mediaType": "image",
+      "image": "https://r2.apimodels.app/assets/prompt-gallery/1785128792410_poster-702.png",
+      "images": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785128792410_poster-702.png"
+      ],
+      "rawImages": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785128792410_poster-702.png"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "2:3",
+      "source": "apimodels/gpt-image-2-prompts",
+      "sourceUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#poster-702",
+      "url": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#poster-702",
+      "archiveUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json",
+      "sourceRepository": "apimodels/gpt-image-2-prompts",
+      "license": "CC BY 4.0",
+      "sourceLicenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "attribution": "API Models (apimodels.app)",
+      "domain": "github.com",
+      "externalId": "poster-702",
+      "collectionOrigin": "commerce-public-sources",
+      "date": "2026-11-12",
+      "timestamp": 1794449096368,
+      "collectedAt": "2026-11-12T02:04:56.368Z",
+      "githubSyncedAt": "2026-11-12T02:04:56.368Z"
+    },
+    {
+      "id": "apimodels_gpt_image_2_poster-700",
+      "title": "里维埃拉海滩",
+      "prompt": "A retro seaside travel poster for the invented resort town 'PORTO SELENE.' A striped beach umbrella, a curved white promenade, and turquoise water rendered in flat gouache-style blocks under a hot coral sun. The town name is set in a rounded 1950s script across the sky. A small ribbon banner reads 'the sunlit coast.' Palette of turquoise, coral, sand, cream. Cheerful mid-century travel-brochure warmth, sun-faded charm.",
+      "promptZh": "复古海滨旅行海报,为虚构度假小镇「PORTO SELENE」而作。条纹沙滩伞、弯曲的白色海滨步道、以平涂水粉风格块面呈现的绿松石海水,都沐浴在炽热珊瑚色太阳下。镇名以圆润的1950年代手写体横越天空。一条小丝带横幅写着「the sunlit coast.」。配色为绿松石、珊瑚、沙、奶油。愉悦的中世纪旅行手册般的温暖,阳光褪色的魅力。",
+      "category": "电商视觉",
+      "commerceType": "广告海报",
+      "tags": [
+        "电商视觉",
+        "GPT Image 2",
+        "广告海报",
+        "vintage",
+        "travel",
+        "seaside"
+      ],
+      "model": "GPT Image 2",
+      "mediaType": "image",
+      "image": "https://r2.apimodels.app/assets/prompt-gallery/1785128783414_poster-700.png",
+      "images": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785128783414_poster-700.png"
+      ],
+      "rawImages": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785128783414_poster-700.png"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "2:3",
+      "source": "apimodels/gpt-image-2-prompts",
+      "sourceUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#poster-700",
+      "url": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#poster-700",
+      "archiveUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json",
+      "sourceRepository": "apimodels/gpt-image-2-prompts",
+      "license": "CC BY 4.0",
+      "sourceLicenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "attribution": "API Models (apimodels.app)",
+      "domain": "github.com",
+      "externalId": "poster-700",
+      "collectionOrigin": "commerce-public-sources",
+      "date": "2026-11-12",
+      "timestamp": 1794449096368,
+      "collectedAt": "2026-11-12T02:04:56.368Z",
+      "githubSyncedAt": "2026-11-12T02:04:56.368Z"
+    },
+    {
+      "id": "apimodels_gpt_image_2_poster-699",
+      "title": "阿尔卑斯铁道旅行",
+      "prompt": "A vintage travel poster in 1930s railway style advertising 'VISIT MONT AVELINE.' A stylized cog railway climbs snow-capped peaks under a graduated sky of teal to gold. Bold streamlined art-deco lettering arcs across the top; a small crest reads 'Northern Alpine Line.' Flat screen-print color separations, subtle paper aging, sharp geometric mountains. Palette of teal, cream, warm gold, deep navy. Nostalgic, elegant, golden-age-of-travel romance.",
+      "promptZh": "1930年代铁路风格的复古旅行海报,宣传「VISIT MONT AVELINE」。一列风格化齿轨列车在青金渐变天空下攀登雪峰。粗壮流线型装饰艺术字沿顶部弧排;一枚小徽章写着「Northern Alpine Line」。平面丝网印刷分色,微妙纸张做旧,锐利几何山峰。配色为青、奶油、暖金、深藏青。怀旧、优雅、旅行黄金时代的浪漫。",
+      "category": "电商视觉",
+      "commerceType": "广告海报",
+      "tags": [
+        "电商视觉",
+        "GPT Image 2",
+        "广告海报",
+        "vintage",
+        "travel",
+        "art-deco"
+      ],
+      "model": "GPT Image 2",
+      "mediaType": "image",
+      "image": "https://r2.apimodels.app/assets/prompt-gallery/1785128773237_poster-699.png",
+      "images": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785128773237_poster-699.png"
+      ],
+      "rawImages": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785128773237_poster-699.png"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "2:3",
+      "source": "apimodels/gpt-image-2-prompts",
+      "sourceUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#poster-699",
+      "url": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#poster-699",
+      "archiveUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json",
+      "sourceRepository": "apimodels/gpt-image-2-prompts",
+      "license": "CC BY 4.0",
+      "sourceLicenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "attribution": "API Models (apimodels.app)",
+      "domain": "github.com",
+      "externalId": "poster-699",
+      "collectionOrigin": "commerce-public-sources",
+      "date": "2026-11-12",
+      "timestamp": 1794449096368,
+      "collectedAt": "2026-11-12T02:04:56.368Z",
+      "githubSyncedAt": "2026-11-12T02:04:56.368Z"
+    },
+    {
+      "id": "apimodels_gpt_image_2_poster-704",
+      "title": "国家公园海报",
+      "prompt": "A classic WPA-style national park travel poster for the invented 'CEDAR HOLLOW PARK.' A towering waterfall plunges between granite cliffs into a pine valley, an elk silhouette on a foreground ridge. Screen-print flat colors with bold shadow shapes. Sturdy block-serif title arcs at top; a ranger badge reads 'Est. 1938.' Palette of forest green, slate blue, warm tan, cream. Grand, adventurous, heritage-poster craftsmanship.",
+      "promptZh": "经典WPA风格的国家公园旅行海报,为虚构的「CEDAR HOLLOW PARK」而作。一道高耸瀑布在花岗岩峭壁间倾泻入松林山谷,前景山脊上一头麋鹿剪影。丝网印刷平色配醒目阴影块面。厚实块衬线标题在顶部弧排;一枚护林员徽章写着「Est. 1938」。配色为森林绿、石板蓝、暖褐、奶油。宏伟、冒险、传承海报的工艺感。",
+      "category": "电商视觉",
+      "commerceType": "广告海报",
+      "tags": [
+        "电商视觉",
+        "GPT Image 2",
+        "广告海报",
+        "vintage",
+        "travel",
+        "national-park"
+      ],
+      "model": "GPT Image 2",
+      "mediaType": "image",
+      "image": "https://r2.apimodels.app/assets/prompt-gallery/1785128817343_poster-704.png",
+      "images": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785128817343_poster-704.png"
+      ],
+      "rawImages": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785128817343_poster-704.png"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "2:3",
+      "source": "apimodels/gpt-image-2-prompts",
+      "sourceUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#poster-704",
+      "url": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#poster-704",
+      "archiveUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json",
+      "sourceRepository": "apimodels/gpt-image-2-prompts",
+      "license": "CC BY 4.0",
+      "sourceLicenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "attribution": "API Models (apimodels.app)",
+      "domain": "github.com",
+      "externalId": "poster-704",
+      "collectionOrigin": "commerce-public-sources",
+      "date": "2026-11-12",
+      "timestamp": 1794449096368,
+      "collectedAt": "2026-11-12T02:04:56.368Z",
+      "githubSyncedAt": "2026-11-12T02:04:56.368Z"
+    },
+    {
+      "id": "apimodels_gpt_image_2_poster-701",
+      "title": "沙漠公路风",
+      "prompt": "A vintage American road-trip travel poster for the fictional 'RED MESA HIGHWAY.' A long empty desert road recedes to a horizon of layered orange-and-purple buttes under a big graphic sun with radiating rays. Chunky retro serif lettering across the top; a small route shield reads 'Scenic Byway 12.' Halftone dot shading, aged cream borders. Palette of burnt orange, dusty purple, ochre, cream. Warm, adventurous, mid-century Americana nostalgia.",
+      "promptZh": "复古美式公路旅行海报,为虚构的「RED MESA HIGHWAY」而作。一条空旷长路退向由橙紫层叠方山构成的地平线,大幅图形化太阳射出放射状光线。粗壮复古衬线字横排于顶部;一枚小公路盾牌写着「Scenic Byway 12」。半调网点阴影,做旧奶油边框。配色为烧橙、灰紫、赭石、奶油。温暖、冒险、中世纪美式怀旧。",
+      "category": "电商视觉",
+      "commerceType": "广告海报",
+      "tags": [
+        "电商视觉",
+        "GPT Image 2",
+        "广告海报",
+        "vintage",
+        "travel",
+        "americana"
+      ],
+      "model": "GPT Image 2",
+      "mediaType": "image",
+      "image": "https://r2.apimodels.app/assets/prompt-gallery/1785128782537_poster-701.png",
+      "images": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785128782537_poster-701.png"
+      ],
+      "rawImages": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785128782537_poster-701.png"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "2:3",
+      "source": "apimodels/gpt-image-2-prompts",
+      "sourceUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#poster-701",
+      "url": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#poster-701",
+      "archiveUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json",
+      "sourceRepository": "apimodels/gpt-image-2-prompts",
+      "license": "CC BY 4.0",
+      "sourceLicenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "attribution": "API Models (apimodels.app)",
+      "domain": "github.com",
+      "externalId": "poster-701",
+      "collectionOrigin": "commerce-public-sources",
+      "date": "2026-11-12",
+      "timestamp": 1794449096368,
+      "collectedAt": "2026-11-12T02:04:56.368Z",
+      "githubSyncedAt": "2026-11-12T02:04:56.368Z"
+    },
     {
       "id": "apimodels_gpt_image_2_poster-637",
       "title": "铁径马拉松",
