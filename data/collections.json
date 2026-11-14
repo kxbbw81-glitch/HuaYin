@@ -1,7 +1,51 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T08:09:39.752Z",
+  "updatedAt": "2026-11-14T00:53:17.040Z",
   "collections": [
+    {
+      "id": "apimodels_gpt_image_2_poster-692",
+      "title": "包豪斯字体芭蕾",
+      "prompt": "A Bauhaus theatre poster announcing 'MECHANIK BALLET' in stacked geometric caps, letters constructed from perfect circles and straight strokes. A large half-red half-black circle sits behind the title. Thin concentric arcs and a lone yellow bar radiate outward. Everything aligns to an implied diagonal axis. Warm paper texture. Palette of red, black, yellow, cream. Constructivist energy, machine-age geometry, bold and theatrical.",
+      "promptZh": "包豪斯剧场海报,以叠置几何大写字宣告「MECHANIK BALLET」,字母由完美圆形与直笔画构成。一个半红半黑的大圆坐落于标题后方。细同心弧与一条孤零的黄条向外放射。一切对齐于一条隐含的斜轴。暖纸肌理。配色为红、黑、黄、奶油。构成主义能量,机械时代几何,醒目而戏剧化。",
+      "category": "电商视觉",
+      "commerceType": "广告海报",
+      "tags": [
+        "电商视觉",
+        "GPT Image 2",
+        "广告海报",
+        "bauhaus",
+        "geometric",
+        "theatre"
+      ],
+      "model": "GPT Image 2",
+      "mediaType": "image",
+      "image": "https://r2.apimodels.app/assets/prompt-gallery/1785128757528_poster-692.png",
+      "images": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785128757528_poster-692.png"
+      ],
+      "rawImages": [
+        "https://r2.apimodels.app/assets/prompt-gallery/1785128757528_poster-692.png"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "2:3",
+      "source": "apimodels/gpt-image-2-prompts",
+      "sourceUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#poster-692",
+      "url": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json#poster-692",
+      "archiveUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/prompts.json",
+      "sourceRepository": "apimodels/gpt-image-2-prompts",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "attribution": "API Models (apimodels.app)",
+      "domain": "github.com",
+      "date": "2026-11-14",
+      "timestamp": 1794617597040,
+      "collectedAt": "2026-11-14T00:53:17.040Z",
+      "githubSyncedAt": "2026-11-14T00:53:17.040Z",
+      "domesticSyncedAt": null,
+      "sourceLicenseVerified": true,
+      "sourceLicenseUrl": "https://github.com/apimodels/gpt-image-2-prompts/blob/master/LICENSE",
+      "collectionOrigin": "approved-public-commerce"
+    },
     {
       "id": "x_2120908577577574792",
       "title": "烛光客厅产品主图",
