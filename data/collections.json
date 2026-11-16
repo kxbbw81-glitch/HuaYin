@@ -1,7 +1,1388 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-14T02:10:12.516Z",
+  "updatedAt": "2026-11-16T02:12:01.161Z",
   "collections": [
+    {
+      "id": "x_2121808985217266135",
+      "title": "鳄鱼纹奢侈手袋广告",
+      "prompt": "Create a high-end luxury handbag commercial for a premium fashion brand. A sophisticated female model with slicked-back dark hair wears an elegant dark burgundy leather outfit, showcasing a collection of crocodile-textured leather handbags in burgundy, ivory, and black.\nStart with an extreme close-up of the model holding a glossy burgundy handbag, highlighting its crocodile texture, golden hardware, and intricate stitching. Transition into elegant full-body fashion poses against a clean minimalist white studio background. Show artistic product shots of handbags displayed on marble surfaces with soft atmospheric smoke, delicate gold chain details, and dramatic close-ups. Finish with a premium collection showcase featuring all three handbag colors.\nUltra-realistic luxury fashion photography, cinematic studio lighting, editorial Vogue aesthetic, sophisticated composition, smooth camera movements, realistic leather textures, premium commercial production, 4K, vertical 9:16. No extra text, no watermark.",
+      "category": "电商视觉",
+      "commerceType": "电商视频",
+      "useCase": "电商视频",
+      "tags": [
+        "电商视觉",
+        "电商视频",
+        "手袋",
+        "奢侈品",
+        "时装"
+      ],
+      "model": "Seedance 2.0",
+      "mediaType": "video",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2121808905672220672/img/lkcZXXA4XdCy24Ew.jpg",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2121808905672220672/img/lkcZXXA4XdCy24Ew.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/amplify_video_thumb/2121808905672220672/img/lkcZXXA4XdCy24Ew.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "9:16",
+      "videoPoster": "https://pbs.twimg.com/amplify_video_thumb/2121808905672220672/img/lkcZXXA4XdCy24Ew.jpg",
+      "videoUrl": "https://video.twimg.com/amplify_video/2121808905672220672/vid/avc1/720x1280/tee2jbmucBR7-MQW.mp4",
+      "videoSourceUrl": "https://video.twimg.com/amplify_video/2121808905672220672/vid/avc1/720x1280/tee2jbmucBR7-MQW.mp4",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/AIwithRubii/status/2121808985217266135",
+      "url": "https://x.com/AIwithRubii/status/2121808985217266135",
+      "domain": "x.com",
+      "creator": "AIwithRubii",
+      "signals": [
+        "Prompt:",
+        "Video prompt"
+      ],
+      "date": "2026-11-16",
+      "timestamp": 1794795121161,
+      "collectedAt": "2026-11-16T02:12:01.161Z",
+      "githubSyncedAt": "2026-11-16T02:12:01.161Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "x_2121914214277066782",
+      "title": "紫管口红奢侈广告",
+      "prompt": "Create an ultra-realistic luxury cosmetic commercial featuring an elegant deep-purple lipstick with a sleek reflective silver metallic tube.\n\nScene 1: A beautiful purple lipstick stands upright on a glossy reflective surface, surrounded by delicate lavender flowers. Soft purple studio lighting creates a premium beauty advertisement atmosphere. The camera slowly pushes toward the lipstick.\n\nScene 2: The lipstick smoothly rises into the air as its silver cap separates and floats nearby. Capture the product with elegant slow-motion cinematic movement.\n\nScene 3: Flowing silky purple fabric gracefully moves around the floating lipstick, creating luxurious waves and dramatic motion.\n\nScene 4: Beautiful streams of molten golden liquid swirl around the lipstick in a graceful spiral. Tiny golden particles and sparkling droplets float through the air.\n\nScene 5: Extreme macro close-up of the reflective silver lipstick tube, with golden liquid flowing around its surface and purple silk wrapping elegantly around it.\n\nFinal Scene: The camera slowly pulls back to reveal the complete lipstick surrounded by flowing purple silk and golden liquid against a dark luxurious background.\n\nStyle: Ultra-realistic 3D product animation, luxury beauty brand commercial, photorealistic metallic reflections, elegant purple and gold color palette, cinematic studio lighting, macro photography, smooth camera movements, premium advertising quality, 4K, vertical 9:16 format.\n\nKeep the lipstick design, color, proportions and metallic finish consistent throughout the entire video. No distorted product, no extra objects, no unwanted text or watermark.",
+      "category": "电商视觉",
+      "commerceType": "电商视频",
+      "useCase": "电商视频",
+      "tags": [
+        "电商视觉",
+        "电商视频",
+        "口红",
+        "美妆",
+        "产品广告"
+      ],
+      "model": "Seedance 2.5",
+      "mediaType": "video",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2121913942520000512/img/dTQ1EBNDSmw8svt7.jpg",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2121913942520000512/img/dTQ1EBNDSmw8svt7.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/amplify_video_thumb/2121913942520000512/img/dTQ1EBNDSmw8svt7.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "9:16",
+      "videoPoster": "https://pbs.twimg.com/amplify_video_thumb/2121913942520000512/img/dTQ1EBNDSmw8svt7.jpg",
+      "videoUrl": "https://video.twimg.com/amplify_video/2121913942520000512/vid/avc1/720x1280/EKeRBBXEyIR4vH5s.mp4",
+      "videoSourceUrl": "https://video.twimg.com/amplify_video/2121913942520000512/vid/avc1/720x1280/EKeRBBXEyIR4vH5s.mp4",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/ItsEiraXa/status/2121914214277066782",
+      "url": "https://x.com/ItsEiraXa/status/2121914214277066782",
+      "domain": "x.com",
+      "creator": "ItsEiraXa",
+      "signals": [
+        "Prompt:",
+        "Video prompt"
+      ],
+      "date": "2026-11-16",
+      "timestamp": 1794795121161,
+      "collectedAt": "2026-11-16T02:12:01.161Z",
+      "githubSyncedAt": "2026-11-16T02:12:01.161Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "x_2120832389228490798",
+      "title": "红调炸鸡汉堡海报",
+      "prompt": "Create an ultra-realistic premium fast-food advertising poster featuring a stylish young man with messy black hair, bold red sunglasses and a red oversized T-shirt, excitedly opening his mouth to take a bite of a delicious crispy chicken burger. The burger should have a glossy golden brioche bun, crunchy fried chicken, melted cheese, fresh lettuce, tomatoes and creamy sauce.\n\nSet the scene in a luxurious deep-red studio with dramatic directional sunlight, sharp geometric shadows and rich crimson tones. Include premium custom-designed red burger packaging, takeaway boxes and fresh red chilies on a matching red tabletop.\n\nComposition: Vertical 4:5 aspect ratio, dynamic close-up framing, slightly low camera angle, subject positioned towards the left and burger prominently displayed near the center.\n\nCreative Direction: Design original, eye-catching advertising typography according to the brand's personality. Invent a unique brand name, catchy headline, short tagline and creative supporting text. Choose suitable fonts, sizes, colors and placements yourself. Make the typography look like a professionally art-directed international food advertising campaign, naturally integrated into the composition.\n\nCinematic commercial photography, realistic skin texture, detailed food textures, dramatic lighting, premium art direction, ultra-photorealistic 8K quality. No watermark, no CGI appearance, no distorted anatomy.",
+      "category": "电商视觉",
+      "commerceType": "广告海报",
+      "useCase": "广告海报",
+      "tags": [
+        "电商视觉",
+        "广告海报",
+        "快餐",
+        "汉堡",
+        "包装"
+      ],
+      "model": "ChatGPT",
+      "mediaType": "image",
+      "image": "https://pbs.twimg.com/media/HW61ycuaUAAiQdh.jpg?name=large",
+      "images": [
+        "https://pbs.twimg.com/media/HW61ycuaUAAiQdh.jpg?name=large",
+        "https://pbs.twimg.com/media/HW61z8YaMAAZrvl.jpg?name=large"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HW61ycuaUAAiQdh.jpg?name=large",
+        "https://pbs.twimg.com/media/HW61z8YaMAAZrvl.jpg?name=large"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "4:5",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/Hasn4834/status/2120832389228490798",
+      "url": "https://x.com/Hasn4834/status/2120832389228490798",
+      "domain": "x.com",
+      "creator": "Hasn4834",
+      "signals": [
+        "Prompt:"
+      ],
+      "date": "2026-11-16",
+      "timestamp": 1794795121161,
+      "collectedAt": "2026-11-16T02:12:01.161Z",
+      "githubSyncedAt": "2026-11-16T02:12:01.161Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "x_2121138764651356560",
+      "title": "胶囊饮料产品广告",
+      "prompt": "CAPSULE CULTURE | FUTURE PRODUCT ADVERTISING\n\nCreate an ultra-realistic, premium macro advertising photograph of [ENTER BRAND, PRODUCT, BEVERAGE, OR FLAVOUR], reimagined as a futuristic pharmaceutical-style capsule inside a luxury blister pack.\n\nTransform the product's signature identity into a beautifully designed, elongated transparent capsule. Incorporate its recognizable brand colours, logo, typography, visual identity, and distinctive details into the capsule design. Make the capsule appear filled with the product's characteristic liquid, colour, or material, with realistic transparency and depth.\n\nPlace it inside sophisticated metallic blister packaging with embossed detailing, precision-formed compartments, and premium reflective surfaces. Cover the capsule with realistic condensation droplets, tiny water beads, and subtle atmospheric reflections to enhance its tactile appearance.\n\nUse dramatic cinematic studio lighting, shallow depth of field, extreme macro photography, realistic reflections, intricate material textures, and a sophisticated colour palette inspired by the original brand.\n\nCOMPOSITION: One prominent hero capsule, photographed at an elegant diagonal angle, occupying most of the frame. Keep the background minimal, atmospheric, and complementary to the product's identity.\n\nQUALITY: Photorealistic commercial product photography, luxury advertising campaign aesthetic, exceptional micro-details, physically accurate materials, crisp branding, realistic shadows, 8K detail.\n\nThe final result should look like an extraordinary futuristic product launch campaign, blending pharmaceutical packaging design with the visual identity of the selected brand.",
+      "category": "电商视觉",
+      "commerceType": "产品主图",
+      "useCase": "产品主图",
+      "tags": [
+        "电商视觉",
+        "产品主图",
+        "饮料",
+        "包装",
+        "微距"
+      ],
+      "model": "GPT Image 2.6",
+      "mediaType": "image",
+      "image": "https://pbs.twimg.com/media/HW_McgLb0AAGTug.jpg?name=large",
+      "images": [
+        "https://pbs.twimg.com/media/HW_McgLb0AAGTug.jpg?name=large",
+        "https://pbs.twimg.com/media/HW_MdTgbAAA4hU8.jpg?name=large"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HW_McgLb0AAGTug.jpg?name=large",
+        "https://pbs.twimg.com/media/HW_MdTgbAAA4hU8.jpg?name=large"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "3:2",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/Goodmanprotocol/status/2121138764651356560",
+      "url": "https://x.com/Goodmanprotocol/status/2121138764651356560",
+      "domain": "x.com",
+      "creator": "Goodmanprotocol",
+      "signals": [
+        "Prompt:"
+      ],
+      "date": "2026-11-16",
+      "timestamp": 1794795121161,
+      "collectedAt": "2026-11-16T02:12:01.161Z",
+      "githubSyncedAt": "2026-11-16T02:12:01.161Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "x_2120806556413411439",
+      "title": "透明背板概念手机主图",
+      "prompt": "A photorealistic product shot of a futuristic concept smartphone lying at a three-quarter rear angle on a smooth, lightly reflective light-gray surface.\n\nThe phone has a largely transparent back panel that reveals a detailed internal assembly: interlocking metallic gears, circuit boards, microchips, and glowing cool-blue light elements. The upper portion is a matte black section containing a small secondary display showing a clean digital UI with circular graphics. A prominent dual-camera module sits in a pill-shaped housing with polished rose-gold/copper metallic trim. Matching rose-gold metallic side buttons run along the edge, and the frame combines black sections with thin rose-gold metallic accents. A USB-C port is visible at the bottom.\n\nSoft, diffused studio lighting comes from the upper left, producing bright specular highlights on the transparent glass and metallic surfaces, gentle falloff across the body, and soft shadows beneath the phone. Subtle reflections appear on the glossy transparent panel and the table surface. The background is a clean, out-of-focus light gradient. High-end commercial product photography style, sharp detail, realistic materials, 8K.",
+      "category": "电商视觉",
+      "commerceType": "产品主图",
+      "useCase": "产品主图",
+      "tags": [
+        "电商视觉",
+        "产品主图",
+        "手机",
+        "数码",
+        "商业摄影"
+      ],
+      "model": "",
+      "mediaType": "image",
+      "image": "https://pbs.twimg.com/media/HVuF0bRXwAAx7L3.jpg?name=large",
+      "images": [
+        "https://pbs.twimg.com/media/HVuF0bRXwAAx7L3.jpg?name=large"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HVuF0bRXwAAx7L3.jpg?name=large"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "16:9",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/MystiqueLicorne/status/2120806556413411439",
+      "url": "https://x.com/MystiqueLicorne/status/2120806556413411439",
+      "domain": "x.com",
+      "creator": "MystiqueLicorne",
+      "signals": [
+        "完整提示词"
+      ],
+      "date": "2026-11-16",
+      "timestamp": 1794795121161,
+      "collectedAt": "2026-11-16T02:12:01.161Z",
+      "githubSyncedAt": "2026-11-16T02:12:01.161Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "x_2121567234678251780",
+      "title": "奢侈产品广告海报模板",
+      "prompt": "ROLE & OBJECTIVE\n\nYou are a creative director at a world-class advertising agency. Transform my uploaded product image into a premium advertising campaign worthy of an international luxury brand.\n\nPRODUCT\n\nPreserve the product exactly as provided, including its shape, proportions, colours, materials, packaging, logo, and label. Never redesign or alter its branding.\n\nSCENE & LIGHTING\n\nPlace the product in a cinematic environment that matches its identity. Use natural directional lighting, realistic reflections, soft shadows, atmospheric depth, and controlled highlights.\n\nLAYOUT\n\nVertical 2:3 advertising poster. Make the product the central focus with generous negative space. Add a sophisticated 2–4 word headline at the top, a short tagline, and three subtle product features at the bottom.\n\nSTYLE\n\nLuxury editorial photography, refined colours, realistic materials, precise composition, and exceptional visual detail.\n\nOUTPUT\n\nOne finished, photorealistic advertising poster with sharp, correctly spelled typography. No clutter, discount badges, unnecessary decorations, or altered logos.",
+      "category": "电商视觉",
+      "commerceType": "广告海报",
+      "useCase": "广告海报",
+      "tags": [
+        "电商视觉",
+        "广告海报",
+        "产品广告",
+        "奢侈品"
+      ],
+      "model": "ChatGPT",
+      "mediaType": "image",
+      "image": "https://pbs.twimg.com/media/HXFSJp-bgAA5asS.jpg?name=large",
+      "images": [
+        "https://pbs.twimg.com/media/HXFSJp-bgAA5asS.jpg?name=large"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HXFSJp-bgAA5asS.jpg?name=large"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "2:3",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/ZaraAi56190/status/2121567234678251780",
+      "url": "https://x.com/ZaraAi56190/status/2121567234678251780",
+      "domain": "x.com",
+      "creator": "ZaraAi56190",
+      "signals": [
+        "完整提示词",
+        "提示词在回复"
+      ],
+      "date": "2026-11-16",
+      "timestamp": 1794795121161,
+      "collectedAt": "2026-11-16T02:12:01.161Z",
+      "githubSyncedAt": "2026-11-16T02:12:01.161Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "x_2122127553670656030",
+      "title": "复古双联海报",
+      "prompt": "生成单张竖版 3:4（宽:高）的双联海报，上下精确等高并直接拼接，无边框。上半是原创横版写实照片，按【主体】【场景】【动作或机位】生成，保留可信环境和主景，铺满上半，不添加文字。\n下半暖白纸上把同一主体重绘为日式复古平面插画，用粗而圆润的黑描边、干脆平涂色块及约四至五种颜色，保留主体的朝向、辨识特征、关键颜色和与环境的关系。主体背后有一个清楚而密度适中的黑白丝网半调网点区域，网点大小一致、均匀间隔、边缘清楚，主体与纸面留白之间分界明确。\n用极细无衬线字体排【2 至 4 词的英文标题】，接一两行非常短的【副文案】。下半插画、排字与小符号共占约 70%，留出其余大块干净纸面。根据每张主题改变图文位置和视觉重心，选少量主题符号。仅紧贴下半文字块用非常小但可辨的细字标注「Prompt by @AWENIAI」。无其他文字、无徽章、无渐变、无 3D。",
+      "category": "电商视觉",
+      "commerceType": "广告海报",
+      "useCase": "广告海报",
+      "tags": [
+        "电商视觉",
+        "广告海报",
+        "复古",
+        "双联海报",
+        "插画"
+      ],
+      "model": "",
+      "mediaType": "image",
+      "image": "https://pbs.twimg.com/media/HXNPs8Ua0AAeiiM.jpg?name=large",
+      "images": [
+        "https://pbs.twimg.com/media/HXNPs8Ua0AAeiiM.jpg?name=large",
+        "https://pbs.twimg.com/media/HXNPs8JbwAAesfN.jpg?name=large",
+        "https://pbs.twimg.com/media/HXNPs8pasAAeXWs.jpg?name=large",
+        "https://pbs.twimg.com/media/HXNPs8Pa0AAx_RV.jpg?name=large"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HXNPs8Ua0AAeiiM.jpg?name=large",
+        "https://pbs.twimg.com/media/HXNPs8JbwAAesfN.jpg?name=large",
+        "https://pbs.twimg.com/media/HXNPs8pasAAeXWs.jpg?name=large",
+        "https://pbs.twimg.com/media/HXNPs8Pa0AAx_RV.jpg?name=large"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "3:4",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/dalidaddyy/status/2122127553670656030",
+      "url": "https://x.com/dalidaddyy/status/2122127553670656030",
+      "domain": "x.com",
+      "creator": "dalidaddyy",
+      "signals": [
+        "完整提示词"
+      ],
+      "date": "2026-11-16",
+      "timestamp": 1794795121161,
+      "collectedAt": "2026-11-16T02:12:01.161Z",
+      "githubSyncedAt": "2026-11-16T02:12:01.161Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "x_2121992083602833709",
+      "title": "照片转插画编辑海报",
+      "prompt": "Transform the uploaded reference image into a beautiful, premium editorial illustration poster.\n\nComposition: Create a vertical 4:5 split-layout design. The upper half should display the original photograph in its realistic photographic style, preserving the subject's exact appearance, facial features, hairstyle, outfit, pose, and expression.\n\nThe lower half should feature a beautifully stylized 2D illustration of the exact same subject, recreating the original photograph's pose, expression, clothing, and composition. Convert the subject into a charming, hand-painted digital illustration with soft brush textures, clean shapes, delicate outlines, warm skin tones, and beautiful artistic details.\n\nBackground Design: Transform the original background into a creative illustrated environment. Add minimal geometric architecture, abstract shapes, subtle plants, soft natural elements, and a complementary color palette inspired by the original photograph.\n\nPoster Layout: Place the illustration inside a clean rectangular artwork frame, surrounded by a warm ivory or cream-colored background. Add a large elegant uppercase headline beneath the illustration, with a small complementary subtitle and a subtle decorative line.\n\nTypography: Use thin, sophisticated, widely spaced uppercase lettering. Choose a short title that matches the mood of the photograph, with a smaller minimalist tagline underneath.\n\nArt Direction: Modern Japanese editorial poster design, contemporary lifestyle illustration, soft pastel colors, warm sunlight, minimalist graphic design, artistic storytelling, premium magazine aesthetic.\n\nImportant: Maintain the original person's identity and recognizable features. The illustrated version must clearly resemble the person in the original photograph. Keep the top photograph realistic and the bottom illustration artistic. Ensure both versions match perfectly in pose and composition.\n\nHigh-quality details, balanced layout, elegant negative space, professional art direction, 4:5 portrait poster.",
+      "category": "电商视觉",
+      "commerceType": "广告海报",
+      "useCase": "广告海报",
+      "tags": [
+        "电商视觉",
+        "广告海报",
+        "插画",
+        "照片转绘"
+      ],
+      "model": "GPT Image 2.5",
+      "mediaType": "image",
+      "image": "https://pbs.twimg.com/media/HXLT3T7bsAAQ-0T.jpg?name=large",
+      "images": [
+        "https://pbs.twimg.com/media/HXLT3T7bsAAQ-0T.jpg?name=large",
+        "https://pbs.twimg.com/media/HXLT3T7a8AADZ7d.jpg?name=large",
+        "https://pbs.twimg.com/media/HXLUhqna4AAnYsL.jpg?name=large"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HXLT3T7bsAAQ-0T.jpg?name=large",
+        "https://pbs.twimg.com/media/HXLT3T7a8AADZ7d.jpg?name=large",
+        "https://pbs.twimg.com/media/HXLUhqna4AAnYsL.jpg?name=large"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "4:5",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/harboriis/status/2121992083602833709",
+      "url": "https://x.com/harboriis/status/2121992083602833709",
+      "domain": "x.com",
+      "creator": "harboriis",
+      "signals": [
+        "Prompt:"
+      ],
+      "date": "2026-11-16",
+      "timestamp": 1794795121161,
+      "collectedAt": "2026-11-16T02:12:01.161Z",
+      "githubSyncedAt": "2026-11-16T02:12:01.161Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "x_2121488360317272128",
+      "title": "照片抽象识别海报",
+      "prompt": "Transform my uploaded photo into a standalone, premium-quality 3:4 vertical design poster. Divide the entire canvas into two perfectly equal horizontal sections: the top half (50%) and the bottom half (50%). The upper section should feature realistic photography, while the lower section should present an abstract visual symbol derived from the core identity of the subject.\n\nTOP HALF – REALISTIC PHOTOGRAPHY\n\nPreserve the original subject's structure, realistic textures, natural lighting, shadows, and original color atmosphere. Apply only subtle, sophisticated color grading to achieve the aesthetic of fine-art photography and independent editorial publications.\n\nThe background may be naturally extended to fit the canvas, but never stretch, distort, or alter the original subject.\n\nBOTTOM HALF – ABSTRACT VISUAL IDENTITY\n\nExtract the photograph's essential visual characteristics: the subject's silhouette, structure, posture, and narrative relationships. Do not recreate the entire object. Instead, reduce it into a recognizable abstract visual symbol.\n\nUse geometric deconstruction, modular shapes, structured lines, negative space, and symbolic elements to create a central visual identity inspired by premium branding and experimental design systems.\n\nFocus on the subject's core character rather than minor details. Even with minimal geometric elements, the abstract symbol must remain visually connected to the original photograph.\n\nVISUAL STYLE & DESIGN LANGUAGE\n\nPost-digital graphic design, deconstructed Swiss design, generative symbol systems, and diagrammatic abstraction.\n\nBuild a systematic visual language using geometric modules, fine lines, circular trajectories, grids, micro-symbols, numerical indexing, and abstract nodes.\n\nCreate visual tension between:\n- Order × Imperfection\n- Precision × Handmade Traces\n- Digital × Analog\n- Rationality × Emotion\n\nAchieve strong visual recognition using the fewest possible elements. Keep everything minimal and avoid unnecessary complexity.\n\nCOMPOSITION & LAYOUT\n\nMaintain a highly restrained composition. The abstract symbol must be the sole visual focal point, positioned centrally or slightly off-center, surrounded by generous negative space.\n\nAvoid excessive icons, decorative elements, or infographic-style layouts.\n\nThe overall aesthetic should resemble the core visual identity of contemporary art institutions, architectural studios, experimental creative labels, and premium design brands.\n\nTYPOGRAPHY & DETAILS\n\nTypography should function only as a supporting system component, never as a dominant headline.\n\nYou may incorporate extremely small numbers, letters, or short phrases that interact with the abstract symbol through indexing and reference relationships.\n\nUse refined, restrained typography with the subtle annotation aesthetic of archival documents and experimental art publications.\n\nCOLOR SYSTEM\n\nExtract the signature colors from the original photograph and reinterpret them as a cohesive brand color system.\n\nIntroduce a small number of distinctive accent colors as functional visual codes, such as teal, blue, magenta, or orange, combined with gray-white or warm-white backgrounds for contrast.\n\nColors should function as systematic identifiers rather than decoration.\n\nAvoid chaotic color combinations, cheap neon effects, and generic commercial gradients.\n\nPRINT TEXTURE & MATERIALITY\n\nIncorporate subtle material effects inspired by:\n- Xerox texture\n- Risograph grain\n- Print registration errors\n- Scanner noise\n- Subtle paper texture\n\nAdd delicate printing misalignment, fine grain, scanning noise, and slightly imperfect edges to give the digital symbols the tactile quality of physical print.\n\nFINAL OBJECTIVE\n\nExtract an independent and self-contained visual DNA from the original photograph.\n\nThe final result should feel like a sophisticated, minimal, culturally meaningful abstract logo with a strong visual identity and systematic design language.",
+      "category": "电商视觉",
+      "commerceType": "品牌视觉",
+      "useCase": "品牌视觉",
+      "tags": [
+        "电商视觉",
+        "品牌视觉",
+        "广告海报",
+        "视觉识别"
+      ],
+      "model": "GPT Image 2.0",
+      "mediaType": "image",
+      "image": "https://pbs.twimg.com/media/HXEKaZSasAAlQ7K.jpg?name=large",
+      "images": [
+        "https://pbs.twimg.com/media/HXEKaZSasAAlQ7K.jpg?name=large",
+        "https://pbs.twimg.com/media/HXEKaZQbkAEBnAe.jpg?name=large",
+        "https://pbs.twimg.com/media/HXEKaZUb0AAiMJt.jpg?name=large"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HXEKaZSasAAlQ7K.jpg?name=large",
+        "https://pbs.twimg.com/media/HXEKaZQbkAEBnAe.jpg?name=large",
+        "https://pbs.twimg.com/media/HXEKaZUb0AAiMJt.jpg?name=large"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "3:4",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/Sairah_0/status/2121488360317272128",
+      "url": "https://x.com/Sairah_0/status/2121488360317272128",
+      "domain": "x.com",
+      "creator": "Sairah_0",
+      "signals": [
+        "Prompt:"
+      ],
+      "date": "2026-11-16",
+      "timestamp": 1794795121161,
+      "collectedAt": "2026-11-16T02:12:01.161Z",
+      "githubSyncedAt": "2026-11-16T02:12:01.161Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "x_2122013679248159226",
+      "title": "纸雕建筑旅行海报",
+      "prompt": "Create an extraordinarily beautiful 3D layered paper-cut architectural travel poster featuring [LANDMARK NAME], [CITY], [COUNTRY].\n\nTransform the destination into an enchanting miniature architectural world, crafted entirely from intricately layered, sculpted and cut coloured paper.\n\n1. CENTRAL ARCHITECTURAL SCENE\n\nFeature the destination’s most iconic landmark as the main attraction.\nPreserve its authentic and recognisable architectural identity.\nRecreate buildings using multiple layers of carefully cut paper.\nInclude distinctive rooftops, windows, arches, towers, domes, bridges or architectural details specific to the destination.\nArrange smaller surrounding buildings to create a charming miniature cityscape.\nMake the entire scene resemble a beautifully handcrafted architectural diorama.\n\n2. LAYERED PAPER LANDSCAPE\n\nBuild an extraordinary three-dimensional environment.\n\nFlowing paper-cut hills and sculpted mountains.\nLayered rivers, lakes, coastlines or ocean waves where appropriate.\nCurved bridges, winding pathways and miniature staircases.\nOverlapping paper clouds, hills and architectural backgrounds.\nIntricate foreground elements framing the composition.\nBeautiful irregular paper-cut edges surrounding the scene.\n\nEvery layer should have visible depth, delicate edges and realistic cast shadows.\n\n3. UNIQUE DESTINATION DETAILS\n\nInclude small architectural and cultural elements that make each destination instantly recognisable.\n\nSelect details according to the location rather than repeating the same decorations.\n\n4. DESTINATION-SPECIFIC COLOUR PALETTE\n\nCreate a completely original colour identity for every destination.\n\nUse 6–9 harmonious shades inspired by its architecture, culture, landscape and atmosphere.\n\nCombine rich colours, soft pastels, contrasting paper layers and carefully selected neutral tones.\n\nNever repeat the same palette between different destinations.\n\n5. THREE-DIMENSIONAL PAPER ART\n\nAuthentic handmade paper-cut aesthetic.\nMultiple overlapping cardstock layers.\nSculpted paper architecture.\nDelicate folded and curved paper details.\nVisible paper thickness.\nSoft realistic shadows between layers.\nBeautiful tactile textures.\nIntricate miniature craftsmanship.\nGentle studio lighting.\n\nThe artwork must look like a real handcrafted paper sculpture photographed professionally, not a flat illustration or plastic 3D render.\n\n6. DISTINCTIVE POSTER COMPOSITION\n\nPlace the entire architectural scene inside an elegant irregular organic paper-cut frame.\n\nUse a balanced vertical composition with:\n\nLarge miniature architectural scene in the centre.\nBeautiful layered foreground.\nSubtle surrounding negative space.\nSoft neutral background.\nRealistic depth and dimensional shadows.\n\n7. MINIMAL TYPOGRAPHY\n\nBelow the artwork, write:\n\n[CITY / DESTINATION NAME]\n\n[COUNTRY]\n\nAdd one short, elegant poetic tagline of approximately 3–6 words inspired by the destination.\n\nUse elegant uppercase modern typography for the destination name and a delicate refined serif font for the tagline.\n\nKeep typography minimal, correctly spelled and beautifully positioned.\n\n8. FINAL ART DIRECTION\n\nA breathtaking fusion of miniature architecture, layered paper sculpture, handcrafted papercraft, whimsical storytelling and premium contemporary travel poster design.\n\nExtremely intricate craftsmanship, sophisticated colour harmony, realistic paper shadows, beautiful depth, exquisite architectural details and museum-quality presentation.\n\nPortrait 2:3 composition. No watermark, no unnecessary text, no photorealistic buildings, no plastic appearance.",
+      "category": "电商视觉",
+      "commerceType": "广告海报",
+      "useCase": "广告海报",
+      "tags": [
+        "电商视觉",
+        "广告海报",
+        "旅行海报",
+        "纸雕",
+        "建筑"
+      ],
+      "model": "GPT Image 2.6",
+      "mediaType": "image",
+      "image": "https://pbs.twimg.com/media/HXLoL4lbQAEA-gK.jpg?name=large",
+      "images": [
+        "https://pbs.twimg.com/media/HXLoL4lbQAEA-gK.jpg?name=large",
+        "https://pbs.twimg.com/media/HXLoL4pboAENoqi.jpg?name=large",
+        "https://pbs.twimg.com/media/HXLoL4oaUAA2MN3.jpg?name=large",
+        "https://pbs.twimg.com/media/HXLoL4jbEAAzfVh.jpg?name=large"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HXLoL4lbQAEA-gK.jpg?name=large",
+        "https://pbs.twimg.com/media/HXLoL4pboAENoqi.jpg?name=large",
+        "https://pbs.twimg.com/media/HXLoL4oaUAA2MN3.jpg?name=large",
+        "https://pbs.twimg.com/media/HXLoL4jbEAAzfVh.jpg?name=large"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "3:4",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/Naiknelofar788/status/2122013679248159226",
+      "url": "https://x.com/Naiknelofar788/status/2122013679248159226",
+      "domain": "x.com",
+      "creator": "Naiknelofar788",
+      "signals": [
+        "Prompt:"
+      ],
+      "date": "2026-11-16",
+      "timestamp": 1794795121161,
+      "collectedAt": "2026-11-16T02:12:01.161Z",
+      "githubSyncedAt": "2026-11-16T02:12:01.161Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "ahaprompt_berry-veil-ice-cream-splash-poster",
+      "externalId": "berry-veil-ice-cream-splash-poster",
+      "title": "Berry Veil Ice Cream Splash Poster",
+      "prompt": "A hyper-real premium dessert poster for a fictional international ice cream brand called BERRY VEIL, refined in an Orbit-plus-Transit direction where the original hero structure stays intact but the flavor world becomes stronger, clearer, and more series-ready. A branded pink dessert cup sits in the lower center as the absolute hero, holding two large scoops of ice cream: one lush strawberry-raspberry pink scoop and one creamy vanilla-bean scoop, crowned by a tall whipped cream swirl and a glossy berry coulis cascade. The composition must feel brighter, richer, and more instantly appetizing than a standard strawberry dessert ad.\n\nFraming and composition: vertical poster layout, centered hero cup, sculptural brand crest floating at the top center, and two sweeping liquid arcs rising from both sides of the cup to form an elegant halo-like enclosure around the product. Preserve the current skeleton exactly: top logo, central cup, two large wrapping splash curves, and floating fruit and flavor cues in balanced orbit. Sharpen the hierarchy so the cup reads first, the scoops second, the liquid choreography third, and the floating ingredients fourth. Keep the product fully readable and visually dominant.\n\nProduct design: the paper cup is premium, softly glossy, and tinted with a delicate berry-pink gradient, with subtle condensation and crisp printed branding. Front label text reads exactly: \"BERRY VEIL\". Beneath it, write exactly: \"Taste the soft spark.\" The strawberry-raspberry scoop should feel creamier, juicier, and deeper in color than a basic strawberry scoop, with natural frozen fruit texture and a faint marbled richness. The vanilla-bean scoop should feel smooth, dense, and luxurious, with tiny vanilla specks visible. The whipped cream swirl must have clean, soft ridges and hold a dramatic ruby-red berry glaze. Scatter a few tiny crisp biscuit or caramelized crumble cubes around the cream and base for texture contrast.\n\nFlavor staging and spatial choreography: keep the same central splash system, but push the fruit language slightly toward a strawberry-raspberry hybrid direction for stronger flavor identity and series flexibility. Use several ripe strawberries with realistic seeds, cut faces, and fresh green tops, alongside one or two small raspberry-like berry notes or deeper red fruit accents. Two elegant vanilla pods curve in from the upper right, and two or three soft white blossom flowers remain as airy fragrance cues. The liquid arcs should stay physically plausible: one creamy white dairy splash and one vivid berry-red fruit splash intertwining around the cup in a smooth, upward motion, with smaller droplets suspended at varying depths. The splashes must frame the cup, never bury it.\n\nLighting and color: luminous premium commercial lighting from upper center-front, soft wraparound fill, subtle rim accents on the scoop edges and cup rim, and a stronger radiant halo behind the top brand mark. Background grading transitions from bright blush cream in the center to richer strawberry-pink and rose-mauve toward the edges. Palette balance: 60% blush pink, milky white, and soft cream; 30% berry red and glossy coulis crimson; 10% vanilla black-brown, leaf green, and tiny golden crumble accents. Build more contrast and flavor saturation than before while keeping the overall frame elegant and premium.\n\nMaterials and finish: hyper-real food photography fused with polished fantasy splash rendering. Show creamy frozen micro-texture, juicy fruit skin, realistic strawberry seed detail, glossy coulis viscosity, soft whipped cream ridges, paper cup texture, liquid translucency, and fine reflective droplets. Keep everything tactile, luminous, and premium, with no sticky clutter or messy over-rendering. The final result should feel like a Cannes-level FMCG dessert key visual: radiant, delicious, and easy to extend into a product line.\n\nTypography: all visible text in English only, integrated as premium confectionery branding. The floating top logo reads exactly: \"BERRY VEIL\" in a bold rounded custom script with a polished confectionery 3D finish. Beneath it, add a ribbon-style line reading exactly: \"Every Spoon, Pure Delight.\" On the cup front, repeat exactly: \"BERRY VEIL\" and beneath it exactly: \"Taste the soft spark.\" Typography must feel dimensional, sweet, and elegant, harmonizing with the pink-and-berry flavor system while staying clear of the scoop silhouette.\n\nOutput and constraints: premium global ice cream advertising poster, product-first hierarchy, no people, no copied source text, no Chinese text, no extra unrelated props, no hand artifacts, no cluttered table styling. Keep scoop forms natural and rounded, cup geometry correct, splash arcs believable, strawberries anatomically clean, vanilla pods elegant, and text crisp and readable. Avoid scoop collapse, muddy pinks, dirty whites, plastic-looking cream, chaotic splash overload, duplicated fruit clusters, gibberish text, warped cup perspective, dead black patches, and drift away from high-end photoreal dessert advertising.",
+      "category": "电商视觉",
+      "commerceType": "广告海报",
+      "tags": [
+        "AhaPrompt",
+        "GPT Image 2.5",
+        "图像提示词",
+        "电商视觉",
+        "广告海报"
+      ],
+      "model": "GPT Image 2.5",
+      "mediaType": "image",
+      "image": "https://cdn.ahaprompt.app/harvest-media/import-1789829184280-gceosy.jpg",
+      "images": [
+        "https://cdn.ahaprompt.app/harvest-media/import-1789829184280-gceosy.jpg"
+      ],
+      "rawImages": [
+        "https://cdn.ahaprompt.app/harvest-media/import-1789829184280-gceosy.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "1:1",
+      "source": "AhaPrompt",
+      "sourceUrl": "https://ahaprompt.app/prompt/berry-veil-ice-cream-splash-poster",
+      "url": "https://ahaprompt.app/prompt/berry-veil-ice-cream-splash-poster",
+      "domain": "ahaprompt.app",
+      "originalSourceUrl": "https://x.com/ou_zhen599/status/2100862259966996938",
+      "sourceLicenseVerified": true,
+      "sourceLicenseUrl": "https://ahaprompt.app/terms-of-service",
+      "license": "AhaPrompt Community Terms",
+      "licenseUrl": "https://ahaprompt.app/terms-of-service",
+      "attribution": "AhaPrompt (AhaPrompt Community Terms)",
+      "collectionOrigin": "approved-public-prompt",
+      "signals": [
+        "公开电商源",
+        "AhaPrompt Community Terms",
+        "广告海报"
+      ],
+      "date": "2026-11-16",
+      "timestamp": 1794795121161,
+      "collectedAt": "2026-11-16T02:12:01.161Z",
+      "githubSyncedAt": "2026-11-16T02:12:01.161Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "ahaprompt_tropical-coconut-drink-poster-ad",
+      "externalId": "tropical-coconut-drink-poster-ad",
+      "title": "Tropical Coconut Drink Poster Ad",
+      "prompt": "A hyper-real premium beverage poster advertisement for a fictional tropical drink brand called PALMORA, designed as a clean Orbit-plus-Port key visual where the real can remains the absolute hero and the supporting world is reduced into elegant, high-impact structural layers. A tall slim beverage can stands perfectly centered and upright against a warm sand-beige paper backdrop, front-facing and dominant. The can is chilled with fine condensation, subtle aluminum texture, and crisp premium print design. Behind and partially around the can, the paper surface appears torn open in a controlled horizontal rupture, revealing a vivid inner tropical layer of split coconuts, creamy coconut splash, and palm fronds. The tear feels designed rather than chaotic, like a branded reveal window cut through the surface.\n\nFraming and composition: vertical poster layout, strict central hierarchy, oversized hero can in the middle, broad negative space in the upper-left for a large graphic headline, smaller premium copy in the upper-right, and a minimal icon-information system aligned along the lower area. Keep the can silhouette untouched and clearly readable. The torn-paper reveal should sit behind the can as a sculptural horizontal band, with curled paper edges on the left and right creating depth and tactile material contrast. Preserve the reference logic of central product, torn reveal, large graphic headline, and bottom icon strip, but simplify and refine every peripheral element for a more curated poster feel.\n\nProduct design: create a premium tropical coconut drink can with a matte off-white body, deep olive-green brand typography, soft warm-grey metal rim, natural condensation droplets, and a restrained botanical print system featuring palm leaf shadows and one clean coconut visual. Main front label reads exactly: \"COCONUT CHILL\". Small top ring text reads exactly: \"PURE / NATURAL / REFRESHING\". Subline beneath the main title reads exactly: \"pure tropical refreshment\". Ingredient copy in the lower body reads exactly: \"REAL COCONUT EXTRACT\", \"NO ARTIFICIAL FLAVORS\", \"NO PRESERVATIVES\". Bottom volume mark reads exactly: \"330 ML\". The can must feel globally market-ready, tactile, and beautifully branded.\n\nReveal layer and supporting elements: inside the torn-paper opening, show hyper-real split coconuts with fibrous brown shells, bright white flesh, and dynamic but controlled coconut milk splash forms. Add a few palm fronds entering from the top-right and lower-left edges, but keep them sparse and elegant. This inner reveal should feel like a distilled tropical world, not a cluttered collage. The splash and coconuts must support the can, never overpower it. Keep the overall sensation fresh, breezy, creamy, and premium.\n\nLighting and color: soft directional commercial key light from upper left, warm natural fill from front, subtle shadows cast by palm leaves across the paper background, and refined highlight roll-off on the can body and splash edges. Palette balance: 60% warm sand-beige paper and off-white can body, 30% coconut brown and creamy white splash, 10% olive green typography and botanical accents. Build enough contrast so the can volume, paper tear edges, and coconut textures feel dimensional, while avoiding muddy neutrals or dead shadow patches.\n\nMaterials and finish: hyper-real product photography fused with tactile paper-set design. Show soft matte paper fibers and curled torn edges, realistic chilled aluminum, tiny condensation beads, fibrous coconut husk detail, smooth white coconut flesh, glossy milk splash, and clean print fidelity on the can. The final image should feel like a Cannes-level beverage launch campaign: minimal, tactile, tropical, and sharply art-directed.\n\nTypography: all visible ad copy in English only, integrated into the poster as premium graphic design. Upper-left oversized graphic headline reads exactly: \"New Order Now\" in a bold retro-organic display style, large and sculptural. Upper-right premium tagline reads exactly: \"TROPICAL VIBES\" and beneath it exactly: \"Every Sip\". Lower-left small support copy reads exactly: \"NATURALLY HYDRATING\", \"RICH IN ELECTROLYTES\", \"REFRESH YOUR DAY\". Bottom-center icon labels read exactly: \"NATURAL INGREDIENTS\", \"HYDRATING BOOST\", \"CHILLED TO PERFECTION\". Lower-right circular seal reads exactly: \"FEEL THE CHILL / LIVE THE GOODNESS\". Keep typography art-directed, spacious, and harmonized with the can branding, always clear of the core product silhouette.\n\nOutput and constraints: polished premium beverage poster, product-first composition, no copied original brand names, no people, no unrelated props, no cluttered tropical overload. Keep the can geometry correct, typography crisp, tear edges believable, coconut anatomy realistic, splash physics controlled, and the overall visual language calm, premium, and clean. Avoid warped can proportions, unreadable label text, excessive palm leaves, muddy beige cast, dirty whites, chaotic splashes, broken paper physics, cheap stock-ad aesthetics, AI gibberish text, or drift away from high-end commercial realism.",
+      "category": "电商视觉",
+      "commerceType": "广告海报",
+      "tags": [
+        "AhaPrompt",
+        "GPT Image 2.5",
+        "图像提示词",
+        "电商视觉",
+        "广告海报"
+      ],
+      "model": "GPT Image 2.5",
+      "mediaType": "image",
+      "image": "https://cdn.ahaprompt.app/harvest-media/import-1789829185807-m1nuju.jpg",
+      "images": [
+        "https://cdn.ahaprompt.app/harvest-media/import-1789829185807-m1nuju.jpg"
+      ],
+      "rawImages": [
+        "https://cdn.ahaprompt.app/harvest-media/import-1789829185807-m1nuju.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "1:1",
+      "source": "AhaPrompt",
+      "sourceUrl": "https://ahaprompt.app/prompt/tropical-coconut-drink-poster-ad",
+      "url": "https://ahaprompt.app/prompt/tropical-coconut-drink-poster-ad",
+      "domain": "ahaprompt.app",
+      "originalSourceUrl": "https://x.com/ou_zhen599/status/2100856769023201601",
+      "sourceLicenseVerified": true,
+      "sourceLicenseUrl": "https://ahaprompt.app/terms-of-service",
+      "license": "AhaPrompt Community Terms",
+      "licenseUrl": "https://ahaprompt.app/terms-of-service",
+      "attribution": "AhaPrompt (AhaPrompt Community Terms)",
+      "collectionOrigin": "approved-public-prompt",
+      "signals": [
+        "公开电商源",
+        "AhaPrompt Community Terms",
+        "广告海报"
+      ],
+      "date": "2026-11-16",
+      "timestamp": 1794795121161,
+      "collectedAt": "2026-11-16T02:12:01.161Z",
+      "githubSyncedAt": "2026-11-16T02:12:01.161Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "ahaprompt_premium-coconut-water-commercial-storyboard",
+      "externalId": "premium-coconut-water-commercial-storyboard",
+      "title": "Premium Coconut Water Commercial Storyboard",
+      "prompt": "TITLE: Premium Coconut Water Product Commercial Storyboard\n\nFORMAT:\n• Single-page premium storyboard\n• 3:4 Portrait ratio\n• Premium natural beverage campaign\n• 8 cinematic product-focused scenes\n• Product remains the central hero\n• High-end advertising agency presentation\n\nHEADER:\n• Clean modern typography\n• Information cards:\n  - Duration: 20 Seconds\n  - Style: Fresh Natural Beverage Commercial\n  - Product: Coconut Water\n  - Audio: Tropical Water + Refreshing ASMR\n• Why This Style Works section\n• White, coconut green and natural beige aesthetic\n• Minimal tropical decorative accents\n\nSTORYBOARD:\n1. Chilled coconut water bottle standing on wet natural stone, covered in condensation\n2. Bottle cap opening with a crisp close-up of the seal\n3. Coconut water pouring into a transparent glass\n4. Clear liquid swirling inside the glass with tiny bubbles\n5. Fresh coconut pieces dropping beside the bottle in slow motion\n6. Ice cubes falling into the drink and creating a controlled splash\n7. Extreme macro of condensation droplets running down the bottle\n8. Final hero bottle and glass surrounded by fresh coconut pieces and a frozen water splash\n\nEVERY PANEL:\n• Scene number\n• Duration badge\n• Camera direction\n• Visual\n• Action\n• Product detail\n\nCAMERA:\nHigh-speed liquid photography, extreme macro, condensation close-up, slow-motion ice drop, transparent liquid swirl, low-angle product shot, cinematic hero framing.\n\nSTYLE:\nUltra-realistic beverage advertising, crystal-clear liquid, realistic condensation, detailed coconut texture, dynamic water splash, natural premium lighting, clean packaging, luxury commercial photography, 8K.",
+      "category": "电商视觉",
+      "commerceType": "产品主图",
+      "tags": [
+        "AhaPrompt",
+        "Nano Banana",
+        "图像提示词",
+        "电商视觉",
+        "产品主图"
+      ],
+      "model": "Nano Banana",
+      "mediaType": "image",
+      "image": "https://cdn.ahaprompt.app/harvest-media/import-1788443405546-pcvipq.jpg",
+      "images": [
+        "https://cdn.ahaprompt.app/harvest-media/import-1788443405546-pcvipq.jpg"
+      ],
+      "rawImages": [
+        "https://cdn.ahaprompt.app/harvest-media/import-1788443405546-pcvipq.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "3:4",
+      "source": "AhaPrompt",
+      "sourceUrl": "https://ahaprompt.app/prompt/premium-coconut-water-commercial-storyboard",
+      "url": "https://ahaprompt.app/prompt/premium-coconut-water-commercial-storyboard",
+      "domain": "ahaprompt.app",
+      "originalSourceUrl": "https://x.com/Strength04_X/status/2094760813794111843",
+      "sourceLicenseVerified": true,
+      "sourceLicenseUrl": "https://ahaprompt.app/terms-of-service",
+      "license": "AhaPrompt Community Terms",
+      "licenseUrl": "https://ahaprompt.app/terms-of-service",
+      "attribution": "AhaPrompt (AhaPrompt Community Terms)",
+      "collectionOrigin": "approved-public-prompt",
+      "signals": [
+        "公开电商源",
+        "AhaPrompt Community Terms",
+        "产品主图"
+      ],
+      "date": "2026-11-16",
+      "timestamp": 1794795121161,
+      "collectedAt": "2026-11-16T02:12:01.161Z",
+      "githubSyncedAt": "2026-11-16T02:12:01.161Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "ahaprompt_y2k-fashion-flat-lay-outfit-collage",
+      "externalId": "y2k-fashion-flat-lay-outfit-collage",
+      "title": "Y2K Fashion Flat-Lay Outfit Collage",
+      "prompt": "Create a realistic Y2K fashion flat-lay outfit collage on a clean pure white background, matching the reference composition and spacing.\nAt the top center, place a fitted plain white short-sleeve T-shirt with a subtle vintage graphic/logo on the chest.\n\nBelow it, place dark indigo wide-leg low-rise jeans, neatly arranged vertically with realistic denim texture and natural fabric folds. A delicate deep red lace waistband should be slightly visible above the jeans.\n\nOn the left side, arrange brown-tinted oval sunglasses and a stack of vintage silver bangles.\n\nNext to the jeans on the left, place a sky-blue themed handbag with a completely different design from the original bag: soft sky-blue and white color palette, cute cloud and star pattern, small decorative charms, silver hardware, short handles, and a nostalgic early-2000s fashion aesthetic. The bag should look stylish and unique, not like the original Union Jack design.\n\nOn the right side, place a small vintage wristwatch with a warm gold face and dark red-brown leather strap.\n\nAt the bottom-right, place a pair of glossy dark-red ballet flats with delicate bow details.\n\nKeep every item separated with generous white negative space, similar to a high-end fashion catalog flat lay. No person, no mannequin, no body.\n\nStyle: photorealistic product photography, realistic fabric and leather textures, natural soft shadows, clean cutout appearance, subtle vintage Y2K aesthetic, elegant coordinated color palette, crisp details, accurate proportions, minimal composition, pure white background, vertical 3:4 aspect ratio.",
+      "category": "电商视觉",
+      "commerceType": "产品主图",
+      "tags": [
+        "AhaPrompt",
+        "GPT Image 2.5",
+        "图像提示词",
+        "电商视觉",
+        "产品主图"
+      ],
+      "model": "GPT Image 2.5",
+      "mediaType": "image",
+      "image": "https://cdn.ahaprompt.app/harvest-media/import-1789829086279-oqy64l.jpg",
+      "images": [
+        "https://cdn.ahaprompt.app/harvest-media/import-1789829086279-oqy64l.jpg"
+      ],
+      "rawImages": [
+        "https://cdn.ahaprompt.app/harvest-media/import-1789829086279-oqy64l.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "3:4",
+      "source": "AhaPrompt",
+      "sourceUrl": "https://ahaprompt.app/prompt/y2k-fashion-flat-lay-outfit-collage",
+      "url": "https://ahaprompt.app/prompt/y2k-fashion-flat-lay-outfit-collage",
+      "domain": "ahaprompt.app",
+      "originalSourceUrl": "https://x.com/saniaspeaks_/status/2101159734137258133",
+      "sourceLicenseVerified": true,
+      "sourceLicenseUrl": "https://ahaprompt.app/terms-of-service",
+      "license": "AhaPrompt Community Terms",
+      "licenseUrl": "https://ahaprompt.app/terms-of-service",
+      "attribution": "AhaPrompt (AhaPrompt Community Terms)",
+      "collectionOrigin": "approved-public-prompt",
+      "signals": [
+        "公开电商源",
+        "AhaPrompt Community Terms",
+        "产品主图"
+      ],
+      "date": "2026-11-16",
+      "timestamp": 1794795121161,
+      "collectedAt": "2026-11-16T02:12:01.161Z",
+      "githubSyncedAt": "2026-11-16T02:12:01.161Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "ahaprompt_high-end-skincare-ad-photo-composite",
+      "externalId": "high-end-skincare-ad-photo-composite",
+      "title": "High-end skincare ad photo composite",
+      "prompt": "Combine the two reference images into a single realistic high-end commercial skincare advertisement photo.\nReference Image 1 (M0): The sole reference for the person's identity and photography style.\nReference Image 2 (K0): The sole reference for the essence bottle's structure and material.\n\n[Identity and Product Consistency]\nMaintain M0's original facial features, age appearance, hairstyle, skin tone, light makeup, and naturally hydrated skin. The product must retain K0's bottle body, pump head, cap, and frosted glass material; do not redesign the product.\n\n[Pose and Actions]\nThe person should face forward naturally or with a very slight side turn of the face, head relaxed, gaze soft and directed near the camera.\n\nThe right hand naturally holds the essence bottle, presenting the product near the right chest to shoulder area, with the full bottle visible and sized to match the realistic visual proportions of a 30mL product.\n\nThe left hand is raised, with the fingertips of the index and middle fingers very gently touching the outer edge of the left cheek, showing a natural skincare experience gesture.\n\nBoth hands must have anatomically correct five-finger structure, wrist connections, and natural joint bending. Fingers must not pass through the face or the bottle; very slight realistic skin deformation is allowed where the cheek is touched.\n\n[Photography and Lighting]\n3:4 commercial beauty photography composition, including the full face, both hands, and the product. Simulate an 85mm f/8 photography effect, maintaining reasonable sharpness for both the product and the person's face.\n\nUse the same clamshell lighting and neutral warm gray background as M0. Hand shadows, skin highlights, and glass and metal reflections must all be consistent with the existing lighting.\n\n[Realism]\nRetain skin pores, natural facial texture, and realistic hand details. The image should be refined but not over-retouched.\n\nProhibited: floating product, incorrect fingers, extra joints, bottle deformation, smoothed skin, face swapping, and added brand text.",
+      "category": "电商视觉",
+      "commerceType": "广告海报",
+      "tags": [
+        "AhaPrompt",
+        "GPT Image 2.5",
+        "图像提示词",
+        "电商视觉",
+        "广告海报"
+      ],
+      "model": "GPT Image 2.5",
+      "mediaType": "image",
+      "image": "https://cdn.ahaprompt.app/harvest-media/import-1792642169550-jrngqb.jpg",
+      "images": [
+        "https://cdn.ahaprompt.app/harvest-media/import-1792642169550-jrngqb.jpg"
+      ],
+      "rawImages": [
+        "https://cdn.ahaprompt.app/harvest-media/import-1792642169550-jrngqb.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "3:4",
+      "source": "AhaPrompt",
+      "sourceUrl": "https://ahaprompt.app/prompt/high-end-skincare-ad-photo-composite",
+      "url": "https://ahaprompt.app/prompt/high-end-skincare-ad-photo-composite",
+      "domain": "ahaprompt.app",
+      "originalSourceUrl": "https://x.com/MrGafish/status/2112859814728777994",
+      "sourceLicenseVerified": true,
+      "sourceLicenseUrl": "https://ahaprompt.app/terms-of-service",
+      "license": "AhaPrompt Community Terms",
+      "licenseUrl": "https://ahaprompt.app/terms-of-service",
+      "attribution": "AhaPrompt (AhaPrompt Community Terms)",
+      "collectionOrigin": "approved-public-prompt",
+      "signals": [
+        "公开电商源",
+        "AhaPrompt Community Terms",
+        "广告海报"
+      ],
+      "date": "2026-11-16",
+      "timestamp": 1794795121161,
+      "collectedAt": "2026-11-16T02:12:01.161Z",
+      "githubSyncedAt": "2026-11-16T02:12:01.161Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "ahaprompt_minimalist-flat-vector-travel-poster",
+      "externalId": "minimalist-flat-vector-travel-poster",
+      "title": "Minimalist Flat-Vector Travel Poster",
+      "prompt": "Premium minimalist flat-vector travel poster for [CITY_NAME], 3:4 vertical format.\n\nDesign an original, sophisticated travel poster that captures the authentic visual personality of [CITY_NAME]. The composition must feel purpose-built for this city rather than following a reusable template.\n\nCITY IDENTITY\n\nFirst interpret the unique visual character of [CITY_NAME] and build the scene around these five elements:\n\n1. A recognizable landmark, architectural feature, or skyline element.\n2. A distinctive local way of moving through the city.\n3. One subtle everyday lifestyle moment.\n4. A native plant, landscape, or environmental characteristic.\n5. A composition and viewpoint that naturally belongs to the city.\n\nThe overall scene structure must change from city to city. Do not repeatedly use the same object positions or visual formula.\n\nPossible compositions include:\nharbor viewpoint, narrow historic lane, riverside garden, coastal path, elevated city overlook, lively market passage, tram avenue, ferry terminal, botanical setting, heritage square, beach promenade, cultural plaza, or skyline terrace.\n\nChoose whichever composition best represents [CITY_NAME].\n\nTYPOGRAPHY\n\nPlace “[CITY_NAME]” in the upper-left area with generous clean negative space.\n\nAdd one short, sophisticated English tagline inspired by the atmosphere of the city.\n\nTypography should feel understated, editorial, spacious, and premium. Never allow text to dominate the artwork.\n\nVISUAL HIERARCHY\n\nUse one iconic landmark or architectural feature as the main focal point.\n\nSupport it with only 2–4 carefully selected local elements. Every added detail should strengthen the sense of place.\n\nAvoid landmark collections or postcard-style collages. Keep the scene visually quiet and intentional.\n\nPEOPLE\n\nInclude only 3–6 small-scale figures.\n\nGive each person a believable activity connected to local life, such as:\nwalking through a historic lane, cycling, waiting for public transport, sketching architecture, boarding a ferry, reading outdoors, taking a quiet photograph, carrying beach equipment, browsing a market, or jogging beside the water.\n\nAvoid crowds and avoid making any single person the main character. Figures should integrate naturally into the environment.\n\nLOCAL CHARACTER\n\nUse city-specific elements only when they genuinely fit [CITY_NAME]:\n\n- local transportation\n- architecture\n- street furniture\n- vegetation\n- small signs or wayfinding\n- local food references\n- recreational activities\n- pavement markings\n- cultural details\n\nTransport and signage should remain subtle. Instead of always using a large signboard, incorporate details naturally through a small transit marker, station clock, ferry information panel, bike symbol, painted road marking, beach flag, or understated metro icon.\n\nART DIRECTION\n\nJapanese stationery-inspired aesthetic,\nluxury sticker illustration,\npremium commercial vector artwork,\nmodern editorial travel branding,\nclean delicate outlines,\nuniform line weight,\nsimple geometric forms,\nflat-color illustration,\nsoft shapes,\nbalanced visual rhythm,\nhigh-end minimalist postcard design.\n\nCOLOR SYSTEM\n\nBuild the atmosphere primarily with:\npale powder blue, soft sky blue, mist blue, and cool airy blues.\n\nBalance these with:\nwarm ivory, cream, soft beige, muted sage, gray-green, and understated architectural neutrals.\n\nUse dusty rose or muted blush only for tiny visual accents such as flowers, clothing details, small signs, awnings, or decorative objects.\n\nColors should remain soft, sophisticated, slightly desaturated, and cohesive.\n\nMOOD\n\nFresh, airy, peaceful, refined, contemporary, elegant.\n\nThe final artwork should feel like a premium boutique travel postcard or luxury lifestyle brand illustration, with generous breathing room and a relaxed sense of place.\n\nIMPORTANT QUALITY RULES\n\nEvery city must have its own visual identity.\nChange the camera angle, scene structure, landmark placement, foreground treatment, and supporting details according to the city's character.\n\nDo not simply replace [CITY_NAME] inside an existing composition.\n\nNEGATIVE PROMPT\n\nNo photorealism.\nNo realism.\nNo watercolor.\nNo painterly brushwork.\nNo gradients.\nNo heavy shadows.\nNo dramatic cinematic lighting.\nNo paper texture.\nNo excessive detail.\nNo cluttered background.\nNo landmark collage.\nNo crowded streets.\nNo oversized characters.\nNo dominant hero character.\nNo repetitive café composition.\nNo fixed signboard position.\nNo identical foreground treatment.\nNo generic tourist-poster formula.\nNo copied layout from another city.\nNo unnecessary decorative elements.",
+      "category": "电商视觉",
+      "commerceType": "品牌视觉",
+      "tags": [
+        "AhaPrompt",
+        "GPT Image 2",
+        "图像提示词",
+        "电商视觉",
+        "品牌视觉"
+      ],
+      "model": "GPT Image 2",
+      "mediaType": "image",
+      "image": "https://cdn.ahaprompt.app/harvest-media/import-1787456824406-u08znu.jpg",
+      "images": [
+        "https://cdn.ahaprompt.app/harvest-media/import-1787456824406-u08znu.jpg"
+      ],
+      "rawImages": [
+        "https://cdn.ahaprompt.app/harvest-media/import-1787456824406-u08znu.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "3:4",
+      "source": "AhaPrompt",
+      "sourceUrl": "https://ahaprompt.app/prompt/minimalist-flat-vector-travel-poster",
+      "url": "https://ahaprompt.app/prompt/minimalist-flat-vector-travel-poster",
+      "domain": "ahaprompt.app",
+      "originalSourceUrl": "https://x.com/MahnoorAi12/status/2091349007922778211",
+      "sourceLicenseVerified": true,
+      "sourceLicenseUrl": "https://ahaprompt.app/terms-of-service",
+      "license": "AhaPrompt Community Terms",
+      "licenseUrl": "https://ahaprompt.app/terms-of-service",
+      "attribution": "AhaPrompt (AhaPrompt Community Terms)",
+      "collectionOrigin": "approved-public-prompt",
+      "signals": [
+        "公开电商源",
+        "AhaPrompt Community Terms",
+        "品牌视觉"
+      ],
+      "date": "2026-11-16",
+      "timestamp": 1794795121161,
+      "collectedAt": "2026-11-16T02:12:01.161Z",
+      "githubSyncedAt": "2026-11-16T02:12:01.161Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "ahaprompt_rubber-stamp-travel-journal-poster",
+      "externalId": "rubber-stamp-travel-journal-poster",
+      "title": "Rubber Stamp Travel Journal Poster",
+      "prompt": "Create one premium 4:3 landscape rubber-stamp travel journal poster for [COUNTRY / LOCATION / SUBJECT].\n\nTEXT-TO-IMAGE GENERATION ONLY. Generate the entire artwork from [COUNTRY / LOCATION / SUBJECT] alone. No reference image or additional visual input is required.\n\nCOMPOSITION\n\nDivide the canvas vertically into exactly two equal 50% sections with no visible divider, border, gutter, overlap, or before/after labels.\n\nLEFT 50% — PHOTOGRAPHIC SCENE\n\nCreate a realistic, cinematic photograph representing [COUNTRY / LOCATION / SUBJECT].\n\nAutomatically determine its most recognizable subject, architecture, landscape, objects, people, animals, composition, lighting, colors, and atmosphere.\n\nGive the scene a subtle aged archival-photography treatment: slightly faded colors, reduced saturation and contrast, warm vintage tones, fine film grain, faint paper texture, and a matte printed finish.\n\nKeep the scene clearly photographic and natural.\n\nRIGHT 50% — RUBBER-STAMP MEMORY\n\nTransform the key visual identity of the scene into one compact hand-carved two-color rubber-stamp print.\n\nPreserve the essential silhouette, structure, pose, orientation, horizon, and major foreground/background relationships so the subject remains immediately recognizable.\n\nSimplify the scene aggressively—remove unnecessary crowds, tiny details, repetitive architecture, complex shading, and photographic textures.\n\nBuild the artwork entirely from solid ink areas, not outlines. Use one dark structural ink plus one or two muted colors inspired by [COUNTRY / LOCATION / SUBJECT].\n\nGive the print authentic handmade imperfections: ragged carved edges, broken ink coverage, dry-ink gaps, uneven pressure, subtle pigment grain, slight paper bleed, and 1–2 mm color misregistration.\n\nIt must look physically stamped onto paper—not like a vector illustration, cartoon, watercolor, pencil drawing, or digital filter.\n\nPAPER & COLOR\n\nUse warm off-white handmade paper with subtle natural fibers, tiny flecks, gentle beige variation, and a matte tactile surface.\n\nKeep the palette restrained and slightly muted. Use approximately 2–4 colors derived from the visual identity of [COUNTRY / LOCATION / SUBJECT].\n\nTEXT\n\nAutomatically generate:\n\nA concise 1–3 word English title identifying or describing the subject\nA two-digit number from 01–99\nExactly three short uppercase English keywords related to the scene\nA four-digit Gregorian year\n\nPlace these as a small centered archival text block beneath the stamp.\n\nUse understated dark-charcoal typewriter-style typography with slightly imperfect printed ink.\n\nKeep all text correctly spelled and fully legible. Do not add slogans, logos, signatures, coordinates, QR codes, social handles, watermarks, or random text.\n\nFINAL AESTHETIC\n\nThe finished poster should feel like a quiet collectible field-journal page:\n\nrealistic travel photograph × handmade rubber stamp × aged paper × archival typography.\n\nThe left side documents the place or subject; the right side preserves its visual memory as a small handmade stamp.\n\nElegant, restrained, tactile, nostalgic, and professionally art-directed.\n\nSTRICT 4:3 LANDSCAPE | EXACT 50/50 SPLIT | TEXT-ONLY GENERATION | PREMIUM PRINT QUALITY | NO REFERENCE IMAGE REQUIRED.",
+      "category": "电商视觉",
+      "commerceType": "品牌视觉",
+      "tags": [
+        "AhaPrompt",
+        "GPT Image 2.5",
+        "图像提示词",
+        "电商视觉",
+        "品牌视觉"
+      ],
+      "model": "GPT Image 2.5",
+      "mediaType": "image",
+      "image": "https://cdn.ahaprompt.app/harvest-media/import-1789740034529-m7gojo.jpg",
+      "images": [
+        "https://cdn.ahaprompt.app/harvest-media/import-1789740034529-m7gojo.jpg"
+      ],
+      "rawImages": [
+        "https://cdn.ahaprompt.app/harvest-media/import-1789740034529-m7gojo.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "4:3",
+      "source": "AhaPrompt",
+      "sourceUrl": "https://ahaprompt.app/prompt/rubber-stamp-travel-journal-poster",
+      "url": "https://ahaprompt.app/prompt/rubber-stamp-travel-journal-poster",
+      "domain": "ahaprompt.app",
+      "originalSourceUrl": "https://x.com/Goodmanprotocol/status/2100578136010428777",
+      "sourceLicenseVerified": true,
+      "sourceLicenseUrl": "https://ahaprompt.app/terms-of-service",
+      "license": "AhaPrompt Community Terms",
+      "licenseUrl": "https://ahaprompt.app/terms-of-service",
+      "attribution": "AhaPrompt (AhaPrompt Community Terms)",
+      "collectionOrigin": "approved-public-prompt",
+      "signals": [
+        "公开电商源",
+        "AhaPrompt Community Terms",
+        "品牌视觉"
+      ],
+      "date": "2026-11-16",
+      "timestamp": 1794795121161,
+      "collectedAt": "2026-11-16T02:12:01.161Z",
+      "githubSyncedAt": "2026-11-16T02:12:01.161Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "ahaprompt_illustrated-travel-poster-with-botanical-frame",
+      "externalId": "illustrated-travel-poster-with-botanical-frame",
+      "title": "Illustrated Travel Poster With Botanical Frame",
+      "prompt": "Create a sophisticated 3:4 vertical illustrated travel poster featuring [COUNTRY / CITY / DESTINATION], blending authentic architectural photography with whimsical storytelling, delicate botanical art, and elegant blue architectural sketches.\n\nMAIN SCENE:\nFeature the destination’s most recognizable landmark, preserving its authentic architecture, proportions, distinctive towers, and surrounding environment. Capture warm golden-hour sunlight, a luminous blue sky, and a natural photographic atmosphere.\n\nBOTANICAL FRAME:\nSurround the upper scene with graceful flowering branches and delicate petals, using a seasonal palette inspired by the destination. Let the flowers frame the landmark naturally without obscuring its defining features.\n\nILLUSTRATED SECOND WORLD:\nIn the lower half, transition into a warm ivory paper composition featuring a refined blue line-art illustration of the same landmark. Add floating petals, loose botanical sketches, subtle watercolor accents, and generous negative space. Include a tiny, adorable Pikmin-inspired blue flower creature carrying a miniature airplane, creating a whimsical story of courage, travel, and dreams taking flight.\n\nCOLOR & STYLE:\nSky blue, cobalt blue, soft ivory, warm gold, and delicate floral pink or blue. Combine realistic photography, fine architectural ink drawing, subtle watercolor textures, and premium editorial travel-poster design.\n\nSTORYTELLING:\nMake the tiny character and its flower feel naturally connected to the destination. Convey wonder, optimism, and the poetic idea of flowers discovering their own way to fly.\n\nTYPOGRAPHY:\nInclude a small, elegant destination name and restrained editorial details only where appropriate. Keep all lettering clean and correctly spelled.\n\nAvoid distorted architecture, clutter, oversized characters, excessive decoration, harsh colors, childish cartoon styling, watermarks, and logos.\n\nFORMAT: 3:4 vertical, high resolution, polished collectible travel-art poster.",
+      "category": "电商视觉",
+      "commerceType": "广告海报",
+      "tags": [
+        "AhaPrompt",
+        "GPT Image 2.5",
+        "图像提示词",
+        "电商视觉",
+        "广告海报"
+      ],
+      "model": "GPT Image 2.5",
+      "mediaType": "image",
+      "image": "https://cdn.ahaprompt.app/harvest-media/import-1792642173356-uhmh1q.jpg",
+      "images": [
+        "https://cdn.ahaprompt.app/harvest-media/import-1792642173356-uhmh1q.jpg"
+      ],
+      "rawImages": [
+        "https://cdn.ahaprompt.app/harvest-media/import-1792642173356-uhmh1q.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "3:4",
+      "source": "AhaPrompt",
+      "sourceUrl": "https://ahaprompt.app/prompt/illustrated-travel-poster-with-botanical-frame",
+      "url": "https://ahaprompt.app/prompt/illustrated-travel-poster-with-botanical-frame",
+      "domain": "ahaprompt.app",
+      "originalSourceUrl": "https://x.com/Goodmanprotocol/status/2112856678551240755",
+      "sourceLicenseVerified": true,
+      "sourceLicenseUrl": "https://ahaprompt.app/terms-of-service",
+      "license": "AhaPrompt Community Terms",
+      "licenseUrl": "https://ahaprompt.app/terms-of-service",
+      "attribution": "AhaPrompt (AhaPrompt Community Terms)",
+      "collectionOrigin": "approved-public-prompt",
+      "signals": [
+        "公开电商源",
+        "AhaPrompt Community Terms",
+        "广告海报"
+      ],
+      "date": "2026-11-16",
+      "timestamp": 1794795121161,
+      "collectedAt": "2026-11-16T02:12:01.161Z",
+      "githubSyncedAt": "2026-11-16T02:12:01.161Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "ahaprompt_vintage-travel-magazine-editorial-poster",
+      "externalId": "vintage-travel-magazine-editorial-poster",
+      "title": "Vintage Travel Magazine Editorial Poster",
+      "prompt": "Create a vintage editorial travel-magazine poster inspired by mid-century transportation and engineering publications. Feature a monumental [SUBJECT] as the main photographic subject, captured from a dramatic low-angle perspective with strong geometric composition and clean architectural lines. Use a large condensed bold uppercase headline “[TITLE]” occupying the upper portion of the page, partially interacting with or framing the subject. Add a smaller refined subtitle beneath it: “[SHORT DESCRIPTIVE TAGLINE]”. Include small editorial labels, technical-style captions, a page number, and minimal typographic details around the image.\n\nVisual style: authentic 1960s–1970s vintage print design, retro industrial travel magazine, muted teal blue, faded rust red, warm cream paper, subtle olive accents, slightly desaturated photography, natural sunlight, realistic film grain, halftone texture, aged paper fibers, gentle ink imperfections, soft faded edges, archival printed-photo appearance. Strong negative space, balanced Swiss-inspired editorial layout, bold typography, sophisticated museum-book aesthetic, highly detailed subject photography, realistic proportions, clean hierarchy, nostalgic but premium.\n\nKeep the layout consistent across a series: cream background, oversized blue headline, centered main image, small dark-teal informational text, restrained red/rust accents, page number in the corner, authentic vintage magazine print texture. Vertical 4:5 composition, crisp details, high-resolution editorial poster.",
+      "category": "电商视觉",
+      "commerceType": "广告海报",
+      "tags": [
+        "AhaPrompt",
+        "GPT Image 2",
+        "图像提示词",
+        "电商视觉",
+        "广告海报"
+      ],
+      "model": "GPT Image 2",
+      "mediaType": "image",
+      "image": "https://cdn.ahaprompt.app/harvest-media/import-1787456866258-y9ksyr.jpg",
+      "images": [
+        "https://cdn.ahaprompt.app/harvest-media/import-1787456866258-y9ksyr.jpg"
+      ],
+      "rawImages": [
+        "https://cdn.ahaprompt.app/harvest-media/import-1787456866258-y9ksyr.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "4:5",
+      "source": "AhaPrompt",
+      "sourceUrl": "https://ahaprompt.app/prompt/vintage-travel-magazine-editorial-poster",
+      "url": "https://ahaprompt.app/prompt/vintage-travel-magazine-editorial-poster",
+      "domain": "ahaprompt.app",
+      "originalSourceUrl": "https://x.com/Taaruk_/status/2091161796887593338",
+      "sourceLicenseVerified": true,
+      "sourceLicenseUrl": "https://ahaprompt.app/terms-of-service",
+      "license": "AhaPrompt Community Terms",
+      "licenseUrl": "https://ahaprompt.app/terms-of-service",
+      "attribution": "AhaPrompt (AhaPrompt Community Terms)",
+      "collectionOrigin": "approved-public-prompt",
+      "signals": [
+        "公开电商源",
+        "AhaPrompt Community Terms",
+        "广告海报"
+      ],
+      "date": "2026-11-16",
+      "timestamp": 1794795121161,
+      "collectedAt": "2026-11-16T02:12:01.161Z",
+      "githubSyncedAt": "2026-11-16T02:12:01.161Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "ahaprompt_santorini-family-travel-diary-poster",
+      "externalId": "santorini-family-travel-diary-poster",
+      "title": "Santorini Family Travel Diary Poster",
+      "prompt": "Create a vertical 4:5 cinematic travel-diary poster built around one beautiful family moment in Santorini, Greece.\n\nTOP — REAL PHOTOGRAPHY:\nA young couple with their little daughter at a scenic Santorini viewpoint during golden-hour sunset. The daughter is naturally positioned between her parents while both parents gently kiss her cheeks at the same time. She closes her eyes and gives a genuine happy smile. Make the interaction spontaneous, affectionate and completely natural — like a real family vacation photograph, not models posing for an advertisement.\n\nBehind them: iconic white Santorini architecture, blue-domed churches, Mediterranean Sea, distant cliffs, small boats and vibrant bougainvillea. Warm sunset light wraps naturally around their faces and hair. Real skin pores, tiny imperfections, realistic hair strands, accurate hands, natural fabric texture and believable shadows. Shot like a premium full-frame travel photograph, 35mm lens, shallow but realistic depth of field, cinematic dynamic range. Absolutely photorealistic — no AI-looking skin, excessive HDR, plastic faces or artificial expressions.\n\nKeep generous negative space around the subjects for subtle editorial typography. Add only a few refined details such as:\n“TRAVEL DIARY”\n“Sept 11, 2026”\n“SANTORINI — GREECE”\nand one small handwritten travel note.\n\nBOTTOM — HAND-PRINTED MEMORY:\nInstead of simply duplicating the photograph, reinterpret the same family moment as an original vintage travel-print artwork. Use imperfect screen printing, risograph dots, engraved linework, faded ink, rough edges and authentic paper grain on warm ivory stock.\n\nBuild the Santorini landscape around the family as a graphic illustration: simplified blue domes, cliffside houses, sea, sunset and bougainvillea integrated naturally into the composition. Limited ink palette of deep Mediterranean navy, sun-faded terracotta orange, warm ivory and tiny touches of dusty blue.\n\nUse a large expressive hand-painted title:\n“MORE GOOD DAYS”\n\nSurround it with only a few carefully placed diary elements: a Santorini postal stamp, tiny handwritten notes, one or two taped miniature travel photographs and “A SMALL DIARY — #001.” Keep everything intentionally imperfect and tactile rather than digitally clean.\n\nThe transition between photography and illustration should feel like a torn page from a personal travel journal rather than a basic 50/50 split.\n\nOverall aesthetic: real family vacation photography × independent travel magazine × vintage European tourism poster × handmade screen print.\n\nWarm, intimate, nostalgic and premium. Strong enough to stop someone while scrolling, but never overcrowded. The photograph must feel genuinely captured in real life, while the lower artwork feels physically printed by hand.\n\nNo Chinese text. No copied layouts. No generic AI collage aesthetic. No excessive stickers. No fantasy. No fake-looking faces. No malformed hands. No waxy skin. No over-saturation. Keep all three family members consistent between the photographic and illustrated sections.",
+      "category": "电商视觉",
+      "commerceType": "广告海报",
+      "tags": [
+        "AhaPrompt",
+        "GPT Image 2.5",
+        "图像提示词",
+        "电商视觉",
+        "广告海报"
+      ],
+      "model": "GPT Image 2.5",
+      "mediaType": "image",
+      "image": "https://cdn.ahaprompt.app/harvest-media/import-1789139777681-p8u9s0.jpg",
+      "images": [
+        "https://cdn.ahaprompt.app/harvest-media/import-1789139777681-p8u9s0.jpg"
+      ],
+      "rawImages": [
+        "https://cdn.ahaprompt.app/harvest-media/import-1789139777681-p8u9s0.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "4:5",
+      "source": "AhaPrompt",
+      "sourceUrl": "https://ahaprompt.app/prompt/santorini-family-travel-diary-poster",
+      "url": "https://ahaprompt.app/prompt/santorini-family-travel-diary-poster",
+      "domain": "ahaprompt.app",
+      "originalSourceUrl": "https://x.com/frametheory058/status/2098253373237875074",
+      "sourceLicenseVerified": true,
+      "sourceLicenseUrl": "https://ahaprompt.app/terms-of-service",
+      "license": "AhaPrompt Community Terms",
+      "licenseUrl": "https://ahaprompt.app/terms-of-service",
+      "attribution": "AhaPrompt (AhaPrompt Community Terms)",
+      "collectionOrigin": "approved-public-prompt",
+      "signals": [
+        "公开电商源",
+        "AhaPrompt Community Terms",
+        "广告海报"
+      ],
+      "date": "2026-11-16",
+      "timestamp": 1794795121161,
+      "collectedAt": "2026-11-16T02:12:01.161Z",
+      "githubSyncedAt": "2026-11-16T02:12:01.161Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "ahaprompt_japanese-punk-street-fashion-editorial-poster",
+      "externalId": "japanese-punk-street-fashion-editorial-poster",
+      "title": "Japanese Punk Street Fashion Editorial Poster",
+      "prompt": "Create an ultra-realistic cinematic street-fashion editorial poster with a strong retro Japanese punk / underground magazine aesthetic.\n\nA young East Asian woman sits on the ground and looks directly into the camera from a dramatic extreme low-angle perspective. Her upper body is positioned near the center-top of the composition while one leg extends aggressively toward the camera, creating powerful forced perspective. Her oversized rugged black combat boot dominates the entire foreground, appearing much larger than her body. The boot has thick textured rubber soles, worn black leather, visible orange-brown laces, scuffed surfaces, and realistic dirt and imperfections.\n\nShe has straight, slightly messy shoulder-length black hair with wispy bangs, naturally flying outward as if caught by wind. Her expression is calm, confident, slightly rebellious, with a direct intense gaze. Subtle red-orange eye makeup and vivid red lips. Natural skin texture, realistic pores, delicate facial details.\n\nShe wears an oversized black denim jacket, layered over a patterned black-and-white striped high-neck top, with loose styling and visible fabric folds. Add rugged streetwear details and a worn urban fashion aesthetic.\n\nThe background is a highly textured mixed-media Japanese street-art collage, combining distressed turquoise blue, vivid burnt orange, mustard yellow and off-white paper textures. Include rough hand-painted geometric shapes, torn paper, photocopied manga-style sketches, faded illustrations, ink marks, scratches, paint splatters, grain, distressed typography and fragmented Japanese-inspired graphic elements. The background should feel like an old underground fashion magazine cover or experimental punk poster.\n\nUse a vertical 4:5 composition, dramatic extreme wide-angle lens, camera positioned almost at ground level directly in front of the boot, strong perspective distortion, boot extremely close to the lens, subject receding into the background.\n\nLighting: cinematic natural daylight mixed with hard directional highlights, realistic shadows, subtle film grain, slightly faded analog color grading, high micro-detail, tactile textures, authentic photographic imperfections.\n\nStyle: photorealistic fashion photography fused with vintage Japanese punk collage design, experimental editorial poster, raw street culture, 1990s underground magazine aesthetic, distressed print texture, analog film look, highly detailed, visually striking, premium fashion campaign, sharp subject, realistic materials, realistic anatomy.\n\nAspect ratio: 4:5",
+      "category": "电商视觉",
+      "commerceType": "广告海报",
+      "tags": [
+        "AhaPrompt",
+        "GPT Image 2.5",
+        "图像提示词",
+        "电商视觉",
+        "广告海报"
+      ],
+      "model": "GPT Image 2.5",
+      "mediaType": "image",
+      "image": "https://cdn.ahaprompt.app/harvest-media/import-1789829248602-dhink0.jpg",
+      "images": [
+        "https://cdn.ahaprompt.app/harvest-media/import-1789829248602-dhink0.jpg"
+      ],
+      "rawImages": [
+        "https://cdn.ahaprompt.app/harvest-media/import-1789829248602-dhink0.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "4:5",
+      "source": "AhaPrompt",
+      "sourceUrl": "https://ahaprompt.app/prompt/japanese-punk-street-fashion-editorial-poster",
+      "url": "https://ahaprompt.app/prompt/japanese-punk-street-fashion-editorial-poster",
+      "domain": "ahaprompt.app",
+      "originalSourceUrl": "https://x.com/Shorelyn_/status/2100545305200795816",
+      "sourceLicenseVerified": true,
+      "sourceLicenseUrl": "https://ahaprompt.app/terms-of-service",
+      "license": "AhaPrompt Community Terms",
+      "licenseUrl": "https://ahaprompt.app/terms-of-service",
+      "attribution": "AhaPrompt (AhaPrompt Community Terms)",
+      "collectionOrigin": "approved-public-prompt",
+      "signals": [
+        "公开电商源",
+        "AhaPrompt Community Terms",
+        "广告海报"
+      ],
+      "date": "2026-11-16",
+      "timestamp": 1794795121161,
+      "collectedAt": "2026-11-16T02:12:01.161Z",
+      "githubSyncedAt": "2026-11-16T02:12:01.161Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "ahaprompt_cinematic-autumn-landmark-poster",
+      "externalId": "cinematic-autumn-landmark-poster",
+      "title": "Cinematic Autumn Landmark Poster",
+      "prompt": "Create a highly aesthetic, cinematic poster of [LANDMARK] transformed into an unmistakable October atmosphere — rich burnt orange, deep rust, muted amber, and warm brown tones, crisp autumn air, swirling maple leaves naturally framing the landmark, soft golden-hour sunlight, subtle mist, cozy street lamps glowing, wet stone streets reflecting warm light, a few scattered pumpkins and autumn details integrated tastefully into the environment.\n\nKeep the landmark instantly recognizable and visually dominant, while making the entire scene feel like a frame from a premium autumn movie. Add subtle film grain, realistic paper texture, atmospheric depth, dramatic shadows, sophisticated editorial composition, and a slightly nostalgic 35mm photography feel.\n\nNo Halloween clichés, no cartoon look, no excessive decorations. Make it elegant, cinematic, mysterious, and highly shareable — the kind of October visual that feels like “the landmark entered its autumn era.”\n\nMinimal refined typography: “OCTOBER” with a small location name underneath. Vertical 4:5 poster composition, premium travel-editorial aesthetic, viral Pinterest/Instagram visuals49:T489,Create a highly aesthetic, cinematic poster of [LANDMARK] transformed into an unmistakable October atmosphere — rich burnt orange, deep rust, muted amber, and warm brown tones, crisp autumn air, swirling maple leaves naturally framing the landmark, soft golden-hour sunlight, subtle mist, cozy street lamps glowing, wet stone streets reflecting warm light, a few scattered pumpkins and autumn details integrated tastefully into the environment.\n\nKeep the landmark instantly recognizable and visually dominant, while making the entire scene feel like a frame from a premium autumn movie. Add subtle film grain, realistic paper texture, atmospheric depth, dramatic shadows, sophisticated editorial composition, and a slightly nostalgic 35mm photography feel.\n\nNo Halloween clichés, no cartoon look, no excessive decorations. Make it elegant, cinematic, mysterious, and highly shareable — the kind of October visual that feels like “the landmark entered its autumn era.”\n\nMinimal refined typography: “OCTOBER” with a small location name underneath. Vertical 4:5 poster composition, premium travel-editorial aesthetic, viral Pinterest/Instagram visuals",
+      "category": "电商视觉",
+      "commerceType": "广告海报",
+      "tags": [
+        "AhaPrompt",
+        "GPT Image 2.5",
+        "图像提示词",
+        "电商视觉",
+        "广告海报"
+      ],
+      "model": "GPT Image 2.5",
+      "mediaType": "image",
+      "image": "https://cdn.ahaprompt.app/harvest-media/import-1791173754543-07eycd.jpg",
+      "images": [
+        "https://cdn.ahaprompt.app/harvest-media/import-1791173754543-07eycd.jpg"
+      ],
+      "rawImages": [
+        "https://cdn.ahaprompt.app/harvest-media/import-1791173754543-07eycd.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "4:5",
+      "source": "AhaPrompt",
+      "sourceUrl": "https://ahaprompt.app/prompt/cinematic-autumn-landmark-poster",
+      "url": "https://ahaprompt.app/prompt/cinematic-autumn-landmark-poster",
+      "domain": "ahaprompt.app",
+      "originalSourceUrl": "https://x.com/Naiknelofar788/status/2106626094011228655",
+      "sourceLicenseVerified": true,
+      "sourceLicenseUrl": "https://ahaprompt.app/terms-of-service",
+      "license": "AhaPrompt Community Terms",
+      "licenseUrl": "https://ahaprompt.app/terms-of-service",
+      "attribution": "AhaPrompt (AhaPrompt Community Terms)",
+      "collectionOrigin": "approved-public-prompt",
+      "signals": [
+        "公开电商源",
+        "AhaPrompt Community Terms",
+        "广告海报"
+      ],
+      "date": "2026-11-16",
+      "timestamp": 1794795121161,
+      "collectedAt": "2026-11-16T02:12:01.161Z",
+      "githubSyncedAt": "2026-11-16T02:12:01.161Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "ahaprompt_miniature-paper-craft-travel-postcard",
+      "externalId": "miniature-paper-craft-travel-postcard",
+      "title": "Miniature Paper-Craft Travel Postcard",
+      "prompt": "Create a charming miniature 3D paper-craft travel illustration of [DESTINATION], designed as a delicate handmade travel postcard. Use only the destination name to identify the location, then feature its most recognizable local landmarks, architecture, and cultural elements as tiny handcrafted models arranged naturally on a narrow floating landscape strip.\n\nInclude charming miniature details that reinforce the destination, such as authentic local transportation, trees, street lamps, pathways, water, birds, clouds, and a small airplane with a subtle dotted flight path. Keep every landmark recognizable and geographically appropriate to the destination.\n\nUse a soft white textured paper background with gentle natural lighting, pastel colors, soft shadows, and a clean airy composition. Make the miniature elements appear handcrafted from layered paper, clay, wood, cardstock, and other delicate craft materials, with tactile textures, tiny details, subtle imperfections, and realistic miniature depth.\n\nKeep the scene centered and elegant with generous negative space around the floating landscape strip. Add a small refined handwritten-style title at the bottom reading “[DESTINATION]”.\n\nStyle: miniature diorama, handcrafted paper art, whimsical 3D illustration, travel postcard, soft pastel palette, tactile craft textures, macro photography feel, delicate details, cozy artistic aesthetic, realistic miniature depth, high resolution, vertical 3:4 composition.",
+      "category": "电商视觉",
+      "commerceType": "广告海报",
+      "tags": [
+        "AhaPrompt",
+        "GPT Image 2",
+        "图像提示词",
+        "电商视觉",
+        "广告海报"
+      ],
+      "model": "GPT Image 2",
+      "mediaType": "image",
+      "image": "https://cdn.ahaprompt.app/harvest-media/import-1787456914406-re0vi8.jpg",
+      "images": [
+        "https://cdn.ahaprompt.app/harvest-media/import-1787456914406-re0vi8.jpg"
+      ],
+      "rawImages": [
+        "https://cdn.ahaprompt.app/harvest-media/import-1787456914406-re0vi8.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "3:4",
+      "source": "AhaPrompt",
+      "sourceUrl": "https://ahaprompt.app/prompt/miniature-paper-craft-travel-postcard",
+      "url": "https://ahaprompt.app/prompt/miniature-paper-craft-travel-postcard",
+      "domain": "ahaprompt.app",
+      "originalSourceUrl": "https://x.com/Goodmanprotocol/status/2091077027415851221",
+      "sourceLicenseVerified": true,
+      "sourceLicenseUrl": "https://ahaprompt.app/terms-of-service",
+      "license": "AhaPrompt Community Terms",
+      "licenseUrl": "https://ahaprompt.app/terms-of-service",
+      "attribution": "AhaPrompt (AhaPrompt Community Terms)",
+      "collectionOrigin": "approved-public-prompt",
+      "signals": [
+        "公开电商源",
+        "AhaPrompt Community Terms",
+        "广告海报"
+      ],
+      "date": "2026-11-16",
+      "timestamp": 1794795121161,
+      "collectedAt": "2026-11-16T02:12:01.161Z",
+      "githubSyncedAt": "2026-11-16T02:12:01.161Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "ahaprompt_black-and-gold-perfume-commercial",
+      "externalId": "black-and-gold-perfume-commercial",
+      "title": "Black-and-Gold Perfume Commercial",
+      "prompt": "Create a 15-second ultra-premium luxury perfume commercial in cinematic 16:9.\n\nA crystal perfume bottle with a sleek black-and-gold design stands on a glossy reflective surface inside a dark luxury studio. The commercial opens with an extreme macro shot of the engraved cap, followed by slow cinematic rotations revealing every elegant detail. Dramatic golden light sweeps across the glass while soft volumetric light and subtle mist create a premium atmosphere.\n\nElegant water splashes, floating crystal shards, and shimmering golden particles move naturally around the bottle in ultra slow motion without covering the label. Every reflection is physically accurate with realistic caustics, premium glass refractions, and highly detailed liquid simulation.\n\nThe camera transitions through smooth macro close-ups, low-angle hero shots, orbiting movements, and dramatic push-ins using luxury advertising cinematography. Rich black marble, gold accents, and soft smoke enhance the high-end aesthetic.\n\nEnd with the bottle perfectly centered on a glossy pedestal as the lighting intensifies for a premium hero reveal. Display a fictional luxury brand logo \"NOIR ÉLITE\" with the tagline \"Crafted to Leave a Mark.\"\n\nPhotorealistic, Hollywood luxury TV commercial, ultra-detailed, flawless glass rendering, realistic water physics, cinematic color grading, HDR, ray-traced reflections, depth of field, premium product advertising, 8K quality.",
+      "category": "电商视觉",
+      "commerceType": "电商视频",
+      "tags": [
+        "AhaPrompt",
+        "MiniMax H3",
+        "视频提示词",
+        "电商视觉",
+        "电商视频"
+      ],
+      "model": "MiniMax H3",
+      "mediaType": "video",
+      "image": "https://cdn.ahaprompt.app/prompt-images/import-1785890662837-lq0tlh.jpg",
+      "images": [
+        "https://cdn.ahaprompt.app/prompt-images/import-1785890662837-lq0tlh.jpg"
+      ],
+      "rawImages": [
+        "https://cdn.ahaprompt.app/prompt-images/import-1785890662837-lq0tlh.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "16:9",
+      "videoPoster": "https://cdn.ahaprompt.app/prompt-images/import-1785890662837-lq0tlh.jpg",
+      "videoUrl": "https://cdn.ahaprompt.app/prompt-images/import-1785890659383-hswcjg.webm",
+      "videoSourceUrl": "https://cdn.ahaprompt.app/prompt-images/import-1785890659383-hswcjg.webm",
+      "source": "AhaPrompt",
+      "sourceUrl": "https://ahaprompt.app/prompt/black-and-gold-perfume-commercial",
+      "url": "https://ahaprompt.app/prompt/black-and-gold-perfume-commercial",
+      "domain": "ahaprompt.app",
+      "originalSourceUrl": "https://x.com/kingofdairyque/status/2083079304632520833",
+      "sourceLicenseVerified": true,
+      "sourceLicenseUrl": "https://ahaprompt.app/terms-of-service",
+      "license": "AhaPrompt Community Terms",
+      "licenseUrl": "https://ahaprompt.app/terms-of-service",
+      "attribution": "AhaPrompt (AhaPrompt Community Terms)",
+      "collectionOrigin": "approved-public-prompt",
+      "signals": [
+        "公开电商源",
+        "AhaPrompt Community Terms",
+        "电商视频"
+      ],
+      "date": "2026-11-16",
+      "timestamp": 1794795121161,
+      "collectedAt": "2026-11-16T02:12:01.161Z",
+      "githubSyncedAt": "2026-11-16T02:12:01.161Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "ahaprompt_luxury-perfume-commercial",
+      "externalId": "luxury-perfume-commercial",
+      "title": "Luxury perfume commercial",
+      "prompt": "Scene 1 (0–3s) – Luxury Reveal\nA luxury perfume bottle slowly emerges from darkness, standing on a glossy black pedestal. Soft golden light beams gradually reveal the crystal-clear glass, while subtle volumetric fog creates depth. Extreme macro shot, cinematic lighting, ultra-realistic reflections, premium luxury commercial aesthetic.\n\nScene 2 (3–6s) – Precision Details\nExtreme close-up of the perfume bottle as rich golden fragrance liquid gently swirls inside. The camera performs a smooth cinematic orbit, capturing intricate glass textures, flawless craftsmanship, and sparkling highlights. Ultra-detailed, photorealistic, premium commercial quality.\n\nScene 3 (6–9s) – AI Transformation\nThe perfume bottle seamlessly dissolves into glowing golden particles before instantly reforming into a futuristic luxury edition, maintaining perfect proportions and visual consistency. Dynamic orbit camera, seamless transformation, cinematic lighting, premium visual effects.\n\nScene 4 (9–12s) – Environment Transition\nWithout a single cut, the background transforms from a luxurious black studio into a futuristic neon metropolis. The perfume bottle remains perfectly consistent while the camera performs a dramatic dolly-in. Hyper-realistic, cinematic, high-end advertising style.\n\nScene 5 (12–15s) – Hero Finale\nSlow-motion hero shot of the luxury perfume bottle elegantly rotating as glowing golden particles float around it. Premium black background, flawless reflections, cinematic logo reveal, luxury commercial ending, 8K photorealistic, blockbuster advertising quality.",
+      "category": "电商视觉",
+      "commerceType": "电商视频",
+      "tags": [
+        "AhaPrompt",
+        "MiniMax H3",
+        "视频提示词",
+        "电商视觉",
+        "电商视频"
+      ],
+      "model": "MiniMax H3",
+      "mediaType": "video",
+      "image": "https://cdn.ahaprompt.app/prompt-images/import-1785891602309-2hx2vo.jpg",
+      "images": [
+        "https://cdn.ahaprompt.app/prompt-images/import-1785891602309-2hx2vo.jpg"
+      ],
+      "rawImages": [
+        "https://cdn.ahaprompt.app/prompt-images/import-1785891602309-2hx2vo.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "16:9",
+      "videoPoster": "https://cdn.ahaprompt.app/prompt-images/import-1785891602309-2hx2vo.jpg",
+      "videoUrl": "https://cdn.ahaprompt.app/prompt-images/import-1785891598973-mf80z5.webm",
+      "videoSourceUrl": "https://cdn.ahaprompt.app/prompt-images/import-1785891598973-mf80z5.webm",
+      "source": "AhaPrompt",
+      "sourceUrl": "https://ahaprompt.app/prompt/luxury-perfume-commercial",
+      "url": "https://ahaprompt.app/prompt/luxury-perfume-commercial",
+      "domain": "ahaprompt.app",
+      "originalSourceUrl": "https://x.com/CaliraVal/status/2083059583308751079",
+      "sourceLicenseVerified": true,
+      "sourceLicenseUrl": "https://ahaprompt.app/terms-of-service",
+      "license": "AhaPrompt Community Terms",
+      "licenseUrl": "https://ahaprompt.app/terms-of-service",
+      "attribution": "AhaPrompt (AhaPrompt Community Terms)",
+      "collectionOrigin": "approved-public-prompt",
+      "signals": [
+        "公开电商源",
+        "AhaPrompt Community Terms",
+        "电商视频"
+      ],
+      "date": "2026-11-16",
+      "timestamp": 1794795121161,
+      "collectedAt": "2026-11-16T02:12:01.161Z",
+      "githubSyncedAt": "2026-11-16T02:12:01.161Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "ahaprompt_luxury-wireless-headphones-product-showcase",
+      "externalId": "luxury-wireless-headphones-product-showcase",
+      "title": "Luxury wireless headphones product showcase",
+      "prompt": "Create a 15-second luxury cinematic product showcase for premium wireless over-ear headphones.\n\n0–4s: Begin with an extreme macro tracking shot moving across the soft memory-foam ear cushion, fine fabric texture, brushed-metal hinge and precision-machined controls. A narrow light band travels across the surface, revealing realistic materials against a deep black studio background.\n\n4–8s: Pull back into a three-quarter hero view. The headphones rotate slowly above a glossy reflective pedestal. The ear cups pivot naturally while the adjustable headband extends slightly, demonstrating flexible construction and comfort. Maintain exact symmetry, stable geometry and consistent proportions.\n\n8–12s: Transition into an elegant exploded-view reveal. The ear cushion, acoustic driver, internal sound chamber, control ring and outer shell separate smoothly in perfect alignment. Subtle luminous sound waves pulse outward from the driver while the camera performs a restrained side orbit.\n\n12–15s: Every component reconnects seamlessly. The headphones settle into a centered front-facing hero composition as soft rim lighting defines the silhouette. Complete a gentle dolly-in toward the ear cups. Premium technology-commercial finish, controlled reflections, realistic shadows, shallow depth of field, crisp surface detail, stable product shape, no hands, no distortion, no onscreen text.",
+      "category": "电商视觉",
+      "commerceType": "电商视频",
+      "tags": [
+        "AhaPrompt",
+        "MiniMax H3",
+        "视频提示词",
+        "电商视觉",
+        "电商视频"
+      ],
+      "model": "MiniMax H3",
+      "mediaType": "video",
+      "image": "https://cdn.ahaprompt.app/prompt-images/import-1785891640926-i7k267.jpg",
+      "images": [
+        "https://cdn.ahaprompt.app/prompt-images/import-1785891640926-i7k267.jpg"
+      ],
+      "rawImages": [
+        "https://cdn.ahaprompt.app/prompt-images/import-1785891640926-i7k267.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "16:9",
+      "videoPoster": "https://cdn.ahaprompt.app/prompt-images/import-1785891640926-i7k267.jpg",
+      "videoUrl": "https://cdn.ahaprompt.app/prompt-images/import-1785891638434-b1kzst.webm",
+      "videoSourceUrl": "https://cdn.ahaprompt.app/prompt-images/import-1785891638434-b1kzst.webm",
+      "source": "AhaPrompt",
+      "sourceUrl": "https://ahaprompt.app/prompt/luxury-wireless-headphones-product-showcase",
+      "url": "https://ahaprompt.app/prompt/luxury-wireless-headphones-product-showcase",
+      "domain": "ahaprompt.app",
+      "originalSourceUrl": "https://x.com/LudovicCreator/status/2082783319075291312",
+      "sourceLicenseVerified": true,
+      "sourceLicenseUrl": "https://ahaprompt.app/terms-of-service",
+      "license": "AhaPrompt Community Terms",
+      "licenseUrl": "https://ahaprompt.app/terms-of-service",
+      "attribution": "AhaPrompt (AhaPrompt Community Terms)",
+      "collectionOrigin": "approved-public-prompt",
+      "signals": [
+        "公开电商源",
+        "AhaPrompt Community Terms",
+        "电商视频"
+      ],
+      "date": "2026-11-16",
+      "timestamp": 1794795121161,
+      "collectedAt": "2026-11-16T02:12:01.161Z",
+      "githubSyncedAt": "2026-11-16T02:12:01.161Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "ahaprompt_luxury-emerald-necklace-storyboard",
+      "externalId": "luxury-emerald-necklace-storyboard",
+      "title": "Luxury Emerald Necklace Storyboard",
+      "prompt": "TITLE: Luxury Emerald Necklace Commercial Storyboard\n\nFORMAT:\n• Single-page premium storyboard\n• 3:4 portrait ratio\n• Editorial presentation board\n• 8 cinematic frames arranged in a clean luxury grid\n• Ultra-high-resolution, 8K\n\nHEADER:\n• Elegant serif typography\n• White, emerald green, champagne gold, and black luxury palette\n• Premium information cards\n• Luxury jewelry icons\n• Section: \"Why This Style Works\"\n\nSTORYBOARD SCENES:\n1. A handcrafted emerald necklace resting inside an elegant velvet jewelry box on polished black marble under a dramatic spotlight.\n2. The jewelry box slowly opening as warm golden light reveals the brilliant emerald necklace.\n3. Extreme macro close-up of the emerald gemstone and diamond accents with breathtaking clarity, crystal reflections, and luxurious sparkle.\n4. A graceful woman preparing for an exclusive gala, delicately lifting the necklace from the box.\n5. The emerald necklace being elegantly fastened around her neck, emphasizing craftsmanship and sophistication.\n6. Emotional cinematic close-up highlighting the necklace glowing against flawless skin with soft luxury lighting.\n7. High-fashion editorial portrait featuring the model in an elegant couture gown, with the emerald necklace as the unmistakable focal point.\n8. Hero product shot of the emerald necklace displayed on a glossy black reflective pedestal surrounded by floating emerald particles, subtle golden dust, dramatic rim lighting, and premium luxury branding composition.\n\nSTYLE:\nInspired by world-class luxury jewelry campaigns, premium fashion editorial, soft cinematic lighting, refined elegance, crystal-clear gemstone reflections, ultra-realistic textures, shallow depth of field, award-winning commercial photography, luxury branding aesthetic, 8K masterpiece.",
+      "category": "电商视觉",
+      "commerceType": "广告海报",
+      "tags": [
+        "AhaPrompt",
+        "MiniMax H3",
+        "视频提示词",
+        "电商视觉",
+        "广告海报"
+      ],
+      "model": "MiniMax H3",
+      "mediaType": "video",
+      "image": "https://cdn.ahaprompt.app/prompt-images/import-1785892337903-vauap7.jpg",
+      "images": [
+        "https://cdn.ahaprompt.app/prompt-images/import-1785892337903-vauap7.jpg"
+      ],
+      "rawImages": [
+        "https://cdn.ahaprompt.app/prompt-images/import-1785892337903-vauap7.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "3:4",
+      "videoPoster": "https://cdn.ahaprompt.app/prompt-images/import-1785892337903-vauap7.jpg",
+      "videoUrl": "https://cdn.ahaprompt.app/prompt-images/import-1785892334618-mihrpc.webm",
+      "videoSourceUrl": "https://cdn.ahaprompt.app/prompt-images/import-1785892334618-mihrpc.webm",
+      "source": "AhaPrompt",
+      "sourceUrl": "https://ahaprompt.app/prompt/luxury-emerald-necklace-storyboard",
+      "url": "https://ahaprompt.app/prompt/luxury-emerald-necklace-storyboard",
+      "domain": "ahaprompt.app",
+      "originalSourceUrl": "https://x.com/itxabdullaa/status/2082667261718872509",
+      "sourceLicenseVerified": true,
+      "sourceLicenseUrl": "https://ahaprompt.app/terms-of-service",
+      "license": "AhaPrompt Community Terms",
+      "licenseUrl": "https://ahaprompt.app/terms-of-service",
+      "attribution": "AhaPrompt (AhaPrompt Community Terms)",
+      "collectionOrigin": "approved-public-prompt",
+      "signals": [
+        "公开电商源",
+        "AhaPrompt Community Terms",
+        "广告海报"
+      ],
+      "date": "2026-11-16",
+      "timestamp": 1794795121161,
+      "collectedAt": "2026-11-16T02:12:01.161Z",
+      "githubSyncedAt": "2026-11-16T02:12:01.161Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "ahaprompt_luxury-watch-storyboard-campaign",
+      "externalId": "luxury-watch-storyboard-campaign",
+      "title": "Luxury Watch Storyboard Campaign",
+      "prompt": "Here`s the storyboard\n\nTITLE: Luxury Watch Commercial Storyboard\n\nCreate a premium single-page storyboard for a luxury watch commercial.\n\nEditorial presentation board.\n\n3:4 portrait.\n\nEight cinematic storyboard frames arranged in a clean luxury grid.\n\nMinimalist Swiss-inspired design.\n\nPremium typography.\n\nBlack, silver and champagne gold color palette.\n\nProfessional creative agency presentation.\n\nEach frame should look like a film storyboard while remaining highly realistic.\n\nFrame 1:\nLuxury mechanical watch inside an elegant leather presentation box.\n\nFrame 2:\nPresentation box opens revealing the watch with dramatic golden light.\n\nFrame 3:\nExtreme macro shot of the dial, hands, gears and sapphire crystal.\n\nFrame 4:\nElegant gentleman lifting the watch before a black-tie gala.\n\nFrame 5:\nWatch being fastened onto his wrist.\n\nFrame 6:\nClose-up of the sweeping second hand catching warm reflections.\n\nFrame 7:\nFashion editorial portrait with the watch as the hero.\n\nFrame 8:\nHero product shot on glossy black marble with floating metallic particles.\n\nLuxury presentation board.\n\nAgency-quality storyboard.\n\nMinimal annotations.\n\nWhite background.\n\n8K.\n\nUse storyboard as the complete creative direction, shot list, composition, pacing, and cinematic sequence.\n\nUse LuxuryWatch as the exact product reference. Preserve the watch's design, dial, case, leather strap, proportions, materials, and fine details consistently throughout every scene.\n\nCreate a world-class luxury watch commercial.",
+      "category": "电商视觉",
+      "commerceType": "广告海报",
+      "tags": [
+        "AhaPrompt",
+        "MiniMax H3",
+        "视频提示词",
+        "电商视觉",
+        "广告海报"
+      ],
+      "model": "MiniMax H3",
+      "mediaType": "video",
+      "image": "https://cdn.ahaprompt.app/prompt-images/import-1785891628553-5e2tuu.jpg",
+      "images": [
+        "https://cdn.ahaprompt.app/prompt-images/import-1785891628553-5e2tuu.jpg"
+      ],
+      "rawImages": [
+        "https://cdn.ahaprompt.app/prompt-images/import-1785891628553-5e2tuu.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "3:4",
+      "videoPoster": "https://cdn.ahaprompt.app/prompt-images/import-1785891628553-5e2tuu.jpg",
+      "videoUrl": "https://cdn.ahaprompt.app/prompt-images/import-1785891625647-hhf7xw.webm",
+      "videoSourceUrl": "https://cdn.ahaprompt.app/prompt-images/import-1785891625647-hhf7xw.webm",
+      "source": "AhaPrompt",
+      "sourceUrl": "https://ahaprompt.app/prompt/luxury-watch-storyboard-campaign",
+      "url": "https://ahaprompt.app/prompt/luxury-watch-storyboard-campaign",
+      "domain": "ahaprompt.app",
+      "originalSourceUrl": "https://x.com/I_amShiti/status/2083051609953903017",
+      "sourceLicenseVerified": true,
+      "sourceLicenseUrl": "https://ahaprompt.app/terms-of-service",
+      "license": "AhaPrompt Community Terms",
+      "licenseUrl": "https://ahaprompt.app/terms-of-service",
+      "attribution": "AhaPrompt (AhaPrompt Community Terms)",
+      "collectionOrigin": "approved-public-prompt",
+      "signals": [
+        "公开电商源",
+        "AhaPrompt Community Terms",
+        "广告海报"
+      ],
+      "date": "2026-11-16",
+      "timestamp": 1794795121161,
+      "collectedAt": "2026-11-16T02:12:01.161Z",
+      "githubSyncedAt": "2026-11-16T02:12:01.161Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "ahaprompt_morning-lip-oil-ugc-testimonial",
+      "externalId": "morning-lip-oil-ugc-testimonial",
+      "title": "Morning Lip Oil UGC Testimonial",
+      "prompt": "Use the uploaded reference image as the exact character reference. Preserve her facial identity, hairstyle, eye color, skin tone, body proportions, and facial consistency throughout every shot.\n\nCreate a 15-second ultra-realistic UGC-style beauty advertisement featuring a realistic young woman speaking directly to the smartphone camera in a bright, modern bedroom vanity area with warm morning sunlight, soft neutral décor, and an elegant illuminated mirror.\n\nShe smiles naturally while holding a premium luxury lip oil with a clear glass bottle and gold cap. In a friendly, conversational tone, she shares why it has become her favorite everyday beauty essential. She opens the product, applies the lip oil with the applicator in front of the mirror, then gently presses her lips together and smiles confidently, showing the glossy natural finish.\n\nCapture authentic handheld selfie shots, over-the-shoulder mirror angles, and cinematic close-ups highlighting the crystal-clear bottle, gold cap, soft reflections, applicator, glossy texture, and luxurious packaging. End with her holding the lip oil beside her face while smiling naturally into the camera.\n\nAuthentic UGC creator content, realistic facial expressions, natural hand gestures, healthy glowing skin, minimal makeup, luxury beauty aesthetic, smartphone-shot realism, subtle depth of field, premium color grading, vertical 9:16, 4K HDR, no text, subtitles, logos, or watermarks.",
+      "category": "电商视觉",
+      "commerceType": "UGC / 口碑",
+      "tags": [
+        "AhaPrompt",
+        "MiniMax H3",
+        "视频提示词",
+        "电商视觉",
+        "UGC / 口碑"
+      ],
+      "model": "MiniMax H3",
+      "mediaType": "video",
+      "image": "https://cdn.ahaprompt.app/prompt-images/import-1785891448550-4nwzrt.jpg",
+      "images": [
+        "https://cdn.ahaprompt.app/prompt-images/import-1785891448550-4nwzrt.jpg"
+      ],
+      "rawImages": [
+        "https://cdn.ahaprompt.app/prompt-images/import-1785891448550-4nwzrt.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "16:9",
+      "videoPoster": "https://cdn.ahaprompt.app/prompt-images/import-1785891448550-4nwzrt.jpg",
+      "videoUrl": "https://cdn.ahaprompt.app/prompt-images/import-1785891439426-tb0oe3.webm",
+      "videoSourceUrl": "https://cdn.ahaprompt.app/prompt-images/import-1785891439426-tb0oe3.webm",
+      "source": "AhaPrompt",
+      "sourceUrl": "https://ahaprompt.app/prompt/morning-lip-oil-ugc-testimonial",
+      "url": "https://ahaprompt.app/prompt/morning-lip-oil-ugc-testimonial",
+      "domain": "ahaprompt.app",
+      "originalSourceUrl": "https://x.com/SimplyAnnisa/status/2083075282186256521",
+      "sourceLicenseVerified": true,
+      "sourceLicenseUrl": "https://ahaprompt.app/terms-of-service",
+      "license": "AhaPrompt Community Terms",
+      "licenseUrl": "https://ahaprompt.app/terms-of-service",
+      "attribution": "AhaPrompt (AhaPrompt Community Terms)",
+      "collectionOrigin": "approved-public-prompt",
+      "signals": [
+        "公开电商源",
+        "AhaPrompt Community Terms",
+        "UGC / 口碑"
+      ],
+      "date": "2026-11-16",
+      "timestamp": 1794795121161,
+      "collectedAt": "2026-11-16T02:12:01.161Z",
+      "githubSyncedAt": "2026-11-16T02:12:01.161Z",
+      "domesticSyncedAt": null
+    },
+    {
+      "id": "ahaprompt_photorealistic-cgi-car-commercial-garage-transformation",
+      "externalId": "photorealistic-cgi-car-commercial-garage-transformation",
+      "title": "Photorealistic CGI Car Commercial Garage Transformation",
+      "prompt": "Create a continuous 10-second vertical 9:16 ultra-photorealistic CGI automotive commercial. 0–3s: Static first-person POV inside a pure white minimalist garage. Two male hands in black gloves appear. A metallic green widebody Porsche 911 stands at a front 3/4 angle. The right hand swipes left, sending the Porsche sliding off-screen. A bright orange Mercedes-AMG GT with black aerodynamic details rapidly enters from the right, overshoots, bounces back and stops. The left hand swipes left, removing the Mercedes. A glossy red 1969 Ford Mustang Fastback with black hood stripes, black sports wheels, wide tires and aggressive lowered suspension slides in from the right and locks into the same position. The right index finger points at the Mustang to select it. 3–5s: The camera pushes closer as the white garage physically transforms: floor panels fold outward, revealing golden sand; massive walls unfold like origami, exposing endless desert dunes; ceiling panels retract, revealing a clear blue sky. Bright sunlight illuminates the stationary Mustang. Camera performs a fast cinematic 180° orbit. 5–7s: Extreme close-up of the Mustang's front grille. Headlights illuminate, the powerful V8 engine starts with a deep roar, and the body vibrates. Camera rapidly tracks along the hood toward the exhaust and rear wheel. The rear tire spins violently, throwing sand backward. Suspension compresses as engine RPM rises. 7–10s: The Mustang launches explosively straight toward the camera, spraying sand behind it. Low frontal camera retreats rapidly, then dodges sideways as the car blasts past. Camera whips around into a fast 180° tracking orbit, revealing the side profile, rear lights and massive dust trail. Finally, the camera overtakes the speeding Mustang and captures a dramatic low front 3/4 hero shot against golden dunes and blue sky. Powerful V8 roar, hard brake, instant cut. Realistic physics, aggressive speed ramps, seamless transitions, cinematic motion blur, mechanical folding sounds, swipe whooshes, tire screeches and authentic engine audio. Preserve exact car identities, classic 1969 Mustang proportions, consistent colors and spatial continuity. No morphing, teleportation, extra objects or text.",
+      "category": "电商视觉",
+      "commerceType": "电商视频",
+      "tags": [
+        "AhaPrompt",
+        "Kling 4.0",
+        "视频提示词",
+        "电商视觉",
+        "电商视频"
+      ],
+      "model": "Kling 4.0",
+      "mediaType": "video",
+      "image": "https://cdn.ahaprompt.app/harvest-media/import-1791885966743-retyd7.jpg",
+      "images": [
+        "https://cdn.ahaprompt.app/harvest-media/import-1791885966743-retyd7.jpg"
+      ],
+      "rawImages": [
+        "https://cdn.ahaprompt.app/harvest-media/import-1791885966743-retyd7.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "9:16",
+      "videoPoster": "https://cdn.ahaprompt.app/harvest-media/import-1791885966743-retyd7.jpg",
+      "videoUrl": "https://cdn.ahaprompt.app/harvest-media/import-1791885962873-0czsdp.mp4",
+      "videoSourceUrl": "https://cdn.ahaprompt.app/harvest-media/import-1791885962873-0czsdp.mp4",
+      "source": "AhaPrompt",
+      "sourceUrl": "https://ahaprompt.app/prompt/photorealistic-cgi-car-commercial-garage-transformation",
+      "url": "https://ahaprompt.app/prompt/photorealistic-cgi-car-commercial-garage-transformation",
+      "domain": "ahaprompt.app",
+      "originalSourceUrl": "https://x.com/AiwithBloodline/status/2109550137601331267",
+      "sourceLicenseVerified": true,
+      "sourceLicenseUrl": "https://ahaprompt.app/terms-of-service",
+      "license": "AhaPrompt Community Terms",
+      "licenseUrl": "https://ahaprompt.app/terms-of-service",
+      "attribution": "AhaPrompt (AhaPrompt Community Terms)",
+      "collectionOrigin": "approved-public-prompt",
+      "signals": [
+        "公开电商源",
+        "AhaPrompt Community Terms",
+        "电商视频"
+      ],
+      "date": "2026-11-16",
+      "timestamp": 1794795121161,
+      "collectedAt": "2026-11-16T02:12:01.161Z",
+      "githubSyncedAt": "2026-11-16T02:12:01.161Z",
+      "domesticSyncedAt": null
+    },
     {
       "id": "apimodels_gpt_image_2_poster-692",
       "title": "包豪斯字体芭蕾",
