@@ -1,7 +1,308 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-17T10:39:03.018Z",
+  "updatedAt": "2026-11-19T02:21:56.397Z",
   "collections": [
+    {
+      "id": "x_2123038819188392280",
+      "title": "黑金香水静物主图",
+      "category": "电商视觉",
+      "commerceType": "产品主图",
+      "tags": [
+        "电商视觉",
+        "产品主图",
+        "香水",
+        "静物",
+        "广告",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "Minimalist black glass perfume bottle, metallic gold cap, resting on raw dark slate, autumn oak leaves in soft background blur, raytracing light reflections, studio photography --ar 3:2",
+      "image": "https://pbs.twimg.com/media/HXaMafkXoAAUcY4?format=jpg&name=large",
+      "images": [
+        "https://pbs.twimg.com/media/HXaMafkXoAAUcY4?format=jpg&name=large"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HXaMafkXoAAUcY4?format=jpg&name=large"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "3:2",
+      "model": "通用 AI 图像模型",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/ElizabethLVHQ/status/2123038819188392280",
+      "url": "https://x.com/ElizabethLVHQ/status/2123038819188392280",
+      "domain": "x.com",
+      "date": "2026-11-19",
+      "timestamp": 1795054916397,
+      "collectedAt": "2026-11-19T02:21:56.397Z",
+      "githubSyncedAt": "2026-11-19T02:21:56.397Z",
+      "domesticSyncedAt": null,
+      "useCase": "产品主图",
+      "creator": "ElizabethLVHQ",
+      "signals": [
+        "Prompt:"
+      ]
+    },
+    {
+      "id": "ahaprompt_luxury-ysl-perfume-commercial",
+      "title": "YSL Libre香水广告",
+      "prompt": "Create a 15-second ultra-photorealistic luxury perfume commercial featuring YSL Libre Eau de Parfum.\n\nA stunning Western fashion model in an elegant black satin evening dress stands inside a luxurious Manhattan penthouse at golden hour. She picks up the iconic black-and-gold perfume bottle, sprays the fragrance on her wrist, and gently appreciates its scent. She then walks gracefully toward the floor-to-ceiling windows as her hair and dress move naturally. The video ends with a cinematic close-up of the perfume bottle against the glowing New York skyline.\n\nLuxury fashion aesthetics, realistic skin texture, natural human movement, physically accurate perfume mist, realistic glass reflections, natural fabric physics, consistent character appearance, cinematic lighting, smooth camera tracking, believable gravity and airflow, and premium commercial cinematography throughout.",
+      "category": "电商视觉",
+      "commerceType": "电商视频",
+      "tags": [
+        "AhaPrompt",
+        "Seedance 2.5",
+        "视频提示词",
+        "电商视觉",
+        "电商视频",
+        "香水"
+      ],
+      "model": "Seedance 2.5",
+      "mediaType": "video",
+      "image": "https://cdn.ahaprompt.app/harvest-media/import-1792057245048-hpgocf.jpg",
+      "images": [
+        "https://cdn.ahaprompt.app/harvest-media/import-1792057245048-hpgocf.jpg"
+      ],
+      "rawImages": [
+        "https://cdn.ahaprompt.app/harvest-media/import-1792057245048-hpgocf.jpg"
+      ],
+      "referenceImages": [],
+      "videoUrl": "https://cdn.ahaprompt.app/harvest-media/import-1792057243094-jiv50m.mp4",
+      "aspectRatio": "9:16",
+      "source": "AhaPrompt",
+      "sourceUrl": "https://ahaprompt.app/prompt/luxury-ysl-perfume-commercial",
+      "url": "https://ahaprompt.app/prompt/luxury-ysl-perfume-commercial",
+      "originalSourceUrl": "https://x.com/AIwithZeeshi/status/2110579418271818208",
+      "sourceLicenseVerified": true,
+      "sourceLicenseUrl": "https://ahaprompt.app/terms-of-service",
+      "license": "AhaPrompt Community Terms",
+      "licenseUrl": "https://ahaprompt.app/terms-of-service",
+      "attribution": "AhaPrompt (AhaPrompt Community Terms)",
+      "collectionOrigin": "approved-public-prompt",
+      "domain": "ahaprompt.app",
+      "date": "2026-11-19",
+      "timestamp": 1795054916397,
+      "collectedAt": "2026-11-19T02:21:56.397Z",
+      "githubSyncedAt": "2026-11-19T02:21:56.397Z",
+      "domesticSyncedAt": null,
+      "externalId": "luxury-ysl-perfume-commercial",
+      "useCase": "电商视频",
+      "signals": [
+        "公开电商源",
+        "AhaPrompt Community Terms",
+        "电商视频"
+      ],
+      "videoPoster": "https://cdn.ahaprompt.app/harvest-media/import-1792057245048-hpgocf.jpg",
+      "videoSourceUrl": "https://cdn.ahaprompt.app/harvest-media/import-1792057243094-jiv50m.mp4"
+    },
+    {
+      "id": "ahaprompt_cinematic-kia-seltos-forest-commercial",
+      "title": "起亚Seltos森林广告",
+      "prompt": "High-octane, hyper-realistic automotive commercial for the Kia Seltos, shot with the visual intensity of a Christopher Nolan-style cinematic production using actual 70mm IMAX cameras. Fast-paced multi-shot editing with quick, cinematic cuts timed at exactly one shot every 2 seconds across a complete 30-second timeline. The champagne-gold Kia Seltos, matching the exact vehicle design in the provided reference images, charges through a dense forest road surrounded by towering trees and dappled sunlight. High-contrast Nolan-esque color grading with deep shadows, cold teals, warm champagne-gold reflections, and bright highlights. Sunlight pierces through the forest canopy, reflecting across the sculpted bodywork, signature vertical LED daytime running lights, black front grille, muscular wheel arches, and distinctive rear light bar. Rapid sequence of intense cuts:•Shot 1 (0-2s): Ground-level cinematic establishing shot of an empty winding forest road, towering trees casting deep shadows as sunlight breaks through the canopy. The distant engine note of the approaching Kia Seltos builds tension.•Shot 2 (2-4s): Low eye-level tracking shot of the champagne-gold Kia Seltos emerging between the trees, accelerating along the forest road and revealing its bold front grille, distinctive vertical LED lighting signature, and commanding SUV stance.•Shot 3 (4-6s): Tight, detailed close-up of the front fascia, Kia emblem, illuminated LED daytime running lights, glossy black grille elements, and champagne-gold paint reflecting the passing forest.•Shot 4 (6-8s): Dramatic low-angle tracking shot moving alongside the front wheel as the alloy spokes spin rapidly, tires maintain realistic contact with the asphalt, and the SUV’s sculpted bodywork catches streaks of sunlight.•Shot 5 (8-10s): Fast lateral tracking shot revealing the complete side profile, muscular wheel arches, black lower-body cladding, door contours, windows, roofline, and metallic champagne-gold finish as the Kia Seltos sweeps through the forest.•Shot 6 (10-12s): Low-angle handheld-style camera whip-pan from the road surface to the SUV’s front three-quarter profile as it exits a sweeping bend, with realistic suspension movement, controlled body roll, and natural background motion blur.•Shot 7 (12-14s): Extreme close-up of sunlight traveling across the sculpted hood, Kia emblem, sharp body creases, and vertical LED lights, emphasizing precise automotive design and premium paint reflections.•Shot 8 (14-16s): Rear three-quarter tracking shot following the Kia Seltos through the forest, showcasing the distinctive rear light bar, angular vertical taillights, rear spoiler, sculpted tailgate, and authentic model badging.•Shot 9 (16-18s): Dynamic wheel-height tracking shot as the SUV drives across alternating patches of sunlight and shadow, capturing realistic tire rotation, subtle road texture, reflections along the lower doors, and the movement of the suspension over natural road undulations.•Shot 10 (18-20s): High-angle wide shot of the Kia Seltos commanding a sweeping forest road, surrounded by towering trees and atmospheric shafts of sunlight, with the winding asphalt leading the eye toward the moving SUV.•Shot 11 (20-22s): Fast front-facing tracking shot of the Kia Seltos approaching the camera along a straight section of forest road, its LED lights illuminated and grille dominating the frame as the camera smoothly retreats ahead of the vehicle.•Shot 12 (22-24s): Rapid cinematic transition into a close rear tracking angle as the SUV accelerates away through the trees, the rear lighting signature glowing against the darker forest and the road markings sweeping beneath the frame.•Shot 13 (24-26s): Dramatic low-angle front three-quarter hero shot as the Kia Seltos exits the forest bend and enters a naturally illuminated clearing, revealing its full stance, champagne-gold bodywork, alloy wheels, and signature front lighting.•Shot 14 (26-28s): Controlled cinematic orbit around the stationary Kia Seltos at a scenic forest-road pull-off, transitioning from the front three-quarter view toward the side and rear profile while the surrounding trees and golden sunlight create a premium automotive campaign atmosphere.•Shot 15 (28-30s): Hard cut to black with a final sweep of light revealing the KIA emblem followed by the SELTOS model name and the campaign tagline: “OWN EVERY TURN.” End with a powerful, clean, premium automotive advertising finish.Raw automotive documentary-style camera textures, organic lens flares, lifelike vehicle physics, authentic wheel rotation and tire contact, realistic suspension movement, natural road reflections, physically accurate metallic paint reflections, cinematic motion blur, subtle engine vibration, and an immersive forest-road atmosphere. Preserve the exact Kia Seltos identity, champagne-gold exterior color, front grille design, LED lighting signatures, alloy wheels, body proportions, side profile, and rear design from the provided reference images throughout every shot. Maintain consistent vehicle geometry, wheel design, lighting signatures, paint color, and branding across all 15 shots. No vehicle redesign, no morphing, no inconsistent body panels, no incorrect logos, no artificial CGI appearance, no impossible driving maneuvers, no exaggerated visual effects, and no abrupt changes in road geography. Ultra-detailed, 4K resolution, premium global automotive advertising quality.",
+      "category": "电商视觉",
+      "commerceType": "电商视频",
+      "tags": [
+        "AhaPrompt",
+        "Kling 4.0",
+        "视频提示词",
+        "电商视觉",
+        "电商视频",
+        "汽车"
+      ],
+      "model": "Kling 4.0",
+      "mediaType": "video",
+      "image": "https://cdn.ahaprompt.app/harvest-media/import-1792125764184-18t4em.jpg",
+      "images": [
+        "https://cdn.ahaprompt.app/harvest-media/import-1792125764184-18t4em.jpg"
+      ],
+      "rawImages": [
+        "https://cdn.ahaprompt.app/harvest-media/import-1792125764184-18t4em.jpg"
+      ],
+      "referenceImages": [],
+      "videoUrl": "https://cdn.ahaprompt.app/harvest-media/import-1792125759195-6x23re.mp4",
+      "aspectRatio": "16:9",
+      "source": "AhaPrompt",
+      "sourceUrl": "https://ahaprompt.app/prompt/cinematic-kia-seltos-forest-commercial",
+      "url": "https://ahaprompt.app/prompt/cinematic-kia-seltos-forest-commercial",
+      "originalSourceUrl": "https://x.com/Diplomeme/status/2110947179057811727",
+      "sourceLicenseVerified": true,
+      "sourceLicenseUrl": "https://ahaprompt.app/terms-of-service",
+      "license": "AhaPrompt Community Terms",
+      "licenseUrl": "https://ahaprompt.app/terms-of-service",
+      "attribution": "AhaPrompt (AhaPrompt Community Terms)",
+      "collectionOrigin": "approved-public-prompt",
+      "domain": "ahaprompt.app",
+      "date": "2026-11-19",
+      "timestamp": 1795054916397,
+      "collectedAt": "2026-11-19T02:21:56.397Z",
+      "githubSyncedAt": "2026-11-19T02:21:56.397Z",
+      "domesticSyncedAt": null,
+      "externalId": "cinematic-kia-seltos-forest-commercial",
+      "useCase": "电商视频",
+      "signals": [
+        "公开电商源",
+        "AhaPrompt Community Terms",
+        "电商视频"
+      ],
+      "videoPoster": "https://cdn.ahaprompt.app/harvest-media/import-1792125764184-18t4em.jpg",
+      "videoSourceUrl": "https://cdn.ahaprompt.app/harvest-media/import-1792125759195-6x23re.mp4"
+    },
+    {
+      "id": "ahaprompt_cabbage-pro",
+      "title": "白菜Pro发布广告",
+      "prompt": "5 seconds, 16:9 landscape, fully adopting the visual language of Apple product launch videos: pure black background, studio-grade lighting, ultra-slow-motion rotating close-ups, minimalist giant sans-serif titles, ethereal electronic soundtrack.\nThe product is — an ordinary napa cabbage.\n [0–4 seconds] Against a pure black background, a plump, fresh napa cabbage slowly floats and rotates, with vibrant green outer leaves, a pale yellow-green core, cool white rim lighting on the edges, and fine water droplets on the leaf surfaces slowly rolling under macro shots. The scene is premium, restrained, and quiet, as if a top-tier tech product is making its debut. Thin white large text fades in: \"Cabbage Pro\" Below it, smaller text: \"Remarkably fresh.\"\n [4–8 seconds] Fast-paced editing of three studio-grade close-up shots: macro shots of the dense layered texture of the cabbage cross-section; the sculptural silhouette of the outer leaves' curves and creases under side-backlighting; ultra-slow-motion of fine mist spraying onto the cabbage surface, with water droplets clinging to the veins. Each shot is followed by a minimalist large title: \"Plump.\" \"Crisp.\" \"Sweet.\"\n[8–12 seconds] The cabbage elegantly flips in mid-air, outer leaves slightly unfurling, as a hand steadily holds it and gently turns it, with restrained, premium light-trail effects, as the music builds to a grand climax. The shot maintains Apple-style product heroism, as if showcasing a revolutionary flagship device. Large text: \"The most powerful cabbage ever.\" Below it, smaller text: \"20% crunchier than the previous generation.\"\n[12–15 seconds] The music resolves, and in the center of the pure black frame, only the cabbage remains, standing upright and floating still, with crisp outlines, premium lighting, and ample negative space. A price tag appears beside it: \"From ¥3\" Finally, the tagline appears: \"Cabbage Pro. Rolling out great taste.\" Accompanied by a clean, restrained closing chime.",
+      "category": "电商视觉",
+      "commerceType": "电商视频",
+      "tags": [
+        "AhaPrompt",
+        "MiniMax H3",
+        "视频提示词",
+        "电商视觉",
+        "电商视频",
+        "食品"
+      ],
+      "model": "MiniMax H3",
+      "mediaType": "video",
+      "image": "https://cdn.ahaprompt.app/prompt-images/twitter-1785888108155-sy848h.jpg",
+      "images": [
+        "https://cdn.ahaprompt.app/prompt-images/twitter-1785888108155-sy848h.jpg"
+      ],
+      "rawImages": [
+        "https://cdn.ahaprompt.app/prompt-images/twitter-1785888108155-sy848h.jpg"
+      ],
+      "referenceImages": [],
+      "videoUrl": "https://cdn.ahaprompt.app/prompt-images/twitter-1785888106702-ucs5sp.mp4",
+      "aspectRatio": "16:9",
+      "source": "AhaPrompt",
+      "sourceUrl": "https://ahaprompt.app/prompt/cabbage-pro",
+      "url": "https://ahaprompt.app/prompt/cabbage-pro",
+      "originalSourceUrl": "https://x.com/derek_wall90176/status/2084533192686785006",
+      "sourceLicenseVerified": true,
+      "sourceLicenseUrl": "https://ahaprompt.app/terms-of-service",
+      "license": "AhaPrompt Community Terms",
+      "licenseUrl": "https://ahaprompt.app/terms-of-service",
+      "attribution": "AhaPrompt (AhaPrompt Community Terms)",
+      "collectionOrigin": "approved-public-prompt",
+      "domain": "ahaprompt.app",
+      "date": "2026-11-19",
+      "timestamp": 1795054916397,
+      "collectedAt": "2026-11-19T02:21:56.397Z",
+      "githubSyncedAt": "2026-11-19T02:21:56.397Z",
+      "domesticSyncedAt": null,
+      "externalId": "cabbage-pro",
+      "useCase": "电商视频",
+      "signals": [
+        "公开电商源",
+        "AhaPrompt Community Terms",
+        "电商视频"
+      ],
+      "videoPoster": "https://cdn.ahaprompt.app/prompt-images/twitter-1785888108155-sy848h.jpg",
+      "videoSourceUrl": "https://cdn.ahaprompt.app/prompt-images/twitter-1785888106702-ucs5sp.mp4"
+    },
+    {
+      "id": "ahaprompt_watchmaker-reveals-tiny-city-in-pocket-watch",
+      "title": "怀表里的微缩城市",
+      "prompt": "Style: cinematic macro fantasy, warm amber workshop lamp light, brass and glass textures, extreme close-ups, shallow depth of field, film grain.\n\n0-5s: One old watchmaker with a magnifying loupe over one eye opens a gold pocket watch on his wooden workbench at night, the dark window behind him showing a sleeping city, the viewer over his shoulder.\n\n5-10s: The viewer pushes into the open watch and reveals a tiny city built among the brass gears, with tiny lit windows and tiny people walking across the turning cogs in darkness, the watchmaker's tweezers lowering in and tightening one small screw.\n\n10-15s: A tiny sun rises over the gears inside the watch, the tiny city fills with morning light, and at the same moment real sunrise floods through the workshop window behind him, the watchmaker slowly looks up at the window, the viewer pulling back.\n\nNegative prompt: more than one watchmaker, digital watch, cartoon style, modern electronics, text, numbers, watermark, slow motion",
+      "category": "电商视觉",
+      "commerceType": "电商视频",
+      "tags": [
+        "AhaPrompt",
+        "MiniMax H3",
+        "视频提示词",
+        "电商视觉",
+        "电商视频",
+        "钟表"
+      ],
+      "model": "MiniMax H3",
+      "mediaType": "video",
+      "image": "https://cdn.ahaprompt.app/harvest-media/import-1791885552615-k63wfc.jpg",
+      "images": [
+        "https://cdn.ahaprompt.app/harvest-media/import-1791885552615-k63wfc.jpg"
+      ],
+      "rawImages": [
+        "https://cdn.ahaprompt.app/harvest-media/import-1791885552615-k63wfc.jpg"
+      ],
+      "referenceImages": [],
+      "videoUrl": "https://cdn.ahaprompt.app/harvest-media/import-1791885550356-3dt2py.mp4",
+      "aspectRatio": "16:7",
+      "source": "AhaPrompt",
+      "sourceUrl": "https://ahaprompt.app/prompt/watchmaker-reveals-tiny-city-in-pocket-watch",
+      "url": "https://ahaprompt.app/prompt/watchmaker-reveals-tiny-city-in-pocket-watch",
+      "originalSourceUrl": "https://x.com/DeCat2025/status/2108914789665604069",
+      "sourceLicenseVerified": true,
+      "sourceLicenseUrl": "https://ahaprompt.app/terms-of-service",
+      "license": "AhaPrompt Community Terms",
+      "licenseUrl": "https://ahaprompt.app/terms-of-service",
+      "attribution": "AhaPrompt (AhaPrompt Community Terms)",
+      "collectionOrigin": "approved-public-prompt",
+      "domain": "ahaprompt.app",
+      "date": "2026-11-19",
+      "timestamp": 1795054916397,
+      "collectedAt": "2026-11-19T02:21:56.397Z",
+      "githubSyncedAt": "2026-11-19T02:21:56.397Z",
+      "domesticSyncedAt": null,
+      "externalId": "watchmaker-reveals-tiny-city-in-pocket-watch",
+      "useCase": "电商视频",
+      "signals": [
+        "公开电商源",
+        "AhaPrompt Community Terms",
+        "电商视频"
+      ],
+      "videoPoster": "https://cdn.ahaprompt.app/harvest-media/import-1791885552615-k63wfc.jpg",
+      "videoSourceUrl": "https://cdn.ahaprompt.app/harvest-media/import-1791885550356-3dt2py.mp4"
+    },
+    {
+      "id": "ahaprompt_red-pickup-truck-desert-canyon-animation",
+      "title": "红皮卡峡谷动画",
+      "prompt": "A stylized 3D cartoon animation of a bright red vintage pickup truck driving smoothly along a winding mountain road through a rugged desert canyon. The camera follows the truck from multiple dynamic angles—high aerial view, rear tracking shot, front three-quarter view, and wide overhead shots—as it navigates the sharp curves. Warm orange rock formations, sandy terrain, road markings, and dramatic canyon walls surround the vehicle. Smooth vehicle motion, consistent truck design, clean cel-shaded textures, vibrant warm color palette, cinematic composition, soft natural lighting, subtle camera movement, high-detail animated environment, polished feature-film animation style, 4K.",
+      "category": "电商视觉",
+      "commerceType": "电商视频",
+      "tags": [
+        "AhaPrompt",
+        "Wan 3.0",
+        "视频提示词",
+        "电商视觉",
+        "电商视频",
+        "汽车"
+      ],
+      "model": "Wan 3.0",
+      "mediaType": "video",
+      "image": "https://cdn.ahaprompt.app/harvest-media/import-1789369520553-tn5xcc.jpg",
+      "images": [
+        "https://cdn.ahaprompt.app/harvest-media/import-1789369520553-tn5xcc.jpg"
+      ],
+      "rawImages": [
+        "https://cdn.ahaprompt.app/harvest-media/import-1789369520553-tn5xcc.jpg"
+      ],
+      "referenceImages": [],
+      "videoUrl": "https://cdn.ahaprompt.app/harvest-media/import-1789369515431-zf53i9.mp4",
+      "aspectRatio": "1:1",
+      "source": "AhaPrompt",
+      "sourceUrl": "https://ahaprompt.app/prompt/red-pickup-truck-desert-canyon-animation",
+      "url": "https://ahaprompt.app/prompt/red-pickup-truck-desert-canyon-animation",
+      "originalSourceUrl": "https://x.com/TaliaAariz/status/2098456434778480875",
+      "sourceLicenseVerified": true,
+      "sourceLicenseUrl": "https://ahaprompt.app/terms-of-service",
+      "license": "AhaPrompt Community Terms",
+      "licenseUrl": "https://ahaprompt.app/terms-of-service",
+      "attribution": "AhaPrompt (AhaPrompt Community Terms)",
+      "collectionOrigin": "approved-public-prompt",
+      "domain": "ahaprompt.app",
+      "date": "2026-11-19",
+      "timestamp": 1795054916397,
+      "collectedAt": "2026-11-19T02:21:56.397Z",
+      "githubSyncedAt": "2026-11-19T02:21:56.397Z",
+      "domesticSyncedAt": null,
+      "externalId": "red-pickup-truck-desert-canyon-animation",
+      "useCase": "电商视频",
+      "signals": [
+        "公开电商源",
+        "AhaPrompt Community Terms",
+        "电商视频"
+      ],
+      "videoPoster": "https://cdn.ahaprompt.app/harvest-media/import-1789369520553-tn5xcc.jpg",
+      "videoSourceUrl": "https://cdn.ahaprompt.app/harvest-media/import-1789369515431-zf53i9.mp4"
+    },
     {
       "id": "x_2122379105413013674",
       "title": "第二世界摄影海报",
