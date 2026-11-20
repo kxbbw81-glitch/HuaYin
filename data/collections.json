@@ -1,7 +1,361 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-17T10:39:03.018Z",
+  "updatedAt": "2026-11-20T02:23:24.446Z",
   "collections": [
+    {
+      "id": "x_2123407944830353568",
+      "title": "金色咖啡罐奢华广告",
+      "category": "电商视觉",
+      "commerceType": "电商视频",
+      "tags": [
+        "电商视觉",
+        "电商视频",
+        "产品广告",
+        "咖啡",
+        "Nescafé",
+        "文生视频",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "Nescafé Gold Deluxe jar as the exact product reference. Preserve the jar, branding, label, colors and packaging accurately.\n\n0–2s: Dramatic golden light slowly reveals the jar against a dark luxurious background, slow camera push-in, elegant reflections.\n\n2–4s: Macro slow-motion coffee granules falling and floating through warm golden light, rich detailed texture.\n\n4–6s: Hot water pours into a coffee cup, coffee swirls beautifully, steam rises in cinematic backlight.\n\n6–8s: Final hero shot of the exact jar beside a steaming cup, glowing golden background, smooth camera settle, premium product advertising finish.\n\nPhotorealistic, cinematic lighting, smooth motion, macro details, luxury commercial, warm gold and deep brown palette, 4K, vertical 9:16. No distorted packaging, no extra logos, no watermark, no unnecessary text.",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2123407903042457601/img/TE7TiJ-JR0GeQCjY.jpg",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2123407903042457601/img/TE7TiJ-JR0GeQCjY.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/amplify_video_thumb/2123407903042457601/img/TE7TiJ-JR0GeQCjY.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "9:16",
+      "model": "omini1.1",
+      "mediaType": "video",
+      "videoPoster": "https://pbs.twimg.com/amplify_video_thumb/2123407903042457601/img/TE7TiJ-JR0GeQCjY.jpg",
+      "videoSourceUrl": "https://video.twimg.com/amplify_video/2123407903042457601/vid/avc1/720x1280/D-bfVTaSK0iJzxoT.mp4",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/iamsoulAI/status/2123407944830353568",
+      "url": "https://x.com/iamsoulAI/status/2123407944830353568",
+      "domain": "x.com",
+      "date": "2026-11-20",
+      "timestamp": 1795141404446,
+      "collectedAt": "2026-11-20T02:23:24.446Z",
+      "githubSyncedAt": "2026-11-20T02:23:24.446Z",
+      "domesticSyncedAt": null,
+      "useCase": "电商视频",
+      "creator": "iamsoulAI",
+      "signals": [
+        "Prompt:"
+      ],
+      "videoUrl": "https://video.twimg.com/amplify_video/2123407903042457601/vid/avc1/720x1280/D-bfVTaSK0iJzxoT.mp4"
+    },
+    {
+      "id": "x_2123268678737400257",
+      "title": "盐味黄油薯片广告",
+      "category": "电商视觉",
+      "commerceType": "电商视频",
+      "tags": [
+        "电商视觉",
+        "电商视频",
+        "食品广告",
+        "薯片",
+        "包装",
+        "文生视频",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "SCENE CONTEXT\n\nA 30-second high-energy commercial for KERIPIK KENTANG salted butter potato chips, inspired by the rapid pacing, playful absurdism, practical miniatures, retro television energy and mixed-media transitions of @Video1. Re-imagine the world as retro 1980s Indonesian television culture. Create an original concept: do not reproduce @Video1's characters, locations, monsters, compositions or individual shots.\n\nACTIVE REFERENCES\n\n<<<image_1>>> is the absolute source of truth for the product. Preserve the exact bright lemon-yellow glossy pillow bag, inflated proportions, the bold red \"KERIPIK / KENTANG\" stacked typography with white outline, the red \"New!\" starburst, and the dark brown ribbon reading \"Salted Butter • 150g\". The package must remain recognizable and dimensionally stable in every shot.\n\n@Video1 controls only the overall energy: fast pattern interrupts, theatrical acting, hard studio lighting, miniature practical sets, retro broadcast texture, crash zooms, exaggerated sound effects and transitions between live action, handmade miniatures and original 2D animation.\n\nFORMAT MODE\n\nControlled multi-shot commercial with fast HARD CUTS and one MATCH CUT. Each shot lasts long enough for its main action to read clearly. The escalation moves from quiet live action to controlled visual chaos, then resolves into a clean premium product hero shot.\n\nFIRST FRAME AND SPATIAL BLOCKING\n\nThe first visible frame already contains the KERIPIK KENTANG package, centered and floating 20 centimeters above a cream-colored pedestal. The front label faces the camera perfectly. A miniature retro Indonesian warung and small neighborhood minimarket fills the background: hand-painted shop signs, hanging snack sachets, glass jar displays of kerupuk, a wooden bench and a vintage refrigerator. No empty establishing frame.\n\nACTION TIMING\n\nBEAT 1 — A dead-serious young Indonesian office worker in a neat batik shirt stands behind the miniature warung counter while everyone around her is frozen in afternoon boredom: a man asleep on the bench, a fan slowly turning, a cat motionless on the counter. The floating KERIPIK KENTANG package slowly rotates toward camera. An energetic English-speaking announcer suddenly shouts: \"Boring afternoon? Time for a crunchy revolution!\" A sharp crash zoom lands on the red \"New!\" starburst.\n\nHARD CUT\n\nBEAT 2 — A retro vending machine painted with hand-lettered Indonesian street-art style spits the package directly into the worker's hands with comically precise mechanical force. She catches it against her chest, shocked. The glossy bag compresses naturally, then regains its inflated shape.\n\nINSERT CUT\n\nBEAT 3 — Extreme macro product detail: fingers tear open the top seam. The plastic stretches, wrinkles and opens with a crisp foil snap. A single golden ridged potato chip rises from the bag in dramatic slow motion, surrounded by tiny sparkling salt crystals and small round golden butter pats made from practical paper and clay props.\n\nMATCH CUT\n\nBEAT 4 — A round golden butter pat becomes a bold original 2D animated portal. The worker appears as a hand-drawn retro Indonesian commercial heroine with exaggerated speed lines and a flowing batik-patterned scarf. She bites the chip. A huge graphic golden-yellow crunch wave explodes outward as abstract kinetic batik-inspired swirl and parang motif shapes, energetic but not readable text.\n\nHARD CUT\n\nBEAT 5 — Return to live action. The crunch wave travels through a miniature retro Jakarta neighborhood without destroying it. A toy commuter train snaps into rhythm, a row of colorful paper umbrellas opens in perfect sync, a tiny orange bajaj and a blue angkot bounce on their suspension, traffic lights pulse golden yellow, paper kampung houses and shophouses bounce gently, and frozen commuters on ojek motorbikes begin a strange synchronized dance. Physical miniature materials remain visible: cardboard edges, painted wood and practical wires.\n\nHARD CUT\n\nBEAT 6 — Rapid comedic montage: a tiny butter cube with cartoon eyes conducts a miniature gamelan ensemble with a potato chip baton; three office workers perform one perfectly synchronized shoulder move; a serious businessman in a peci hears the crunch and his tie shoots straight upward; the heroine looks directly into camera with exaggerated triumph.\n\nHARD CUT\n\nBEAT 7 — Premium macro sequence: golden ridged chips tumble with believable gravity around the KERIPIK KENTANG package; melting butter swirls and sparkling salt crystals move through the background as stylized ingredients without covering the label. Moving highlights travel across the glossy yellow plastic.\n\nHARD CUT\n\nBEAT 8 — Final hero frame on a warm cream background. The KERIPIK KENTANG package lands upright on the pedestal with a soft weighted bounce. A few chips settle around its base. The front label is fully visible and matches <<<image_1>>> exactly. The announcer delivers the final line with joyful intensity: \"Salty! Buttery! Super crunchy! KERIPIK KENTANG!\" End on the package for a long, clean product hold.\n\nOPTICS\n\nUse a 47° standard-normal field of view for live-action medium shots, camera 3 to 4 meters from the actors, with natural proportions and readable miniature depth. Use an 84° classic wide field of view for energetic warung shots, camera physically close to the foreground action with strong perspective expansion and straight rectilinear lines. Use an 18° telephoto character for package and chip macro inserts, with razor-sharp product detail and creamy background separation. Lock the optics within each shot.\n\nCAMERA\n\nMix theatrical locked-off frontal compositions with abrupt physical crash zooms, low-angle product hero shots and one fast lateral tracking move following the crunch wave. Camera movement feels like a real late-1980s Indonesian television studio production: deliberate tripod starts, quick mechanical zooms and slight operator settling rather than digital floating. Subtle retro broadcast texture: soft scanlines, mild chroma bleed and warm analog color.\n\nPHYSICS\n\nThe inflated package has realistic flexible plastic behavior, internal air pressure, wrinkles, inertia and soft rebound. Chips remain rigid and brittle, with believable weight, collisions and crumbs. Miniature buildings, vehicles and props visibly behave like handmade physical objects. Every movement has contact, mass and cause-and-effect.\n\nLIGHTING\n\nHard, colorful retro studio lighting with warm cream highlights, rich golden-yellow tones, deep red accents matching the logo, and occasional warm butter-gold flashes. Product shots use a controlled moving specular highlight that reveals the glossy plastic without obscuring the typography. The final packshot is clean, bright and premium, with a strong grounded shadow beneath the bag.\n\nAUDIO\n\nFast original mix of retro 80s synth-pop, punchy brass hits, funky bass, kendang drum fills and playful gamelan-style metallic accents. Exaggerated vending-machine clunks, foil tearing, package rustle, rhythmic miniature-city sounds (bajaj horn, train bell, ojek engine purr) and one exceptionally crisp bite: \"KRESS!\" The music briefly drops out before the bite, then returns at full energy. Use only the two scripted English announcer lines, spoken by an energetic male announcer in clear English. No character dialogue and no additional voices.\n\nPOSITIVE LOCKS\n\nThe KERIPIK KENTANG package remains the hero and appears in the opening, center transformation and final frame. Its bright yellow color, proportions, printed layout and \"Salted Butter\" flavor line remain faithful to <<<image_1>>>. All animated sequences are original and return to the same live-action product identity. The final frame is uncluttered and holds long enough to read the real packaging.",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2123268203766054912/img/vvtwDGKTiX0oU0hp.jpg",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2123268203766054912/img/vvtwDGKTiX0oU0hp.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/amplify_video_thumb/2123268203766054912/img/vvtwDGKTiX0oU0hp.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "16:9",
+      "model": "Seedance 2.5",
+      "mediaType": "video",
+      "videoPoster": "https://pbs.twimg.com/amplify_video_thumb/2123268203766054912/img/vvtwDGKTiX0oU0hp.jpg",
+      "videoSourceUrl": "https://video.twimg.com/amplify_video/2123268203766054912/vid/avc1/1280x720/jFYLaUqkvlMAJ_aq.mp4",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/anditiarizki/status/2123268678737400257",
+      "url": "https://x.com/anditiarizki/status/2123268678737400257",
+      "domain": "x.com",
+      "date": "2026-11-20",
+      "timestamp": 1795141404446,
+      "collectedAt": "2026-11-20T02:23:24.446Z",
+      "githubSyncedAt": "2026-11-20T02:23:24.446Z",
+      "domesticSyncedAt": null,
+      "useCase": "电商视频",
+      "creator": "anditiarizki",
+      "signals": [
+        "Prompt:"
+      ],
+      "videoUrl": "https://video.twimg.com/amplify_video/2123268203766054912/vid/avc1/1280x720/jFYLaUqkvlMAJ_aq.mp4"
+    },
+    {
+      "id": "x_2123338313792925976",
+      "title": "复古城市旅行海报",
+      "category": "电商视觉",
+      "commerceType": "广告海报",
+      "tags": [
+        "电商视觉",
+        "广告海报",
+        "旅行海报",
+        "复古",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "Create a highly realistic vintage-inspired premium travel poster for [CITY NAME], [COUNTRY], based on the visual language of classic illustrated travel postcards.\n\nAspect ratio: 4:5 vertical.\n\nMain Composition\n\n- Warm vintage textured paper background with subtle aged-paper grain.\n- Large bold uppercase [CITY NAME] typography dominating the middle of the poster.\n- The city name must be deep red / crimson, with a slightly distressed vintage print texture.\n- Place the main iconic landmark of [CITY NAME] vertically through or behind the large typography, creating a layered editorial composition.\n- Add several recognizable landmarks of the city naturally around the main landmark:\n  [LANDMARK 1], [LANDMARK 2], [LANDMARK 3].\n- Keep the landmarks highly realistic, detailed and recognizable.\n- Add a large circular vintage sun / sky element behind the main landmark, with subtle distressed texture.\n- Create a cinematic travel-photography atmosphere while maintaining a classic vintage postcard aesthetic.\n\nDecorative Elements\n\n- Elegant flowering branches extending diagonally from the upper-left corner, adapted to the city's visual identity.\n- A few small falling petals/leaves distributed naturally through the composition.\n- Vintage postage stamp in the upper-right corner featuring a recognizable symbol or landmark from [COUNTRY].\n- Add subtle postal cancellation lines around the stamp.\n- Include a realistic airplane flying across the upper-right sky with a subtle contrail.\n- Add small architectural and street details around the lower portion to make the city feel alive.\n\nTypography Layout\n\nAt the top:\n\n[COUNTRY]\n\n[SHORT COUNTRY/CITY TAGLINE]\n\nBelow, the enormous central title:\n\n[CITY NAME]\n\nAt the bottom:\n\n[CITY NAME] • [COUNTRY]\n\n[WORD 1] • [WORD 2] • [WORD 3]\n\nUse elegant classic serif typography for the small text and an extremely bold condensed display font for the huge city name.\n\nColor & Grading\n\nUse a refined vintage color palette specifically inspired by [CITY/COUNTRY].\n\nWarm aged-paper tones combined with deep red typography and carefully selected accent colors related to the city.\n\nUse slightly faded colors, subtle film grain, distressed print texture, natural shadows, realistic atmospheric depth and premium editorial color grading.\n\nThe poster should feel like a luxury collectible travel postcard, not a modern digital advertisement.\n\nStyle\n\nUltra-realistic landmark details, realistic architecture, sophisticated vintage travel-poster design, premium editorial composition, realistic photography blended with vintage print aesthetics, authentic paper texture, subtle imperfections, elegant visual hierarchy, balanced negative space, highly detailed, crisp focus, sophisticated and timeless.\n\nImportant: Keep the overall design structure consistent with a classic vintage travel postcard, but make the color palette and visual accents unique to [CITY NAME].\n\nNo cartoon style, no 3D toy look, no excessive text, no clutter, no distorted landmarks, no random buildings, no duplicate landmarks, no watermark, no modern UI elements.",
+      "image": "https://pbs.twimg.com/media/HXecvi8aUAA5W7x.jpg?format=jpg&name=large",
+      "images": [
+        "https://pbs.twimg.com/media/HXecvi8aUAA5W7x.jpg?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HXeczTvakAAvwhb.jpg?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HXec5fUbwAAqJBG.jpg?format=jpg&name=large"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HXecvi8aUAA5W7x.jpg?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HXeczTvakAAvwhb.jpg?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HXec5fUbwAAqJBG.jpg?format=jpg&name=large"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "4:5",
+      "model": "ChatGPT",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/Hasn4834/status/2123338313792925976",
+      "url": "https://x.com/Hasn4834/status/2123338313792925976",
+      "domain": "x.com",
+      "date": "2026-11-20",
+      "timestamp": 1795141404446,
+      "collectedAt": "2026-11-20T02:23:24.446Z",
+      "githubSyncedAt": "2026-11-20T02:23:24.446Z",
+      "domesticSyncedAt": null,
+      "useCase": "广告海报",
+      "creator": "Hasn4834",
+      "signals": [
+        "Prompt:"
+      ]
+    },
+    {
+      "id": "x_2123466361330421992",
+      "title": "产品爆炸分解主图",
+      "category": "电商视觉",
+      "commerceType": "产品主图",
+      "tags": [
+        "电商视觉",
+        "产品主图",
+        "爆炸分解",
+        "广告摄影",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "Usa la imagen adjunta como referencia principal o reemplaza [OBJETO] por el producto que quieras crear.\n\nCrea una fotografía publicitaria hiperrealista en estilo EXPLODED-VIEW PRODUCT PHOTOGRAPHY de [OBJETO]. Desmonta visualmente el producto en sus componentes reales y funcionales, colocándolos suspendidos en el aire y perfectamente alineados según su orden correcto de ensamblaje.\n\nConserva la forma, colores, proporciones, materiales y detalles distintivos del objeto original. Cada pieza debe ser físicamente plausible y pertenecer claramente al mismo producto. Muestra tanto la carcasa exterior como sus mecanismos, estructura interna, componentes electrónicos, tornillos, uniones y capas de material, cuando corresponda.\n\nComposición centrada, simétrica y limpia, formato cuadrado 1:1, con espacio suficiente alrededor de todas las piezas. Fondo de estudio gris cálido y minimalista. Iluminación comercial suave y direccional, sombras sutiles, gran nitidez, texturas realistas y acabado premium de campaña publicitaria.\n\nSin personas, logotipos, marcas, etiquetas, texto ni marcas de agua. Evita piezas duplicadas, elementos aleatorios, maquinaria fantástica, desorden visual, brillo excesivo o componentes que no pertenezcan al objeto.\n\nResultado: una imagen elegante, técnica y visualmente impactante que explique cómo está construido el producto.",
+      "image": "https://pbs.twimg.com/media/HXgQTm7WwAA485I.jpg?format=jpg&name=large",
+      "images": [
+        "https://pbs.twimg.com/media/HXgQTm7WwAA485I.jpg?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HXgQTm8WoAAjiB5.jpg?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HXgQTm7WkAALfBS.jpg?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HXgQTm7XwAATqKB.jpg?format=jpg&name=large"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HXgQTm7WwAA485I.jpg?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HXgQTm8WoAAjiB5.jpg?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HXgQTm7WkAALfBS.jpg?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HXgQTm7XwAATqKB.jpg?format=jpg&name=large"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "1:1",
+      "model": "通用 AI 图像模型",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/hmontilla_/status/2123466361330421992",
+      "url": "https://x.com/hmontilla_/status/2123466361330421992",
+      "domain": "x.com",
+      "date": "2026-11-20",
+      "timestamp": 1795141404446,
+      "collectedAt": "2026-11-20T02:23:24.446Z",
+      "githubSyncedAt": "2026-11-20T02:23:24.446Z",
+      "domesticSyncedAt": null,
+      "useCase": "产品主图",
+      "creator": "hmontilla_",
+      "signals": [
+        "Prompt:"
+      ]
+    },
+    {
+      "id": "x_2123544850574225664",
+      "title": "耳环开箱惊喜口碑",
+      "category": "电商视觉",
+      "commerceType": "UGC / 口碑",
+      "tags": [
+        "电商视觉",
+        "电商视频",
+        "UGC",
+        "口碑",
+        "珠宝",
+        "耳环",
+        "文生视频",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "A 10-second TikTok-style product video in a 9:16 aspect ratio. Filmed entirely from the boyfriend's POV, the camera captures a genuine surprise gift moment without ever showing him on screen. The girlfriend () receives the earrings (), reacts with authentic excitement, tries them on immediately, and naturally showcases the product through an emotional, heartwarming story.\n\nOverall Style:\nAuthentic UGC, Couple Lifestyle, Heartwarming, TikTok Vlog\n\nShot 1: 0-2s\nScene:\nFrom the boyfriend's POV in a cozy living room, a small gift box containing the earrings () is gently held toward the girlfriend (consistent with ), who is sitting on the couch scrolling through her phone. She looks up with a curious smile and reaches out to take the gift.\nCamera Movement:\nHandheld first-person shot with subtle natural movement, slowly extending the gift toward her.\nMood:\nWarm, natural, full of anticipation.\nDialogue:\nBoyfriend (off camera): \"I got something for you.\"\nGirlfriend: \"For me?\"\n\nShot 2: 2-5s\nScene:\nPOV close-up as she opens the gift box. The earrings () are revealed. Her eyes light up instantly, and she smiles with genuine surprise while carefully picking them up to admire every detail.\nCamera Movement:\nSlow handheld push-in toward the earrings, then naturally tilts up to capture her facial reaction.\nMood:\nExciting, romantic, genuine.\nDialogue:\nGirlfriend: \"Oh my gosh... They're so beautiful!\"\n\nShot 3: 5-8s\nScene:\nShe immediately walks to a nearby mirror to put on the earrings while the camera follows from the boyfriend's perspective. After putting them on, she gently brushes her hair aside, revealing the sparkling earrings. She turns toward the camera with a bright smile and subtly poses to highlight the jewelry.\nCamera Movement:\nNatural handheld follow shot, ending with a gentle push-in on the earrings.\nMood:\nSweet, elegant, joyful.\nDialogue:\nGirlfriend: \"I love them!\"\n\nShot 4: 8-10s\nScene:\nShe happily walks back toward the camera and leans in for a warm hug (hugging the camera as if hugging her boyfriend). She pulls back, gives the camera a quick kiss, then tucks her hair behind her ear to show off the earrings one last time. The video ends on a close-up of the sparkling earrings in warm indoor light.\nCamera Movement:\nSlight handheld movement during the hug, then settles into a close-up hero shot of the earrings.\nMood:\nRomantic, heartfelt, memorable.\nDialogue:\nGirlfriend: \"Best surprise ever.\"",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2123333286374338560/img/SqZKYTgXl3W-iFIr.jpg",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2123333286374338560/img/SqZKYTgXl3W-iFIr.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/amplify_video_thumb/2123333286374338560/img/SqZKYTgXl3W-iFIr.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "9:16",
+      "model": "Vorla AI",
+      "mediaType": "video",
+      "videoPoster": "https://pbs.twimg.com/amplify_video_thumb/2123333286374338560/img/SqZKYTgXl3W-iFIr.jpg",
+      "videoSourceUrl": "https://video.twimg.com/amplify_video/2123333286374338560/vid/avc1/1080x1880/HL0eP-s3vrIn5giR.mp4",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/Vorla_AI/status/2123544850574225664",
+      "url": "https://x.com/Vorla_AI/status/2123544850574225664",
+      "domain": "x.com",
+      "date": "2026-11-20",
+      "timestamp": 1795141404446,
+      "collectedAt": "2026-11-20T02:23:24.446Z",
+      "githubSyncedAt": "2026-11-20T02:23:24.446Z",
+      "domesticSyncedAt": null,
+      "useCase": "UGC / 口碑",
+      "creator": "Vorla_AI",
+      "signals": [
+        "Prompt:"
+      ],
+      "videoUrl": "https://video.twimg.com/amplify_video/2123333286374338560/vid/avc1/1080x1880/HL0eP-s3vrIn5giR.mp4"
+    },
+    {
+      "id": "x_2123413233084039200",
+      "title": "恐龙灵感家居产品",
+      "category": "电商视觉",
+      "commerceType": "产品主图",
+      "tags": [
+        "电商视觉",
+        "产品主图",
+        "家居",
+        "工业设计",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "2x2 grid, 4 home products inspired by iconic dinosaurs, 16:9 \nGenerate a [PRODUCT] inspired by [THING].\n\nRules:\n- do not merely decorate the product with the subject\n- infer DESIGN_DNA from [THING]\n- preserve FUNCTIONAL_CORE of [PRODUCT]\n- translate THING’s visual identity into the industrial design language of the product\n- the final object must feel like a believable premium real-world product, not a novelty prop\n- infer MATERIAL_SYSTEM, SIGNATURE_FEATURES, and CONTROL_LANGUAGE automatically\n- map PRODUCT components into THING-inspired functional forms\n- integrate subtle branding or symbolic cues derived from [THING]\n- place the product in an inferred or specified ENVIRONMENT that enhances its luxury and usability\n- no hard-coded materials, features, controls, logos, colors, or parts unless supplied",
+      "image": "https://pbs.twimg.com/media/HXXyxN0WoAAoCVs.jpg?format=jpg&name=large",
+      "images": [
+        "https://pbs.twimg.com/media/HXXyxN0WoAAoCVs.jpg?format=jpg&name=large"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HXXyxN0WoAAoCVs.jpg?format=jpg&name=large"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "16:9",
+      "model": "通用 AI 图像模型",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/Gdgtify/status/2123413233084039200",
+      "url": "https://x.com/Gdgtify/status/2123413233084039200",
+      "domain": "x.com",
+      "date": "2026-11-20",
+      "timestamp": 1795141404446,
+      "collectedAt": "2026-11-20T02:23:24.446Z",
+      "githubSyncedAt": "2026-11-20T02:23:24.446Z",
+      "domesticSyncedAt": null,
+      "useCase": "产品主图",
+      "creator": "Gdgtify",
+      "signals": [
+        "Prompt:"
+      ]
+    },
+    {
+      "id": "x_2123376993970597898",
+      "title": "索尼耳机霓虹广告",
+      "category": "电商视觉",
+      "commerceType": "广告海报",
+      "tags": [
+        "电商视觉",
+        "广告海报",
+        "耳机",
+        "品牌视觉",
+        "Sony",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "Ultra-realistic cinematic luxury tech fashion advertisement featuring a beautiful young adult woman with a short, voluminous, tousled black bob hairstyle, natural glowing skin, glossy nude-red lips, and delicate facial features. She wears futuristic round mirrored green sunglasses reflecting glowing digital light patterns and oversized neon-green Sony headphones with bright luminous LED rings. She is dressed in a vibrant lime-green ribbed turtleneck sweater, posing elegantly with her head tilted upward and a confident expression. Stunning monochromatic neon-lime green studio background, oversized bold white SONY typography behind her head, dramatic green rim lighting, futuristic cyberpunk aesthetic, premium audio product advertising campaign, glossy reflections, vibrant electric-green color grading, sharp facial details, photorealistic textures, high-end commercial photography, 8K quality, vertical 4:5 composition.",
+      "image": "https://pbs.twimg.com/media/HXfAHQqaUAAGAho.jpg?format=jpg&name=large",
+      "images": [
+        "https://pbs.twimg.com/media/HXfAHQqaUAAGAho.jpg?format=jpg&name=large"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HXfAHQqaUAAGAho.jpg?format=jpg&name=large"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "4:5",
+      "model": "通用 AI 图像模型",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/Monaqbuv/status/2123376993970597898",
+      "url": "https://x.com/Monaqbuv/status/2123376993970597898",
+      "domain": "x.com",
+      "date": "2026-11-20",
+      "timestamp": 1795141404446,
+      "collectedAt": "2026-11-20T02:23:24.446Z",
+      "githubSyncedAt": "2026-11-20T02:23:24.446Z",
+      "domesticSyncedAt": null,
+      "useCase": "广告海报",
+      "creator": "Monaqbuv",
+      "signals": [
+        "Image prompt"
+      ]
+    },
+    {
+      "id": "x_2123228497841922198",
+      "title": "照片几何海报拼贴",
+      "category": "电商视觉",
+      "commerceType": "广告海报",
+      "tags": [
+        "电商视觉",
+        "广告海报",
+        "品牌视觉",
+        "海报设计",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "Create a premium 3:4 vertical editorial poster from the uploaded photo, divided horizontally into two equal 50% sections.  Upper Half — Original Photography: Preserve the subject, composition, proportions, textures, lighting, and natural colors. Apply only subtle professional color grading. Extend the background if necessary without distorting the subject.  Lower Half — Abstract Graphic Identity: Transform the subject’s defining silhouette, posture, structure, and visual relationships into a recognizable minimalist geometric symbol, not a literal illustration. Use modular shapes, fine lines, curves, negative space, and subtle graphic details.  Style: Post-digital design, deconstructed Swiss design, Bauhaus, and experimental editorial graphics. Create a single cohesive focal composition, centered or slightly offset, surrounded by generous negative space.  Colors & Texture: Extract a limited palette from the photo, balanced with warm-white paper. Add subtle Risograph grain, Xerox texture, slight print misalignment, and organic imperfections.  Typography: Only tiny, refined editorial annotations or index labels. No large headlines.  Final Look: Minimal, sophisticated, artistic, and collectible—like an experimental visual identity from a contemporary art institution. Avoid clutter, generic gradients, excessive decoration, and unrelated elements. Output one complete poster.",
+      "image": "https://pbs.twimg.com/media/HXc47ljaoAAYlIg.jpg?format=jpg&name=large",
+      "images": [
+        "https://pbs.twimg.com/media/HXc47ljaoAAYlIg.jpg?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HXc47lkbAAAqP7e.jpg?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HXc47lmaUAEBXfj.jpg?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HXc47lhbYAAWEXZ.jpg?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HXc47l1aAAABKk1.jpg?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HXc47lnbIAAcxLj.jpg?format=jpg&name=large"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HXc47ljaoAAYlIg.jpg?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HXc47lkbAAAqP7e.jpg?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HXc47lmaUAEBXfj.jpg?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HXc47lhbYAAWEXZ.jpg?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HXc47l1aAAABKk1.jpg?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HXc47lnbIAAcxLj.jpg?format=jpg&name=large"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "3:4",
+      "model": "通用 AI 图像模型",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/Jenniegy59/status/2123228497841922198",
+      "url": "https://x.com/Jenniegy59/status/2123228497841922198",
+      "domain": "x.com",
+      "date": "2026-11-20",
+      "timestamp": 1795141404446,
+      "collectedAt": "2026-11-20T02:23:24.446Z",
+      "githubSyncedAt": "2026-11-20T02:23:24.446Z",
+      "domesticSyncedAt": null,
+      "useCase": "广告海报",
+      "creator": "Jenniegy59",
+      "signals": [
+        "Prompt:"
+      ]
+    },
     {
       "id": "x_2122379105413013674",
       "title": "第二世界摄影海报",
