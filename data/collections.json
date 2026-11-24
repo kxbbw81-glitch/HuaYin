@@ -1,7 +1,141 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-17T10:39:03.018Z",
+  "updatedAt": "2026-11-24T01:58:25.541Z",
   "collections": [
+    {
+      "id": "x_2124887370252394621",
+      "title": "黑红跑鞋动作广告",
+      "category": "电商视觉",
+      "commerceType": "电商视频",
+      "tags": [
+        "电商视觉",
+        "电商视频",
+        "跑鞋",
+        "动作广告",
+        "文生视频",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "Create a 15-second ultra-cinematic Hollywood action blockbuster sneaker commercial based on the reference poster. Preserve the exact black-and-red sneaker design. Vertical 9:16, photorealistic CGI, IMAX-style cinematography, dramatic lighting, high-end commercial quality.\n\nSHOT 1 (0–3s) — THE CHASE\nA black muscle car races through a city street at night, police lights flashing, sparks flying and smoke filling the road. Low-angle tracking shot, aggressive cinematic camera movement, engine roaring.\n\nSHOT 2 (3–6s) — THE HERO\nA mysterious man in black sunglasses steps out through the smoke. Camera slowly tilts down from his face to his sneaker. The sneaker lands firmly on the asphalt as shockwave-like sparks burst around it.\n\nSHOT 3 (6–10s) — THE POWER\nExtreme close-up of the black-and-red sneaker. Slow-motion rotation, detailed fabric texture, glowing red accents, powerful grip hitting the ground. The hero sprints, jumps over exploding debris and lands in slow motion. Dynamic tracking camera, realistic movement.\n\nSHOT 4 (10–13s) — THE BLOCKBUSTER\nThe sneaker flies through the air in a cinematic product shot as cars drift, a helicopter sweeps across the skyline and explosions illuminate the background. Dramatic speed ramps, motion blur, flying sparks.\n\nSHOT 5 (13–15s) — THE POSTER REVEAL\nThe sneaker lands on a cracked road in the foreground. Smoke clears, golden light shines behind it. Camera pushes in toward the product as the title appears:\n\nFAST & FURIOUSLY FRESH\n\nTagline: “SPEED UP YOUR STYLE… STEP INTO THE VICTORY!”\n\nFinal text: STEP • RUN • REPEAT\n\nAudio: Powerful cinematic trailer music, engine revs, tire screeches, explosions, whooshes and deep impact sound effects.\n\nNo dialogue. No watermark. Maintain sneaker consistency throughout. Hollywood blockbuster advertising quality, ultra-realistic, 4K.",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2124887304489889793/img/msdgtPX2vVUE64s9.jpg",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2124887304489889793/img/msdgtPX2vVUE64s9.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/amplify_video_thumb/2124887304489889793/img/msdgtPX2vVUE64s9.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "16:9",
+      "model": "通用 AI 视频模型",
+      "mediaType": "video",
+      "videoPoster": "https://pbs.twimg.com/amplify_video_thumb/2124887304489889793/img/msdgtPX2vVUE64s9.jpg",
+      "videoSourceUrl": "https://video.twimg.com/amplify_video/2124887304489889793/vid/avc1/1280x720/M6vxsxx10dNGRteg.mp4",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/iamsoulAI/status/2124887370252394621",
+      "url": "https://x.com/iamsoulAI/status/2124887370252394621",
+      "domain": "x.com",
+      "date": "2026-11-24",
+      "timestamp": 1795485505541,
+      "collectedAt": "2026-11-24T01:58:25.541Z",
+      "githubSyncedAt": "2026-11-24T01:58:25.541Z",
+      "domesticSyncedAt": null,
+      "useCase": "电商视频",
+      "creator": "iamsoulAI",
+      "signals": [
+        "VIDEO PROMPT"
+      ],
+      "videoUrl": "https://video.twimg.com/amplify_video/2124887304489889793/vid/avc1/1280x720/M6vxsxx10dNGRteg.mp4"
+    },
+    {
+      "id": "x_2124737214777282802",
+      "title": "酒红面膜鲜花广告",
+      "category": "电商视觉",
+      "commerceType": "电商视频",
+      "tags": [
+        "电商视觉",
+        "电商视频",
+        "面膜",
+        "鲜花",
+        "美妆",
+        "文生视频",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "Create a luxurious cinematic skincare product advertisement featuring a deep burgundy Paula’s Choice Hydrating Treatment Mask tube standing upright in the center. Surround the product with rich crimson and burgundy flower petals. Begin with a dramatic explosion of fine red powder and floating petals swirling around the product. Gradually transform the powder into an elegant arrangement of blooming red and dark pink flowers. Add realistic floral movements, delicate falling petals, and subtle camera zoom-in. Rich red monochromatic color palette, dramatic studio lighting, premium beauty commercial aesthetic, ultra-realistic textures, sophisticated composition, 4K cinematic quality. Keep the product packaging, logo, and text sharp, readable, and unchanged.",
+      "image": "https://pbs.twimg.com/media/HXyVNH2bgAAOd_8.jpg?format=jpg&name=large",
+      "images": [
+        "https://pbs.twimg.com/media/HXyVNH2bgAAOd_8.jpg?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HXyVN7MbwAAryT_.jpg?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HXyVOr2bQAAxqXS.jpg?format=jpg&name=large"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HXyVNH2bgAAOd_8.jpg?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HXyVN7MbwAAryT_.jpg?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HXyVOr2bQAAxqXS.jpg?format=jpg&name=large"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "5:9",
+      "model": "Seedance 2.0",
+      "mediaType": "video",
+      "videoPoster": "https://pbs.twimg.com/amplify_video_thumb/2124737150826708992/img/YUEI6RiTPtgcCXXt.jpg",
+      "videoSourceUrl": "https://video.twimg.com/amplify_video/2124737150826708992/vid/avc1/480x864/Bzlg_SJfipHAeAg5.mp4",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/AIwithRubii/status/2124737214777282802",
+      "url": "https://x.com/AIwithRubii/status/2124737214777282802",
+      "domain": "x.com",
+      "date": "2026-11-24",
+      "timestamp": 1795485505541,
+      "collectedAt": "2026-11-24T01:58:25.541Z",
+      "githubSyncedAt": "2026-11-24T01:58:25.541Z",
+      "domesticSyncedAt": null,
+      "useCase": "电商视频",
+      "creator": "AIwithRubii",
+      "signals": [
+        "Prompt:"
+      ],
+      "videoUrl": "https://video.twimg.com/amplify_video/2124737150826708992/vid/avc1/480x864/Bzlg_SJfipHAeAg5.mp4"
+    },
+    {
+      "id": "x_2122829215909466534",
+      "title": "购物袋产品广告成片",
+      "category": "电商视觉",
+      "commerceType": "电商视频",
+      "tags": [
+        "电商视觉",
+        "电商视频",
+        "购物袋",
+        "产品广告",
+        "文生视频",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "VIDEO TITLE: YOUR PRODUCT DESERVES MORE THAN A STATIC IMAGE\n\nDuration: 10 seconds\nFormat: Vertical 9:16\nVisual style: Ultra-realistic premium commercial, cinematic product advertising, natural human movement, professional lighting.\nREFERENCE IMAGES:\nUse the uploaded male portrait as the exact character identity reference. Preserve his facial features, hairstyle, skin tone, body proportions and natural appearance. Dress him in the same black T-shirt.\n\nUse the uploaded white shopping bag mockup as the exact product reference. Preserve its white rectangular structure, dimensions, twisted white rope handles and clean minimalist appearance.\nMASTER VIDEO PROMPT:\nCreate a highly realistic, premium commercial video in which the male character demonstrates how professional product videos can turn ordinary static product photographs into engaging advertisements.\n\n0–3 SECONDS — THE PROBLEM / HOOK\n\nThe male character stands in a clean, modern commercial studio, holding a smartphone displaying a still photograph of the white shopping bag. He looks directly into the camera with a confident, slightly concerned expression.\n\nCamera: Cinematic medium close-up with a subtle forward dolly.\n\nDialogue: \"Still selling your products with just pictures?\"\n\nSound: Subtle digital notification sound followed by an attention-grabbing cinematic beat.\n\n3–7 SECONDS — THE SOLUTION / PRODUCT DEMONSTRATION\n\nSeamless match-cut transition from the smartphone image into a beautifully lit, three-dimensional product demonstration.\n\nThe same white shopping bag appears suspended briefly against a premium neutral background before gently settling onto a display surface. The camera performs a smooth 180-degree product orbit, revealing the bag's depth, clean paper finish, structured base and rope handles.\n\nCut to a realistic close-up of a hand lifting the bag by its handles, followed by a wider shot showing its elegant appearance in a real retail setting.\n\nCamera: Smooth macro detail shots, controlled tracking movement and cinematic depth of field.\n\nVoiceover: \"Turn static photos into videos that show every detail and make customers want to buy.\"\n\nSound: Smooth transition whoosh, subtle paper rustle and elegant cinematic sound design.\n\n7–10 SECONDS — THE RESULT / CALL TO ACTION\n\nCut back to the male character holding the shopping bag confidently beside him. He smiles naturally and looks directly into the camera.\n\nCamera: Medium shot with a gentle cinematic push-in. Premium studio lighting highlights both the presenter and product.\n\nDialogue: \"Give your product the attention it deserves. Let's create your next ad!\"\n\nEnd with a clean, professional product hero shot.\n\nPRODUCTION REQUIREMENTS:\n\nPreserve the male character's identity throughout.\n\nMaintain exact product appearance and proportions.\nNatural facial expressions, realistic hand movements and accurate lip synchronization.\nOnly the presenter speaks; no competing voices.\nProfessional Nigerian English accent, clear and conversational.\nPremium commercial color grading, realistic shadows and reflections.\nSeamless transitions, no sudden camera jumps.\nNo distorted fingers, duplicated handles, floating objects or product deformation.\nNo invented logos, brand names or misleading product claims.\nNo subtitles or random AI-generated text.\nEvery shot must look like a real commercial produced for a professional brand.",
+      "image": "https://pbs.twimg.com/media/HXXNu04XcAAxkVD.jpg?format=jpg&name=large",
+      "images": [
+        "https://pbs.twimg.com/media/HXXNu04XcAAxkVD.jpg?format=jpg&name=large"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HXXNu04XcAAxkVD.jpg?format=jpg&name=large"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "9:16",
+      "model": "通用 AI 视频模型",
+      "mediaType": "video",
+      "videoPoster": "https://pbs.twimg.com/amplify_video_thumb/2122829003706814464/img/Iwk4zjyx_nLqkqsx.jpg",
+      "videoSourceUrl": "https://video.twimg.com/amplify_video/2122829003706814464/vid/avc1/720x1280/0h4ZIsVDE83hxXsL.mp4",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/chimezieugwu/status/2122829215909466534",
+      "url": "https://x.com/chimezieugwu/status/2122829215909466534",
+      "domain": "x.com",
+      "date": "2026-11-24",
+      "timestamp": 1795485505541,
+      "collectedAt": "2026-11-24T01:58:25.541Z",
+      "githubSyncedAt": "2026-11-24T01:58:25.541Z",
+      "domesticSyncedAt": null,
+      "useCase": "电商视频",
+      "creator": "chimezieugwu",
+      "signals": [
+        "MASTER VIDEO PROMPT"
+      ],
+      "videoUrl": "https://video.twimg.com/amplify_video/2122829003706814464/vid/avc1/720x1280/0h4ZIsVDE83hxXsL.mp4"
+    },
     {
       "id": "x_2122379105413013674",
       "title": "第二世界摄影海报",
