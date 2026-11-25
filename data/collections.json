@@ -1,7 +1,137 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-17T10:39:03.018Z",
+  "updatedAt": "2026-11-25T02:03:05.061Z",
   "collections": [
+    {
+      "id": "x_2125273931812925647",
+      "title": "金色精华护肤广告",
+      "category": "电商视觉",
+      "commerceType": "电商视频",
+      "tags": [
+        "电商视觉",
+        "电商视频",
+        "精华液",
+        "护肤",
+        "美妆",
+        "文生视频",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "Create a luxurious cinematic skincare commercial featuring a premium golden facial serum bottle. Begin with an elegant macro product reveal surrounded by delicate white flowers and floating golden particles. Transition into close-up shots of the golden dropper releasing a glowing serum droplet. Show a beautiful woman applying the serum to her face in a sophisticated luxury bathroom. Capture natural skin texture, soft expressions, and elegant movements. Finish with a dramatic hero shot of the serum bottle against a deep black and warm golden background. Ultra-realistic, premium beauty advertising, cinematic lighting, smooth camera movements, macro details, 4K, vertical 9:16. Maintain exact product packaging and label consistency throughout.",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2125273874174779393/img/A7rCqQV_-Q0BlTqz.jpg",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2125273874174779393/img/A7rCqQV_-Q0BlTqz.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/amplify_video_thumb/2125273874174779393/img/A7rCqQV_-Q0BlTqz.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "16:9",
+      "model": "MiniMax H3",
+      "mediaType": "video",
+      "videoPoster": "https://pbs.twimg.com/amplify_video_thumb/2125273874174779393/img/A7rCqQV_-Q0BlTqz.jpg",
+      "videoSourceUrl": "https://video.twimg.com/amplify_video/2125273874174779393/vid/avc1/1280x720/mTus4_UFmNp2xnAg.mp4",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/AIwithRubii/status/2125273931812925647",
+      "url": "https://x.com/AIwithRubii/status/2125273931812925647",
+      "domain": "x.com",
+      "date": "2026-11-25",
+      "timestamp": 1795572185061,
+      "collectedAt": "2026-11-25T02:03:05.061Z",
+      "githubSyncedAt": "2026-11-25T02:03:05.061Z",
+      "domesticSyncedAt": null,
+      "useCase": "电商视频",
+      "creator": "AIwithRubii",
+      "signals": [
+        "Prompt:"
+      ],
+      "videoUrl": "https://video.twimg.com/amplify_video/2125273874174779393/vid/avc1/1280x720/mTus4_UFmNp2xnAg.mp4"
+    },
+    {
+      "id": "x_2125120420525564092",
+      "title": "米色香水奢华广告",
+      "category": "电商视觉",
+      "commerceType": "电商视频",
+      "tags": [
+        "电商视觉",
+        "电商视频",
+        "香水",
+        "美妆",
+        "文生视频",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "Create an ultra-realistic luxury perfume commercial featuring an elegant young woman with sleek dark brown hair tied in a high ponytail, wearing a sophisticated white sleeveless high-neck outfit. She gracefully holds a luxurious transparent glass perfume bottle with golden details and a cream-colored cap.\n\nScene transitions include close-up shots of her face, delicate hands holding the perfume, a gentle perfume spray, elegant product shots on a beige stone pedestal, and the bottle resting in her palm.\n\nBackground: Minimalist warm beige studio with soft natural sunlight, subtle shadows, and a premium editorial atmosphere.\n\nCamera: Cinematic macro shots, slow-motion movements, smooth transitions, shallow depth of field, professional luxury beauty advertising, photorealistic 4K quality. Maintain consistent product design and model appearance throughout.",
+      "image": "https://pbs.twimg.com/media/HX3xvH4a0AAX7Cf.jpg?format=jpg&name=large",
+      "images": [
+        "https://pbs.twimg.com/media/HX3xvH4a0AAX7Cf.jpg?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HX3xvxdawAACZf1.jpg?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HX3xwSebMAAl7ED.jpg?format=jpg&name=large"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HX3xvH4a0AAX7Cf.jpg?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HX3xvxdawAACZf1.jpg?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HX3xwSebMAAl7ED.jpg?format=jpg&name=large"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "9:16",
+      "model": "Seedance 2.0",
+      "mediaType": "video",
+      "videoPoster": "https://pbs.twimg.com/amplify_video_thumb/2125120358307319808/img/ajWR9MW9rgLYgN08.jpg",
+      "videoSourceUrl": "https://video.twimg.com/amplify_video/2125120358307319808/vid/avc1/720x1280/zQPEjAYsgTzVI6Nr.mp4",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/AIwithRubii/status/2125120420525564092",
+      "url": "https://x.com/AIwithRubii/status/2125120420525564092",
+      "domain": "x.com",
+      "date": "2026-11-25",
+      "timestamp": 1795572185061,
+      "collectedAt": "2026-11-25T02:03:05.061Z",
+      "githubSyncedAt": "2026-11-25T02:03:05.061Z",
+      "domesticSyncedAt": null,
+      "useCase": "电商视频",
+      "creator": "AIwithRubii",
+      "signals": [
+        "Prompt:"
+      ],
+      "videoUrl": "https://video.twimg.com/amplify_video/2125120358307319808/vid/avc1/720x1280/zQPEjAYsgTzVI6Nr.mp4"
+    },
+    {
+      "id": "x_2124886093506240600",
+      "title": "能量饮料电影海报",
+      "category": "电商视觉",
+      "commerceType": "广告海报",
+      "tags": [
+        "电商视觉",
+        "广告海报",
+        "能量饮料",
+        "电影海报",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "Create a hyper-realistic Hollywood blockbuster movie poster featuring a premium energy drink can named “VOLT X” standing at the center of a destroyed futuristic city. The can glows with electric blue energy, surrounded by lightning bolts, flying debris, burning skyscrapers and a massive storm in the sky. A mysterious cinematic hero-like atmosphere, dramatic low-angle camera, volumetric lighting, intense reflections, smoke, sparks and epic scale.\n\nTITLE: THE LAST DROP\n\nTAGLINE: “WHEN THE WORLD RUNS OUT OF POWER… ONE DROP REMAINS.”\n\nMake the energy drink can the undisputed hero of the poster. Premium commercial photography, Hollywood sci-fi movie poster composition, photorealistic CGI, ultra-detailed, dramatic color grading, IMAX blockbuster aesthetic, 4K, vertical 9:16.\n\nInclude elegant cinematic typography, perfectly readable text, no extra logos, no watermark.",
+      "image": "https://pbs.twimg.com/media/HX0cobVboAIa6Mx.jpg?format=jpg&name=large",
+      "images": [
+        "https://pbs.twimg.com/media/HX0cobVboAIa6Mx.jpg?format=jpg&name=large"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HX0cobVboAIa6Mx.jpg?format=jpg&name=large"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "9:16",
+      "model": "GPT Image 2.5",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/iamsoulAI/status/2124886093506240600",
+      "url": "https://x.com/iamsoulAI/status/2124886093506240600",
+      "domain": "x.com",
+      "date": "2026-11-25",
+      "timestamp": 1795572185061,
+      "collectedAt": "2026-11-25T02:03:05.061Z",
+      "githubSyncedAt": "2026-11-25T02:03:05.061Z",
+      "domesticSyncedAt": null,
+      "useCase": "广告海报",
+      "creator": "iamsoulAI",
+      "signals": [
+        "Prompt:"
+      ]
+    },
     {
       "id": "x_2122379105413013674",
       "title": "第二世界摄影海报",
