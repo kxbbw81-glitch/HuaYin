@@ -1,7 +1,138 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-17T10:39:03.018Z",
+  "updatedAt": "2026-11-26T02:11:04.194Z",
   "collections": [
+    {
+      "id": "x_2125636346048053529",
+      "title": "芬达冬季冰雪海报",
+      "category": "电商视觉",
+      "commerceType": "广告海报",
+      "tags": [
+        "电商视觉",
+        "广告海报",
+        "饮料",
+        "冬季",
+        "产品摄影",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "LUXURY WINTER BEVERAGE ADVERTISEMENT | CINEMATIC 3D PRODUCT CAMPAIGN\n\nCreate a breathtaking, ultra-premium commercial advertising poster inspired by world-class beverage campaigns. The design should combine photorealistic product photography, cinematic winter fantasy, dramatic liquid splashes, sparkling ice, and sophisticated luxury advertising aesthetics.\n\n1. HERO PRODUCT & COMPOSITION\n\nPlace a large, iconic [PRODUCT / BRAND NAME] bottle or product at the absolute center of the composition.\n\n- Make the product the dominant visual element.\n- Preserve authentic packaging, branding, typography, colors, proportions, and label details.\n- Cover the surface with realistic condensation droplets, frost, and tiny water beads.\n- Create dramatic reflections and realistic highlights.\n- Make the product appear exceptionally refreshing, cold, and irresistibly appealing.\n\n2. MAGICAL WINTER ENVIRONMENT\n\nBuild an extraordinary frozen fantasy landscape surrounding the product.\n\n- Snow-covered mountains in the background.\n- Majestic ice castles with intricate frozen architecture.\n- Massive transparent icicles hanging from the upper edges.\n- Crystal-clear ice cubes scattered across the foreground.\n- Fresh powdery snow covering the landscape.\n- Floating snow particles and sparkling frost.\n- A dramatic red and icy-blue color palette with beautiful atmospheric lighting.\n\n3. DYNAMIC LIQUID EFFECTS\n\nSurround the product with spectacular, photorealistic liquid splashes.\n\n- Dynamic beverage splashes erupting around the bottle.\n- Individual droplets frozen in midair.\n- Realistic liquid transparency, reflections, and refraction.\n- Ice cubes interacting naturally with the splashing liquid.\n- High-speed commercial photography aesthetic.\n\n4. ADVERTISING TYPOGRAPHY & LAYOUT\n\nDesign the poster like a premium international brand campaign.\n\nTop section:\n\n- Large, elegant brand logo.\n- A sophisticated advertising headline beneath it.\n- Beautiful serif and custom script typography.\n\nLeft section: Include four visually distinct promotional information panels with circular icons, metallic borders, glossy red backgrounds, and white typography.\n\nEach panel should contain:\n\n- A short uppercase feature heading.\n- One concise supporting sentence.\n- A relevant minimalist icon.\n\nBottom section: Add a dramatic curved, glossy red ribbon banner with a bold advertising slogan in elegant white typography.\n\n5. LIGHTING & VISUAL QUALITY\n\n- Professional commercial studio lighting.\n- Cinematic volumetric illumination.\n- Brilliant highlights and deep contrast.\n- Photorealistic materials and physically accurate reflections.\n- Intricate environmental details.\n- Premium 3D rendering combined with real product photography.\n- Exceptional sharpness and sophisticated color grading.\n\n6. FINAL DESIGN DIRECTION\n\nThe finished artwork must look like an actual global advertising campaign created by an elite creative agency, not a generic AI-generated poster.\n\nStyle: Hyper-realistic commercial photography, luxury product advertising, cinematic winter fantasy, premium 3D CGI, high-speed liquid photography, elaborate environmental storytelling.\n\nAspect ratio: 4:5 vertical poster.\n\nQuality: Ultra-detailed, 8K visual quality, crisp typography, professional advertising art direction.\n\nImportant: Maintain a clear visual hierarchy. The product must remain the hero, all text must be correctly spelled and readable, and every visual element must contribute to the overall advertising concept. Generate for fanta",
+      "image": "https://pbs.twimg.com/media/HX_G-CfbIAAkeu3.jpg?format=jpg&name=large",
+      "images": [
+        "https://pbs.twimg.com/media/HX_G-CfbIAAkeu3.jpg?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HX_G-5pbIAAHFbB.jpg?format=jpg&name=large"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HX_G-CfbIAAkeu3.jpg?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HX_G-5pbIAAHFbB.jpg?format=jpg&name=large"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "561:701",
+      "model": "GPT Image 2.6",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/Goodmanprotocol/status/2125636346048053529",
+      "url": "https://x.com/Goodmanprotocol/status/2125636346048053529",
+      "domain": "x.com",
+      "date": "2026-11-26",
+      "timestamp": 1795659064194,
+      "collectedAt": "2026-11-26T02:11:04.194Z",
+      "githubSyncedAt": "2026-11-26T02:11:04.194Z",
+      "domesticSyncedAt": null,
+      "useCase": "广告海报",
+      "creator": "Goodmanprotocol",
+      "signals": [
+        "Prompt:"
+      ]
+    },
+    {
+      "id": "x_2125473281163891080",
+      "title": "ROBOT耳机ASMR广告",
+      "category": "电商视觉",
+      "commerceType": "电商视频",
+      "tags": [
+        "电商视觉",
+        "电商视频",
+        "耳机",
+        "ASMR",
+        "产品展示",
+        "文生视频",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "A crisp 10-second vertical 9:16 ASMR commercial video featuring pastel sage-green wireless earbuds in a matching charging case labeled \"ROBOT\" against a clean light-gray and white studio backdrop with soft shadows and subtle motion accents, cutting smoothly through eight rapid beats: first showing the open case and earbuds on a small white round pedestal with a gentle zoom-in, then a hand closing the case lid with a crisp ASMR click, next a hand lifting an earbud out of the open case, followed by a close-up of fingers gently touching the earbud stem with the second earbud softly blurred behind, cutting to a smartphone screen showing Bluetooth toggled on and \"ROBOT TWS\" connected with a green checkmark and pairing chime, then a close-up of a person's ear wearing the earbud with clean feature callouts (\"Bluetooth 5.3\", \"Suara Jernih Bass Mantap\", \"Ringan & Nyaman\", \"Tahan Lama\"), next a white USB cable plugging into the bottom of the case beside a softly blurred green potted plant with an ASMR plug-in sound, and ending on the open case and earbuds on the white pedestal with bold \"ROBOT TWS\" title text and \"Earbuds Nirkabel Praktis & Stylish\" subtitle.",
+      "image": "https://pbs.twimg.com/media/HX8yrP8aYAA7RN1.jpg?format=jpg&name=large",
+      "images": [
+        "https://pbs.twimg.com/media/HX8yrP8aYAA7RN1.jpg?format=jpg&name=large"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HX8yrP8aYAA7RN1.jpg?format=jpg&name=large"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "9:16",
+      "model": "Seedance 2.5",
+      "mediaType": "video",
+      "videoPoster": "https://pbs.twimg.com/amplify_video_thumb/2125473240269348864/img/I3f3_WjwkBSIJVaJ.jpg",
+      "videoSourceUrl": "https://video.twimg.com/amplify_video/2125473240269348864/vid/avc1/720x1280/4mJYcrBUfIufwjmi.mp4",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/AvelyrahnAI/status/2125473281163891080",
+      "url": "https://x.com/AvelyrahnAI/status/2125473281163891080",
+      "domain": "x.com",
+      "date": "2026-11-26",
+      "timestamp": 1795659064194,
+      "collectedAt": "2026-11-26T02:11:04.194Z",
+      "githubSyncedAt": "2026-11-26T02:11:04.194Z",
+      "domesticSyncedAt": null,
+      "useCase": "电商视频",
+      "creator": "AvelyrahnAI",
+      "signals": [
+        "Prompt:"
+      ],
+      "videoUrl": "https://video.twimg.com/amplify_video/2125473240269348864/vid/avc1/720x1280/4mJYcrBUfIufwjmi.mp4"
+    },
+    {
+      "id": "x_2124769211360666017",
+      "title": "智能跳绳开箱测评",
+      "category": "电商视觉",
+      "commerceType": "UGC / 口碑",
+      "tags": [
+        "电商视觉",
+        "电商视频",
+        "开箱",
+        "UGC",
+        "运动器材",
+        "文生视频",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "Create a high-energy, realistic 15-second User Generated Content (UGC) product advertisement featuring a man in his mid-to-late 20s unboxing and testing a premium smart fitness jump rope.\n\nThe video should feel like authentic smartphone footage captured at home, not a traditional commercial. Use rapid jump cuts, satisfying ASMR sounds, natural reactions, realistic movements, and cinematic product close-ups.\n\nPRODUCT: JUMPFIT SMART ROPE X.\n\nA premium cordless-and-corded smart jump rope featuring matte-black aluminum handles with brushed electric-blue accents, a braided steel-core cable with a soft protective coating, a small LED display in each handle showing jump count and calories, ball-bearing swivel joints, non-slip foam grips, a USB-C charging port, a spare cable set, and a soft zippered carrying pouch.\n\nSHOT 1: THE ARRIVAL (0-2s)\n\n[Medium shot, eye-level]\n\nThe man sits on his living room floor with a small delivery box branded \"JUMPFIT SMART ROPE X\" in front of him. He tears the sealing tape open in one satisfying motion.\n\nSFX: Loud, crisp tape ripping sound.\n\nSHOT 2: THE REVEAL (2-4s)\n\n[Medium shot, slightly low angle]\n\nHe lifts the lid, pulls the jump rope from its carrying pouch, and reveals the matte-black handles and electric-blue accents. He looks genuinely impressed.\n\nDialogue: \"Okay, this finally came!\"\n\nSFX: Cardboard movement, pouch zipper opening, soft packaging rustling.\n\nSHOT 3: THE CLOSE LOOK (4-7s)\n\n[Full shot, clean jump cut]\n\nHe holds the JUMPFIT SMART ROPE X up to the camera, runs his thumb along the blue trim, and squeezes the foam grip. He spins the cable once to show the smooth swivel, then taps the handle and the LED display glows.\n\nDialogue: \"Look at this! It feels so solid and smooth.\"\n\nSFX: Cable whirring, foam grip squeezing, soft button click, power-on chime.\n\nSHOT 4: THE WORKOUT TEST (7-11s)\n\n[Close-up, 45-degree angle]\n\nHe steps onto a rubber mat and starts jumping. The rope spins in a clean, even arc as the LED display counts up the jumps and calories in real time. His phone shows the workout syncing to an app. He raises his eyebrows, clearly impressed by how smooth it feels.\n\nSFX: Rhythmic rope whooshing, light footsteps landing, soft counter beeps, Bluetooth connection tone.\n\nSHOT 5: THE FINAL EXPERIENCE (11-13s)\n\n[Medium shot, eye-level]\n\nHe stops, catches his breath, wipes his forehead with a towel, glances at the display showing his total count, and smiles directly at the camera.\n\nDialogue: \"Wait... I think I just found my new workout!\"\n\nSHOT 6: HERO PRODUCT SHOT (13-15s)\n\n[Slow cinematic close-up]\n\nThe JUMPFIT SMART ROPE X lies coiled on a rubber mat beside its open box, carrying pouch, a water bottle, and a towel. Soft natural window light reflects across the matte-black handles and electric-blue accents.\n\nFinal dialogue: \"This is officially my new favourite upgrade.\"\n\nVIDEO STYLE:\n\n- Vertical 9:16 format.\n- Total duration: 15 seconds.\n- Ultra-realistic smartphone footage.\n- Natural human movements and expressions.\n- Fast-paced jump cuts.\n- Crisp product details.\n- Realistic rope spinning, LED glow, and jumping motion.\n- Authentic ASMR sound design.\n- Natural indoor lighting.\n- No artificial-looking CGI.\n- Consistent product design across every shot.\n- Accurate hand movements and realistic product interactions.\n\nThe final result should look like a genuine viral product-review video filmed by a real customer.",
+      "image": "https://pbs.twimg.com/media/HXyyVLvXUAAoqir.jpg?format=jpg&name=large",
+      "images": [
+        "https://pbs.twimg.com/media/HXyyVLvXUAAoqir.jpg?format=jpg&name=large"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HXyyVLvXUAAoqir.jpg?format=jpg&name=large"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "9:16",
+      "model": "Google Omni 1.2",
+      "mediaType": "video",
+      "videoPoster": "https://pbs.twimg.com/media/HXyyVLvXUAAoqir.jpg?format=jpg&name=large",
+      "videoSourceUrl": "https://video.twimg.com/amplify_video/2124769162606030849/vid/avc1/360x640/ccLkE6wlCEz4_uDC.mp4",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/abs_crea8or/status/2124769211360666017",
+      "url": "https://x.com/abs_crea8or/status/2124769211360666017",
+      "domain": "x.com",
+      "date": "2026-11-26",
+      "timestamp": 1795659064194,
+      "collectedAt": "2026-11-26T02:11:04.194Z",
+      "githubSyncedAt": "2026-11-26T02:11:04.194Z",
+      "domesticSyncedAt": null,
+      "useCase": "UGC / 口碑",
+      "creator": "abs_crea8or",
+      "signals": [
+        "Prompt:"
+      ],
+      "videoUrl": "https://video.twimg.com/amplify_video/2124769162606030849/vid/avc1/360x640/ccLkE6wlCEz4_uDC.mp4"
+    },
     {
       "id": "x_2122379105413013674",
       "title": "第二世界摄影海报",
