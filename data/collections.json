@@ -1,7 +1,1730 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-17T10:39:03.018Z",
+  "updatedAt": "2026-11-27T03:56:00.983Z",
   "collections": [
+    {
+      "id": "x_2125986689805934877",
+      "title": "口红巨物奢华广告",
+      "category": "电商视觉",
+      "commerceType": "广告海报",
+      "tags": [
+        "电商视觉",
+        "广告海报",
+        "口红",
+        "美妆",
+        "奢华广告",
+        "产品广告",
+        "时尚大片",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "{   \"aspect_ratio\": \"3:4\",   \"style\": \"Ultra-realistic luxury cosmetics campaign, high-fashion editorial photography, premium commercial advertisement\",    \"prompt\": \"Create a visually stunning, photorealistic luxury lipstick advertisement inspired by high-end fashion magazine campaigns. A gigantic oversized luxury lipstick stands vertically in the exact center of the composition. The lipstick has a deep glossy crimson-red bullet at the top, an elegant polished champagne-gold metallic cylindrical body in the middle, and a sophisticated glossy black rectangular base at the bottom. A breathtakingly beautiful adult European fashion model stands confidently ON TOP of the rounded red lipstick bullet, as if it were a raised fashion runway platform. She is full-body visible, wearing an elegant dramatic black strapless couture evening gown with an asymmetrical sculptural neckline, fitted waist and a long flowing black train. One hand rests gracefully on her waist while the other hangs naturally. Her legs are elegantly positioned, wearing delicate black high heels. She has sleek pulled-back hair, refined makeup and a confident luxury fashion editorial expression. The model and giant lipstick are perfectly aligned vertically, with the lipstick occupying the lower half and the model dominating the upper half. Behind them is a completely seamless, rich deep crimson-red studio background and matching red floor. Dramatic professional fashion lighting, subtle shadows, beautiful reflections on the gold metal, glossy black base, exquisite fabric details, sophisticated minimal luxury aesthetic. Straight-on camera angle, perfectly symmetrical centered composition, entire model and entire lipstick visible in one frame. Looks like a real multi-million-dollar luxury beauty brand advertising campaign, shot on a professional medium-format camera.\",    \"negative_prompt\": \"text, letters, typography, magazine headlines, words, logo, brand name, watermark, signature, captions, subtitles, model sitting, model inside lipstick, model beside lipstick, model emerging from lipstick, model holding lipstick, miniature lipstick, multiple models, extra people, cropped feet, cropped lipstick, distorted body, extra limbs, deformed hands, cartoon, illustration, CGI appearance, low quality, blurry image\",    \"lighting\": \"Premium dramatic studio fashion lighting\",   \"background\": \"Solid deep crimson red seamless studio\",   \"composition\": \"Vertical 9:16, full-body model standing on giant lipstick, centered luxury product advertisement\",   \"camera\": \"Straight-on medium-format fashion photography\",   \"quality\": \"Ultra photorealistic, 4K detail\" }",
+      "image": "https://pbs.twimg.com/media/HYDuj2oaQAA5n-t.jpg?format=jpg&name=orig",
+      "images": [
+        "https://pbs.twimg.com/media/HYDuj2oaQAA5n-t.jpg?format=jpg&name=orig"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HYDuj2oaQAA5n-t.jpg?format=jpg&name=orig"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "3:4",
+      "model": "通用 AI 图像模型",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/Just_Anika_Here/status/2125986689805934877",
+      "url": "https://x.com/Just_Anika_Here/status/2125986689805934877",
+      "domain": "x.com",
+      "date": "2026-11-27",
+      "timestamp": 1795744796868,
+      "collectedAt": "2026-11-27T01:59:56.868Z",
+      "githubSyncedAt": "2026-11-27T01:59:56.868Z",
+      "domesticSyncedAt": "2026-11-27T03:56:00.983Z",
+      "useCase": "广告海报",
+      "creator": "Just_Anika_Here",
+      "signals": [
+        "PROMPT :",
+        "luxury lipstick advertisement"
+      ]
+    },
+    {
+      "id": "x_2125848414269079829",
+      "title": "智能车灯开箱测评",
+      "category": "电商视觉",
+      "commerceType": "UGC / 口碑",
+      "tags": [
+        "电商视觉",
+        "UGC / 口碑",
+        "车灯",
+        "开箱",
+        "UGC",
+        "电商视频",
+        "产品广告",
+        "文生视频",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "Create a high-energy, realistic 15-second User Generated Content (UGC) product advertisement featuring a Jamaican-Canadian man in his mid-to-late 20s unboxing and testing a premium smart bike light and computer set.\n\nThe video should feel like authentic smartphone footage captured at home, not a traditional commercial. Use rapid jump cuts, satisfying ASMR sounds, natural reactions, realistic movements, and cinematic product close-ups.\n\nPRODUCT: CYCLEBEAM X2 SMART BIKE LIGHT.\n\nA premium rechargeable bike light featuring a matte-black aluminum body with brushed neon-yellow accents, a high-intensity LED lens with a wide beam pattern, a built-in ambient light sensor, a single illuminated power button, a small LED battery indicator, a quick-release handlebar mount with a rubber strap, a USB-C charging port, a rear companion tail light, and a soft zippered carrying pouch.\n\nSHOT 1: THE ARRIVAL (0-2s)\n\n[Medium shot, eye-level]\n\nThe man sits on his apartment floor with a small delivery box branded \"CYCLEBEAM X2\" in front of him, his bike leaning against the wall behind him. He tears the sealing tape open in one satisfying motion.\n\nSFX: Loud, crisp tape ripping sound.\n\nSHOT 2: THE REVEAL (2-4s)\n\n[Medium shot, slightly low angle]\n\nHe lifts the lid, pulls the light and tail light from the carrying pouch, and reveals the matte-black body and neon-yellow accents. He looks genuinely impressed.\n\nDialogue: \"Okay, this finally came!\"\n\nSFX: Cardboard movement, pouch zipper opening, soft packaging rustling.\n\nSHOT 3: THE CLOSE LOOK (4-7s)\n\n[Full shot, clean jump cut]\n\nHe holds the CYCLEBEAM X2 up to the camera, runs his thumb along the neon-yellow trim, and clicks it into the quick-release mount. He taps the power button, which glows, and the LED battery indicator lights up.\n\nDialogue: \"Look at this! It's so small but feels so solid.\"\n\nSFX: Mount clicking, soft button click, power-on chime.\n\nSHOT 4: THE BEAM TEST (7-11s)\n\n[Close-up, 45-degree angle]\n\nHe straps the light onto the handlebar, clips the tail light under the saddle, and dims the room. He presses the button to cycle through modes: steady, pulse, and flash. A bright, wide beam cuts across the wall, and the tail light blinks red. He raises his eyebrows, clearly impressed by the brightness.\n\nSFX: Rubber strap tightening, soft button clicks, mode-change beeps.\n\nSHOT 5: THE FINAL EXPERIENCE (11-13s)\n\n[Medium shot, eye-level]\n\nHe wheels the bike outside at dusk and the light automatically brightens as the sky darkens. He gives a thumbs-up and smiles directly at the camera.\n\nDialogue: \"Wait... I'm riding at night now!\"\n\nSHOT 6: HERO PRODUCT SHOT (13-15s)\n\n[Slow cinematic close-up]\n\nThe CYCLEBEAM X2 sits mounted on the handlebar, glowing softly beside its open box, tail light, and carrying pouch. Warm evening light reflects across the matte-black body and neon-yellow accents.\n\nFinal dialogue: \"This is officially my new favourite upgrade.\"\n\nVIDEO STYLE:\n\n- Vertical 9:16 format.\n- Total duration: 15 seconds.\n- Ultra-realistic smartphone footage.\n- Natural human movements and expressions.\n- Fast-paced jump cuts.\n- Crisp product details.\n- Realistic button presses, LED beam glow, and handlebar mounting.\n- Authentic ASMR sound design.\n- Natural lighting.\n- No artificial-looking CGI.\n- Consistent product design across every shot.\n- Accurate hand movements and realistic product interactions.\n\nThe final result should look like a genuine viral product-review video filmed by a real customer.",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2125847985414123520/img/PpTY55VSJLZ2s9aw.jpg",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2125847985414123520/img/PpTY55VSJLZ2s9aw.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/amplify_video_thumb/2125847985414123520/img/PpTY55VSJLZ2s9aw.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "9:16",
+      "model": "Seedance 2.5",
+      "mediaType": "video",
+      "videoPoster": "https://pbs.twimg.com/amplify_video_thumb/2125847985414123520/img/PpTY55VSJLZ2s9aw.jpg",
+      "videoSourceUrl": "https://video.twimg.com/amplify_video/2125847985414123520/vid/avc1/720x1280/YbQi8D2VXnAxEg0E.mp4",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/abs_crea8or/status/2125848414269079829",
+      "url": "https://x.com/abs_crea8or/status/2125848414269079829",
+      "domain": "x.com",
+      "date": "2026-11-27",
+      "timestamp": 1795744796868,
+      "collectedAt": "2026-11-27T01:59:56.868Z",
+      "githubSyncedAt": "2026-11-27T01:59:56.868Z",
+      "domesticSyncedAt": "2026-11-27T03:56:00.983Z",
+      "useCase": "UGC / 口碑",
+      "creator": "abs_crea8or",
+      "signals": [
+        "Prompt:"
+      ],
+      "videoUrl": "https://video.twimg.com/amplify_video/2125847985414123520/vid/avc1/720x1280/YbQi8D2VXnAxEg0E.mp4"
+    },
+    {
+      "id": "x_2126057699800695091",
+      "title": "海盐铁罐产品主图",
+      "category": "电商视觉",
+      "commerceType": "产品主图",
+      "tags": [
+        "电商视觉",
+        "产品主图",
+        "海盐",
+        "包装",
+        "食品",
+        "标签",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "Commercial product photograph. A round steel tin of sea salt flakes stands on a weathered oak table beside a small pile of salt flakes and a sprig of rosemary, soft morning window light from the left, shallow depth of field. A cream paper label wraps around the tin's curved side and reads, in this order: \"MARRAM & SALT\" in large black serif capitals with one thin gold line beneath it; \"Smoked Sea Salt Flakes\" in a smaller black italic serif; and along the bottom edge in small black sans-serif type \"Ingredients: sea salt, oak smoke. Batch 0471. Net wt 150 g\". Photographic, the label sharp and in focus, true-to-life colour.",
+      "image": "https://pbs.twimg.com/media/HYFGNTWbYAAtmi7.jpg?format=jpg&name=orig",
+      "images": [
+        "https://pbs.twimg.com/media/HYFGNTWbYAAtmi7.jpg?format=jpg&name=orig",
+        "https://pbs.twimg.com/media/HYFGNhEboAA9lT0.jpg?format=jpg&name=orig"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HYFGNTWbYAAtmi7.jpg?format=jpg&name=orig",
+        "https://pbs.twimg.com/media/HYFGNhEboAA9lT0.jpg?format=jpg&name=orig"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "3:2",
+      "model": "Seedream 5.5 / Kling Image 4.0",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/HBCoop_/status/2126057699800695091",
+      "url": "https://x.com/HBCoop_/status/2126057699800695091",
+      "domain": "x.com",
+      "date": "2026-11-27",
+      "timestamp": 1795744796868,
+      "collectedAt": "2026-11-27T01:59:56.868Z",
+      "githubSyncedAt": "2026-11-27T01:59:56.868Z",
+      "domesticSyncedAt": "2026-11-27T03:56:00.983Z",
+      "useCase": "产品主图",
+      "creator": "HBCoop_",
+      "signals": [
+        "Prompt:"
+      ]
+    },
+    {
+      "id": "x_2126036799462248829",
+      "title": "圣诞热可可广告",
+      "category": "电商视觉",
+      "commerceType": "电商视频",
+      "tags": [
+        "电商视觉",
+        "电商视频",
+        "热可可",
+        "圣诞节",
+        "食品广告",
+        "微距",
+        "文生视频",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "20-second luxurious cinematic commercial for an unbranded Christmas hot chocolate served in a dark emerald ceramic mug with delicate golden edging. Dark chocolate, cinnamon sticks, oat milk, cocoa powder and fluffy plant-based marshmallows. Deep burgundy background, warm golden highlights and extreme macro photography.\n00:00–00:02: Extreme macro of a dark chocolate square breaking apart, sending tiny chocolate fragments toward the camera.\n00:02–00:04: Slow-motion shot of chocolate pieces falling into warm melted chocolate.\n00:04–00:06: Overhead shot of creamy oat milk swirling into the dark chocolate.\n00:06–00:08: Macro tracking shot following the thick liquid as it pours into the emerald mug.\n00:08–00:10: A cinnamon stick drops gently into the hot chocolate.\n00:10–00:12: Slow-motion shot of marshmallows landing on the surface and displacing tiny waves.\n00:12–00:14: Fine cocoa powder falls like brown snow across the marshmallows.\n00:14–00:16: Extreme macro of delicate steam rising between the marshmallows.\n00:16–00:18: Smooth cinematic orbit around the completed mug.\n00:18–00:20: Symmetrical hero shot surrounded by cinnamon, chocolate, evergreen sprigs and softly glowing Christmas lights.\nMaintain identical mug geometry and ingredients. Photorealistic viscosity, liquid displacement, steam, rich surface textures and precisely controlled studio lighting. Synchronized ASMR: chocolate snapping, liquid pouring, cinnamon dropping and powder sprinkling. No music. No text or branding.",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2126036771851108352/img/JNQfiXpQq2pcTfuZ.jpg",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2126036771851108352/img/JNQfiXpQq2pcTfuZ.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/amplify_video_thumb/2126036771851108352/img/JNQfiXpQq2pcTfuZ.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "16:9",
+      "model": "Higgsfield",
+      "mediaType": "video",
+      "videoPoster": "https://pbs.twimg.com/amplify_video_thumb/2126036771851108352/img/JNQfiXpQq2pcTfuZ.jpg",
+      "videoSourceUrl": "https://video.twimg.com/amplify_video/2126036771851108352/vid/avc1/1920x1080/ASpBLEufjhsHPb3P.mp4?tag=16",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/airina_xyz/status/2126036799462248829",
+      "url": "https://x.com/airina_xyz/status/2126036799462248829",
+      "domain": "x.com",
+      "date": "2026-11-27",
+      "timestamp": 1795744796868,
+      "collectedAt": "2026-11-27T01:59:56.868Z",
+      "githubSyncedAt": "2026-11-27T01:59:56.868Z",
+      "domesticSyncedAt": "2026-11-27T03:56:00.983Z",
+      "useCase": "电商视频",
+      "creator": "airina_xyz",
+      "signals": [
+        "Prompt:"
+      ],
+      "videoUrl": "https://video.twimg.com/amplify_video/2126036771851108352/vid/avc1/1920x1080/ASpBLEufjhsHPb3P.mp4?tag=16"
+    },
+    {
+      "id": "x_2126026230201991486",
+      "title": "玻璃彩饰工艺广告",
+      "category": "电商视觉",
+      "commerceType": "电商视频",
+      "tags": [
+        "电商视觉",
+        "电商视频",
+        "圣诞饰品",
+        "玻璃工艺",
+        "产品广告",
+        "微距",
+        "文生视频",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "20-second visually hypnotic cinematic commercial documenting the creation of a single handcrafted emerald-green glass Christmas ornament decorated with golden botanical patterns. Dark artisan workshop, elegant directional lighting, extreme macro photography, pristine composition and sophisticated match cuts.\n- 00:00–00:02: Extreme macro of a glowing orange glass sphere emerging from a furnace.\n- 00:02–00:04: Profile close-up of a craftsman rotating the molten glass on a metal blowpipe.\n- 00:04–00:06: Match cut to the cooled transparent sphere rotating against a black background.\n- 00:06–00:08: Macro shot of rich emerald-green pigment being applied to its surface.\n- 00:08–00:10: Extreme close-up of a fine brush painting delicate golden leaves.\n- 00:10–00:12: Tiny golden particles fall across the ornament in slow motion.\n- 00:12–00:14: Gloved hands carefully attach a brass hanging cap.\n- 00:14–00:16: Cinematic orbit around the completed ornament, displaying its intricate craftsmanship.\n- 00:16–00:20: The ornament is hung on an evergreen branch. Smooth camera pullback reveals the entire tree illuminated by warm golden lights.\nMaintain the ornament's spherical geometry and botanical design. Photorealistic glass, realistic reflections, shallow depth of field and exquisite tactile details. Precisely synchronized ASMR: furnace, brush strokes, metallic clicks, sprinkling particles and rustling branches. No music.",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2126026201605328896/img/FgE7gHlVOeoYNqsm.jpg",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2126026201605328896/img/FgE7gHlVOeoYNqsm.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/amplify_video_thumb/2126026201605328896/img/FgE7gHlVOeoYNqsm.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "16:9",
+      "model": "Higgsfield",
+      "mediaType": "video",
+      "videoPoster": "https://pbs.twimg.com/amplify_video_thumb/2126026201605328896/img/FgE7gHlVOeoYNqsm.jpg",
+      "videoSourceUrl": "https://video.twimg.com/amplify_video/2126026201605328896/vid/avc1/1920x1080/SjV_cPrNIFzq9P1T.mp4?tag=16",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/airina_xyz/status/2126026230201991486",
+      "url": "https://x.com/airina_xyz/status/2126026230201991486",
+      "domain": "x.com",
+      "date": "2026-11-27",
+      "timestamp": 1795744796868,
+      "collectedAt": "2026-11-27T01:59:56.868Z",
+      "githubSyncedAt": "2026-11-27T01:59:56.868Z",
+      "domesticSyncedAt": "2026-11-27T03:56:00.983Z",
+      "useCase": "电商视频",
+      "creator": "airina_xyz",
+      "signals": [
+        "Prompt:"
+      ],
+      "videoUrl": "https://video.twimg.com/amplify_video/2126026201605328896/vid/avc1/1920x1080/SjV_cPrNIFzq9P1T.mp4?tag=16"
+    },
+    {
+      "id": "x_2126099938383904872",
+      "title": "BMX分格视觉广告",
+      "category": "电商视觉",
+      "commerceType": "电商视频",
+      "tags": [
+        "电商视觉",
+        "电商视频",
+        "BMX",
+        "运动",
+        "实验广告",
+        "文生视频",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "20-SECOND PREMIUM BMX VISUAL EXPERIMENTAL COMMERCIAL — FRAMEBREAK\nCreate a 20-second premium cinematic BMX freestyle commercial featuring a beautiful adult woman performing aggressive, high-level freestyle BMX tricks through an empty 1930s city at night. Combine ultra-realistic live-action, comic-book animation, handcrafted stop-motion, pencil sketch animation, multiple exposure, motion graphics and seamless visual transformations. Every style change is triggered by the rider's movements, tricks, rotations or impacts. The result feels like a premium experimental sports-fashion commercial: artistic, stylish, energetic, sophisticated and visually unforgettable. BMX action remains physically believable and clearly choreographed.\nFEMALE CHARACTER:\nA beautiful adult woman approximately 25 years old, athletic and lean with strong legs, toned arms and a professional BMX rider physique. Realistic facial features, expressive eyes, natural skin texture, dark hair loosely tied with strands moving naturally. She wears a fitted dark leather jacket, slightly worn dark shirt, high-waisted charcoal trousers, leather gloves and rugged vintage boots. Stylish 1930s-inspired street fashion, practical and naturally moving during stunts. Maintain identical face, hairstyle, body, outfit and proportions through every visual transformation. No logos or modern sportswear.\nBMX BIKE:\nAn original professional freestyle BMX with compact steel frame, matte-black finish, small wheels, thick tires, metal handlebars, reinforced pedals, visible chain, spokes and realistic mechanical details. Slightly worn metallic surfaces. Maintain the exact same bicycle design through live-action, comic, sketch and stop-motion styles. Realistic mechanics, balance, tire contact, rotation and landing physics.\nENVIRONMENT:\nAn empty 1930s city at midnight. Art Deco architecture, brick buildings, vintage storefronts, stone staircases, abandoned tram tracks, classic parked cars, vintage streetlights, wet cobblestones, warm amber reflections, light fog and drifting steam. Desaturated cold blue-gray night ambience contrasted with warm tungsten lighting. No pedestrians, modern vehicles, modern buildings or contemporary signage. Maintain consistent spatial layout through all transformations.\nVISUAL STYLE & TRANSFORMATIONS:\nLIVE-ACTION: Ultra-realistic cinematic photography, natural skin texture, authentic bicycle mechanics, wet streets, realistic fabric, cold blue-gray grading and warm vintage streetlights.\nCOMIC BOOK: High-contrast black ink outlines, ivory paper texture, halftone dots, limited dark-red accents, speed lines, dynamic comic panels, graphic impact frames and abstract kinetic shapes. No readable text.\nSTOP-MOTION: Handcrafted miniature 1930s city, tactile miniature buildings, textured brick, tiny streetlights, physical-looking materials, slightly imperfect frame-by-frame movement, mechanical animation and practical miniature lighting. Premium artistic stop-motion, not childish.\nPENCIL SKETCH: Graphite and charcoal drawing, textured paper, rough hand-drawn outlines, visible pencil strokes, motion studies, multiple action poses and anatomical movement sketches. Drawings progressively transform into realistic live-action.\nStyle changes must be motivated by physical movement, jumps, rotations, impacts or transitions. Use match cuts, freeze frames, frame-breaking effects, morphing environments and graphic explosions. Keep character, bicycle, anatomy, stunt trajectory and camera perspective consistent. Avoid random filters.\nCHOREOGRAPHY — EXACTLY 20 SECONDS:\n0:00–0:03 — THE DRAWING COMES ALIVE\nBegin with a monochrome pencil sketch of an empty 1930s street on textured paper. The woman and BMX are hand-drawn graphite outlines. Camera slowly moves across the drawing as pencil strokes animate, revealing rider, bicycle, buildings and streetlights. She begins pedaling. Rotating wheels trigger a transformation: graphite lines become realistic metal, leather, hair, wet cobblestones and illuminated streetlights. The sketch seamlessly transforms into photorealistic live-action. She accelerates toward the camera.\n0:03–0:06 — REALITY INTO COMIC\nLow-angle tracking shot of BMX wheels racing over wet cobblestones. She performs a powerful manual, lifting the front wheel, then launches into a bunny hop over the hood of a vintage automobile. At the jump apex, freeze-frame. The image transforms into a sophisticated comic-book panel with black ink, halftone, ivory paper, dark-red accents and speed lines. Multiple panels briefly show phases of the jump. She breaks through the comic panel border. Panels shatter into ink fragments and transform back into live-action as she lands aggressively on both wheels. Realistic tire compression, bike vibration and water splash.\n0:06–0:09 — STOP-MOTION CITY\nShe accelerates and rides up a low stone wall into a powerful wall ride. The environment transforms into a handcrafted miniature 1930s city with tactile miniature brick buildings, tiny streetlights, cobblestones and vintage cars. Rider and BMX perform frame-by-frame stop-motion movement while maintaining realistic stunt mechanics. She executes a controlled bar spin, catches the handlebars and lands. Miniature dust, paper leaves and tiny debris burst outward. As the wheels roll forward, the miniature city expands and seamlessly transforms into the real environment. She continues riding without stopping.\n0:09–0:12 — PENCIL MOTION STUDY\nSide-tracking camera follows her at speed. She performs a high 360-degree spin jump. The image transforms into graphite pencil animation. Several hand-drawn poses of rider and BMX appear simultaneously, creating an artistic motion-study effect. Pencil trajectory lines, wheel rotation circles, charcoal strokes and anatomical movement sketches surround her. The city becomes a hand-drawn architectural sketch. She completes the rotation, catches the handlebars and lands. Pencil strokes progressively gain realistic texture, color, lighting and motion, returning to photorealistic live-action. Realistic tire compression and water splash.\n0:12–0:15 — MULTIPLE EXPOSURE CHAOS\nShe charges down a narrow street and performs an aggressive sideways drift across tram tracks. Rear tire slides naturally on wet cobblestones. Multiple exposure silhouettes appear behind her, showing different positions of the rider and BMX simultaneously. Silhouettes alternate between realistic photography, black-and-white ink outlines and dark-red graphic shapes. Motion trails follow the bicycle and wheels. Controlled lateral tracking camera. She counter-steers, regains traction and immediately launches into another jump. All graphic layers collapse into a single realistic rider during landing.\n0:15–0:18 — FRAMEBREAK FINAL STUNT\nWide shot reveals a large stone staircase leading into an empty street. She races toward it, lifts the front wheel and launches into an enormous aerial double-rotation trick. During the rotations, the world changes in synchronized segments between photorealistic live-action, comic panels, pencil sketch and miniature stop-motion. Each style change maintains identical rider and bicycle anatomy, proportions, trajectory and position. Graphic panels, pencil strokes, red ink splashes, halftone dots and geometric shapes surround the stunt. She completes the rotations, aligns the BMX and lands violently but successfully at the bottom. Tires compress, her body absorbs the impact and she rides out cleanly. At impact, all styles explode into paper fragments, ink, pencil strokes and abstract graphics, then disappear, leaving a realistic landing.\n0:18–0:20 — ICONIC HERO ENDING\nEverything returns to pure photorealistic live-action. Low-angle tracking shot follows her beneath vintage streetlights through fog. She slows, performs a controlled final skid and stops with the BMX beside her. She looks directly at camera with a confident, rebellious expression. Rider, bicycle and wet street reflections form a premium campaign hero composition. Slow camera push-in, subtle steam behind her, cinematic negative space for optional title placement. Hold briefly, cut to black.\nCAMERA & CINEMATOGRAPHY:\nUse only 3–4 purposeful camera setups throughout. Prioritize low-angle tracking, lateral tracking, front three-quarter tracking and wide shots showing the full rider and BMX during major stunts. Maintain spatial continuity and consistent perspective through style transformations. Camera follows action naturally. Avoid excessive cuts, constant orbiting, random whip pans, unnecessary crash zooms and chaotic handheld movement. Never obscure important tricks. Clearly show takeoff, rotation and landing.\nSlow motion only for selected bunny-hop apex, 360 rotation and final landing. Brief speed ramps emphasize acceleration and impact. Most action remains at natural fast cinematic speed.\nVISUAL QUALITY:\nPremium commercial cinematography, ultra-realistic live-action, realistic anatomy and athletic movement, detailed skin pores, natural hair movement, leather and fabric textures, authentic bicycle mechanics, wet cobblestone reflections, accurate tire contact, gravity and momentum. ARRI Alexa 35 look, 35mm lens, realistic motion blur, cold blue-gray night grading, warm tungsten streetlights, deep but detailed shadows, subtle film grain and luxury sports-fashion advertising aesthetic.\nComic style uses sophisticated editorial graphics, clean ink outlines, halftone and limited colors. Pencil style uses authentic graphite and charcoal with visible strokes and paper grain. Stop-motion uses tactile handcrafted miniature environments and intentional frame-by-frame movement. No cheap filters, childish animation or generic CGI.\nSOUND DESIGN:\nNO BACKGROUND MUSIC. NO BGM.\nOnly synchronized environmental audio and cinematic Foley:\n0:00–0:03: Pencil scratching, paper movement, graphite strokes, bicycle chain, pedal movement, transition into tire rolling and nighttime ambience.\n0:03–0:06: Chain, freewheel clicks, wet tire rumble, jump whoosh, comic transition impact, paper snapping, ink splatter and powerful landing.\n0:06–0:09: Wall-ride friction, miniature mechanical ticks during stop-motion, bicycle movement, frame-by-frame Foley, miniature debris, landing impact and return to realistic bicycle sounds.\n0:09–0:12: Wind rush during spin, layered bicycle movement, pencil scratching, graphite strokes, paper texture sounds, realistic landing and water splash.\n0:12–0:15: Wet tire skid, chain vibration, layered whooshes, graphic transition sounds, acceleration.\n0:15–0:18: Powerful aerial wind rush, paper fragments, ink splashes, pencil strokes, graphic impact, strongest low-frequency landing impact, frame vibration and tire compression.\n0:18–0:20: Bicycle slowing, freewheel clicks, tire skid, leather movement, nighttime ambience, distant wind, steam and final mechanical sound before black.\nEvery sound precisely synchronizes with visible action and style transitions. No music, soundtrack or dialogue.\nSTRICT RULES:\nMaintain identical rider, face, hairstyle, outfit, anatomy and BMX throughout. Every stunt must be physically connected, mechanically believable and readable. Show takeoff, rotation and landing. Correct hand and foot contact with bicycle. No floating, impossible physics, teleportation, random position changes, morphing anatomy, duplicated limbs or changing bicycle design.\nStyle transitions must be triggered by rider actions, jumps, rotations or impacts. No random style changes. Maintain camera perspective, stunt trajectory and environmental continuity. All styles preserve character and bicycle identity. Graphic effects must never obscure important stunts. No chaotic camera movement, modern objects, pedestrians, logos or generated readable text. No childish animation, cheap filters, cartoon, anime or video-game CGI appearance. No background music.\nThe final result must feel like a premium experimental sports-fashion commercial: breathtaking BMX freestyle, sophisticated visual storytelling, seamless reality-to-art transformations, stunning frame-breaking effects, elegant graphic design, energetic but controlled action, premium cinematography and an unforgettable final hero shot.",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2126043335299379200/img/oQMKym9sk4GlWVjK.jpg",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2126043335299379200/img/oQMKym9sk4GlWVjK.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/amplify_video_thumb/2126043335299379200/img/oQMKym9sk4GlWVjK.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "16:9",
+      "model": "Higgsfield",
+      "mediaType": "video",
+      "videoPoster": "https://pbs.twimg.com/amplify_video_thumb/2126043335299379200/img/oQMKym9sk4GlWVjK.jpg",
+      "videoSourceUrl": "https://video.twimg.com/amplify_video/2126043335299379200/vid/avc1/1920x1080/w3j6wIZq3c0GjEdS.mp4",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/prjcthrzn_/status/2126099938383904872",
+      "url": "https://x.com/prjcthrzn_/status/2126099938383904872",
+      "domain": "x.com",
+      "date": "2026-11-27",
+      "timestamp": 1795744796868,
+      "collectedAt": "2026-11-27T01:59:56.868Z",
+      "githubSyncedAt": "2026-11-27T01:59:56.868Z",
+      "domesticSyncedAt": "2026-11-27T03:56:00.983Z",
+      "useCase": "电商视频",
+      "creator": "prjcthrzn_",
+      "signals": [
+        "Prompt:"
+      ],
+      "videoUrl": "https://video.twimg.com/amplify_video/2126043335299379200/vid/avc1/1920x1080/w3j6wIZq3c0GjEdS.mp4"
+    },
+    {
+      "id": "x_2125636346048053529",
+      "title": "芬达冬季冰雪海报",
+      "category": "电商视觉",
+      "commerceType": "广告海报",
+      "tags": [
+        "电商视觉",
+        "广告海报",
+        "饮料",
+        "冬季",
+        "产品摄影",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "LUXURY WINTER BEVERAGE ADVERTISEMENT | CINEMATIC 3D PRODUCT CAMPAIGN\n\nCreate a breathtaking, ultra-premium commercial advertising poster inspired by world-class beverage campaigns. The design should combine photorealistic product photography, cinematic winter fantasy, dramatic liquid splashes, sparkling ice, and sophisticated luxury advertising aesthetics.\n\n1. HERO PRODUCT & COMPOSITION\n\nPlace a large, iconic [PRODUCT / BRAND NAME] bottle or product at the absolute center of the composition.\n\n- Make the product the dominant visual element.\n- Preserve authentic packaging, branding, typography, colors, proportions, and label details.\n- Cover the surface with realistic condensation droplets, frost, and tiny water beads.\n- Create dramatic reflections and realistic highlights.\n- Make the product appear exceptionally refreshing, cold, and irresistibly appealing.\n\n2. MAGICAL WINTER ENVIRONMENT\n\nBuild an extraordinary frozen fantasy landscape surrounding the product.\n\n- Snow-covered mountains in the background.\n- Majestic ice castles with intricate frozen architecture.\n- Massive transparent icicles hanging from the upper edges.\n- Crystal-clear ice cubes scattered across the foreground.\n- Fresh powdery snow covering the landscape.\n- Floating snow particles and sparkling frost.\n- A dramatic red and icy-blue color palette with beautiful atmospheric lighting.\n\n3. DYNAMIC LIQUID EFFECTS\n\nSurround the product with spectacular, photorealistic liquid splashes.\n\n- Dynamic beverage splashes erupting around the bottle.\n- Individual droplets frozen in midair.\n- Realistic liquid transparency, reflections, and refraction.\n- Ice cubes interacting naturally with the splashing liquid.\n- High-speed commercial photography aesthetic.\n\n4. ADVERTISING TYPOGRAPHY & LAYOUT\n\nDesign the poster like a premium international brand campaign.\n\nTop section:\n\n- Large, elegant brand logo.\n- A sophisticated advertising headline beneath it.\n- Beautiful serif and custom script typography.\n\nLeft section: Include four visually distinct promotional information panels with circular icons, metallic borders, glossy red backgrounds, and white typography.\n\nEach panel should contain:\n\n- A short uppercase feature heading.\n- One concise supporting sentence.\n- A relevant minimalist icon.\n\nBottom section: Add a dramatic curved, glossy red ribbon banner with a bold advertising slogan in elegant white typography.\n\n5. LIGHTING & VISUAL QUALITY\n\n- Professional commercial studio lighting.\n- Cinematic volumetric illumination.\n- Brilliant highlights and deep contrast.\n- Photorealistic materials and physically accurate reflections.\n- Intricate environmental details.\n- Premium 3D rendering combined with real product photography.\n- Exceptional sharpness and sophisticated color grading.\n\n6. FINAL DESIGN DIRECTION\n\nThe finished artwork must look like an actual global advertising campaign created by an elite creative agency, not a generic AI-generated poster.\n\nStyle: Hyper-realistic commercial photography, luxury product advertising, cinematic winter fantasy, premium 3D CGI, high-speed liquid photography, elaborate environmental storytelling.\n\nAspect ratio: 4:5 vertical poster.\n\nQuality: Ultra-detailed, 8K visual quality, crisp typography, professional advertising art direction.\n\nImportant: Maintain a clear visual hierarchy. The product must remain the hero, all text must be correctly spelled and readable, and every visual element must contribute to the overall advertising concept. Generate for fanta",
+      "image": "https://pbs.twimg.com/media/HX_G-CfbIAAkeu3.jpg?format=jpg&name=large",
+      "images": [
+        "https://pbs.twimg.com/media/HX_G-CfbIAAkeu3.jpg?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HX_G-5pbIAAHFbB.jpg?format=jpg&name=large"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HX_G-CfbIAAkeu3.jpg?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HX_G-5pbIAAHFbB.jpg?format=jpg&name=large"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "561:701",
+      "model": "GPT Image 2.6",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/Goodmanprotocol/status/2125636346048053529",
+      "url": "https://x.com/Goodmanprotocol/status/2125636346048053529",
+      "domain": "x.com",
+      "date": "2026-11-26",
+      "timestamp": 1795659064194,
+      "collectedAt": "2026-11-26T02:11:04.194Z",
+      "githubSyncedAt": "2026-11-26T02:11:04.194Z",
+      "domesticSyncedAt": "2026-11-27T03:56:00.983Z",
+      "useCase": "广告海报",
+      "creator": "Goodmanprotocol",
+      "signals": [
+        "Prompt:"
+      ]
+    },
+    {
+      "id": "x_2125473281163891080",
+      "title": "ROBOT耳机ASMR广告",
+      "category": "电商视觉",
+      "commerceType": "电商视频",
+      "tags": [
+        "电商视觉",
+        "电商视频",
+        "耳机",
+        "ASMR",
+        "产品展示",
+        "文生视频",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "A crisp 10-second vertical 9:16 ASMR commercial video featuring pastel sage-green wireless earbuds in a matching charging case labeled \"ROBOT\" against a clean light-gray and white studio backdrop with soft shadows and subtle motion accents, cutting smoothly through eight rapid beats: first showing the open case and earbuds on a small white round pedestal with a gentle zoom-in, then a hand closing the case lid with a crisp ASMR click, next a hand lifting an earbud out of the open case, followed by a close-up of fingers gently touching the earbud stem with the second earbud softly blurred behind, cutting to a smartphone screen showing Bluetooth toggled on and \"ROBOT TWS\" connected with a green checkmark and pairing chime, then a close-up of a person's ear wearing the earbud with clean feature callouts (\"Bluetooth 5.3\", \"Suara Jernih Bass Mantap\", \"Ringan & Nyaman\", \"Tahan Lama\"), next a white USB cable plugging into the bottom of the case beside a softly blurred green potted plant with an ASMR plug-in sound, and ending on the open case and earbuds on the white pedestal with bold \"ROBOT TWS\" title text and \"Earbuds Nirkabel Praktis & Stylish\" subtitle.",
+      "image": "https://pbs.twimg.com/media/HX8yrP8aYAA7RN1.jpg?format=jpg&name=large",
+      "images": [
+        "https://pbs.twimg.com/media/HX8yrP8aYAA7RN1.jpg?format=jpg&name=large"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HX8yrP8aYAA7RN1.jpg?format=jpg&name=large"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "9:16",
+      "model": "Seedance 2.5",
+      "mediaType": "video",
+      "videoPoster": "https://pbs.twimg.com/amplify_video_thumb/2125473240269348864/img/I3f3_WjwkBSIJVaJ.jpg",
+      "videoSourceUrl": "https://video.twimg.com/amplify_video/2125473240269348864/vid/avc1/720x1280/4mJYcrBUfIufwjmi.mp4",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/AvelyrahnAI/status/2125473281163891080",
+      "url": "https://x.com/AvelyrahnAI/status/2125473281163891080",
+      "domain": "x.com",
+      "date": "2026-11-26",
+      "timestamp": 1795659064194,
+      "collectedAt": "2026-11-26T02:11:04.194Z",
+      "githubSyncedAt": "2026-11-26T02:11:04.194Z",
+      "domesticSyncedAt": "2026-11-27T03:56:00.983Z",
+      "useCase": "电商视频",
+      "creator": "AvelyrahnAI",
+      "signals": [
+        "Prompt:"
+      ],
+      "videoUrl": "https://video.twimg.com/amplify_video/2125473240269348864/vid/avc1/720x1280/4mJYcrBUfIufwjmi.mp4"
+    },
+    {
+      "id": "x_2124769211360666017",
+      "title": "智能跳绳开箱测评",
+      "category": "电商视觉",
+      "commerceType": "UGC / 口碑",
+      "tags": [
+        "电商视觉",
+        "电商视频",
+        "开箱",
+        "UGC",
+        "运动器材",
+        "文生视频",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "Create a high-energy, realistic 15-second User Generated Content (UGC) product advertisement featuring a man in his mid-to-late 20s unboxing and testing a premium smart fitness jump rope.\n\nThe video should feel like authentic smartphone footage captured at home, not a traditional commercial. Use rapid jump cuts, satisfying ASMR sounds, natural reactions, realistic movements, and cinematic product close-ups.\n\nPRODUCT: JUMPFIT SMART ROPE X.\n\nA premium cordless-and-corded smart jump rope featuring matte-black aluminum handles with brushed electric-blue accents, a braided steel-core cable with a soft protective coating, a small LED display in each handle showing jump count and calories, ball-bearing swivel joints, non-slip foam grips, a USB-C charging port, a spare cable set, and a soft zippered carrying pouch.\n\nSHOT 1: THE ARRIVAL (0-2s)\n\n[Medium shot, eye-level]\n\nThe man sits on his living room floor with a small delivery box branded \"JUMPFIT SMART ROPE X\" in front of him. He tears the sealing tape open in one satisfying motion.\n\nSFX: Loud, crisp tape ripping sound.\n\nSHOT 2: THE REVEAL (2-4s)\n\n[Medium shot, slightly low angle]\n\nHe lifts the lid, pulls the jump rope from its carrying pouch, and reveals the matte-black handles and electric-blue accents. He looks genuinely impressed.\n\nDialogue: \"Okay, this finally came!\"\n\nSFX: Cardboard movement, pouch zipper opening, soft packaging rustling.\n\nSHOT 3: THE CLOSE LOOK (4-7s)\n\n[Full shot, clean jump cut]\n\nHe holds the JUMPFIT SMART ROPE X up to the camera, runs his thumb along the blue trim, and squeezes the foam grip. He spins the cable once to show the smooth swivel, then taps the handle and the LED display glows.\n\nDialogue: \"Look at this! It feels so solid and smooth.\"\n\nSFX: Cable whirring, foam grip squeezing, soft button click, power-on chime.\n\nSHOT 4: THE WORKOUT TEST (7-11s)\n\n[Close-up, 45-degree angle]\n\nHe steps onto a rubber mat and starts jumping. The rope spins in a clean, even arc as the LED display counts up the jumps and calories in real time. His phone shows the workout syncing to an app. He raises his eyebrows, clearly impressed by how smooth it feels.\n\nSFX: Rhythmic rope whooshing, light footsteps landing, soft counter beeps, Bluetooth connection tone.\n\nSHOT 5: THE FINAL EXPERIENCE (11-13s)\n\n[Medium shot, eye-level]\n\nHe stops, catches his breath, wipes his forehead with a towel, glances at the display showing his total count, and smiles directly at the camera.\n\nDialogue: \"Wait... I think I just found my new workout!\"\n\nSHOT 6: HERO PRODUCT SHOT (13-15s)\n\n[Slow cinematic close-up]\n\nThe JUMPFIT SMART ROPE X lies coiled on a rubber mat beside its open box, carrying pouch, a water bottle, and a towel. Soft natural window light reflects across the matte-black handles and electric-blue accents.\n\nFinal dialogue: \"This is officially my new favourite upgrade.\"\n\nVIDEO STYLE:\n\n- Vertical 9:16 format.\n- Total duration: 15 seconds.\n- Ultra-realistic smartphone footage.\n- Natural human movements and expressions.\n- Fast-paced jump cuts.\n- Crisp product details.\n- Realistic rope spinning, LED glow, and jumping motion.\n- Authentic ASMR sound design.\n- Natural indoor lighting.\n- No artificial-looking CGI.\n- Consistent product design across every shot.\n- Accurate hand movements and realistic product interactions.\n\nThe final result should look like a genuine viral product-review video filmed by a real customer.",
+      "image": "https://pbs.twimg.com/media/HXyyVLvXUAAoqir.jpg?format=jpg&name=large",
+      "images": [
+        "https://pbs.twimg.com/media/HXyyVLvXUAAoqir.jpg?format=jpg&name=large"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HXyyVLvXUAAoqir.jpg?format=jpg&name=large"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "9:16",
+      "model": "Google Omni 1.2",
+      "mediaType": "video",
+      "videoPoster": "https://pbs.twimg.com/media/HXyyVLvXUAAoqir.jpg?format=jpg&name=large",
+      "videoSourceUrl": "https://video.twimg.com/amplify_video/2124769162606030849/vid/avc1/360x640/ccLkE6wlCEz4_uDC.mp4",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/abs_crea8or/status/2124769211360666017",
+      "url": "https://x.com/abs_crea8or/status/2124769211360666017",
+      "domain": "x.com",
+      "date": "2026-11-26",
+      "timestamp": 1795659064194,
+      "collectedAt": "2026-11-26T02:11:04.194Z",
+      "githubSyncedAt": "2026-11-26T02:11:04.194Z",
+      "domesticSyncedAt": "2026-11-27T03:56:00.983Z",
+      "useCase": "UGC / 口碑",
+      "creator": "abs_crea8or",
+      "signals": [
+        "Prompt:"
+      ],
+      "videoUrl": "https://video.twimg.com/amplify_video/2124769162606030849/vid/avc1/360x640/ccLkE6wlCEz4_uDC.mp4"
+    },
+    {
+      "id": "x_2125273931812925647",
+      "title": "金色精华护肤广告",
+      "category": "电商视觉",
+      "commerceType": "电商视频",
+      "tags": [
+        "电商视觉",
+        "电商视频",
+        "精华液",
+        "护肤",
+        "美妆",
+        "文生视频",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "Create a luxurious cinematic skincare commercial featuring a premium golden facial serum bottle. Begin with an elegant macro product reveal surrounded by delicate white flowers and floating golden particles. Transition into close-up shots of the golden dropper releasing a glowing serum droplet. Show a beautiful woman applying the serum to her face in a sophisticated luxury bathroom. Capture natural skin texture, soft expressions, and elegant movements. Finish with a dramatic hero shot of the serum bottle against a deep black and warm golden background. Ultra-realistic, premium beauty advertising, cinematic lighting, smooth camera movements, macro details, 4K, vertical 9:16. Maintain exact product packaging and label consistency throughout.",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2125273874174779393/img/A7rCqQV_-Q0BlTqz.jpg",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2125273874174779393/img/A7rCqQV_-Q0BlTqz.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/amplify_video_thumb/2125273874174779393/img/A7rCqQV_-Q0BlTqz.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "16:9",
+      "model": "MiniMax H3",
+      "mediaType": "video",
+      "videoPoster": "https://pbs.twimg.com/amplify_video_thumb/2125273874174779393/img/A7rCqQV_-Q0BlTqz.jpg",
+      "videoSourceUrl": "https://video.twimg.com/amplify_video/2125273874174779393/vid/avc1/1280x720/mTus4_UFmNp2xnAg.mp4",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/AIwithRubii/status/2125273931812925647",
+      "url": "https://x.com/AIwithRubii/status/2125273931812925647",
+      "domain": "x.com",
+      "date": "2026-11-25",
+      "timestamp": 1795572185061,
+      "collectedAt": "2026-11-25T02:03:05.061Z",
+      "githubSyncedAt": "2026-11-25T02:03:05.061Z",
+      "domesticSyncedAt": "2026-11-27T03:56:00.983Z",
+      "useCase": "电商视频",
+      "creator": "AIwithRubii",
+      "signals": [
+        "Prompt:"
+      ],
+      "videoUrl": "https://video.twimg.com/amplify_video/2125273874174779393/vid/avc1/1280x720/mTus4_UFmNp2xnAg.mp4"
+    },
+    {
+      "id": "x_2125120420525564092",
+      "title": "米色香水奢华广告",
+      "category": "电商视觉",
+      "commerceType": "电商视频",
+      "tags": [
+        "电商视觉",
+        "电商视频",
+        "香水",
+        "美妆",
+        "文生视频",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "Create an ultra-realistic luxury perfume commercial featuring an elegant young woman with sleek dark brown hair tied in a high ponytail, wearing a sophisticated white sleeveless high-neck outfit. She gracefully holds a luxurious transparent glass perfume bottle with golden details and a cream-colored cap.\n\nScene transitions include close-up shots of her face, delicate hands holding the perfume, a gentle perfume spray, elegant product shots on a beige stone pedestal, and the bottle resting in her palm.\n\nBackground: Minimalist warm beige studio with soft natural sunlight, subtle shadows, and a premium editorial atmosphere.\n\nCamera: Cinematic macro shots, slow-motion movements, smooth transitions, shallow depth of field, professional luxury beauty advertising, photorealistic 4K quality. Maintain consistent product design and model appearance throughout.",
+      "image": "https://pbs.twimg.com/media/HX3xvH4a0AAX7Cf.jpg?format=jpg&name=large",
+      "images": [
+        "https://pbs.twimg.com/media/HX3xvH4a0AAX7Cf.jpg?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HX3xvxdawAACZf1.jpg?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HX3xwSebMAAl7ED.jpg?format=jpg&name=large"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HX3xvH4a0AAX7Cf.jpg?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HX3xvxdawAACZf1.jpg?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HX3xwSebMAAl7ED.jpg?format=jpg&name=large"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "9:16",
+      "model": "Seedance 2.0",
+      "mediaType": "video",
+      "videoPoster": "https://pbs.twimg.com/amplify_video_thumb/2125120358307319808/img/ajWR9MW9rgLYgN08.jpg",
+      "videoSourceUrl": "https://video.twimg.com/amplify_video/2125120358307319808/vid/avc1/720x1280/zQPEjAYsgTzVI6Nr.mp4",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/AIwithRubii/status/2125120420525564092",
+      "url": "https://x.com/AIwithRubii/status/2125120420525564092",
+      "domain": "x.com",
+      "date": "2026-11-25",
+      "timestamp": 1795572185061,
+      "collectedAt": "2026-11-25T02:03:05.061Z",
+      "githubSyncedAt": "2026-11-25T02:03:05.061Z",
+      "domesticSyncedAt": "2026-11-27T03:56:00.983Z",
+      "useCase": "电商视频",
+      "creator": "AIwithRubii",
+      "signals": [
+        "Prompt:"
+      ],
+      "videoUrl": "https://video.twimg.com/amplify_video/2125120358307319808/vid/avc1/720x1280/zQPEjAYsgTzVI6Nr.mp4"
+    },
+    {
+      "id": "x_2124886093506240600",
+      "title": "能量饮料电影海报",
+      "category": "电商视觉",
+      "commerceType": "广告海报",
+      "tags": [
+        "电商视觉",
+        "广告海报",
+        "能量饮料",
+        "电影海报",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "Create a hyper-realistic Hollywood blockbuster movie poster featuring a premium energy drink can named “VOLT X” standing at the center of a destroyed futuristic city. The can glows with electric blue energy, surrounded by lightning bolts, flying debris, burning skyscrapers and a massive storm in the sky. A mysterious cinematic hero-like atmosphere, dramatic low-angle camera, volumetric lighting, intense reflections, smoke, sparks and epic scale.\n\nTITLE: THE LAST DROP\n\nTAGLINE: “WHEN THE WORLD RUNS OUT OF POWER… ONE DROP REMAINS.”\n\nMake the energy drink can the undisputed hero of the poster. Premium commercial photography, Hollywood sci-fi movie poster composition, photorealistic CGI, ultra-detailed, dramatic color grading, IMAX blockbuster aesthetic, 4K, vertical 9:16.\n\nInclude elegant cinematic typography, perfectly readable text, no extra logos, no watermark.",
+      "image": "https://pbs.twimg.com/media/HX0cobVboAIa6Mx.jpg?format=jpg&name=large",
+      "images": [
+        "https://pbs.twimg.com/media/HX0cobVboAIa6Mx.jpg?format=jpg&name=large"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HX0cobVboAIa6Mx.jpg?format=jpg&name=large"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "9:16",
+      "model": "GPT Image 2.5",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/iamsoulAI/status/2124886093506240600",
+      "url": "https://x.com/iamsoulAI/status/2124886093506240600",
+      "domain": "x.com",
+      "date": "2026-11-25",
+      "timestamp": 1795572185061,
+      "collectedAt": "2026-11-25T02:03:05.061Z",
+      "githubSyncedAt": "2026-11-25T02:03:05.061Z",
+      "domesticSyncedAt": "2026-11-27T03:56:00.983Z",
+      "useCase": "广告海报",
+      "creator": "iamsoulAI",
+      "signals": [
+        "Prompt:"
+      ]
+    },
+    {
+      "id": "x_2124887370252394621",
+      "title": "黑红跑鞋动作广告",
+      "category": "电商视觉",
+      "commerceType": "电商视频",
+      "tags": [
+        "电商视觉",
+        "电商视频",
+        "跑鞋",
+        "动作广告",
+        "文生视频",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "Create a 15-second ultra-cinematic Hollywood action blockbuster sneaker commercial based on the reference poster. Preserve the exact black-and-red sneaker design. Vertical 9:16, photorealistic CGI, IMAX-style cinematography, dramatic lighting, high-end commercial quality.\n\nSHOT 1 (0–3s) — THE CHASE\nA black muscle car races through a city street at night, police lights flashing, sparks flying and smoke filling the road. Low-angle tracking shot, aggressive cinematic camera movement, engine roaring.\n\nSHOT 2 (3–6s) — THE HERO\nA mysterious man in black sunglasses steps out through the smoke. Camera slowly tilts down from his face to his sneaker. The sneaker lands firmly on the asphalt as shockwave-like sparks burst around it.\n\nSHOT 3 (6–10s) — THE POWER\nExtreme close-up of the black-and-red sneaker. Slow-motion rotation, detailed fabric texture, glowing red accents, powerful grip hitting the ground. The hero sprints, jumps over exploding debris and lands in slow motion. Dynamic tracking camera, realistic movement.\n\nSHOT 4 (10–13s) — THE BLOCKBUSTER\nThe sneaker flies through the air in a cinematic product shot as cars drift, a helicopter sweeps across the skyline and explosions illuminate the background. Dramatic speed ramps, motion blur, flying sparks.\n\nSHOT 5 (13–15s) — THE POSTER REVEAL\nThe sneaker lands on a cracked road in the foreground. Smoke clears, golden light shines behind it. Camera pushes in toward the product as the title appears:\n\nFAST & FURIOUSLY FRESH\n\nTagline: “SPEED UP YOUR STYLE… STEP INTO THE VICTORY!”\n\nFinal text: STEP • RUN • REPEAT\n\nAudio: Powerful cinematic trailer music, engine revs, tire screeches, explosions, whooshes and deep impact sound effects.\n\nNo dialogue. No watermark. Maintain sneaker consistency throughout. Hollywood blockbuster advertising quality, ultra-realistic, 4K.",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2124887304489889793/img/msdgtPX2vVUE64s9.jpg",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2124887304489889793/img/msdgtPX2vVUE64s9.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/amplify_video_thumb/2124887304489889793/img/msdgtPX2vVUE64s9.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "16:9",
+      "model": "通用 AI 视频模型",
+      "mediaType": "video",
+      "videoPoster": "https://pbs.twimg.com/amplify_video_thumb/2124887304489889793/img/msdgtPX2vVUE64s9.jpg",
+      "videoSourceUrl": "https://video.twimg.com/amplify_video/2124887304489889793/vid/avc1/1280x720/M6vxsxx10dNGRteg.mp4",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/iamsoulAI/status/2124887370252394621",
+      "url": "https://x.com/iamsoulAI/status/2124887370252394621",
+      "domain": "x.com",
+      "date": "2026-11-24",
+      "timestamp": 1795485505541,
+      "collectedAt": "2026-11-24T01:58:25.541Z",
+      "githubSyncedAt": "2026-11-24T01:58:25.541Z",
+      "domesticSyncedAt": "2026-11-27T03:56:00.983Z",
+      "useCase": "电商视频",
+      "creator": "iamsoulAI",
+      "signals": [
+        "VIDEO PROMPT"
+      ],
+      "videoUrl": "https://video.twimg.com/amplify_video/2124887304489889793/vid/avc1/1280x720/M6vxsxx10dNGRteg.mp4"
+    },
+    {
+      "id": "x_2124737214777282802",
+      "title": "酒红面膜鲜花广告",
+      "category": "电商视觉",
+      "commerceType": "电商视频",
+      "tags": [
+        "电商视觉",
+        "电商视频",
+        "面膜",
+        "鲜花",
+        "美妆",
+        "文生视频",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "Create a luxurious cinematic skincare product advertisement featuring a deep burgundy Paula’s Choice Hydrating Treatment Mask tube standing upright in the center. Surround the product with rich crimson and burgundy flower petals. Begin with a dramatic explosion of fine red powder and floating petals swirling around the product. Gradually transform the powder into an elegant arrangement of blooming red and dark pink flowers. Add realistic floral movements, delicate falling petals, and subtle camera zoom-in. Rich red monochromatic color palette, dramatic studio lighting, premium beauty commercial aesthetic, ultra-realistic textures, sophisticated composition, 4K cinematic quality. Keep the product packaging, logo, and text sharp, readable, and unchanged.",
+      "image": "https://pbs.twimg.com/media/HXyVNH2bgAAOd_8.jpg?format=jpg&name=large",
+      "images": [
+        "https://pbs.twimg.com/media/HXyVNH2bgAAOd_8.jpg?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HXyVN7MbwAAryT_.jpg?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HXyVOr2bQAAxqXS.jpg?format=jpg&name=large"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HXyVNH2bgAAOd_8.jpg?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HXyVN7MbwAAryT_.jpg?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HXyVOr2bQAAxqXS.jpg?format=jpg&name=large"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "5:9",
+      "model": "Seedance 2.0",
+      "mediaType": "video",
+      "videoPoster": "https://pbs.twimg.com/amplify_video_thumb/2124737150826708992/img/YUEI6RiTPtgcCXXt.jpg",
+      "videoSourceUrl": "https://video.twimg.com/amplify_video/2124737150826708992/vid/avc1/480x864/Bzlg_SJfipHAeAg5.mp4",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/AIwithRubii/status/2124737214777282802",
+      "url": "https://x.com/AIwithRubii/status/2124737214777282802",
+      "domain": "x.com",
+      "date": "2026-11-24",
+      "timestamp": 1795485505541,
+      "collectedAt": "2026-11-24T01:58:25.541Z",
+      "githubSyncedAt": "2026-11-24T01:58:25.541Z",
+      "domesticSyncedAt": "2026-11-27T03:56:00.983Z",
+      "useCase": "电商视频",
+      "creator": "AIwithRubii",
+      "signals": [
+        "Prompt:"
+      ],
+      "videoUrl": "https://video.twimg.com/amplify_video/2124737150826708992/vid/avc1/480x864/Bzlg_SJfipHAeAg5.mp4"
+    },
+    {
+      "id": "x_2122829215909466534",
+      "title": "购物袋产品广告成片",
+      "category": "电商视觉",
+      "commerceType": "电商视频",
+      "tags": [
+        "电商视觉",
+        "电商视频",
+        "购物袋",
+        "产品广告",
+        "文生视频",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "VIDEO TITLE: YOUR PRODUCT DESERVES MORE THAN A STATIC IMAGE\n\nDuration: 10 seconds\nFormat: Vertical 9:16\nVisual style: Ultra-realistic premium commercial, cinematic product advertising, natural human movement, professional lighting.\nREFERENCE IMAGES:\nUse the uploaded male portrait as the exact character identity reference. Preserve his facial features, hairstyle, skin tone, body proportions and natural appearance. Dress him in the same black T-shirt.\n\nUse the uploaded white shopping bag mockup as the exact product reference. Preserve its white rectangular structure, dimensions, twisted white rope handles and clean minimalist appearance.\nMASTER VIDEO PROMPT:\nCreate a highly realistic, premium commercial video in which the male character demonstrates how professional product videos can turn ordinary static product photographs into engaging advertisements.\n\n0–3 SECONDS — THE PROBLEM / HOOK\n\nThe male character stands in a clean, modern commercial studio, holding a smartphone displaying a still photograph of the white shopping bag. He looks directly into the camera with a confident, slightly concerned expression.\n\nCamera: Cinematic medium close-up with a subtle forward dolly.\n\nDialogue: \"Still selling your products with just pictures?\"\n\nSound: Subtle digital notification sound followed by an attention-grabbing cinematic beat.\n\n3–7 SECONDS — THE SOLUTION / PRODUCT DEMONSTRATION\n\nSeamless match-cut transition from the smartphone image into a beautifully lit, three-dimensional product demonstration.\n\nThe same white shopping bag appears suspended briefly against a premium neutral background before gently settling onto a display surface. The camera performs a smooth 180-degree product orbit, revealing the bag's depth, clean paper finish, structured base and rope handles.\n\nCut to a realistic close-up of a hand lifting the bag by its handles, followed by a wider shot showing its elegant appearance in a real retail setting.\n\nCamera: Smooth macro detail shots, controlled tracking movement and cinematic depth of field.\n\nVoiceover: \"Turn static photos into videos that show every detail and make customers want to buy.\"\n\nSound: Smooth transition whoosh, subtle paper rustle and elegant cinematic sound design.\n\n7–10 SECONDS — THE RESULT / CALL TO ACTION\n\nCut back to the male character holding the shopping bag confidently beside him. He smiles naturally and looks directly into the camera.\n\nCamera: Medium shot with a gentle cinematic push-in. Premium studio lighting highlights both the presenter and product.\n\nDialogue: \"Give your product the attention it deserves. Let's create your next ad!\"\n\nEnd with a clean, professional product hero shot.\n\nPRODUCTION REQUIREMENTS:\n\nPreserve the male character's identity throughout.\n\nMaintain exact product appearance and proportions.\nNatural facial expressions, realistic hand movements and accurate lip synchronization.\nOnly the presenter speaks; no competing voices.\nProfessional Nigerian English accent, clear and conversational.\nPremium commercial color grading, realistic shadows and reflections.\nSeamless transitions, no sudden camera jumps.\nNo distorted fingers, duplicated handles, floating objects or product deformation.\nNo invented logos, brand names or misleading product claims.\nNo subtitles or random AI-generated text.\nEvery shot must look like a real commercial produced for a professional brand.",
+      "image": "https://pbs.twimg.com/media/HXXNu04XcAAxkVD.jpg?format=jpg&name=large",
+      "images": [
+        "https://pbs.twimg.com/media/HXXNu04XcAAxkVD.jpg?format=jpg&name=large"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HXXNu04XcAAxkVD.jpg?format=jpg&name=large"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "9:16",
+      "model": "通用 AI 视频模型",
+      "mediaType": "video",
+      "videoPoster": "https://pbs.twimg.com/amplify_video_thumb/2122829003706814464/img/Iwk4zjyx_nLqkqsx.jpg",
+      "videoSourceUrl": "https://video.twimg.com/amplify_video/2122829003706814464/vid/avc1/720x1280/0h4ZIsVDE83hxXsL.mp4",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/chimezieugwu/status/2122829215909466534",
+      "url": "https://x.com/chimezieugwu/status/2122829215909466534",
+      "domain": "x.com",
+      "date": "2026-11-24",
+      "timestamp": 1795485505541,
+      "collectedAt": "2026-11-24T01:58:25.541Z",
+      "githubSyncedAt": "2026-11-24T01:58:25.541Z",
+      "domesticSyncedAt": "2026-11-27T03:56:00.983Z",
+      "useCase": "电商视频",
+      "creator": "chimezieugwu",
+      "signals": [
+        "MASTER VIDEO PROMPT"
+      ],
+      "videoUrl": "https://video.twimg.com/amplify_video/2122829003706814464/vid/avc1/720x1280/0h4ZIsVDE83hxXsL.mp4"
+    },
+    {
+      "id": "x_2124417116870684882",
+      "title": "迷你照片打印机开箱",
+      "category": "电商视觉",
+      "commerceType": "UGC / 口碑",
+      "tags": [
+        "电商视觉",
+        "电商视频",
+        "UGC",
+        "开箱",
+        "产品广告",
+        "文生视频",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "Create a high-energy, realistic 15-second User Generated Content (UGC) product advertisement featuring a Senegalese man in his mid-to-late 20s unboxing and testing a premium mini photo printer.\n\nThe video should feel like authentic smartphone footage captured at home, not a traditional commercial. Use rapid jump cuts, satisfying ASMR sounds, natural reactions, realistic movements, and cinematic product close-ups.\n\nPRODUCT: PRINTPOP MINI PHOTO PRINTER.\n\nA premium pocket-sized wireless photo printer featuring a matte-sand-beige body with brushed rose-gold accents, a soft-touch rounded top lid, a single illuminated power button, a small LED battery indicator, a slim paper output slot, a USB-C charging port, a pack of 10 sticky-back photo paper sheets, and a soft zippered carrying pouch.\n\nSHOT 1: THE ARRIVAL (0-2s)\n\n[Medium shot, eye-level]\n\nThe man sits cross-legged on his living room floor with a small delivery box branded \"PRINTPOP MINI\" in front of him. He tears the sealing tape open in one satisfying motion.\n\nSFX: Loud, crisp tape ripping sound.\n\nSHOT 2: THE REVEAL (2-4s)\n\n[Medium shot, slightly low angle]\n\nHe lifts the lid, pulls the printer from its carrying pouch, and reveals the matte-sand-beige body and rose-gold accents. He looks genuinely impressed.\n\nDialogue: \"Okay, this finally came!\"\n\nSFX: Cardboard movement, pouch zipper opening, soft packaging rustling.\n\nSHOT 3: THE CLOSE LOOK (4-7s)\n\n[Full shot, clean jump cut]\n\nHe holds the PRINTPOP MINI up to the camera, runs his thumb along the rose-gold trim, and flips open the lid to load a sheet of photo paper. He taps the power button, which glows, and his phone shows a pairing pop-up he taps to connect.\n\nDialogue: \"Look at this! It's tiny but looks so premium.\"\n\nSFX: Lid clicking open, paper sliding in, soft button click, Bluetooth connection tone.\n\nSHOT 4: THE PRINT TEST (7-11s)\n\n[Close-up, 45-degree angle]\n\nHe selects a photo on his phone and taps print. The printer whirs softly as a vivid, sharp photo slides out of the slot. He peels the sticky backing, presses the print onto his notebook cover, and raises his eyebrows, clearly impressed by the color quality.\n\nSFX: Soft printer whirring, paper sliding out, sticker backing peeling.\n\nSHOT 5: THE FINAL EXPERIENCE (11-13s)\n\n[Medium shot, eye-level]\n\nHe fans out a handful of freshly printed photos, holds one up beside his face, and smiles directly at the camera.\n\nDialogue: \"Wait... I'm printing every memory now!\"\n\nSHOT 6: HERO PRODUCT SHOT (13-15s)\n\n[Slow cinematic close-up]\n\nThe PRINTPOP MINI sits on a wooden coffee table beside its open box, carrying pouch, a stack of colorful prints, and a phone showing a photo gallery. Soft natural window light reflects across the matte-sand-beige body and rose-gold accents.\n\nFinal dialogue: \"This is officially my new favourite upgrade.\"\n\nVIDEO STYLE:\n\n- Vertical 9:16 format.\n- Total duration: 15 seconds.\n- Ultra-realistic smartphone footage.\n- Natural human movements and expressions.\n- Fast-paced jump cuts.\n- Crisp product details.\n- Realistic button presses, LED glow, and photo printing.\n- Authentic ASMR sound design.\n- Natural indoor lighting.\n- No artificial-looking CGI.\n- Consistent product design across every shot.\n- Accurate hand movements and realistic product interactions.\n\nThe final result should look like a genuine viral product-review video filmed by a real customer.",
+      "image": "https://pbs.twimg.com/media/HXtyGbmXcAALgRl.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HXtyGbmXcAALgRl.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HXtyGbmXcAALgRl.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "9:16",
+      "model": "Seedance 2.5",
+      "mediaType": "video",
+      "videoPoster": "https://pbs.twimg.com/media/HXtyGbmXcAALgRl.jpg",
+      "videoSourceUrl": "https://video.twimg.com/amplify_video/2124417047383707648/vid/avc1/480x854/hECx629aJbBJFp4n.mp4",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/abs_crea8or/status/2124417116870684882",
+      "url": "https://x.com/abs_crea8or/status/2124417116870684882",
+      "domain": "x.com",
+      "date": "2026-11-23",
+      "timestamp": 1795399838992,
+      "collectedAt": "2026-11-23T02:10:38.992Z",
+      "githubSyncedAt": "2026-11-23T02:10:38.992Z",
+      "domesticSyncedAt": "2026-11-27T03:56:00.983Z",
+      "useCase": "UGC / 口碑",
+      "creator": "abs_crea8or",
+      "signals": [
+        "Prompt:"
+      ],
+      "videoUrl": "https://video.twimg.com/amplify_video/2124417047383707648/vid/avc1/480x854/hECx629aJbBJFp4n.mp4"
+    },
+    {
+      "id": "x_2123984589194686794",
+      "title": "高端巧克力广告成片",
+      "category": "电商视觉",
+      "commerceType": "电商视频",
+      "tags": [
+        "电商视觉",
+        "电商视频",
+        "巧克力",
+        "广告",
+        "产品广告",
+        "文生视频",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "Create a 15-second ultra-realistic, premium chocolate commercial advertisement in 4K quality, 16:9 aspect ratio.\n\nScene 1: A blue chocolate bar wrapper floats elegantly against a colorful purple, blue and golden gradient background. The camera slowly rotates around the product with cinematic lighting.\n\nScene 2: The chocolate bar emerges from its packaging, floating in mid-air. Show its rich, glossy chocolate texture with realistic highlights and shadows.\n\nScene 3: The chocolate bar dramatically breaks into multiple pieces in slow motion. Small chocolate fragments scatter through the air with detailed crumbs and realistic physics.\n\nScene 4: Extreme macro close-up of chocolate pieces rotating and floating against a vibrant pink and purple background.\n\nScene 5: Smooth white creamy milk flows like silky waves around floating chocolate pieces. Capture beautiful liquid motion, realistic splashes and elegant slow-motion effects.\n\nScene 6: Rich melted chocolate forms a beautiful swirling vortex with a splash of white cream, creating a luxurious and appetizing visual.\n\nFinal Scene: The blue chocolate packaging and a perfectly shaped chocolate bar appear together in the center of a glowing colorful gradient background. Add a beautiful cinematic glow and finish with a premium product hero shot.\n\nVisual Style: High-end chocolate brand commercial, photorealistic 3D product animation, macro food cinematography, smooth camera movements, realistic liquid simulation, glossy chocolate textures, vibrant colors, professional studio lighting, flawless transitions, premium advertising quality.\n\nMaintain consistent product packaging and chocolate design throughout. No distorted text, no extra products, no watermark.",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2123984499230855168/img/_m6tjWT3ky9msgSh.jpg",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2123984499230855168/img/_m6tjWT3ky9msgSh.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/amplify_video_thumb/2123984499230855168/img/_m6tjWT3ky9msgSh.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "16:9",
+      "model": "Seedance 2.5",
+      "mediaType": "video",
+      "videoPoster": "https://pbs.twimg.com/amplify_video_thumb/2123984499230855168/img/_m6tjWT3ky9msgSh.jpg",
+      "videoSourceUrl": "https://video.twimg.com/amplify_video/2123984499230855168/vid/avc1/1280x720/DqFMxNUOwQ0U-2T2.mp4",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/ItsEiraXa/status/2123984589194686794",
+      "url": "https://x.com/ItsEiraXa/status/2123984589194686794",
+      "domain": "x.com",
+      "date": "2026-11-23",
+      "timestamp": 1795399838992,
+      "collectedAt": "2026-11-23T02:10:38.992Z",
+      "githubSyncedAt": "2026-11-23T02:10:38.992Z",
+      "domesticSyncedAt": "2026-11-27T03:56:00.983Z",
+      "useCase": "电商视频",
+      "creator": "ItsEiraXa",
+      "signals": [
+        "Prompt:"
+      ],
+      "videoUrl": "https://video.twimg.com/amplify_video/2123984499230855168/vid/avc1/1280x720/DqFMxNUOwQ0U-2T2.mp4"
+    },
+    {
+      "id": "x_2123825895358279903",
+      "title": "黑金香水奢华广告",
+      "category": "电商视觉",
+      "commerceType": "电商视频",
+      "tags": [
+        "电商视觉",
+        "电商视频",
+        "香水",
+        "奢华广告",
+        "产品广告",
+        "文生视频",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "Create a cinematic luxury perfume commercial featuring a sophisticated black ribbed glass perfume bottle with elegant gold detailing. Begin with a dramatic splash of crystal-clear water surrounding the bottle, followed by swirling atmospheric smoke. Show an extreme macro close-up highlighting the bottle's glossy ribbed texture, gold accents, and delicate water droplets. Transition into a warm luxury interior with soft golden lighting, then create a spectacular golden liquid splash rising around the bottle in slow motion. Finish with the perfume bottle standing elegantly against a warm champagne-gold background. Ultra-realistic product photography, premium fragrance advertisement, dramatic lighting, fluid motion, 4K cinematic quality, refined luxury aesthetic. Keep the bottle design consistent throughout.",
+      "image": "https://pbs.twimg.com/media/HXlYYSlaIAALgE5.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HXlYYSlaIAALgE5.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HXlYYSlaIAALgE5.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "9:16",
+      "model": "Seedance 2.0",
+      "mediaType": "video",
+      "videoPoster": "https://pbs.twimg.com/amplify_video_thumb/2123825830631718912/img/Idw1qh8bX2fy6_Sq.jpg",
+      "videoSourceUrl": "https://video.twimg.com/amplify_video/2123825830631718912/vid/avc1/720x1280/dsAhkvVMSdjWS1gO.mp4",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/AIwithRubii/status/2123825895358279903",
+      "url": "https://x.com/AIwithRubii/status/2123825895358279903",
+      "domain": "x.com",
+      "date": "2026-11-23",
+      "timestamp": 1795399838992,
+      "collectedAt": "2026-11-23T02:10:38.992Z",
+      "githubSyncedAt": "2026-11-23T02:10:38.992Z",
+      "domesticSyncedAt": "2026-11-27T03:56:00.983Z",
+      "useCase": "电商视频",
+      "creator": "AIwithRubii",
+      "signals": [
+        "Prompt:"
+      ],
+      "videoUrl": "https://video.twimg.com/amplify_video/2123825830631718912/vid/avc1/720x1280/dsAhkvVMSdjWS1gO.mp4"
+    },
+    {
+      "id": "x_2124412528348586165",
+      "title": "玫瑰金耳机产品广告",
+      "category": "电商视觉",
+      "commerceType": "电商视频",
+      "tags": [
+        "电商视觉",
+        "电商视频",
+        "耳机",
+        "产品广告",
+        "爆炸分解",
+        "文生视频",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "Create a luxurious cinematic 3D product advertisement featuring elegant rose-gold pink over-ear wireless headphones. Begin with a close-up shot showing the headphones' premium design, then smoothly reveal their internal components with a futuristic holographic disassembly effect. Add glowing blue energy particles and magical light trails as the components assemble back together. Transition into beautiful rotating product shots from multiple angles, highlighting the ear cushions, headband, and sleek finish. Soft blush-pink studio background, glossy reflective floor, sparkling particles, elegant lighting, ultra-realistic materials, smooth camera movements, premium commercial aesthetic, 4K quality.",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2124412502805258240/img/zy8pWrDOJEmcz5VJ.jpg",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2124412502805258240/img/zy8pWrDOJEmcz5VJ.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/amplify_video_thumb/2124412502805258240/img/zy8pWrDOJEmcz5VJ.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "9:16",
+      "model": "Seedance 2.0",
+      "mediaType": "video",
+      "videoPoster": "https://pbs.twimg.com/amplify_video_thumb/2124412502805258240/img/zy8pWrDOJEmcz5VJ.jpg",
+      "videoSourceUrl": "https://video.twimg.com/amplify_video/2124412502805258240/vid/avc1/720x1280/HEeRoALRFiRjDNqC.mp4",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/AIwithRubii/status/2124412528348586165",
+      "url": "https://x.com/AIwithRubii/status/2124412528348586165",
+      "domain": "x.com",
+      "date": "2026-11-23",
+      "timestamp": 1795399838992,
+      "collectedAt": "2026-11-23T02:10:38.992Z",
+      "githubSyncedAt": "2026-11-23T02:10:38.992Z",
+      "domesticSyncedAt": "2026-11-27T03:56:00.983Z",
+      "useCase": "电商视频",
+      "creator": "AIwithRubii",
+      "signals": [
+        "Prompt:"
+      ],
+      "videoUrl": "https://video.twimg.com/amplify_video/2124412502805258240/vid/avc1/720x1280/HEeRoALRFiRjDNqC.mp4"
+    },
+    {
+      "id": "x_2124353487941345683",
+      "title": "撕纸拼贴广告海报",
+      "category": "电商视觉",
+      "commerceType": "广告海报",
+      "tags": [
+        "电商视觉",
+        "广告海报",
+        "撕纸拼贴",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "Create a premium, visually stunning, professional advertising poster based on the exact subject, concept, product, destination, character or brand described in my prompt.\n\nOVERALL COMPOSITION:\nCreate a vertical 4:5 editorial poster divided into two visually connected horizontal sections.\n\nUPPER HALF — PHOTOREALISTIC HERO SECTION:\n\nPresent the main subject in an exceptionally realistic, cinematic editorial photograph. Create an authentic, beautifully composed advertising scene with professional art direction, natural lighting, realistic textures, sophisticated color grading and premium magazine-quality photography.\n\nInclude elegant typography, a refined headline, a short tagline and minimal supporting information relevant to the subject. Maintain a clean, sophisticated layout with balanced negative space.\n\nLOWER HALF — TORN PAPER COLLAGE ARTWORK:\n\nReinterpret the EXACT SAME subject from the upper half as an extraordinary handmade torn-paper mixed-media collage.\n\nThis section must look like a physical artwork carefully assembled from multiple overlapping pieces of textured paper.\n\nUse:\n\n- Dramatically ripped and irregular paper edges.\n- Multiple overlapping layers of torn paper.\n- Visible fibrous, rough and deckled paper edges.\n- Realistic handmade paper grain and crumpled textures.\n- Beautifully layered paper cutouts with subtle 3D depth.\n- Photographic subject transformed into a textured paper-cut collage.\n- Artistic fragments of the original background integrated into the composition.\n- Contrasting paper colors inspired by the subject's original color palette.\n\nThe transformation must cover the ENTIRE lower half, including the main subject, background and surrounding elements. Do not simply place a paper border around an ordinary photograph.\n\nVISUAL CONTINUITY:\n\nBoth sections must feature the same subject, same identity, same product, same location and same visual concept. The lower section should feel like an artistic paper-collage reinterpretation of the upper photograph.\n\nAdd an elegant footer at the bottom with a minimal logo treatment, relevant brand or subject name, a short closing tagline and subtle supporting details where appropriate.\n\nART DIRECTION:\n\nLuxury independent magazine aesthetic, premium international advertising campaign, sophisticated editorial typography, photorealistic photography, tactile handmade paper textures, intricate torn-paper craftsmanship, realistic layered depth and exceptional graphic design.\n\nIMPORTANT:\nAdapt the entire design, colors, typography, composition and supporting details to whatever subject I provide. Never force unrelated objects, brands, logos or text into the design. Avoid generic AI-looking graphics, cartoon effects, smooth vector illustrations and artificial paper textures.\n\nThe final result must look like a professionally art-directed advertising campaign combining authentic photography with extraordinary handmade torn-paper collage artwork.",
+      "image": "https://pbs.twimg.com/media/HXs4GdxXAAAxzsx.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HXs4GdxXAAAxzsx.jpg",
+        "https://pbs.twimg.com/media/HXs4IWWWIAAamrV.jpg",
+        "https://pbs.twimg.com/media/HXs4M3qW8AAOXsn.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HXs4GdxXAAAxzsx.jpg",
+        "https://pbs.twimg.com/media/HXs4IWWWIAAamrV.jpg",
+        "https://pbs.twimg.com/media/HXs4M3qW8AAOXsn.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "4:5",
+      "model": "ChatGPT",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/Hasn4834/status/2124353487941345683",
+      "url": "https://x.com/Hasn4834/status/2124353487941345683",
+      "domain": "x.com",
+      "date": "2026-11-23",
+      "timestamp": 1795399838992,
+      "collectedAt": "2026-11-23T02:10:38.992Z",
+      "githubSyncedAt": "2026-11-23T02:10:38.992Z",
+      "domesticSyncedAt": "2026-11-27T03:56:00.983Z",
+      "useCase": "广告海报",
+      "creator": "Hasn4834",
+      "signals": [
+        "Prompt"
+      ]
+    },
+    {
+      "id": "x_2122978280970002744",
+      "title": "半日叠圆节庆海报",
+      "category": "电商视觉",
+      "commerceType": "广告海报",
+      "tags": [
+        "电商视觉",
+        "广告海报",
+        "节庆海报",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "第一眼以深浅红色块铺满画面，巨大的圆、半圆与被裁切的弧面相互遮挡，像一枚被垂直切开的发光圆盘嵌入厚重红幕之中；主题形象被抽象为几何天体或建筑投影，只保留圆弧、直边、压暗阴影和局部柔光的关系，不写实堆砌。画面以大面积暗红作底，叠加酒红、猩红、砖红的平面块，少量奶黄色到淡粉紫的柔和渐变只出现在关键半圆或底部弧面，形成克制的节庆光感。版式保持强烈留白与偏置构图：主要文字成窄列竖排，字距舒展，靠近几何重心但不居中；辅助信息压低、缩小，沿边缘或底部形成细密信息带。字体机制为瘦长、硬朗、低装饰的现代印刷骨架，笔画均匀，端点干净，字腔开阔，纵向节奏稳定，标记与数字也服从细线、紧排、低对比的秩序。所有元素像广告印刷品一样平整、无厚重质感，边界清晰但色块之间有轻微压暗、套印感和透明叠色，保留商业物料的克制、规整与少量机械误差，不加入华丽纹样、立体渲染、烟雾、金属、过度光效或插画化人物。",
+      "image": "https://pbs.twimg.com/media/HXZVDdHa8AA9s6P.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HXZVDdHa8AA9s6P.jpg",
+        "https://pbs.twimg.com/media/HXZVDteaIAAh_WV.jpg",
+        "https://pbs.twimg.com/media/HXZVEGWaUAADMkF.jpg",
+        "https://pbs.twimg.com/media/HXZVEydaQAEhRt3.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HXZVDdHa8AA9s6P.jpg",
+        "https://pbs.twimg.com/media/HXZVDteaIAAh_WV.jpg",
+        "https://pbs.twimg.com/media/HXZVEGWaUAADMkF.jpg",
+        "https://pbs.twimg.com/media/HXZVEydaQAEhRt3.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "9:16",
+      "model": "GPT Image 2",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/xiaoxiaodong/status/2122978280970002744",
+      "url": "https://x.com/xiaoxiaodong/status/2122978280970002744",
+      "domain": "x.com",
+      "date": "2026-11-23",
+      "timestamp": 1795399838992,
+      "collectedAt": "2026-11-23T02:10:38.992Z",
+      "githubSyncedAt": "2026-11-23T02:10:38.992Z",
+      "domesticSyncedAt": "2026-11-27T03:56:00.983Z",
+      "useCase": "广告海报",
+      "creator": "xiaoxiaodong",
+      "signals": [
+        "提示词"
+      ]
+    },
+    {
+      "id": "x_2124365458371432624",
+      "title": "可口可乐圣诞广告",
+      "category": "电商视觉",
+      "commerceType": "品牌视觉",
+      "tags": [
+        "电商视觉",
+        "电商视频",
+        "品牌广告",
+        "圣诞",
+        "可口可乐",
+        "文生视频",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "Create a 30-second cinematic, emotional Christmas commercial set in a beautiful European city during winter. Snow-covered streets, warm golden lights, and a magical festive atmosphere.\n\nScene 1: A little boy wearing a cozy winter hat and scarf holds a bright red balloon while looking up at the beautiful snowy sky. The balloon gently floats away into the air.\n\nScene 2: Show the red balloon flying above a stunning European city with historic buildings and snow-covered rooftops. Use cinematic aerial camera movements.\n\nScene 3: A lonely young man wearing a black winter jacket and beanie stands beside a Coca-Cola vending machine, holding a bottle of Coca-Cola. He notices a small handwritten paper message.\n\nScene 4: Close-up of gloved hands unfolding the handwritten note, creating an emotional and heartwarming moment.\n\nScene 5: The young man smiles and approaches the little boy. They share a warm, heartfelt hug in the snowy street.\n\nScene 6: Show two Coca-Cola glass bottles being raised together in a cheerful celebration, with realistic condensation and beautiful reflections.\n\nFinal Scene: A clean, iconic red background with the Coca-Cola logo in elegant white lettering.\n\nVisual style: Ultra-realistic commercial cinematography, emotional storytelling, cinematic lighting, shallow depth of field, realistic snow, natural human expressions, smooth camera movements, premium brand advertisement quality, 4K resolution, 16:9 aspect ratio.\n\nMaintain consistent characters, realistic physics, natural movements, and professional cinematic transitions throughout the video.",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2124365232466432000/img/lDAMcGfgBeLCcgfe.jpg",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2124365232466432000/img/lDAMcGfgBeLCcgfe.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/amplify_video_thumb/2124365232466432000/img/lDAMcGfgBeLCcgfe.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "16:9",
+      "model": "Seedance 2.5",
+      "mediaType": "video",
+      "videoPoster": "https://pbs.twimg.com/amplify_video_thumb/2124365232466432000/img/lDAMcGfgBeLCcgfe.jpg",
+      "videoSourceUrl": "https://video.twimg.com/amplify_video/2124365232466432000/vid/avc1/1276x718/zkEahmLnSb6SeBsH.mp4",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/ItsEiraXa/status/2124365458371432624",
+      "url": "https://x.com/ItsEiraXa/status/2124365458371432624",
+      "domain": "x.com",
+      "date": "2026-11-23",
+      "timestamp": 1795399838992,
+      "collectedAt": "2026-11-23T02:10:38.992Z",
+      "githubSyncedAt": "2026-11-23T02:10:38.992Z",
+      "domesticSyncedAt": "2026-11-27T03:56:00.983Z",
+      "useCase": "品牌视觉",
+      "creator": "ItsEiraXa",
+      "signals": [
+        "Prompt:"
+      ],
+      "videoUrl": "https://video.twimg.com/amplify_video/2124365232466432000/vid/avc1/1276x718/zkEahmLnSb6SeBsH.mp4"
+    },
+    {
+      "id": "x_2124373286272602432",
+      "title": "城市旅行艺术海报",
+      "category": "电商视觉",
+      "commerceType": "广告海报",
+      "tags": [
+        "电商视觉",
+        "广告海报",
+        "旅行海报",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "INTERNATIONAL CITY TRAVEL ART PRINT COLLECTION\n\nCreate a charming, vintage-inspired travel poster featuring [CITY / COUNTRY], illustrated in a distinctive hand-drawn architectural doodle style.\n\nShowcase the city's most iconic landmarks, buildings, monuments, towers, bridges, and recognizable architectural details, arranged together in a dense yet balanced artistic composition. Incorporate a recognizable local element, such as a vintage car, tram, taxi, bicycle, or public transport, in the foreground.\n\nUse bold black ink outlines, intricate hand-drawn details, playful geometric patterns, and slightly imperfect sketch-like textures. Add the city name prominently within the illustration using creative hand-lettered typography.\n\nPresent the artwork inside a clean white poster border, surrounded by a vibrant solid-color background that complements the city's identity. Use a limited palette of black, warm white, and one or two bold accent colors.\n\nOverall aesthetic: Minimalist European travel illustration, retro souvenir poster, whimsical architectural line art, screen-print texture, playful composition, and premium collectible wall-art design.\n\nKeep the artwork visually cohesive, highly detailed, charming, and instantly recognizable as a celebration of the destination. Avoid photorealism, 3D effects, gradients, and unnecessary decorative elements.",
+      "image": "https://pbs.twimg.com/media/HXtKNM3aYAABDYj.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HXtKNM3aYAABDYj.jpg",
+        "https://pbs.twimg.com/media/HXtKN2oagAEojHy.jpg",
+        "https://pbs.twimg.com/media/HXtKOm5aQAA3LMB.jpg",
+        "https://pbs.twimg.com/media/HXtKPRnaYAE14vj.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HXtKNM3aYAABDYj.jpg",
+        "https://pbs.twimg.com/media/HXtKN2oagAEojHy.jpg",
+        "https://pbs.twimg.com/media/HXtKOm5aQAA3LMB.jpg",
+        "https://pbs.twimg.com/media/HXtKPRnaYAE14vj.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "19:23",
+      "model": "GPT Image 2.6",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/Goodmanprotocol/status/2124373286272602432",
+      "url": "https://x.com/Goodmanprotocol/status/2124373286272602432",
+      "domain": "x.com",
+      "date": "2026-11-23",
+      "timestamp": 1795399838992,
+      "collectedAt": "2026-11-23T02:10:38.992Z",
+      "githubSyncedAt": "2026-11-23T02:10:38.992Z",
+      "domesticSyncedAt": "2026-11-27T03:56:00.983Z",
+      "useCase": "广告海报",
+      "creator": "Goodmanprotocol",
+      "signals": [
+        "Prompt:"
+      ]
+    },
+    {
+      "id": "ahaprompt_vintage-sony-walkman-luxury-commercial",
+      "title": "Vintage Sony Walkman Luxury Commercial",
+      "prompt": "Ultra-luxury 12-second cinematic commercial for a vintage Sony Walkman TPS-L2 cassette player. Opens with extreme macro shot of brushed metallic buttons, cassette door hinge, and textured surface — fine craftsmanship illuminated by warm tungsten beams and deep blue accent glows. Floating dust particles drift through volumetric shafts of light. Camera slowly orbits the Walkman in a moody retro-futuristic sound studio against a pure black backdrop with polished mirror reflections beneath. Dynamic close-up: a cassette slides into the deck, the orange play button clicks down, cassette reels begin spinning. Elegant tungsten reflections glide across brushed silver metal. Animated analog audio waveforms and glowing 1980s-inspired neon grid graphics emerge from darkness, synchronized rhythm. Product hero-centered. Dramatic slow push-in final shot: Walkman stands alone under a single focused spotlight, bold cinematic typography 'THE SOUND OF AN ERA' appears in elegant serif font. Shallow depth of field, atmospheric haze, cinematic color grading — deep shadows, warm amber highlights, cool blue midtones. Premium luxury advertising quality, 4K, smooth camera motion, nostalgic yet modern aesthetic.",
+      "category": "电商视觉",
+      "commerceType": "电商视频",
+      "tags": [
+        "AhaPrompt",
+        "Seedance 2.5",
+        "视频提示词",
+        "电商视觉",
+        "电商视频",
+        "随身听"
+      ],
+      "model": "Seedance 2.5",
+      "mediaType": "video",
+      "image": "https://cdn.ahaprompt.app/harvest-media/import-1792057246574-mppiiw.jpg",
+      "images": [
+        "https://cdn.ahaprompt.app/harvest-media/import-1792057246574-mppiiw.jpg"
+      ],
+      "rawImages": [
+        "https://cdn.ahaprompt.app/harvest-media/import-1792057246574-mppiiw.jpg"
+      ],
+      "referenceImages": [],
+      "videoUrl": "https://cdn.ahaprompt.app/harvest-media/import-1792057245017-ythrvi.mp4",
+      "aspectRatio": "16:9",
+      "source": "AhaPrompt",
+      "sourceUrl": "https://ahaprompt.app/prompt/vintage-sony-walkman-luxury-commercial",
+      "url": "https://ahaprompt.app/prompt/vintage-sony-walkman-luxury-commercial",
+      "originalSourceUrl": "https://x.com/mehvishs25/status/2110579211207614712",
+      "sourceLicenseVerified": true,
+      "sourceLicenseUrl": "https://ahaprompt.app/terms-of-service",
+      "license": "AhaPrompt Community Terms",
+      "licenseUrl": "https://ahaprompt.app/terms-of-service",
+      "attribution": "AhaPrompt (AhaPrompt Community Terms)",
+      "collectionOrigin": "approved-public-prompt",
+      "domain": "ahaprompt.app",
+      "date": "2026-11-23",
+      "timestamp": 1795399838992,
+      "collectedAt": "2026-11-23T02:10:38.992Z",
+      "githubSyncedAt": "2026-11-23T02:10:38.992Z",
+      "domesticSyncedAt": "2026-11-27T03:56:00.983Z",
+      "externalId": "vintage-sony-walkman-luxury-commercial",
+      "useCase": "电商视频",
+      "signals": [
+        "公开电商源",
+        "AhaPrompt Community Terms",
+        "电商视频"
+      ],
+      "videoPoster": "https://cdn.ahaprompt.app/harvest-media/import-1792057246574-mppiiw.jpg",
+      "videoSourceUrl": "https://cdn.ahaprompt.app/harvest-media/import-1792057245017-ythrvi.mp4"
+    },
+    {
+      "id": "x_2123407944830353568",
+      "title": "金色咖啡罐奢华广告",
+      "category": "电商视觉",
+      "commerceType": "电商视频",
+      "tags": [
+        "电商视觉",
+        "电商视频",
+        "产品广告",
+        "咖啡",
+        "Nescafé",
+        "文生视频",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "Nescafé Gold Deluxe jar as the exact product reference. Preserve the jar, branding, label, colors and packaging accurately.\n\n0–2s: Dramatic golden light slowly reveals the jar against a dark luxurious background, slow camera push-in, elegant reflections.\n\n2–4s: Macro slow-motion coffee granules falling and floating through warm golden light, rich detailed texture.\n\n4–6s: Hot water pours into a coffee cup, coffee swirls beautifully, steam rises in cinematic backlight.\n\n6–8s: Final hero shot of the exact jar beside a steaming cup, glowing golden background, smooth camera settle, premium product advertising finish.\n\nPhotorealistic, cinematic lighting, smooth motion, macro details, luxury commercial, warm gold and deep brown palette, 4K, vertical 9:16. No distorted packaging, no extra logos, no watermark, no unnecessary text.",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2123407903042457601/img/TE7TiJ-JR0GeQCjY.jpg",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2123407903042457601/img/TE7TiJ-JR0GeQCjY.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/amplify_video_thumb/2123407903042457601/img/TE7TiJ-JR0GeQCjY.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "9:16",
+      "model": "omini1.1",
+      "mediaType": "video",
+      "videoPoster": "https://pbs.twimg.com/amplify_video_thumb/2123407903042457601/img/TE7TiJ-JR0GeQCjY.jpg",
+      "videoSourceUrl": "https://video.twimg.com/amplify_video/2123407903042457601/vid/avc1/720x1280/D-bfVTaSK0iJzxoT.mp4",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/iamsoulAI/status/2123407944830353568",
+      "url": "https://x.com/iamsoulAI/status/2123407944830353568",
+      "domain": "x.com",
+      "date": "2026-11-20",
+      "timestamp": 1795141404446,
+      "collectedAt": "2026-11-20T02:23:24.446Z",
+      "githubSyncedAt": "2026-11-20T02:23:24.446Z",
+      "domesticSyncedAt": "2026-11-27T03:56:00.983Z",
+      "useCase": "电商视频",
+      "creator": "iamsoulAI",
+      "signals": [
+        "Prompt:"
+      ],
+      "videoUrl": "https://video.twimg.com/amplify_video/2123407903042457601/vid/avc1/720x1280/D-bfVTaSK0iJzxoT.mp4"
+    },
+    {
+      "id": "x_2123268678737400257",
+      "title": "盐味黄油薯片广告",
+      "category": "电商视觉",
+      "commerceType": "电商视频",
+      "tags": [
+        "电商视觉",
+        "电商视频",
+        "食品广告",
+        "薯片",
+        "包装",
+        "文生视频",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "SCENE CONTEXT\n\nA 30-second high-energy commercial for KERIPIK KENTANG salted butter potato chips, inspired by the rapid pacing, playful absurdism, practical miniatures, retro television energy and mixed-media transitions of @Video1. Re-imagine the world as retro 1980s Indonesian television culture. Create an original concept: do not reproduce @Video1's characters, locations, monsters, compositions or individual shots.\n\nACTIVE REFERENCES\n\n<<<image_1>>> is the absolute source of truth for the product. Preserve the exact bright lemon-yellow glossy pillow bag, inflated proportions, the bold red \"KERIPIK / KENTANG\" stacked typography with white outline, the red \"New!\" starburst, and the dark brown ribbon reading \"Salted Butter • 150g\". The package must remain recognizable and dimensionally stable in every shot.\n\n@Video1 controls only the overall energy: fast pattern interrupts, theatrical acting, hard studio lighting, miniature practical sets, retro broadcast texture, crash zooms, exaggerated sound effects and transitions between live action, handmade miniatures and original 2D animation.\n\nFORMAT MODE\n\nControlled multi-shot commercial with fast HARD CUTS and one MATCH CUT. Each shot lasts long enough for its main action to read clearly. The escalation moves from quiet live action to controlled visual chaos, then resolves into a clean premium product hero shot.\n\nFIRST FRAME AND SPATIAL BLOCKING\n\nThe first visible frame already contains the KERIPIK KENTANG package, centered and floating 20 centimeters above a cream-colored pedestal. The front label faces the camera perfectly. A miniature retro Indonesian warung and small neighborhood minimarket fills the background: hand-painted shop signs, hanging snack sachets, glass jar displays of kerupuk, a wooden bench and a vintage refrigerator. No empty establishing frame.\n\nACTION TIMING\n\nBEAT 1 — A dead-serious young Indonesian office worker in a neat batik shirt stands behind the miniature warung counter while everyone around her is frozen in afternoon boredom: a man asleep on the bench, a fan slowly turning, a cat motionless on the counter. The floating KERIPIK KENTANG package slowly rotates toward camera. An energetic English-speaking announcer suddenly shouts: \"Boring afternoon? Time for a crunchy revolution!\" A sharp crash zoom lands on the red \"New!\" starburst.\n\nHARD CUT\n\nBEAT 2 — A retro vending machine painted with hand-lettered Indonesian street-art style spits the package directly into the worker's hands with comically precise mechanical force. She catches it against her chest, shocked. The glossy bag compresses naturally, then regains its inflated shape.\n\nINSERT CUT\n\nBEAT 3 — Extreme macro product detail: fingers tear open the top seam. The plastic stretches, wrinkles and opens with a crisp foil snap. A single golden ridged potato chip rises from the bag in dramatic slow motion, surrounded by tiny sparkling salt crystals and small round golden butter pats made from practical paper and clay props.\n\nMATCH CUT\n\nBEAT 4 — A round golden butter pat becomes a bold original 2D animated portal. The worker appears as a hand-drawn retro Indonesian commercial heroine with exaggerated speed lines and a flowing batik-patterned scarf. She bites the chip. A huge graphic golden-yellow crunch wave explodes outward as abstract kinetic batik-inspired swirl and parang motif shapes, energetic but not readable text.\n\nHARD CUT\n\nBEAT 5 — Return to live action. The crunch wave travels through a miniature retro Jakarta neighborhood without destroying it. A toy commuter train snaps into rhythm, a row of colorful paper umbrellas opens in perfect sync, a tiny orange bajaj and a blue angkot bounce on their suspension, traffic lights pulse golden yellow, paper kampung houses and shophouses bounce gently, and frozen commuters on ojek motorbikes begin a strange synchronized dance. Physical miniature materials remain visible: cardboard edges, painted wood and practical wires.\n\nHARD CUT\n\nBEAT 6 — Rapid comedic montage: a tiny butter cube with cartoon eyes conducts a miniature gamelan ensemble with a potato chip baton; three office workers perform one perfectly synchronized shoulder move; a serious businessman in a peci hears the crunch and his tie shoots straight upward; the heroine looks directly into camera with exaggerated triumph.\n\nHARD CUT\n\nBEAT 7 — Premium macro sequence: golden ridged chips tumble with believable gravity around the KERIPIK KENTANG package; melting butter swirls and sparkling salt crystals move through the background as stylized ingredients without covering the label. Moving highlights travel across the glossy yellow plastic.\n\nHARD CUT\n\nBEAT 8 — Final hero frame on a warm cream background. The KERIPIK KENTANG package lands upright on the pedestal with a soft weighted bounce. A few chips settle around its base. The front label is fully visible and matches <<<image_1>>> exactly. The announcer delivers the final line with joyful intensity: \"Salty! Buttery! Super crunchy! KERIPIK KENTANG!\" End on the package for a long, clean product hold.\n\nOPTICS\n\nUse a 47° standard-normal field of view for live-action medium shots, camera 3 to 4 meters from the actors, with natural proportions and readable miniature depth. Use an 84° classic wide field of view for energetic warung shots, camera physically close to the foreground action with strong perspective expansion and straight rectilinear lines. Use an 18° telephoto character for package and chip macro inserts, with razor-sharp product detail and creamy background separation. Lock the optics within each shot.\n\nCAMERA\n\nMix theatrical locked-off frontal compositions with abrupt physical crash zooms, low-angle product hero shots and one fast lateral tracking move following the crunch wave. Camera movement feels like a real late-1980s Indonesian television studio production: deliberate tripod starts, quick mechanical zooms and slight operator settling rather than digital floating. Subtle retro broadcast texture: soft scanlines, mild chroma bleed and warm analog color.\n\nPHYSICS\n\nThe inflated package has realistic flexible plastic behavior, internal air pressure, wrinkles, inertia and soft rebound. Chips remain rigid and brittle, with believable weight, collisions and crumbs. Miniature buildings, vehicles and props visibly behave like handmade physical objects. Every movement has contact, mass and cause-and-effect.\n\nLIGHTING\n\nHard, colorful retro studio lighting with warm cream highlights, rich golden-yellow tones, deep red accents matching the logo, and occasional warm butter-gold flashes. Product shots use a controlled moving specular highlight that reveals the glossy plastic without obscuring the typography. The final packshot is clean, bright and premium, with a strong grounded shadow beneath the bag.\n\nAUDIO\n\nFast original mix of retro 80s synth-pop, punchy brass hits, funky bass, kendang drum fills and playful gamelan-style metallic accents. Exaggerated vending-machine clunks, foil tearing, package rustle, rhythmic miniature-city sounds (bajaj horn, train bell, ojek engine purr) and one exceptionally crisp bite: \"KRESS!\" The music briefly drops out before the bite, then returns at full energy. Use only the two scripted English announcer lines, spoken by an energetic male announcer in clear English. No character dialogue and no additional voices.\n\nPOSITIVE LOCKS\n\nThe KERIPIK KENTANG package remains the hero and appears in the opening, center transformation and final frame. Its bright yellow color, proportions, printed layout and \"Salted Butter\" flavor line remain faithful to <<<image_1>>>. All animated sequences are original and return to the same live-action product identity. The final frame is uncluttered and holds long enough to read the real packaging.",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2123268203766054912/img/vvtwDGKTiX0oU0hp.jpg",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2123268203766054912/img/vvtwDGKTiX0oU0hp.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/amplify_video_thumb/2123268203766054912/img/vvtwDGKTiX0oU0hp.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "16:9",
+      "model": "Seedance 2.5",
+      "mediaType": "video",
+      "videoPoster": "https://pbs.twimg.com/amplify_video_thumb/2123268203766054912/img/vvtwDGKTiX0oU0hp.jpg",
+      "videoSourceUrl": "https://video.twimg.com/amplify_video/2123268203766054912/vid/avc1/1280x720/jFYLaUqkvlMAJ_aq.mp4",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/anditiarizki/status/2123268678737400257",
+      "url": "https://x.com/anditiarizki/status/2123268678737400257",
+      "domain": "x.com",
+      "date": "2026-11-20",
+      "timestamp": 1795141404446,
+      "collectedAt": "2026-11-20T02:23:24.446Z",
+      "githubSyncedAt": "2026-11-20T02:23:24.446Z",
+      "domesticSyncedAt": "2026-11-27T03:56:00.983Z",
+      "useCase": "电商视频",
+      "creator": "anditiarizki",
+      "signals": [
+        "Prompt:"
+      ],
+      "videoUrl": "https://video.twimg.com/amplify_video/2123268203766054912/vid/avc1/1280x720/jFYLaUqkvlMAJ_aq.mp4"
+    },
+    {
+      "id": "x_2123338313792925976",
+      "title": "复古城市旅行海报",
+      "category": "电商视觉",
+      "commerceType": "广告海报",
+      "tags": [
+        "电商视觉",
+        "广告海报",
+        "旅行海报",
+        "复古",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "Create a highly realistic vintage-inspired premium travel poster for [CITY NAME], [COUNTRY], based on the visual language of classic illustrated travel postcards.\n\nAspect ratio: 4:5 vertical.\n\nMain Composition\n\n- Warm vintage textured paper background with subtle aged-paper grain.\n- Large bold uppercase [CITY NAME] typography dominating the middle of the poster.\n- The city name must be deep red / crimson, with a slightly distressed vintage print texture.\n- Place the main iconic landmark of [CITY NAME] vertically through or behind the large typography, creating a layered editorial composition.\n- Add several recognizable landmarks of the city naturally around the main landmark:\n  [LANDMARK 1], [LANDMARK 2], [LANDMARK 3].\n- Keep the landmarks highly realistic, detailed and recognizable.\n- Add a large circular vintage sun / sky element behind the main landmark, with subtle distressed texture.\n- Create a cinematic travel-photography atmosphere while maintaining a classic vintage postcard aesthetic.\n\nDecorative Elements\n\n- Elegant flowering branches extending diagonally from the upper-left corner, adapted to the city's visual identity.\n- A few small falling petals/leaves distributed naturally through the composition.\n- Vintage postage stamp in the upper-right corner featuring a recognizable symbol or landmark from [COUNTRY].\n- Add subtle postal cancellation lines around the stamp.\n- Include a realistic airplane flying across the upper-right sky with a subtle contrail.\n- Add small architectural and street details around the lower portion to make the city feel alive.\n\nTypography Layout\n\nAt the top:\n\n[COUNTRY]\n\n[SHORT COUNTRY/CITY TAGLINE]\n\nBelow, the enormous central title:\n\n[CITY NAME]\n\nAt the bottom:\n\n[CITY NAME] • [COUNTRY]\n\n[WORD 1] • [WORD 2] • [WORD 3]\n\nUse elegant classic serif typography for the small text and an extremely bold condensed display font for the huge city name.\n\nColor & Grading\n\nUse a refined vintage color palette specifically inspired by [CITY/COUNTRY].\n\nWarm aged-paper tones combined with deep red typography and carefully selected accent colors related to the city.\n\nUse slightly faded colors, subtle film grain, distressed print texture, natural shadows, realistic atmospheric depth and premium editorial color grading.\n\nThe poster should feel like a luxury collectible travel postcard, not a modern digital advertisement.\n\nStyle\n\nUltra-realistic landmark details, realistic architecture, sophisticated vintage travel-poster design, premium editorial composition, realistic photography blended with vintage print aesthetics, authentic paper texture, subtle imperfections, elegant visual hierarchy, balanced negative space, highly detailed, crisp focus, sophisticated and timeless.\n\nImportant: Keep the overall design structure consistent with a classic vintage travel postcard, but make the color palette and visual accents unique to [CITY NAME].\n\nNo cartoon style, no 3D toy look, no excessive text, no clutter, no distorted landmarks, no random buildings, no duplicate landmarks, no watermark, no modern UI elements.",
+      "image": "https://pbs.twimg.com/media/HXecvi8aUAA5W7x.jpg?format=jpg&name=large",
+      "images": [
+        "https://pbs.twimg.com/media/HXecvi8aUAA5W7x.jpg?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HXeczTvakAAvwhb.jpg?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HXec5fUbwAAqJBG.jpg?format=jpg&name=large"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HXecvi8aUAA5W7x.jpg?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HXeczTvakAAvwhb.jpg?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HXec5fUbwAAqJBG.jpg?format=jpg&name=large"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "4:5",
+      "model": "ChatGPT",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/Hasn4834/status/2123338313792925976",
+      "url": "https://x.com/Hasn4834/status/2123338313792925976",
+      "domain": "x.com",
+      "date": "2026-11-20",
+      "timestamp": 1795141404446,
+      "collectedAt": "2026-11-20T02:23:24.446Z",
+      "githubSyncedAt": "2026-11-20T02:23:24.446Z",
+      "domesticSyncedAt": "2026-11-27T03:56:00.983Z",
+      "useCase": "广告海报",
+      "creator": "Hasn4834",
+      "signals": [
+        "Prompt:"
+      ]
+    },
+    {
+      "id": "x_2123466361330421992",
+      "title": "产品爆炸分解主图",
+      "category": "电商视觉",
+      "commerceType": "产品主图",
+      "tags": [
+        "电商视觉",
+        "产品主图",
+        "爆炸分解",
+        "广告摄影",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "Usa la imagen adjunta como referencia principal o reemplaza [OBJETO] por el producto que quieras crear.\n\nCrea una fotografía publicitaria hiperrealista en estilo EXPLODED-VIEW PRODUCT PHOTOGRAPHY de [OBJETO]. Desmonta visualmente el producto en sus componentes reales y funcionales, colocándolos suspendidos en el aire y perfectamente alineados según su orden correcto de ensamblaje.\n\nConserva la forma, colores, proporciones, materiales y detalles distintivos del objeto original. Cada pieza debe ser físicamente plausible y pertenecer claramente al mismo producto. Muestra tanto la carcasa exterior como sus mecanismos, estructura interna, componentes electrónicos, tornillos, uniones y capas de material, cuando corresponda.\n\nComposición centrada, simétrica y limpia, formato cuadrado 1:1, con espacio suficiente alrededor de todas las piezas. Fondo de estudio gris cálido y minimalista. Iluminación comercial suave y direccional, sombras sutiles, gran nitidez, texturas realistas y acabado premium de campaña publicitaria.\n\nSin personas, logotipos, marcas, etiquetas, texto ni marcas de agua. Evita piezas duplicadas, elementos aleatorios, maquinaria fantástica, desorden visual, brillo excesivo o componentes que no pertenezcan al objeto.\n\nResultado: una imagen elegante, técnica y visualmente impactante que explique cómo está construido el producto.",
+      "image": "https://pbs.twimg.com/media/HXgQTm7WwAA485I.jpg?format=jpg&name=large",
+      "images": [
+        "https://pbs.twimg.com/media/HXgQTm7WwAA485I.jpg?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HXgQTm8WoAAjiB5.jpg?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HXgQTm7WkAALfBS.jpg?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HXgQTm7XwAATqKB.jpg?format=jpg&name=large"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HXgQTm7WwAA485I.jpg?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HXgQTm8WoAAjiB5.jpg?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HXgQTm7WkAALfBS.jpg?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HXgQTm7XwAATqKB.jpg?format=jpg&name=large"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "1:1",
+      "model": "通用 AI 图像模型",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/hmontilla_/status/2123466361330421992",
+      "url": "https://x.com/hmontilla_/status/2123466361330421992",
+      "domain": "x.com",
+      "date": "2026-11-20",
+      "timestamp": 1795141404446,
+      "collectedAt": "2026-11-20T02:23:24.446Z",
+      "githubSyncedAt": "2026-11-20T02:23:24.446Z",
+      "domesticSyncedAt": "2026-11-27T03:56:00.983Z",
+      "useCase": "产品主图",
+      "creator": "hmontilla_",
+      "signals": [
+        "Prompt:"
+      ]
+    },
+    {
+      "id": "x_2123544850574225664",
+      "title": "耳环开箱惊喜口碑",
+      "category": "电商视觉",
+      "commerceType": "UGC / 口碑",
+      "tags": [
+        "电商视觉",
+        "电商视频",
+        "UGC",
+        "口碑",
+        "珠宝",
+        "耳环",
+        "文生视频",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "A 10-second TikTok-style product video in a 9:16 aspect ratio. Filmed entirely from the boyfriend's POV, the camera captures a genuine surprise gift moment without ever showing him on screen. The girlfriend () receives the earrings (), reacts with authentic excitement, tries them on immediately, and naturally showcases the product through an emotional, heartwarming story.\n\nOverall Style:\nAuthentic UGC, Couple Lifestyle, Heartwarming, TikTok Vlog\n\nShot 1: 0-2s\nScene:\nFrom the boyfriend's POV in a cozy living room, a small gift box containing the earrings () is gently held toward the girlfriend (consistent with ), who is sitting on the couch scrolling through her phone. She looks up with a curious smile and reaches out to take the gift.\nCamera Movement:\nHandheld first-person shot with subtle natural movement, slowly extending the gift toward her.\nMood:\nWarm, natural, full of anticipation.\nDialogue:\nBoyfriend (off camera): \"I got something for you.\"\nGirlfriend: \"For me?\"\n\nShot 2: 2-5s\nScene:\nPOV close-up as she opens the gift box. The earrings () are revealed. Her eyes light up instantly, and she smiles with genuine surprise while carefully picking them up to admire every detail.\nCamera Movement:\nSlow handheld push-in toward the earrings, then naturally tilts up to capture her facial reaction.\nMood:\nExciting, romantic, genuine.\nDialogue:\nGirlfriend: \"Oh my gosh... They're so beautiful!\"\n\nShot 3: 5-8s\nScene:\nShe immediately walks to a nearby mirror to put on the earrings while the camera follows from the boyfriend's perspective. After putting them on, she gently brushes her hair aside, revealing the sparkling earrings. She turns toward the camera with a bright smile and subtly poses to highlight the jewelry.\nCamera Movement:\nNatural handheld follow shot, ending with a gentle push-in on the earrings.\nMood:\nSweet, elegant, joyful.\nDialogue:\nGirlfriend: \"I love them!\"\n\nShot 4: 8-10s\nScene:\nShe happily walks back toward the camera and leans in for a warm hug (hugging the camera as if hugging her boyfriend). She pulls back, gives the camera a quick kiss, then tucks her hair behind her ear to show off the earrings one last time. The video ends on a close-up of the sparkling earrings in warm indoor light.\nCamera Movement:\nSlight handheld movement during the hug, then settles into a close-up hero shot of the earrings.\nMood:\nRomantic, heartfelt, memorable.\nDialogue:\nGirlfriend: \"Best surprise ever.\"",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2123333286374338560/img/SqZKYTgXl3W-iFIr.jpg",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2123333286374338560/img/SqZKYTgXl3W-iFIr.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/amplify_video_thumb/2123333286374338560/img/SqZKYTgXl3W-iFIr.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "9:16",
+      "model": "Vorla AI",
+      "mediaType": "video",
+      "videoPoster": "https://pbs.twimg.com/amplify_video_thumb/2123333286374338560/img/SqZKYTgXl3W-iFIr.jpg",
+      "videoSourceUrl": "https://video.twimg.com/amplify_video/2123333286374338560/vid/avc1/1080x1880/HL0eP-s3vrIn5giR.mp4",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/Vorla_AI/status/2123544850574225664",
+      "url": "https://x.com/Vorla_AI/status/2123544850574225664",
+      "domain": "x.com",
+      "date": "2026-11-20",
+      "timestamp": 1795141404446,
+      "collectedAt": "2026-11-20T02:23:24.446Z",
+      "githubSyncedAt": "2026-11-20T02:23:24.446Z",
+      "domesticSyncedAt": "2026-11-27T03:56:00.983Z",
+      "useCase": "UGC / 口碑",
+      "creator": "Vorla_AI",
+      "signals": [
+        "Prompt:"
+      ],
+      "videoUrl": "https://video.twimg.com/amplify_video/2123333286374338560/vid/avc1/1080x1880/HL0eP-s3vrIn5giR.mp4"
+    },
+    {
+      "id": "x_2123413233084039200",
+      "title": "恐龙灵感家居产品",
+      "category": "电商视觉",
+      "commerceType": "产品主图",
+      "tags": [
+        "电商视觉",
+        "产品主图",
+        "家居",
+        "工业设计",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "2x2 grid, 4 home products inspired by iconic dinosaurs, 16:9 \nGenerate a [PRODUCT] inspired by [THING].\n\nRules:\n- do not merely decorate the product with the subject\n- infer DESIGN_DNA from [THING]\n- preserve FUNCTIONAL_CORE of [PRODUCT]\n- translate THING’s visual identity into the industrial design language of the product\n- the final object must feel like a believable premium real-world product, not a novelty prop\n- infer MATERIAL_SYSTEM, SIGNATURE_FEATURES, and CONTROL_LANGUAGE automatically\n- map PRODUCT components into THING-inspired functional forms\n- integrate subtle branding or symbolic cues derived from [THING]\n- place the product in an inferred or specified ENVIRONMENT that enhances its luxury and usability\n- no hard-coded materials, features, controls, logos, colors, or parts unless supplied",
+      "image": "https://pbs.twimg.com/media/HXXyxN0WoAAoCVs.jpg?format=jpg&name=large",
+      "images": [
+        "https://pbs.twimg.com/media/HXXyxN0WoAAoCVs.jpg?format=jpg&name=large"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HXXyxN0WoAAoCVs.jpg?format=jpg&name=large"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "16:9",
+      "model": "通用 AI 图像模型",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/Gdgtify/status/2123413233084039200",
+      "url": "https://x.com/Gdgtify/status/2123413233084039200",
+      "domain": "x.com",
+      "date": "2026-11-20",
+      "timestamp": 1795141404446,
+      "collectedAt": "2026-11-20T02:23:24.446Z",
+      "githubSyncedAt": "2026-11-20T02:23:24.446Z",
+      "domesticSyncedAt": "2026-11-27T03:56:00.983Z",
+      "useCase": "产品主图",
+      "creator": "Gdgtify",
+      "signals": [
+        "Prompt:"
+      ]
+    },
+    {
+      "id": "x_2123376993970597898",
+      "title": "索尼耳机霓虹广告",
+      "category": "电商视觉",
+      "commerceType": "广告海报",
+      "tags": [
+        "电商视觉",
+        "广告海报",
+        "耳机",
+        "品牌视觉",
+        "Sony",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "Ultra-realistic cinematic luxury tech fashion advertisement featuring a beautiful young adult woman with a short, voluminous, tousled black bob hairstyle, natural glowing skin, glossy nude-red lips, and delicate facial features. She wears futuristic round mirrored green sunglasses reflecting glowing digital light patterns and oversized neon-green Sony headphones with bright luminous LED rings. She is dressed in a vibrant lime-green ribbed turtleneck sweater, posing elegantly with her head tilted upward and a confident expression. Stunning monochromatic neon-lime green studio background, oversized bold white SONY typography behind her head, dramatic green rim lighting, futuristic cyberpunk aesthetic, premium audio product advertising campaign, glossy reflections, vibrant electric-green color grading, sharp facial details, photorealistic textures, high-end commercial photography, 8K quality, vertical 4:5 composition.",
+      "image": "https://pbs.twimg.com/media/HXfAHQqaUAAGAho.jpg?format=jpg&name=large",
+      "images": [
+        "https://pbs.twimg.com/media/HXfAHQqaUAAGAho.jpg?format=jpg&name=large"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HXfAHQqaUAAGAho.jpg?format=jpg&name=large"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "4:5",
+      "model": "通用 AI 图像模型",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/Monaqbuv/status/2123376993970597898",
+      "url": "https://x.com/Monaqbuv/status/2123376993970597898",
+      "domain": "x.com",
+      "date": "2026-11-20",
+      "timestamp": 1795141404446,
+      "collectedAt": "2026-11-20T02:23:24.446Z",
+      "githubSyncedAt": "2026-11-20T02:23:24.446Z",
+      "domesticSyncedAt": "2026-11-27T03:56:00.983Z",
+      "useCase": "广告海报",
+      "creator": "Monaqbuv",
+      "signals": [
+        "Image prompt"
+      ]
+    },
+    {
+      "id": "x_2123228497841922198",
+      "title": "照片几何海报拼贴",
+      "category": "电商视觉",
+      "commerceType": "广告海报",
+      "tags": [
+        "电商视觉",
+        "广告海报",
+        "品牌视觉",
+        "海报设计",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "Create a premium 3:4 vertical editorial poster from the uploaded photo, divided horizontally into two equal 50% sections.  Upper Half — Original Photography: Preserve the subject, composition, proportions, textures, lighting, and natural colors. Apply only subtle professional color grading. Extend the background if necessary without distorting the subject.  Lower Half — Abstract Graphic Identity: Transform the subject’s defining silhouette, posture, structure, and visual relationships into a recognizable minimalist geometric symbol, not a literal illustration. Use modular shapes, fine lines, curves, negative space, and subtle graphic details.  Style: Post-digital design, deconstructed Swiss design, Bauhaus, and experimental editorial graphics. Create a single cohesive focal composition, centered or slightly offset, surrounded by generous negative space.  Colors & Texture: Extract a limited palette from the photo, balanced with warm-white paper. Add subtle Risograph grain, Xerox texture, slight print misalignment, and organic imperfections.  Typography: Only tiny, refined editorial annotations or index labels. No large headlines.  Final Look: Minimal, sophisticated, artistic, and collectible—like an experimental visual identity from a contemporary art institution. Avoid clutter, generic gradients, excessive decoration, and unrelated elements. Output one complete poster.",
+      "image": "https://pbs.twimg.com/media/HXc47ljaoAAYlIg.jpg?format=jpg&name=large",
+      "images": [
+        "https://pbs.twimg.com/media/HXc47ljaoAAYlIg.jpg?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HXc47lkbAAAqP7e.jpg?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HXc47lmaUAEBXfj.jpg?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HXc47lhbYAAWEXZ.jpg?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HXc47l1aAAABKk1.jpg?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HXc47lnbIAAcxLj.jpg?format=jpg&name=large"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HXc47ljaoAAYlIg.jpg?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HXc47lkbAAAqP7e.jpg?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HXc47lmaUAEBXfj.jpg?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HXc47lhbYAAWEXZ.jpg?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HXc47l1aAAABKk1.jpg?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HXc47lnbIAAcxLj.jpg?format=jpg&name=large"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "3:4",
+      "model": "通用 AI 图像模型",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/Jenniegy59/status/2123228497841922198",
+      "url": "https://x.com/Jenniegy59/status/2123228497841922198",
+      "domain": "x.com",
+      "date": "2026-11-20",
+      "timestamp": 1795141404446,
+      "collectedAt": "2026-11-20T02:23:24.446Z",
+      "githubSyncedAt": "2026-11-20T02:23:24.446Z",
+      "domesticSyncedAt": "2026-11-27T03:56:00.983Z",
+      "useCase": "广告海报",
+      "creator": "Jenniegy59",
+      "signals": [
+        "Prompt:"
+      ]
+    },
+    {
+      "id": "x_2123038819188392280",
+      "title": "黑金香水静物主图",
+      "category": "电商视觉",
+      "commerceType": "产品主图",
+      "tags": [
+        "电商视觉",
+        "产品主图",
+        "香水",
+        "静物",
+        "广告",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "Minimalist black glass perfume bottle, metallic gold cap, resting on raw dark slate, autumn oak leaves in soft background blur, raytracing light reflections, studio photography --ar 3:2",
+      "image": "https://pbs.twimg.com/media/HXaMafkXoAAUcY4?format=jpg&name=large",
+      "images": [
+        "https://pbs.twimg.com/media/HXaMafkXoAAUcY4?format=jpg&name=large"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HXaMafkXoAAUcY4?format=jpg&name=large"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "3:2",
+      "model": "通用 AI 图像模型",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/ElizabethLVHQ/status/2123038819188392280",
+      "url": "https://x.com/ElizabethLVHQ/status/2123038819188392280",
+      "domain": "x.com",
+      "date": "2026-11-19",
+      "timestamp": 1795054916397,
+      "collectedAt": "2026-11-19T02:21:56.397Z",
+      "githubSyncedAt": "2026-11-19T02:21:56.397Z",
+      "domesticSyncedAt": "2026-11-27T03:56:00.983Z",
+      "useCase": "产品主图",
+      "creator": "ElizabethLVHQ",
+      "signals": [
+        "Prompt:"
+      ]
+    },
+    {
+      "id": "ahaprompt_luxury-ysl-perfume-commercial",
+      "title": "YSL Libre香水广告",
+      "prompt": "Create a 15-second ultra-photorealistic luxury perfume commercial featuring YSL Libre Eau de Parfum.\n\nA stunning Western fashion model in an elegant black satin evening dress stands inside a luxurious Manhattan penthouse at golden hour. She picks up the iconic black-and-gold perfume bottle, sprays the fragrance on her wrist, and gently appreciates its scent. She then walks gracefully toward the floor-to-ceiling windows as her hair and dress move naturally. The video ends with a cinematic close-up of the perfume bottle against the glowing New York skyline.\n\nLuxury fashion aesthetics, realistic skin texture, natural human movement, physically accurate perfume mist, realistic glass reflections, natural fabric physics, consistent character appearance, cinematic lighting, smooth camera tracking, believable gravity and airflow, and premium commercial cinematography throughout.",
+      "category": "电商视觉",
+      "commerceType": "电商视频",
+      "tags": [
+        "AhaPrompt",
+        "Seedance 2.5",
+        "视频提示词",
+        "电商视觉",
+        "电商视频",
+        "香水"
+      ],
+      "model": "Seedance 2.5",
+      "mediaType": "video",
+      "image": "https://cdn.ahaprompt.app/harvest-media/import-1792057245048-hpgocf.jpg",
+      "images": [
+        "https://cdn.ahaprompt.app/harvest-media/import-1792057245048-hpgocf.jpg"
+      ],
+      "rawImages": [
+        "https://cdn.ahaprompt.app/harvest-media/import-1792057245048-hpgocf.jpg"
+      ],
+      "referenceImages": [],
+      "videoUrl": "https://cdn.ahaprompt.app/harvest-media/import-1792057243094-jiv50m.mp4",
+      "aspectRatio": "9:16",
+      "source": "AhaPrompt",
+      "sourceUrl": "https://ahaprompt.app/prompt/luxury-ysl-perfume-commercial",
+      "url": "https://ahaprompt.app/prompt/luxury-ysl-perfume-commercial",
+      "originalSourceUrl": "https://x.com/AIwithZeeshi/status/2110579418271818208",
+      "sourceLicenseVerified": true,
+      "sourceLicenseUrl": "https://ahaprompt.app/terms-of-service",
+      "license": "AhaPrompt Community Terms",
+      "licenseUrl": "https://ahaprompt.app/terms-of-service",
+      "attribution": "AhaPrompt (AhaPrompt Community Terms)",
+      "collectionOrigin": "approved-public-prompt",
+      "domain": "ahaprompt.app",
+      "date": "2026-11-19",
+      "timestamp": 1795054916397,
+      "collectedAt": "2026-11-19T02:21:56.397Z",
+      "githubSyncedAt": "2026-11-19T02:21:56.397Z",
+      "domesticSyncedAt": "2026-11-27T03:56:00.983Z",
+      "externalId": "luxury-ysl-perfume-commercial",
+      "useCase": "电商视频",
+      "signals": [
+        "公开电商源",
+        "AhaPrompt Community Terms",
+        "电商视频"
+      ],
+      "videoPoster": "https://cdn.ahaprompt.app/harvest-media/import-1792057245048-hpgocf.jpg",
+      "videoSourceUrl": "https://cdn.ahaprompt.app/harvest-media/import-1792057243094-jiv50m.mp4"
+    },
+    {
+      "id": "ahaprompt_cinematic-kia-seltos-forest-commercial",
+      "title": "起亚Seltos森林广告",
+      "prompt": "High-octane, hyper-realistic automotive commercial for the Kia Seltos, shot with the visual intensity of a Christopher Nolan-style cinematic production using actual 70mm IMAX cameras. Fast-paced multi-shot editing with quick, cinematic cuts timed at exactly one shot every 2 seconds across a complete 30-second timeline. The champagne-gold Kia Seltos, matching the exact vehicle design in the provided reference images, charges through a dense forest road surrounded by towering trees and dappled sunlight. High-contrast Nolan-esque color grading with deep shadows, cold teals, warm champagne-gold reflections, and bright highlights. Sunlight pierces through the forest canopy, reflecting across the sculpted bodywork, signature vertical LED daytime running lights, black front grille, muscular wheel arches, and distinctive rear light bar. Rapid sequence of intense cuts:•Shot 1 (0-2s): Ground-level cinematic establishing shot of an empty winding forest road, towering trees casting deep shadows as sunlight breaks through the canopy. The distant engine note of the approaching Kia Seltos builds tension.•Shot 2 (2-4s): Low eye-level tracking shot of the champagne-gold Kia Seltos emerging between the trees, accelerating along the forest road and revealing its bold front grille, distinctive vertical LED lighting signature, and commanding SUV stance.•Shot 3 (4-6s): Tight, detailed close-up of the front fascia, Kia emblem, illuminated LED daytime running lights, glossy black grille elements, and champagne-gold paint reflecting the passing forest.•Shot 4 (6-8s): Dramatic low-angle tracking shot moving alongside the front wheel as the alloy spokes spin rapidly, tires maintain realistic contact with the asphalt, and the SUV’s sculpted bodywork catches streaks of sunlight.•Shot 5 (8-10s): Fast lateral tracking shot revealing the complete side profile, muscular wheel arches, black lower-body cladding, door contours, windows, roofline, and metallic champagne-gold finish as the Kia Seltos sweeps through the forest.•Shot 6 (10-12s): Low-angle handheld-style camera whip-pan from the road surface to the SUV’s front three-quarter profile as it exits a sweeping bend, with realistic suspension movement, controlled body roll, and natural background motion blur.•Shot 7 (12-14s): Extreme close-up of sunlight traveling across the sculpted hood, Kia emblem, sharp body creases, and vertical LED lights, emphasizing precise automotive design and premium paint reflections.•Shot 8 (14-16s): Rear three-quarter tracking shot following the Kia Seltos through the forest, showcasing the distinctive rear light bar, angular vertical taillights, rear spoiler, sculpted tailgate, and authentic model badging.•Shot 9 (16-18s): Dynamic wheel-height tracking shot as the SUV drives across alternating patches of sunlight and shadow, capturing realistic tire rotation, subtle road texture, reflections along the lower doors, and the movement of the suspension over natural road undulations.•Shot 10 (18-20s): High-angle wide shot of the Kia Seltos commanding a sweeping forest road, surrounded by towering trees and atmospheric shafts of sunlight, with the winding asphalt leading the eye toward the moving SUV.•Shot 11 (20-22s): Fast front-facing tracking shot of the Kia Seltos approaching the camera along a straight section of forest road, its LED lights illuminated and grille dominating the frame as the camera smoothly retreats ahead of the vehicle.•Shot 12 (22-24s): Rapid cinematic transition into a close rear tracking angle as the SUV accelerates away through the trees, the rear lighting signature glowing against the darker forest and the road markings sweeping beneath the frame.•Shot 13 (24-26s): Dramatic low-angle front three-quarter hero shot as the Kia Seltos exits the forest bend and enters a naturally illuminated clearing, revealing its full stance, champagne-gold bodywork, alloy wheels, and signature front lighting.•Shot 14 (26-28s): Controlled cinematic orbit around the stationary Kia Seltos at a scenic forest-road pull-off, transitioning from the front three-quarter view toward the side and rear profile while the surrounding trees and golden sunlight create a premium automotive campaign atmosphere.•Shot 15 (28-30s): Hard cut to black with a final sweep of light revealing the KIA emblem followed by the SELTOS model name and the campaign tagline: “OWN EVERY TURN.” End with a powerful, clean, premium automotive advertising finish.Raw automotive documentary-style camera textures, organic lens flares, lifelike vehicle physics, authentic wheel rotation and tire contact, realistic suspension movement, natural road reflections, physically accurate metallic paint reflections, cinematic motion blur, subtle engine vibration, and an immersive forest-road atmosphere. Preserve the exact Kia Seltos identity, champagne-gold exterior color, front grille design, LED lighting signatures, alloy wheels, body proportions, side profile, and rear design from the provided reference images throughout every shot. Maintain consistent vehicle geometry, wheel design, lighting signatures, paint color, and branding across all 15 shots. No vehicle redesign, no morphing, no inconsistent body panels, no incorrect logos, no artificial CGI appearance, no impossible driving maneuvers, no exaggerated visual effects, and no abrupt changes in road geography. Ultra-detailed, 4K resolution, premium global automotive advertising quality.",
+      "category": "电商视觉",
+      "commerceType": "电商视频",
+      "tags": [
+        "AhaPrompt",
+        "Kling 4.0",
+        "视频提示词",
+        "电商视觉",
+        "电商视频",
+        "汽车"
+      ],
+      "model": "Kling 4.0",
+      "mediaType": "video",
+      "image": "https://cdn.ahaprompt.app/harvest-media/import-1792125764184-18t4em.jpg",
+      "images": [
+        "https://cdn.ahaprompt.app/harvest-media/import-1792125764184-18t4em.jpg"
+      ],
+      "rawImages": [
+        "https://cdn.ahaprompt.app/harvest-media/import-1792125764184-18t4em.jpg"
+      ],
+      "referenceImages": [],
+      "videoUrl": "https://cdn.ahaprompt.app/harvest-media/import-1792125759195-6x23re.mp4",
+      "aspectRatio": "16:9",
+      "source": "AhaPrompt",
+      "sourceUrl": "https://ahaprompt.app/prompt/cinematic-kia-seltos-forest-commercial",
+      "url": "https://ahaprompt.app/prompt/cinematic-kia-seltos-forest-commercial",
+      "originalSourceUrl": "https://x.com/Diplomeme/status/2110947179057811727",
+      "sourceLicenseVerified": true,
+      "sourceLicenseUrl": "https://ahaprompt.app/terms-of-service",
+      "license": "AhaPrompt Community Terms",
+      "licenseUrl": "https://ahaprompt.app/terms-of-service",
+      "attribution": "AhaPrompt (AhaPrompt Community Terms)",
+      "collectionOrigin": "approved-public-prompt",
+      "domain": "ahaprompt.app",
+      "date": "2026-11-19",
+      "timestamp": 1795054916397,
+      "collectedAt": "2026-11-19T02:21:56.397Z",
+      "githubSyncedAt": "2026-11-19T02:21:56.397Z",
+      "domesticSyncedAt": "2026-11-27T03:56:00.983Z",
+      "externalId": "cinematic-kia-seltos-forest-commercial",
+      "useCase": "电商视频",
+      "signals": [
+        "公开电商源",
+        "AhaPrompt Community Terms",
+        "电商视频"
+      ],
+      "videoPoster": "https://cdn.ahaprompt.app/harvest-media/import-1792125764184-18t4em.jpg",
+      "videoSourceUrl": "https://cdn.ahaprompt.app/harvest-media/import-1792125759195-6x23re.mp4"
+    },
+    {
+      "id": "ahaprompt_cabbage-pro",
+      "title": "白菜Pro发布广告",
+      "prompt": "5 seconds, 16:9 landscape, fully adopting the visual language of Apple product launch videos: pure black background, studio-grade lighting, ultra-slow-motion rotating close-ups, minimalist giant sans-serif titles, ethereal electronic soundtrack.\nThe product is — an ordinary napa cabbage.\n [0–4 seconds] Against a pure black background, a plump, fresh napa cabbage slowly floats and rotates, with vibrant green outer leaves, a pale yellow-green core, cool white rim lighting on the edges, and fine water droplets on the leaf surfaces slowly rolling under macro shots. The scene is premium, restrained, and quiet, as if a top-tier tech product is making its debut. Thin white large text fades in: \"Cabbage Pro\" Below it, smaller text: \"Remarkably fresh.\"\n [4–8 seconds] Fast-paced editing of three studio-grade close-up shots: macro shots of the dense layered texture of the cabbage cross-section; the sculptural silhouette of the outer leaves' curves and creases under side-backlighting; ultra-slow-motion of fine mist spraying onto the cabbage surface, with water droplets clinging to the veins. Each shot is followed by a minimalist large title: \"Plump.\" \"Crisp.\" \"Sweet.\"\n[8–12 seconds] The cabbage elegantly flips in mid-air, outer leaves slightly unfurling, as a hand steadily holds it and gently turns it, with restrained, premium light-trail effects, as the music builds to a grand climax. The shot maintains Apple-style product heroism, as if showcasing a revolutionary flagship device. Large text: \"The most powerful cabbage ever.\" Below it, smaller text: \"20% crunchier than the previous generation.\"\n[12–15 seconds] The music resolves, and in the center of the pure black frame, only the cabbage remains, standing upright and floating still, with crisp outlines, premium lighting, and ample negative space. A price tag appears beside it: \"From ¥3\" Finally, the tagline appears: \"Cabbage Pro. Rolling out great taste.\" Accompanied by a clean, restrained closing chime.",
+      "category": "电商视觉",
+      "commerceType": "电商视频",
+      "tags": [
+        "AhaPrompt",
+        "MiniMax H3",
+        "视频提示词",
+        "电商视觉",
+        "电商视频",
+        "食品"
+      ],
+      "model": "MiniMax H3",
+      "mediaType": "video",
+      "image": "https://cdn.ahaprompt.app/prompt-images/twitter-1785888108155-sy848h.jpg",
+      "images": [
+        "https://cdn.ahaprompt.app/prompt-images/twitter-1785888108155-sy848h.jpg"
+      ],
+      "rawImages": [
+        "https://cdn.ahaprompt.app/prompt-images/twitter-1785888108155-sy848h.jpg"
+      ],
+      "referenceImages": [],
+      "videoUrl": "https://cdn.ahaprompt.app/prompt-images/twitter-1785888106702-ucs5sp.mp4",
+      "aspectRatio": "16:9",
+      "source": "AhaPrompt",
+      "sourceUrl": "https://ahaprompt.app/prompt/cabbage-pro",
+      "url": "https://ahaprompt.app/prompt/cabbage-pro",
+      "originalSourceUrl": "https://x.com/derek_wall90176/status/2084533192686785006",
+      "sourceLicenseVerified": true,
+      "sourceLicenseUrl": "https://ahaprompt.app/terms-of-service",
+      "license": "AhaPrompt Community Terms",
+      "licenseUrl": "https://ahaprompt.app/terms-of-service",
+      "attribution": "AhaPrompt (AhaPrompt Community Terms)",
+      "collectionOrigin": "approved-public-prompt",
+      "domain": "ahaprompt.app",
+      "date": "2026-11-19",
+      "timestamp": 1795054916397,
+      "collectedAt": "2026-11-19T02:21:56.397Z",
+      "githubSyncedAt": "2026-11-19T02:21:56.397Z",
+      "domesticSyncedAt": "2026-11-27T03:56:00.983Z",
+      "externalId": "cabbage-pro",
+      "useCase": "电商视频",
+      "signals": [
+        "公开电商源",
+        "AhaPrompt Community Terms",
+        "电商视频"
+      ],
+      "videoPoster": "https://cdn.ahaprompt.app/prompt-images/twitter-1785888108155-sy848h.jpg",
+      "videoSourceUrl": "https://cdn.ahaprompt.app/prompt-images/twitter-1785888106702-ucs5sp.mp4"
+    },
+    {
+      "id": "ahaprompt_watchmaker-reveals-tiny-city-in-pocket-watch",
+      "title": "怀表里的微缩城市",
+      "prompt": "Style: cinematic macro fantasy, warm amber workshop lamp light, brass and glass textures, extreme close-ups, shallow depth of field, film grain.\n\n0-5s: One old watchmaker with a magnifying loupe over one eye opens a gold pocket watch on his wooden workbench at night, the dark window behind him showing a sleeping city, the viewer over his shoulder.\n\n5-10s: The viewer pushes into the open watch and reveals a tiny city built among the brass gears, with tiny lit windows and tiny people walking across the turning cogs in darkness, the watchmaker's tweezers lowering in and tightening one small screw.\n\n10-15s: A tiny sun rises over the gears inside the watch, the tiny city fills with morning light, and at the same moment real sunrise floods through the workshop window behind him, the watchmaker slowly looks up at the window, the viewer pulling back.\n\nNegative prompt: more than one watchmaker, digital watch, cartoon style, modern electronics, text, numbers, watermark, slow motion",
+      "category": "电商视觉",
+      "commerceType": "电商视频",
+      "tags": [
+        "AhaPrompt",
+        "MiniMax H3",
+        "视频提示词",
+        "电商视觉",
+        "电商视频",
+        "钟表"
+      ],
+      "model": "MiniMax H3",
+      "mediaType": "video",
+      "image": "https://cdn.ahaprompt.app/harvest-media/import-1791885552615-k63wfc.jpg",
+      "images": [
+        "https://cdn.ahaprompt.app/harvest-media/import-1791885552615-k63wfc.jpg"
+      ],
+      "rawImages": [
+        "https://cdn.ahaprompt.app/harvest-media/import-1791885552615-k63wfc.jpg"
+      ],
+      "referenceImages": [],
+      "videoUrl": "https://cdn.ahaprompt.app/harvest-media/import-1791885550356-3dt2py.mp4",
+      "aspectRatio": "16:7",
+      "source": "AhaPrompt",
+      "sourceUrl": "https://ahaprompt.app/prompt/watchmaker-reveals-tiny-city-in-pocket-watch",
+      "url": "https://ahaprompt.app/prompt/watchmaker-reveals-tiny-city-in-pocket-watch",
+      "originalSourceUrl": "https://x.com/DeCat2025/status/2108914789665604069",
+      "sourceLicenseVerified": true,
+      "sourceLicenseUrl": "https://ahaprompt.app/terms-of-service",
+      "license": "AhaPrompt Community Terms",
+      "licenseUrl": "https://ahaprompt.app/terms-of-service",
+      "attribution": "AhaPrompt (AhaPrompt Community Terms)",
+      "collectionOrigin": "approved-public-prompt",
+      "domain": "ahaprompt.app",
+      "date": "2026-11-19",
+      "timestamp": 1795054916397,
+      "collectedAt": "2026-11-19T02:21:56.397Z",
+      "githubSyncedAt": "2026-11-19T02:21:56.397Z",
+      "domesticSyncedAt": "2026-11-27T03:56:00.983Z",
+      "externalId": "watchmaker-reveals-tiny-city-in-pocket-watch",
+      "useCase": "电商视频",
+      "signals": [
+        "公开电商源",
+        "AhaPrompt Community Terms",
+        "电商视频"
+      ],
+      "videoPoster": "https://cdn.ahaprompt.app/harvest-media/import-1791885552615-k63wfc.jpg",
+      "videoSourceUrl": "https://cdn.ahaprompt.app/harvest-media/import-1791885550356-3dt2py.mp4"
+    },
+    {
+      "id": "ahaprompt_red-pickup-truck-desert-canyon-animation",
+      "title": "红皮卡峡谷动画",
+      "prompt": "A stylized 3D cartoon animation of a bright red vintage pickup truck driving smoothly along a winding mountain road through a rugged desert canyon. The camera follows the truck from multiple dynamic angles—high aerial view, rear tracking shot, front three-quarter view, and wide overhead shots—as it navigates the sharp curves. Warm orange rock formations, sandy terrain, road markings, and dramatic canyon walls surround the vehicle. Smooth vehicle motion, consistent truck design, clean cel-shaded textures, vibrant warm color palette, cinematic composition, soft natural lighting, subtle camera movement, high-detail animated environment, polished feature-film animation style, 4K.",
+      "category": "电商视觉",
+      "commerceType": "电商视频",
+      "tags": [
+        "AhaPrompt",
+        "Wan 3.0",
+        "视频提示词",
+        "电商视觉",
+        "电商视频",
+        "汽车"
+      ],
+      "model": "Wan 3.0",
+      "mediaType": "video",
+      "image": "https://cdn.ahaprompt.app/harvest-media/import-1789369520553-tn5xcc.jpg",
+      "images": [
+        "https://cdn.ahaprompt.app/harvest-media/import-1789369520553-tn5xcc.jpg"
+      ],
+      "rawImages": [
+        "https://cdn.ahaprompt.app/harvest-media/import-1789369520553-tn5xcc.jpg"
+      ],
+      "referenceImages": [],
+      "videoUrl": "https://cdn.ahaprompt.app/harvest-media/import-1789369515431-zf53i9.mp4",
+      "aspectRatio": "1:1",
+      "source": "AhaPrompt",
+      "sourceUrl": "https://ahaprompt.app/prompt/red-pickup-truck-desert-canyon-animation",
+      "url": "https://ahaprompt.app/prompt/red-pickup-truck-desert-canyon-animation",
+      "originalSourceUrl": "https://x.com/TaliaAariz/status/2098456434778480875",
+      "sourceLicenseVerified": true,
+      "sourceLicenseUrl": "https://ahaprompt.app/terms-of-service",
+      "license": "AhaPrompt Community Terms",
+      "licenseUrl": "https://ahaprompt.app/terms-of-service",
+      "attribution": "AhaPrompt (AhaPrompt Community Terms)",
+      "collectionOrigin": "approved-public-prompt",
+      "domain": "ahaprompt.app",
+      "date": "2026-11-19",
+      "timestamp": 1795054916397,
+      "collectedAt": "2026-11-19T02:21:56.397Z",
+      "githubSyncedAt": "2026-11-19T02:21:56.397Z",
+      "domesticSyncedAt": "2026-11-27T03:56:00.983Z",
+      "externalId": "red-pickup-truck-desert-canyon-animation",
+      "useCase": "电商视频",
+      "signals": [
+        "公开电商源",
+        "AhaPrompt Community Terms",
+        "电商视频"
+      ],
+      "videoPoster": "https://cdn.ahaprompt.app/harvest-media/import-1789369520553-tn5xcc.jpg",
+      "videoSourceUrl": "https://cdn.ahaprompt.app/harvest-media/import-1789369515431-zf53i9.mp4"
+    },
     {
       "id": "x_2122379105413013674",
       "title": "第二世界摄影海报",
