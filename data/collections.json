@@ -1,7 +1,275 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-17T10:39:03.018Z",
+  "updatedAt": "2026-11-27T01:59:56.868Z",
   "collections": [
+    {
+      "id": "x_2125986689805934877",
+      "title": "口红巨物奢华广告",
+      "category": "电商视觉",
+      "commerceType": "广告海报",
+      "tags": [
+        "电商视觉",
+        "广告海报",
+        "口红",
+        "美妆",
+        "奢华广告",
+        "产品广告",
+        "时尚大片",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "{   \"aspect_ratio\": \"3:4\",   \"style\": \"Ultra-realistic luxury cosmetics campaign, high-fashion editorial photography, premium commercial advertisement\",    \"prompt\": \"Create a visually stunning, photorealistic luxury lipstick advertisement inspired by high-end fashion magazine campaigns. A gigantic oversized luxury lipstick stands vertically in the exact center of the composition. The lipstick has a deep glossy crimson-red bullet at the top, an elegant polished champagne-gold metallic cylindrical body in the middle, and a sophisticated glossy black rectangular base at the bottom. A breathtakingly beautiful adult European fashion model stands confidently ON TOP of the rounded red lipstick bullet, as if it were a raised fashion runway platform. She is full-body visible, wearing an elegant dramatic black strapless couture evening gown with an asymmetrical sculptural neckline, fitted waist and a long flowing black train. One hand rests gracefully on her waist while the other hangs naturally. Her legs are elegantly positioned, wearing delicate black high heels. She has sleek pulled-back hair, refined makeup and a confident luxury fashion editorial expression. The model and giant lipstick are perfectly aligned vertically, with the lipstick occupying the lower half and the model dominating the upper half. Behind them is a completely seamless, rich deep crimson-red studio background and matching red floor. Dramatic professional fashion lighting, subtle shadows, beautiful reflections on the gold metal, glossy black base, exquisite fabric details, sophisticated minimal luxury aesthetic. Straight-on camera angle, perfectly symmetrical centered composition, entire model and entire lipstick visible in one frame. Looks like a real multi-million-dollar luxury beauty brand advertising campaign, shot on a professional medium-format camera.\",    \"negative_prompt\": \"text, letters, typography, magazine headlines, words, logo, brand name, watermark, signature, captions, subtitles, model sitting, model inside lipstick, model beside lipstick, model emerging from lipstick, model holding lipstick, miniature lipstick, multiple models, extra people, cropped feet, cropped lipstick, distorted body, extra limbs, deformed hands, cartoon, illustration, CGI appearance, low quality, blurry image\",    \"lighting\": \"Premium dramatic studio fashion lighting\",   \"background\": \"Solid deep crimson red seamless studio\",   \"composition\": \"Vertical 9:16, full-body model standing on giant lipstick, centered luxury product advertisement\",   \"camera\": \"Straight-on medium-format fashion photography\",   \"quality\": \"Ultra photorealistic, 4K detail\" }",
+      "image": "https://pbs.twimg.com/media/HYDuj2oaQAA5n-t.jpg?format=jpg&name=orig",
+      "images": [
+        "https://pbs.twimg.com/media/HYDuj2oaQAA5n-t.jpg?format=jpg&name=orig"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HYDuj2oaQAA5n-t.jpg?format=jpg&name=orig"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "3:4",
+      "model": "通用 AI 图像模型",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/Just_Anika_Here/status/2125986689805934877",
+      "url": "https://x.com/Just_Anika_Here/status/2125986689805934877",
+      "domain": "x.com",
+      "date": "2026-11-27",
+      "timestamp": 1795744796868,
+      "collectedAt": "2026-11-27T01:59:56.868Z",
+      "githubSyncedAt": "2026-11-27T01:59:56.868Z",
+      "domesticSyncedAt": null,
+      "useCase": "广告海报",
+      "creator": "Just_Anika_Here",
+      "signals": [
+        "PROMPT :",
+        "luxury lipstick advertisement"
+      ]
+    },
+    {
+      "id": "x_2125848414269079829",
+      "title": "智能车灯开箱测评",
+      "category": "电商视觉",
+      "commerceType": "UGC / 口碑",
+      "tags": [
+        "电商视觉",
+        "UGC / 口碑",
+        "车灯",
+        "开箱",
+        "UGC",
+        "电商视频",
+        "产品广告",
+        "文生视频",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "Create a high-energy, realistic 15-second User Generated Content (UGC) product advertisement featuring a Jamaican-Canadian man in his mid-to-late 20s unboxing and testing a premium smart bike light and computer set.\n\nThe video should feel like authentic smartphone footage captured at home, not a traditional commercial. Use rapid jump cuts, satisfying ASMR sounds, natural reactions, realistic movements, and cinematic product close-ups.\n\nPRODUCT: CYCLEBEAM X2 SMART BIKE LIGHT.\n\nA premium rechargeable bike light featuring a matte-black aluminum body with brushed neon-yellow accents, a high-intensity LED lens with a wide beam pattern, a built-in ambient light sensor, a single illuminated power button, a small LED battery indicator, a quick-release handlebar mount with a rubber strap, a USB-C charging port, a rear companion tail light, and a soft zippered carrying pouch.\n\nSHOT 1: THE ARRIVAL (0-2s)\n\n[Medium shot, eye-level]\n\nThe man sits on his apartment floor with a small delivery box branded \"CYCLEBEAM X2\" in front of him, his bike leaning against the wall behind him. He tears the sealing tape open in one satisfying motion.\n\nSFX: Loud, crisp tape ripping sound.\n\nSHOT 2: THE REVEAL (2-4s)\n\n[Medium shot, slightly low angle]\n\nHe lifts the lid, pulls the light and tail light from the carrying pouch, and reveals the matte-black body and neon-yellow accents. He looks genuinely impressed.\n\nDialogue: \"Okay, this finally came!\"\n\nSFX: Cardboard movement, pouch zipper opening, soft packaging rustling.\n\nSHOT 3: THE CLOSE LOOK (4-7s)\n\n[Full shot, clean jump cut]\n\nHe holds the CYCLEBEAM X2 up to the camera, runs his thumb along the neon-yellow trim, and clicks it into the quick-release mount. He taps the power button, which glows, and the LED battery indicator lights up.\n\nDialogue: \"Look at this! It's so small but feels so solid.\"\n\nSFX: Mount clicking, soft button click, power-on chime.\n\nSHOT 4: THE BEAM TEST (7-11s)\n\n[Close-up, 45-degree angle]\n\nHe straps the light onto the handlebar, clips the tail light under the saddle, and dims the room. He presses the button to cycle through modes: steady, pulse, and flash. A bright, wide beam cuts across the wall, and the tail light blinks red. He raises his eyebrows, clearly impressed by the brightness.\n\nSFX: Rubber strap tightening, soft button clicks, mode-change beeps.\n\nSHOT 5: THE FINAL EXPERIENCE (11-13s)\n\n[Medium shot, eye-level]\n\nHe wheels the bike outside at dusk and the light automatically brightens as the sky darkens. He gives a thumbs-up and smiles directly at the camera.\n\nDialogue: \"Wait... I'm riding at night now!\"\n\nSHOT 6: HERO PRODUCT SHOT (13-15s)\n\n[Slow cinematic close-up]\n\nThe CYCLEBEAM X2 sits mounted on the handlebar, glowing softly beside its open box, tail light, and carrying pouch. Warm evening light reflects across the matte-black body and neon-yellow accents.\n\nFinal dialogue: \"This is officially my new favourite upgrade.\"\n\nVIDEO STYLE:\n\n- Vertical 9:16 format.\n- Total duration: 15 seconds.\n- Ultra-realistic smartphone footage.\n- Natural human movements and expressions.\n- Fast-paced jump cuts.\n- Crisp product details.\n- Realistic button presses, LED beam glow, and handlebar mounting.\n- Authentic ASMR sound design.\n- Natural lighting.\n- No artificial-looking CGI.\n- Consistent product design across every shot.\n- Accurate hand movements and realistic product interactions.\n\nThe final result should look like a genuine viral product-review video filmed by a real customer.",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2125847985414123520/img/PpTY55VSJLZ2s9aw.jpg",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2125847985414123520/img/PpTY55VSJLZ2s9aw.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/amplify_video_thumb/2125847985414123520/img/PpTY55VSJLZ2s9aw.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "9:16",
+      "model": "Seedance 2.5",
+      "mediaType": "video",
+      "videoPoster": "https://pbs.twimg.com/amplify_video_thumb/2125847985414123520/img/PpTY55VSJLZ2s9aw.jpg",
+      "videoSourceUrl": "https://video.twimg.com/amplify_video/2125847985414123520/vid/avc1/720x1280/YbQi8D2VXnAxEg0E.mp4",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/abs_crea8or/status/2125848414269079829",
+      "url": "https://x.com/abs_crea8or/status/2125848414269079829",
+      "domain": "x.com",
+      "date": "2026-11-27",
+      "timestamp": 1795744796868,
+      "collectedAt": "2026-11-27T01:59:56.868Z",
+      "githubSyncedAt": "2026-11-27T01:59:56.868Z",
+      "domesticSyncedAt": null,
+      "useCase": "UGC / 口碑",
+      "creator": "abs_crea8or",
+      "signals": [
+        "Prompt:"
+      ],
+      "videoUrl": "https://video.twimg.com/amplify_video/2125847985414123520/vid/avc1/720x1280/YbQi8D2VXnAxEg0E.mp4"
+    },
+    {
+      "id": "x_2126057699800695091",
+      "title": "海盐铁罐产品主图",
+      "category": "电商视觉",
+      "commerceType": "产品主图",
+      "tags": [
+        "电商视觉",
+        "产品主图",
+        "海盐",
+        "包装",
+        "食品",
+        "标签",
+        "文生图",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "Commercial product photograph. A round steel tin of sea salt flakes stands on a weathered oak table beside a small pile of salt flakes and a sprig of rosemary, soft morning window light from the left, shallow depth of field. A cream paper label wraps around the tin's curved side and reads, in this order: \"MARRAM & SALT\" in large black serif capitals with one thin gold line beneath it; \"Smoked Sea Salt Flakes\" in a smaller black italic serif; and along the bottom edge in small black sans-serif type \"Ingredients: sea salt, oak smoke. Batch 0471. Net wt 150 g\". Photographic, the label sharp and in focus, true-to-life colour.",
+      "image": "https://pbs.twimg.com/media/HYFGNTWbYAAtmi7.jpg?format=jpg&name=orig",
+      "images": [
+        "https://pbs.twimg.com/media/HYFGNTWbYAAtmi7.jpg?format=jpg&name=orig",
+        "https://pbs.twimg.com/media/HYFGNhEboAA9lT0.jpg?format=jpg&name=orig"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/media/HYFGNTWbYAAtmi7.jpg?format=jpg&name=orig",
+        "https://pbs.twimg.com/media/HYFGNhEboAA9lT0.jpg?format=jpg&name=orig"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "3:2",
+      "model": "Seedream 5.5 / Kling Image 4.0",
+      "mediaType": "image",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/HBCoop_/status/2126057699800695091",
+      "url": "https://x.com/HBCoop_/status/2126057699800695091",
+      "domain": "x.com",
+      "date": "2026-11-27",
+      "timestamp": 1795744796868,
+      "collectedAt": "2026-11-27T01:59:56.868Z",
+      "githubSyncedAt": "2026-11-27T01:59:56.868Z",
+      "domesticSyncedAt": null,
+      "useCase": "产品主图",
+      "creator": "HBCoop_",
+      "signals": [
+        "Prompt:"
+      ]
+    },
+    {
+      "id": "x_2126036799462248829",
+      "title": "圣诞热可可广告",
+      "category": "电商视觉",
+      "commerceType": "电商视频",
+      "tags": [
+        "电商视觉",
+        "电商视频",
+        "热可可",
+        "圣诞节",
+        "食品广告",
+        "微距",
+        "文生视频",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "20-second luxurious cinematic commercial for an unbranded Christmas hot chocolate served in a dark emerald ceramic mug with delicate golden edging. Dark chocolate, cinnamon sticks, oat milk, cocoa powder and fluffy plant-based marshmallows. Deep burgundy background, warm golden highlights and extreme macro photography.\n00:00–00:02: Extreme macro of a dark chocolate square breaking apart, sending tiny chocolate fragments toward the camera.\n00:02–00:04: Slow-motion shot of chocolate pieces falling into warm melted chocolate.\n00:04–00:06: Overhead shot of creamy oat milk swirling into the dark chocolate.\n00:06–00:08: Macro tracking shot following the thick liquid as it pours into the emerald mug.\n00:08–00:10: A cinnamon stick drops gently into the hot chocolate.\n00:10–00:12: Slow-motion shot of marshmallows landing on the surface and displacing tiny waves.\n00:12–00:14: Fine cocoa powder falls like brown snow across the marshmallows.\n00:14–00:16: Extreme macro of delicate steam rising between the marshmallows.\n00:16–00:18: Smooth cinematic orbit around the completed mug.\n00:18–00:20: Symmetrical hero shot surrounded by cinnamon, chocolate, evergreen sprigs and softly glowing Christmas lights.\nMaintain identical mug geometry and ingredients. Photorealistic viscosity, liquid displacement, steam, rich surface textures and precisely controlled studio lighting. Synchronized ASMR: chocolate snapping, liquid pouring, cinnamon dropping and powder sprinkling. No music. No text or branding.",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2126036771851108352/img/JNQfiXpQq2pcTfuZ.jpg",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2126036771851108352/img/JNQfiXpQq2pcTfuZ.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/amplify_video_thumb/2126036771851108352/img/JNQfiXpQq2pcTfuZ.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "16:9",
+      "model": "Higgsfield",
+      "mediaType": "video",
+      "videoPoster": "https://pbs.twimg.com/amplify_video_thumb/2126036771851108352/img/JNQfiXpQq2pcTfuZ.jpg",
+      "videoSourceUrl": "https://video.twimg.com/amplify_video/2126036771851108352/vid/avc1/1920x1080/ASpBLEufjhsHPb3P.mp4?tag=16",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/airina_xyz/status/2126036799462248829",
+      "url": "https://x.com/airina_xyz/status/2126036799462248829",
+      "domain": "x.com",
+      "date": "2026-11-27",
+      "timestamp": 1795744796868,
+      "collectedAt": "2026-11-27T01:59:56.868Z",
+      "githubSyncedAt": "2026-11-27T01:59:56.868Z",
+      "domesticSyncedAt": null,
+      "useCase": "电商视频",
+      "creator": "airina_xyz",
+      "signals": [
+        "Prompt:"
+      ],
+      "videoUrl": "https://video.twimg.com/amplify_video/2126036771851108352/vid/avc1/1920x1080/ASpBLEufjhsHPb3P.mp4?tag=16"
+    },
+    {
+      "id": "x_2126026230201991486",
+      "title": "玻璃彩饰工艺广告",
+      "category": "电商视觉",
+      "commerceType": "电商视频",
+      "tags": [
+        "电商视觉",
+        "电商视频",
+        "圣诞饰品",
+        "玻璃工艺",
+        "产品广告",
+        "微距",
+        "文生视频",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "20-second visually hypnotic cinematic commercial documenting the creation of a single handcrafted emerald-green glass Christmas ornament decorated with golden botanical patterns. Dark artisan workshop, elegant directional lighting, extreme macro photography, pristine composition and sophisticated match cuts.\n- 00:00–00:02: Extreme macro of a glowing orange glass sphere emerging from a furnace.\n- 00:02–00:04: Profile close-up of a craftsman rotating the molten glass on a metal blowpipe.\n- 00:04–00:06: Match cut to the cooled transparent sphere rotating against a black background.\n- 00:06–00:08: Macro shot of rich emerald-green pigment being applied to its surface.\n- 00:08–00:10: Extreme close-up of a fine brush painting delicate golden leaves.\n- 00:10–00:12: Tiny golden particles fall across the ornament in slow motion.\n- 00:12–00:14: Gloved hands carefully attach a brass hanging cap.\n- 00:14–00:16: Cinematic orbit around the completed ornament, displaying its intricate craftsmanship.\n- 00:16–00:20: The ornament is hung on an evergreen branch. Smooth camera pullback reveals the entire tree illuminated by warm golden lights.\nMaintain the ornament's spherical geometry and botanical design. Photorealistic glass, realistic reflections, shallow depth of field and exquisite tactile details. Precisely synchronized ASMR: furnace, brush strokes, metallic clicks, sprinkling particles and rustling branches. No music.",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2126026201605328896/img/FgE7gHlVOeoYNqsm.jpg",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2126026201605328896/img/FgE7gHlVOeoYNqsm.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/amplify_video_thumb/2126026201605328896/img/FgE7gHlVOeoYNqsm.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "16:9",
+      "model": "Higgsfield",
+      "mediaType": "video",
+      "videoPoster": "https://pbs.twimg.com/amplify_video_thumb/2126026201605328896/img/FgE7gHlVOeoYNqsm.jpg",
+      "videoSourceUrl": "https://video.twimg.com/amplify_video/2126026201605328896/vid/avc1/1920x1080/SjV_cPrNIFzq9P1T.mp4?tag=16",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/airina_xyz/status/2126026230201991486",
+      "url": "https://x.com/airina_xyz/status/2126026230201991486",
+      "domain": "x.com",
+      "date": "2026-11-27",
+      "timestamp": 1795744796868,
+      "collectedAt": "2026-11-27T01:59:56.868Z",
+      "githubSyncedAt": "2026-11-27T01:59:56.868Z",
+      "domesticSyncedAt": null,
+      "useCase": "电商视频",
+      "creator": "airina_xyz",
+      "signals": [
+        "Prompt:"
+      ],
+      "videoUrl": "https://video.twimg.com/amplify_video/2126026201605328896/vid/avc1/1920x1080/SjV_cPrNIFzq9P1T.mp4?tag=16"
+    },
+    {
+      "id": "x_2126099938383904872",
+      "title": "BMX分格视觉广告",
+      "category": "电商视觉",
+      "commerceType": "电商视频",
+      "tags": [
+        "电商视觉",
+        "电商视频",
+        "BMX",
+        "运动",
+        "实验广告",
+        "文生视频",
+        "Grok X 公开搜索"
+      ],
+      "prompt": "20-SECOND PREMIUM BMX VISUAL EXPERIMENTAL COMMERCIAL — FRAMEBREAK\nCreate a 20-second premium cinematic BMX freestyle commercial featuring a beautiful adult woman performing aggressive, high-level freestyle BMX tricks through an empty 1930s city at night. Combine ultra-realistic live-action, comic-book animation, handcrafted stop-motion, pencil sketch animation, multiple exposure, motion graphics and seamless visual transformations. Every style change is triggered by the rider's movements, tricks, rotations or impacts. The result feels like a premium experimental sports-fashion commercial: artistic, stylish, energetic, sophisticated and visually unforgettable. BMX action remains physically believable and clearly choreographed.\nFEMALE CHARACTER:\nA beautiful adult woman approximately 25 years old, athletic and lean with strong legs, toned arms and a professional BMX rider physique. Realistic facial features, expressive eyes, natural skin texture, dark hair loosely tied with strands moving naturally. She wears a fitted dark leather jacket, slightly worn dark shirt, high-waisted charcoal trousers, leather gloves and rugged vintage boots. Stylish 1930s-inspired street fashion, practical and naturally moving during stunts. Maintain identical face, hairstyle, body, outfit and proportions through every visual transformation. No logos or modern sportswear.\nBMX BIKE:\nAn original professional freestyle BMX with compact steel frame, matte-black finish, small wheels, thick tires, metal handlebars, reinforced pedals, visible chain, spokes and realistic mechanical details. Slightly worn metallic surfaces. Maintain the exact same bicycle design through live-action, comic, sketch and stop-motion styles. Realistic mechanics, balance, tire contact, rotation and landing physics.\nENVIRONMENT:\nAn empty 1930s city at midnight. Art Deco architecture, brick buildings, vintage storefronts, stone staircases, abandoned tram tracks, classic parked cars, vintage streetlights, wet cobblestones, warm amber reflections, light fog and drifting steam. Desaturated cold blue-gray night ambience contrasted with warm tungsten lighting. No pedestrians, modern vehicles, modern buildings or contemporary signage. Maintain consistent spatial layout through all transformations.\nVISUAL STYLE & TRANSFORMATIONS:\nLIVE-ACTION: Ultra-realistic cinematic photography, natural skin texture, authentic bicycle mechanics, wet streets, realistic fabric, cold blue-gray grading and warm vintage streetlights.\nCOMIC BOOK: High-contrast black ink outlines, ivory paper texture, halftone dots, limited dark-red accents, speed lines, dynamic comic panels, graphic impact frames and abstract kinetic shapes. No readable text.\nSTOP-MOTION: Handcrafted miniature 1930s city, tactile miniature buildings, textured brick, tiny streetlights, physical-looking materials, slightly imperfect frame-by-frame movement, mechanical animation and practical miniature lighting. Premium artistic stop-motion, not childish.\nPENCIL SKETCH: Graphite and charcoal drawing, textured paper, rough hand-drawn outlines, visible pencil strokes, motion studies, multiple action poses and anatomical movement sketches. Drawings progressively transform into realistic live-action.\nStyle changes must be motivated by physical movement, jumps, rotations, impacts or transitions. Use match cuts, freeze frames, frame-breaking effects, morphing environments and graphic explosions. Keep character, bicycle, anatomy, stunt trajectory and camera perspective consistent. Avoid random filters.\nCHOREOGRAPHY — EXACTLY 20 SECONDS:\n0:00–0:03 — THE DRAWING COMES ALIVE\nBegin with a monochrome pencil sketch of an empty 1930s street on textured paper. The woman and BMX are hand-drawn graphite outlines. Camera slowly moves across the drawing as pencil strokes animate, revealing rider, bicycle, buildings and streetlights. She begins pedaling. Rotating wheels trigger a transformation: graphite lines become realistic metal, leather, hair, wet cobblestones and illuminated streetlights. The sketch seamlessly transforms into photorealistic live-action. She accelerates toward the camera.\n0:03–0:06 — REALITY INTO COMIC\nLow-angle tracking shot of BMX wheels racing over wet cobblestones. She performs a powerful manual, lifting the front wheel, then launches into a bunny hop over the hood of a vintage automobile. At the jump apex, freeze-frame. The image transforms into a sophisticated comic-book panel with black ink, halftone, ivory paper, dark-red accents and speed lines. Multiple panels briefly show phases of the jump. She breaks through the comic panel border. Panels shatter into ink fragments and transform back into live-action as she lands aggressively on both wheels. Realistic tire compression, bike vibration and water splash.\n0:06–0:09 — STOP-MOTION CITY\nShe accelerates and rides up a low stone wall into a powerful wall ride. The environment transforms into a handcrafted miniature 1930s city with tactile miniature brick buildings, tiny streetlights, cobblestones and vintage cars. Rider and BMX perform frame-by-frame stop-motion movement while maintaining realistic stunt mechanics. She executes a controlled bar spin, catches the handlebars and lands. Miniature dust, paper leaves and tiny debris burst outward. As the wheels roll forward, the miniature city expands and seamlessly transforms into the real environment. She continues riding without stopping.\n0:09–0:12 — PENCIL MOTION STUDY\nSide-tracking camera follows her at speed. She performs a high 360-degree spin jump. The image transforms into graphite pencil animation. Several hand-drawn poses of rider and BMX appear simultaneously, creating an artistic motion-study effect. Pencil trajectory lines, wheel rotation circles, charcoal strokes and anatomical movement sketches surround her. The city becomes a hand-drawn architectural sketch. She completes the rotation, catches the handlebars and lands. Pencil strokes progressively gain realistic texture, color, lighting and motion, returning to photorealistic live-action. Realistic tire compression and water splash.\n0:12–0:15 — MULTIPLE EXPOSURE CHAOS\nShe charges down a narrow street and performs an aggressive sideways drift across tram tracks. Rear tire slides naturally on wet cobblestones. Multiple exposure silhouettes appear behind her, showing different positions of the rider and BMX simultaneously. Silhouettes alternate between realistic photography, black-and-white ink outlines and dark-red graphic shapes. Motion trails follow the bicycle and wheels. Controlled lateral tracking camera. She counter-steers, regains traction and immediately launches into another jump. All graphic layers collapse into a single realistic rider during landing.\n0:15–0:18 — FRAMEBREAK FINAL STUNT\nWide shot reveals a large stone staircase leading into an empty street. She races toward it, lifts the front wheel and launches into an enormous aerial double-rotation trick. During the rotations, the world changes in synchronized segments between photorealistic live-action, comic panels, pencil sketch and miniature stop-motion. Each style change maintains identical rider and bicycle anatomy, proportions, trajectory and position. Graphic panels, pencil strokes, red ink splashes, halftone dots and geometric shapes surround the stunt. She completes the rotations, aligns the BMX and lands violently but successfully at the bottom. Tires compress, her body absorbs the impact and she rides out cleanly. At impact, all styles explode into paper fragments, ink, pencil strokes and abstract graphics, then disappear, leaving a realistic landing.\n0:18–0:20 — ICONIC HERO ENDING\nEverything returns to pure photorealistic live-action. Low-angle tracking shot follows her beneath vintage streetlights through fog. She slows, performs a controlled final skid and stops with the BMX beside her. She looks directly at camera with a confident, rebellious expression. Rider, bicycle and wet street reflections form a premium campaign hero composition. Slow camera push-in, subtle steam behind her, cinematic negative space for optional title placement. Hold briefly, cut to black.\nCAMERA & CINEMATOGRAPHY:\nUse only 3–4 purposeful camera setups throughout. Prioritize low-angle tracking, lateral tracking, front three-quarter tracking and wide shots showing the full rider and BMX during major stunts. Maintain spatial continuity and consistent perspective through style transformations. Camera follows action naturally. Avoid excessive cuts, constant orbiting, random whip pans, unnecessary crash zooms and chaotic handheld movement. Never obscure important tricks. Clearly show takeoff, rotation and landing.\nSlow motion only for selected bunny-hop apex, 360 rotation and final landing. Brief speed ramps emphasize acceleration and impact. Most action remains at natural fast cinematic speed.\nVISUAL QUALITY:\nPremium commercial cinematography, ultra-realistic live-action, realistic anatomy and athletic movement, detailed skin pores, natural hair movement, leather and fabric textures, authentic bicycle mechanics, wet cobblestone reflections, accurate tire contact, gravity and momentum. ARRI Alexa 35 look, 35mm lens, realistic motion blur, cold blue-gray night grading, warm tungsten streetlights, deep but detailed shadows, subtle film grain and luxury sports-fashion advertising aesthetic.\nComic style uses sophisticated editorial graphics, clean ink outlines, halftone and limited colors. Pencil style uses authentic graphite and charcoal with visible strokes and paper grain. Stop-motion uses tactile handcrafted miniature environments and intentional frame-by-frame movement. No cheap filters, childish animation or generic CGI.\nSOUND DESIGN:\nNO BACKGROUND MUSIC. NO BGM.\nOnly synchronized environmental audio and cinematic Foley:\n0:00–0:03: Pencil scratching, paper movement, graphite strokes, bicycle chain, pedal movement, transition into tire rolling and nighttime ambience.\n0:03–0:06: Chain, freewheel clicks, wet tire rumble, jump whoosh, comic transition impact, paper snapping, ink splatter and powerful landing.\n0:06–0:09: Wall-ride friction, miniature mechanical ticks during stop-motion, bicycle movement, frame-by-frame Foley, miniature debris, landing impact and return to realistic bicycle sounds.\n0:09–0:12: Wind rush during spin, layered bicycle movement, pencil scratching, graphite strokes, paper texture sounds, realistic landing and water splash.\n0:12–0:15: Wet tire skid, chain vibration, layered whooshes, graphic transition sounds, acceleration.\n0:15–0:18: Powerful aerial wind rush, paper fragments, ink splashes, pencil strokes, graphic impact, strongest low-frequency landing impact, frame vibration and tire compression.\n0:18–0:20: Bicycle slowing, freewheel clicks, tire skid, leather movement, nighttime ambience, distant wind, steam and final mechanical sound before black.\nEvery sound precisely synchronizes with visible action and style transitions. No music, soundtrack or dialogue.\nSTRICT RULES:\nMaintain identical rider, face, hairstyle, outfit, anatomy and BMX throughout. Every stunt must be physically connected, mechanically believable and readable. Show takeoff, rotation and landing. Correct hand and foot contact with bicycle. No floating, impossible physics, teleportation, random position changes, morphing anatomy, duplicated limbs or changing bicycle design.\nStyle transitions must be triggered by rider actions, jumps, rotations or impacts. No random style changes. Maintain camera perspective, stunt trajectory and environmental continuity. All styles preserve character and bicycle identity. Graphic effects must never obscure important stunts. No chaotic camera movement, modern objects, pedestrians, logos or generated readable text. No childish animation, cheap filters, cartoon, anime or video-game CGI appearance. No background music.\nThe final result must feel like a premium experimental sports-fashion commercial: breathtaking BMX freestyle, sophisticated visual storytelling, seamless reality-to-art transformations, stunning frame-breaking effects, elegant graphic design, energetic but controlled action, premium cinematography and an unforgettable final hero shot.",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2126043335299379200/img/oQMKym9sk4GlWVjK.jpg",
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2126043335299379200/img/oQMKym9sk4GlWVjK.jpg"
+      ],
+      "rawImages": [
+        "https://pbs.twimg.com/amplify_video_thumb/2126043335299379200/img/oQMKym9sk4GlWVjK.jpg"
+      ],
+      "referenceImages": [],
+      "aspectRatio": "16:9",
+      "model": "Higgsfield",
+      "mediaType": "video",
+      "videoPoster": "https://pbs.twimg.com/amplify_video_thumb/2126043335299379200/img/oQMKym9sk4GlWVjK.jpg",
+      "videoSourceUrl": "https://video.twimg.com/amplify_video/2126043335299379200/vid/avc1/1920x1080/w3j6wIZq3c0GjEdS.mp4",
+      "source": "Grok X 公开搜索",
+      "sourceUrl": "https://x.com/prjcthrzn_/status/2126099938383904872",
+      "url": "https://x.com/prjcthrzn_/status/2126099938383904872",
+      "domain": "x.com",
+      "date": "2026-11-27",
+      "timestamp": 1795744796868,
+      "collectedAt": "2026-11-27T01:59:56.868Z",
+      "githubSyncedAt": "2026-11-27T01:59:56.868Z",
+      "domesticSyncedAt": null,
+      "useCase": "电商视频",
+      "creator": "prjcthrzn_",
+      "signals": [
+        "Prompt:"
+      ],
+      "videoUrl": "https://video.twimg.com/amplify_video/2126043335299379200/vid/avc1/1920x1080/w3j6wIZq3c0GjEdS.mp4"
+    },
     {
       "id": "x_2122379105413013674",
       "title": "第二世界摄影海报",
